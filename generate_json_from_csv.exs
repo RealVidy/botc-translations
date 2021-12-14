@@ -1,7 +1,11 @@
 require Logger
 
-# Download the csv from https://docs.google.com/spreadsheets/d/1ksIW9R3xkP-RHT4iGDAsKom8LVlPiXIphvDedApumT0/edit#gid=645798193
+# This script will generate JSON files for clocktower.online and Nara from the google sheet we use for translations:
+# Download the csv from https://docs.google.com/spreadsheets/d/183HMp4ZgslxA4NtFVTXhY3xAbg7FIXZdmVnh9-4A_14/edit#gid=1546765235
 # In "JSON Generator <LOCALE>" tab
+
+# Usage: mix run generate_json_from_csv.exs assets/csv/<LOCALE>.csv
+
 defmodule GenerateJsonFromCsv do
   # Main function
   def process_csv(csv_path) do
@@ -17,7 +21,7 @@ defmodule GenerateJsonFromCsv do
 
     # Load roles from clocktower.online's roles.json file (https://github.com/bra1n/townsquare/blob/develop/src/roles.json). We use this to automatically add data like night order and teams to the translations. "co" stands for clocktower.online.
     co_roles =
-      "assets/roles.json"
+      "assets/json/en.json"
       |> File.read!()
       |> Jason.decode!()
       |> Enum.reduce(%{}, fn co_role, acc -> Map.put(acc, co_role["id"], co_role) end)
