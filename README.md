@@ -28,7 +28,7 @@ The result will be at `assets/generated_json/roles_<LOCALE>.json`
 
 Try it out with the french file: 
 ```bash
-mix run generate_json_from_csv.exs assets/csv/fr.csv
+mix run generate_json_from_csv.exs assets/csv/fr_fr.csv
 ```
 
 ### From JSON to CSV
