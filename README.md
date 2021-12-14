@@ -2,6 +2,8 @@
 
 This repo contains scripts to generate JSON files for use on [clocktower.online](https://clocktower.online/) or [Nara](https://nara.fly.dev/). We do it from csv files containing translations of roles' abilities, night reminders and reminder tokens.
 
+You can find already generated JSON files in [assets/generated_json](assets/generated_json).
+
 The language we use is Elixir (see how to [install](https://elixir-lang.org/install.html#macos) it).
 
 ## Google Sheet / CSV
