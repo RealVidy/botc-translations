@@ -2,7 +2,7 @@ require Logger
 
 # This script will generate JSON files for clocktower.online and Nara from the google sheet we use for translations:
 # Download the csv from https://docs.google.com/spreadsheets/d/183HMp4ZgslxA4NtFVTXhY3xAbg7FIXZdmVnh9-4A_14/edit#gid=1546765235
-# In "JSON Generator <LOCALE>" tab
+# In "<LOCALE>" tab
 
 # Usage: mix run generate_json_from_csv.exs assets/csv/<LOCALE>.csv
 

@@ -1,6 +1,6 @@
 require Logger
 
-# This file was used to generate the "JSON Generator EN" tab template for https://docs.google.com/spreadsheets/d/183HMp4ZgslxA4NtFVTXhY3xAbg7FIXZdmVnh9-4A_14/edit#gid=1546765235
+# This file was used to generate the "EN" tab template for https://docs.google.com/spreadsheets/d/183HMp4ZgslxA4NtFVTXhY3xAbg7FIXZdmVnh9-4A_14/edit#gid=1546765235
 
 defmodule GenerateCsvFromJson do
   def process_json(json_path) do
