@@ -10,7 +10,7 @@ The language we use is Elixir (see how to [install](https://elixir-lang.org/inst
 
 We use a google sheet to edit, discuss, and maintain translations of the game, mainly for digital use on [clocktower.online](https://clocktower.online/) or [Nara](https://nara.fly.dev/). This format should also be usable to generate translations for the physical copy of the game one day.
 
-Here, we are most interested in tabs like [JSON Generator EN](https://docs.google.com/spreadsheets/d/1ksIW9R3xkP-RHT4iGDAsKom8LVlPiXIphvDedApumT0/edit#gid=1293348289) and their corresponding tab in other languages. We download them in CSV format for use in our JSON generating script.
+Here, we are most interested in tabs like [JSON Generator EN](https://docs.google.com/spreadsheets/d/183HMp4ZgslxA4NtFVTXhY3xAbg7FIXZdmVnh9-4A_14/edit#gid=923580658) and their corresponding tab in other languages. We download them in CSV format for use in our JSON generating script.
 
 ![](assets/images/download_tab_csv.png)
 
@@ -39,6 +39,6 @@ We will work on helping you generate ready-made scripts soon (see [Contributions
 
 ## Contributions
 
-The best way to help is to add your language to the google sheet (by duplicating [JSON Generator EN](https://docs.google.com/spreadsheets/d/1ksIW9R3xkP-RHT4iGDAsKom8LVlPiXIphvDedApumT0/edit#gid=1293348289)) and then pinging [RealVidy#2485](https://discordapp.com/users/668940363196792849) on Discord.
+The best way to help is to add your language to the google sheet (by duplicating [JSON Generator EN](https://docs.google.com/spreadsheets/d/183HMp4ZgslxA4NtFVTXhY3xAbg7FIXZdmVnh9-4A_14/edit#gid=923580658)) and then pinging [RealVidy#2485](https://discordapp.com/users/668940363196792849) on Discord.
 
 If you want to help with development, we need a way to generate custom scripts with the translations (which is actually easily done, ask [RealVidy#2485](https://discordapp.com/users/668940363196792849) on Discord!)
