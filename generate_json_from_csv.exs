@@ -61,6 +61,7 @@ defmodule GenerateJsonFromCsv do
         merged_role =
           case parsed_roles_from_csv[co_role_id] do
             nil ->
+              Logger.warn("role_id not found in your csv #{inspect(co_role_id, pretty: true)}\n")
               co_role
 
             parsed_role ->
