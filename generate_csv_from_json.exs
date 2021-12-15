@@ -22,7 +22,7 @@ defmodule GenerateCsvFromJson do
 
     rows =
       Enum.map(Constants.get_ordered_role_ids(), fn role_id ->
-        co_role = co_roles[role_id]
+        co_role = co_roles[role_id] || %{"id" => role_id}
 
         Enum.reduce(reversed_headers, [], fn header, acc ->
           [col_to_csv(header, co_role[header]) | acc]
