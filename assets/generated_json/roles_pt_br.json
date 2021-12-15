@@ -416,23 +416,6 @@
     "team": "traveler"
   },
   {
-    "ability": "You start knowing a secret word. The 1st good player to say this word becomes evil that night.",
-    "edition": "",
-    "firstNight": 27,
-    "firstNightReminder": "Show the Mephit their secret word.",
-    "id": "pt_br_mephit",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mephit.png?raw=true",
-    "name": "Mephit",
-    "otherNight": 19,
-    "otherNightReminder": "Wake the 1st good player that said the Mephit's secret word and show them the 'You are' card and the thumbs down evil signal.",
-    "reminders": [
-      "No ability",
-      "Turns evil"
-    ],
-    "setup": false,
-    "team": "minion"
-  },
-  {
     "ability": "A cada noite*, escolha 2 jogadores: eles morrem. Um jogador morto escolhido na noite anterior pode ser regurgitado.",
     "edition": "bmr",
     "firstNight": 0,

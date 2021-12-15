@@ -77,7 +77,6 @@ defmodule Constants do
     "mathematician",
     "matron",
     "mayor",
-    "mephit",
     "mezepheles",
     "minstrel",
     "monk",
