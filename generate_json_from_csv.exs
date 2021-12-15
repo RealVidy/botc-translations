@@ -19,33 +19,56 @@ defmodule GenerateJsonFromCsv do
       |> File.stream!()
       |> CSV.decode!(headers: true, strip_fields: true)
 
+    parsed_roles_from_csv =
+      Enum.reduce(
+        roles_from_csv,
+        %{},
+        fn row, acc ->
+          # Convert a csv row to a role map with the same format as the clocktower.online ones.
+          parsed_csv_co_role = from_csv_row_to_co_role(row)
+          role_id = parsed_csv_co_role["id"]
+          parsed_csv_co_role = Map.put(parsed_csv_co_role, "id", "#{locale}_#{role_id}")
+
+          parsed_csv_co_role =
+            Map.put(
+              parsed_csv_co_role,
+              "image",
+              "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/#{role_id}.png?raw=true"
+            )
+
+          # Prune all empty fields.
+          pruned_csv_co_role =
+            Enum.reject(parsed_csv_co_role, fn {_key, value} ->
+              value == nil or value == "" or value == []
+            end)
+            |> Enum.into(%{})
+
+          Map.put(acc, role_id, pruned_csv_co_role)
+        end
+      )
+
     # Load roles from clocktower.online's roles.json file (https://github.com/bra1n/townsquare/blob/develop/src/roles.json). We use this to automatically add data like night order and teams to the translations. "co" stands for clocktower.online.
     co_roles =
       "assets/json/en.json"
       |> File.read!()
       |> Jason.decode!()
-      |> Enum.reduce(%{}, fn co_role, acc -> Map.put(acc, co_role["id"], co_role) end)
+      |> Enum.reduce(%{}, fn co_role, acc ->
+        Map.put(acc, co_role["id"], co_role)
+      end)
 
     merged_with_all_co_roles =
-      Enum.reduce(
-        roles_from_csv,
-        [],
-        fn row, acc ->
-          parsed_co_role = from_csv_row_to_co_role(row)
-          role_id = parsed_co_role["id"]
-          co_role = co_roles[role_id]
-          parsed_co_role = Map.put(parsed_co_role, "id", "#{locale}_#{role_id}")
+      Enum.reduce(co_roles, [], fn {co_role_id, co_role}, acc ->
+        merged_role =
+          case parsed_roles_from_csv[co_role_id] do
+            nil ->
+              co_role
 
-          parsed_co_role =
-            Map.put(
-              parsed_co_role,
-              "image",
-              "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/#{role_id}.png?raw=true"
-            )
+            parsed_role ->
+              Map.merge(co_role, parsed_role)
+          end
 
-          [Map.merge(co_role, parsed_co_role) | acc]
-        end
-      )
+        [merged_role | acc]
+      end)
 
     result_json = Jason.encode!(merged_with_all_co_roles)
 
