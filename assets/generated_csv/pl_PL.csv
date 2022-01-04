@@ -1,0 +1,263 @@
+id,name,ability,firstNightReminder,otherNightReminder,remindersGlobal,reminders
+acrobat,Acrobat,"Each night*, if either good living neighbour is drunk or poisoned, you die.",,"If a good living neighbour is drunk or poisoned, the Acrobat player dies.",,Dead
+alchemist,Alchemist,You have a not-in-play Minion ability.,Show the Alchemist a not-in-play Minion token,,Is the Alchemist,
+alhadikhia,Al-Hadikhia,"Each night*, choose 3 players (all players learn who): each silently chooses to live or die, but if all live, all die.",,"The Al-Hadikhia chooses 3 players. Announce the first player, wake them to nod yes to live or shake head no to die, kill or resurrect accordingly, then put to sleep and announce the next player. If all 3 are alive after this, all 3 die.",,"1,2,3,Chose death,Chose life"
+amnesiac,Amnesiac,"You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are.",Decide the Amnesiac's entire ability. If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.,If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.,,?
+apprentice,Apprentice,"On your 1st night, you gain a Townsfolk ability (if good), or a Minion ability (if evil).","Show the Apprentice the 'You are' card, then a Townsfolk or Minion token. In the Grimoire, replace the Apprentice token with that character token, and put the Apprentice's 'Is the Apprentice' reminder by that character token.",,,Is the Apprentice
+artist,Artist,"Once per game, during the day, privately ask the Storyteller any yes/no question.",,,,No ability
+assassin,Skrytobojca,"Raz w trakcie gry, w nocy*, wybierz gracza. ginie on, 
+
+nawet jesli z jakiegokolwiek powodu nie powinien.",,"If the Assassin has not yet used their ability: The Assassin either shows the 'no' head signal, 
+
+or points to a player. That player dies.",,"Dead,No ability"
+atheist,Atheist,"The Storyteller can break the game rules & if executed, good wins, even if you are dead [No evil characters]",,,,
+balloonist,Balloonist,"Each night, you learn 1 player of each character type, until there are no more types to learn. [+1 Outsider]",Choose a character type. Point to a player whose character is of that type. Place the Balloonist's Seen reminder next to that character.,"Choose a character type that does not yet have a Seen reminder next to a character of that type. Point to a player whose character is of that type, if there are any. Place the Balloonist's Seen reminder next to that character.",,"Seen Townsfolk,Seen Outsider,Seen Minion,Seen Demon,Seen Traveller"
+barber,Barber,"If you died today or tonight, the Demon may choose 2 players (not another Demon) to swap characters.",,"If the Barber died today: Wake the Demon. Show the 'This character selected you' card, then Barber token. The Demon either shows a 'no' head signal, or points to 2 players. If they chose players: Swap the character tokens. Wake each player. Show 'You are', then their new character token.",,Haircuts tonight
+barista,Barista,"Each night, until dusk, 1) a player becomes sober, healthy and gets true info, or 2) their ability works twice. They learn which.","Choose a player, wake them and tell them which Barista power is affecting them. Treat them accordingly (sober/healthy/true info or activate their ability twice).","Choose a player, wake them and tell them which Barista power is affecting them. Treat them accordingly (sober/healthy/true info or activate their ability twice).",,"Sober & Healthy,Ability twice"
+baron,Baron (PL),W grze jest dwoch dodatkowych outsiderow. [+2 outsiderow],,,,
+beggar,Beggar,"You must use a vote token to vote. Dead players may choose to give you theirs. If so, you learn their alignment.",,,,
+bishop,Bishop,Only the Storyteller can nominate. At least 1 opposite player must be nominated each day.,,,,"Nominate good,Nominate evil"
+bonecollector,Bone Collector,"Once per game, at night, choose a dead player: they regain their ability until dusk.",,"The Bone Collector either shakes their head no or points at any dead player. If they pointed at any dead player, put the Bone Collector's 'Has Ability' reminder by the chosen player's character token. (They may need to be woken tonight to use it.)",,"No ability,Has ability"
+boomdandy,Boomdandy,"If you are executed, all but 3 players die. 1 minute later, the player with the most players pointing at them dies.",,,,
+bountyhunter,Bounty Hunter,"You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]",Point to 1 evil player. Wake the townsfolk who is evil and show them the 'You are' card and the thumbs down evil sign.,"If the known evil player has died, point to another evil player. ",,Known
+bureaucrat,Bureaucrat,"Each night, choose a player (not yourself): their vote counts as 3 votes tomorrow.",The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.,The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.,,3 votes
+butcher,Butcher,"Each day, after the 1st execution, you may nominate again.",,,,
+butler,Lokaj,"Kazdej nocy wybierz gracza (nie siebie). Jutro mozesz glosowac tylko, jesli ten gracz zaglosuje.",The Butler points to a player. Mark that player as 'MASTER'.,The Butler points to a player. Mark that player as 'MASTER'.,,Master
+cannibal,Cannibal,"You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.",,,,"Poisoned,Died today"
+cerenovus,Cerenovus,"Each night, choose a player & a good character: they are “mad” they are this character tomorrow, or might be executed.","The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.","The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",,Mad
+chambermaid,Pokojowka,"Kazdej nocy wybierz dwoch zywych graczy (nie siebie). 
+
+Dowiadujesz sie, ilu z nich obudzilo sie 
+
+ze wzgledu na swoja zdolnosc.","The Chambermaid points to two players. Show the number signal (0, 1, 2, …) 
+
+for how many of those players wake tonight for their ability.","The Chambermaid points to two players. Show the number signal (0, 1, 2, …) 
+
+for how many of those players wake tonight for their ability.",,
+chef,Kucharz,"Na poczatku gry dowiadujesz sie, ile par zlych graczy siedzi obok siebie.","Show the finger signal (0, 1, 2, …) for the number of pairs of neighbouring evil players.",,,
+choirboy,Choirboy,"If the Demon kills the King, you learn which player is the Demon. [+ the King]",,"If the King was killed by the Demon, wake the Choirboy and point to the Demon player.",,
+clockmaker,Clockmaker,You start knowing how many steps from the Demon to its nearest Minion.,"Show the hand signal for the number (1, 2, 3, etc.) of places from Demon to closest Minion.",,,
+courtier,Dworzanin,"Raz w trakcie gry, noca, wybierz postac. 
+
+Jest ona pijana przez 3 noce i 3 dni.","The Courtier either shows a 'no' head signal, or points to a character on the sheet. 
+
+If the Courtier used their ability: If that character is in play, that player is drunk.","Reduce the remaining number of days the marked player is poisoned. If the Courtier has not yet 
+
+used their ability: The Courtier either shows a 'no' head signal, or points to a character on the sheet. 
+
+If the Courtier used their ability: If that character is in play, that player is drunk.",,"Drunk 1,Drunk 2,Drunk 3,No ability"
+cultleader,Cult Leader,"Each night, you become the alignment of an alive neighbour. If all good players choose to join your cult, your team wins.","If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.","If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",,
+damsel,Damsel,"All Minions know you are in play. If a Minion publicly guesses you (once), your team loses.","Wake all the Minions, show them the 'This character selected you' card and the Damsel token.","If selected by the Huntsman, wake the Damsel, show 'You are' card and a not-in-play Townsfolk token.",,Guess used
+deviant,Deviant,"If you were funny today, you cannot die by exile.",,,,
+devilsadvocate,Adwokat diabla,"Kazdej nocy wybierz zywego gracza 
+
+(innego niz poprzedniej nocy). 
+
+Jesli jutro zostanie stracony, nie umrze.",The Devil’s Advocate points to a living player. That player survives execution tomorrow.,"The Devil’s Advocate points to a living player, different from the previous night. 
+
+That player survives execution tomorrow.",,Survives execution
+dreamer,Dreamer,"Each night, choose a player (not yourself or Travellers): you learn 1 good and 1 evil character, 1 of which is correct.",The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.,The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.,,
+drunk,Pijak,"Nie wiesz, ze jestes Pijakiem. Myslisz, ze jestes mieszczaninem, ale Twoja umiejetnosc nie dziala prawidlowo.",,,Drunk,
+empath,Empata,"Kazdej nocy dowiadujesz sie, ilu z Twoich zyjacych sasiadow jest zlych.","Show the finger signal (0, 1, 2) for the number of alive evil neighbours of the Empath.","Show the finger signal (0, 1, 2) for the number of alive evil neighbours of the Empath.",,
+engineer,Engineer,"Once per game, at night, choose which Minions or which Demon is in play.","The Engineer shows a 'no' head signal, or points to a Demon or points to the relevant number of Minions. If the Engineer chose characters, replace the Demon or Minions with the choices, then wake the relevant players and show them the You are card and the relevant character tokens.","The Engineer shows a 'no' head signal, or points to a Demon or points to the relevant number of Minions. If the Engineer chose characters, replace the Demon or Minions with the choices, then wake the relevant players and show them the 'You are' card and the relevant character tokens.",,No ability
+eviltwin,Evil Twin,"You & an opposing player know each other. If the good player is executed, evil wins. Good can't win if you both live.",Wake the Evil Twin and their twin. Confirm that they have acknowledged each other. Point to the Evil Twin. Show their Evil Twin token to the twin player. Point to the twin. Show their character token to the Evil Twin player.,,,Twin
+exorcist,Egzorcysta,"Kazdej nocy* wybierz gracza (innego, 
+
+niz poprzedniej nocy). Wybrany Demon dowiaduje sie, 
+
+kim jestes, po czym nie budzi sie tej nocy.",,"The Exorcist points to a player, different from the previous night. If that player is the Demon: 
+
+Wake the Demon. Show the Exorcist token. Point to the Exorcist. The Demon does not act tonight.",,Chosen
+fanggu,Fang Gu,"Each night*, choose a player: they die. The 1st Outsider this kills becomes an evil Fang Gu & you die instead. [+1 Outsider]",,"The Fang Gu points to a player. That player dies. Or, if that player was an Outsider and there are no other Fang Gu in play: The Fang Gu dies instead of the chosen player. The chosen player is now an evil Fang Gu. Wake the new Fang Gu. Show the 'You are' card, then the Fang Gu token. Show the 'You are' card, then the thumb-down 'evil' hand sign.",,"Dead,Once"
+farmer,Farmer,"If you die at night, an alive good player becomes a Farmer.",,"If a Farmer died tonight, choose another good player and make them the Farmer. Wake this player, show them the 'You are' card and the Farmer character token.",,
+fearmonger,Fearmonger,"Each night, choose a player. If you nominate & execute them, their team loses. All players know if you choose a new player.",The Fearmonger points to a player. Place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.,"The Fearmonger points to a player. If different from the previous night, place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",,Fear
+fisherman,Fisherman,"Once per game, during the day, visit the Storyteller for some advice to help you win.",,,,No ability
+flowergirl,Flowergirl,"Each night*, you learn if a Demon voted today.",,"Nod 'yes' or shake head 'no' for whether the Demon voted today. Place the 'Demon not voted' marker (remove 'Demon voted', if any).",,"Demon voted,Demon not voted"
+fool,Blazen,"Za pierwszym razem kiedy mialbys umrzec, przezywasz.",,,,No ability
+fortuneteller,Wrozka,"Kazdej nocy wybierasz 2 graczy - dowiadujesz sie, czy ktorys z nich jest Demonem. Jeden z dobrych graczy pokazuje Ci sie jako zly.","The Fortune Teller points to two players. Give the head signal (nod yes, shake no) 
+
+for whether one of those players is the Demon.","The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') 
+
+for whether one of those players is the Demon.",,Red herring
+gambler,Hazardzista,"Kazdej nocy* wybierz gracza i zgadnij, ktora jest postacia. 
+
+Jesli sie pomylisz, umrzesz.",,"The Gambler points to a player, and a character on their sheet. 
+
+If incorrect, the Gambler dies.",,Dead
+gangster,Gangster,"Once per day, you may choose to kill an alive neighbour, if your other alive neighbour agrees.",,,,
+general,General,"Each night, you learn which alignment the Storyteller believes is winning: good, evil, or neither.","Show the General thumbs up for good winning, thumbs down for evil winning or thumb to the side for neither.","Show the General thumbs up for good winning, thumbs down for evil winning or thumb to the side for neither.",,
+goblin,Goblin,"If you publicly claim to be the Goblin when nominated & are executed that day, your team wins.",,,,Claimed
+godfather,Ojciec chrzestny,"Na poczatku gry dowiadujesz sie, ktorzy Outsiderzy 
+
+sa w grze. Jesli jeden z nich dzis umarl, 
+
+wybierz noca gracza, ktory zginie. [-1 lub +1 Outsider]",Show each of the Outsider tokens in play.,If an Outsider died today: The Godfather points to a player. That player dies.,,"Dead,Died today"
+golem,Golem,"You may only nominate once per game. When you do, if the nominee is not the Demon, they die.",,,,Can not nominate
+goon,Zbir,"Kazdej nocy pierwszy gracz, 
+
+ktory wskaze Cie za pomoca swojej zdolnosci jest pijany 
+
+do zmierzchu. Przechodzisz na jego strone.","If a player used their character ability to choose the Goon: The ability does not work. Place the Drunk token on that player. The Goon becomes that player’s alignment. Show 'You are' card. Show thumbs-up good, thumbs-down 'evil' for the Goon’s current alignment.","If a player used their character ability to choose the Goon: The Goon becomes that player’s alignment. Show the 'You are' card. Show the hand signal (thumbs-up 'good', thumbs-down 'evil') for the Goon’s current alignment.",,Drunk
+gossip,Plotkara,"Kazdego dnia mozesz wyglosic publiczne oswiadczenie. 
+
+Jesli bylo prawdziwe, jeden z graczy umrze noca.",,"If the Gossip’s public statement was true: 
+
+Choose a player, that player dies.",,Dead
+grandmother,Babcia,"Zaczynasz gre, znajac tozsamosc i postac 
+
+jednego dobrego gracza. Jesli Demon go zabije, 
+
+umierasz wraz z nim.",Show the marked character token. Point to the marked player.,If the Grandmother’s grandchild was killed by the Demon tonight: The Grandmother dies.,,Grandchild
+gunslinger,Gunslinger,"Each day, after the 1st vote has been tallied, you may choose a player that voted: they die.",,,,
+harlot,Harlot,"Each night*, choose a living player: if they agree, you learn their character, but you both might die.",,"The Harlot points at any player. Then, put the Harlot to sleep. Wake the chosen player, show them the 'This character selected you' token, then the Harlot token. That player either nods their head yes or shakes their head no. If they nodded their head yes, wake the Harlot and show them the chosen player's character token. Then, you may decide that both players die.",,Dead
+heretic,Heretic,"Whoever wins, loses & whoever loses, wins, even if you are dead.",,,,
+huntsman,Huntsman,"Once per game, at night, choose a living player: the Damsel, if chosen, becomes a not-in-play Townsfolk. [+the Damsel]","The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.","The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",,No ability
+imp,Chochlik,"Kazdej nocy wybierz gracza, ktory umiera. Jesli zabijesz w ten sposob siebie, slugus zostaje demonem.",,"The Imp points to a player. That player dies. If the Imp chose themselves: 
+
+Replace the character of 1 alive minion with a spare Imp token. 
+
+Show the 'YOU ARE' card, then the Imp token.",,Dead
+innkeeper,Karczmarz,"Kazdej nocy* wybierz 2 graczy: zaden z nich nie moze 
+
+umrzec tej nocy, ale jeden z nich 
+
+bedzie pijany do kolejnego zmierzchu",,"The previously protected and drunk players lose those tokens. 
+
+The Innkeeper points to two players. Those players are protected. One is drunk.",,"Drunk,Protected"
+investigator,Sledczy,"Na poczatku gry dowiadujesz sie, ze jeden z dwoch graczy jest konkretnym slugusem.","Show the character token of a Minion in play. 
+
+Point to two players, one of which is that character.",,,"Minion,Wrong"
+judge,Judge,"Once per game, if another player nominated, you may choose to force the current execution to pass or fail.",,,,No ability
+juggler,Juggler,"On your 1st day, publicly guess up to 5 players' characters. That night, you learn how many you got correct.",,"If today was the Juggler’s first day: Show the hand signal for the number (0, 1, 2, etc.) of 'Correct' markers. Remove markers.",,Correct
+king,King,"Each night, if the dead outnumber the living, you learn 1 alive character. The Demon knows who you are.","Wake the Demon, show them the 'This character selected you' card, show the King token and point to the King player.","If there are more dead than living, show the King a character token of a living player.",,
+klutz,Klutz,"When you learn that you died, publicly choose 1 alive player: if they are evil, your team loses.",,,,
+legion,Legion,"Each night*, a player might die. Executions fail if only evil voted. You register as a Minion too. [Most players are Legion]",,"Choose a player, that player dies.",,"Dead,About to die"
+leviathan,Leviathan,"If more than 1 good player is executed, you win. All players know you are in play. After day 5, evil wins.",Place the Leviathan 'Day 1' marker. Announce 'The Leviathan is in play; this is Day 1.',Change the Leviathan Day reminder for the next day.,,"Day 1,Day 2,Day 3,Day 4,Day 5,Good player executed"
+librarian,Bibliotekarz,"Na poczatku gry dowiadujesz sie, ze jeden z dwoch graczy jest konkretnym outsiderem (lub ze jest ich 0 w grze).","Show the character token of an Outsider in play. 
+
+Point to two players, one of which is that character.",,,"Outsider,Wrong"
+lilmonsta,Lil' Monsta,"Each night, Minions choose who babysits Lil' Monsta's token & ""is the Demon"". A player dies each night*. [+1 Minion]","Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.","Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.","Is the Demon,Dead",
+lleech,Lleech,"Each night*, choose a player: they die. You start by choosing an alive player: they are poisoned - you die if & only if they die.",The Lleech points to a player. Place the Poisoned reminder token.,The Lleech points to a player. That player dies.,,"Dead,Poisoned"
+lunatic,Szaleniec,"Myslisz, ze jestes Demonem, ale nie jestes. 
+
+Demon wie, kim jestes oraz kogo wybierasz noca.","If 7 or more players: Show the Lunatic 'arbitrary' Information as given in Demon Information. If the token received 
+
+by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'ATTACK' 
+
+tokens. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. 
+
+If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'ATTACK' tokens.","Allow the Lunatic to do the actions of the Demon. Place their 'ATTACK' tokens. 
+
+If the Lunatic selected players: Wake the Demon. Show the 'ATTACK' token, 
+
+then point to each marked player. Remove any Lunatic 'ATTACK' tokens.",,"Attack 1,Attack 2,Attack 3"
+lycanthrope,Lycanthrope,"Each night*, choose a living player: if good, they die, but they are the only player that can die tonight.",,"The Lycanthrope points to a living player: if good, they die and no one else can die tonight.",,Dead
+magician,Magician,The Demon thinks you are a Minion. Minions think you are a Demon.,,,,
+marionette,Marionette,You think you are a good character but you are not. The Demon knows who you are. [You neighbour the Demon],Select one of the good players next to the Demon and place the Is the Marionette reminder token. Wake the Demon and show them the Marionette.,,Is the Marionette,
+mastermind,Geniusz zla,"Jesli Demon zostanie stracony (i gra powinna sie skonczyc), 
+
+gra toczy sie jeszcze jeden dzien. 
+
+Jesli gracz zostanie tego dnia stracony, jego druzyna przegrywa.",,,,
+mathematician,Mathematician,"Each night, you learn how many players’ abilities worked abnormally (since dawn) due to another character's ability.","Show the hand signal for the number (0, 1, 2, etc.) of players whose ability malfunctioned due to other abilities.","Show the hand signal for the number (0, 1, 2, etc.) of players whose ability malfunctioned due to other abilities.",,Abnormal
+matron,Matron,"Each day, you may choose up to 3 sets of 2 players to swap seats. Players may not leave their seats to talk in private.",,,,
+mayor,Burmistrz,"Jesli przy trzech zywych graczach nie nastapi egzekucja, Twoja druzyna wygrywa. Jesli zginiesz noca, inny gracz moze zginac zamiast Ciebie.",,,,
+mezepheles,Mezepheles,You start knowing a secret word. The 1st good player to say this word becomes evil that night.,Show the Mezepheles their secret word.,Wake the 1st good player that said the Mezepheles' secret word and show them the 'You are' card and the thumbs down evil signal.,,"Turns evil,No ability"
+minstrel,Minstrel (PL),"Kiedy Slugus zostaje stracony, wszyscy inni gracze 
+
+(oprocz Wedrowcow) sa pijani do jutrzejszego zmierzchu.",,Remove the 'Everyone drunk' token. If a Minion died today: All players but the Minstrel are drunk. Place the 'Everyone drunk' token.,,Everyone drunk
+monk,Mnich,"Kazdej nocy* wybierz gracza (nie siebie), ktory tej nocy bedzie chroniony przed Demonem.",,"The previously protected player is no longer protected. 
+
+The Monk points to a player (not themself). 
+
+Mark that player as 'PROTECTED'.",,Protected
+moonchild,Cyganka,"Kiedy dowiesz sie, ze nie zyjesz 
+
+publicznie wybierz jednego gracza. 
+
+Tej nocy, jesli byl to dobry gracz, umiera.",,"If the Moonchild used their ability to target a player today: If that player was good, they die.",,Dead
+mutant,Mutant,"If you are “mad” about being an Outsider, you might be executed.",,,,
+noble,Noble,"You start knowing 3 players, 1 and only 1 of which is evil.","Point to 3 players including one evil player, in no particular order.",,,Seen
+nodashii,No Dashii,"Each night*, choose a player: they die. Your 2 Townsfolk neighbours are poisoned.",,The No Dashii points to a player. That player dies.,,"Dead,Poisoned"
+oracle,Oracle,"Each night*, you learn how many dead players are evil.",,"Show the hand signal for the number (0, 1, 2, etc.) of dead evil players.",,
+pacifist,Pacyfista,Dobrzy gracze poddani egzekucji moga nie zginac.,,,,
+philosopher,Philosopher,"Once per game, at night, choose a good character: gain that ability. If this character is in play, they are drunk.","The Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.","If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",,"Drunk,Is the Philosopher"
+pithag,Pit-Hag,"Each night*, choose a player & a character they become (if not-in-play). If a Demon is made, deaths tonight are arbitrary.",,"The Pit-Hag points to a player and a character on the sheet. If this character is not in play, wake that player and show them the 'You are' card and the relevant character token. If the character is in play, nothing happens.",,
+pixie,Pixie,"You start knowing 1 in-play Townsfolk. If you were mad that you were this character, you gain their ability when they die.",Show the Pixie 1 in-play Townsfolk character token.,,,"Mad,Has ability"
+po,Po (PL),"Kazdej nocy*, mozesz wybrac gracza, ktory umrze. 
+
+Jesli poprzednio nie wybrales nikogo, 
+
+tej nocy wybierz 3 graczy.",,"If the Po chose no-one the previous night: The Po points to three players. Otherwise: 
+
+The Po either shows the 'no' head signal, or points to a player. Chosen players die.",,"3 attacks,Dead"
+poisoner,Truciciel,"Kazdej nocy wybierz gracza, ktorego umiejetnosc nie zadziala tej nocy ani jutro za dnia.",The Poisoner points to a player. That player is poisoned.,"The previously poisoned player is no longer poisoned. 
+
+The Poisoner points to a player. That player is poisoned.",,Poisoned
+politician,Politician,"If you were the player most responsible for your team losing, you change alignment & win, even if dead.",,,,
+poppygrower,Poppy Grower,"Minions & Demons do not know each other. If you die, they learn who each other are that night.",Do not inform the Demon/Minions who each other are,"If the Poppy Grower has died, show the Minions/Demon who each other are.",,Evil wakes
+preacher,Preacher,"Each night, choose a player: a Minion, if chosen, learns this. All chosen Minions have no ability.","The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.","The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.",,At a sermon
+professor,Profesor,"Raz w trakcie gry, noca*, wybierz martwego gracza. 
+
+Jesli jest to Mieszczanin, zostaje on wskrzeszony.",,"If the Professor has not used their ability: The Professor either shakes their head 'no', 
+
+or points to a player. If that player is a Townsfolk, they are now alive.",,"Alive,No ability"
+psychopath,Psychopath,"Each day, before nominations, you may publicly choose a player: they die. If executed, you only die if you lose roshambo.",,,,
+pukka,Pukka (PL),"Kazdej nocy, wybierz gracza ktory zostanie otruty. 
+
+Poprzedni otruty gracz umiera, po czym zdrowieje.",The Pukka points to a player. That player is poisoned.,The Pukka points to a player. That player is poisoned. The poisoned player from last night dies.,,"Dead,Poisoned"
+puzzlemaster,Puzzlemaster,"1 player is drunk, even if you die. If you guess (once) who it is, learn the Demon player, but guess wrong & get false info.",,,,"Drunk,Guess used"
+ravenkeeper,Hodowca krukow,"Jesli zginiesz noca, budzisz sie i wybierasz gracza - dowiadujesz sie, jaka jest postacia.",,"If the Ravenkeeper died tonight: The Ravenkeeper points to a player. 
+
+Show that player’s character token.",,
+recluse,Odludek,"Mozesz pokazac sie jako zly i jako slugus lub demon, nawet po smierci.",,,,
+riot,Riot,"Nominees die, but may nominate again immediately (on day 3, they must). After day 3, evil wins. [All Minions are Riot]",,,,
+sage,Sage,"If the Demon kills you, you learn that it is 1 of 2 players.",,"If the Sage was killed by a Demon: Point to two players, one of which is that Demon.",,
+sailor,Zeglarz,"Kazdej nocy wybierz zywego gracza. 
+
+Ktorys z Was bedzie pijany do zmierzchu. 
+
+Nie mozesz umrzec.","The Sailor points to a living player. Either the Sailor, or the chosen player, is drunk.","The previously drunk player is no longer drunk. The Sailor points to a living player. 
+
+Either the Sailor, or the chosen player, is drunk.",,Drunk
+saint,Swiety,"Jesli zginiesz przez egzekucje, Twoja druzyna przegrywa.",,,,
+savant,Savant,"Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false.",,,,
+scapegoat,Scapegoat,"If a player of your alignment is executed, you might be executed instead.",,,,
+scarletwoman,Kochanica diabla,"Jesli przy zyciu pozostaje 5 lub wiecej graczy a demon zginie, zostajesz demonem (podroznicy sie nie licza).",,"If the Scarlet Woman became the Demon today: 
+
+Show the 'YOU ARE' card & then the demon token.",,Demon
+seamstress,Seamstress,"Once per game, at night, choose 2 players (not yourself): you learn if they are the same alignment.","The Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.","If the Seamstress has not yet used their ability: the Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",,No ability
+shabaloth,Shabaloth (PL),"Kazdej nocy*, wybierz 2 graczy, ktorzy umra. 
+
+Martwy gracz wybrany poprzedniej nocy 
+
+moze zostac zwymiotowany.",,"One player that the Shabaloth chose the previous night might be resurrected. 
+
+The Shabaloth points to two players. Those players die.",,"Alive,Dead"
+slayer,Pogromca,"Raz w trakcie gry, w ciagu dnia, publicznie wybierasz jednego gracza - jesli jest Demonem, ginie.",,,,No ability
+snakecharmer,Snake Charmer,"Each night, choose an alive player: a chosen Demon swaps characters & alignments with you & is then poisoned.",The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.,The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.,,Poisoned
+snitch,Snitch,Minions start knowing 3 not-in-play characters.,After Minion info wake each Minion and show them three not-in-play character tokens. These may be the same or different to each other and the ones shown to the Demon.,,,
+soldier,Zolnierz,Nie mozesz zostac zabity przez Demona.,,,,
+spy,Szpieg,"Kazdej nocy zagladasz do grymuaru. Mozesz pokazac sie jako dobry i jako mieszczanin lub outsider, nawet po smierci.",Show the Grimoire to the Spy for as long as they need.,Show the Grimoire to the Spy for as long as they need.,,
+sweetheart,Sweetheart,"When you die, 1 player is drunk from now on.",,Choose a player that is drunk.,,Drunk
+tealady,Herbaciarka,"Jesli obydwoje z Twoich zyjacych sasiadow jest dobrych, 
+
+zadne z nich nie moze umrzec.",,,,Can not die
+thief,Thief,"Each night, choose a player (not yourself): their vote counts negatively tomorrow.",The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.,The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.,,Negative vote
+tinker,Druciarz,Mozesz umrzec w dowolnym momencie.,The Tinker might die.,The Tinker might die.,,Dead
+towncrier,Town Crier,"Each night*, you learn if a Minion nominated today.",,"Nod 'yes' or shake head 'no' for whether a Minion nominated today. Place the 'Minion not nominated' marker (remove 'Minion nominated', if any).",,"Minions not nominated,Minion nominated"
+undertaker,Grabarz,"Kazdej nocy* dowiadujesz sie, ktora postac stracono dzis podczas egzekucji.",,If a player was executed today: Show that player’s character token.,,Executed
+vigormortis,Vigormortis,"Each night*, choose a player: they die. Minions you kill keep their ability & poison 1 Townsfolk neighbour. [−1 Outsider]",,"The Vigormortis points to a player. That player dies. If a Minion, they keep their ability and one of their Townsfolk neighbours is poisoned.",,"Dead,Has ability,Poisoned"
+virgin,Dziewica,"Gdy zostaniesz nominowany po raz pierwszy w grze, a nominuje Cie mieszczanin, zostaje on natychmiast stracony.",,,,No ability
+vortox,Vortox,"Each night*, choose a player: they die. Townsfolk abilities yield false info. Each day, if no-one is executed, evil wins.",,The Vortox points to a player. That player dies.,,Dead
+voudon,Voudon,Only you and the dead can vote. They don't need a vote token to do so. A 50% majority is not required.,,,,
+washerwoman,Praczka,"Na poczatku gry dowiadujesz sie, ze jeden z dwoch graczy jest konkretnym mieszczaninem.","Show the character token of a Townsfolk in play. 
+
+Point to two players, one of which is that character.",,,"Townsfolk,Wrong"
+widow,Widow,"On your 1st night, look at the Grimoire and choose a player: they are poisoned. 1 good player knows a Widow is in play.","Show the Grimoire to the Widow for as long as they need. The Widow points to a player. That player is poisoned. Wake a good player. Show the 'These characters are in play' card, then the Widow character token.",,Knows,Poisoned
+witch,Witch,"Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability.",The Witch points to a player. If that player nominates tomorrow they die immediately.,If there are 4 or more players alive: The Witch points to a player. If that player nominates tomorrow they die immediately.,,Cursed
+zombuul,Zombuul (PL),"Kazdej nocy*, jesli dzis nikt nie zginal, wybierz gracza, 
+
+ktory umrze. Kiedy umrzesz po raz pierwszy, 
+
+bedziesz nadal zyc, ale bedziesz sie pokazywac jako martwy.",,If no-one died during the day: The Zombuul points to a player. That player dies.,,"Dead,Died today"
