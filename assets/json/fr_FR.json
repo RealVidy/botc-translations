@@ -108,18 +108,18 @@
     "team": "townsfolk"
   },
   {
-    "ability": "1 player is drunk, even if you die. If you guess (once) who it is, learn the Demon player, but guess wrong & get false info.",
+    "ability": "1 joueur est ivre, même si vous mourrez. Si vous devinez qui est ce joueur, vous apprenez qui est le Démon. Si vous vous trompez, vous recevez une information fausse.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "puzzlemaster",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/puzzlemaster.png?raw=true",
-    "name": "Puzzlemaster",
+    "name": "Maitre des Puzzles",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Drunk",
-      "Guess used"
+      "Saoul",
+      "Utilisé"
     ],
     "setup": false,
     "team": "outsider"
@@ -370,7 +370,7 @@
     "team": "minion"
   },
   {
-    "ability": "You may only nominate once per game. When you do, if the nominee is not the Demon, they die.",
+    "ability": "Vous ne pouvez nominer qu'une fois par partie. Lorsque vous le faites, si le nominé n'est pas le Démon, il meurt.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -380,7 +380,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Can not nominate"
+      "Nomination impossible"
     ],
     "setup": false,
     "team": "outsider"
@@ -591,17 +591,17 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, choose a player. If you nominate & execute them, their team loses. All players know if you choose a new player.",
+    "ability": "Chaque nuit, choisissez un joueur : si vous le nominnez et qu'il est exécuté, son équipe perd. Tous les joueurs sont avertis lorsque vous choisissez un nouveau joueur.",
     "edition": "",
     "firstNight": 26,
-    "firstNightReminder": "The Fearmonger points to a player. Place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",
+    "firstNightReminder": "L'Alarmiste désigne un joueur. Placez le jeton «Alarme» à côté de ce joueur et annoncez qu'un nouveau joueur a été sélectionné par le pouvoir de l'Alarmiste.",
     "id": "fearmonger",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fearmonger.png?raw=true",
-    "name": "Fearmonger",
+    "name": "Alarmiste",
     "otherNight": 18,
-    "otherNightReminder": "The Fearmonger points to a player. If different from the previous night, place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",
+    "otherNightReminder": "L'Alarmiste désigne un joueur. Placez le jeton «Alarme» à côté de ce joueur et annoncez qu'un nouveau joueur a été sélectionné par le pouvoir de l'Alarmiste.",
     "reminders": [
-      "Fear"
+      "Alarme"
     ],
     "setup": false,
     "team": "minion"
@@ -922,17 +922,17 @@
     "team": "demon"
   },
   {
-    "ability": "Once per game, at night, choose which Minions or which Demon is in play.",
+    "ability": "Une fois par partie, pendant la nuit, choisissez quels Sbires ou quel Démon sont en jeu.",
     "edition": "",
     "firstNight": 13,
-    "firstNightReminder": "The Engineer shows a 'no' head signal, or points to a Demon or points to the relevant number of Minions. If the Engineer chose characters, replace the Demon or Minions with the choices, then wake the relevant players and show them the You are card and the relevant character tokens.",
+    "firstNightReminder": "L'Ingénieur secoue la tête «Non» OU pointe vers un Démon OU pointe vers le nombre de Sbire approprié. Si l'Ingénieur a choisi des personnages, remplacez le Démon ou les Sbires avec ses choix, puis réveillez les joueurs concernés et montrez-leur la carte «Vous êtes» et les jetons de personnages correspondants.",
     "id": "engineer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/engineer.png?raw=true",
-    "name": "Engineer",
+    "name": "Ingénieur",
     "otherNight": 6,
-    "otherNightReminder": "The Engineer shows a 'no' head signal, or points to a Demon or points to the relevant number of Minions. If the Engineer chose characters, replace the Demon or Minions with the choices, then wake the relevant players and show them the 'You are' card and the relevant character tokens.",
+    "otherNightReminder": "L'Ingénieur secoue la tête «Non» OU pointe vers un Démon OU pointe vers le nombre de Sbire approprié. Si l'Ingénieur a choisi des personnages, remplacez le Démon ou les Sbires avec ses choix, puis réveillez les joueurs concernés et montrez-leur la carte «Vous êtes» et les jetons de personnages correspondants.",
     "reminders": [
-      "No ability"
+      "Utilisé"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -1139,13 +1139,13 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Nominees die, but may nominate again immediately (on day 3, they must). After day 3, evil wins. [All Minions are Riot]",
+    "ability": "Les nominés meurent, mais peuvent nominer immédiatement (le 3eme jour, ils y sont obligé). Après le 3eme jour, le Mal l'emporte. [Tous les Sbires sont Émeutier]",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "riot",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/riot.png?raw=true",
-    "name": "Riot",
+    "name": "Émeutier",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -1681,18 +1681,18 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You have a not-in-play Minion ability.",
+    "ability": "Vous avez le pouvoir d'un Sbire qui n'est pas en jeu.",
     "edition": "",
     "firstNight": 3,
-    "firstNightReminder": "Show the Alchemist a not-in-play Minion token",
+    "firstNightReminder": "Montrez a l'Alchimiste un jeton de Sbire qui n'est pas en jeu",
     "id": "alchemist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/alchemist.png?raw=true",
-    "name": "Alchemist",
+    "name": "Alchimiste",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Is the Alchemist"
+      "Est l'Alchimiste"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -1908,13 +1908,13 @@
     "team": "outsider"
   },
   {
-    "ability": "Each day, before nominations, you may publicly choose a player: they die. If executed, you only die if you lose roshambo.",
+    "ability": "Chaque jour, avant les nominations, vous pouvez choisir un joueur publiquement : il meurt. Si vous êtes exécuté, vous ne mourrez que si vous perdez à pierre-feuille-ciseau.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "psychopath",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/psychopath.png?raw=true",
-    "name": "Psychopath",
+    "name": "Psychopathe",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -1950,13 +1950,13 @@
     "team": "traveler"
   },
   {
-    "ability": "The Storyteller can break the game rules & if executed, good wins, even if you are dead [No evil characters]",
+    "ability": "Le Conteur peut ignorer les règles du jeu. Si vous êtes exécuté, le Bien gagne, même si vous êtes mort. [Pas de personnage Maléfique]",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "atheist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/atheist.png?raw=true",
-    "name": "Atheist",
+    "name": "Athée",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
