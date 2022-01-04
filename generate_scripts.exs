@@ -46,12 +46,16 @@ defmodule GenerateScripts do
     File.mkdir_p(folder)
 
     Enum.each(script_roles, fn {script_name, role_ids} ->
-      path = "#{folder}/#{script_name}.json"
+      file_name = "#{script_name}.json"
+      path = "#{folder}/#{file_name}"
 
       built_script = Enum.map(role_ids, fn role_id -> locale_roles[role_id] end)
       result_json = Jason.encode!(built_script)
 
       File.write!(path, result_json)
+      bin_path = "#{File.cwd!()}/format_json.sh"
+
+      System.cmd(bin_path, [folder, file_name])
     end)
 
     Logger.info("Script files generated in: #{folder}\n")
