@@ -1,8 +1,10 @@
 # BotcTranslations
 
+TL;DR: If you want to find translated scripts to play on [clocktower.online](https://clocktower.online/) or [Nara](https://nara.fly.dev/), they are in [assets/scripts](assets/scripts). Use them as custom scripts there.
+
 This repo contains scripts to generate JSON files for use on [clocktower.online](https://clocktower.online/) or [Nara](https://nara.fly.dev/) as well as CSV files for the google sheet in which we keep translations for abilities, names, and various reminders.
 
-You can find already generated JSON files in [assets/json](assets/json) and the google sheet is [here](https://docs.google.com/spreadsheets/d/183HMp4ZgslxA4NtFVTXhY3xAbg7FIXZdmVnh9-4A_14/edit#gid=923580658).
+You can find already generated script JSON files in [assets/scripts](assets/scripts) and the google sheet is [here](https://docs.google.com/spreadsheets/d/183HMp4ZgslxA4NtFVTXhY3xAbg7FIXZdmVnh9-4A_14/edit#gid=923580658).
 
 The language we use is Elixir (see how to [install](https://elixir-lang.org/install.html#macos) it).
 
@@ -18,6 +20,8 @@ Take a look at the english tab which you will need to duplicate for your own lan
 
 ### From CSV to JSON
 
+#### Full roles JSON
+
 Once we have the CSV file for our language, we can run a script that will generate a JSON file in the clocktower.online format.
 
 ```bash
@@ -30,6 +34,20 @@ Try it out with the french file:
 ```bash
 mix run generate_json_from_csv.exs assets/csv/fr_FR.csv
 ```
+
+#### Generating translated basic and custom scripts
+
+Simply run the following command to regenerate custom scripts in all locales:
+
+```bash
+mix run generate_scripts.exs
+```
+
+The files used to generate these custom scripts are:
+- JSON files in [assets/scripts](assets/scripts) to describe the content of each script (a simple role list)
+- JSON files in [assets/json](assets/json) which contains all translated roles for each locale
+
+To generate new custom scripts, simply add a file in [assets/scripts](assets/scripts) and run `mix run generate_scripts.exs` again
 
 ### From JSON to CSV
 
