@@ -27,7 +27,6 @@ defmodule GenerateJsonFromCsv do
           # Convert a csv row to a role map with the same format as the clocktower.online ones.
           parsed_csv_co_role = from_csv_row_to_co_role(row)
           role_id = parsed_csv_co_role["id"]
-          parsed_csv_co_role = Map.put(parsed_csv_co_role, "id", "#{locale}_#{role_id}")
 
           parsed_csv_co_role =
             Map.put(
