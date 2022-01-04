@@ -1,1 +1,414 @@
-[{"ability":"Há Forasteiros adicionais em jogo. [+2 Forasteiros]","edition":"tb","firstNight":0,"firstNightReminder":"","id":"pt_BR_baron","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/baron.png?raw=true","name":"Barão","otherNight":0,"otherNightReminder":"","reminders":[],"setup":true,"team":"minion"},{"ability":"You must use a vote token to vote. Dead players may choose to give you theirs. If so, you learn their alignment.","edition":"tb","firstNight":0,"firstNightReminder":"","id":"pt_BR_beggar","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/beggar.png?raw=true","name":"Beggar","otherNight":0,"otherNightReminder":"","reminders":[],"setup":false,"team":"traveler"},{"ability":"Each night, choose a player (not yourself): their vote counts as 3 votes tomorrow.","edition":"tb","firstNight":1,"firstNightReminder":"The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.","id":"pt_BR_bureaucrat","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bureaucrat.png?raw=true","name":"Bureaucrat","otherNight":1,"otherNightReminder":"The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.","reminders":["3 votes"],"setup":false,"team":"traveler"},{"ability":"A cada noite, escolha um jogador (exceto você): amanhã, você só poderá votar se ele estiver votando também.","edition":"tb","firstNight":38,"firstNightReminder":"O Mordomo aponta para um jogador. Marque esse jogador como 'Mestre'.","id":"pt_BR_butler","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/butler.png?raw=true","name":"Mordomo","otherNight":55,"otherNightReminder":"O Mordomo aponta para um jogador. Marque esse jogador como 'Mestre'.","reminders":["Mestre"],"setup":false,"team":"outsider"},{"ability":"Você começa sabendo quantos pares de jogadores maus existem.","edition":"tb","firstNight":35,"firstNightReminder":"Mostre um número (0, 1, 2, …) para indicar quantos pares de jogadores do mal são vizinhos.","id":"pt_BR_chef","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true","name":"Chef","otherNight":0,"otherNightReminder":"","reminders":[],"setup":false,"team":"townsfolk"},{"ability":"Você não sabe que é o Bêbado. Você acha que é um Cidadão, mas não é.","edition":"tb","firstNight":0,"firstNightReminder":"","id":"pt_BR_drunk","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true","name":"Bêbado","otherNight":0,"otherNightReminder":"","reminders":[],"remindersGlobal":["Bêbado"],"setup":true,"team":"outsider"},{"ability":"A cada noite, você descobre quantos de seus 2 vizinhos vivos são maus.","edition":"tb","firstNight":36,"firstNightReminder":"Mostre um número (0, 1 ou 2) para indicar quantos dos vizinhos vivos do Empático são maus.","id":"pt_BR_empath","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true","name":"Empático","otherNight":53,"otherNightReminder":"Mostre um número (0, 1 ou 2) para indicar quantos dos vizinhos vivos do Empático são maus.","reminders":[],"setup":false,"team":"townsfolk"},{"ability":"A cada noite, escolha 2 jogadores: você descobre se algum deles é um Demônio. Há um jogador bom que registra como Demônio para você.","edition":"tb","firstNight":37,"firstNightReminder":"A vidente aponta para dois jogadores. Sinalize com cabeça(sim ou não) para indicar se algum destes jogadores é um Demônio.","id":"pt_BR_fortuneteller","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fortuneteller.png?raw=true","name":"Vidente","otherNight":54,"otherNightReminder":"A vidente aponta para dois jogadores. Sinalize com cabeça(sim ou não) para indicar se algum destes jogadores é um Demônio.","reminders":["Red herring"],"setup":false,"team":"townsfolk"},{"ability":"Each day, after the 1st vote has been tallied, you may choose a player that voted: they die.","edition":"tb","firstNight":0,"firstNightReminder":"","id":"pt_BR_gunslinger","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gunslinger.png?raw=true","name":"Gunslinger","otherNight":0,"otherNightReminder":"","reminders":[],"setup":false,"team":"traveler"},{"ability":"Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp.","edition":"tb","firstNight":0,"firstNightReminder":"","id":"pt_BR_imp","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/imp.png?raw=true","name":"Capeta","otherNight":24,"otherNightReminder":"The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.","reminders":["Dead"],"setup":false,"team":"demon"},{"ability":"Você começa sabendo que 1 dentre 2 jogadores é um Lacaio específico.","edition":"tb","firstNight":34,"firstNightReminder":"Mostre um token de personagem Lacaio em jogo. Aponte para dois jogadores, um deles é aquele personagem.","id":"pt_BR_investigator","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/investigator.png?raw=true","name":"Investigador","otherNight":0,"otherNightReminder":"","reminders":["Errado","Lacaio"],"setup":false,"team":"townsfolk"},{"ability":"Você começa sabendo que 1 dentre 2 jogadores é um Forasteiro específico.(Ou que há 'zero' Forasteiros em jogo.)","edition":"tb","firstNight":33,"firstNightReminder":"Mostre um token de personagem Forasteiro em jogo. Aponte para dois jogadores, um deles é aquele personagem (ou mostre 'zero', caso não haja Forasteiros).","id":"pt_BR_librarian","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/librarian.png?raw=true","name":"Bibliotecária","otherNight":0,"otherNightReminder":"","reminders":["Errado","Forasteiro"],"setup":false,"team":"townsfolk"},{"ability":"Se apenas 3 jogadores  estão vivos e não houver execução, seu time vence. Se você morreria à noite, outro jogador pode morrer em vez disso.","edition":"tb","firstNight":0,"firstNightReminder":"","id":"pt_BR_mayor","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mayor.png?raw=true","name":"Prefeito","otherNight":0,"otherNightReminder":"","reminders":[],"setup":false,"team":"townsfolk"},{"ability":"A cada noite*, escolha um jogador (exceto você): ele está a salvo do Demônio esta noite.","edition":"tb","firstNight":0,"firstNightReminder":"","id":"pt_BR_monk","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/monk.png?raw=true","name":"Monge","otherNight":13,"otherNightReminder":"O jogador protegido anteriormente não está mais protegido. O Monge aponta para um jogador(exceto ele). Marque aquele jogador como PROTEGIDO.","reminders":["Protegido"],"setup":false,"team":"townsfolk"},{"ability":"A cada noite, escolha um jogador: ele está envenenado esta noite e no dia de amanhã.","edition":"tb","firstNight":17,"firstNightReminder":"O Envenenador aponta para um jogador. Esse jogador fica envenenado.","id":"pt_BR_poisoner","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true","name":"Envenenador","otherNight":8,"otherNightReminder":"O jogador envenenado anteriormente fica sadio. O Envenenador aponta para um jogador. Esse jogador fica envenenado.","reminders":["Envenenado"],"setup":false,"team":"minion"},{"ability":"Se você morrer à Noite, será acordado para escolher um jogador: você descobre o personagem dele.","edition":"tb","firstNight":0,"firstNightReminder":"","id":"pt_BR_ravenkeeper","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true","name":"Mestre dos Corvos","otherNight":42,"otherNightReminder":"Se o Mestre dos Corvos morreu hoje: O Mestre dos Corvos aponta para um jogador. Mostre o token de personagem daquele jogador.","reminders":[],"setup":false,"team":"townsfolk"},{"ability":"Você pode registrar como mau, Demônio ou Lacaio, mesmo quando morto.","edition":"tb","firstNight":0,"firstNightReminder":"","id":"pt_BR_recluse","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/recluse.png?raw=true","name":"Recluso","otherNight":0,"otherNightReminder":"","reminders":[],"setup":false,"team":"outsider"},{"ability":"Se você morrer por execução, seu time perde.","edition":"tb","firstNight":0,"firstNightReminder":"","id":"pt_BR_saint","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/saint.png?raw=true","name":"Santo","otherNight":0,"otherNightReminder":"","reminders":[],"setup":false,"team":"outsider"},{"ability":"If a player of your alignment is executed, you might be executed instead.","edition":"tb","firstNight":0,"firstNightReminder":"","id":"pt_BR_scapegoat","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scapegoat.png?raw=true","name":"Scapegoat","otherNight":0,"otherNightReminder":"","reminders":[],"setup":false,"team":"traveler"},{"ability":"Se há 5 ou mais jogadores vivos e o Demônio morrer, você se torna o Demônio. (Viajantes não contam)","edition":"tb","firstNight":0,"firstNightReminder":"","id":"pt_BR_scarletwoman","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scarletwoman.png?raw=true","name":"Mulher Escarlate","otherNight":20,"otherNightReminder":"Se a Mulher Escarlate se tornou o Demônio hoje: Mostre a carta 'Você é', e o token de personagem do Demônio.","reminders":["Demônio"],"setup":false,"team":"minion"},{"ability":"Uma vez por partida, durante o dia, você pode escolher um jogador: se este for o Demônio, morre.","edition":"tb","firstNight":0,"firstNightReminder":"","id":"pt_BR_slayer","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true","name":"Atirador","otherNight":0,"otherNightReminder":"","reminders":["Sem habilidade"],"setup":false,"team":"townsfolk"},{"ability":"Você está a salvo do Demônio.","edition":"tb","firstNight":0,"firstNightReminder":"","id":"pt_BR_soldier","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/soldier.png?raw=true","name":"Soldado","otherNight":0,"otherNightReminder":"","reminders":[],"setup":false,"team":"townsfolk"},{"ability":"A cada noite, você vê o Grimório. Você pode registrar como bom, Cidadão, ou Forasteiro, mesmo quando morto.","edition":"tb","firstNight":47,"firstNightReminder":"Mostre o Grimório para o Espião pelo tempo que ele precisar.","id":"pt_BR_spy","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spy.png?raw=true","name":"Espião","otherNight":67,"otherNightReminder":"Mostre o Grimório para o Espião pelo tempo que ele precisar.","reminders":[],"setup":false,"team":"minion"},{"ability":"Each night, choose a player (not yourself): their vote counts negatively tomorrow.","edition":"tb","firstNight":1,"firstNightReminder":"The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.","id":"pt_BR_thief","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/thief.png?raw=true","name":"Thief","otherNight":1,"otherNightReminder":"The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.","reminders":["Negative vote"],"setup":false,"team":"traveler"},{"ability":"A cada noite*, você descobre qual personagem morreu por execução durante o dia.","edition":"tb","firstNight":0,"firstNightReminder":"","id":"pt_BR_undertaker","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/undertaker.png?raw=true","name":"Coveiro","otherNight":56,"otherNightReminder":"Se um jogador foi morreu por execução hoje: mostre o token de personagem desse jogador.","reminders":["Executado"],"setup":false,"team":"townsfolk"},{"ability":"Na 1ª vez que você é nomeado, se o nomeador é um Cidadão, este é executado imediatamente.","edition":"tb","firstNight":0,"firstNightReminder":"","id":"pt_BR_virgin","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/virgin.png?raw=true","name":"Virgem","otherNight":0,"otherNightReminder":"","reminders":["Sem habilidade"],"setup":false,"team":"townsfolk"},{"ability":"Você começa sabendo que 1 dentre 2 jogadores é um Cidadão específico.","edition":"tb","firstNight":32,"firstNightReminder":"Mostre um token de personagem Cidadão em jogo. Aponte para dois jogadores, um deles é aquele personagem.","id":"pt_BR_washerwoman","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/washerwoman.png?raw=true","name":"Lavadeira","otherNight":0,"otherNightReminder":"","reminders":["Cidadão","Errado"],"setup":false,"team":"townsfolk"}]
+[
+  {
+    "ability": "Há Forasteiros adicionais em jogo. [+2 Forasteiros]",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pt_BR_baron",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/baron.png?raw=true",
+    "name": "Barão",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": true,
+    "team": "minion"
+  },
+  {
+    "ability": "You must use a vote token to vote. Dead players may choose to give you theirs. If so, you learn their alignment.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pt_BR_beggar",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/beggar.png?raw=true",
+    "name": "Beggar",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Each night, choose a player (not yourself): their vote counts as 3 votes tomorrow.",
+    "edition": "tb",
+    "firstNight": 1,
+    "firstNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
+    "id": "pt_BR_bureaucrat",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bureaucrat.png?raw=true",
+    "name": "Bureaucrat",
+    "otherNight": 1,
+    "otherNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
+    "reminders": [
+      "3 votes"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "A cada noite, escolha um jogador (exceto você): amanhã, você só poderá votar se ele estiver votando também.",
+    "edition": "tb",
+    "firstNight": 38,
+    "firstNightReminder": "O Mordomo aponta para um jogador. Marque esse jogador como 'Mestre'.",
+    "id": "pt_BR_butler",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/butler.png?raw=true",
+    "name": "Mordomo",
+    "otherNight": 55,
+    "otherNightReminder": "O Mordomo aponta para um jogador. Marque esse jogador como 'Mestre'.",
+    "reminders": [
+      "Mestre"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Você começa sabendo quantos pares de jogadores maus existem.",
+    "edition": "tb",
+    "firstNight": 35,
+    "firstNightReminder": "Mostre um número (0, 1, 2, …) para indicar quantos pares de jogadores do mal são vizinhos.",
+    "id": "pt_BR_chef",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true",
+    "name": "Chef",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Você não sabe que é o Bêbado. Você acha que é um Cidadão, mas não é.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pt_BR_drunk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
+    "name": "Bêbado",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Bêbado"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
+    "ability": "A cada noite, você descobre quantos de seus 2 vizinhos vivos são maus.",
+    "edition": "tb",
+    "firstNight": 36,
+    "firstNightReminder": "Mostre um número (0, 1 ou 2) para indicar quantos dos vizinhos vivos do Empático são maus.",
+    "id": "pt_BR_empath",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
+    "name": "Empático",
+    "otherNight": 53,
+    "otherNightReminder": "Mostre um número (0, 1 ou 2) para indicar quantos dos vizinhos vivos do Empático são maus.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "A cada noite, escolha 2 jogadores: você descobre se algum deles é um Demônio. Há um jogador bom que registra como Demônio para você.",
+    "edition": "tb",
+    "firstNight": 37,
+    "firstNightReminder": "A vidente aponta para dois jogadores. Sinalize com cabeça(sim ou não) para indicar se algum destes jogadores é um Demônio.",
+    "id": "pt_BR_fortuneteller",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fortuneteller.png?raw=true",
+    "name": "Vidente",
+    "otherNight": 54,
+    "otherNightReminder": "A vidente aponta para dois jogadores. Sinalize com cabeça(sim ou não) para indicar se algum destes jogadores é um Demônio.",
+    "reminders": [
+      "Red herring"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Each day, after the 1st vote has been tallied, you may choose a player that voted: they die.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pt_BR_gunslinger",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gunslinger.png?raw=true",
+    "name": "Gunslinger",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pt_BR_imp",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/imp.png?raw=true",
+    "name": "Capeta",
+    "otherNight": 24,
+    "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Lacaio específico.",
+    "edition": "tb",
+    "firstNight": 34,
+    "firstNightReminder": "Mostre um token de personagem Lacaio em jogo. Aponte para dois jogadores, um deles é aquele personagem.",
+    "id": "pt_BR_investigator",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/investigator.png?raw=true",
+    "name": "Investigador",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Errado",
+      "Lacaio"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Forasteiro específico.(Ou que há 'zero' Forasteiros em jogo.)",
+    "edition": "tb",
+    "firstNight": 33,
+    "firstNightReminder": "Mostre um token de personagem Forasteiro em jogo. Aponte para dois jogadores, um deles é aquele personagem (ou mostre 'zero', caso não haja Forasteiros).",
+    "id": "pt_BR_librarian",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/librarian.png?raw=true",
+    "name": "Bibliotecária",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Errado",
+      "Forasteiro"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Se apenas 3 jogadores  estão vivos e não houver execução, seu time vence. Se você morreria à noite, outro jogador pode morrer em vez disso.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pt_BR_mayor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mayor.png?raw=true",
+    "name": "Prefeito",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "A cada noite*, escolha um jogador (exceto você): ele está a salvo do Demônio esta noite.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pt_BR_monk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/monk.png?raw=true",
+    "name": "Monge",
+    "otherNight": 13,
+    "otherNightReminder": "O jogador protegido anteriormente não está mais protegido. O Monge aponta para um jogador(exceto ele). Marque aquele jogador como PROTEGIDO.",
+    "reminders": [
+      "Protegido"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "A cada noite, escolha um jogador: ele está envenenado esta noite e no dia de amanhã.",
+    "edition": "tb",
+    "firstNight": 17,
+    "firstNightReminder": "O Envenenador aponta para um jogador. Esse jogador fica envenenado.",
+    "id": "pt_BR_poisoner",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
+    "name": "Envenenador",
+    "otherNight": 8,
+    "otherNightReminder": "O jogador envenenado anteriormente fica sadio. O Envenenador aponta para um jogador. Esse jogador fica envenenado.",
+    "reminders": [
+      "Envenenado"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Se você morrer à Noite, será acordado para escolher um jogador: você descobre o personagem dele.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pt_BR_ravenkeeper",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true",
+    "name": "Mestre dos Corvos",
+    "otherNight": 42,
+    "otherNightReminder": "Se o Mestre dos Corvos morreu hoje: O Mestre dos Corvos aponta para um jogador. Mostre o token de personagem daquele jogador.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Você pode registrar como mau, Demônio ou Lacaio, mesmo quando morto.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pt_BR_recluse",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/recluse.png?raw=true",
+    "name": "Recluso",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Se você morrer por execução, seu time perde.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pt_BR_saint",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/saint.png?raw=true",
+    "name": "Santo",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "If a player of your alignment is executed, you might be executed instead.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pt_BR_scapegoat",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scapegoat.png?raw=true",
+    "name": "Scapegoat",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Se há 5 ou mais jogadores vivos e o Demônio morrer, você se torna o Demônio. (Viajantes não contam)",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pt_BR_scarletwoman",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scarletwoman.png?raw=true",
+    "name": "Mulher Escarlate",
+    "otherNight": 20,
+    "otherNightReminder": "Se a Mulher Escarlate se tornou o Demônio hoje: Mostre a carta 'Você é', e o token de personagem do Demônio.",
+    "reminders": [
+      "Demônio"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Uma vez por partida, durante o dia, você pode escolher um jogador: se este for o Demônio, morre.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pt_BR_slayer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
+    "name": "Atirador",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Sem habilidade"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Você está a salvo do Demônio.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pt_BR_soldier",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/soldier.png?raw=true",
+    "name": "Soldado",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "A cada noite, você vê o Grimório. Você pode registrar como bom, Cidadão, ou Forasteiro, mesmo quando morto.",
+    "edition": "tb",
+    "firstNight": 47,
+    "firstNightReminder": "Mostre o Grimório para o Espião pelo tempo que ele precisar.",
+    "id": "pt_BR_spy",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spy.png?raw=true",
+    "name": "Espião",
+    "otherNight": 67,
+    "otherNightReminder": "Mostre o Grimório para o Espião pelo tempo que ele precisar.",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Each night, choose a player (not yourself): their vote counts negatively tomorrow.",
+    "edition": "tb",
+    "firstNight": 1,
+    "firstNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
+    "id": "pt_BR_thief",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/thief.png?raw=true",
+    "name": "Thief",
+    "otherNight": 1,
+    "otherNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
+    "reminders": [
+      "Negative vote"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "A cada noite*, você descobre qual personagem morreu por execução durante o dia.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pt_BR_undertaker",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/undertaker.png?raw=true",
+    "name": "Coveiro",
+    "otherNight": 56,
+    "otherNightReminder": "Se um jogador foi morreu por execução hoje: mostre o token de personagem desse jogador.",
+    "reminders": [
+      "Executado"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Na 1ª vez que você é nomeado, se o nomeador é um Cidadão, este é executado imediatamente.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pt_BR_virgin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/virgin.png?raw=true",
+    "name": "Virgem",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Sem habilidade"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Cidadão específico.",
+    "edition": "tb",
+    "firstNight": 32,
+    "firstNightReminder": "Mostre um token de personagem Cidadão em jogo. Aponte para dois jogadores, um deles é aquele personagem.",
+    "id": "pt_BR_washerwoman",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/washerwoman.png?raw=true",
+    "name": "Lavadeira",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Cidadão",
+      "Errado"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  }
+]

@@ -1,1 +1,190 @@
-[{"ability":"Vous ne connaissez pas votre capacité. Chaque jour, tentez de la deviner en privé : vous apprenez à quel point vous êtes précis.","edition":"","firstNight":12,"firstNightReminder":"Décidez de la capacité de l'Amnésique. Si sa capacité l'amène à se réveiller la nuit : réveillez l'amnésique et activez sa capacité.","id":"fr_FR_amnesiac","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/amnesiac.png?raw=true","name":"Amnesique","otherNight":5,"otherNightReminder":"Si la capacité de l'Amnésique l'amène à se réveiller la nuit: Réveillez l'amnésique et activer sa capacité.","reminders":["?"],"setup":false,"team":"townsfolk"},{"ability":"Une fois par partie, pendant la journée, posez une question en privé au Conteur pour recevoir une réponse affirmative ou négative.","edition":"snv","firstNight":0,"firstNightReminder":"","id":"fr_FR_artist","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/artist.png?raw=true","name":"Artiste","otherNight":0,"otherNightReminder":"","reminders":["Inactif"],"setup":false,"team":"townsfolk"},{"ability":"Chaque nuit, vous apprenez 1 joueur de chaque type, jusqu'à ce qu'il n'y ait plus de types à découvrir [+1 Étranger].","edition":"","firstNight":44,"firstNightReminder":"Choisissez un type de rôle. Pointez un joueur dont le rôle est de ce type. Placez le rappel « Vu » de l'Aéronaute sous ce rôle.","id":"fr_FR_balloonist","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/balloonist.png?raw=true","name":"Aéronaute","otherNight":63,"otherNightReminder":"Choisissez un type de rôle que vous n'avez pas encore choisi. Pointez un joueur dont le rôle est de ce type. Placez le rappel « Vu » de l'Aéronaute sous ce rôle.","reminders":["Vu Démon","Vu Sbire","Vu Villageois","Vu Voyageur","Vu Étranger"],"setup":true,"team":"townsfolk"},{"ability":"Chaque nuit*, vous gagnez la capacité du dernier rôle exécuté. Si l'exécuté était maléfique, vous gagnez une capacité au choix du Conteur et vous êtes empoisonné jusqu'à ce qu'un nouveau rôle « bon » soit exécuté.","edition":"","firstNight":0,"firstNightReminder":"","id":"fr_FR_cannibal","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cannibal.png?raw=true","name":"Cannibale","otherNight":0,"otherNightReminder":"Si nécessaire, réveiller ce joueur cette nuit selon sa capacité.","reminders":["Dernier Exécuté","Empoisonné"],"setup":false,"team":"townsfolk"},{"ability":"Une fois par partie, pendant la journée, visitez le Conteur pour obtenir des conseils pour vous aider à gagner.","edition":"","firstNight":0,"firstNightReminder":"","id":"fr_FR_fisherman","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fisherman.png?raw=true","name":"Pêcheur","otherNight":0,"otherNightReminder":"","reminders":["Inactif"],"setup":false,"team":"townsfolk"},{"ability":"Une fois nommé, vous pouvez prétendre publiquement être le Gobelin : si vous êtes exécuté malgré tout, votre équipe gagne.","edition":"","firstNight":0,"firstNightReminder":"","id":"fr_FR_goblin","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/goblin.png?raw=true","name":"Gobelin","otherNight":0,"otherNightReminder":"","reminders":["Prétendu"],"setup":false,"team":"minion"},{"ability":"Tous les joueurs savent que vous êtes en jeu. Après 5 jours, le mal gagne. Si plus d'un joueur « bon » est exécuté, les maléfiques gagnent.","edition":"","firstNight":52,"firstNightReminder":"Placez le jeton « Jour 1 » du Léviathan. Annoncer « Le Léviathan est présent parmi vous, c'est son premier jour ».","id":"fr_FR_leviathan","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/leviathan.png?raw=true","name":"Léviathan","otherNight":72,"otherNightReminder":"Est-ce que deux joueurs « bon » sont morts ou est-ce que le jeton « Jour 5 » du Léviathan est en place, l'équipe maléfique gagne immédiatement. Placez le prochain jeton « Jour n » suivant et annoncer : Le Léviathan est toujours parmi vous, c'est le jour n.","reminders":["Bon Exécuté","Jour 1","Jour 2","Jour 3","Jour 4","Jour 5"],"setup":false,"team":"demon"},{"ability":"Vous pensez que vous êtes un Démon, mais vous ne l’êtes pas. Le Démon sait qui vous êtes et qui vous avez attaqué.","edition":"bmr","firstNight":7,"firstNightReminder":"Si 7 joueurs ou plus: Montrez au Lunatique un nombre arbitraire de Sbires. Présenter 3 rôles qui ne sont pas en jeu. Si le jeton Démon reçu par le Lunatique se réveillerait cette nuit: Permettez au Lunatique de faire les actions du Démon. Placez les jetons. Réveillez le Démon. Montrez les jetons attaque, puis pointez sur chaque joueur marqué. Retirez tous les jetons attaque.","id":"fr_FR_lunatic","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true","name":"Lunatique","otherNight":21,"otherNightReminder":"Permettez au Lunatique de faire les actions du Démon. Placez les jetons. Réveillez le Démon. Montrez les jetons attaque, puis pointez sur chaque joueur marqué. Retirez tous les jetons attaque.","reminders":["Attaque 1","Attaque 2","Attaque 3","Autre"],"setup":false,"team":"outsider"},{"ability":"Vous êtes Dément : Ne révélez pas votre vraie nature (Étranger ou Bête de foire), d’aucune façon, sinon c’est possiblement l’exécution.","edition":"snv","firstNight":0,"firstNightReminder":"","id":"fr_FR_mutant","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mutant.png?raw=true","name":"Bête de foire","otherNight":0,"otherNightReminder":"","reminders":[],"setup":false,"team":"outsider"},{"ability":"Chaque jour, visitez le Conteur pour apprendre: une vérité et un mensonge.","edition":"snv","firstNight":0,"firstNightReminder":"","id":"fr_FR_savant","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/savant.png?raw=true","name":"Savant","otherNight":0,"otherNightReminder":"","reminders":[],"setup":false,"team":"townsfolk"},{"ability":"La première nuit, regardez le Grimoire et choisissez un joueur : il est empoisonné. Un joueur « Bon » sait que la Veuve Noire est en jeu.","edition":"","firstNight":18,"firstNightReminder":"Montrez le Grimoire à la Veuve Noire. Elle désigne ensuite un joueur : ce joueur est empoisonné. Réveillez un joueur « Bon ». Montrez la carte cyan « Ce rôle est en jeu » et le jeton de la Veuve Noire.","id":"fr_FR_widow","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/widow.png?raw=true","name":"Veuve Noire","otherNight":0,"otherNightReminder":"","reminders":["Empoisonné"],"remindersGlobal":["Vu"],"setup":false,"team":"minion"}]
+[
+  {
+    "ability": "Vous ne connaissez pas votre capacité. Chaque jour, tentez de la deviner en privé : vous apprenez à quel point vous êtes précis.",
+    "edition": "",
+    "firstNight": 12,
+    "firstNightReminder": "Décidez de la capacité de l'Amnésique. Si sa capacité l'amène à se réveiller la nuit : réveillez l'amnésique et activez sa capacité.",
+    "id": "fr_FR_amnesiac",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/amnesiac.png?raw=true",
+    "name": "Amnesique",
+    "otherNight": 5,
+    "otherNightReminder": "Si la capacité de l'Amnésique l'amène à se réveiller la nuit: Réveillez l'amnésique et activer sa capacité.",
+    "reminders": [
+      "?"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Une fois par partie, pendant la journée, posez une question en privé au Conteur pour recevoir une réponse affirmative ou négative.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_artist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/artist.png?raw=true",
+    "name": "Artiste",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Inactif"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Chaque nuit, vous apprenez 1 joueur de chaque type, jusqu'à ce qu'il n'y ait plus de types à découvrir [+1 Étranger].",
+    "edition": "",
+    "firstNight": 44,
+    "firstNightReminder": "Choisissez un type de rôle. Pointez un joueur dont le rôle est de ce type. Placez le rappel « Vu » de l'Aéronaute sous ce rôle.",
+    "id": "fr_FR_balloonist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/balloonist.png?raw=true",
+    "name": "Aéronaute",
+    "otherNight": 63,
+    "otherNightReminder": "Choisissez un type de rôle que vous n'avez pas encore choisi. Pointez un joueur dont le rôle est de ce type. Placez le rappel « Vu » de l'Aéronaute sous ce rôle.",
+    "reminders": [
+      "Vu Démon",
+      "Vu Sbire",
+      "Vu Villageois",
+      "Vu Voyageur",
+      "Vu Étranger"
+    ],
+    "setup": true,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Chaque nuit*, vous gagnez la capacité du dernier rôle exécuté. Si l'exécuté était maléfique, vous gagnez une capacité au choix du Conteur et vous êtes empoisonné jusqu'à ce qu'un nouveau rôle « bon » soit exécuté.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_cannibal",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cannibal.png?raw=true",
+    "name": "Cannibale",
+    "otherNight": 0,
+    "otherNightReminder": "Si nécessaire, réveiller ce joueur cette nuit selon sa capacité.",
+    "reminders": [
+      "Dernier Exécuté",
+      "Empoisonné"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Une fois par partie, pendant la journée, visitez le Conteur pour obtenir des conseils pour vous aider à gagner.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_fisherman",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fisherman.png?raw=true",
+    "name": "Pêcheur",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Inactif"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Une fois nommé, vous pouvez prétendre publiquement être le Gobelin : si vous êtes exécuté malgré tout, votre équipe gagne.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_goblin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/goblin.png?raw=true",
+    "name": "Gobelin",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Prétendu"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Tous les joueurs savent que vous êtes en jeu. Après 5 jours, le mal gagne. Si plus d'un joueur « bon » est exécuté, les maléfiques gagnent.",
+    "edition": "",
+    "firstNight": 52,
+    "firstNightReminder": "Placez le jeton « Jour 1 » du Léviathan. Annoncer « Le Léviathan est présent parmi vous, c'est son premier jour ».",
+    "id": "fr_FR_leviathan",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/leviathan.png?raw=true",
+    "name": "Léviathan",
+    "otherNight": 72,
+    "otherNightReminder": "Est-ce que deux joueurs « bon » sont morts ou est-ce que le jeton « Jour 5 » du Léviathan est en place, l'équipe maléfique gagne immédiatement. Placez le prochain jeton « Jour n » suivant et annoncer : Le Léviathan est toujours parmi vous, c'est le jour n.",
+    "reminders": [
+      "Bon Exécuté",
+      "Jour 1",
+      "Jour 2",
+      "Jour 3",
+      "Jour 4",
+      "Jour 5"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "Vous pensez que vous êtes un Démon, mais vous ne l’êtes pas. Le Démon sait qui vous êtes et qui vous avez attaqué.",
+    "edition": "bmr",
+    "firstNight": 7,
+    "firstNightReminder": "Si 7 joueurs ou plus: Montrez au Lunatique un nombre arbitraire de Sbires. Présenter 3 rôles qui ne sont pas en jeu. Si le jeton Démon reçu par le Lunatique se réveillerait cette nuit: Permettez au Lunatique de faire les actions du Démon. Placez les jetons. Réveillez le Démon. Montrez les jetons attaque, puis pointez sur chaque joueur marqué. Retirez tous les jetons attaque.",
+    "id": "fr_FR_lunatic",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
+    "name": "Lunatique",
+    "otherNight": 21,
+    "otherNightReminder": "Permettez au Lunatique de faire les actions du Démon. Placez les jetons. Réveillez le Démon. Montrez les jetons attaque, puis pointez sur chaque joueur marqué. Retirez tous les jetons attaque.",
+    "reminders": [
+      "Attaque 1",
+      "Attaque 2",
+      "Attaque 3",
+      "Autre"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Vous êtes Dément : Ne révélez pas votre vraie nature (Étranger ou Bête de foire), d’aucune façon, sinon c’est possiblement l’exécution.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_mutant",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mutant.png?raw=true",
+    "name": "Bête de foire",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Chaque jour, visitez le Conteur pour apprendre: une vérité et un mensonge.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_savant",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/savant.png?raw=true",
+    "name": "Savant",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "La première nuit, regardez le Grimoire et choisissez un joueur : il est empoisonné. Un joueur « Bon » sait que la Veuve Noire est en jeu.",
+    "edition": "",
+    "firstNight": 18,
+    "firstNightReminder": "Montrez le Grimoire à la Veuve Noire. Elle désigne ensuite un joueur : ce joueur est empoisonné. Réveillez un joueur « Bon ». Montrez la carte cyan « Ce rôle est en jeu » et le jeton de la Veuve Noire.",
+    "id": "fr_FR_widow",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/widow.png?raw=true",
+    "name": "Veuve Noire",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Empoisonné"
+    ],
+    "remindersGlobal": [
+      "Vu"
+    ],
+    "setup": false,
+    "team": "minion"
+  }
+]

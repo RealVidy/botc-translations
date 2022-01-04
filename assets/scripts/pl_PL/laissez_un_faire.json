@@ -1,1 +1,189 @@
-[{"ability":"You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are.","edition":"","firstNight":12,"firstNightReminder":"Decide the Amnesiac's entire ability. If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.","id":"pl_PL_amnesiac","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/amnesiac.png?raw=true","name":"Amnesiac","otherNight":5,"otherNightReminder":"If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.","reminders":["?"],"setup":false,"team":"townsfolk"},{"ability":"Once per game, during the day, privately ask the Storyteller any yes/no question.","edition":"snv","firstNight":0,"firstNightReminder":"","id":"pl_PL_artist","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/artist.png?raw=true","name":"Artist","otherNight":0,"otherNightReminder":"","reminders":["No ability"],"setup":false,"team":"townsfolk"},{"ability":"Each night, you learn 1 player of each character type, until there are no more types to learn. [+1 Outsider]","edition":"","firstNight":44,"firstNightReminder":"Choose a character type. Point to a player whose character is of that type. Place the Balloonist's Seen reminder next to that character.","id":"pl_PL_balloonist","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/balloonist.png?raw=true","name":"Balloonist","otherNight":63,"otherNightReminder":"Choose a character type that does not yet have a Seen reminder next to a character of that type. Point to a player whose character is of that type, if there are any. Place the Balloonist's Seen reminder next to that character.","reminders":["Seen Townsfolk","Seen Outsider","Seen Minion","Seen Demon","Seen Traveller"],"setup":true,"team":"townsfolk"},{"ability":"You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.","edition":"","firstNight":0,"firstNightReminder":"","id":"pl_PL_cannibal","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cannibal.png?raw=true","name":"Cannibal","otherNight":0,"otherNightReminder":"","reminders":["Poisoned","Died today"],"setup":false,"team":"townsfolk"},{"ability":"Once per game, during the day, visit the Storyteller for some advice to help you win.","edition":"","firstNight":0,"firstNightReminder":"","id":"pl_PL_fisherman","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fisherman.png?raw=true","name":"Fisherman","otherNight":0,"otherNightReminder":"","reminders":["No ability"],"setup":false,"team":"townsfolk"},{"ability":"If you publicly claim to be the Goblin when nominated & are executed that day, your team wins.","edition":"","firstNight":0,"firstNightReminder":"","id":"pl_PL_goblin","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/goblin.png?raw=true","name":"Goblin","otherNight":0,"otherNightReminder":"","reminders":["Claimed"],"setup":false,"team":"minion"},{"ability":"If more than 1 good player is executed, you win. All players know you are in play. After day 5, evil wins.","edition":"","firstNight":52,"firstNightReminder":"Place the Leviathan 'Day 1' marker. Announce 'The Leviathan is in play; this is Day 1.'","id":"pl_PL_leviathan","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/leviathan.png?raw=true","name":"Leviathan","otherNight":72,"otherNightReminder":"Change the Leviathan Day reminder for the next day.","reminders":["Day 1","Day 2","Day 3","Day 4","Day 5","Good player executed"],"setup":false,"team":"demon"},{"ability":"Myslisz, ze jestes Demonem, ale nie jestes. \n\r\nDemon wie, kim jestes oraz kogo wybierasz noca.","edition":"bmr","firstNight":7,"firstNightReminder":"If 7 or more players: Show the Lunatic 'arbitrary' Information as given in Demon Information. If the token received \n\r\nby the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'ATTACK' \n\r\ntokens. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. \n\r\nIf the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'ATTACK' tokens.","id":"pl_PL_lunatic","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true","name":"Szaleniec","otherNight":21,"otherNightReminder":"Allow the Lunatic to do the actions of the Demon. Place their 'ATTACK' tokens. \n\r\nIf the Lunatic selected players: Wake the Demon. Show the 'ATTACK' token, \n\r\nthen point to each marked player. Remove any Lunatic 'ATTACK' tokens.","reminders":["Attack 1","Attack 2","Attack 3"],"setup":false,"team":"outsider"},{"ability":"If you are “mad” about being an Outsider, you might be executed.","edition":"snv","firstNight":0,"firstNightReminder":"","id":"pl_PL_mutant","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mutant.png?raw=true","name":"Mutant","otherNight":0,"otherNightReminder":"","reminders":[],"setup":false,"team":"outsider"},{"ability":"Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false.","edition":"snv","firstNight":0,"firstNightReminder":"","id":"pl_PL_savant","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/savant.png?raw=true","name":"Savant","otherNight":0,"otherNightReminder":"","reminders":[],"setup":false,"team":"townsfolk"},{"ability":"On your 1st night, look at the Grimoire and choose a player: they are poisoned. 1 good player knows a Widow is in play.","edition":"","firstNight":18,"firstNightReminder":"Show the Grimoire to the Widow for as long as they need. The Widow points to a player. That player is poisoned. Wake a good player. Show the 'These characters are in play' card, then the Widow character token.","id":"pl_PL_widow","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/widow.png?raw=true","name":"Widow","otherNight":0,"otherNightReminder":"","reminders":["Poisoned"],"remindersGlobal":["Knows"],"setup":false,"team":"minion"}]
+[
+  {
+    "ability": "You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are.",
+    "edition": "",
+    "firstNight": 12,
+    "firstNightReminder": "Decide the Amnesiac's entire ability. If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
+    "id": "pl_PL_amnesiac",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/amnesiac.png?raw=true",
+    "name": "Amnesiac",
+    "otherNight": 5,
+    "otherNightReminder": "If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
+    "reminders": [
+      "?"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Once per game, during the day, privately ask the Storyteller any yes/no question.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_artist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/artist.png?raw=true",
+    "name": "Artist",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "No ability"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Each night, you learn 1 player of each character type, until there are no more types to learn. [+1 Outsider]",
+    "edition": "",
+    "firstNight": 44,
+    "firstNightReminder": "Choose a character type. Point to a player whose character is of that type. Place the Balloonist's Seen reminder next to that character.",
+    "id": "pl_PL_balloonist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/balloonist.png?raw=true",
+    "name": "Balloonist",
+    "otherNight": 63,
+    "otherNightReminder": "Choose a character type that does not yet have a Seen reminder next to a character of that type. Point to a player whose character is of that type, if there are any. Place the Balloonist's Seen reminder next to that character.",
+    "reminders": [
+      "Seen Townsfolk",
+      "Seen Outsider",
+      "Seen Minion",
+      "Seen Demon",
+      "Seen Traveller"
+    ],
+    "setup": true,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_cannibal",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cannibal.png?raw=true",
+    "name": "Cannibal",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Poisoned",
+      "Died today"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Once per game, during the day, visit the Storyteller for some advice to help you win.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_fisherman",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fisherman.png?raw=true",
+    "name": "Fisherman",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "No ability"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "If you publicly claim to be the Goblin when nominated & are executed that day, your team wins.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_goblin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/goblin.png?raw=true",
+    "name": "Goblin",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Claimed"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "If more than 1 good player is executed, you win. All players know you are in play. After day 5, evil wins.",
+    "edition": "",
+    "firstNight": 52,
+    "firstNightReminder": "Place the Leviathan 'Day 1' marker. Announce 'The Leviathan is in play; this is Day 1.'",
+    "id": "pl_PL_leviathan",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/leviathan.png?raw=true",
+    "name": "Leviathan",
+    "otherNight": 72,
+    "otherNightReminder": "Change the Leviathan Day reminder for the next day.",
+    "reminders": [
+      "Day 1",
+      "Day 2",
+      "Day 3",
+      "Day 4",
+      "Day 5",
+      "Good player executed"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "Myslisz, ze jestes Demonem, ale nie jestes. \n\r\nDemon wie, kim jestes oraz kogo wybierasz noca.",
+    "edition": "bmr",
+    "firstNight": 7,
+    "firstNightReminder": "If 7 or more players: Show the Lunatic 'arbitrary' Information as given in Demon Information. If the token received \n\r\nby the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'ATTACK' \n\r\ntokens. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. \n\r\nIf the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'ATTACK' tokens.",
+    "id": "pl_PL_lunatic",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
+    "name": "Szaleniec",
+    "otherNight": 21,
+    "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'ATTACK' tokens. \n\r\nIf the Lunatic selected players: Wake the Demon. Show the 'ATTACK' token, \n\r\nthen point to each marked player. Remove any Lunatic 'ATTACK' tokens.",
+    "reminders": [
+      "Attack 1",
+      "Attack 2",
+      "Attack 3"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "If you are “mad” about being an Outsider, you might be executed.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_mutant",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mutant.png?raw=true",
+    "name": "Mutant",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_savant",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/savant.png?raw=true",
+    "name": "Savant",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "On your 1st night, look at the Grimoire and choose a player: they are poisoned. 1 good player knows a Widow is in play.",
+    "edition": "",
+    "firstNight": 18,
+    "firstNightReminder": "Show the Grimoire to the Widow for as long as they need. The Widow points to a player. That player is poisoned. Wake a good player. Show the 'These characters are in play' card, then the Widow character token.",
+    "id": "pl_PL_widow",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/widow.png?raw=true",
+    "name": "Widow",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Poisoned"
+    ],
+    "remindersGlobal": [
+      "Knows"
+    ],
+    "setup": false,
+    "team": "minion"
+  }
+]

@@ -1,1 +1,486 @@
-[{"ability":"Первой ночью вы получаете способность какого-либо Горожанина (если вы добрый) или Приспешника (если злой).","edition":"bmr","firstNight":1,"firstNightReminder":"Покажите Подмастерью карточку \"Вы являетесь\", затем жетон Горожанина или Приспешника. Замените жетон Подмастерья в гримуаре жетоном этой роли, а рядом поместите напоминающий жетон \"Подмастерье\".","id":"ru_RU_apprentice","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/apprentice.png?raw=true","name":"Подмастерье","otherNight":0,"otherNightReminder":"","reminders":["Подмастерье"],"setup":false,"team":"traveler"},{"ability":"Один раз за игру, ночью*, можете выбрать игрока. Этот игрок умрет, даже если по какой-то причине не должен был.","edition":"bmr","firstNight":0,"firstNightReminder":"","id":"ru_RU_assassin","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/assassin.png?raw=true","name":"Киллер","otherNight":37,"otherNightReminder":"Если Киллер еще не применял свою способность: Киллер качанием головы отказывается действовать или указывает на игрока. Тот игрок умирает.","reminders":["Истрачено","Мертв"],"setup":false,"team":"minion"},{"ability":"Выдвигать игроков может только Рассказчик. Каждый день должен быть выдвинут хотя бы 1 игрок из команды, противоположной вашей.","edition":"bmr","firstNight":0,"firstNightReminder":"","id":"ru_RU_bishop","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bishop.png?raw=true","name":"Епископ","otherNight":0,"otherNightReminder":"","reminders":["Выдвинуть доброго","Выдвинуть злого"],"setup":false,"team":"traveler"},{"ability":"Каждой ночью выберите 2 живых игроков (кроме себя): вы узнаете, сколько из них проснулось этой ночью в результате действия своей способности.","edition":"bmr","firstNight":49,"firstNightReminder":"Горничная указывает на двух игроков. Покажите число (0, 1, 2...), равное количеству игроков среди этих двух, которые этой ночью проснулись благодаря своей способности.","id":"ru_RU_chambermaid","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chambermaid.png?raw=true","name":"Горничная","otherNight":69,"otherNightReminder":"Горничная указывает на двух игроков. Покажите число (0, 1, 2...), равное количеству игроков среди этих двух, которые этой ночью проснулись благодаря своей способности.","reminders":[],"setup":false,"team":"townsfolk"},{"ability":"Один раз за игру ночью вы можете выбрать роль: ее владелец станет пьян на 3 ночи и 3 дня.","edition":"bmr","firstNight":19,"firstNightReminder":"Льстец либо качанием головы отказывается действовать, либо указывает на роль в списке. Если Льстец применил способность и выбранная роль находится в игре, ее владелец становится пьян.","id":"ru_RU_courtier","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/courtier.png?raw=true","name":"Льстец","otherNight":10,"otherNightReminder":"Уменьшите счетчик дней рядом с помеченным пьяным игроком на 1. Если Льстец еще не применял способность: Льстец либо качанием головы отказывается действовать, либо указывает на роль в списке. Если Льстец применил способность и выбранная роль находится в игре, ее владелец становится пьян.","reminders":["Истрачено","Пьян 1","Пьян 2","Пьян 3"],"setup":false,"team":"townsfolk"},{"ability":"Каждой ночью выберите живого игрока (не того же, что в прошлый раз). Назавтра этот игрок не может умереть от казни.","edition":"bmr","firstNight":22,"firstNightReminder":"Адвокат дьявола указывает на живого игрока. Этот игрок назавтра не умирает от казни.","id":"ru_RU_devilsadvocate","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/devilsadvocate.png?raw=true","name":"Адвокат дьявола","otherNight":14,"otherNightReminder":"Адвокат дьявола указывает на живого игрока (не того же, которого выбирал прошлой ночью). Этот игрок назавтра не умирает от казни.","reminders":["Переживает казнь"],"setup":false,"team":"minion"},{"ability":"Каждой ночью* выберите игрока (не того же, что прошлой ночью). Если это был Демон, то он узнает вашу роль и личность, но этой ночью больше не просыпается.","edition":"bmr","firstNight":0,"firstNightReminder":"","id":"ru_RU_exorcist","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/exorcist.png?raw=true","name":"Экзорцист","otherNight":22,"otherNightReminder":"Экзорцист указывает на игрока (не того же, которого выбирал прошлой ночью). Если этот игрок - Демон: разбудите Демона. Покажите ему жетон Экзорциста. Укажите на Экзорциста. Этой ночью Демон не сможет действовать.","reminders":["Выбран"],"setup":false,"team":"townsfolk"},{"ability":"Когда вы должны умереть в первый раз, вы не умираете.","edition":"bmr","firstNight":0,"firstNightReminder":"","id":"ru_RU_fool","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fool.png?raw=true","name":"Шут","otherNight":0,"otherNightReminder":"","reminders":["Истрачено"],"setup":false,"team":"townsfolk"},{"ability":"Каждой ночью* выберите игрока и попробуйте угадать его роль. Если вы угадали неправильно, то умираете.","edition":"bmr","firstNight":0,"firstNightReminder":"","id":"ru_RU_gambler","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gambler.png?raw=true","name":"Игрок","otherNight":11,"otherNightReminder":"Игрок указывает на игрока, а затем на роль в списке. Если догадка неверная, Игрок умирает.","reminders":["Мертв"],"setup":false,"team":"townsfolk"},{"ability":"Вы начинаете игру, зная, какие Изгои присутствуют в игре. Если днем умирает Изгой, ночью выберите игрока: он умирает. [-1 или +1 Изгой]","edition":"bmr","firstNight":21,"firstNightReminder":"Покажите Крестному отцу все жетоны Изгоев, присутствующих в игре.","id":"ru_RU_godfather","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/godfather.png?raw=true","name":"Крестный отец","otherNight":38,"otherNightReminder":"Если сегодня умер Изгой: Крестный отец указывает на игрока. Этот игрок умирает.","reminders":["Мертв","Умер сегодня"],"setup":true,"team":"minion"},{"ability":"Каждой ночью первый игрок, выбравший вас своей способностью, становится пьян до заката. Вы переходите на его сторону.","edition":"bmr","firstNight":0,"firstNightReminder":"","id":"ru_RU_goon","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/goon.png?raw=true","name":"Вышибала","otherNight":0,"otherNightReminder":"","reminders":["Пьян"],"setup":false,"team":"outsider"},{"ability":"Каждый день вы можете открыто сделать некое заявление. Ночью, если заявление было истинным, кто-то из игроков умирает.","edition":"bmr","firstNight":0,"firstNightReminder":"","id":"ru_RU_gossip","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gossip.png?raw=true","name":"Сплетник","otherNight":47,"otherNightReminder":"Если открытое заявление Сплетника было истинным: выберите игрока, который этой ночью не защищен от смерти. Этот игрок умирает.","reminders":["Мертв"],"setup":false,"team":"townsfolk"},{"ability":"Вы начинаете игру, зная личность и роль одного из добрых игроков. Если этого игрока убивает Демон, вы тоже умираете.","edition":"bmr","firstNight":39,"firstNightReminder":"Покажите помеченный жетон роли. Укажите на помеченного игрока.","id":"ru_RU_grandmother","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/grandmother.png?raw=true","name":"Бабуля","otherNight":50,"otherNightReminder":"Если внук Бабули был убит Демоном этой ночью: Бабуля умирает.","reminders":["Внук"],"setup":false,"team":"townsfolk"},{"ability":"Каждой ночью* выберите 2 игроков: этой ночью они не могут умереть, но 1 из них станет пьян до заката.","edition":"bmr","firstNight":0,"firstNightReminder":"","id":"ru_RU_innkeeper","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/innkeeper.png?raw=true","name":"Трактирщик","otherNight":9,"otherNightReminder":"Снимите маркеры с игроков, защищенных и опьяневших ранее. Трактирщик указывает на двух игроков. Оба они защищены. Один из них пьян.","reminders":["Защищен","Пьян"],"setup":false,"team":"townsfolk"},{"ability":"Один раз за игру вы можете отменить или автоматически утвердить текущую казнь, если жертву выдвинули не вы.","edition":"bmr","firstNight":0,"firstNightReminder":"","id":"ru_RU_judge","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/judge.png?raw=true","name":"Судья","otherNight":0,"otherNightReminder":"","reminders":["Истрачено"],"setup":false,"team":"traveler"},{"ability":"Вам кажется, что вы - Демон, но это не так. Настоящий Демон знает, кто вы и кого вы выбираете ночью.","edition":"bmr","firstNight":7,"firstNightReminder":"Если 7 или больше игроков: укажите Безумцу на столько любых игроков, сколько Приспешников должно быть в игре. Покажите ему 3 любых жетона добрых ролей. Если Безумцу достался жетон Демона, который просыпается этой ночью: позвольте Безумцу совершить действия этого Демона. Разместите жетоны \"Атака\" соответствующим образом. Разбудите Демона, покажите ему жетон его настоящей роли Демона, затем укажите на игрока-Безумца. Если Безумец атаковал игроков: укажите настоящему Демону на атакованных игроков. Уберите жетоны \"Атака\".","id":"ru_RU_lunatic","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true","name":"Безумец","otherNight":21,"otherNightReminder":"Позвольте Безумцу совершить действия Демона. Разместите жетоны \"Атака\" соответствующим образом. Если Безумец атаковал игроков: разбудите Демона, покажите ему жетон \"Атака\", затем укажите на атакованных игроков. Уберите жетоны \"Атака\".","reminders":["Атака 1","Атака 2","Атака 3"],"setup":false,"team":"outsider"},{"ability":"Если Демон убит на казни и игра должна завершиться, продолжайте играть еще 1 день. Если в этот день казнят игрока, команда казненного проигрывает.","edition":"bmr","firstNight":0,"firstNightReminder":"","id":"ru_RU_mastermind","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mastermind.png?raw=true","name":"Кукловод","otherNight":0,"otherNightReminder":"","reminders":[],"setup":false,"team":"minion"},{"ability":"Каждый день вы можете заставить до 3 игроков поменяться с кем-либо местами. Игроки не могут вставать с места для тайного общения.","edition":"bmr","firstNight":0,"firstNightReminder":"","id":"ru_RU_matron","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/matron.png?raw=true","name":"Матрона","otherNight":0,"otherNightReminder":"","reminders":[],"setup":false,"team":"traveler"},{"ability":"Когда Приспешника убивают на казни, все остальные игрока (кроме Странников) становятся пьяными до конца завтрашнего дня.","edition":"bmr","firstNight":0,"firstNightReminder":"","id":"ru_RU_minstrel","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minstrel.png?raw=true","name":"Менестрель","otherNight":0,"otherNightReminder":"","reminders":["Все пьяны"],"setup":false,"team":"townsfolk"},{"ability":"Когда вы узнаете, что умерли, открыто укажите на 1 живого игрока. Если этот игрок добрый, ночью он умрет.","edition":"bmr","firstNight":0,"firstNightReminder":"","id":"ru_RU_moonchild","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/moonchild.png?raw=true","name":"Дитя луны","otherNight":49,"otherNightReminder":"Если Дитя луны применил способность и указал на игрока: если тот игрок добрый, он умирает.","reminders":["Мертв"],"setup":false,"team":"outsider"},{"ability":"Казненные добрые игроки иногда не умирают.","edition":"bmr","firstNight":0,"firstNightReminder":"","id":"ru_RU_pacifist","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pacifist.png?raw=true","name":"Пацифист","otherNight":0,"otherNightReminder":"","reminders":[],"setup":false,"team":"townsfolk"},{"ability":"Каждой ночью* можете выбрать игрока: этот игрок умирает. Если прошлой ночью вы не стали выбирать, то этой ночью можете выбрать 3 игроков.","edition":"bmr","firstNight":0,"firstNightReminder":"","id":"ru_RU_po","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/po.png?raw=true","name":"По","otherNight":28,"otherNightReminder":"Если По не стал выбирать прошлой ночью: По указывает на трех игроков. Иначе: По либо качанием головы отказывается действовать, либо указывает на игрока. Выбранные игроки умирают.","reminders":["3 атаки","Мертв"],"setup":false,"team":"demon"},{"ability":"Один раз за игру, ночью*, выберите мертвого игрока. Если это Горожанин, он воскресает.","edition":"bmr","firstNight":0,"firstNightReminder":"","id":"ru_RU_professor","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/professor.png?raw=true","name":"Профессор","otherNight":45,"otherNightReminder":"Если Профессор не применял способность: Профессор либо качанием головы отказывается действовать, либо указывает на игрока. Если этот игрок - Горожанин, он оживает.","reminders":["Жив","Истрачено"],"setup":false,"team":"townsfolk"},{"ability":"Каждой ночью выберите игрока: он становится отравлен. Отравленный вами ранее игрок умирает, затем становится здоров.","edition":"bmr","firstNight":28,"firstNightReminder":"Пукка указывает на игрока. Этот игрок отравлен.","id":"ru_RU_pukka","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pukka.png?raw=true","name":"Пукка","otherNight":26,"otherNightReminder":"Пукка указывает на игрока. Этот игрок отравлен. Ранее отравленный игрок умирает.","reminders":["Мертв","Отравлен"],"setup":false,"team":"demon"},{"ability":"Каждой ночью выберите живого игрока: один из вас пьянеет до заката. Вы не можете умереть.","edition":"bmr","firstNight":10,"firstNightReminder":"Моряк указывает на игрока. Либо Моряк, либо выбранный игрок становится пьян.","id":"ru_RU_sailor","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sailor.png?raw=true","name":"Моряк","otherNight":4,"otherNightReminder":"Ранее опьяневший игрок трезвеет. Моряк указывает на игрока. Либо Моряк, либо выбранный игрок становится пьян.","reminders":["Пьян"],"setup":false,"team":"townsfolk"},{"ability":"Каждой ночью* выберите 2 игроков: они умирают. Один из мертвых игроков, выбранных прошлой ночью, иногда оживает.","edition":"bmr","firstNight":0,"firstNightReminder":"","id":"ru_RU_shabaloth","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/shabaloth.png?raw=true","name":"Шабалот","otherNight":27,"otherNightReminder":"Один игрок, выбранный Шабалотом прошлой ночью, может быть воскрешен. Шабалот указывает на двух игроков. Эти игроки умирают.","reminders":["Жив","Мертв"],"setup":false,"team":"demon"},{"ability":"Если оба ваших живых соседа - добрые, они не могут умереть.","edition":"bmr","firstNight":0,"firstNightReminder":"","id":"ru_RU_tealady","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/tealady.png?raw=true","name":"Чаевница","otherNight":0,"otherNightReminder":"","reminders":["Не может умереть"],"setup":false,"team":"townsfolk"},{"ability":"Иногда вы можете умереть просто так.","edition":"bmr","firstNight":0,"firstNightReminder":"","id":"ru_RU_tinker","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/tinker.png?raw=true","name":"Умелец","otherNight":48,"otherNightReminder":"Умелец может умереть.","reminders":["Мертв"],"setup":false,"team":"outsider"},{"ability":"Голосовать можете только вы и мертвые игроки (и жетон голоса им для этого не требуется). Для осуждения не нужно 50-процентное большинство.","edition":"bmr","firstNight":0,"firstNightReminder":"","id":"ru_RU_voudon","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/voudon.png?raw=true","name":"Шаман","otherNight":0,"otherNightReminder":"","reminders":[],"setup":false,"team":"traveler"},{"ability":"Каждой ночью*, если этим днем никто не умер, выберите игрока: он умирает. Когда вы умираете в первый раз, то остаетесь в живых, но представляетесь мертвым.","edition":"bmr","firstNight":0,"firstNightReminder":"","id":"ru_RU_zombuul","image":"https://github.com/bra1n/townsquare/blob/main/src/assets/icons/zombuul.png?raw=true","name":"Зомбул","otherNight":25,"otherNightReminder":"Если никто не умер днем: Зомбул указывает на игрока. Этот игрок умирает.","reminders":["Мертв","Умер сегодня"],"setup":false,"team":"demon"}]
+[
+  {
+    "ability": "Первой ночью вы получаете способность какого-либо Горожанина (если вы добрый) или Приспешника (если злой).",
+    "edition": "bmr",
+    "firstNight": 1,
+    "firstNightReminder": "Покажите Подмастерью карточку \"Вы являетесь\", затем жетон Горожанина или Приспешника. Замените жетон Подмастерья в гримуаре жетоном этой роли, а рядом поместите напоминающий жетон \"Подмастерье\".",
+    "id": "ru_RU_apprentice",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/apprentice.png?raw=true",
+    "name": "Подмастерье",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Подмастерье"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Один раз за игру, ночью*, можете выбрать игрока. Этот игрок умрет, даже если по какой-то причине не должен был.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_assassin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/assassin.png?raw=true",
+    "name": "Киллер",
+    "otherNight": 37,
+    "otherNightReminder": "Если Киллер еще не применял свою способность: Киллер качанием головы отказывается действовать или указывает на игрока. Тот игрок умирает.",
+    "reminders": [
+      "Истрачено",
+      "Мертв"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Выдвигать игроков может только Рассказчик. Каждый день должен быть выдвинут хотя бы 1 игрок из команды, противоположной вашей.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_bishop",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bishop.png?raw=true",
+    "name": "Епископ",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Выдвинуть доброго",
+      "Выдвинуть злого"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Каждой ночью выберите 2 живых игроков (кроме себя): вы узнаете, сколько из них проснулось этой ночью в результате действия своей способности.",
+    "edition": "bmr",
+    "firstNight": 49,
+    "firstNightReminder": "Горничная указывает на двух игроков. Покажите число (0, 1, 2...), равное количеству игроков среди этих двух, которые этой ночью проснулись благодаря своей способности.",
+    "id": "ru_RU_chambermaid",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chambermaid.png?raw=true",
+    "name": "Горничная",
+    "otherNight": 69,
+    "otherNightReminder": "Горничная указывает на двух игроков. Покажите число (0, 1, 2...), равное количеству игроков среди этих двух, которые этой ночью проснулись благодаря своей способности.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Один раз за игру ночью вы можете выбрать роль: ее владелец станет пьян на 3 ночи и 3 дня.",
+    "edition": "bmr",
+    "firstNight": 19,
+    "firstNightReminder": "Льстец либо качанием головы отказывается действовать, либо указывает на роль в списке. Если Льстец применил способность и выбранная роль находится в игре, ее владелец становится пьян.",
+    "id": "ru_RU_courtier",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/courtier.png?raw=true",
+    "name": "Льстец",
+    "otherNight": 10,
+    "otherNightReminder": "Уменьшите счетчик дней рядом с помеченным пьяным игроком на 1. Если Льстец еще не применял способность: Льстец либо качанием головы отказывается действовать, либо указывает на роль в списке. Если Льстец применил способность и выбранная роль находится в игре, ее владелец становится пьян.",
+    "reminders": [
+      "Истрачено",
+      "Пьян 1",
+      "Пьян 2",
+      "Пьян 3"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Каждой ночью выберите живого игрока (не того же, что в прошлый раз). Назавтра этот игрок не может умереть от казни.",
+    "edition": "bmr",
+    "firstNight": 22,
+    "firstNightReminder": "Адвокат дьявола указывает на живого игрока. Этот игрок назавтра не умирает от казни.",
+    "id": "ru_RU_devilsadvocate",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/devilsadvocate.png?raw=true",
+    "name": "Адвокат дьявола",
+    "otherNight": 14,
+    "otherNightReminder": "Адвокат дьявола указывает на живого игрока (не того же, которого выбирал прошлой ночью). Этот игрок назавтра не умирает от казни.",
+    "reminders": [
+      "Переживает казнь"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Каждой ночью* выберите игрока (не того же, что прошлой ночью). Если это был Демон, то он узнает вашу роль и личность, но этой ночью больше не просыпается.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_exorcist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/exorcist.png?raw=true",
+    "name": "Экзорцист",
+    "otherNight": 22,
+    "otherNightReminder": "Экзорцист указывает на игрока (не того же, которого выбирал прошлой ночью). Если этот игрок - Демон: разбудите Демона. Покажите ему жетон Экзорциста. Укажите на Экзорциста. Этой ночью Демон не сможет действовать.",
+    "reminders": [
+      "Выбран"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Когда вы должны умереть в первый раз, вы не умираете.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_fool",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fool.png?raw=true",
+    "name": "Шут",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Истрачено"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Каждой ночью* выберите игрока и попробуйте угадать его роль. Если вы угадали неправильно, то умираете.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_gambler",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gambler.png?raw=true",
+    "name": "Игрок",
+    "otherNight": 11,
+    "otherNightReminder": "Игрок указывает на игрока, а затем на роль в списке. Если догадка неверная, Игрок умирает.",
+    "reminders": [
+      "Мертв"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Вы начинаете игру, зная, какие Изгои присутствуют в игре. Если днем умирает Изгой, ночью выберите игрока: он умирает. [-1 или +1 Изгой]",
+    "edition": "bmr",
+    "firstNight": 21,
+    "firstNightReminder": "Покажите Крестному отцу все жетоны Изгоев, присутствующих в игре.",
+    "id": "ru_RU_godfather",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/godfather.png?raw=true",
+    "name": "Крестный отец",
+    "otherNight": 38,
+    "otherNightReminder": "Если сегодня умер Изгой: Крестный отец указывает на игрока. Этот игрок умирает.",
+    "reminders": [
+      "Мертв",
+      "Умер сегодня"
+    ],
+    "setup": true,
+    "team": "minion"
+  },
+  {
+    "ability": "Каждой ночью первый игрок, выбравший вас своей способностью, становится пьян до заката. Вы переходите на его сторону.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_goon",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/goon.png?raw=true",
+    "name": "Вышибала",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Пьян"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Каждый день вы можете открыто сделать некое заявление. Ночью, если заявление было истинным, кто-то из игроков умирает.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_gossip",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gossip.png?raw=true",
+    "name": "Сплетник",
+    "otherNight": 47,
+    "otherNightReminder": "Если открытое заявление Сплетника было истинным: выберите игрока, который этой ночью не защищен от смерти. Этот игрок умирает.",
+    "reminders": [
+      "Мертв"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Вы начинаете игру, зная личность и роль одного из добрых игроков. Если этого игрока убивает Демон, вы тоже умираете.",
+    "edition": "bmr",
+    "firstNight": 39,
+    "firstNightReminder": "Покажите помеченный жетон роли. Укажите на помеченного игрока.",
+    "id": "ru_RU_grandmother",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/grandmother.png?raw=true",
+    "name": "Бабуля",
+    "otherNight": 50,
+    "otherNightReminder": "Если внук Бабули был убит Демоном этой ночью: Бабуля умирает.",
+    "reminders": [
+      "Внук"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Каждой ночью* выберите 2 игроков: этой ночью они не могут умереть, но 1 из них станет пьян до заката.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_innkeeper",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/innkeeper.png?raw=true",
+    "name": "Трактирщик",
+    "otherNight": 9,
+    "otherNightReminder": "Снимите маркеры с игроков, защищенных и опьяневших ранее. Трактирщик указывает на двух игроков. Оба они защищены. Один из них пьян.",
+    "reminders": [
+      "Защищен",
+      "Пьян"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Один раз за игру вы можете отменить или автоматически утвердить текущую казнь, если жертву выдвинули не вы.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_judge",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/judge.png?raw=true",
+    "name": "Судья",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Истрачено"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Вам кажется, что вы - Демон, но это не так. Настоящий Демон знает, кто вы и кого вы выбираете ночью.",
+    "edition": "bmr",
+    "firstNight": 7,
+    "firstNightReminder": "Если 7 или больше игроков: укажите Безумцу на столько любых игроков, сколько Приспешников должно быть в игре. Покажите ему 3 любых жетона добрых ролей. Если Безумцу достался жетон Демона, который просыпается этой ночью: позвольте Безумцу совершить действия этого Демона. Разместите жетоны \"Атака\" соответствующим образом. Разбудите Демона, покажите ему жетон его настоящей роли Демона, затем укажите на игрока-Безумца. Если Безумец атаковал игроков: укажите настоящему Демону на атакованных игроков. Уберите жетоны \"Атака\".",
+    "id": "ru_RU_lunatic",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
+    "name": "Безумец",
+    "otherNight": 21,
+    "otherNightReminder": "Позвольте Безумцу совершить действия Демона. Разместите жетоны \"Атака\" соответствующим образом. Если Безумец атаковал игроков: разбудите Демона, покажите ему жетон \"Атака\", затем укажите на атакованных игроков. Уберите жетоны \"Атака\".",
+    "reminders": [
+      "Атака 1",
+      "Атака 2",
+      "Атака 3"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Если Демон убит на казни и игра должна завершиться, продолжайте играть еще 1 день. Если в этот день казнят игрока, команда казненного проигрывает.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_mastermind",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mastermind.png?raw=true",
+    "name": "Кукловод",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Каждый день вы можете заставить до 3 игроков поменяться с кем-либо местами. Игроки не могут вставать с места для тайного общения.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_matron",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/matron.png?raw=true",
+    "name": "Матрона",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Когда Приспешника убивают на казни, все остальные игрока (кроме Странников) становятся пьяными до конца завтрашнего дня.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_minstrel",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minstrel.png?raw=true",
+    "name": "Менестрель",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Все пьяны"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Когда вы узнаете, что умерли, открыто укажите на 1 живого игрока. Если этот игрок добрый, ночью он умрет.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_moonchild",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/moonchild.png?raw=true",
+    "name": "Дитя луны",
+    "otherNight": 49,
+    "otherNightReminder": "Если Дитя луны применил способность и указал на игрока: если тот игрок добрый, он умирает.",
+    "reminders": [
+      "Мертв"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Казненные добрые игроки иногда не умирают.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_pacifist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pacifist.png?raw=true",
+    "name": "Пацифист",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Каждой ночью* можете выбрать игрока: этот игрок умирает. Если прошлой ночью вы не стали выбирать, то этой ночью можете выбрать 3 игроков.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_po",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/po.png?raw=true",
+    "name": "По",
+    "otherNight": 28,
+    "otherNightReminder": "Если По не стал выбирать прошлой ночью: По указывает на трех игроков. Иначе: По либо качанием головы отказывается действовать, либо указывает на игрока. Выбранные игроки умирают.",
+    "reminders": [
+      "3 атаки",
+      "Мертв"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "Один раз за игру, ночью*, выберите мертвого игрока. Если это Горожанин, он воскресает.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_professor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/professor.png?raw=true",
+    "name": "Профессор",
+    "otherNight": 45,
+    "otherNightReminder": "Если Профессор не применял способность: Профессор либо качанием головы отказывается действовать, либо указывает на игрока. Если этот игрок - Горожанин, он оживает.",
+    "reminders": [
+      "Жив",
+      "Истрачено"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Каждой ночью выберите игрока: он становится отравлен. Отравленный вами ранее игрок умирает, затем становится здоров.",
+    "edition": "bmr",
+    "firstNight": 28,
+    "firstNightReminder": "Пукка указывает на игрока. Этот игрок отравлен.",
+    "id": "ru_RU_pukka",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pukka.png?raw=true",
+    "name": "Пукка",
+    "otherNight": 26,
+    "otherNightReminder": "Пукка указывает на игрока. Этот игрок отравлен. Ранее отравленный игрок умирает.",
+    "reminders": [
+      "Мертв",
+      "Отравлен"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "Каждой ночью выберите живого игрока: один из вас пьянеет до заката. Вы не можете умереть.",
+    "edition": "bmr",
+    "firstNight": 10,
+    "firstNightReminder": "Моряк указывает на игрока. Либо Моряк, либо выбранный игрок становится пьян.",
+    "id": "ru_RU_sailor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sailor.png?raw=true",
+    "name": "Моряк",
+    "otherNight": 4,
+    "otherNightReminder": "Ранее опьяневший игрок трезвеет. Моряк указывает на игрока. Либо Моряк, либо выбранный игрок становится пьян.",
+    "reminders": [
+      "Пьян"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Каждой ночью* выберите 2 игроков: они умирают. Один из мертвых игроков, выбранных прошлой ночью, иногда оживает.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_shabaloth",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/shabaloth.png?raw=true",
+    "name": "Шабалот",
+    "otherNight": 27,
+    "otherNightReminder": "Один игрок, выбранный Шабалотом прошлой ночью, может быть воскрешен. Шабалот указывает на двух игроков. Эти игроки умирают.",
+    "reminders": [
+      "Жив",
+      "Мертв"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "Если оба ваших живых соседа - добрые, они не могут умереть.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_tealady",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/tealady.png?raw=true",
+    "name": "Чаевница",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Не может умереть"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Иногда вы можете умереть просто так.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_tinker",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/tinker.png?raw=true",
+    "name": "Умелец",
+    "otherNight": 48,
+    "otherNightReminder": "Умелец может умереть.",
+    "reminders": [
+      "Мертв"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Голосовать можете только вы и мертвые игроки (и жетон голоса им для этого не требуется). Для осуждения не нужно 50-процентное большинство.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_voudon",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/voudon.png?raw=true",
+    "name": "Шаман",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Каждой ночью*, если этим днем никто не умер, выберите игрока: он умирает. Когда вы умираете в первый раз, то остаетесь в живых, но представляетесь мертвым.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_zombuul",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/zombuul.png?raw=true",
+    "name": "Зомбул",
+    "otherNight": 25,
+    "otherNightReminder": "Если никто не умер днем: Зомбул указывает на игрока. Этот игрок умирает.",
+    "reminders": [
+      "Мертв",
+      "Умер сегодня"
+    ],
+    "setup": false,
+    "team": "demon"
+  }
+]
