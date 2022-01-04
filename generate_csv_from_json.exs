@@ -30,7 +30,7 @@ defmodule GenerateCsvFromJson do
       end)
 
     # Write to csv
-    csv_path = "assets/generated_csv/#{locale}.csv"
+    csv_path = "assets/csv/#{locale}.csv"
 
     file =
       File.open!(csv_path, [

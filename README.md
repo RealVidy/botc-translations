@@ -2,7 +2,7 @@
 
 This repo contains scripts to generate JSON files for use on [clocktower.online](https://clocktower.online/) or [Nara](https://nara.fly.dev/) as well as CSV files for the google sheet in which we keep translations for abilities, names, and various reminders.
 
-You can find already generated JSON files in [assets/generated_json](assets/generated_json) and the google sheet is [here](https://docs.google.com/spreadsheets/d/183HMp4ZgslxA4NtFVTXhY3xAbg7FIXZdmVnh9-4A_14/edit#gid=923580658).
+You can find already generated JSON files in [assets/json](assets/json) and the google sheet is [here](https://docs.google.com/spreadsheets/d/183HMp4ZgslxA4NtFVTXhY3xAbg7FIXZdmVnh9-4A_14/edit#gid=923580658).
 
 The language we use is Elixir (see how to [install](https://elixir-lang.org/install.html#macos) it).
 
@@ -24,11 +24,11 @@ Once we have the CSV file for our language, we can run a script that will genera
 mix run generate_json_from_csv.exs assets/csv/<LOCALE>.csv
 ```
 
-The result will be at `assets/generated_json/roles_<LOCALE>.json`
+The result will be at `assets/json/<LOCALE>.json`
 
 Try it out with the french file: 
 ```bash
-mix run generate_json_from_csv.exs assets/csv/fr_fr.csv
+mix run generate_json_from_csv.exs assets/csv/fr_FR.csv
 ```
 
 ### From JSON to CSV
@@ -39,11 +39,11 @@ If you already have the JSON file containing all roles for your language, then y
 mix run generate_csv_from_json.exs assets/json/<LOCALE>.json
 ```
 
-The result will be at `assets/generated_csv/<LOCALE>.csv`
+The result will be at `assets/csv/<LOCALE>.csv`
 
 Try it out with the english file: 
 ```bash
-mix run generate_csv_from_json.exs assets/json/en.json
+mix run generate_csv_from_json.exs assets/json/en_UK.json
 ```
 
 ## Using the generated JSON

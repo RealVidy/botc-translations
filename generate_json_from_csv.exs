@@ -49,7 +49,7 @@ defmodule GenerateJsonFromCsv do
 
     # Load roles from clocktower.online's roles.json file (https://github.com/bra1n/townsquare/blob/develop/src/roles.json). We use this to automatically add data like night order and teams to the translations. "co" stands for clocktower.online.
     co_roles =
-      "assets/json/en.json"
+      "assets/json/en_UK.json"
       |> File.read!()
       |> Jason.decode!()
       |> Enum.reduce(%{}, fn co_role, acc ->
@@ -73,7 +73,7 @@ defmodule GenerateJsonFromCsv do
 
     result_json = Jason.encode!(merged_with_all_co_roles)
 
-    json_path = "assets/generated_json/roles_#{locale}.json"
+    json_path = "assets/json/#{locale}.json"
     File.write!(json_path, result_json)
 
     Logger.info("File generated at: #{json_path}\n")
