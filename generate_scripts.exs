@@ -6,6 +6,7 @@ require Logger
 
 defmodule GenerateScripts do
   @path_to_scripts "assets/scripts"
+  @path_to_script_definitions "assets/script_definitions"
   @path_to_json_roles "assets/json"
 
   # Main function
@@ -17,7 +18,7 @@ defmodule GenerateScripts do
         Path.rootname(path)
       end)
 
-    script_paths = Path.wildcard("#{@path_to_scripts}/*.json")
+    script_paths = Path.wildcard("#{@path_to_script_definitions}/*.json")
 
     script_roles =
       Enum.reduce(script_paths, %{}, fn script_path, acc ->

@@ -1,6 +1,6 @@
 # BotcTranslations
 
-TL;DR: If you want to find translated scripts to play on [clocktower.online](https://clocktower.online/) or [Nara](https://nara.fly.dev/), they are in [assets/scripts](assets/scripts). Use them as custom scripts there.
+TL;DR: If you want to find translated scripts to play on [clocktower.online](https://clocktower.online/) or [Nara](https://nara.fly.dev/), they are in [assets/scripts](assets/scripts).
 
 This repo contains scripts to generate JSON files for use on [clocktower.online](https://clocktower.online/) or [Nara](https://nara.fly.dev/) as well as CSV files for the google sheet in which we keep translations for abilities, names, and various reminders.
 
@@ -44,10 +44,10 @@ mix run generate_scripts.exs
 ```
 
 The files used to generate these custom scripts are:
-- JSON files in [assets/scripts](assets/scripts) to describe the content of each script (a simple role list)
+- JSON files in [assets/script_definitions](assets/script_definitions) to describe the content of each script (a simple role list)
 - JSON files in [assets/json](assets/json) which contains all translated roles for each locale
 
-To generate new custom scripts, simply add a file in [assets/scripts](assets/scripts) and run `mix run generate_scripts.exs` again
+To generate new custom scripts, simply add a script definition file in [assets/script_definitions](assets/script_definitions) and run `mix run generate_scripts.exs` again
 
 ### From JSON to CSV
 
