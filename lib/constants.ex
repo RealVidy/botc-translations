@@ -1,5 +1,5 @@
 defmodule Constants do
-  @known_locales ["en_UK", "fr_FR", "de_DE", "pl_PL", "pt_BR", "ru_RU", "fil_PH"]
+  @known_locales ["en_UK", "fr_FR", "de_DE", "pl_PL", "pt_BR", "pt_PT", "ru_RU", "fil_PH"]
 
   @role_ids [
     "acrobat",
