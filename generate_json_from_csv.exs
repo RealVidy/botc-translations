@@ -4,7 +4,7 @@ require Logger
 # Download the csv from https://docs.google.com/spreadsheets/d/183HMp4ZgslxA4NtFVTXhY3xAbg7FIXZdmVnh9-4A_14/edit#gid=1546765235
 # In "<LOCALE>" tab
 
-# Usage: mix run generate_json_from_csv.exs assets/csv/<LOCALE>.csv
+# Usage: mix run generate_json_from_csv.exs
 
 defmodule GenerateJsonFromCsv do
   # Main function
@@ -113,14 +113,8 @@ defmodule GenerateJsonFromCsv do
   end
 end
 
-args = System.argv()
-
-case length(args) do
-  1 ->
-    GenerateJsonFromCsv.process_csv(Enum.at(args, 0))
-
-  _other ->
-    Logger.error(
-      "Wrong number of arguments\nUsage: mix run generate_json_from_csv.exs <path_to_csv>\n"
-    )
-end
+Constants.get_known_locales()
+|> Enum.each(fn locale ->
+  path = "assets/csv/#{locale}.csv"
+  GenerateJsonFromCsv.process_csv(path)
+end)

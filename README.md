@@ -25,15 +25,10 @@ Take a look at the english tab which you will need to duplicate for your own lan
 Once we have the CSV file for our language, we can run a script that will generate a JSON file in the clocktower.online format.
 
 ```bash
-mix run generate_json_from_csv.exs assets/csv/<LOCALE>.csv
+mix run generate_json_from_csv.exs
 ```
 
 The result will be at `assets/json/<LOCALE>.json`
-
-Try it out with the french file: 
-```bash
-mix run generate_json_from_csv.exs assets/csv/fr_FR.csv
-```
 
 #### Generating translated basic and custom scripts
 
@@ -54,15 +49,10 @@ To generate new custom scripts, simply add a script definition file in [assets/s
 If you already have the JSON file containing all roles for your language, then you can also transform it into a CSV and import it in the [google sheets](https://docs.google.com/spreadsheets/d/183HMp4ZgslxA4NtFVTXhY3xAbg7FIXZdmVnh9-4A_14/edit#gid=923580658)
 
 ```bash
-mix run generate_csv_from_json.exs assets/json/<LOCALE>.json
+mix run generate_csv_from_json.exs
 ```
 
 The result will be at `assets/csv/<LOCALE>.csv`
-
-Try it out with the english file: 
-```bash
-mix run generate_csv_from_json.exs assets/json/en_UK.json
-```
 
 ## Using the generated JSON
 

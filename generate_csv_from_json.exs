@@ -54,14 +54,8 @@ defmodule GenerateCsvFromJson do
   end
 end
 
-args = System.argv()
-
-case length(args) do
-  1 ->
-    GenerateCsvFromJson.process_json(Enum.at(args, 0))
-
-  _other ->
-    Logger.error(
-      "Wrong number of arguments\nUsage: mix run generate_csv_from_json.exs <path_to_json>\n"
-    )
-end
+Constants.get_known_locales()
+|> Enum.each(fn locale ->
+  path = "assets/json/#{locale}.json"
+  GenerateCsvFromJson.process_json(path)
+end)

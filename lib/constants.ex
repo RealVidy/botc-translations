@@ -1,4 +1,6 @@
 defmodule Constants do
+  @known_locales ["en_UK", "fr_FR", "de_DE", "pl_PL", "pt_BR", "ru_RU"]
+
   @role_ids [
     "acrobat",
     "alchemist",
@@ -152,6 +154,10 @@ defmodule Constants do
     "remindersGlobal",
     "reminders"
   ]
+
+  def get_known_locales() do
+    @known_locales
+  end
 
   def get_ordered_role_ids() do
     @role_ids
