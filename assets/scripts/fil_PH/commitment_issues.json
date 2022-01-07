@@ -1,0 +1,600 @@
+[
+  {
+    "ability": "Hindi mo alam ang iyong ability. Bawat araw, hulaan mo ito sa pribado: malalaman mo kung gaano ka katama.",
+    "edition": "",
+    "firstNight": 12,
+    "firstNightReminder": "Decide the Amnesiac's entire ability. If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
+    "id": "fil_PH_amnesiac",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/amnesiac.png?raw=true",
+    "name": "Amnesiac",
+    "otherNight": 5,
+    "otherNightReminder": "If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
+    "reminders": [
+      "?"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Sa una mong gabi, mayroon kang Townsfolk ability (kung Mabuti), o Minion ability (kung Masama)",
+    "edition": "bmr",
+    "firstNight": 1,
+    "firstNightReminder": "Show the Apprentice the 'You are' card, then a Townsfolk or Minion token. In the Grimoire, replace the Apprentice token with that character token, and put the Apprentice's 'Is the Apprentice' reminder by that character token.",
+    "id": "fil_PH_apprentice",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/apprentice.png?raw=true",
+    "name": "Apprentice",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Is the Apprentice"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Kapag ikaw ay namatay ngayong araw o gabi, ang Demon ay maaaring pumili ng 2 tao (hindi ibang Demon) na magpapalit ng karakter.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fil_PH_barber",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/barber.png?raw=true",
+    "name": "Barber",
+    "otherNight": 40,
+    "otherNightReminder": "If the Barber died today: Wake the Demon. Show the 'This character selected you' card, then Barber token. The Demon either shows a 'no' head signal, or points to 2 players. If they chose players: Swap the character tokens. Wake each player. Show 'You are', then their new character token.",
+    "reminders": [
+      "Haircuts tonight"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Bawat gabi hanggang takipsilim, 1) Isang tao ay magiging hindi lasing, malusog, at makakakuha ng totoong impormasyon o 2) Dalawang beses gagana ang kanilang ability. Alam nila alin.",
+    "edition": "snv",
+    "firstNight": 1,
+    "firstNightReminder": "Choose a player, wake them and tell them which Barista power is affecting them. Treat them accordingly (sober/healthy/true info or activate their ability twice).",
+    "id": "fil_PH_barista",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/barista.png?raw=true",
+    "name": "Barista",
+    "otherNight": 1,
+    "otherNightReminder": "Choose a player, wake them and tell them which Barista power is affecting them. Treat them accordingly (sober/healthy/true info or activate their ability twice).",
+    "reminders": [
+      "Ability twice",
+      "Sober & Healthy"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Kailangan mo ng vote token para bumoto. Maaaring ibigay ng mga patay na tao ang kailang token sa iyo. Kung ganoon, matututunan mo ang kanilang alignment.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fil_PH_beggar",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/beggar.png?raw=true",
+    "name": "Beggar",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Ang mananalaysay lamang ang maaaring magnominate. Hindi kukulang sa 1 tao na kabaligtaran ng iyong aligmnent ang ma-nominate bawat araw.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fil_PH_bishop",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bishop.png?raw=true",
+    "name": "Bishop",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Nominate evil",
+      "Nominate good"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Isang beses sa laro, sa gabi, pumili ng isang patay na tao: magagamit muli ang abilitiy nila hanggang takipsilim.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fil_PH_bonecollector",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bonecollector.png?raw=true",
+    "name": "Bone Collector",
+    "otherNight": 1,
+    "otherNightReminder": "The Bone Collector either shakes their head no or points at any dead player. If they pointed at any dead player, put the Bone Collector's 'Has Ability' reminder by the chosen player's character token. (They may need to be woken tonight to use it.)",
+    "reminders": [
+      "Has ability",
+      "No ability"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Magsisimula ka na may kilalang 1 Masamang tao. Kapag namatay sila, may makikilala kang bagong Masamang tao. [1 Townsfolk ay Masama]",
+    "edition": "",
+    "firstNight": 45,
+    "firstNightReminder": "Point to 1 evil player. Wake the townsfolk who is evil and show them the 'You are' card and the thumbs down evil sign.",
+    "id": "fil_PH_bountyhunter",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bountyhunter.png?raw=true",
+    "name": "Bounty Hunter",
+    "otherNight": 65,
+    "otherNightReminder": "If the known evil player has died, point to another evil player.",
+    "reminders": [
+      "Known"
+    ],
+    "setup": true,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Bawat gabi, pumili ng tao (hindi sarili): ang boto nila ay mabibilang na 3 boto bukas.",
+    "edition": "tb",
+    "firstNight": 1,
+    "firstNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
+    "id": "fil_PH_bureaucrat",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bureaucrat.png?raw=true",
+    "name": "Bureaucrat",
+    "otherNight": 1,
+    "otherNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
+    "reminders": [
+      "3 votes"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Bawat araw, pagkatapos ng unang pagbitay, maaaring kang magnominate ulit.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fil_PH_butcher",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/butcher.png?raw=true",
+    "name": "Butcher",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Mayroon kang ability base sa pinakabagong binitay. Kapag Masama, ikaw ay malalason hanggang may mabitay na Mabuting tao.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fil_PH_cannibal",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cannibal.png?raw=true",
+    "name": "Cannibal",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Died today",
+      "Poisoned"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Bawat gabi, pumili ng tao at Mabuting karakter: sila ay \"baliw\" na sila ay ang karakter na ito bukas. Kung hindi, sila ay maaaring mabitay.",
+    "edition": "snv",
+    "firstNight": 25,
+    "firstNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
+    "id": "fil_PH_cerenovus",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cerenovus.png?raw=true",
+    "name": "Cerenovus",
+    "otherNight": 16,
+    "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
+    "reminders": [
+      "Mad"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Magsisimula kang alam mo kung gaano karaming Masamang tao ay magkakadikit.",
+    "edition": "tb",
+    "firstNight": 35,
+    "firstNightReminder": "Show the finger signal (0, 1, 2, …) for the number of pairs of neighbouring evil players.",
+    "id": "fil_PH_chef",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true",
+    "name": "Chef",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Each night, you become the alignment of an alive neighbour. If all good players choose to join your cult, your team wins.",
+    "edition": "",
+    "firstNight": 46,
+    "firstNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
+    "id": "fil_PH_cultleader",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cultleader.png?raw=true",
+    "name": "Cult Leader",
+    "otherNight": 66,
+    "otherNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "If you were funny today, you cannot die by exile.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fil_PH_deviant",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/deviant.png?raw=true",
+    "name": "Deviant",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Each night, choose a player (not yourself or Travellers): you learn 1 good and 1 evil character, 1 of which is correct.",
+    "edition": "snv",
+    "firstNight": 41,
+    "firstNightReminder": "The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.",
+    "id": "fil_PH_dreamer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/dreamer.png?raw=true",
+    "name": "Dreamer",
+    "otherNight": 57,
+    "otherNightReminder": "The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Each night, you learn how many of your 2 alive neighbours are evil.",
+    "edition": "tb",
+    "firstNight": 36,
+    "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath.",
+    "id": "fil_PH_empath",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
+    "name": "Empath",
+    "otherNight": 53,
+    "otherNightReminder": "Show the finger signal (0, 1, 2) for the number of evil neighbours.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Each night*, choose a player: they die. The 1st Outsider this kills becomes an evil Fang Gu & you die instead. [+1 Outsider]",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fil_PH_fanggu",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fanggu.png?raw=true",
+    "name": "Fang Gu",
+    "otherNight": 29,
+    "otherNightReminder": "The Fang Gu points to a player. That player dies. Or, if that player was an Outsider and there are no other Fang Gu in play: The Fang Gu dies instead of the chosen player. The chosen player is now an evil Fang Gu. Wake the new Fang Gu. Show the 'You are' card, then the Fang Gu token. Show the 'You are' card, then the thumb-down 'evil' hand sign.",
+    "reminders": [
+      "Dead",
+      "Once"
+    ],
+    "setup": true,
+    "team": "demon"
+  },
+  {
+    "ability": "Once per game, during the day, visit the Storyteller for some advice to help you win.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fil_PH_fisherman",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fisherman.png?raw=true",
+    "name": "Fisherman",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "No ability"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Once per day, you may choose to kill an alive neighbour, if your other alive neighbour agrees.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fil_PH_gangster",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gangster.png?raw=true",
+    "name": "Gangster",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Each day, after the 1st vote has been tallied, you may choose a player that voted: they die.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fil_PH_gunslinger",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gunslinger.png?raw=true",
+    "name": "Gunslinger",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Each night*, choose a living player: if they agree, you learn their character, but you both might die.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fil_PH_harlot",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/harlot.png?raw=true",
+    "name": "Harlot",
+    "otherNight": 1,
+    "otherNightReminder": "The Harlot points at any player. Then, put the Harlot to sleep. Wake the chosen player, show them the 'This character selected you' token, then the Harlot token. That player either nods their head yes or shakes their head no. If they nodded their head yes, wake the Harlot and show them the chosen player's character token. Then, you may decide that both players die.",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Bawat gabi*, pumili ng tao: mamamatay sila. Kapag pinatay mo ang sarili mo sa paraang ito, isang Minion ay magiging Imp.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fil_PH_imp",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/imp.png?raw=true",
+    "name": "Imp",
+    "otherNight": 24,
+    "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "Once per game, if another player nominated, you may choose to force the current execution to pass or fail.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fil_PH_judge",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/judge.png?raw=true",
+    "name": "Judge",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "No ability"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Each night, Minions choose who babysits Lil' Monsta's token & \"is the Demon\". A player dies each night*. [+1 Minion]",
+    "edition": "",
+    "firstNight": 16,
+    "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",
+    "id": "fil_PH_lilmonsta",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lilmonsta.png?raw=true",
+    "name": "Lil' Monsta",
+    "otherNight": 36,
+    "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
+    "reminders": [],
+    "remindersGlobal": [
+      "Dead",
+      "Is the Demon"
+    ],
+    "setup": true,
+    "team": "demon"
+  },
+  {
+    "ability": "Each day, you may choose up to 3 sets of 2 players to swap seats. Players may not leave their seats to talk in private.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fil_PH_matron",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/matron.png?raw=true",
+    "name": "Matron",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "If you are “mad” about being an Outsider, you might be executed.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fil_PH_mutant",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mutant.png?raw=true",
+    "name": "Mutant",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Each night*, you learn how many dead players are evil.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fil_PH_oracle",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/oracle.png?raw=true",
+    "name": "Oracle",
+    "otherNight": 60,
+    "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of dead evil players.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Each night, choose a player: they are poisoned tonight and tomorrow day.",
+    "edition": "tb",
+    "firstNight": 17,
+    "firstNightReminder": "The Poisoner points to a player. That player is poisoned.",
+    "id": "fil_PH_poisoner",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
+    "name": "Poisoner",
+    "otherNight": 8,
+    "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
+    "reminders": [
+      "Poisoned"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "If you were the player most responsible for your team losing, you change alignment & win, even if dead.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fil_PH_politician",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/politician.png?raw=true",
+    "name": "Politician",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Each night, choose a player: a Minion, if chosen, learns this. All chosen Minions have no ability.",
+    "edition": "",
+    "firstNight": 14,
+    "firstNightReminder": "The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.",
+    "id": "fil_PH_preacher",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/preacher.png?raw=true",
+    "name": "Preacher",
+    "otherNight": 7,
+    "otherNightReminder": "The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.",
+    "reminders": [
+      "At a sermon"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "If you die at night, you are woken to choose a player: you learn their character.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fil_PH_ravenkeeper",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true",
+    "name": "Ravenkeeper",
+    "otherNight": 42,
+    "otherNightReminder": "If the Ravenkeeper died tonight: The Ravenkeeper points to a player. Show that player’s character token.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "You might register as evil & as a Minion or Demon, even if dead.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fil_PH_recluse",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/recluse.png?raw=true",
+    "name": "Recluse",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "If a player of your alignment is executed, you might be executed instead.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fil_PH_scapegoat",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scapegoat.png?raw=true",
+    "name": "Scapegoat",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Each night, choose an alive player: a chosen Demon swaps characters & alignments with you & is then poisoned.",
+    "edition": "snv",
+    "firstNight": 20,
+    "firstNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
+    "id": "fil_PH_snakecharmer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/snakecharmer.png?raw=true",
+    "name": "Snake Charmer",
+    "otherNight": 12,
+    "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
+    "reminders": [
+      "Poisoned"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Each night, choose a player (not yourself): their vote counts negatively tomorrow.",
+    "edition": "tb",
+    "firstNight": 1,
+    "firstNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
+    "id": "fil_PH_thief",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/thief.png?raw=true",
+    "name": "Thief",
+    "otherNight": 1,
+    "otherNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
+    "reminders": [
+      "Negative vote"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Each night*, you learn if a Minion nominated today.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fil_PH_towncrier",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/towncrier.png?raw=true",
+    "name": "Town Crier",
+    "otherNight": 59,
+    "otherNightReminder": "Nod 'yes' or shake head 'no' for whether a Minion nominated today. Place the 'Minion not nominated' marker (remove 'Minion nominated', if any).",
+    "reminders": [
+      "Minion nominated",
+      "Minions not nominated"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Only you and the dead can vote. They don't need a vote token to do so. A 50% majority is not required.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fil_PH_voudon",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/voudon.png?raw=true",
+    "name": "Voudon",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability.",
+    "edition": "snv",
+    "firstNight": 24,
+    "firstNightReminder": "The Witch points to a player. If that player nominates tomorrow they die immediately.",
+    "id": "fil_PH_witch",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/witch.png?raw=true",
+    "name": "Witch",
+    "otherNight": 15,
+    "otherNightReminder": "If there are 4 or more players alive: The Witch points to a player. If that player nominates tomorrow they die immediately.",
+    "reminders": [
+      "Cursed"
+    ],
+    "setup": false,
+    "team": "minion"
+  }
+]
