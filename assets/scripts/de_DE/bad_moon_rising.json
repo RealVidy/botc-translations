@@ -5,6 +5,7 @@
     "firstNight": 1,
     "firstNightReminder": "Show the Apprentice the 'You are' card, then a Townsfolk or Minion token. In the Grimoire, replace the Apprentice token with that character token, and put the Apprentice's 'Is the Apprentice' reminder by that character token.",
     "id": "de_DE_apprentice",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/apprentice.png?raw=true",
     "name": "Apprentice",
     "otherNight": 0,
     "otherNightReminder": "",
@@ -37,12 +38,13 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "de_DE_bishop",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bishop.png?raw=true",
     "name": "Bishop",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Nominate good",
-      "Nominate evil"
+      "Nominate evil",
+      "Nominate good"
     ],
     "setup": false,
     "team": "traveler"
@@ -72,9 +74,9 @@
     "otherNight": 10,
     "otherNightReminder": "Reduce the remaining number of days the marked player is poisoned. If the Courtier has not yet used their ability: The Courtier either shows a 'no' head signal, or points to a character on the sheet. If the Courtier used their ability: If that character is in play, that player is drunk.",
     "reminders": [
-      "Drunk 3",
-      "Drunk 2",
       "Drunk 1",
+      "Drunk 2",
+      "Drunk 3",
       "No ability"
     ],
     "setup": false,
@@ -155,8 +157,8 @@
     "otherNight": 38,
     "otherNightReminder": "If an Outsider died today: The Godfather points to a player. That player dies.",
     "reminders": [
-      "Died today",
-      "Dead"
+      "Dead",
+      "Died today"
     ],
     "setup": true,
     "team": "minion"
@@ -220,8 +222,8 @@
     "otherNight": 9,
     "otherNightReminder": "The previously protected and drunk players lose those markers. The Innkeeper points to two players. Those players are protected. One is drunk.",
     "reminders": [
-      "Protected",
-      "Drunk"
+      "Drunk",
+      "Protected"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -232,6 +234,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "de_DE_judge",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/judge.png?raw=true",
     "name": "Judge",
     "otherNight": 0,
     "otherNightReminder": "",
@@ -279,6 +282,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "de_DE_matron",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/matron.png?raw=true",
     "name": "Matron",
     "otherNight": 0,
     "otherNightReminder": "",
@@ -343,8 +347,8 @@
     "otherNight": 28,
     "otherNightReminder": "If the Po chose no-one the previous night: The Po points to three players. Otherwise: The Po either shows the 'no' head signal , or points to a player. Chosen players die",
     "reminders": [
-      "Dead",
-      "3 attacks"
+      "3 attacks",
+      "Dead"
     ],
     "setup": false,
     "team": "demon"
@@ -375,10 +379,10 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pukka.png?raw=true",
     "name": "Pukka",
     "otherNight": 26,
-    "otherNightReminder": "The Pukka points to a player. That player is poisoned. The previously poisoned player dies. ",
+    "otherNightReminder": "The Pukka points to a player. That player is poisoned. The previously poisoned player dies.",
     "reminders": [
-      "Poisoned",
-      "Dead"
+      "Dead",
+      "Poisoned"
     ],
     "setup": false,
     "team": "demon"
@@ -410,8 +414,8 @@
     "otherNight": 27,
     "otherNightReminder": "One player that the Shabaloth chose the previous night might be resurrected. The Shabaloth points to two players. Those players die.",
     "reminders": [
-      "Dead",
-      "Alive"
+      "Alive",
+      "Dead"
     ],
     "setup": false,
     "team": "demon"
@@ -454,6 +458,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "de_DE_voudon",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/voudon.png?raw=true",
     "name": "Voudon",
     "otherNight": 0,
     "otherNightReminder": "",
@@ -472,8 +477,8 @@
     "otherNight": 25,
     "otherNightReminder": "If no-one died during the day: The Zombuul points to a player. That player dies.",
     "reminders": [
-      "Died today",
-      "Dead"
+      "Dead",
+      "Died today"
     ],
     "setup": false,
     "team": "demon"

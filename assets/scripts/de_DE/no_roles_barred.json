@@ -43,8 +43,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Mad",
-      "Has ability"
+      "Has ability",
+      "Mad"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -58,7 +58,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bountyhunter.png?raw=true",
     "name": "Kopfgeldjäger",
     "otherNight": 65,
-    "otherNightReminder": "If the known evil player has died, point to another evil player. ",
+    "otherNightReminder": "If the known evil player has died, point to another evil player.",
     "reminders": [
       "Known"
     ],
@@ -90,10 +90,10 @@
     "otherNight": 63,
     "otherNightReminder": "Choose a character type that does not yet have a Seen reminder next to a character of that type. Point to a player whose character is of that type, if there are any. Place the Balloonist's Seen reminder next to that character.",
     "reminders": [
-      "Seen Townsfolk",
-      "Seen Outsider",
-      "Seen Minion",
       "Seen Demon",
+      "Seen Minion",
+      "Seen Outsider",
+      "Seen Townsfolk",
       "Seen Traveller"
     ],
     "setup": true,
@@ -286,8 +286,8 @@
     "otherNight": 38,
     "otherNightReminder": "If an Outsider died today: The Godfather points to a player. That player dies.",
     "reminders": [
-      "Died today",
-      "Dead"
+      "Dead",
+      "Died today"
     ],
     "setup": true,
     "team": "minion"
@@ -366,8 +366,8 @@
     "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
     "reminders": [],
     "remindersGlobal": [
-      "Is the Demon",
-      "Dead"
+      "Dead",
+      "Is the Demon"
     ],
     "setup": true,
     "team": "demon"
@@ -383,8 +383,8 @@
     "otherNight": 34,
     "otherNightReminder": "Choose a player, that player dies.",
     "reminders": [
-      "Dead",
-      "About to die"
+      "About to die",
+      "Dead"
     ],
     "setup": true,
     "team": "demon"

@@ -32,7 +32,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Raz w trakcie gry, w nocy*, wybierz gracza. ginie on, \n\r\nnawet jesli z jakiegokolwiek powodu nie powinien.",
+    "ability": "Raz w trakcie gry, w nocy*, wybierz gracza. ginie on, nawet jesli z jakiegokolwiek powodu nie powinien.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -40,7 +40,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/assassin.png?raw=true",
     "name": "Skrytobojca",
     "otherNight": 37,
-    "otherNightReminder": "If the Assassin has not yet used their ability: The Assassin either shows the 'no' head signal, \n\r\nor points to a player. That player dies.",
+    "otherNightReminder": "If the Assassin has not yet used their ability: The Assassin either shows the 'no' head signal, or points to a player. That player dies.",
     "reminders": [
       "Dead",
       "No ability"
@@ -59,10 +59,10 @@
     "otherNight": 63,
     "otherNightReminder": "Choose a character type that does not yet have a Seen reminder next to a character of that type. Point to a player whose character is of that type, if there are any. Place the Balloonist's Seen reminder next to that character.",
     "reminders": [
-      "Seen Townsfolk",
-      "Seen Outsider",
-      "Seen Minion",
       "Seen Demon",
+      "Seen Minion",
+      "Seen Outsider",
+      "Seen Townsfolk",
       "Seen Traveller"
     ],
     "setup": true,
@@ -79,8 +79,8 @@
     "otherNight": 1,
     "otherNightReminder": "Choose a player, wake them and tell them which Barista power is affecting them. Treat them accordingly (sober/healthy/true info or activate their ability twice).",
     "reminders": [
-      "Sober & Healthy",
-      "Ability twice"
+      "Ability twice",
+      "Sober & Healthy"
     ],
     "setup": false,
     "team": "traveler"
@@ -110,8 +110,8 @@
     "otherNight": 1,
     "otherNightReminder": "The Bone Collector either shakes their head no or points at any dead player. If they pointed at any dead player, put the Bone Collector's 'Has Ability' reminder by the chosen player's character token. (They may need to be woken tonight to use it.)",
     "reminders": [
-      "No ability",
-      "Has ability"
+      "Has ability",
+      "No ability"
     ],
     "setup": false,
     "team": "traveler"
@@ -127,8 +127,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Poisoned",
-      "Died today"
+      "Died today",
+      "Poisoned"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -199,12 +199,12 @@
     "ability": "Kazdej nocy wybierasz 2 graczy - dowiadujesz sie, czy ktorys z nich jest Demonem. Jeden z dobrych graczy pokazuje Ci sie jako zly.",
     "edition": "tb",
     "firstNight": 37,
-    "firstNightReminder": "The Fortune Teller points to two players. Give the head signal (nod yes, shake no) \n\r\nfor whether one of those players is the Demon.",
+    "firstNightReminder": "The Fortune Teller points to two players. Give the head signal (nod yes, shake no) for whether one of those players is the Demon.",
     "id": "pl_PL_fortuneteller",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fortuneteller.png?raw=true",
     "name": "Wrozka",
     "otherNight": 54,
-    "otherNightReminder": "The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') \n\r\nfor whether one of those players is the Demon.",
+    "otherNightReminder": "The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Demon.",
     "reminders": [
       "Red herring"
     ],
@@ -212,7 +212,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Kazdej nocy* wybierz gracza i zgadnij, ktora jest postacia. \n\r\nJesli sie pomylisz, umrzesz.",
+    "ability": "Kazdej nocy* wybierz gracza i zgadnij, ktora jest postacia. Jesli sie pomylisz, umrzesz.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -220,7 +220,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gambler.png?raw=true",
     "name": "Hazardzista",
     "otherNight": 11,
-    "otherNightReminder": "The Gambler points to a player, and a character on their sheet. \n\r\nIf incorrect, the Gambler dies.",
+    "otherNightReminder": "The Gambler points to a player, and a character on their sheet. If incorrect, the Gambler dies.",
     "reminders": [
       "Dead"
     ],
@@ -228,7 +228,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Na poczatku gry dowiadujesz sie, ktorzy Outsiderzy \n\r\nsa w grze. Jesli jeden z nich dzis umarl, \n\r\nwybierz noca gracza, ktory zginie. [-1 lub +1 Outsider]",
+    "ability": "Na poczatku gry dowiadujesz sie, ktorzy Outsiderzy sa w grze. Jesli jeden z nich dzis umarl, wybierz noca gracza, ktory zginie. [-1 lub +1 Outsider]",
     "edition": "bmr",
     "firstNight": 21,
     "firstNightReminder": "Show each of the Outsider tokens in play.",
@@ -245,7 +245,7 @@
     "team": "minion"
   },
   {
-    "ability": "Zaczynasz gre, znajac tozsamosc i postac \n\r\njednego dobrego gracza. Jesli Demon go zabije, \n\r\numierasz wraz z nim.",
+    "ability": "Zaczynasz gre, znajac tozsamosc i postac jednego dobrego gracza. Jesli Demon go zabije, umierasz wraz z nim.",
     "edition": "bmr",
     "firstNight": 39,
     "firstNightReminder": "Show the marked character token. Point to the marked player.",
@@ -285,7 +285,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/imp.png?raw=true",
     "name": "Chochlik",
     "otherNight": 24,
-    "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: \n\r\nReplace the character of 1 alive minion with a spare Imp token. \n\r\nShow the 'YOU ARE' card, then the Imp token.",
+    "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'YOU ARE' card, then the Imp token.",
     "reminders": [
       "Dead"
     ],
@@ -296,7 +296,7 @@
     "ability": "Na poczatku gry dowiadujesz sie, ze jeden z dwoch graczy jest konkretnym slugusem.",
     "edition": "tb",
     "firstNight": 34,
-    "firstNightReminder": "Show the character token of a Minion in play. \n\r\nPoint to two players, one of which is that character.",
+    "firstNightReminder": "Show the character token of a Minion in play. Point to two players, one of which is that character.",
     "id": "pl_PL_investigator",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/investigator.png?raw=true",
     "name": "Sledczy",
@@ -310,15 +310,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Myslisz, ze jestes Demonem, ale nie jestes. \n\r\nDemon wie, kim jestes oraz kogo wybierasz noca.",
+    "ability": "Myslisz, ze jestes Demonem, ale nie jestes. Demon wie, kim jestes oraz kogo wybierasz noca.",
     "edition": "bmr",
     "firstNight": 7,
-    "firstNightReminder": "If 7 or more players: Show the Lunatic 'arbitrary' Information as given in Demon Information. If the token received \n\r\nby the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'ATTACK' \n\r\ntokens. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. \n\r\nIf the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'ATTACK' tokens.",
+    "firstNightReminder": "If 7 or more players: Show the Lunatic 'arbitrary' Information as given in Demon Information. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'ATTACK' tokens. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'ATTACK' tokens.",
     "id": "pl_PL_lunatic",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
     "name": "Szaleniec",
     "otherNight": 21,
-    "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'ATTACK' tokens. \n\r\nIf the Lunatic selected players: Wake the Demon. Show the 'ATTACK' token, \n\r\nthen point to each marked player. Remove any Lunatic 'ATTACK' tokens.",
+    "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'ATTACK' tokens. If the Lunatic selected players: Wake the Demon. Show the 'ATTACK' token, then point to each marked player. Remove any Lunatic 'ATTACK' tokens.",
     "reminders": [
       "Attack 1",
       "Attack 2",
@@ -381,7 +381,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true",
     "name": "Hodowca krukow",
     "otherNight": 42,
-    "otherNightReminder": "If the Ravenkeeper died tonight: The Ravenkeeper points to a player. \n\r\nShow that player’s character token.",
+    "otherNightReminder": "If the Ravenkeeper died tonight: The Ravenkeeper points to a player. Show that player’s character token.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"

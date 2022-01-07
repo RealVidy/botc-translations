@@ -37,12 +37,13 @@
     "firstNight": 1,
     "firstNightReminder": "Choose a player, wake them and tell them which Barista power is affecting them. Treat them accordingly (sober/healthy/true info or activate their ability twice).",
     "id": "de_DE_barista",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/barista.png?raw=true",
     "name": "Barista",
     "otherNight": 1,
     "otherNightReminder": "Choose a player, wake them and tell them which Barista power is affecting them. Treat them accordingly (sober/healthy/true info or activate their ability twice).",
     "reminders": [
-      "Sober & Healthy",
-      "Ability twice"
+      "Ability twice",
+      "Sober & Healthy"
     ],
     "setup": false,
     "team": "traveler"
@@ -53,12 +54,13 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "de_DE_bonecollector",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bonecollector.png?raw=true",
     "name": "Bone Collector",
     "otherNight": 1,
     "otherNightReminder": "The Bone Collector either shakes their head no or points at any dead player. If they pointed at any dead player, put the Bone Collector's 'Has Ability' reminder by the chosen player's character token. (They may need to be woken tonight to use it.)",
     "reminders": [
-      "No ability",
-      "Has ability"
+      "Has ability",
+      "No ability"
     ],
     "setup": false,
     "team": "traveler"
@@ -69,6 +71,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "de_DE_butcher",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/butcher.png?raw=true",
     "name": "Butcher",
     "otherNight": 0,
     "otherNightReminder": "",
@@ -112,6 +115,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "de_DE_deviant",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/deviant.png?raw=true",
     "name": "Deviant",
     "otherNight": 0,
     "otherNightReminder": "",
@@ -177,8 +181,8 @@
     "otherNight": 58,
     "otherNightReminder": "Nod 'yes' or shake head 'no' for whether the Demon voted today. Place the 'Demon not voted' marker (remove 'Demon voted', if any).",
     "reminders": [
-      "Demon voted",
-      "Demon not voted"
+      "Demon not voted",
+      "Demon voted"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -189,6 +193,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "de_DE_harlot",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/harlot.png?raw=true",
     "name": "Harlot",
     "otherNight": 1,
     "otherNightReminder": "The Harlot points at any player. Then, put the Harlot to sleep. Wake the chosen player, show them the 'This character selected you' token, then the Harlot token. That player either nods their head yes or shakes their head no. If they nodded their head yes, wake the Harlot and show them the chosen player's character token. Then, you may decide that both players die.",
@@ -407,8 +412,8 @@
     "otherNight": 59,
     "otherNightReminder": "Nod 'yes' or shake head 'no' for whether a Minion nominated today. Place the 'Minion not nominated' marker (remove 'Minion nominated', if any).",
     "reminders": [
-      "Minions not nominated",
-      "Minion nominated"
+      "Minion nominated",
+      "Minions not nominated"
     ],
     "setup": false,
     "team": "townsfolk"

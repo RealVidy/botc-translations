@@ -16,7 +16,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Raz w trakcie gry, w nocy*, wybierz gracza. ginie on, \n\r\nnawet jesli z jakiegokolwiek powodu nie powinien.",
+    "ability": "Raz w trakcie gry, w nocy*, wybierz gracza. ginie on, nawet jesli z jakiegokolwiek powodu nie powinien.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -24,7 +24,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/assassin.png?raw=true",
     "name": "Skrytobojca",
     "otherNight": 37,
-    "otherNightReminder": "If the Assassin has not yet used their ability: The Assassin either shows the 'no' head signal, \n\r\nor points to a player. That player dies.",
+    "otherNightReminder": "If the Assassin has not yet used their ability: The Assassin either shows the 'no' head signal, or points to a player. That player dies.",
     "reminders": [
       "Dead",
       "No ability"
@@ -43,36 +43,36 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Nominate good",
-      "Nominate evil"
+      "Nominate evil",
+      "Nominate good"
     ],
     "setup": false,
     "team": "traveler"
   },
   {
-    "ability": "Kazdej nocy wybierz dwoch zywych graczy (nie siebie). \n\r\nDowiadujesz sie, ilu z nich obudzilo sie \n\r\nze wzgledu na swoja zdolnosc.",
+    "ability": "Kazdej nocy wybierz dwoch zywych graczy (nie siebie). Dowiadujesz sie, ilu z nich obudzilo sie ze wzgledu na swoja zdolnosc.",
     "edition": "bmr",
     "firstNight": 49,
-    "firstNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, …) \n\r\nfor how many of those players wake tonight for their ability.",
+    "firstNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, …) for how many of those players wake tonight for their ability.",
     "id": "pl_PL_chambermaid",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chambermaid.png?raw=true",
     "name": "Pokojowka",
     "otherNight": 69,
-    "otherNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, …) \n\r\nfor how many of those players wake tonight for their ability.",
+    "otherNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, …) for how many of those players wake tonight for their ability.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "Raz w trakcie gry, noca, wybierz postac. \n\r\nJest ona pijana przez 3 noce i 3 dni.",
+    "ability": "Raz w trakcie gry, noca, wybierz postac. Jest ona pijana przez 3 noce i 3 dni.",
     "edition": "bmr",
     "firstNight": 19,
-    "firstNightReminder": "The Courtier either shows a 'no' head signal, or points to a character on the sheet. \n\r\nIf the Courtier used their ability: If that character is in play, that player is drunk.",
+    "firstNightReminder": "The Courtier either shows a 'no' head signal, or points to a character on the sheet. If the Courtier used their ability: If that character is in play, that player is drunk.",
     "id": "pl_PL_courtier",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/courtier.png?raw=true",
     "name": "Dworzanin",
     "otherNight": 10,
-    "otherNightReminder": "Reduce the remaining number of days the marked player is poisoned. If the Courtier has not yet \n\r\nused their ability: The Courtier either shows a 'no' head signal, or points to a character on the sheet. \n\r\nIf the Courtier used their ability: If that character is in play, that player is drunk.",
+    "otherNightReminder": "Reduce the remaining number of days the marked player is poisoned. If the Courtier has not yet used their ability: The Courtier either shows a 'no' head signal, or points to a character on the sheet. If the Courtier used their ability: If that character is in play, that player is drunk.",
     "reminders": [
       "Drunk 1",
       "Drunk 2",
@@ -83,7 +83,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Kazdej nocy wybierz zywego gracza \n\r\n(innego niz poprzedniej nocy). \n\r\nJesli jutro zostanie stracony, nie umrze.",
+    "ability": "Kazdej nocy wybierz zywego gracza (innego niz poprzedniej nocy). Jesli jutro zostanie stracony, nie umrze.",
     "edition": "bmr",
     "firstNight": 22,
     "firstNightReminder": "The Devil’s Advocate points to a living player. That player survives execution tomorrow.",
@@ -91,7 +91,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/devilsadvocate.png?raw=true",
     "name": "Adwokat diabla",
     "otherNight": 14,
-    "otherNightReminder": "The Devil’s Advocate points to a living player, different from the previous night. \n\r\nThat player survives execution tomorrow.",
+    "otherNightReminder": "The Devil’s Advocate points to a living player, different from the previous night. That player survives execution tomorrow.",
     "reminders": [
       "Survives execution"
     ],
@@ -99,7 +99,7 @@
     "team": "minion"
   },
   {
-    "ability": "Kazdej nocy* wybierz gracza (innego, \n\r\nniz poprzedniej nocy). Wybrany Demon dowiaduje sie, \n\r\nkim jestes, po czym nie budzi sie tej nocy.",
+    "ability": "Kazdej nocy* wybierz gracza (innego, niz poprzedniej nocy). Wybrany Demon dowiaduje sie, kim jestes, po czym nie budzi sie tej nocy.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -107,7 +107,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/exorcist.png?raw=true",
     "name": "Egzorcysta",
     "otherNight": 22,
-    "otherNightReminder": "The Exorcist points to a player, different from the previous night. If that player is the Demon: \n\r\nWake the Demon. Show the Exorcist token. Point to the Exorcist. The Demon does not act tonight.",
+    "otherNightReminder": "The Exorcist points to a player, different from the previous night. If that player is the Demon: Wake the Demon. Show the Exorcist token. Point to the Exorcist. The Demon does not act tonight.",
     "reminders": [
       "Chosen"
     ],
@@ -131,7 +131,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Kazdej nocy* wybierz gracza i zgadnij, ktora jest postacia. \n\r\nJesli sie pomylisz, umrzesz.",
+    "ability": "Kazdej nocy* wybierz gracza i zgadnij, ktora jest postacia. Jesli sie pomylisz, umrzesz.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -139,7 +139,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gambler.png?raw=true",
     "name": "Hazardzista",
     "otherNight": 11,
-    "otherNightReminder": "The Gambler points to a player, and a character on their sheet. \n\r\nIf incorrect, the Gambler dies.",
+    "otherNightReminder": "The Gambler points to a player, and a character on their sheet. If incorrect, the Gambler dies.",
     "reminders": [
       "Dead"
     ],
@@ -147,7 +147,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Na poczatku gry dowiadujesz sie, ktorzy Outsiderzy \n\r\nsa w grze. Jesli jeden z nich dzis umarl, \n\r\nwybierz noca gracza, ktory zginie. [-1 lub +1 Outsider]",
+    "ability": "Na poczatku gry dowiadujesz sie, ktorzy Outsiderzy sa w grze. Jesli jeden z nich dzis umarl, wybierz noca gracza, ktory zginie. [-1 lub +1 Outsider]",
     "edition": "bmr",
     "firstNight": 21,
     "firstNightReminder": "Show each of the Outsider tokens in play.",
@@ -164,7 +164,7 @@
     "team": "minion"
   },
   {
-    "ability": "Kazdej nocy pierwszy gracz, \n\r\nktory wskaze Cie za pomoca swojej zdolnosci jest pijany \n\r\ndo zmierzchu. Przechodzisz na jego strone.",
+    "ability": "Kazdej nocy pierwszy gracz, ktory wskaze Cie za pomoca swojej zdolnosci jest pijany do zmierzchu. Przechodzisz na jego strone.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "If a player used their character ability to choose the Goon: The ability does not work. Place the Drunk token on that player. The Goon becomes that player’s alignment. Show 'You are' card. Show thumbs-up good, thumbs-down 'evil' for the Goon’s current alignment.",
@@ -180,7 +180,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Kazdego dnia mozesz wyglosic publiczne oswiadczenie. \n\r\nJesli bylo prawdziwe, jeden z graczy umrze noca.",
+    "ability": "Kazdego dnia mozesz wyglosic publiczne oswiadczenie. Jesli bylo prawdziwe, jeden z graczy umrze noca.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -188,7 +188,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gossip.png?raw=true",
     "name": "Plotkara",
     "otherNight": 47,
-    "otherNightReminder": "If the Gossip’s public statement was true: \n\r\nChoose a player, that player dies.",
+    "otherNightReminder": "If the Gossip’s public statement was true: Choose a player, that player dies.",
     "reminders": [
       "Dead"
     ],
@@ -196,7 +196,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Zaczynasz gre, znajac tozsamosc i postac \n\r\njednego dobrego gracza. Jesli Demon go zabije, \n\r\numierasz wraz z nim.",
+    "ability": "Zaczynasz gre, znajac tozsamosc i postac jednego dobrego gracza. Jesli Demon go zabije, umierasz wraz z nim.",
     "edition": "bmr",
     "firstNight": 39,
     "firstNightReminder": "Show the marked character token. Point to the marked player.",
@@ -212,7 +212,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Kazdej nocy* wybierz 2 graczy: zaden z nich nie moze \n\r\numrzec tej nocy, ale jeden z nich \n\r\nbedzie pijany do kolejnego zmierzchu",
+    "ability": "Kazdej nocy* wybierz 2 graczy: zaden z nich nie moze umrzec tej nocy, ale jeden z nich bedzie pijany do kolejnego zmierzchu",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -220,7 +220,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/innkeeper.png?raw=true",
     "name": "Karczmarz",
     "otherNight": 9,
-    "otherNightReminder": "The previously protected and drunk players lose those tokens. \n\r\nThe Innkeeper points to two players. Those players are protected. One is drunk.",
+    "otherNightReminder": "The previously protected and drunk players lose those tokens. The Innkeeper points to two players. Those players are protected. One is drunk.",
     "reminders": [
       "Drunk",
       "Protected"
@@ -245,15 +245,15 @@
     "team": "traveler"
   },
   {
-    "ability": "Myslisz, ze jestes Demonem, ale nie jestes. \n\r\nDemon wie, kim jestes oraz kogo wybierasz noca.",
+    "ability": "Myslisz, ze jestes Demonem, ale nie jestes. Demon wie, kim jestes oraz kogo wybierasz noca.",
     "edition": "bmr",
     "firstNight": 7,
-    "firstNightReminder": "If 7 or more players: Show the Lunatic 'arbitrary' Information as given in Demon Information. If the token received \n\r\nby the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'ATTACK' \n\r\ntokens. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. \n\r\nIf the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'ATTACK' tokens.",
+    "firstNightReminder": "If 7 or more players: Show the Lunatic 'arbitrary' Information as given in Demon Information. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'ATTACK' tokens. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'ATTACK' tokens.",
     "id": "pl_PL_lunatic",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
     "name": "Szaleniec",
     "otherNight": 21,
-    "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'ATTACK' tokens. \n\r\nIf the Lunatic selected players: Wake the Demon. Show the 'ATTACK' token, \n\r\nthen point to each marked player. Remove any Lunatic 'ATTACK' tokens.",
+    "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'ATTACK' tokens. If the Lunatic selected players: Wake the Demon. Show the 'ATTACK' token, then point to each marked player. Remove any Lunatic 'ATTACK' tokens.",
     "reminders": [
       "Attack 1",
       "Attack 2",
@@ -263,7 +263,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Jesli Demon zostanie stracony (i gra powinna sie skonczyc), \n\r\ngra toczy sie jeszcze jeden dzien. \n\r\nJesli gracz zostanie tego dnia stracony, jego druzyna przegrywa.",
+    "ability": "Jesli Demon zostanie stracony (i gra powinna sie skonczyc), gra toczy sie jeszcze jeden dzien. Jesli gracz zostanie tego dnia stracony, jego druzyna przegrywa.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -291,7 +291,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Kiedy Slugus zostaje stracony, wszyscy inni gracze \n\r\n(oprocz Wedrowcow) sa pijani do jutrzejszego zmierzchu.",
+    "ability": "Kiedy Slugus zostaje stracony, wszyscy inni gracze (oprocz Wedrowcow) sa pijani do jutrzejszego zmierzchu.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -307,7 +307,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Kiedy dowiesz sie, ze nie zyjesz \n\r\npublicznie wybierz jednego gracza. \n\r\nTej nocy, jesli byl to dobry gracz, umiera.",
+    "ability": "Kiedy dowiesz sie, ze nie zyjesz publicznie wybierz jednego gracza. Tej nocy, jesli byl to dobry gracz, umiera.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -337,7 +337,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Kazdej nocy*, mozesz wybrac gracza, ktory umrze. \n\r\nJesli poprzednio nie wybrales nikogo, \n\r\ntej nocy wybierz 3 graczy.",
+    "ability": "Kazdej nocy*, mozesz wybrac gracza, ktory umrze. Jesli poprzednio nie wybrales nikogo, tej nocy wybierz 3 graczy.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -345,7 +345,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/po.png?raw=true",
     "name": "Po (PL)",
     "otherNight": 28,
-    "otherNightReminder": "If the Po chose no-one the previous night: The Po points to three players. Otherwise: \n\r\nThe Po either shows the 'no' head signal, or points to a player. Chosen players die.",
+    "otherNightReminder": "If the Po chose no-one the previous night: The Po points to three players. Otherwise: The Po either shows the 'no' head signal, or points to a player. Chosen players die.",
     "reminders": [
       "3 attacks",
       "Dead"
@@ -354,7 +354,7 @@
     "team": "demon"
   },
   {
-    "ability": "Raz w trakcie gry, noca*, wybierz martwego gracza. \n\r\nJesli jest to Mieszczanin, zostaje on wskrzeszony.",
+    "ability": "Raz w trakcie gry, noca*, wybierz martwego gracza. Jesli jest to Mieszczanin, zostaje on wskrzeszony.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -362,7 +362,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/professor.png?raw=true",
     "name": "Profesor",
     "otherNight": 45,
-    "otherNightReminder": "If the Professor has not used their ability: The Professor either shakes their head 'no', \n\r\nor points to a player. If that player is a Townsfolk, they are now alive.",
+    "otherNightReminder": "If the Professor has not used their ability: The Professor either shakes their head 'no', or points to a player. If that player is a Townsfolk, they are now alive.",
     "reminders": [
       "Alive",
       "No ability"
@@ -371,7 +371,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Kazdej nocy, wybierz gracza ktory zostanie otruty. \n\r\nPoprzedni otruty gracz umiera, po czym zdrowieje.",
+    "ability": "Kazdej nocy, wybierz gracza ktory zostanie otruty. Poprzedni otruty gracz umiera, po czym zdrowieje.",
     "edition": "bmr",
     "firstNight": 28,
     "firstNightReminder": "The Pukka points to a player. That player is poisoned.",
@@ -388,7 +388,7 @@
     "team": "demon"
   },
   {
-    "ability": "Kazdej nocy wybierz zywego gracza. \n\r\nKtorys z Was bedzie pijany do zmierzchu. \n\r\nNie mozesz umrzec.",
+    "ability": "Kazdej nocy wybierz zywego gracza. Ktorys z Was bedzie pijany do zmierzchu. Nie mozesz umrzec.",
     "edition": "bmr",
     "firstNight": 10,
     "firstNightReminder": "The Sailor points to a living player. Either the Sailor, or the chosen player, is drunk.",
@@ -396,7 +396,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sailor.png?raw=true",
     "name": "Zeglarz",
     "otherNight": 4,
-    "otherNightReminder": "The previously drunk player is no longer drunk. The Sailor points to a living player. \n\r\nEither the Sailor, or the chosen player, is drunk.",
+    "otherNightReminder": "The previously drunk player is no longer drunk. The Sailor points to a living player. Either the Sailor, or the chosen player, is drunk.",
     "reminders": [
       "Drunk"
     ],
@@ -404,7 +404,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Kazdej nocy*, wybierz 2 graczy, ktorzy umra. \n\r\nMartwy gracz wybrany poprzedniej nocy \n\r\nmoze zostac zwymiotowany.",
+    "ability": "Kazdej nocy*, wybierz 2 graczy, ktorzy umra. Martwy gracz wybrany poprzedniej nocy moze zostac zwymiotowany.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -412,7 +412,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/shabaloth.png?raw=true",
     "name": "Shabaloth (PL)",
     "otherNight": 27,
-    "otherNightReminder": "One player that the Shabaloth chose the previous night might be resurrected. \n\r\nThe Shabaloth points to two players. Those players die.",
+    "otherNightReminder": "One player that the Shabaloth chose the previous night might be resurrected. The Shabaloth points to two players. Those players die.",
     "reminders": [
       "Alive",
       "Dead"
@@ -421,7 +421,7 @@
     "team": "demon"
   },
   {
-    "ability": "Jesli obydwoje z Twoich zyjacych sasiadow jest dobrych, \n\r\nzadne z nich nie moze umrzec.",
+    "ability": "Jesli obydwoje z Twoich zyjacych sasiadow jest dobrych, zadne z nich nie moze umrzec.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -467,7 +467,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Kazdej nocy*, jesli dzis nikt nie zginal, wybierz gracza, \n\r\nktory umrze. Kiedy umrzesz po raz pierwszy, \n\r\nbedziesz nadal zyc, ale bedziesz sie pokazywac jako martwy.",
+    "ability": "Kazdej nocy*, jesli dzis nikt nie zginal, wybierz gracza, ktory umrze. Kiedy umrzesz po raz pierwszy, bedziesz nadal zyc, ale bedziesz sie pokazywac jako martwy.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",

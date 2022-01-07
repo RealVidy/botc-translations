@@ -43,8 +43,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Mad",
-      "Has ability"
+      "Has ability",
+      "Mad"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -58,7 +58,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bountyhunter.png?raw=true",
     "name": "Bounty Hunter",
     "otherNight": 65,
-    "otherNightReminder": "If the known evil player has died, point to another evil player. ",
+    "otherNightReminder": "If the known evil player has died, point to another evil player.",
     "reminders": [
       "Known"
     ],
@@ -90,10 +90,10 @@
     "otherNight": 63,
     "otherNightReminder": "Choose a character type that does not yet have a Seen reminder next to a character of that type. Point to a player whose character is of that type, if there are any. Place the Balloonist's Seen reminder next to that character.",
     "reminders": [
-      "Seen Townsfolk",
-      "Seen Outsider",
-      "Seen Minion",
       "Seen Demon",
+      "Seen Minion",
+      "Seen Outsider",
+      "Seen Townsfolk",
       "Seen Traveller"
     ],
     "setup": true,
@@ -116,7 +116,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Kazdego dnia mozesz wyglosic publiczne oswiadczenie. \n\r\nJesli bylo prawdziwe, jeden z graczy umrze noca.",
+    "ability": "Kazdego dnia mozesz wyglosic publiczne oswiadczenie. Jesli bylo prawdziwe, jeden z graczy umrze noca.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -124,7 +124,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gossip.png?raw=true",
     "name": "Plotkara",
     "otherNight": 47,
-    "otherNightReminder": "If the Gossip’s public statement was true: \n\r\nChoose a player, that player dies.",
+    "otherNightReminder": "If the Gossip’s public statement was true: Choose a player, that player dies.",
     "reminders": [
       "Dead"
     ],
@@ -213,7 +213,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Kazdej nocy pierwszy gracz, \n\r\nktory wskaze Cie za pomoca swojej zdolnosci jest pijany \n\r\ndo zmierzchu. Przechodzisz na jego strone.",
+    "ability": "Kazdej nocy pierwszy gracz, ktory wskaze Cie za pomoca swojej zdolnosci jest pijany do zmierzchu. Przechodzisz na jego strone.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "If a player used their character ability to choose the Goon: The ability does not work. Place the Drunk token on that player. The Goon becomes that player’s alignment. Show 'You are' card. Show thumbs-up good, thumbs-down 'evil' for the Goon’s current alignment.",
@@ -276,7 +276,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Na poczatku gry dowiadujesz sie, ktorzy Outsiderzy \n\r\nsa w grze. Jesli jeden z nich dzis umarl, \n\r\nwybierz noca gracza, ktory zginie. [-1 lub +1 Outsider]",
+    "ability": "Na poczatku gry dowiadujesz sie, ktorzy Outsiderzy sa w grze. Jesli jeden z nich dzis umarl, wybierz noca gracza, ktory zginie. [-1 lub +1 Outsider]",
     "edition": "bmr",
     "firstNight": 21,
     "firstNightReminder": "Show each of the Outsider tokens in play.",
@@ -301,7 +301,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
     "name": "Truciciel",
     "otherNight": 8,
-    "otherNightReminder": "The previously poisoned player is no longer poisoned. \n\r\nThe Poisoner points to a player. That player is poisoned.",
+    "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
     "reminders": [
       "Poisoned"
     ],
@@ -366,8 +366,8 @@
     "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
     "reminders": [],
     "remindersGlobal": [
-      "Is the Demon",
-      "Dead"
+      "Dead",
+      "Is the Demon"
     ],
     "setup": true,
     "team": "demon"
@@ -383,8 +383,8 @@
     "otherNight": 34,
     "otherNightReminder": "Choose a player, that player dies.",
     "reminders": [
-      "Dead",
-      "About to die"
+      "About to die",
+      "Dead"
     ],
     "setup": true,
     "team": "demon"

@@ -58,8 +58,8 @@
     "otherNight": 1,
     "otherNightReminder": "Choose a player, wake them and tell them which Barista power is affecting them. Treat them accordingly (sober/healthy/true info or activate their ability twice).",
     "reminders": [
-      "Sober & Healthy",
-      "Ability twice"
+      "Ability twice",
+      "Sober & Healthy"
     ],
     "setup": false,
     "team": "traveler"
@@ -89,8 +89,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Nominate good",
-      "Nominate evil"
+      "Nominate evil",
+      "Nominate good"
     ],
     "setup": false,
     "team": "traveler"
@@ -106,8 +106,8 @@
     "otherNight": 1,
     "otherNightReminder": "The Bone Collector either shakes their head no or points at any dead player. If they pointed at any dead player, put the Bone Collector's 'Has Ability' reminder by the chosen player's character token. (They may need to be woken tonight to use it.)",
     "reminders": [
-      "No ability",
-      "Has ability"
+      "Has ability",
+      "No ability"
     ],
     "setup": false,
     "team": "traveler"
@@ -121,7 +121,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bountyhunter.png?raw=true",
     "name": "Bounty Hunter",
     "otherNight": 65,
-    "otherNightReminder": "If the known evil player has died, point to another evil player. ",
+    "otherNightReminder": "If the known evil player has died, point to another evil player.",
     "reminders": [
       "Known"
     ],
@@ -169,8 +169,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Poisoned",
-      "Died today"
+      "Died today",
+      "Poisoned"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -347,7 +347,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/imp.png?raw=true",
     "name": "Chochlik",
     "otherNight": 24,
-    "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: \n\r\nReplace the character of 1 alive minion with a spare Imp token. \n\r\nShow the 'YOU ARE' card, then the Imp token.",
+    "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'YOU ARE' card, then the Imp token.",
     "reminders": [
       "Dead"
     ],
@@ -382,8 +382,8 @@
     "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
     "reminders": [],
     "remindersGlobal": [
-      "Is the Demon",
-      "Dead"
+      "Dead",
+      "Is the Demon"
     ],
     "setup": true,
     "team": "demon"
@@ -439,7 +439,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
     "name": "Truciciel",
     "otherNight": 8,
-    "otherNightReminder": "The previously poisoned player is no longer poisoned. \n\r\nThe Poisoner points to a player. That player is poisoned.",
+    "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
     "reminders": [
       "Poisoned"
     ],
@@ -485,7 +485,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true",
     "name": "Hodowca krukow",
     "otherNight": 42,
-    "otherNightReminder": "If the Ravenkeeper died tonight: The Ravenkeeper points to a player. \n\r\nShow that player’s character token.",
+    "otherNightReminder": "If the Ravenkeeper died tonight: The Ravenkeeper points to a player. Show that player’s character token.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -561,8 +561,8 @@
     "otherNight": 59,
     "otherNightReminder": "Nod 'yes' or shake head 'no' for whether a Minion nominated today. Place the 'Minion not nominated' marker (remove 'Minion nominated', if any).",
     "reminders": [
-      "Minions not nominated",
-      "Minion nominated"
+      "Minion nominated",
+      "Minions not nominated"
     ],
     "setup": false,
     "team": "townsfolk"
