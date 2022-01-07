@@ -1889,5 +1889,83 @@
     "reminders": [],
     "setup": false,
     "team": "traveler"
+  },
+  {
+    "ability": "Something bad might happen to whoever is most responsible for the death of a new player.",
+    "id": "angel",
+    "name": "Angel",
+    "team": "fabled"
+  },
+  {
+    "ability": "For the first 2 minutes of each day, veteran players may not talk.",
+    "id": "buddhist",
+    "name": "Buddhist",
+    "team": "fabled"
+  },
+  {
+    "ability": "Use the Djinn's special rule. All players know what it is.",
+    "id": "djinn",
+    "name": "Djinn",
+    "team": "fabled"
+  },
+  {
+    "ability": "If 4 or more players live, each living player may publicly choose (once per game) that a player of their own alignment dies.",
+    "id": "doomsayer",
+    "name": "Doomsayer",
+    "team": "fabled"
+  },
+  {
+    "ability": "Each day, 3 players may choose to visit you. At night*, each visitor learns how many visitors are evil, but 1 gets false info.",
+    "id": "duchess",
+    "name": "Duchess",
+    "team": "fabled"
+  },
+  {
+    "ability": "Once per game, 1 good player might get false information.",
+    "id": "fibbin",
+    "name": "Fibbin",
+    "team": "fabled"
+  },
+  {
+    "ability": "Once per game, the Demon secretly chooses an opposing player: all players choose which of these 2 players win.",
+    "id": "fiddler",
+    "name": "Fiddler",
+    "team": "fabled"
+  },
+  {
+    "ability": "Something bad might happen to whoever talks when the Storyteller has asked for silence.",
+    "id": "hellslibrarian",
+    "name": "Hell's Librarian",
+    "team": "fabled"
+  },
+  {
+    "ability": "2 neighboring players are known to be the same alignment. Once per game, one of them registers falsely",
+    "id": "revolutionary",
+    "name": "Revolutionary",
+    "team": "fabled"
+  },
+  {
+    "ability": "There might be 1 extra or 1 fewer Outsider in-play.",
+    "id": "sentinel",
+    "name": "Sentinel",
+    "team": "fabled"
+  },
+  {
+    "ability": "There can't be more than 1 extra evil player.",
+    "id": "spiritofivory",
+    "name": "Spirit Of Ivory",
+    "team": "fabled"
+  },
+  {
+    "ability": "Name a good character. If in play, they can only die by execution, but evil players learn which player it is.",
+    "id": "stormcatcher",
+    "name": "Storm Catcher",
+    "team": "fabled"
+  },
+  {
+    "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info.",
+    "id": "toymaker",
+    "name": "Toymaker",
+    "team": "fabled"
   }
 ]
