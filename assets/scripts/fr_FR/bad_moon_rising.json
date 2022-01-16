@@ -164,7 +164,7 @@
     "team": "minion"
   },
   {
-    "ability": "La capacité du 1er rôle qui vous vise ou vous affecte ne fonctionne pas. Celui-ci devient ivre jusqu’au crépuscule** et vous changez pour son alignement.",
+    "ability": "La capacité du 1er rôle qui vous vise ou vous affecte ne fonctionne pas. Celui-ci devient ivre jusqu’au crépuscule et vous changez pour son alignement.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "Le premier joueur qui a utilisé sa capacité sur la Brute ne fonctionne pas, ajouter le jeton ivre à ce joueur. Il change d’alignement pour ce joueur. Si c’est le cas: Le réveiller et montrez-lui la carte violette « Vous êtes », puis un signal de la main (pouce vers le haut « bon », pouce vers le bas maléfique) pour son nouvel alignement.",
@@ -212,7 +212,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Chaque nuit*, choisissez 2 joueurs: ils ne peuvent pas mourir cette nuit, mais l’un d’entre eux est ivre jusqu’au crépuscule**.",
+    "ability": "Chaque nuit*, choisissez 2 joueurs: ils ne peuvent pas mourir cette nuit, mais l’un d’entre eux est ivre jusqu’au crépuscule.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -220,7 +220,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/innkeeper.png?raw=true",
     "name": "Aubergiste",
     "otherNight": 9,
-    "otherNightReminder": "Désigne 2 joueurs. Ceux-ci sont protégés cette nuit, mais l'un d’eux est ivre jusqu’au crépuscule**.",
+    "otherNightReminder": "Désigne 2 joueurs. Ceux-ci sont protégés cette nuit, mais l'un d’eux est ivre jusqu’au crépuscule.",
     "reminders": [
       "Ivre",
       "Protégé Nuit"
@@ -292,7 +292,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Si un Sbire est exécuté aujourd'hui, tous les autres joueurs tous les joueurs (à l'exception du Ménestrel et des voyageurs) sont ivres jusqu’au prochain crépuscule**.",
+    "ability": "Si un Sbire est exécuté aujourd'hui, tous les joueurs (à l'exception du Ménestrel et des voyageurs) sont ivres jusqu’au prochain crépuscule.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -391,15 +391,15 @@
     "team": "demon"
   },
   {
-    "ability": "Chaque nuit, choisissez un joueur vivant : un de vous est ivre jusqu’au crépuscule**. Si vous êtes sobre, vous ne pouvez pas mourir.",
+    "ability": "Chaque nuit, choisissez un joueur vivant : un de vous est ivre jusqu’au crépuscule. Si vous êtes sobre, vous ne pouvez pas mourir.",
     "edition": "bmr",
     "firstNight": 10,
-    "firstNightReminder": "Il choisit 1 joueur vivant : un des deux est ivre jusqu’au crépuscule** (nuit et jour suivant). Le marin sobre ne peut pas mourir.",
+    "firstNightReminder": "Il choisit 1 joueur vivant : un des deux est ivre jusqu’au crépuscule (nuit et jour suivant). Le marin sobre ne peut pas mourir.",
     "id": "fr_FR_sailor",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sailor.png?raw=true",
     "name": "Marin",
     "otherNight": 4,
-    "otherNightReminder": "Il choisit 1 joueur vivant : un des deux est ivre jusqu’au crépuscule** (nuit et jour suivant). Le marin sobre ne peut pas mourir.",
+    "otherNightReminder": "Il choisit 1 joueur vivant : un des deux est ivre jusqu’au crépuscule (nuit et jour suivant). Le marin sobre ne peut pas mourir.",
     "reminders": [
       "Ivre",
       "Marin Protégé"

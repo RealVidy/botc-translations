@@ -234,7 +234,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Chaque nuit, vous apprenez combien de capacités des autres joueurs n’ont pas fonctionné depuis l’Aube***.",
+    "ability": "Chaque nuit, vous apprenez combien de capacités des autres joueurs n’ont pas fonctionné depuis l’Aube.",
     "edition": "snv",
     "firstNight": 50,
     "firstNightReminder": "Lui indiquer combien de capacités des autres joueurs n’ont pas fonctionnés aujourd'hui et cette nuit. Retirer les jetons “Effet anormal”.",
