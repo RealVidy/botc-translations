@@ -8,6 +8,12 @@ You can find already generated script JSON files in [assets/scripts](assets/scri
 
 The language we use is Elixir (see how to [install](https://elixir-lang.org/install.html#macos) it).
 
+## Adding a new locale
+
+Open [lib/constants.ex](lib/constants.ex) and add the locale to the `@known_locales` module variable at the top of the file.
+
+Then either genereate your CSV from a JSON file or the other way around. You'll find instructions on how to do that in this README.
+
 ## Google Sheet / CSV
 
 We use a google sheet to edit, discuss, and maintain translations of the game, mainly for digital use on [clocktower.online](https://clocktower.online/) or [Nara](https://nara.fly.dev/). This format should also be usable to generate translations for the physical copy of the game one day.
