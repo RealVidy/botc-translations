@@ -1,0 +1,486 @@
+[
+  {
+    "ability": "Tu 1ª noche, obtienes una habilidad de Residente (si eres honrado) o una habilidad de Secuaz (si eres maligno).",
+    "edition": "bmr",
+    "firstNight": 1,
+    "firstNightReminder": "Muestra al Aprendiz la tarjeta \"Eres\" y una ficha de Residente o de Secuaz. En el Grimorio, sustituye la ficha de Aprendiz por la de ese personaje y pon el recordatorio \"Es el Aprendiz\" al lado de la ficha de ese personaje.",
+    "id": "es_ES_apprentice",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/apprentice.png?raw=true",
+    "name": "Aprendiz",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Es el aprendiz"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Una vez por partida, durante la noche*, elige a un jugador: morirá, incluso si por cualquier razón no puede morir.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_assassin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/assassin.png?raw=true",
+    "name": "Asesino",
+    "otherNight": 37,
+    "otherNightReminder": "Si el Asesino no ha utilizado su habilidad aún: el Asesino niega con la cabeza o señala a un jugador. Ese jugador muere.",
+    "reminders": [
+      "Muerto",
+      "Sin habilidad"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Solo el Narrador puede nominar. Al menos 1 jugador del bando contrario debe ser nominado cada día.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_bishop",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bishop.png?raw=true",
+    "name": "Obispo",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Nominar honrado",
+      "Nominar maligno"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Cada noche, elige a 2 jugadores vivos (no a ti mismo): sabrás cuántos se han despertado durante la noche para usar su habilidad.",
+    "edition": "bmr",
+    "firstNight": 49,
+    "firstNightReminder": "La Criada señala a dos jugadores. Muéstrale la señal numérica (0, 1, 2, ...) indicando cuántos de esos jugadores se han despertado esta noche por su habilidad.",
+    "id": "es_ES_chambermaid",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chambermaid.png?raw=true",
+    "name": "Criada",
+    "otherNight": 69,
+    "otherNightReminder": "La Criada señala a dos jugadores. Muéstrale la señal numérica (0, 1, 2, ...) indicando cuántos de esos jugadores se han despertado esta noche por su habilidad.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Una vez por partida, durante la noche, elige a un personaje: estará borracho 3 noches y 3 días.",
+    "edition": "bmr",
+    "firstNight": 19,
+    "firstNightReminder": "La Cortesana puede negar con la cabeza o señalar a un personaje de la hoja. Si la Cortesana utiliza su habilidad: si ese personaje está presente en la partida, ese jugador estará borracho.",
+    "id": "es_ES_courtier",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/courtier.png?raw=true",
+    "name": "Cortesana",
+    "otherNight": 10,
+    "otherNightReminder": "Reduce el número de días restantes que el jugador estará borracho. Si la Cortesana no ha usado aún su habilidad: la Cortesana puede negar con la cabeza o señalar un personaje de la hoja. Si la Cortesana ha usado su habilidad: si ese personaje está presente en la partida, ese jugador estará borracho.",
+    "reminders": [
+      "Borracho 1",
+      "Borracho 2",
+      "Borracho 3",
+      "Sin habilidad"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Cada noche, elige a un jugador vivo (diferente al anterior): si es ejecutado mañana, no muere.",
+    "edition": "bmr",
+    "firstNight": 22,
+    "firstNightReminder": "El Abogado del diablo señala a un jugador vivo. Este jugador sobrevive a la ejecución mañana.",
+    "id": "es_ES_devilsadvocate",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/devilsadvocate.png?raw=true",
+    "name": "Abogado del diablo",
+    "otherNight": 14,
+    "otherNightReminder": "El Abogado del diablo señala a un jugador vivo, diferente al de la noche anterior. Este jugador sobrevive a la ejecución mañana.",
+    "reminders": [
+      "Sobrevive a la ejecución"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Cada noche*, elige a un jugador (diferente al de la noche anterior): el Demonio, si es elegido, sabrá quién eres y no despertará esta noche.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_exorcist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/exorcist.png?raw=true",
+    "name": "Exorcista",
+    "otherNight": 22,
+    "otherNightReminder": "El Exorcista señala a un jugador, diferente del de la noche anterior. Si ese jugador es el Demonio: despierta al demonio. Muéstrale la ficha del Exorcista. Señala al Exorcista. El Demonio no actúa esta noche.",
+    "reminders": [
+      "Elegido"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "La primera vez que mueres, no mueres.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_fool",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fool.png?raw=true",
+    "name": "Bufón",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Sin habilidad"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Cada noche*, elige a un jugador e intenta adivinar su personaje: si no aciertas, mueres.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_gambler",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gambler.png?raw=true",
+    "name": "Tahúr",
+    "otherNight": 11,
+    "otherNightReminder": "El Tahúr señala a un jugador y un personaje de la hoja. Si no es correcto, el Tahúr muere.",
+    "reminders": [
+      "Muerto"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Comienzas sabiendo qué Forasteros están presentes en la partida. Si 1 muere hoy, elige a un jugador esta noche: morirá. [-1 o +1 Forastero]",
+    "edition": "bmr",
+    "firstNight": 21,
+    "firstNightReminder": "Muestra todas las fichas de Forasteros presentes en la partida.",
+    "id": "es_ES_godfather",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/godfather.png?raw=true",
+    "name": "Padrino",
+    "otherNight": 38,
+    "otherNightReminder": "Si un Forastero muere hoy: el Padrino señala a un jugador. Ese jugador muere.",
+    "reminders": [
+      "Muerto",
+      "Muerto hoy"
+    ],
+    "setup": true,
+    "team": "minion"
+  },
+  {
+    "ability": "Cada noche, el 1º jugador que te elija con su habilidad estará borracho hasta el ocaso. Pasas a su bando,",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_goon",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/goon.png?raw=true",
+    "name": "Matón",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Borracho"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Cada día puedes hacer una declaración pública. Si lo que dijiste es cierto, esta noche morirá un jugador.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_gossip",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gossip.png?raw=true",
+    "name": "Chismoso",
+    "otherNight": 47,
+    "otherNightReminder": "Si la declaración pública del Chismoso era cierta: elige a un jugador que no esté protegido de morir esta noche. Ese jugador muere.",
+    "reminders": [
+      "Muerto"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Comienzas sabiendo quién es uno de los jugadores honrados y su personaje. Si el Demonio lo mata, tú también mueres.",
+    "edition": "bmr",
+    "firstNight": 39,
+    "firstNightReminder": "Muestra la ficha del personaje marcado. Señala al jugador marcado.",
+    "id": "es_ES_grandmother",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/grandmother.png?raw=true",
+    "name": "Abuela",
+    "otherNight": 50,
+    "otherNightReminder": "Si el Demonio mata al nieto de la Abuela: la Abuela muere.",
+    "reminders": [
+      "Nieto"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Cada noche*, elige a 2 jugadores: esta noche no pueden morir, pero 1 estará borracho hasta el ocaso.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_innkeeper",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/innkeeper.png?raw=true",
+    "name": "Posadero",
+    "otherNight": 9,
+    "otherNightReminder": "Los jugadores de la noche anterior pierden sus marcadores (protegido, borracho). El Posadero señala a dos jugadores. Esos jugadores están protegidos. Uno está borracho.",
+    "reminders": [
+      "Borracho",
+      "Protegido"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Once per game, if another player nominated, you may choose to force the current execution to pass or fail.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_judge",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/judge.png?raw=true",
+    "name": "Juez",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "No ability"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Crees que eres un Demonio, pero no lo eres. El Demonio sabe quién eres y a quién eliges cada noche.",
+    "edition": "bmr",
+    "firstNight": 7,
+    "firstNightReminder": "Si hay 7 o más jugadores: muestra al Lunático un número arbitrario de 'Secuaces' igual al número de Secuaces presentes en la partida. Muéstrale 3 fichas de personajes honrados aleatorias. si la ficha recibida por el Lunático es un Demonio que debe despertarse esta noche: permítele que realice las acciones del Demonio. Pon sus marcadores de 'ataque'. Despierta al Demonio. Muéstrale la ficha de personaje demoníaco real. Muéstrale al jugador Lunático. Si el Lunático ha atacado a jugadores: muéstrale al demonio real los jugadores marcados. Elimina todos los marcadores de 'ataque' del Lunático.",
+    "id": "es_ES_lunatic",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
+    "name": "Lunático",
+    "otherNight": 21,
+    "otherNightReminder": "Permite al Lunático que realice las acciones del Demonio. Pon sus marcadores de 'ataque'. Si el Lunático ha atacado a jugadores: despierta al Demonio. Muéstrale el marcador de 'ataque' y señala a cada jugador marcado. Elimina todos los marcadores de 'ataque' del Lunático.",
+    "reminders": [
+      "Ataque 1",
+      "Ataque 2",
+      "Ataque 3"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Si el Demonio muere ejecutado (terminando así la partida), juega 1 día más. Si se ejecuta a un jugador, su equipo pierde.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_mastermind",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mastermind.png?raw=true",
+    "name": "Maquiavelo",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Each day, you may choose up to 3 sets of 2 players to swap seats. Players may not leave their seats to talk in private.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_matron",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/matron.png?raw=true",
+    "name": "Matrona",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Cuando un Secuaz muere ejecutado, el resto de jugadores (excepto los Viajeros) están borrachos hasta el ocaso del siguiente día.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_minstrel",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minstrel.png?raw=true",
+    "name": "Ministril",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Todos borrachos"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Al saber que has muerto, elige públicamente a 1 jugador vivo. Esa noche, si era un jugador honrado, morirá.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_moonchild",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/moonchild.png?raw=true",
+    "name": "Hija de la Luna",
+    "otherNight": 49,
+    "otherNightReminder": "Si la Hija de la Luna usó su habilidad para elegir a un jugador: si el jugador es honrado, muere",
+    "reminders": [
+      "Muerto"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Los jugadores honrados ejecutados podrían no morir.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_pacifist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pacifist.png?raw=true",
+    "name": "Pacifista",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Cada noche*, puedes elegir a un jugador: morirá. Si la vez anterior no elegiste a nadie, elige a 3 jugadores esta noche.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_po",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/po.png?raw=true",
+    "name": "Po",
+    "otherNight": 28,
+    "otherNightReminder": "Si el Po no eligió a nadie la noche anterior: el Po señala a 3 jugadores. De lo contrario: el Po niega con la cabeza o señala a un jugador. Los jugadores señalados mueren.",
+    "reminders": [
+      "3 ataques",
+      "Muerto"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "Una vez por partida, durante la noche*, elige a un jugador muerto: si es un Residente, resucitará.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_professor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/professor.png?raw=true",
+    "name": "Catedrático",
+    "otherNight": 45,
+    "otherNightReminder": "Si el Catedrático no ha usado su habilidad: el Catedrático puede negar con la cabeza o señalar a un jugador. Si ese jugador es un Residente, vuelve a estar vivo.",
+    "reminders": [
+      "Sin habilidad",
+      "Vivo"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Cada noche, elige a un jugador: será envenenado. El jugador envenenado previamente muere y deja de estar envenenado.",
+    "edition": "bmr",
+    "firstNight": 28,
+    "firstNightReminder": "El Pukka señala a un jugador. Ese jugador es envenenado.",
+    "id": "es_ES_pukka",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pukka.png?raw=true",
+    "name": "Pukka",
+    "otherNight": 26,
+    "otherNightReminder": "El Pukka señala a un jugador. Ese jugador es envenenado. El jugador envenenado previamente muere.",
+    "reminders": [
+      "Envenenado",
+      "Muerto"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "Cada noche, elige a un jugador vivo: uno de los dos (tú o ese jugador) estará borracho hasta el ocaso. No puedes morir.",
+    "edition": "bmr",
+    "firstNight": 10,
+    "firstNightReminder": "El Marinero señala a un jugador vivo. El Marinero o el jugador elegido estará borracho.",
+    "id": "es_ES_sailor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sailor.png?raw=true",
+    "name": "Marinero",
+    "otherNight": 4,
+    "otherNightReminder": "El jugador que estaba borracho previamente ya no lo está. El Marinero señala a un jugador vivo. El Marinero o el jugador elegido estará borracho.",
+    "reminders": [
+      "Borracho"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Cada noche*, elige a 2 jugadores: morirán. Un jugador muerto que elegiste la noche anterior puede ser regurgitado.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_shabaloth",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/shabaloth.png?raw=true",
+    "name": "Shabaloth",
+    "otherNight": 27,
+    "otherNightReminder": "Uno de los jugadores elegidos la noche anterior por el Shabaloth puede resucitar. El Shabaloth señala a dos jugadores. Esos jugadores mueren.",
+    "reminders": [
+      "Muerto",
+      "Vivo"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "Si tus dos vecinos vivos son honrados, no pueden morir.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_tealady",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/tealady.png?raw=true",
+    "name": "Escanciadora",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "No puede morir"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Es posible que mueras en cualquier momento",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_tinker",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/tinker.png?raw=true",
+    "name": "Quincallero",
+    "otherNight": 48,
+    "otherNightReminder": "El Quincallero podría morir.",
+    "reminders": [
+      "Muerto"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Only you and the dead can vote. They don't need a vote token to do so. A 50% majority is not required.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_voudon",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/voudon.png?raw=true",
+    "name": "Necromante",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Cada noche*, si nadie murió hoy, elige a un jugador: morirá. La 1ª vez que mueres, sobrevives, pero apareces como muerto.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_zombuul",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/zombuul.png?raw=true",
+    "name": "Zombuul",
+    "otherNight": 25,
+    "otherNightReminder": "Si nadie murió durante el día: el Zombuul señala a un jugador. Ese jugador muere.",
+    "reminders": [
+      "Muerto",
+      "Muerto hoy"
+    ],
+    "setup": false,
+    "team": "demon"
+  }
+]
