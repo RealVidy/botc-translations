@@ -17,34 +17,34 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You start knowing 3 players, 1 and only 1 of which is evil.",
+    "ability": "Comienzas sabiendo que solo 1 de 3 jugadores es maligno.",
     "edition": "",
     "firstNight": 43,
-    "firstNightReminder": "Point to 3 players including one evil player, in no particular order.",
+    "firstNightReminder": "Señala a 3 jugadores incluyendo a uno maligno, sin un orden específico.",
     "id": "es_ES_noble",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/noble.png?raw=true",
     "name": "Noble",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Seen"
+      "Visto"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "You start knowing 1 in-play Townsfolk. If you were mad that you were this character, you gain their ability when they die.",
+    "ability": "Comienzas sabiendo que hay 1 Residente específico en la partida. Si estás \"loco\" y haces ver que eres este personaje, obtendrás su habilidad cuando muera.",
     "edition": "",
     "firstNight": 29,
-    "firstNightReminder": "Show the Pixie 1 in-play Townsfolk character token.",
+    "firstNightReminder": "Muestra al Pixie la ficha de personaje de un Residente presente en la partida.",
     "id": "es_ES_pixie",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pixie.png?raw=true",
     "name": "Pixie",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Has ability",
-      "Mad"
+      "Con habilidad",
+      "Loco"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -80,7 +80,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, you learn 1 player of each character type, until there are no more types to learn. [+1 Outsider] Cada noche, conocerás a 1 jugador de cada tipo de personaje hasta que no haya más tipos. [+1 Forastero]",
+    "ability": "Cada noche, conocerás a 1 jugador de cada tipo de personaje hasta que no haya más tipos. [+1 Forastero]",
     "edition": "",
     "firstNight": 44,
     "firstNightReminder": "Elige un tipo de personaje. Señala a un jugador que tenga un personaje de ese tipo. Pon el recordatorio \"Divisado\" del Aeronauta junto a ese personaje.",
@@ -181,33 +181,33 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, at night, choose a living player: the Damsel, if chosen, becomes a not-in-play Townsfolk. [+the Damsel]",
+    "ability": "Una vez por partida, durante la noche, elige a un jugador con vida: si eliges a la Doncella, esta se convierte en un Residente no presente en la partida. [+la Doncella]",
     "edition": "",
     "firstNight": 30,
-    "firstNightReminder": "The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",
+    "firstNightReminder": "El Cazador puede negar con la cabeza o señalar a un jugador. Si señalan a la Doncella, despierta a ese jugador, muéstrale la tarjeta \"Eres\" y la ficha de un personaje Residente no presente en la partida.",
     "id": "es_ES_huntsman",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/huntsman.png?raw=true",
     "name": "Cazador",
     "otherNight": 51,
-    "otherNightReminder": "The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",
+    "otherNightReminder": "El Cazador puede negar con la cabeza o señalar a un jugador. Si señalan a la Doncella, despierta a ese jugador, muéstrale la tarjeta \"Eres\" y la ficha de un personaje Residente no presente en la partida.",
     "reminders": [
-      "No ability"
+      "Sin habilidad"
     ],
     "setup": true,
     "team": "townsfolk"
   },
   {
-    "ability": "Minions & Demons do not know each other. If you die, they learn who each other are that night.",
+    "ability": "Los Secuaces y Demonios no se conocen entre ellos. Si mueres, sabrás quién es cada uno de ellos esa noche.",
     "edition": "",
     "firstNight": 4,
-    "firstNightReminder": "Do not inform the Demon/Minions who each other are",
+    "firstNightReminder": "No informes al Demonio/Secuaces de quiénes son cada uno.",
     "id": "es_ES_poppygrower",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poppygrower.png?raw=true",
     "name": "Adormidero",
     "otherNight": 3,
-    "otherNightReminder": "If the Poppy Grower has died, show the Minions/Demon who each other are.",
+    "otherNightReminder": "Si el Adormidero murió, muestra a los Secuaces/Demonio quién es cada uno de ellos.",
     "reminders": [
-      "Evil wakes"
+      "El Mal se despierta"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -243,15 +243,15 @@
     "team": "outsider"
   },
   {
-    "ability": "Todos los Secuaces saben que estás en la partida. Si un Secuaz adivina (una vez) quién eres en público, tu equipo pierde.",
+    "ability": "Todos los Secuaces saben que estás en la partida. Si un Secuaz adivina (un solo intento) quién eres en público, tu equipo pierde.",
     "edition": "",
     "firstNight": 31,
-    "firstNightReminder": "Despierta a todos los Secuaces, muéstrales la tarjeta \"Este personaje te ha elegido\" y la ficha de la Damisela.",
+    "firstNightReminder": "Despierta a todos los Secuaces, muéstrales la tarjeta \"Este personaje te ha elegido\" y la ficha de la Doncella.",
     "id": "es_ES_damsel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/damsel.png?raw=true",
-    "name": "Damisela",
+    "name": "Doncella",
     "otherNight": 52,
-    "otherNightReminder": "Si el Cazador la selecciona, despierta a la Damisela, muéstrale la tarjeta \"Eres\" y la ficha de un Residente que no esté presente en la partida.",
+    "otherNightReminder": "Si el Cazador la selecciona, despierta a la Doncella, muéstrale la tarjeta \"Eres\" y la ficha de un Residente que no esté presente en la partida.",
     "reminders": [
       "Intento agotado"
     ],
@@ -355,25 +355,25 @@
     "team": "minion"
   },
   {
-    "ability": "Each night, Minions choose who babysits Lil' Monsta's token & \"is the Demon\". A player dies each night*. [+1 Minion]",
+    "ability": "Cada noche, los Secuaces eligen quién cuida de la ficha del Monstruito y \"es el Demonio\". Un jugador muere cada noche*. [+1 Secuaz]",
     "edition": "",
     "firstNight": 16,
-    "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",
+    "firstNightReminder": "Despierta a todos los Secuaces juntos, permíteles voten señalando a quién quieran que cuide al Monstruito.",
     "id": "es_ES_lilmonsta",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lilmonsta.png?raw=true",
     "name": "Monstruito",
     "otherNight": 36,
-    "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
+    "otherNightReminder": "Despierta a todos los Secuaces juntos, permíteles voten señalando a quién quieran que cuide al Monstruito. Elige a un jugador, ese jugador muere.",
     "reminders": [],
     "remindersGlobal": [
-      "Dead",
-      "Is the Demon"
+      "Es el Demonio",
+      "Muerto"
     ],
     "setup": true,
     "team": "demon"
   },
   {
-    "ability": "Each night*, a player might die. Executions fail if only evil voted. You register as a Minion too. [Most players are Legion]",
+    "ability": "Cada noche*, un jugador podría morir. Las ejecuciones no son aprobadas si solo vota el bando maligno. Apareces como un Secuaz también. [La mayoría de los jugadores son Legión.]",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -381,10 +381,10 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/legion.png?raw=true",
     "name": "Legión",
     "otherNight": 34,
-    "otherNightReminder": "Choose a player, that player dies.",
+    "otherNightReminder": "Elige a un jugador, ese jugador muere.",
     "reminders": [
-      "About to die",
-      "Dead"
+      "A punto de morir",
+      "Muerto"
     ],
     "setup": true,
     "team": "demon"

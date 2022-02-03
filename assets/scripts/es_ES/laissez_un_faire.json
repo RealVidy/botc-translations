@@ -32,7 +32,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, you learn 1 player of each character type, until there are no more types to learn. [+1 Outsider] Cada noche, conocerás a 1 jugador de cada tipo de personaje hasta que no haya más tipos. [+1 Forastero]",
+    "ability": "Cada noche, conocerás a 1 jugador de cada tipo de personaje hasta que no haya más tipos. [+1 Forastero]",
     "edition": "",
     "firstNight": 44,
     "firstNightReminder": "Elige un tipo de personaje. Señala a un jugador que tenga un personaje de ese tipo. Pon el recordatorio \"Divisado\" del Aeronauta junto a ese personaje.",
@@ -101,22 +101,22 @@
     "team": "minion"
   },
   {
-    "ability": "If more than 1 good player is executed, you win. All players know you are in play. After day 5, evil wins.",
+    "ability": "Si más de 1 jugador honrado es ejecutado, ganas. Todos los jugadores saben que estás en la partida. Tras el 5º día, el Mal triunfa.",
     "edition": "",
     "firstNight": 52,
-    "firstNightReminder": "Place the Leviathan 'Day 1' marker. Announce 'The Leviathan is in play; this is Day 1.'",
+    "firstNightReminder": "Pon el marcador \"Día 1\" del Leviatán. Anuncia 'El Leviatán está entre nosotros, este es el Día 1'.",
     "id": "es_ES_leviathan",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/leviathan.png?raw=true",
     "name": "Leviatán",
     "otherNight": 72,
-    "otherNightReminder": "Change the Leviathan Day reminder for the next day.",
+    "otherNightReminder": "Cambia el recordatorio de Día del Leviatán para el día siguiente.",
     "reminders": [
-      "Day 1",
-      "Day 2",
-      "Day 3",
-      "Day 4",
-      "Day 5",
-      "Good player executed"
+      "Día 1",
+      "Día 2",
+      "Día 3",
+      "Día 4",
+      "Día 5",
+      "Jugador honrado ejecutado"
     ],
     "setup": false,
     "team": "demon"
@@ -168,20 +168,20 @@
     "team": "townsfolk"
   },
   {
-    "ability": "On your 1st night, look at the Grimoire and choose a player: they are poisoned. 1 good player knows a Widow is in play.",
+    "ability": "Tu primera noche, verás el Grimorio y elegirás a un jugador: será envenenado. 1 jugador honrado sabe que la Viuda está en la partida.",
     "edition": "",
     "firstNight": 18,
-    "firstNightReminder": "Show the Grimoire to the Widow for as long as they need. The Widow points to a player. That player is poisoned. Wake a good player. Show the 'These characters are in play' card, then the Widow character token.",
+    "firstNightReminder": "Muestra el Grimorio a la viuda el tiempo que lo necesite. La Viuda señala a un jugador. Ese jugador es envenenado. Despierta a un jugador honrado. Muestra la tarjeta \"Estos personajes están en la partida\" y la ficha de personaje de la Viuda.",
     "id": "es_ES_widow",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/widow.png?raw=true",
     "name": "Viuda",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Poisoned"
+      "Envenenado"
     ],
     "remindersGlobal": [
-      "Knows"
+      "Lo sabe"
     ],
     "setup": false,
     "team": "minion"

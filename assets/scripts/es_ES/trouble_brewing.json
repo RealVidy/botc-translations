@@ -157,7 +157,7 @@
     "firstNightReminder": "Muestra la ficha de personaje de un Secuaz presente en la partida. Señala a dos jugadores, uno de los cuales es ese personaje.",
     "id": "es_ES_investigator",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/investigator.png?raw=true",
-    "name": "Investigador",
+    "name": "Detective",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -209,7 +209,7 @@
     "otherNight": 13,
     "otherNightReminder": "El jugador protegido previamente ya no está protegido. El Monje señala a un jugador (no a sí mismo). Marca a ese jugador como \"Protegido\".",
     "reminders": [
-      "Protected"
+      "Protegido"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -245,7 +245,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You might register as evil & as a Minion or Demon, even if dead.",
+    "ability": "Podrías aparecer como maligno y como un Secuaz o Demonio, incluso estando muerto.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -273,7 +273,7 @@
     "team": "outsider"
   },
   {
-    "ability": "If a player of your alignment is executed, you might be executed instead.",
+    "ability": "Si un jugador de tu bando es ejecutado, tú podrías ser ejecutado en su lugar.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -336,28 +336,28 @@
     "ability": "Cada noche, verás el Grimorio. Puedes aparecer como honrado, como un Residente o un Forastero, incluso aunque estés muerto.",
     "edition": "tb",
     "firstNight": 47,
-    "firstNightReminder": "Show the Grimoire to the Spy for as long as they need.",
+    "firstNightReminder": "Muestra el Grimorio al Espía todo el tiempo que le sea necesario.",
     "id": "es_ES_spy",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spy.png?raw=true",
     "name": "Espía",
     "otherNight": 67,
-    "otherNightReminder": "Show the Grimoire to the Spy for as long as they need.",
+    "otherNightReminder": "Muestra el Grimorio al Espía todo el tiempo que le sea necesario.",
     "reminders": [],
     "setup": false,
     "team": "minion"
   },
   {
-    "ability": "Each night, choose a player (not yourself): their vote counts negatively tomorrow.",
+    "ability": "Cada noche, elige a un jugador (no a ti mismo): su voto cuenta en negativo mañana.",
     "edition": "tb",
     "firstNight": 1,
-    "firstNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
+    "firstNightReminder": "El Ladrón señala a un jugador. Pon el recordatorio \"Voto negativo\" del Ladrón junto a la ficha de personaje del jugador elegido.",
     "id": "es_ES_thief",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/thief.png?raw=true",
     "name": "Ladrón",
     "otherNight": 1,
-    "otherNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
+    "otherNightReminder": "El Ladrón señala a un jugador. Pon el recordatorio \"Voto negativo\" del Ladrón junto a la ficha de personaje del jugador elegido.",
     "reminders": [
-      "Negative vote"
+      "Voto negativo"
     ],
     "setup": false,
     "team": "traveler"

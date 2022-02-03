@@ -188,7 +188,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, choose a living player: if they agree, you learn their character, but you both might die.",
+    "ability": "Cada noche*, elige a un jugador con vida: si lo consiente, sabrás cuál es su personaje, pero ambos jugadores podrían morir.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -196,9 +196,9 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/harlot.png?raw=true",
     "name": "Meretriz",
     "otherNight": 1,
-    "otherNightReminder": "The Harlot points at any player. Then, put the Harlot to sleep. Wake the chosen player, show them the 'This character selected you' token, then the Harlot token. That player either nods their head yes or shakes their head no. If they nodded their head yes, wake the Harlot and show them the chosen player's character token. Then, you may decide that both players die.",
+    "otherNightReminder": "La Meretriz señala a un jugador. La Meretriz vuelve a dormir. Despierta al jugador elegido, muéstrale la tarjeta \"Este personaje te ha seleccionado\" y la ficha de la Meretriz. Ese jugador puede afirmar o negar con la cabeza. Si afirma, despierta a la Meretriz y muéstrale la ficha de personaje del jugador elegido. Después, decide si ambos jugadores mueren.",
     "reminders": [
-      "Dead"
+      "Muerto"
     ],
     "setup": false,
     "team": "traveler"

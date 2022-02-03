@@ -323,7 +323,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Each night*, choose a living player: if they agree, you learn their character, but you both might die.",
+    "ability": "Cada noche*, elige a un jugador con vida: si lo consiente, sabrás cuál es su personaje, pero ambos jugadores podrían morir.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -331,9 +331,9 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/harlot.png?raw=true",
     "name": "Meretriz",
     "otherNight": 1,
-    "otherNightReminder": "The Harlot points at any player. Then, put the Harlot to sleep. Wake the chosen player, show them the 'This character selected you' token, then the Harlot token. That player either nods their head yes or shakes their head no. If they nodded their head yes, wake the Harlot and show them the chosen player's character token. Then, you may decide that both players die.",
+    "otherNightReminder": "La Meretriz señala a un jugador. La Meretriz vuelve a dormir. Despierta al jugador elegido, muéstrale la tarjeta \"Este personaje te ha seleccionado\" y la ficha de la Meretriz. Ese jugador puede afirmar o negar con la cabeza. Si afirma, despierta a la Meretriz y muéstrale la ficha de personaje del jugador elegido. Después, decide si ambos jugadores mueren.",
     "reminders": [
-      "Dead"
+      "Muerto"
     ],
     "setup": false,
     "team": "traveler"
@@ -355,7 +355,7 @@
     "team": "demon"
   },
   {
-    "ability": "Once per game, if another player nominated, you may choose to force the current execution to pass or fail.",
+    "ability": "Una vez por partida, si otro jugador nominó, puedes decidir si la ejecución es aprobada o no.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -365,31 +365,31 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "Sin habilidad"
     ],
     "setup": false,
     "team": "traveler"
   },
   {
-    "ability": "Each night, Minions choose who babysits Lil' Monsta's token & \"is the Demon\". A player dies each night*. [+1 Minion]",
+    "ability": "Cada noche, los Secuaces eligen quién cuida de la ficha del Monstruito y \"es el Demonio\". Un jugador muere cada noche*. [+1 Secuaz]",
     "edition": "",
     "firstNight": 16,
-    "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",
+    "firstNightReminder": "Despierta a todos los Secuaces juntos, permíteles voten señalando a quién quieran que cuide al Monstruito.",
     "id": "es_ES_lilmonsta",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lilmonsta.png?raw=true",
     "name": "Monstruito",
     "otherNight": 36,
-    "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
+    "otherNightReminder": "Despierta a todos los Secuaces juntos, permíteles voten señalando a quién quieran que cuide al Monstruito. Elige a un jugador, ese jugador muere.",
     "reminders": [],
     "remindersGlobal": [
-      "Dead",
-      "Is the Demon"
+      "Es el Demonio",
+      "Muerto"
     ],
     "setup": true,
     "team": "demon"
   },
   {
-    "ability": "Each day, you may choose up to 3 sets of 2 players to swap seats. Players may not leave their seats to talk in private.",
+    "ability": "Cada día, puedes elegir hasta 3 parejas de jugadores para que intercambien sus asientos. Ningún jugador puede abandonar su asiento para hablar en privado.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -447,7 +447,7 @@
     "team": "minion"
   },
   {
-    "ability": "If you were the player most responsible for your team losing, you change alignment & win, even if dead.",
+    "ability": "Si fuiste el jugador con mayor responsabilidad en la derrota de tu equipo, cambias de bando y ganas, incluso si estás muerto.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -461,17 +461,17 @@
     "team": "outsider"
   },
   {
-    "ability": "Each night, choose a player: a Minion, if chosen, learns this. All chosen Minions have no ability.",
+    "ability": "Cada noche, elige a un jugador: si un Secuaz es elegido, lo sabrá. Los Secuaces elegidos pierden su habilidad.",
     "edition": "",
     "firstNight": 14,
-    "firstNightReminder": "The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.",
+    "firstNightReminder": "El Predicador elige a un jugador. Si elige a un Secuaz, despiértalo y muéstrale la tarjeta \"Este personaje te ha seleccionado\" y la ficha del Predicador.",
     "id": "es_ES_preacher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/preacher.png?raw=true",
     "name": "Predicador",
     "otherNight": 7,
-    "otherNightReminder": "The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.",
+    "otherNightReminder": "El Predicador elige a un jugador. Si elige a un Secuaz, despiértalo y muéstrale la tarjeta \"Este personaje te ha seleccionado\" y la ficha del Predicador.",
     "reminders": [
-      "At a sermon"
+      "Escuchando el sermón"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -491,7 +491,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You might register as evil & as a Minion or Demon, even if dead.",
+    "ability": "Podrías aparecer como maligno y como un Secuaz o Demonio, incluso estando muerto.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -505,7 +505,7 @@
     "team": "outsider"
   },
   {
-    "ability": "If a player of your alignment is executed, you might be executed instead.",
+    "ability": "Si un jugador de tu bando es ejecutado, tú podrías ser ejecutado en su lugar.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -535,17 +535,17 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, choose a player (not yourself): their vote counts negatively tomorrow.",
+    "ability": "Cada noche, elige a un jugador (no a ti mismo): su voto cuenta en negativo mañana.",
     "edition": "tb",
     "firstNight": 1,
-    "firstNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
+    "firstNightReminder": "El Ladrón señala a un jugador. Pon el recordatorio \"Voto negativo\" del Ladrón junto a la ficha de personaje del jugador elegido.",
     "id": "es_ES_thief",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/thief.png?raw=true",
     "name": "Ladrón",
     "otherNight": 1,
-    "otherNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
+    "otherNightReminder": "El Ladrón señala a un jugador. Pon el recordatorio \"Voto negativo\" del Ladrón junto a la ficha de personaje del jugador elegido.",
     "reminders": [
-      "Negative vote"
+      "Voto negativo"
     ],
     "setup": false,
     "team": "traveler"
@@ -568,7 +568,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Only you and the dead can vote. They don't need a vote token to do so. A 50% majority is not required.",
+    "ability": "Solo tú y los muertos pueden votar. Los muertos no necesitan una ficha de voto para votar. No es necesaria una mayoría del 50%.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",

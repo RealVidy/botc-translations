@@ -229,7 +229,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, if another player nominated, you may choose to force the current execution to pass or fail.",
+    "ability": "Una vez por partida, si otro jugador nominó, puedes decidir si la ejecución es aprobada o no.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -239,7 +239,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "Sin habilidad"
     ],
     "setup": false,
     "team": "traveler"
@@ -263,7 +263,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Si el Demonio muere ejecutado (terminando así la partida), juega 1 día más. Si se ejecuta a un jugador, su equipo pierde.",
+    "ability": "Si el Demonio muere ejecutado (terminando así la partida), se juega 1 día más. Si se ejecuta a un jugador, su equipo pierde.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -277,7 +277,7 @@
     "team": "minion"
   },
   {
-    "ability": "Each day, you may choose up to 3 sets of 2 players to swap seats. Players may not leave their seats to talk in private.",
+    "ability": "Cada día, puedes elegir hasta 3 parejas de jugadores para que intercambien sus asientos. Ningún jugador puede abandonar su asiento para hablar en privado.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -297,7 +297,7 @@
     "firstNightReminder": "",
     "id": "es_ES_minstrel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minstrel.png?raw=true",
-    "name": "Ministril",
+    "name": "Trovador",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -453,7 +453,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Only you and the dead can vote. They don't need a vote token to do so. A 50% majority is not required.",
+    "ability": "Solo tú y los muertos pueden votar. Los muertos no necesitan una ficha de voto para votar. No es necesaria una mayoría del 50%.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
