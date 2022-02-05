@@ -33,10 +33,10 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Comienzas sabiendo que hay 1 Residente específico en la partida. Si estás \"loco\" y haces ver que eres este personaje, obtendrás su habilidad cuando muera.",
+    "ability": "Comienzas sabiendo que hay 1 Aldeano específico en la partida. Si estás \"loco\" y haces ver que eres este personaje, obtendrás su habilidad cuando muera.",
     "edition": "",
     "firstNight": 29,
-    "firstNightReminder": "Muestra al Pixie la ficha de personaje de un Residente presente en la partida.",
+    "firstNightReminder": "Muestra al Pixie la ficha de personaje de un Aldeano presente en la partida.",
     "id": "es_ES_pixie",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pixie.png?raw=true",
     "name": "Pixie",
@@ -50,10 +50,10 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Comienzas conociendo a 1 jugador maligno. Si ese jugador muere, conocerás a otro jugador maligno esta noche. [1 Residente es maligno]",
+    "ability": "Comienzas conociendo a 1 jugador maligno. Si ese jugador muere, conocerás a otro jugador maligno esta noche. [1 Aldeano es maligno]",
     "edition": "",
     "firstNight": 45,
-    "firstNightReminder": "Despierta al Residente maligno y muéstrale la tarjeta \"Eres\" y el signo de maligno con el pulgar hacia abajo.",
+    "firstNightReminder": "Despierta al Aldeano maligno y muéstrale la tarjeta \"Eres\" y el signo de maligno con el pulgar hacia abajo.",
     "id": "es_ES_bountyhunter",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bountyhunter.png?raw=true",
     "name": "Cazarrecompensas",
@@ -90,9 +90,9 @@
     "otherNight": 63,
     "otherNightReminder": "Elige un tipo de personaje que aún no tenga el recordatorio \"Divisado\" junto a un personaje de ese tipo. Señala a un jugador cuyo personaje sea de ese tipo, si los hay. Pon el recordatorio \"Divisado\" del Aeronauta junto a ese personaje.",
     "reminders": [
+      "Aldeano Divisado",
       "Demonio Divisado",
       "Forastero Divisado",
-      "Residente Divisado",
       "Secuaz Divisado",
       "Viajero Divisado"
     ],
@@ -181,15 +181,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Una vez por partida, durante la noche, elige a un jugador con vida: si eliges a la Doncella, esta se convierte en un Residente no presente en la partida. [+la Doncella]",
+    "ability": "Una vez por partida, durante la noche, elige a un jugador con vida: si eliges a la Doncella, esta se convierte en un Aldeano no presente en la partida. [+la Doncella]",
     "edition": "",
     "firstNight": 30,
-    "firstNightReminder": "El Cazador puede negar con la cabeza o señalar a un jugador. Si señalan a la Doncella, despierta a ese jugador, muéstrale la tarjeta \"Eres\" y la ficha de un personaje Residente no presente en la partida.",
+    "firstNightReminder": "El Cazador puede negar con la cabeza o señalar a un jugador. Si señalan a la Doncella, despierta a ese jugador, muéstrale la tarjeta \"Eres\" y la ficha de un personaje Aldeano no presente en la partida.",
     "id": "es_ES_huntsman",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/huntsman.png?raw=true",
     "name": "Cazador",
     "otherNight": 51,
-    "otherNightReminder": "El Cazador puede negar con la cabeza o señalar a un jugador. Si señalan a la Doncella, despierta a ese jugador, muéstrale la tarjeta \"Eres\" y la ficha de un personaje Residente no presente en la partida.",
+    "otherNightReminder": "El Cazador puede negar con la cabeza o señalar a un jugador. Si señalan a la Doncella, despierta a ese jugador, muéstrale la tarjeta \"Eres\" y la ficha de un personaje Aldeano no presente en la partida.",
     "reminders": [
       "Sin habilidad"
     ],
@@ -251,7 +251,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/damsel.png?raw=true",
     "name": "Doncella",
     "otherNight": 52,
-    "otherNightReminder": "Si el Cazador la selecciona, despierta a la Doncella, muéstrale la tarjeta \"Eres\" y la ficha de un Residente que no esté presente en la partida.",
+    "otherNightReminder": "Si el Cazador la selecciona, despierta a la Doncella, muéstrale la tarjeta \"Eres\" y la ficha de un Aldeano que no esté presente en la partida.",
     "reminders": [
       "Intento agotado"
     ],
@@ -259,7 +259,7 @@
     "team": "outsider"
   },
   {
-    "ability": "No sabes que eres el Borracho. Crees que eres un personaje Residente, pero no lo eres.",
+    "ability": "No sabes que eres el Borracho. Crees que eres un personaje Aldeano, pero no lo eres.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -390,7 +390,7 @@
     "team": "demon"
   },
   {
-    "ability": "Cada noche*, elige a un jugador: morirá. Las habilidades de los Residentes dan información falsa. Cada día, si no hay ejecución, el Mal triunfa.",
+    "ability": "Cada noche*, elige a un jugador: morirá. Las habilidades de los Aldeanos dan información falsa. Cada día, si no hay ejecución, el Mal triunfa.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",

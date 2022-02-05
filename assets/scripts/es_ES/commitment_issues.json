@@ -16,10 +16,10 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Tu 1ª noche, obtienes una habilidad de Residente (si eres honrado) o una habilidad de Secuaz (si eres maligno).",
+    "ability": "Tu 1ª noche, obtienes una habilidad de Aldeano (si eres honrado) o una habilidad de Secuaz (si eres maligno).",
     "edition": "bmr",
     "firstNight": 1,
-    "firstNightReminder": "Muestra al Aprendiz la tarjeta \"Eres\" y una ficha de Residente o de Secuaz. En el Grimorio, sustituye la ficha de Aprendiz por la de ese personaje y pon el recordatorio \"Es el Aprendiz\" al lado de la ficha de ese personaje.",
+    "firstNightReminder": "Muestra al Aprendiz la tarjeta \"Eres\" y una ficha de Aldeano o de Secuaz. En el Grimorio, sustituye la ficha de Aprendiz por la de ese personaje y pon el recordatorio \"Es el Aprendiz\" al lado de la ficha de ese personaje.",
     "id": "es_ES_apprentice",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/apprentice.png?raw=true",
     "name": "Aprendiz",
@@ -113,10 +113,10 @@
     "team": "traveler"
   },
   {
-    "ability": "Comienzas conociendo a 1 jugador maligno. Si ese jugador muere, conocerás a otro jugador maligno esta noche. [1 Residente es maligno]",
+    "ability": "Comienzas conociendo a 1 jugador maligno. Si ese jugador muere, conocerás a otro jugador maligno esta noche. [1 Aldeano es maligno]",
     "edition": "",
     "firstNight": 45,
-    "firstNightReminder": "Despierta al Residente maligno y muéstrale la tarjeta \"Eres\" y el signo de maligno con el pulgar hacia abajo.",
+    "firstNightReminder": "Despierta al Aldeano maligno y muéstrale la tarjeta \"Eres\" y el signo de maligno con el pulgar hacia abajo.",
     "id": "es_ES_bountyhunter",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bountyhunter.png?raw=true",
     "name": "Cazarrecompensas",
@@ -491,7 +491,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Podrías aparecer como maligno y como un Secuaz o Demonio, incluso estando muerto.",
+    "ability": "Podrías aparecer como maligno (como Secuaz o Demonio), incluso estando muerto.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",

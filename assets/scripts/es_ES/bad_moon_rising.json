@@ -1,9 +1,9 @@
 [
   {
-    "ability": "Tu 1ª noche, obtienes una habilidad de Residente (si eres honrado) o una habilidad de Secuaz (si eres maligno).",
+    "ability": "Tu 1ª noche, obtienes una habilidad de Aldeano (si eres honrado) o una habilidad de Secuaz (si eres maligno).",
     "edition": "bmr",
     "firstNight": 1,
-    "firstNightReminder": "Muestra al Aprendiz la tarjeta \"Eres\" y una ficha de Residente o de Secuaz. En el Grimorio, sustituye la ficha de Aprendiz por la de ese personaje y pon el recordatorio \"Es el Aprendiz\" al lado de la ficha de ese personaje.",
+    "firstNightReminder": "Muestra al Aprendiz la tarjeta \"Eres\" y una ficha de Aldeano o de Secuaz. En el Grimorio, sustituye la ficha de Aprendiz por la de ese personaje y pon el recordatorio \"Es el Aprendiz\" al lado de la ficha de ese personaje.",
     "id": "es_ES_apprentice",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/apprentice.png?raw=true",
     "name": "Aprendiz",
@@ -354,7 +354,7 @@
     "team": "demon"
   },
   {
-    "ability": "Una vez por partida, durante la noche*, elige a un jugador muerto: si es un Residente, resucitará.",
+    "ability": "Una vez por partida, durante la noche*, elige a un jugador muerto: si es un Aldeano, resucitará.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -362,7 +362,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/professor.png?raw=true",
     "name": "Catedrático",
     "otherNight": 45,
-    "otherNightReminder": "Si el Catedrático no ha usado su habilidad: el Catedrático puede negar con la cabeza o señalar a un jugador. Si ese jugador es un Residente, vuelve a estar vivo.",
+    "otherNightReminder": "Si el Catedrático no ha usado su habilidad: el Catedrático puede negar con la cabeza o señalar a un jugador. Si ese jugador es un Aldeano, vuelve a estar vivo.",
     "reminders": [
       "Sin habilidad",
       "Vivo"

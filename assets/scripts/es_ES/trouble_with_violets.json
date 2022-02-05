@@ -217,7 +217,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Cada noche*, elige a un jugador: morirá. Tus dos vecinos Residentes quedan envenenados.",
+    "ability": "Cada noche*, elige a un jugador: morirá. Tus dos vecinos Aldeanos quedan envenenados.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -262,7 +262,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Podrías aparecer como maligno y como un Secuaz o Demonio, incluso estando muerto.",
+    "ability": "Podrías aparecer como maligno (como Secuaz o Demonio), incluso estando muerto.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -366,7 +366,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Cada noche*, elige a un jugador: morirá. Los Secuaces que mates mantienen sus habilidades y envenenan a un Residente vecino. [−1 Forastero]",
+    "ability": "Cada noche*, elige a un jugador: morirá. Los Secuaces que mates mantienen sus habilidades y envenenan a un Aldeano vecino. [−1 Forastero]",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -374,7 +374,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vigormortis.png?raw=true",
     "name": "Vigormortis",
     "otherNight": 32,
-    "otherNightReminder": "El Vigormortis señala a un jugador. Ese jugador muere. Si se trata de un Secuaz, mantiene su habilidad y uno de sus vecinos Residentes será envenenado.",
+    "otherNightReminder": "El Vigormortis señala a un jugador. Ese jugador muere. Si se trata de un Secuaz, mantiene su habilidad y uno de sus vecinos Aldeanos será envenenado.",
     "reminders": [
       "Con habilidad",
       "Envenenado",
@@ -384,7 +384,7 @@
     "team": "demon"
   },
   {
-    "ability": "La primera vez que eres nominado, si el jugador que te nominó es un Residente, es ejecutado inmediatamente.",
+    "ability": "La primera vez que eres nominado, si el jugador que te nominó es un Aldeano, es ejecutado inmediatamente.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -400,7 +400,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Cada noche*, elige a un jugador: morirá. Las habilidades de los Residentes dan información falsa. Cada día, si no hay ejecución, el Mal triunfa.",
+    "ability": "Cada noche*, elige a un jugador: morirá. Las habilidades de los Aldeanos dan información falsa. Cada día, si no hay ejecución, el Mal triunfa.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -416,18 +416,18 @@
     "team": "demon"
   },
   {
-    "ability": "Comienzas sabiendo que 1 de 2 jugadores es un Residente específico.",
+    "ability": "Comienzas sabiendo que 1 de 2 jugadores es un Aldeano específico.",
     "edition": "tb",
     "firstNight": 32,
-    "firstNightReminder": "Muestra la ficha de personaje de un Residente presente en la partida. Señala a dos jugadores, uno de los cuales es ese personaje.",
+    "firstNightReminder": "Muestra la ficha de personaje de un Aldeano presente en la partida. Señala a dos jugadores, uno de los cuales es ese personaje.",
     "id": "es_ES_washerwoman",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/washerwoman.png?raw=true",
     "name": "Lavandera",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Incorrecto",
-      "Residente"
+      "Aldeano",
+      "Incorrecto"
     ],
     "setup": false,
     "team": "townsfolk"

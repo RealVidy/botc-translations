@@ -264,7 +264,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Cada noche*, elige a un jugador: morirá. Tus dos vecinos Residentes quedan envenenados.",
+    "ability": "Cada noche*, elige a un jugador: morirá. Tus dos vecinos Aldeanos quedan envenenados.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -419,7 +419,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Cada noche*, elige a un jugador: morirá. Los Secuaces que mates mantienen sus habilidades y envenenan a un Residente vecino. [−1 Forastero]",
+    "ability": "Cada noche*, elige a un jugador: morirá. Los Secuaces que mates mantienen sus habilidades y envenenan a un Aldeano vecino. [−1 Forastero]",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -427,7 +427,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vigormortis.png?raw=true",
     "name": "Vigormortis",
     "otherNight": 32,
-    "otherNightReminder": "El Vigormortis señala a un jugador. Ese jugador muere. Si se trata de un Secuaz, mantiene su habilidad y uno de sus vecinos Residentes será envenenado.",
+    "otherNightReminder": "El Vigormortis señala a un jugador. Ese jugador muere. Si se trata de un Secuaz, mantiene su habilidad y uno de sus vecinos Aldeanos será envenenado.",
     "reminders": [
       "Con habilidad",
       "Envenenado",
@@ -437,7 +437,7 @@
     "team": "demon"
   },
   {
-    "ability": "Cada noche*, elige a un jugador: morirá. Las habilidades de los Residentes dan información falsa. Cada día, si no hay ejecución, el Mal triunfa.",
+    "ability": "Cada noche*, elige a un jugador: morirá. Las habilidades de los Aldeanos dan información falsa. Cada día, si no hay ejecución, el Mal triunfa.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",

@@ -74,7 +74,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "No sabes que eres el Borracho. Crees que eres un personaje Residente, pero no lo eres.",
+    "ability": "No sabes que eres el Borracho. Crees que eres un personaje Aldeano, pero no lo eres.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -245,7 +245,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Podrías aparecer como maligno y como un Secuaz o Demonio, incluso estando muerto.",
+    "ability": "Podrías aparecer como maligno (como Secuaz o Demonio), incluso estando muerto.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -333,7 +333,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Cada noche, verás el Grimorio. Puedes aparecer como honrado, como un Residente o un Forastero, incluso aunque estés muerto.",
+    "ability": "Cada noche, verás el Grimorio. Puedes aparecer como honrado (como Aldeano o Forastero), incluso aunque estés muerto.",
     "edition": "tb",
     "firstNight": 47,
     "firstNightReminder": "Muestra el Grimorio al Espía todo el tiempo que le sea necesario.",
@@ -379,7 +379,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "La primera vez que eres nominado, si el jugador que te nominó es un Residente, es ejecutado inmediatamente.",
+    "ability": "La primera vez que eres nominado, si el jugador que te nominó es un Aldeano, es ejecutado inmediatamente.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -395,18 +395,18 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Comienzas sabiendo que 1 de 2 jugadores es un Residente específico.",
+    "ability": "Comienzas sabiendo que 1 de 2 jugadores es un Aldeano específico.",
     "edition": "tb",
     "firstNight": 32,
-    "firstNightReminder": "Muestra la ficha de personaje de un Residente presente en la partida. Señala a dos jugadores, uno de los cuales es ese personaje.",
+    "firstNightReminder": "Muestra la ficha de personaje de un Aldeano presente en la partida. Señala a dos jugadores, uno de los cuales es ese personaje.",
     "id": "es_ES_washerwoman",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/washerwoman.png?raw=true",
     "name": "Lavandera",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Incorrecto",
-      "Residente"
+      "Aldeano",
+      "Incorrecto"
     ],
     "setup": false,
     "team": "townsfolk"

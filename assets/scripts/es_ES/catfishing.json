@@ -16,10 +16,10 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Tu 1ª noche, obtienes una habilidad de Residente (si eres honrado) o una habilidad de Secuaz (si eres maligno).",
+    "ability": "Tu 1ª noche, obtienes una habilidad de Aldeano (si eres honrado) o una habilidad de Secuaz (si eres maligno).",
     "edition": "bmr",
     "firstNight": 1,
-    "firstNightReminder": "Muestra al Aprendiz la tarjeta \"Eres\" y una ficha de Residente o de Secuaz. En el Grimorio, sustituye la ficha de Aprendiz por la de ese personaje y pon el recordatorio \"Es el Aprendiz\" al lado de la ficha de ese personaje.",
+    "firstNightReminder": "Muestra al Aprendiz la tarjeta \"Eres\" y una ficha de Aldeano o de Secuaz. En el Grimorio, sustituye la ficha de Aprendiz por la de ese personaje y pon el recordatorio \"Es el Aprendiz\" al lado de la ficha de ese personaje.",
     "id": "es_ES_apprentice",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/apprentice.png?raw=true",
     "name": "Aprendiz",
@@ -59,9 +59,9 @@
     "otherNight": 63,
     "otherNightReminder": "Elige un tipo de personaje que aún no tenga el recordatorio \"Divisado\" junto a un personaje de ese tipo. Señala a un jugador cuyo personaje sea de ese tipo, si los hay. Pon el recordatorio \"Divisado\" del Aeronauta junto a ese personaje.",
     "reminders": [
+      "Aldeano Divisado",
       "Demonio Divisado",
       "Forastero Divisado",
-      "Residente Divisado",
       "Secuaz Divisado",
       "Viajero Divisado"
     ],
@@ -162,7 +162,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "No sabes que eres el Borracho. Crees que eres un personaje Residente, pero no lo eres.",
+    "ability": "No sabes que eres el Borracho. Crees que eres un personaje Aldeano, pero no lo eres.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -387,7 +387,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Podrías aparecer como maligno y como un Secuaz o Demonio, incluso estando muerto.",
+    "ability": "Podrías aparecer como maligno (como Secuaz o Demonio), incluso estando muerto.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -447,7 +447,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Cada noche*, elige a un jugador: morirá. Los Secuaces que mates mantienen sus habilidades y envenenan a un Residente vecino. [−1 Forastero]",
+    "ability": "Cada noche*, elige a un jugador: morirá. Los Secuaces que mates mantienen sus habilidades y envenenan a un Aldeano vecino. [−1 Forastero]",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -455,7 +455,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vigormortis.png?raw=true",
     "name": "Vigormortis",
     "otherNight": 32,
-    "otherNightReminder": "El Vigormortis señala a un jugador. Ese jugador muere. Si se trata de un Secuaz, mantiene su habilidad y uno de sus vecinos Residentes será envenenado.",
+    "otherNightReminder": "El Vigormortis señala a un jugador. Ese jugador muere. Si se trata de un Secuaz, mantiene su habilidad y uno de sus vecinos Aldeanos será envenenado.",
     "reminders": [
       "Con habilidad",
       "Envenenado",

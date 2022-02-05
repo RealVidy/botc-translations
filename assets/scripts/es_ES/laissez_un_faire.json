@@ -42,9 +42,9 @@
     "otherNight": 63,
     "otherNightReminder": "Elige un tipo de personaje que aún no tenga el recordatorio \"Divisado\" junto a un personaje de ese tipo. Señala a un jugador cuyo personaje sea de ese tipo, si los hay. Pon el recordatorio \"Divisado\" del Aeronauta junto a ese personaje.",
     "reminders": [
+      "Aldeano Divisado",
       "Demonio Divisado",
       "Forastero Divisado",
-      "Residente Divisado",
       "Secuaz Divisado",
       "Viajero Divisado"
     ],
