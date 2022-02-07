@@ -38,9 +38,9 @@
     "firstNightReminder": "",
     "id": "es_ES_assassin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/assassin.png?raw=true",
-    "name": "Asesino",
+    "name": "Asesina",
     "otherNight": 37,
-    "otherNightReminder": "Si el Asesino no ha utilizado su habilidad aún: el Asesino niega con la cabeza o señala a un jugador. Ese jugador muere.",
+    "otherNightReminder": "Si la Asesina no ha utilizado su habilidad aún: la Asesina niega con la cabeza o señala a un jugador. Ese jugador muere.",
     "reminders": [
       "Muerto",
       "Sin habilidad"
@@ -86,7 +86,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Necesitas utilizar una ficha de voto para votar. Los jugadores muertos pueden darte el suyo. Si lo hacen, sabrás cuál es su bando.",
+    "ability": "Necesitas utilizar una ficha de voto para votar. Los jugadores muertos pueden darte el suyo. Si lo hacen, sabrás de qué bando son.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -162,7 +162,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "No sabes que eres el Borracho. Crees que eres un personaje Aldeano, pero no lo eres.",
+    "ability": "No sabes que eres el Borracho. Crees que eres un Aldeano, pero no lo eres.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -251,7 +251,7 @@
     "firstNightReminder": "Muestra la ficha del personaje marcado. Señala al jugador marcado.",
     "id": "es_ES_grandmother",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/grandmother.png?raw=true",
-    "name": "Abuela",
+    "name": "Abuelita",
     "otherNight": 50,
     "otherNightReminder": "Si el Demonio mata al nieto de la Abuela: la Abuela muere.",
     "reminders": [
@@ -393,7 +393,7 @@
     "firstNightReminder": "",
     "id": "es_ES_recluse",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/recluse.png?raw=true",
-    "name": "Recluso",
+    "name": "Ermitaño",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],

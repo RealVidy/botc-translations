@@ -138,13 +138,13 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Tú y un jugador del bando opuesto sabéis quiénes sois. Si el jugador honrado es ejecutado, el Mal triunfa. El Bien no puede triunfar sin los dos gemelos viven.",
+    "ability": "Tú y un jugador del bando opuesto sabéis quiénes sois. Si el jugador honrado es ejecutado, el Mal triunfa. El Bien no puede triunfar si los dos gemelos viven.",
     "edition": "snv",
     "firstNight": 23,
-    "firstNightReminder": "Despierta al Gemelo maligno y a su gemelo. Confirma que ambos se reconocen. Señala al Gemelo maligno. Muéstrale la ficha de Gemelo maligno al gemelo honrado. Señala al gemelo honrado. Muéstrale la ficha de su personaje al Gemelo maligno.",
+    "firstNightReminder": "Despierta al Gemelo corrupto y a su gemelo. Confirma que ambos se reconocen. Señala al Gemelo corrupto. Muéstrale la ficha de Gemelo corrupto al gemelo honrado. Señala al gemelo honrado. Muéstrale la ficha de su personaje al Gemelo corrupto.",
     "id": "es_ES_eviltwin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/eviltwin.png?raw=true",
-    "name": "Gemelo maligno",
+    "name": "Gemelo corrupto",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [

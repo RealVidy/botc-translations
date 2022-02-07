@@ -14,7 +14,7 @@
     "team": "minion"
   },
   {
-    "ability": "Necesitas utilizar una ficha de voto para votar. Los jugadores muertos pueden darte el suyo. Si lo hacen, sabrás cuál es su bando.",
+    "ability": "Necesitas utilizar una ficha de voto para votar. Los jugadores muertos pueden darte el suyo. Si lo hacen, sabrás de qué bando son.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -74,7 +74,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "No sabes que eres el Borracho. Crees que eres un personaje Aldeano, pero no lo eres.",
+    "ability": "No sabes que eres el Borracho. Crees que eres un Aldeano, pero no lo eres.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -251,7 +251,7 @@
     "firstNightReminder": "",
     "id": "es_ES_recluse",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/recluse.png?raw=true",
-    "name": "Recluso",
+    "name": "Ermitaño",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],

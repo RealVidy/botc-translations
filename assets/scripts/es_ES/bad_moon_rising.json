@@ -22,9 +22,9 @@
     "firstNightReminder": "",
     "id": "es_ES_assassin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/assassin.png?raw=true",
-    "name": "Asesino",
+    "name": "Asesina",
     "otherNight": 37,
-    "otherNightReminder": "Si el Asesino no ha utilizado su habilidad aún: el Asesino niega con la cabeza o señala a un jugador. Ese jugador muere.",
+    "otherNightReminder": "Si la Asesina no ha utilizado su habilidad aún: la Asesina niega con la cabeza o señala a un jugador. Ese jugador muere.",
     "reminders": [
       "Muerto",
       "Sin habilidad"
@@ -202,7 +202,7 @@
     "firstNightReminder": "Muestra la ficha del personaje marcado. Señala al jugador marcado.",
     "id": "es_ES_grandmother",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/grandmother.png?raw=true",
-    "name": "Abuela",
+    "name": "Abuelita",
     "otherNight": 50,
     "otherNightReminder": "Si el Demonio mata al nieto de la Abuela: la Abuela muere.",
     "reminders": [
@@ -269,7 +269,7 @@
     "firstNightReminder": "",
     "id": "es_ES_mastermind",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mastermind.png?raw=true",
-    "name": "Maquiavelo",
+    "name": "Maquiavélico",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -297,7 +297,7 @@
     "firstNightReminder": "",
     "id": "es_ES_minstrel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minstrel.png?raw=true",
-    "name": "Trovador",
+    "name": "Juglar",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -313,9 +313,9 @@
     "firstNightReminder": "",
     "id": "es_ES_moonchild",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/moonchild.png?raw=true",
-    "name": "Hija de la Luna",
+    "name": "Cíngara",
     "otherNight": 49,
-    "otherNightReminder": "Si la Hija de la Luna usó su habilidad para elegir a un jugador: si el jugador es honrado, muere",
+    "otherNightReminder": "Si la Cíngara usó su habilidad para elegir a un jugador: si el jugador es honrado, muere",
     "reminders": [
       "Muerto"
     ],
