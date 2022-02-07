@@ -1,0 +1,168 @@
+[
+  {
+    "ability": "Comienzas sabiendo cuántos pasos hay desde el Demonio hasta su Secuaz más cercano.",
+    "edition": "snv",
+    "firstNight": 40,
+    "firstNightReminder": "Muestra la señal numérica (1, 2, 3, etc.) de los pasos entre el Demonio y su Secuaz más cercano.",
+    "id": "es_ES_clockmaker",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/clockmaker.png?raw=true",
+    "name": "Relojero",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Comienzas sabiendo que 1 de 2 jugadores es un Secuaz específico.",
+    "edition": "tb",
+    "firstNight": 34,
+    "firstNightReminder": "Muestra la ficha de personaje de un Secuaz presente en la partida. Señala a dos jugadores, uno de los cuales es ese personaje.",
+    "id": "es_ES_investigator",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/investigator.png?raw=true",
+    "name": "Detective",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Incorrecto",
+      "Secuaz"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Cada noche, sabrás cuántos de tus dos vecinos vivos son malignos.",
+    "edition": "tb",
+    "firstNight": 36,
+    "firstNightReminder": "Muestra la seña numérica con los dedos (0, 1, 2) indicando el número de vecinos malignos vivos del Émpata.",
+    "id": "es_ES_empath",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
+    "name": "Émpata",
+    "otherNight": 53,
+    "otherNightReminder": "Muestra la seña numérica con los dedos (0, 1, 2) indicando el número de vecinos malignos vivos del Émpata.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Cada noche, elige a 2 jugadores vivos (no a ti mismo): sabrás cuántos se han despertado durante la noche para usar su habilidad.",
+    "edition": "bmr",
+    "firstNight": 49,
+    "firstNightReminder": "La Criada señala a dos jugadores. Muéstrale la señal numérica (0, 1, 2, ...) indicando cuántos de esos jugadores se han despertado esta noche por su habilidad.",
+    "id": "es_ES_chambermaid",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chambermaid.png?raw=true",
+    "name": "Criada",
+    "otherNight": 69,
+    "otherNightReminder": "La Criada señala a dos jugadores. Muéstrale la señal numérica (0, 1, 2, ...) indicando cuántos de esos jugadores se han despertado esta noche por su habilidad.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Una vez por partida, durante el día, pregunta al Narrador en privado una pregunta de sí o no.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_artist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/artist.png?raw=true",
+    "name": "Artista",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Sin habilidad"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Si el Demonio te mata, sabrás que es 1 de 2 jugadores.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_sage",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sage.png?raw=true",
+    "name": "Sabio",
+    "otherNight": 43,
+    "otherNightReminder": "Si el Demonio mata al Sabio: señala a dos jugadores, uno de los cuales es el Demonio.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "No sabes que eres el Borracho. Crees que eres un personaje Aldeano, pero no lo eres.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_drunk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
+    "name": "Borracho",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Borracho"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
+    "ability": "Al saber que has muerto, elige públicamente a 1 jugador vivo: si es maligno, tu equipo pierde.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_klutz",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/klutz.png?raw=true",
+    "name": "Cafre",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Si hay 5 o más jugadores con vida y el Demonio muere, te conviertes en el Demonio. (Los Viajeros no cuentan.)",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_scarletwoman",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scarletwoman.png?raw=true",
+    "name": "Mujer escarlata",
+    "otherNight": 20,
+    "otherNightReminder": "Si la Mujer escarlata se convirtió en el Demonio hoy: muéstrale la tarjeta \"Eres\" y la ficha del demonio.",
+    "reminders": [
+      "Demonio"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Hay Forasteros extra en la partida. [+2 Forasteros]",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_baron",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/baron.png?raw=true",
+    "name": "Barón",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": true,
+    "team": "minion"
+  },
+  {
+    "ability": "Cada noche*, elige a un jugador: morirá. Si te matas a ti mismo, un Secuaz se convertirá en el Diablillo.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_imp",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/imp.png?raw=true",
+    "name": "Diablillo",
+    "otherNight": 24,
+    "otherNightReminder": "El Diablillo señala a un jugador. Ese jugador muere. Si el Diablillo se elige a sí mismo: sustituye el personaje de 1 Secuaz con vida con una ficha extra de Diablillo. Muéstrale la tarjeta \"Eres\" y la ficha del Diablillo.",
+    "reminders": [
+      "Muerto"
+    ],
+    "setup": false,
+    "team": "demon"
+  }
+]

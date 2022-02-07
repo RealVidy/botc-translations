@@ -1,0 +1,168 @@
+[
+  {
+    "ability": "Вы начинаете игру, зная, сколько шагов от Демона до ближайшего к нему Приспешника.",
+    "edition": "snv",
+    "firstNight": 40,
+    "firstNightReminder": "Покажите число (1, 2, 3, ...), равное количеству шагов от Демона до ближайшего Приспешника.",
+    "id": "ru_RU_clockmaker",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/clockmaker.png?raw=true",
+    "name": "Часовщик",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Вы начинаете игру, зная, что 1 из 2 игроков является каким-либо определенным Приспешником.",
+    "edition": "tb",
+    "firstNight": 34,
+    "firstNightReminder": "Покажите жетон роли Приспешника, присутствующего в игре. Укажите на двух игроков, один из которых является этой ролью.",
+    "id": "ru_RU_investigator",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/investigator.png?raw=true",
+    "name": "Детектив",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Обманка",
+      "Приспешник"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Каждой ночью вы узнаете, сколько из ваших живых соседей - злые.",
+    "edition": "tb",
+    "firstNight": 36,
+    "firstNightReminder": "Покажите число (0, 1, 2), соответствующее количеству злых живых соседей Эмпата.",
+    "id": "ru_RU_empath",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
+    "name": "Эмпат",
+    "otherNight": 53,
+    "otherNightReminder": "Покажите число (0, 1, 2), соответствующее количеству злых живых соседей Эмпата.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Каждой ночью выберите 2 живых игроков (кроме себя): вы узнаете, сколько из них проснулось этой ночью в результате действия своей способности.",
+    "edition": "bmr",
+    "firstNight": 49,
+    "firstNightReminder": "Горничная указывает на двух игроков. Покажите число (0, 1, 2...), равное количеству игроков среди этих двух, которые этой ночью проснулись благодаря своей способности.",
+    "id": "ru_RU_chambermaid",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chambermaid.png?raw=true",
+    "name": "Горничная",
+    "otherNight": 69,
+    "otherNightReminder": "Горничная указывает на двух игроков. Покажите число (0, 1, 2...), равное количеству игроков среди этих двух, которые этой ночью проснулись благодаря своей способности.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Один раз за игру днем можете тайно задать Рассказчику вопрос, подразумевающий ответ да/нет.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_artist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/artist.png?raw=true",
+    "name": "Художник",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Истрачено"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Если Демон убил вас, вы узнаете 2 игроков, 1 из которых - он.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_sage",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sage.png?raw=true",
+    "name": "Мудрец",
+    "otherNight": 43,
+    "otherNightReminder": "Если Мудрец убит Демоном, укажите на двух игроков, из которых один - этот Демон.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Вы не знаете, что вы Пьяница. Вам кажется, что вы - какой-либо Горожанин, но это не так.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_drunk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
+    "name": "Пьяница",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Пьяница"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
+    "ability": "Когда вы узнаете, что умерли, открыто укажите на 1 живого игрока. Если он злой, ваша команда проигрывает.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_klutz",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/klutz.png?raw=true",
+    "name": "Растяпа",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Если живы хотя бы 5 игроков и погибает Демон, то Демоном становитесь вы. (Странники не считаются)",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_scarletwoman",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scarletwoman.png?raw=true",
+    "name": "Блудница",
+    "otherNight": 20,
+    "otherNightReminder": "Если Блудница стала Демоном: покажите карточку \"Вы являетесь\", затем жетон Демона.",
+    "reminders": [
+      "Демон"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "В игре имеются лишние Изгои. [+2 Изгоя]",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_baron",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/baron.png?raw=true",
+    "name": "Барон",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": true,
+    "team": "minion"
+  },
+  {
+    "ability": "Каждой ночью* выберите игрока: он умирает. Если вы убили самого себя, то Чертом становится один из Приспешников.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_imp",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/imp.png?raw=true",
+    "name": "Черт",
+    "otherNight": 24,
+    "otherNightReminder": "Черт указывает на игрока. Этот игрок умирает. Если Черт выбрал себя: замените жетон одного из живых Приспешников запасным жетоном Черта. Покажите ему карточку \"Вы являетесь\", затем жетон Черта.",
+    "reminders": [
+      "Мертв"
+    ],
+    "setup": false,
+    "team": "demon"
+  }
+]
