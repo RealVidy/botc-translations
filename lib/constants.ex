@@ -8,7 +8,8 @@ defmodule Constants do
     "pt_PT",
     "ru_RU",
     "fil_PH",
-    "es_ES"
+    "es_ES",
+    "ja_JA"
   ]
 
   @role_ids [
