@@ -3,12 +3,12 @@
     "ability": "你不知道你擁有的能力. 每天白天, 私下猜測你的能力: 你得知你的猜測有多準確.",
     "edition": "",
     "firstNight": 12,
-    "firstNightReminder": "決定Amnesiac玩家的真實能力. 如果此能力使他在今晚醒來: 喚醒Amnesiac玩家並且進行他的能力.",
+    "firstNightReminder": "決定失憶症玩家的真實能力. 如果此能力使他在今晚醒來: 喚醒失憶症玩家並且進行他的能力.",
     "id": "zh_TW_amnesiac",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/amnesiac.png?raw=true",
-    "name": "Amnesiac",
+    "name": "失憶症",
     "otherNight": 5,
-    "otherNightReminder": "如果Amnesiac玩家的能力使他在今晚醒來: 喚醒他並且進行他的能力.",
+    "otherNightReminder": "如果失憶症玩家的能力使他在今晚醒來: 喚醒他並且進行他的能力.",
     "reminders": [
       "?"
     ],
@@ -22,11 +22,11 @@
     "firstNightReminder": "",
     "id": "zh_TW_artist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/artist.png?raw=true",
-    "name": "Artist",
+    "name": "藝術家",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "無能力"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -35,18 +35,18 @@
     "ability": "每天晚上, 你得知每種角色類別的一位玩家, 直到你已得知所有類別. [+1 城外人]",
     "edition": "",
     "firstNight": 44,
-    "firstNightReminder": "選擇一個角色類別. 指向一個為該類別的玩家. 將Balloonist的 \"Seen\" 提醒卡放在該玩家旁邊.",
+    "firstNightReminder": "選擇一個角色類別. 指向一個為該類別的玩家. 以 \"已得知\" 標記該玩家.",
     "id": "zh_TW_balloonist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/balloonist.png?raw=true",
-    "name": "Balloonist",
+    "name": "氣球飛行員",
     "otherNight": 63,
-    "otherNightReminder": "Choose a character type that does not yet have a Seen reminder next to a character of that type. Point to a player whose character is of that type, if there are any. Place the Balloonist's Seen reminder next to that character.",
+    "otherNightReminder": "選擇一個旁邊還沒放置 \"已得知\" 標記的角色類別. 有選擇到的話, 指向一個為該類別的玩家. 以 \"已得知\" 標記該玩家.",
     "reminders": [
-      "Seen Demon",
-      "Seen Minion",
-      "Seen Outsider",
-      "Seen Townsfolk",
-      "Seen Traveller"
+      "已得知(僕從)",
+      "已得知(城外人)",
+      "已得知(惡魔)",
+      "已得知(旅行者)",
+      "已得知(鎮民)"
     ],
     "setup": true,
     "team": "townsfolk"
@@ -58,12 +58,12 @@
     "firstNightReminder": "",
     "id": "zh_TW_cannibal",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cannibal.png?raw=true",
-    "name": "Cannibal",
+    "name": "食人者",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Died today",
-      "Poisoned"
+      "中毒",
+      "最後被處死"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -75,7 +75,7 @@
     "firstNightReminder": "",
     "id": "zh_TW_fisherman",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fisherman.png?raw=true",
-    "name": "Fisherman",
+    "name": "漁夫",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -85,13 +85,13 @@
     "team": "townsfolk"
   },
   {
-    "ability": "如果你被提名時公開聲明自己是 Goblin 並且在該天被處決, 你的隊伍獲勝.",
+    "ability": "如果你被提名時公開聲明自己是妖精並且在該天被處決, 你的隊伍獲勝.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "zh_TW_goblin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/goblin.png?raw=true",
-    "name": "Goblin",
+    "name": "妖精",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -107,7 +107,7 @@
     "firstNightReminder": "Place the Leviathan 'Day 1' marker. Announce 'The Leviathan is in play; this is Day 1.'",
     "id": "zh_TW_leviathan",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/leviathan.png?raw=true",
-    "name": "Leviathan",
+    "name": "利維坦",
     "otherNight": 72,
     "otherNightReminder": "Change the Leviathan Day reminder for the next day.",
     "reminders": [
@@ -128,7 +128,7 @@
     "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
     "id": "zh_TW_lunatic",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
-    "name": "Lunatic",
+    "name": "瘋子",
     "otherNight": 21,
     "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
     "reminders": [
@@ -146,7 +146,7 @@
     "firstNightReminder": "",
     "id": "zh_TW_mutant",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mutant.png?raw=true",
-    "name": "Mutant",
+    "name": "突變體",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -160,7 +160,7 @@
     "firstNightReminder": "",
     "id": "zh_TW_savant",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/savant.png?raw=true",
-    "name": "Savant",
+    "name": "學者",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -174,7 +174,7 @@
     "firstNightReminder": "Show the Grimoire to the Widow for as long as they need. The Widow points to a player. That player is poisoned. Wake a good player. Show the 'These characters are in play' card, then the Widow character token.",
     "id": "zh_TW_widow",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/widow.png?raw=true",
-    "name": "Widow",
+    "name": "寡婦",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
