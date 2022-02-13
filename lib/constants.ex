@@ -10,7 +10,8 @@ defmodule Constants do
     "fil_PH",
     "es_ES",
     "ja_JA",
-    "zh_TW"
+    "zh_TW",
+    "sv_SE"
   ]
 
   @role_ids [
