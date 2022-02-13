@@ -86,7 +86,7 @@ matron,Matron,"Each day, you may choose up to 3 sets of 2 players to swap seats.
 mayor,Mayor,"If only 3 players live & no execution occurs, your team wins. If you die at night, another player might die instead.",,,,
 mezepheles,Mezepheles,You start knowing a secret word. The 1st good player to say this word becomes evil that night.,Show the Mezepheles their secret word.,Wake the 1st good player that said the Mezepheles' secret word and show them the 'You are' card and the thumbs down evil signal.,,"Turns evil,No ability"
 minstrel,Minstrel,"When a Minion dies by execution, all other players (except Travellers) are drunk until dusk tomorrow.",,,,Everyone drunk
-monk,Monk,"Each night*, choose a player (not yourself): they are safe from the Demon tonight.",,The previously protected player is no longer protected. The Monk points to a player not themself. Mark that player 'Protected'.,,Protegido
+monk,Monk,"Each night*, choose a player (not yourself): they are safe from the Demon tonight.",,The previously protected player is no longer protected. The Monk points to a player not themself. Mark that player 'Protected'.,,Protected
 moonchild,Moonchild,"When you learn that you died, publicly choose 1 alive player. Tonight, if it was a good player, they die.",,"If the Moonchild used their ability to target a player today: If that player is good, they die.",,Dead
 mutant,Mutant,"If you are “mad” about being an Outsider, you might be executed.",,,,
 noble,Noble,"You start knowing 3 players, 1 and only 1 of which is evil.","Point to 3 players including one evil player, in no particular order.",,,Seen
