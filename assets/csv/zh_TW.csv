@@ -87,9 +87,10 @@ matron,護士長,"每天白天, 你可以選擇至多3對玩家互換座位, 玩
 mayor,市長,"如果只有三名玩家存活且今天沒有人被處死, 則你的隊伍獲勝. 如果你在晚上死亡, 則可能改為另一位玩家死亡.",,,,
 mezepheles,梅澤菲勒斯,"你開始遊戲時得知一個暗號, 第一位說出這個暗號的好人玩家在當晚轉為邪惡隊伍.",Show the Mezepheles their secret word.,Wake the 1st good player that said the Mezepheles' secret word and show them the 'You are' card and the thumbs down evil signal.,,"Turns evil,No ability"
 minstrel,吟遊詩人,"當一個僕從被處死, 除了你以外的玩家(非旅行者)都醉酒到明天黃昏.",,,,Everyone drunk
-monk,僧侶,"每天晚上*, 選擇 1 位玩家 (不是你自己): 該玩家今晚免受惡魔攻擊.",,The previously protected player is no longer protected. The Monk points to a player not themself. Mark that player 'Protected'.,,Protegido
+monk,僧侶,"每天晚上*, 選擇 1 位玩家 (不是你自己): 該玩家今晚免受惡魔攻擊.",,The previously protected player is no longer protected. The Monk points to a player not themself. Mark that player 'Protected'.,,Protected
 moonchild,月之子,"當你得知你死亡時, 公開選擇 1 位玩家: 如果該玩家是好人, 他今晚會死亡.",,"If the Moonchild used their ability to target a player today: If that player is good, they die.",,Dead
 mutant,突變體,"如果你執著地認為自己是城外人, 你可能會被處決.",,,,
+nightwatchman,Nightwatchman,"Once per game, at night, choose a player: they learn who you are.","The Nightwatchman may point to a player. Wake that player, show the 'This character selected you' card and the Nightwatchman token, then point to the Nightwatchman player.","The Nightwatchman may point to a player. Wake that player, show the 'This character selected you' card and the Nightwatchman token, then point to the Nightwatchman player.",,No ability
 noble,貴族,"你開始遊戲時得知三位玩家, 其中(只有)一位是邪惡的.","Point to 3 players including one evil player, in no particular order.",,,Seen
 nodashii,No大師,"每天晚上*, 選擇 1 位玩家: 該玩家死亡. 遊戲開始時, 離你最近的兩位鎮民中毒.",,The No Dashii points to a player. That player dies.,,"Dead,Poisoned"
 oracle,預言家,"每天晚上*, 你得知有多少死去的玩家是邪惡的.",,"Show the hand signal for the number (0, 1, 2, etc.) of dead evil players.",,

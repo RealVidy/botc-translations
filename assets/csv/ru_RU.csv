@@ -89,6 +89,7 @@ minstrel,Менестрель,"Когда Приспешника убивают 
 monk,Монах,Каждой ночью* выберите игрока (кроме себя): этот игрок сегодня ночью защищен от Демона.,,"Игрок, что был защищен ранее, теряет защиту. Монах указывает на игрока, кроме себя. Отметьте этого игрока жетоном ""Защищен"".",,Защищен
 moonchild,Дитя луны,"Когда вы узнаете, что умерли, открыто укажите на 1 живого игрока. Если этот игрок добрый, ночью он умрет.",,"Если Дитя луны применил способность и указал на игрока: если тот игрок добрый, он умирает.",,Мертв
 mutant,Мутант,"Если вы ""помешаны"" на том, что вы Изгой, вы иногда можете быть казнены.",,,,
+nightwatchman,Nightwatchman,"Once per game, at night, choose a player: they learn who you are.","The Nightwatchman may point to a player. Wake that player, show the 'This character selected you' card and the Nightwatchman token, then point to the Nightwatchman player.","The Nightwatchman may point to a player. Wake that player, show the 'This character selected you' card and the Nightwatchman token, then point to the Nightwatchman player.",,No ability
 noble,Вельможа,"Вы начинаете игру, зная 3 игроков, из которых 1 и только 1 злой.","Укажите на 3 игроков, включая одного злого, в любом порядке.",,,Видел
 nodashii,Но Даши,Каждой ночью* выберите игрока: этот игрок умирает. Два ваших ближайших соседа-Горожанина отравлены.,,Но Даши указывает на игрока. Этот игрок умирает.,,"Мертв,Отравлен"
 oracle,Провидец,"Каждой ночью* вы узнаете, сколько злых игроков среди мертвых.",,"Покажите жестом (0, 1, 2...) число мертвых злых игроков.",,

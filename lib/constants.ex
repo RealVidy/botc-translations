@@ -105,6 +105,7 @@ defmodule Constants do
     "monk",
     "moonchild",
     "mutant",
+    "nightwatchman",
     "noble",
     "nodashii",
     "oracle",
