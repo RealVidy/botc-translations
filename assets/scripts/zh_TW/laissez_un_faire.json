@@ -69,7 +69,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "每場遊戲一次, 白天時, 拜訪 Storyteller 獲取一些幫助你獲勝的建議.",
+    "ability": "每場遊戲一次, 白天時, 拜訪Storyteller獲取一些幫助你獲勝的建議.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -79,7 +79,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "無能力"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -95,7 +95,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Claimed"
+      "已聲明"
     ],
     "setup": false,
     "team": "minion"
@@ -111,12 +111,12 @@
     "otherNight": 73,
     "otherNightReminder": "Change the Leviathan Day reminder for the next day.",
     "reminders": [
-      "Day 1",
-      "Day 2",
-      "Day 3",
-      "Day 4",
-      "Day 5",
-      "Good player executed"
+      "第1天",
+      "第2天",
+      "第3天",
+      "第4天",
+      "第5天",
+      "處決好人"
     ],
     "setup": false,
     "team": "demon"
@@ -132,9 +132,9 @@
     "otherNight": 21,
     "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
     "reminders": [
-      "Attack 1",
-      "Attack 2",
-      "Attack 3"
+      "攻擊1",
+      "攻擊2",
+      "攻擊3"
     ],
     "setup": false,
     "team": "outsider"
@@ -168,7 +168,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "在你的第一晚, 查看Grimoire並且選擇 1 位玩家: 該玩家中毒. 一位好人玩家知道Widow在遊戲中.",
+    "ability": "在你的第一晚, 查看魔典(遊戲資料書)並且選擇 1 位玩家: 該玩家中毒. 一位好人玩家知道寡婦在遊戲中.",
     "edition": "",
     "firstNight": 18,
     "firstNightReminder": "Show the Grimoire to the Widow for as long as they need. The Widow points to a player. That player is poisoned. Wake a good player. Show the 'These characters are in play' card, then the Widow character token.",
@@ -178,10 +178,10 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Poisoned"
+      "中毒"
     ],
     "remindersGlobal": [
-      "Knows"
+      "得知寡婦"
     ],
     "setup": false,
     "team": "minion"

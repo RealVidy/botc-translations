@@ -162,7 +162,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "你不知道自己是 Drunk, 你認為自己是某一位鎮民, 但你不是.",
+    "ability": "你不知道自己是醉漢, 你認為自己是某一位鎮民, 但你不是.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -173,13 +173,13 @@
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Drunk"
+      "醉酒"
     ],
     "setup": true,
     "team": "outsider"
   },
   {
-    "ability": "每天晚上*, 選擇 1 位玩家: 該玩家死亡. 你選擇的第一位城外人成為邪惡的 Fang Gu, 並改為你死亡. [+1 城外人]",
+    "ability": "每天晚上*, 選擇 1 位玩家: 該玩家死亡. 你選擇的第一位城外人成為邪惡的方谷, 並改為你死亡. [+1 城外人]",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -189,8 +189,8 @@
     "otherNight": 29,
     "otherNightReminder": "The Fang Gu points to a player. That player dies. Or, if that player was an Outsider and there are no other Fang Gu in play: The Fang Gu dies instead of the chosen player. The chosen player is now an evil Fang Gu. Wake the new Fang Gu. Show the 'You are' card, then the Fang Gu token. Show the 'You are' card, then the thumb-down 'evil' hand sign.",
     "reminders": [
-      "Dead",
-      "Once"
+      "死亡",
+      "第一位城外人"
     ],
     "setup": true,
     "team": "demon"
@@ -206,7 +206,7 @@
     "otherNight": 54,
     "otherNightReminder": "The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Demon.",
     "reminders": [
-      "Red herring"
+      "視為惡魔"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -222,7 +222,7 @@
     "otherNight": 11,
     "otherNightReminder": "The Gambler points to a player, and a character on their sheet. If incorrect, the Gambler dies.",
     "reminders": [
-      "Dead"
+      "死亡"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -238,8 +238,8 @@
     "otherNight": 38,
     "otherNightReminder": "If an Outsider died today: The Godfather points to a player. That player dies.",
     "reminders": [
-      "Dead",
-      "Died today"
+      "城外人死亡",
+      "死亡"
     ],
     "setup": true,
     "team": "minion"
@@ -255,7 +255,7 @@
     "otherNight": 50,
     "otherNightReminder": "If the Grandmother’s grandchild was killed by the Demon tonight: The Grandmother dies.",
     "reminders": [
-      "Grandchild"
+      "孫子"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -271,13 +271,13 @@
     "otherNight": 1,
     "otherNightReminder": "The Harlot points at any player. Then, put the Harlot to sleep. Wake the chosen player, show them the 'This character selected you' token, then the Harlot token. That player either nods their head yes or shakes their head no. If they nodded their head yes, wake the Harlot and show them the chosen player's character token. Then, you may decide that both players die.",
     "reminders": [
-      "Dead"
+      "死亡"
     ],
     "setup": false,
     "team": "traveler"
   },
   {
-    "ability": "每天晚上*, 選擇 1 位玩家: 該玩家死亡. 如果你以此法殺死自己, 一位僕從而成為小惡魔.",
+    "ability": "每天晚上*, 選擇 1 位玩家: 該玩家死亡. 如果你以此法殺死自己, 一位僕從成為小惡魔.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -287,7 +287,7 @@
     "otherNight": 24,
     "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
     "reminders": [
-      "Dead"
+      "死亡"
     ],
     "setup": false,
     "team": "demon"
@@ -303,8 +303,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Minion",
-      "Wrong"
+      "僕從",
+      "非僕從"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -320,9 +320,9 @@
     "otherNight": 21,
     "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
     "reminders": [
-      "Attack 1",
-      "Attack 2",
-      "Attack 3"
+      "攻擊1",
+      "攻擊2",
+      "攻擊3"
     ],
     "setup": false,
     "team": "outsider"
@@ -352,8 +352,8 @@
     "otherNight": 2,
     "otherNightReminder": "If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
     "reminders": [
-      "Drunk",
-      "Is the Philosopher"
+      "是哲學家",
+      "醉酒"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -425,7 +425,7 @@
     "otherNight": 12,
     "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
     "reminders": [
-      "Poisoned"
+      "中毒"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -441,7 +441,7 @@
     "otherNight": 41,
     "otherNightReminder": "Choose a player that is drunk.",
     "reminders": [
-      "Drunk"
+      "醉酒"
     ],
     "setup": false,
     "team": "outsider"
@@ -457,15 +457,15 @@
     "otherNight": 32,
     "otherNightReminder": "The Vigormortis points to a player. That player dies. If a Minion, they keep their ability and one of their Townsfolk neighbours is poisoned.",
     "reminders": [
-      "Dead",
-      "Has ability",
-      "Poisoned"
+      "中毒",
+      "具有能力",
+      "死亡"
     ],
     "setup": true,
     "team": "demon"
   },
   {
-    "ability": "在你的第一晚, 查看Grimoire並且選擇 1 位玩家: 該玩家中毒. 一位好人玩家知道Widow在遊戲中.",
+    "ability": "在你的第一晚, 查看魔典(遊戲資料書)並且選擇 1 位玩家: 該玩家中毒. 一位好人玩家知道寡婦在遊戲中.",
     "edition": "",
     "firstNight": 18,
     "firstNightReminder": "Show the Grimoire to the Widow for as long as they need. The Widow points to a player. That player is poisoned. Wake a good player. Show the 'These characters are in play' card, then the Widow character token.",
@@ -475,10 +475,10 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Poisoned"
+      "中毒"
     ],
     "remindersGlobal": [
-      "Knows"
+      "得知寡婦"
     ],
     "setup": false,
     "team": "minion"

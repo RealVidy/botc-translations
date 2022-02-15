@@ -27,7 +27,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Seen"
+      "已得知"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -43,8 +43,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Has ability",
-      "Mad"
+      "具有能力",
+      "瘋狂"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -110,7 +110,7 @@
     "otherNight": 12,
     "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
     "reminders": [
-      "Poisoned"
+      "中毒"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -126,7 +126,7 @@
     "otherNight": 47,
     "otherNightReminder": "If the Gossip’s public statement was true: Choose a player not protected from dying tonight. That player dies.",
     "reminders": [
-      "Dead"
+      "死亡"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -174,14 +174,14 @@
     "otherNight": 2,
     "otherNightReminder": "If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
     "reminders": [
-      "Drunk",
-      "Is the Philosopher"
+      "是哲學家",
+      "醉酒"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "每場遊戲一次, 晚上時, 選擇 1 位活著的玩家: 如果你選中了Damsel, 他成為一位不在遊戲中的鎮民角色. [+ Damsel 角色]",
+    "ability": "每場遊戲一次, 晚上時, 選擇 1 位活著的玩家: 如果你選中了少女, 他成為一位不在遊戲中的鎮民角色. [+ 少女 角色]",
     "edition": "",
     "firstNight": 30,
     "firstNightReminder": "The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",
@@ -191,7 +191,7 @@
     "otherNight": 51,
     "otherNightReminder": "The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",
     "reminders": [
-      "No ability"
+      "無能力"
     ],
     "setup": true,
     "team": "townsfolk"
@@ -207,7 +207,7 @@
     "otherNight": 3,
     "otherNightReminder": "If the Poppy Grower has died, show the Minions/Demon who each other are.",
     "reminders": [
-      "Evil wakes"
+      "邪惡相認"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -223,7 +223,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Drunk"
+      "醉酒"
     ],
     "setup": false,
     "team": "outsider"
@@ -259,7 +259,7 @@
     "team": "outsider"
   },
   {
-    "ability": "你不知道自己是 Drunk, 你認為自己是某一位鎮民, 但你不是.",
+    "ability": "你不知道自己是醉漢, 你認為自己是某一位鎮民, 但你不是.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -270,7 +270,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Drunk"
+      "醉酒"
     ],
     "setup": true,
     "team": "outsider"
@@ -286,8 +286,8 @@
     "otherNight": 38,
     "otherNightReminder": "If an Outsider died today: The Godfather points to a player. That player dies.",
     "reminders": [
-      "Dead",
-      "Died today"
+      "城外人死亡",
+      "死亡"
     ],
     "setup": true,
     "team": "minion"
@@ -303,7 +303,7 @@
     "otherNight": 8,
     "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
     "reminders": [
-      "Poisoned"
+      "中毒"
     ],
     "setup": false,
     "team": "minion"
@@ -319,7 +319,7 @@
     "otherNight": 18,
     "otherNightReminder": "The Fearmonger points to a player. If different from the previous night, place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",
     "reminders": [
-      "Fear"
+      "恐懼"
     ],
     "setup": false,
     "team": "minion"
@@ -335,7 +335,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Claimed"
+      "已聲明"
     ],
     "setup": false,
     "team": "minion"
@@ -355,7 +355,7 @@
     "team": "minion"
   },
   {
-    "ability": "每天晚上, 僕從們選擇一位玩家看顧Lil' Monsta的角色牌以及 \"是惡魔\" 卡片. 每天晚上*, 一位玩家死亡. [+1 僕從]",
+    "ability": "每天晚上, 僕從們選擇一位玩家看顧Lil'蒙斯塔的角色牌以及 \"是惡魔\" 卡片. 每天晚上*, 一位玩家死亡. [+1 僕從]",
     "edition": "",
     "firstNight": 16,
     "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",
@@ -366,14 +366,14 @@
     "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
     "reminders": [],
     "remindersGlobal": [
-      "Dead",
-      "Is the Demon"
+      "是惡魔",
+      "死亡"
     ],
     "setup": true,
     "team": "demon"
   },
   {
-    "ability": "每天晚上*, 可能會有一位玩家死亡. 處刑時如果只有邪惡玩家投票則投票失敗. 你也被視為僕從. [大多數玩家都是Legion]",
+    "ability": "每天晚上*, 可能會有一位玩家死亡. 處刑時如果只有邪惡玩家投票則投票失敗. 你也被視為僕從. [大多數玩家都是軍團]",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -383,8 +383,8 @@
     "otherNight": 34,
     "otherNightReminder": "Choose a player, that player dies.",
     "reminders": [
-      "About to die",
-      "Dead"
+      "即將處決",
+      "死亡"
     ],
     "setup": true,
     "team": "demon"
@@ -400,7 +400,7 @@
     "otherNight": 31,
     "otherNightReminder": "The Vortox points to a player. That player dies.",
     "reminders": [
-      "Dead"
+      "死亡"
     ],
     "setup": false,
     "team": "demon"

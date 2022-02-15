@@ -93,7 +93,7 @@
     "otherNight": 14,
     "otherNightReminder": "The Devil’s Advocate points to a living player, different from the previous night. That player survives execution tomorrow.",
     "reminders": [
-      "Survives execution"
+      "處決保護"
     ],
     "setup": false,
     "team": "minion"
@@ -109,7 +109,7 @@
     "otherNight": 22,
     "otherNightReminder": "The Exorcist points to a player, different from the previous night. If that player is the Demon: Wake the Demon. Show the Exorcist token. Point to the Exorcist. The Demon does not act tonight.",
     "reminders": [
-      "Chosen"
+      "已選擇"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -125,7 +125,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "無能力"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -141,7 +141,7 @@
     "otherNight": 11,
     "otherNightReminder": "The Gambler points to a player, and a character on their sheet. If incorrect, the Gambler dies.",
     "reminders": [
-      "Dead"
+      "死亡"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -157,8 +157,8 @@
     "otherNight": 38,
     "otherNightReminder": "If an Outsider died today: The Godfather points to a player. That player dies.",
     "reminders": [
-      "Dead",
-      "Died today"
+      "城外人死亡",
+      "死亡"
     ],
     "setup": true,
     "team": "minion"
@@ -174,7 +174,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Drunk"
+      "醉酒"
     ],
     "setup": false,
     "team": "outsider"
@@ -190,7 +190,7 @@
     "otherNight": 47,
     "otherNightReminder": "If the Gossip’s public statement was true: Choose a player not protected from dying tonight. That player dies.",
     "reminders": [
-      "Dead"
+      "死亡"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -206,7 +206,7 @@
     "otherNight": 50,
     "otherNightReminder": "If the Grandmother’s grandchild was killed by the Demon tonight: The Grandmother dies.",
     "reminders": [
-      "Grandchild"
+      "孫子"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -222,8 +222,8 @@
     "otherNight": 9,
     "otherNightReminder": "The previously protected and drunk players lose those markers. The Innkeeper points to two players. Those players are protected. One is drunk.",
     "reminders": [
-      "Drunk",
-      "Protected"
+      "保護",
+      "醉酒"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -239,7 +239,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "無能力"
     ],
     "setup": false,
     "team": "traveler"
@@ -255,9 +255,9 @@
     "otherNight": 21,
     "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
     "reminders": [
-      "Attack 1",
-      "Attack 2",
-      "Attack 3"
+      "攻擊1",
+      "攻擊2",
+      "攻擊3"
     ],
     "setup": false,
     "team": "outsider"
@@ -301,7 +301,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Everyone drunk"
+      "所有人醉酒"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -317,7 +317,7 @@
     "otherNight": 49,
     "otherNightReminder": "If the Moonchild used their ability to target a player today: If that player is good, they die.",
     "reminders": [
-      "Dead"
+      "死亡"
     ],
     "setup": false,
     "team": "outsider"
@@ -347,8 +347,8 @@
     "otherNight": 28,
     "otherNightReminder": "If the Po chose no-one the previous night: The Po points to three players. Otherwise: The Po either shows the 'no' head signal , or points to a player. Chosen players die",
     "reminders": [
-      "3 attacks",
-      "Dead"
+      "攻擊x3",
+      "死亡"
     ],
     "setup": false,
     "team": "demon"
@@ -364,8 +364,8 @@
     "otherNight": 45,
     "otherNightReminder": "If the Professor has not used their ability: The Professor either shakes their head no, or points to a player. If that player is a Townsfolk, they are now alive.",
     "reminders": [
-      "Alive",
-      "No ability"
+      "復活",
+      "無能力"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -381,8 +381,8 @@
     "otherNight": 26,
     "otherNightReminder": "The Pukka points to a player. That player is poisoned. The previously poisoned player dies.",
     "reminders": [
-      "Dead",
-      "Poisoned"
+      "中毒",
+      "死亡"
     ],
     "setup": false,
     "team": "demon"
@@ -398,7 +398,7 @@
     "otherNight": 4,
     "otherNightReminder": "The previously drunk player is no longer drunk. The Sailor points to a living player. Either the Sailor, or the chosen player, is drunk.",
     "reminders": [
-      "Drunk"
+      "醉酒"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -414,8 +414,8 @@
     "otherNight": 27,
     "otherNightReminder": "One player that the Shabaloth chose the previous night might be resurrected. The Shabaloth points to two players. Those players die.",
     "reminders": [
-      "Alive",
-      "Dead"
+      "復活",
+      "死亡"
     ],
     "setup": false,
     "team": "demon"
@@ -431,7 +431,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Can not die"
+      "不會死"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -447,7 +447,7 @@
     "otherNight": 48,
     "otherNightReminder": "The Tinker might die.",
     "reminders": [
-      "Dead"
+      "死亡"
     ],
     "setup": false,
     "team": "outsider"
@@ -475,10 +475,10 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/zombuul.png?raw=true",
     "name": "殭屍",
     "otherNight": 25,
-    "otherNightReminder": "如果今天沒有人死亡：殭屍指向一名玩家示意，該名玩家死亡。",
+    "otherNightReminder": "If no-one died during the day: The Zombuul points to a player. That player dies.",
     "reminders": [
-      "Dead",
-      "Died today"
+      "今天死亡",
+      "死亡"
     ],
     "setup": false,
     "team": "demon"

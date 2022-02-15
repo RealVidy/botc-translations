@@ -24,8 +24,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Minion",
-      "Wrong"
+      "僕從",
+      "非僕從"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -89,7 +89,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "你不知道自己是 Drunk, 你認為自己是某一位鎮民, 但你不是.",
+    "ability": "你不知道自己是醉漢, 你認為自己是某一位鎮民, 但你不是.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -100,7 +100,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Drunk"
+      "醉酒"
     ],
     "setup": true,
     "team": "outsider"
@@ -130,7 +130,7 @@
     "otherNight": 20,
     "otherNightReminder": "If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",
     "reminders": [
-      "Demon"
+      "是惡魔"
     ],
     "setup": false,
     "team": "minion"
@@ -150,7 +150,7 @@
     "team": "minion"
   },
   {
-    "ability": "每天晚上*, 選擇 1 位玩家: 該玩家死亡. 如果你以此法殺死自己, 一位僕從而成為小惡魔.",
+    "ability": "每天晚上*, 選擇 1 位玩家: 該玩家死亡. 如果你以此法殺死自己, 一位僕從成為小惡魔.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -160,7 +160,7 @@
     "otherNight": 24,
     "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
     "reminders": [
-      "Dead"
+      "死亡"
     ],
     "setup": false,
     "team": "demon"

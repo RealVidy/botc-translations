@@ -28,117 +28,117 @@ chef,廚師,你開始遊戲時得知總共有幾對邪惡的玩家坐在一起.,
 choirboy,唱詩童,"如果惡魔殺死了國王, 你得知惡魔是哪一位玩家. [+ 國王 角色]",,"如果國王被惡魔殺死, 喚醒唱詩童並指向惡魔玩家.",,
 clockmaker,鐘匠,你開始遊戲時得知惡魔到最近的奴才的距離(相鄰時為1).,展示惡魔到最近的奴才的距離數(相鄰時為1).,,,
 courtier,朝臣,"每場遊戲一次, 晚上時, 選擇 1 位角色: 該角色的玩家醉酒持續三天三夜.","朝臣玩家搖頭表示不行動, 或選擇角色表上的一個角色. 如果朝臣使用了能力: 如果該角色在遊戲中, 以 ""醉酒N"" 標記該角色的玩家.","減少被標記玩家的醉酒天數. 如果朝臣玩家還沒使用他的能力: 讓他搖頭表示不行動, 或選擇角色表上的一個角色. 如果朝臣使用了能力: 如果該角色在遊戲中, 以 ""醉酒N"" 標記該角色的玩家.",,"醉酒 3,醉酒 2,醉酒 1,無能力"
-cultleader,邪教領袖,"每天晚上, 你轉為其中一位活著的鄰居所在的隊伍. 如果所有好人玩家都選擇加入你的教團, 則你的隊伍獲勝.","If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.","If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",,
+cultleader,邪教領袖,"每天晚上, 你轉為其中一位活著的鄰居所在的隊伍. 如果所有好人玩家都選擇加入你的教團, 則你的隊伍獲勝.","如果邪教領袖改變了隊伍, show them the thumbs up good signal of the thumbs down evil signal accordingly.","If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",,
 damsel,少女,"所有僕從都知道你在遊戲中. 如果一位僕從公開的選擇了你 (每場遊戲一次), 則你的隊伍落敗.","Wake all the Minions, show them the 'This character selected you' card and the Damsel token.","If selected by the Huntsman, wake the Damsel, show 'You are' card and a not-in-play Townsfolk token.",,已猜測
 deviant,怪人,"只要你今天很有趣, 你就不會被放逐.",,,,
-devilsadvocate,惡魔擁護者,"每天晚上, 選擇且活著的玩家 (不同於昨晚): 如果該玩家明天被處決, 他不會死.",The Devil’s Advocate points to a living player. That player survives execution tomorrow.,"The Devil’s Advocate points to a living player, different from the previous night. That player survives execution tomorrow.",,Survives execution
-djinn,神靈,使用 Djinn 的特殊規則. 所有玩家都得知這個規則.,,,,
+devilsadvocate,惡魔擁護者,"每天晚上, 選擇且活著的玩家 (不同於昨晚): 如果該玩家明天被處決, 他不會死.",The Devil’s Advocate points to a living player. That player survives execution tomorrow.,"The Devil’s Advocate points to a living player, different from the previous night. That player survives execution tomorrow.",,處決保護
+djinn,神靈,使用神靈的特殊規則. 所有玩家都得知這個規則.,,,,
 doomsayer,末日審判者,"如果有四個或更多玩家活著, 每個活著的玩家都可以公開選擇 (每場遊戲一次) 1 位與自己同隊伍的玩家: 該玩家死亡.",,,,
 dreamer,夢想家,"每天晚上, 選擇其他 1 位玩家(非旅行者): 你得知該玩家是一個好人角色或一個邪惡角色, 其中一個正確.",The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.,The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.,,
-drunk,醉漢,"你不知道自己是 Drunk, 你認為自己是某一位鎮民, 但你不是.",,,Drunk,
+drunk,醉漢,"你不知道自己是醉漢, 你認為自己是某一位鎮民, 但你不是.",,,醉酒,
 duchess,夫人,"每天白天, 至多三位玩家可以拜訪StoryTeller. 當晚*, 他們得知有多少拜訪者是邪惡的, 但其中一位得到不正確的訊息.",,,,
 empath,共感者,"每天晚上, 你得知你活著的鄰居中有幾位是邪惡的 (0~2).","Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath.","Show the finger signal (0, 1, 2) for the number of evil neighbours.",,
-engineer,工程師,"每場遊戲一次, 晚上時, 選擇哪一種僕從或惡魔在遊戲中.","The Engineer shows a 'no' head signal, or points to a Demon or points to the relevant number of Minions. If the Engineer chose characters, replace the Demon or Minions with the choices, then wake the relevant players and show them the You are card and the relevant character tokens.","The Engineer shows a 'no' head signal, or points to a Demon or points to the relevant number of Minions. If the Engineer chose characters, replace the Demon or Minions with the choices, then wake the relevant players and show them the 'You are' card and the relevant character tokens.",,No ability
+engineer,工程師,"每場遊戲一次, 晚上時, 選擇哪一種僕從或惡魔在遊戲中.","The Engineer shows a 'no' head signal, or points to a Demon or points to the relevant number of Minions. If the Engineer chose characters, replace the Demon or Minions with the choices, then wake the relevant players and show them the You are card and the relevant character tokens.","The Engineer shows a 'no' head signal, or points to a Demon or points to the relevant number of Minions. If the Engineer chose characters, replace the Demon or Minions with the choices, then wake the relevant players and show them the 'You are' card and the relevant character tokens.",,無能力
 eviltwin,邪惡雙子,"你與一位對手具有相同的能力且認識彼此, 如果你們當中的好人玩家被處決, 邪惡隊伍獲勝, 只要你們2位都活著, 好人隊伍不能獲勝.
-",Wake the Evil Twin and their twin. Confirm that they have acknowledged each other. Point to the Evil Twin. Show their Evil Twin token to the twin player. Point to the twin. Show their character token to the Evil Twin player.,,,Twin
-exorcist,驅魔人,"每天晚上, 選擇 1 位玩家 (不同於昨晚): 如果你選中了惡魔, 則他得知你是誰並且今晚不會醒來.",,"The Exorcist points to a player, different from the previous night. If that player is the Demon: Wake the Demon. Show the Exorcist token. Point to the Exorcist. The Demon does not act tonight.",,Chosen
-fanggu,方谷,"每天晚上*, 選擇 1 位玩家: 該玩家死亡. 你選擇的第一位城外人成為邪惡的 Fang Gu, 並改為你死亡. [+1 城外人]",,"The Fang Gu points to a player. That player dies. Or, if that player was an Outsider and there are no other Fang Gu in play: The Fang Gu dies instead of the chosen player. The chosen player is now an evil Fang Gu. Wake the new Fang Gu. Show the 'You are' card, then the Fang Gu token. Show the 'You are' card, then the thumb-down 'evil' hand sign.",,"Dead,Once"
-farmer,農夫,"如果你在晚上死亡, 一個活著的好人玩家成為 Farmer.",,"If a Farmer died tonight, choose another good player and make them the Farmer. Wake this player, show them the 'You are' card and the Farmer character token.",,
-fearmonger,恐懼販子,"每天晚上, 選擇 1 位玩家. 如果你提名並且處死了他, 他的隊伍落敗. 所有玩家都知道你是否有選擇新玩家.",The Fearmonger points to a player. Place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.,"The Fearmonger points to a player. If different from the previous night, place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",,Fear
+",Wake the Evil Twin and their twin. Confirm that they have acknowledged each other. Point to the Evil Twin. Show their Evil Twin token to the twin player. Point to the twin. Show their character token to the Evil Twin player.,,,雙胞胎
+exorcist,驅魔人,"每天晚上, 選擇 1 位玩家 (不同於昨晚): 如果你選中了惡魔, 則他得知你是誰並且今晚不會醒來.",,"The Exorcist points to a player, different from the previous night. If that player is the Demon: Wake the Demon. Show the Exorcist token. Point to the Exorcist. The Demon does not act tonight.",,已選擇
+fanggu,方谷,"每天晚上*, 選擇 1 位玩家: 該玩家死亡. 你選擇的第一位城外人成為邪惡的方谷, 並改為你死亡. [+1 城外人]",,"The Fang Gu points to a player. That player dies. Or, if that player was an Outsider and there are no other Fang Gu in play: The Fang Gu dies instead of the chosen player. The chosen player is now an evil Fang Gu. Wake the new Fang Gu. Show the 'You are' card, then the Fang Gu token. Show the 'You are' card, then the thumb-down 'evil' hand sign.",,"死亡,第一位城外人"
+farmer,農夫,"如果你在晚上死亡, 一個活著的好人玩家成為農夫.",,"If a Farmer died tonight, choose another good player and make them the Farmer. Wake this player, show them the 'You are' card and the Farmer character token.",,
+fearmonger,恐懼販子,"每天晚上, 選擇 1 位玩家. 如果你提名並且處死了他, 他的隊伍落敗. 所有玩家都知道你是否有選擇新玩家.",The Fearmonger points to a player. Place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.,"The Fearmonger points to a player. If different from the previous night, place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",,恐懼
 fibbin,小仙子,"每場遊戲一次, 一位好人玩家可能會得到不正確的資訊.",,,,
 fiddler,提琴手,"每場遊戲一次, 惡魔私下選擇 1 位對手: 所有玩家選擇這兩位中哪一位獲勝.",,,,
-fisherman,漁夫,"每場遊戲一次, 白天時, 拜訪 Storyteller 獲取一些幫助你獲勝的建議.",,,,No ability
-flowergirl,花之女,"每天晚上*, 你得知惡魔今天是否有投票.",,"Nod 'yes' or shake head 'no' for whether the Demon voted today. Place the 'Demon not voted' marker (remove 'Demon voted', if any).",,"Demon voted,Demon not voted"
-fool,愚人,你第一次死亡時不會死.,,,,No ability
-fortuneteller,算命師,"每天晚上, 選擇 2 位玩家: 你得知他們其中是否有惡魔. 場上有一位好人的身分會被你視為惡魔.","The Fortune Teller points to two players. Give the head signal (nod yes, shake no) for whether one of those players is the Demon. ","The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Demon.",,Red herring
-gambler,賭徒,"每天晚上*, 選擇 1 位玩家並猜測他的角色, 如果你猜錯則你會死亡.",,"The Gambler points to a player, and a character on their sheet. If incorrect, the Gambler dies.",,Dead
+fisherman,漁夫,"每場遊戲一次, 白天時, 拜訪Storyteller獲取一些幫助你獲勝的建議.",,,,無能力
+flowergirl,花之女,"每天晚上*, 你得知惡魔今天是否有投票.",,"Nod 'yes' or shake head 'no' for whether the Demon voted today. Place the 'Demon not voted' marker (remove 'Demon voted', if any).",,"惡魔投票,惡魔未投票"
+fool,愚人,你第一次死亡時不會死.,,,,無能力
+fortuneteller,算命師,"每天晚上, 選擇 2 位玩家: 你得知他們其中是否有惡魔. 場上有一位好人的身分會被你視為惡魔.","The Fortune Teller points to two players. Give the head signal (nod yes, shake no) for whether one of those players is the Demon. ","The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Demon.",,視為惡魔
+gambler,賭徒,"每天晚上*, 選擇 1 位玩家並猜測他的角色, 如果你猜錯則你會死亡.",,"The Gambler points to a player, and a character on their sheet. If incorrect, the Gambler dies.",,死亡
 gangster,流氓,"每天白天一次, 如果你活著的鄰居同意, 你可以殺死另一位活著的鄰居.",,,,
 general,將軍,"每天晚上, 你得知StoryTeller認為較佔優勢的隊伍: 好人, 邪惡, 或著都不是.","Show the General thumbs up for good winning, thumbs down for evil winning or thumb to the side for neither.","Show the General thumbs up for good winning, thumbs down for evil winning or thumb to the side for neither.",,
-goblin,妖精,"如果你被提名時公開聲明自己是妖精並且在該天被處決, 你的隊伍獲勝.",,,,Claimed
-godfather,教父,"你開始遊戲時得知那些城外人在遊戲中. 如果今天有城外人死亡, 在今晚選擇 1 位玩家: 該玩家死亡. [−1 或 +1 城外人]",Show each of the Outsider tokens in play.,If an Outsider died today: The Godfather points to a player. That player dies.,,"Died today,Dead"
-golem,魔像,"你每場遊戲只能提名一次. 當你如此做時, 如果被提名者不是惡魔, 則該玩家死亡.",,,,Can not nominate
-goon,傻子,"每天晚上, 第一個使用能力選擇你的玩家會醉到明天黃昏, 你成為該玩家的隊伍.",,,,Drunk
-gossip,長舌婦,"每天白天, 你可以發表一次公開聲明, 如果該聲明正確, 則今晚會有一位玩家死亡",,If the Gossip’s public statement was true: Choose a player not protected from dying tonight. That player dies.,,Dead
-grandmother,祖母,"你遊戲開始時得知一位好人玩家以及他的角色, 如果該玩家被惡魔殺死, 則你也會死.",Show the marked character token. Point to the marked player.,If the Grandmother’s grandchild was killed by the Demon tonight: The Grandmother dies.,,Grandchild
+goblin,妖精,"如果你被提名時公開聲明自己是妖精並且在該天被處決, 你的隊伍獲勝.",,,,已聲明
+godfather,教父,"你開始遊戲時得知那些城外人在遊戲中. 如果今天有城外人死亡, 在今晚選擇 1 位玩家: 該玩家死亡. [−1 或 +1 城外人]",Show each of the Outsider tokens in play.,If an Outsider died today: The Godfather points to a player. That player dies.,,"城外人死亡,死亡"
+golem,魔像,"你每場遊戲只能提名一次. 當你如此做時, 如果被提名者不是惡魔, 則該玩家死亡.",,,,不能提名
+goon,傻子,"每天晚上, 第一個使用能力選擇你的玩家會醉到明天黃昏, 你成為該玩家的隊伍.",,,,醉酒
+gossip,長舌婦,"每天白天, 你可以發表一次公開聲明, 如果該聲明正確, 則今晚會有一位玩家死亡",,If the Gossip’s public statement was true: Choose a player not protected from dying tonight. That player dies.,,死亡
+grandmother,祖母,"你遊戲開始時得知一位好人玩家以及他的角色, 如果該玩家被惡魔殺死, 則你也會死.",Show the marked character token. Point to the marked player.,If the Grandmother’s grandchild was killed by the Demon tonight: The Grandmother dies.,,孫子
 gunslinger,槍手,"每天的第一次提名中, 第一票投下後, 你可以選擇其中一位投票的玩家, 該玩家死亡.",,,,
-harlot,妓女,"每天晚上*, 選擇 1 位活著的玩家: 如果該玩家同意, 你得知他的角色, 但是你們兩個有可能會死亡.",,"The Harlot points at any player. Then, put the Harlot to sleep. Wake the chosen player, show them the 'This character selected you' token, then the Harlot token. That player either nods their head yes or shakes their head no. If they nodded their head yes, wake the Harlot and show them the chosen player's character token. Then, you may decide that both players die.",,Dead
-hellslibrarian,地獄圖書管理員,在 Storyteller 要求安靜時說話的玩家可能會受到懲罰.,,,,
+harlot,妓女,"每天晚上*, 選擇 1 位活著的玩家: 如果該玩家同意, 你得知他的角色, 但是你們兩個有可能會死亡.",,"The Harlot points at any player. Then, put the Harlot to sleep. Wake the chosen player, show them the 'This character selected you' token, then the Harlot token. That player either nods their head yes or shakes their head no. If they nodded their head yes, wake the Harlot and show them the chosen player's character token. Then, you may decide that both players die.",,死亡
+hellslibrarian,地獄圖書管理員,在Storyteller要求安靜時說話的玩家可能會受到懲罰.,,,,
 heretic,異教徒,獲勝的玩家改為落敗且落敗的玩家改為獲勝 (儘管你死亡).,,,,
-huntsman,獵人,"每場遊戲一次, 晚上時, 選擇 1 位活著的玩家: 如果你選中了Damsel, 他成為一位不在遊戲中的鎮民角色. [+ Damsel 角色]","The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.","The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",,No ability
-imp,小惡魔,"每天晚上*, 選擇 1 位玩家: 該玩家死亡. 如果你以此法殺死自己, 一位僕從而成為小惡魔.",,"The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",,Dead
-innkeeper,旅店主人,"每天晚上*, 選擇 2 位玩家: 他們今晚不會死, 但其中一位醉到明天黃昏.",,The previously protected and drunk players lose those markers. The Innkeeper points to two players. Those players are protected. One is drunk.,,"Protected,Drunk"
-investigator,調查員,你遊戲開始時得知在某兩位玩家中有一位特定的僕從角色.,"Show the character token of a Minion in play. Point to two players, one of which is that character.",,,"Minion,Wrong"
-judge,法官,"每場遊戲一次, 如果另一位玩家提名, 你可以強制使處死成功或失敗.",,,,No ability
-juggler,雜耍者,"在你的第一天, 公開猜測至多五位玩家的角色, 當晚你得知你猜對了多少.",,"If today was the Juggler’s first day: Show the hand signal for the number (0, 1, 2, etc.) of 'Correct' markers. Remove markers.",,Correct
+huntsman,獵人,"每場遊戲一次, 晚上時, 選擇 1 位活著的玩家: 如果你選中了少女, 他成為一位不在遊戲中的鎮民角色. [+ 少女 角色]","The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.","The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",,無能力
+imp,小惡魔,"每天晚上*, 選擇 1 位玩家: 該玩家死亡. 如果你以此法殺死自己, 一位僕從成為小惡魔.",,"The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",,死亡
+innkeeper,旅店主人,"每天晚上*, 選擇 2 位玩家: 他們今晚不會死, 但其中一位醉到明天黃昏.",,The previously protected and drunk players lose those markers. The Innkeeper points to two players. Those players are protected. One is drunk.,,"保護,醉酒"
+investigator,調查員,你遊戲開始時得知在某兩位玩家中有一位特定的僕從角色.,"Show the character token of a Minion in play. Point to two players, one of which is that character.",,,"僕從,非僕從"
+judge,法官,"每場遊戲一次, 如果另一位玩家提名, 你可以強制使處死成功或失敗.",,,,無能力
+juggler,雜耍者,"在你的第一天, 公開猜測至多五位玩家的角色, 當晚你得知你猜對了多少.",,"If today was the Juggler’s first day: Show the hand signal for the number (0, 1, 2, etc.) of 'Correct' markers. Remove markers.",,正確
 king,國王,"每天晚上, 如果死亡的玩家數超過活著的玩家, 你得知一個活著的角色. 惡魔知道你是誰.","Wake the Demon, show them the 'This character selected you' card, show the King token and point to the King player.","If there are more dead than living, show the King a character token of a living player.",,
 klutz,克魯茲,"當你得知你死亡時, 公開選擇 1 位活著的玩家: 如果該玩家是邪惡的, 你的隊伍落敗.",,,,
-legion,軍團,"每天晚上*, 可能會有一位玩家死亡. 處刑時如果只有邪惡玩家投票則投票失敗. 你也被視為僕從. [大多數玩家都是Legion]",,"Choose a player, that player dies.",,"Dead,About to die"
-leviathan,利維坦,"如果超過一位好人玩家被處決, 則你獲勝. 所有玩家都知道你在遊戲中. 第五天過後, 邪惡隊伍獲勝.",Place the Leviathan 'Day 1' marker. Announce 'The Leviathan is in play; this is Day 1.',Change the Leviathan Day reminder for the next day.,,"Day 1,Day 2,Day 3,Day 4,Day 5,Good player executed"
-librarian,圖書管理員,你遊戲開始時得知在某兩位玩家中有一位特定的城外人角色. (或者沒有城外人角色.),"Show the character token of an Outsider in play. Point to two players, one of which is that character.",,,"Outsider,Wrong"
-lilmonsta,Lil'蒙斯塔,"每天晚上, 僕從們選擇一位玩家看顧Lil' Monsta的角色牌以及 ""是惡魔"" 卡片. 每天晚上*, 一位玩家死亡. [+1 僕從]","Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.","Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.","Is the Demon,Dead",
-lleech,水蛭,"每天晚上*, 選擇 1 位玩家: 該玩家死亡. 你開始遊戲時選擇一位活著的玩家: 該玩家中毒, 你(只)會在該玩家死亡時死亡.",The Lleech points to a player. Place the Poisoned reminder token.,The Lleech points to a player. That player dies.,,"Dead,Poisoned"
-lunatic,瘋子,"你認為自己是惡魔, 但你不是, 惡魔知道你是誰以及你每天晚上選了誰.","If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.","Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",,"Attack 1,Attack 2,Attack 3"
-lycanthrope,獸人,"每天晚上*, 選擇 1 位活著的玩家: 如果該玩家是好人, 該玩家死亡, 但他是當晚唯一可以死亡的玩家.",,"The Lycanthrope points to a living player: if good, they die and no one else can die tonight.",,Dead
+legion,軍團,"每天晚上*, 可能會有一位玩家死亡. 處刑時如果只有邪惡玩家投票則投票失敗. 你也被視為僕從. [大多數玩家都是軍團]",,"Choose a player, that player dies.",,"死亡,即將處決"
+leviathan,利維坦,"如果超過一位好人玩家被處決, 則你獲勝. 所有玩家都知道你在遊戲中. 第五天過後, 邪惡隊伍獲勝.",Place the Leviathan 'Day 1' marker. Announce 'The Leviathan is in play; this is Day 1.',Change the Leviathan Day reminder for the next day.,,"第1天,第2天,第3天,第4天,第5天,處決好人"
+librarian,圖書管理員,你遊戲開始時得知在某兩位玩家中有一位特定的城外人角色. (或者沒有城外人角色.),"Show the character token of an Outsider in play. Point to two players, one of which is that character.",,,"城外人,非城外人"
+lilmonsta,Lil'蒙斯塔,"每天晚上, 僕從們選擇一位玩家看顧Lil'蒙斯塔的角色牌以及 ""是惡魔"" 卡片. 每天晚上*, 一位玩家死亡. [+1 僕從]","Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.","Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.","是惡魔,死亡",
+lleech,水蛭,"每天晚上*, 選擇 1 位玩家: 該玩家死亡. 你開始遊戲時選擇一位活著的玩家: 該玩家中毒, 你(只)會在該玩家死亡時死亡.",The Lleech points to a player. Place the Poisoned reminder token.,The Lleech points to a player. That player dies.,,"死亡,中毒"
+lunatic,瘋子,"你認為自己是惡魔, 但你不是, 惡魔知道你是誰以及你每天晚上選了誰.","If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.","Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",,"攻擊1,攻擊2,攻擊3"
+lycanthrope,獸人,"每天晚上*, 選擇 1 位活著的玩家: 如果該玩家是好人, 該玩家死亡, 但他是當晚唯一可以死亡的玩家.",,"The Lycanthrope points to a living player: if good, they die and no one else can die tonight.",,死亡
 magician,魔術師,惡魔認為你是僕從. 僕從們認為你是惡魔.,,,,
 marionette,傀儡,"你認為你是某一位好人角色, 但你不是. 惡魔知道你是誰. [你坐在惡魔旁邊]",Select one of the good players next to the Demon and place the Is the Marionette reminder token. Wake the Demon and show them the Marionette.,,Is the Marionette,
 mastermind,策畫者,"如果惡魔被處決 (結束遊戲), 遊戲繼續進行一天, 如果有玩家被處決, 該玩家的隊伍落敗. ",,,,
-mathematician,數學家,"每天晚上, 你得知今天(從清晨開始)有多少玩家的能力因為其他角色的能力而異常作用.","Show the hand signal for the number (0, 1, 2, etc.) of players whose ability malfunctioned due to other abilities.","Show the hand signal for the number (0, 1, 2, etc.) of players whose ability malfunctioned due to other abilities.",,Abnormal
+mathematician,數學家,"每天晚上, 你得知今天(從清晨開始)有多少玩家的能力因為其他角色的能力而異常作用.","Show the hand signal for the number (0, 1, 2, etc.) of players whose ability malfunctioned due to other abilities.","Show the hand signal for the number (0, 1, 2, etc.) of players whose ability malfunctioned due to other abilities.",,異常
 matron,護士長,"每天白天, 你可以選擇至多3對玩家互換座位, 玩家們不能離開座位講悄悄話.",,,,
 mayor,市長,"如果只有三名玩家存活且今天沒有人被處死, 則你的隊伍獲勝. 如果你在晚上死亡, 則可能改為另一位玩家死亡.",,,,
-mezepheles,梅澤菲勒斯,"你開始遊戲時得知一個暗號, 第一位說出這個暗號的好人玩家在當晚轉為邪惡隊伍.",Show the Mezepheles their secret word.,Wake the 1st good player that said the Mezepheles' secret word and show them the 'You are' card and the thumbs down evil signal.,,"Turns evil,No ability"
-minstrel,吟遊詩人,"當一個僕從被處死, 除了你以外的玩家(非旅行者)都醉酒到明天黃昏.",,,,Everyone drunk
-monk,僧侶,"每天晚上*, 選擇 1 位玩家 (不是你自己): 該玩家今晚免受惡魔攻擊.",,The previously protected player is no longer protected. The Monk points to a player not themself. Mark that player 'Protected'.,,Protected
-moonchild,月之子,"當你得知你死亡時, 公開選擇 1 位玩家: 如果該玩家是好人, 他今晚會死亡.",,"If the Moonchild used their ability to target a player today: If that player is good, they die.",,Dead
+mezepheles,梅澤菲勒斯,"你開始遊戲時得知一個暗號, 第一位說出這個暗號的好人玩家在當晚轉為邪惡隊伍.",Show the Mezepheles their secret word.,Wake the 1st good player that said the Mezepheles' secret word and show them the 'You are' card and the thumbs down evil signal.,,"轉為邪惡,無能力"
+minstrel,吟遊詩人,"當一個僕從被處死, 除了你以外的玩家(非旅行者)都醉酒到明天黃昏.",,,,所有人醉酒
+monk,僧侶,"每天晚上*, 選擇 1 位其他的玩家: 該玩家今晚免受惡魔攻擊.",,The previously protected player is no longer protected. The Monk points to a player not themself. Mark that player 'Protected'.,,保護
+moonchild,月之子,"當你得知你死亡時, 公開選擇 1 位玩家: 如果該玩家是好人, 他今晚會死亡.",,"If the Moonchild used their ability to target a player today: If that player is good, they die.",,死亡
 mutant,突變體,"如果你執著地認為自己是城外人, 你可能會被處決.",,,,
-nightwatchman,Nightwatchman,"Once per game, at night, choose a player: they learn who you are.","The Nightwatchman may point to a player. Wake that player, show the 'This character selected you' card and the Nightwatchman token, then point to the Nightwatchman player.","The Nightwatchman may point to a player. Wake that player, show the 'This character selected you' card and the Nightwatchman token, then point to the Nightwatchman player.",,No ability
-noble,貴族,"你開始遊戲時得知三位玩家, 其中(只有)一位是邪惡的.","Point to 3 players including one evil player, in no particular order.",,,Seen
-nodashii,No大師,"每天晚上*, 選擇 1 位玩家: 該玩家死亡. 遊戲開始時, 離你最近的兩位鎮民中毒.",,The No Dashii points to a player. That player dies.,,"Dead,Poisoned"
+nightwatchman,守夜人,"每場遊戲一次, 晚上時, 選擇一位玩家: 他們得知你是誰.","守夜人玩家可以指向一位玩家. 喚醒該玩家, 並展示 ""這個角色選擇你"" 卡片 + 守夜人角色卡, 然後指向守夜人.","守夜人玩家可以指向一位玩家. 喚醒該玩家, 並展示 ""這個角色選擇你"" 卡片 + 守夜人角色卡, 然後指向守夜人.",,無能力
+noble,貴族,"你開始遊戲時得知三位玩家, 其中(只有)一位是邪惡的.","Point to 3 players including one evil player, in no particular order.",,,已得知
+nodashii,No大師,"每天晚上*, 選擇 1 位玩家: 該玩家死亡. 在你兩側離你最近且活著的鎮民中毒.",,The No Dashii points to a player. That player dies.,,"死亡,中毒"
 oracle,預言家,"每天晚上*, 你得知有多少死去的玩家是邪惡的.",,"Show the hand signal for the number (0, 1, 2, etc.) of dead evil players.",,
 pacifist,和平主義者,"當有好人玩家被處決時, 他可能不會死亡.",,,,
-philosopher,哲學家,"每場遊戲一次, 晚上時, 選擇 1 個好人角色: 你獲得該角色能力, 如果該角色在遊戲中, 他會醉酒.","The Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.","If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",,"Drunk,Is the Philosopher"
+philosopher,哲學家,"每場遊戲一次, 晚上時, 選擇 1 個好人角色: 你獲得該角色能力, 如果該角色在遊戲中, 他會醉酒.","The Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.","If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",,"醉酒,是哲學家"
 pithag,魔女,"每天晚上*, 選擇 1 位玩家以及一個角色: 如果該角色不在遊戲中, 該玩家成為該角色, 如果產生1位新惡魔, 則今晚的死亡是隨機.",,"The Pit-Hag points to a player and a character on the sheet. If this character is not in play, wake that player and show them the 'You are' card and the relevant character token. If the character is in play, nothing happens.",,
-pixie,小精靈,"你開始遊戲時得知一位在遊戲中的鎮民角色. 如果你執著地認為自己是該角色, 則在該角色的玩家死亡後你獲得該能力.",Show the Pixie 1 in-play Townsfolk character token.,,,"Mad,Has ability"
-po,波,"每天晚上*, 你可以選擇 1 位玩家: 該玩家死亡. 如果你上次選擇不行動, 則你今晚選擇 3 位玩家.",,"If the Po chose no-one the previous night: The Po points to three players. Otherwise: The Po either shows the 'no' head signal , or points to a player. Chosen players die",,"Dead,3 attacks"
-poisoner,投毒者,"每天晚上, 選擇 1 位玩家: 該玩家今晚與明天早上中毒.",The Poisoner points to a player. That player is poisoned.,The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.,,Poisoned
+pixie,小精靈,"你開始遊戲時得知一位在遊戲中的鎮民角色. 如果你執著地認為自己是該角色, 則在該角色的玩家死亡後你獲得該能力.",Show the Pixie 1 in-play Townsfolk character token.,,,"瘋狂,具有能力"
+po,波,"每天晚上*, 你可以選擇 1 位玩家: 該玩家死亡. 如果你上次選擇不行動, 則你今晚選擇 3 位玩家.",,"If the Po chose no-one the previous night: The Po points to three players. Otherwise: The Po either shows the 'no' head signal , or points to a player. Chosen players die",,"死亡,攻擊x3"
+poisoner,投毒者,"每天晚上, 選擇 1 位玩家: 該玩家今晚與明天早上中毒.",The Poisoner points to a player. That player is poisoned.,The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.,,中毒
 politician,政治家,"如果你需要對你隊伍的落敗負最大的責任, 則你改變隊伍並獲勝 (儘管你死亡).",,,,
-poppygrower,罌粟種植者,"僕從們與惡魔不會彼此相認. 如果你死亡, 則他們在當晚相認.",Do not inform the Demon/Minions who each other are,"If the Poppy Grower has died, show the Minions/Demon who each other are.",,Evil wakes
-preacher,傳教士,"每天晚上, 選擇 1 位玩家: 如果你選中了一位僕從, 則他得知此事. 所有被選中的僕從都失去能力.","The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.","The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.",,At a sermon
-professor,教授,"每場遊戲一次, 晚上時*, 選擇 1 位死亡的玩家: 如果該玩家是鎮民, 則他復活.",,"If the Professor has not used their ability: The Professor either shakes their head no, or points to a player. If that player is a Townsfolk, they are now alive.",,"Alive,No ability"
+poppygrower,罌粟種植者,"僕從們與惡魔不會彼此相認. 如果你死亡, 則他們在當晚相認.",Do not inform the Demon/Minions who each other are,"If the Poppy Grower has died, show the Minions/Demon who each other are.",,邪惡相認
+preacher,傳教士,"每天晚上, 選擇 1 位玩家: 如果你選中了一位僕從, 則他得知此事. 所有被選中的僕從都失去能力.","The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.","The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.",,傳教中
+professor,教授,"每場遊戲一次, 晚上時*, 選擇 1 位死亡的玩家: 如果該玩家是鎮民, 則他復活.",,"If the Professor has not used their ability: The Professor either shakes their head no, or points to a player. If that player is a Townsfolk, they are now alive.",,"復活,無能力"
 psychopath,精神病,"每天白天, 在提名開始前, 你可以公開選擇 1 位玩家: 該玩家死亡. 如果你被處決, 你只有在輸掉猜拳時才會死亡.",,,,
-pukka,普卡,"每天晚上, 選擇 1 位玩家: 該玩家中毒. 先前因你而中毒的玩家死亡, 並且變得健康.",The Pukka points to a player. That player is poisoned.,The Pukka points to a player. That player is poisoned. The previously poisoned player dies.,,"Poisoned,Dead"
-puzzlemaster,謎語大師,"一位玩家醉酒 (即使你死亡). 如果你猜中是哪位玩家 (每場遊戲一次), 則你得知誰是惡魔, 但如果你猜錯, 你會得到不正確的資訊.",,,,"Drunk,Guess used"
+pukka,普卡,"每天晚上, 選擇 1 位玩家: 該玩家中毒. 先前因你而中毒的玩家死亡, 並且變得健康.",The Pukka points to a player. That player is poisoned.,The Pukka points to a player. That player is poisoned. The previously poisoned player dies.,,"中毒,死亡"
+puzzlemaster,謎語大師,"一位玩家醉酒 (即使你死亡). 如果你猜中是哪位玩家 (每場遊戲一次), 則你得知誰是惡魔, 但如果你猜錯, 你會得到不正確的資訊.",,,,"醉酒,已猜測"
 ravenkeeper,烏鴉飼養者,"如果你在晚上死亡, 你醒來並選擇 1 位玩家: 你得知他的角色.",,If the Ravenkeeper died tonight: The Ravenkeeper points to a player. Show that player’s character token.,,
 recluse,隱士,你的身分可能會被視為邪惡的奴才或惡魔 (即使你死亡).,,,,
 revolutionary,革命家,"兩位相鄰的玩家會被設定為相同隊伍. 每場遊戲一次, 其中一位玩家的身分會被視為不正確的隊伍或角色.",,,,
-riot,暴亂,"被提名者會死亡, 但該玩家可以立即再提名一次 (在第三天時必須如此). 第三天過後, 邪惡隊伍獲勝. [所有僕從都是Riot]",,,,
+riot,暴亂,"被提名者會死亡, 但該玩家可以立即再提名一次 (在第三天時必須如此). 第三天過後, 邪惡隊伍獲勝. [所有僕從都是暴亂]",,,,
 sage,智者,"如果惡魔殺死了你, 你得知惡魔是某兩位玩家中的其中一位.",,"If the Sage was killed by a Demon: Point to two players, one of which is that Demon.",,
-sailor,水手,"每天晚上, 選擇 1 位活著的玩家: 你或該玩家醉酒到明天黃昏, 你不會死亡.","The Sailor points to a living player. Either the Sailor, or the chosen player, is drunk.","The previously drunk player is no longer drunk. The Sailor points to a living player. Either the Sailor, or the chosen player, is drunk.",,Drunk
+sailor,水手,"每天晚上, 選擇 1 位活著的玩家: 你或該玩家醉酒到明天黃昏, 你不會死亡.","The Sailor points to a living player. Either the Sailor, or the chosen player, is drunk.","The previously drunk player is no longer drunk. The Sailor points to a living player. Either the Sailor, or the chosen player, is drunk.",,醉酒
 saint,聖人,"如果你被處死, 你的隊伍落敗.",,,,
 savant,學者,"每天白天, 你可以拜訪Storyteller來得知兩件事, 其中一件是正確的.",,,,
 scapegoat,替罪羊,"如果你的隊伍的玩家被處死, 則可能改為你被處死.",,,,
-scarletwoman,血色女,"如果有五個或更多非旅行者的玩家存活時惡魔死亡, 則你會成為惡魔.",,"If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",,Demon
-seamstress,裁縫師,"每場遊戲一次, 晚上時, 選擇 2 位其他的玩家: 你得知他們是否為同一隊伍.","The Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.","If the Seamstress has not yet used their ability: the Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",,No ability
+scarletwoman,血色女,"如果有五個或更多非旅行者的玩家存活時惡魔死亡, 則你會成為惡魔.",,"If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",,是惡魔
+seamstress,裁縫師,"每場遊戲一次, 晚上時, 選擇 2 位其他的玩家: 你得知他們是否為同一隊伍.","The Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.","If the Seamstress has not yet used their ability: the Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",,無能力
 sentinel,哨兵,城外人數量可能會加一或減一.,,,,
-shabaloth,沙巴洛斯,"每天晚上*, 選擇 2 位玩家: 這些玩家死亡. 昨晚你選擇的其中一位玩家可能會復活.",,One player that the Shabaloth chose the previous night might be resurrected. The Shabaloth points to two players. Those players die.,,"Dead,Alive"
-slayer,殺手,"每場遊戲一次, 白天時, 公開選擇 1 位玩家: 如果該玩家是惡魔, 他會死亡.",,,,No ability
-snakecharmer,弄蛇人,"每天晚上, 選擇 1 位活著的玩家: 如果該玩家是惡魔, 你與他交換隊伍與角色, 然後他中毒.",The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.,The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.,,Poisoned
+shabaloth,沙巴洛斯,"每天晚上*, 選擇 2 位玩家: 這些玩家死亡. 昨晚你選擇的其中一位玩家可能會復活.",,One player that the Shabaloth chose the previous night might be resurrected. The Shabaloth points to two players. Those players die.,,"死亡,復活"
+slayer,殺手,"每場遊戲一次, 白天時, 公開選擇 1 位玩家: 如果該玩家是惡魔, 他會死亡.",,,,無能力
+snakecharmer,弄蛇人,"每天晚上, 選擇 1 位活著的玩家: 如果該玩家是惡魔, 你與他交換隊伍與角色, 然後他中毒.",The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.,The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.,,中毒
 snitch,告密者,僕從們開始遊戲時得知三個不在遊戲中的角色.,After Minion info wake each Minion and show them three not-in-play character tokens. These may be the same or different to each other and the ones shown to the Demon.,,,
 soldier,士兵,你免受惡魔攻擊.,,,,
 spiritofivory,象牙精神,不能存在超過一個的額外邪惡玩家.,,,,
-spy,間諜,"每天晚上, 你都可以查看Grimoire (遊戲資料書), 你的身分可能會被視為好人的鎮民或城外人 (即使你死亡).",Show the Grimoire to the Spy for as long as they need.,Show the Grimoire to the Spy for as long as they need.,,
+spy,間諜,"每天晚上, 你都可以查看魔典(遊戲資料書), 你的身分可能會被視為好人的鎮民或城外人 (即使你死亡).",Show the Grimoire to the Spy for as long as they need.,Show the Grimoire to the Spy for as long as they need.,,
 stormcatcher,風暴捉捕手,"選擇一個角色名稱. 如果該角色在遊戲中, 該角色的玩家只能死於處刑, 但邪惡玩家知道他是哪位玩家.",,,,
-sweetheart,甜心,"當你死亡時, 一位玩家開始醉酒.",,Choose a player that is drunk.,,Drunk
-tealady,侍女,"如果你的鄰居都是好人, 則他們都不會死亡.",,,,Can not die
-thief,小偷,"每天晚上, 選擇 1 位其他的玩家: 明天該玩家投下的票都計為負票.",The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.,The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.,,Negative vote
-tinker,修補匠,你隨時可能死亡. ,,The Tinker might die.,,Dead
-towncrier,播報員,"每天晚上*, 你得知僕從們是否有提名.",,"Nod 'yes' or shake head 'no' for whether a Minion nominated today. Place the 'Minion not nominated' marker (remove 'Minion nominated', if any).",,"Minions not nominated,Minion nominated"
+sweetheart,甜心,"當你死亡時, 一位玩家開始醉酒.",,Choose a player that is drunk.,,醉酒
+tealady,侍女,"如果你的鄰居都是好人, 則他們都不會死亡.",,,,不會死
+thief,小偷,"每天晚上, 選擇 1 位其他的玩家: 明天該玩家投下的票都計為負票.",The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.,The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.,,負數票
+tinker,修補匠,你隨時可能死亡. ,,The Tinker might die.,,死亡
+towncrier,播報員,"每天晚上*, 你得知僕從們今天是否有提名.",,"Nod 'yes' or shake head 'no' for whether a Minion nominated today. Place the 'Minion not nominated' marker (remove 'Minion nominated', if any).",,"僕從未提名,僕從提名"
 toymaker,玩具製造商,惡魔晚上時可以選擇不攻擊 (且一局遊戲中至少要做一次). 邪惡玩家正常地獲得起始資訊.,,,,
-undertaker,入殮師,"每天晚上*, 你得知今天被處死的玩家的角色.",,If a player was executed today: Show that player’s character token.,,Executed
-vigormortis,食人魔,"每天晚上*, 選擇 1 位玩家: 該玩家死亡. 你殺死的僕從們會保留他們的能力, 並且使一位鎮民鄰居中毒. [−1 城外人]",,"The Vigormortis points to a player. That player dies. If a Minion, they keep their ability and one of their Townsfolk neighbours is poisoned.",,"Dead,Has ability,Poisoned"
-virgin,處女,"如果第一次提名你的人是鎮民, 該玩家會被立即處死.",,,,No ability
-vortox,沃托克斯,"每天晚上*, 選擇 1 位玩家: 該玩家死亡. 鎮民們的能力會得到錯誤的訊息. 每天白天, 如果沒有人被處死, 則邪惡陣營獲勝.",,The Vortox points to a player. That player dies.,,Dead
+undertaker,入殮師,"每天晚上*, 你得知今天被處死的玩家的角色.",,If a player was executed today: Show that player’s character token.,,處決
+vigormortis,食人魔,"每天晚上*, 選擇 1 位玩家: 該玩家死亡. 你殺死的僕從們會保留他們的能力, 並且使一位鎮民鄰居中毒. [−1 城外人]",,"The Vigormortis points to a player. That player dies. If a Minion, they keep their ability and one of their Townsfolk neighbours is poisoned.",,"死亡,具有能力,中毒"
+virgin,處女,"如果第一次提名你的人是鎮民, 該玩家會被立即處死.",,,,無能力
+vortox,沃托克斯,"每天晚上*, 選擇 1 位玩家: 該玩家死亡. 鎮民們的能力會得到錯誤的訊息. 每天白天, 如果沒有人被處死, 則邪惡陣營獲勝.",,The Vortox points to a player. That player dies.,,死亡
 voudon,伏都教徒,"只有你和死亡玩家可以投票, 死亡玩家投票不需使用投票代幣, 也不需要50%的多數票.",,,,
-washerwoman,洗衣女,你遊戲開始時得知在某兩位玩家中有一位特定的鎮民角色.,"Show the character token of a Townsfolk in play. Point to two players, one of which is that character.",,,"Townsfolk,Wrong"
-widow,寡婦,"在你的第一晚, 查看Grimoire並且選擇 1 位玩家: 該玩家中毒. 一位好人玩家知道Widow在遊戲中.","Show the Grimoire to the Widow for as long as they need. The Widow points to a player. That player is poisoned. Wake a good player. Show the 'These characters are in play' card, then the Widow character token.",,Knows,Poisoned
-witch,女巫,"每天晚上, 選擇 1 位玩家: 如果該玩家於明天提名, 則他會死亡, 如果只剩下三位玩家活著, 你失去這個能力.",The Witch points to a player. If that player nominates tomorrow they die immediately.,If there are 4 or more players alive: The Witch points to a player. If that player nominates tomorrow they die immediately.,,Cursed
-zombuul,殭屍,"每天晚上*, 如果今天沒有死亡, 選擇 1 位玩家: 該玩家死亡. 你第一次死亡時不會死, 但會被視為已死亡.",,如果今天沒有人死亡：殭屍指向一名玩家示意，該名玩家死亡。,,"Died today,Dead"
+washerwoman,洗衣女,你遊戲開始時得知在某兩位玩家中有一位特定的鎮民角色.,"Show the character token of a Townsfolk in play. Point to two players, one of which is that character.",,,"鎮民,非鎮民"
+widow,寡婦,"在你的第一晚, 查看魔典(遊戲資料書)並且選擇 1 位玩家: 該玩家中毒. 一位好人玩家知道寡婦在遊戲中.","Show the Grimoire to the Widow for as long as they need. The Widow points to a player. That player is poisoned. Wake a good player. Show the 'These characters are in play' card, then the Widow character token.",,得知寡婦,中毒
+witch,女巫,"每天晚上, 選擇 1 位玩家: 如果該玩家於明天提名, 則他會死亡, 如果只剩下三位玩家活著, 你失去這個能力.",The Witch points to a player. If that player nominates tomorrow they die immediately.,If there are 4 or more players alive: The Witch points to a player. If that player nominates tomorrow they die immediately.,,詛咒
+zombuul,殭屍,"每天晚上*, 如果今天沒有死亡, 選擇 1 位玩家: 該玩家死亡. 你第一次死亡時不會死, 但會被視為已死亡.",,If no-one died during the day: The Zombuul points to a player. That player dies.,,"今天死亡,死亡"

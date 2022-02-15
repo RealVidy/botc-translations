@@ -74,7 +74,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "你不知道自己是 Drunk, 你認為自己是某一位鎮民, 但你不是.",
+    "ability": "你不知道自己是醉漢, 你認為自己是某一位鎮民, 但你不是.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -85,7 +85,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Drunk"
+      "醉酒"
     ],
     "setup": true,
     "team": "outsider"
@@ -115,7 +115,7 @@
     "otherNight": 54,
     "otherNightReminder": "The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Demon.",
     "reminders": [
-      "Red herring"
+      "視為惡魔"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -135,7 +135,7 @@
     "team": "traveler"
   },
   {
-    "ability": "每天晚上*, 選擇 1 位玩家: 該玩家死亡. 如果你以此法殺死自己, 一位僕從而成為小惡魔.",
+    "ability": "每天晚上*, 選擇 1 位玩家: 該玩家死亡. 如果你以此法殺死自己, 一位僕從成為小惡魔.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -145,7 +145,7 @@
     "otherNight": 24,
     "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
     "reminders": [
-      "Dead"
+      "死亡"
     ],
     "setup": false,
     "team": "demon"
@@ -161,8 +161,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Minion",
-      "Wrong"
+      "僕從",
+      "非僕從"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -178,8 +178,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Outsider",
-      "Wrong"
+      "城外人",
+      "非城外人"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -199,7 +199,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "每天晚上*, 選擇 1 位玩家 (不是你自己): 該玩家今晚免受惡魔攻擊.",
+    "ability": "每天晚上*, 選擇 1 位其他的玩家: 該玩家今晚免受惡魔攻擊.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -209,7 +209,7 @@
     "otherNight": 13,
     "otherNightReminder": "The previously protected player is no longer protected. The Monk points to a player not themself. Mark that player 'Protected'.",
     "reminders": [
-      "Protected"
+      "保護"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -225,7 +225,7 @@
     "otherNight": 8,
     "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
     "reminders": [
-      "Poisoned"
+      "中毒"
     ],
     "setup": false,
     "team": "minion"
@@ -297,7 +297,7 @@
     "otherNight": 20,
     "otherNightReminder": "If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",
     "reminders": [
-      "Demon"
+      "是惡魔"
     ],
     "setup": false,
     "team": "minion"
@@ -313,7 +313,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "無能力"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -333,7 +333,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "每天晚上, 你都可以查看Grimoire (遊戲資料書), 你的身分可能會被視為好人的鎮民或城外人 (即使你死亡).",
+    "ability": "每天晚上, 你都可以查看魔典(遊戲資料書), 你的身分可能會被視為好人的鎮民或城外人 (即使你死亡).",
     "edition": "tb",
     "firstNight": 48,
     "firstNightReminder": "Show the Grimoire to the Spy for as long as they need.",
@@ -357,7 +357,7 @@
     "otherNight": 1,
     "otherNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
     "reminders": [
-      "Negative vote"
+      "負數票"
     ],
     "setup": false,
     "team": "traveler"
@@ -373,7 +373,7 @@
     "otherNight": 56,
     "otherNightReminder": "If a player was executed today: Show that player’s character token.",
     "reminders": [
-      "Executed"
+      "處決"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -389,7 +389,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "無能力"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -405,8 +405,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Townsfolk",
-      "Wrong"
+      "鎮民",
+      "非鎮民"
     ],
     "setup": false,
     "team": "townsfolk"
