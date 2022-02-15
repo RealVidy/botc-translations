@@ -103,12 +103,12 @@
   {
     "ability": "Если казнен более, чем 1 добрый игрок, вы побеждаете. Всем игрокам известно, что вы находитесь в игре. По завершению 5 дня зло побеждает.",
     "edition": "",
-    "firstNight": 52,
+    "firstNight": 53,
     "firstNightReminder": "Разместите жетон \"День 1\". Объявите \"Левиафан находится в игре. Сегодня 1 день.\"",
     "id": "ru_RU_leviathan",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/leviathan.png?raw=true",
     "name": "Левиафан",
-    "otherNight": 72,
+    "otherNight": 73,
     "otherNightReminder": "Замените напоминающий жетон Левиафана на жетон следующего дня.",
     "reminders": [
       "День 1",

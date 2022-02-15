@@ -209,7 +209,7 @@
     "otherNight": 13,
     "otherNightReminder": "The previously protected player is no longer protected. The Monk points to a player not themself. Mark that player 'Protected'.",
     "reminders": [
-      "Protegido"
+      "Protected"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -335,12 +335,12 @@
   {
     "ability": "每天晚上, 你都可以查看Grimoire (遊戲資料書), 你的身分可能會被視為好人的鎮民或城外人 (即使你死亡).",
     "edition": "tb",
-    "firstNight": 47,
+    "firstNight": 48,
     "firstNightReminder": "Show the Grimoire to the Spy for as long as they need.",
     "id": "zh_TW_spy",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spy.png?raw=true",
     "name": "間諜",
-    "otherNight": 67,
+    "otherNight": 68,
     "otherNightReminder": "Show the Grimoire to the Spy for as long as they need.",
     "reminders": [],
     "setup": false,

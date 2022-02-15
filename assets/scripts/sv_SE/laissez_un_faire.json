@@ -103,12 +103,12 @@
   {
     "ability": "If more than 1 good player is executed, you win. All players know you are in play. After day 5, evil wins.",
     "edition": "",
-    "firstNight": 52,
+    "firstNight": 53,
     "firstNightReminder": "Place the Leviathan 'Day 1' marker. Announce 'The Leviathan is in play; this is Day 1.'",
     "id": "sv_SE_leviathan",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/leviathan.png?raw=true",
     "name": "Leviathan",
-    "otherNight": 72,
+    "otherNight": 73,
     "otherNightReminder": "Change the Leviathan Day reminder for the next day.",
     "reminders": [
       "Day 1",

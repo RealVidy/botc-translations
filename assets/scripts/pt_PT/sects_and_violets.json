@@ -235,12 +235,12 @@
   {
     "ability": "A cada noite, você descobre quantas habilidades funcionaram de forma anormal (desde o amanhecer) devido a habilidades de outros personagens.",
     "edition": "snv",
-    "firstNight": 50,
+    "firstNight": 51,
     "firstNightReminder": "Mostre o número de jogadores cujas habilidades não funcionaram corretamente por causa de outras habilidades.",
     "id": "pt_PT_mathematician",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mathematician.png?raw=true",
     "name": "Matemático",
-    "otherNight": 70,
+    "otherNight": 71,
     "otherNightReminder": "Mostre o número de jogadores cujas habilidades não funcionaram corretamente por causa de outras habilidades.",
     "reminders": [
       "Anormal"

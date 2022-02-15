@@ -211,7 +211,7 @@
     "otherNight": 13,
     "otherNightReminder": "The previously protected player is no longer protected. The Monk points to a player not themself. Mark that player 'Protected'.",
     "reminders": [
-      "Protegido"
+      "Protected"
     ],
     "setup": false,
     "team": "townsfolk"

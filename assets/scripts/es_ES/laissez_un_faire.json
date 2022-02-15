@@ -103,12 +103,12 @@
   {
     "ability": "Si más de 1 jugador honrado es ejecutado, ganas. Todos los jugadores saben que estás en la partida. Tras el 5º día, el Mal triunfa.",
     "edition": "",
-    "firstNight": 52,
+    "firstNight": 53,
     "firstNightReminder": "Pon el marcador \"Día 1\" del Leviatán. Anuncia 'El Leviatán está entre nosotros, este es el Día 1'.",
     "id": "es_ES_leviathan",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/leviathan.png?raw=true",
     "name": "Leviatán",
-    "otherNight": 72,
+    "otherNight": 73,
     "otherNightReminder": "Cambia el recordatorio de Día del Leviatán para el día siguiente.",
     "reminders": [
       "Día 1",

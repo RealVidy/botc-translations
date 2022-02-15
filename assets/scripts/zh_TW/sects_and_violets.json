@@ -236,12 +236,12 @@
   {
     "ability": "每天晚上, 你得知今天(從清晨開始)有多少玩家的能力因為其他角色的能力而異常作用.",
     "edition": "snv",
-    "firstNight": 50,
+    "firstNight": 51,
     "firstNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of players whose ability malfunctioned due to other abilities.",
     "id": "zh_TW_mathematician",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mathematician.png?raw=true",
     "name": "數學家",
-    "otherNight": 70,
+    "otherNight": 71,
     "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of players whose ability malfunctioned due to other abilities.",
     "reminders": [
       "Abnormal"

@@ -103,12 +103,12 @@
   {
     "ability": "Todos os jogadores sabem que você está em jogo. Depois de 5 dias, o Mal vence. Se mais de 1 jogador do Bem for executado, o Mal vence.",
     "edition": "",
-    "firstNight": 52,
+    "firstNight": 53,
     "firstNightReminder": "Coloque o marcador Leviathan “Dia 1”. Anuncie no próximo amanhecer “O Leviathan está em jogo; este é o primeiro dia ”.",
     "id": "pt_BR_leviathan",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/leviathan.png?raw=true",
     "name": "Leviathan",
-    "otherNight": 72,
+    "otherNight": 73,
     "otherNightReminder": "Coloque o próximo marcador de Leviathan 'Dia N', onde 'N' é o número do dia. Anuncie no próximo amanhcer “O Leviathan está em jogo; este é o dia n. ”.",
     "reminders": [
       "Dia 1",

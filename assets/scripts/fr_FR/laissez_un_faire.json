@@ -103,12 +103,12 @@
   {
     "ability": "Tous les joueurs savent que vous êtes en jeu. Après 5 jours, le mal gagne. Si plus d'un joueur « bon » est exécuté, les maléfiques gagnent.",
     "edition": "",
-    "firstNight": 52,
+    "firstNight": 53,
     "firstNightReminder": "Placez le jeton « Jour 1 » du Léviathan. Annoncer « Le Léviathan est présent parmi vous, c'est son premier jour ».",
     "id": "fr_FR_leviathan",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/leviathan.png?raw=true",
     "name": "Léviathan",
-    "otherNight": 72,
+    "otherNight": 73,
     "otherNightReminder": "Est-ce que deux joueurs « bon » sont morts ou est-ce que le jeton « Jour 5 » du Léviathan est en place, l'équipe maléfique gagne immédiatement. Placez le prochain jeton « Jour n » suivant et annoncer : Le Léviathan est toujours parmi vous, c'est le jour n.",
     "reminders": [
       "Bon Exécuté",

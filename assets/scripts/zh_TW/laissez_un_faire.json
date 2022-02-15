@@ -103,12 +103,12 @@
   {
     "ability": "如果超過一位好人玩家被處決, 則你獲勝. 所有玩家都知道你在遊戲中. 第五天過後, 邪惡隊伍獲勝.",
     "edition": "",
-    "firstNight": 52,
+    "firstNight": 53,
     "firstNightReminder": "Place the Leviathan 'Day 1' marker. Announce 'The Leviathan is in play; this is Day 1.'",
     "id": "zh_TW_leviathan",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/leviathan.png?raw=true",
     "name": "利維坦",
-    "otherNight": 72,
+    "otherNight": 73,
     "otherNightReminder": "Change the Leviathan Day reminder for the next day.",
     "reminders": [
       "Day 1",

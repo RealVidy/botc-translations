@@ -236,12 +236,12 @@
   {
     "ability": "Каждой ночью вы узнаете, у скольких игроков некорректно сработала способность (с прошлого рассвета) из-за чужой способности.",
     "edition": "snv",
-    "firstNight": 50,
+    "firstNight": 51,
     "firstNightReminder": "Покажите жестом число (0, 1, 2...) игроков, чья способность дала сбой из-за чужой способности.",
     "id": "ru_RU_mathematician",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mathematician.png?raw=true",
     "name": "Математик",
-    "otherNight": 70,
+    "otherNight": 71,
     "otherNightReminder": "Покажите жестом число (0, 1, 2...) игроков, чья способность дала сбой из-за чужой способности.",
     "reminders": [
       "Сбой"

@@ -236,12 +236,12 @@
   {
     "ability": "Each night, you learn how many players’ abilities worked abnormally (since dawn) due to another character's ability.",
     "edition": "snv",
-    "firstNight": 50,
+    "firstNight": 51,
     "firstNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of players whose ability malfunctioned due to other abilities.",
     "id": "sv_SE_mathematician",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mathematician.png?raw=true",
     "name": "Matematiker",
-    "otherNight": 70,
+    "otherNight": 71,
     "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of players whose ability malfunctioned due to other abilities.",
     "reminders": [
       "Abnormal"

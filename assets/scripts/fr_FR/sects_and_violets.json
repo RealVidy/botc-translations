@@ -236,12 +236,12 @@
   {
     "ability": "Chaque nuit, vous apprenez combien de capacités des autres joueurs n’ont pas fonctionné depuis l’Aube.",
     "edition": "snv",
-    "firstNight": 50,
+    "firstNight": 51,
     "firstNightReminder": "Lui indiquer combien de capacités des autres joueurs n’ont pas fonctionnés aujourd'hui et cette nuit. Retirer les jetons “Effet anormal”.",
     "id": "fr_FR_mathematician",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mathematician.png?raw=true",
     "name": "Mathématicien",
-    "otherNight": 70,
+    "otherNight": 71,
     "otherNightReminder": "Lui indiquer combien de capacités des autres joueurs n’ont pas fonctionnés aujourd'hui et cette nuit. Retirer les jetons “Effet anormal”.",
     "reminders": [
       "Effet Anormal"
