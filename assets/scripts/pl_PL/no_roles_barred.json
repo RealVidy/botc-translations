@@ -100,17 +100,17 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, choose an alive player: a chosen Demon swaps characters & alignments with you & is then poisoned.",
+    "ability": "Każdej nocy wybierz żywego gracza - jeśli wybrałeś demona, to zamieniacie się z nim postaciami i drużynami a i zostaje on otruty.",
     "edition": "snv",
     "firstNight": 20,
-    "firstNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
+    "firstNightReminder": "Zaklinacz węży wskazuje gracza. Jeśli ten gracz jest demonem - Zamień postaci i drużyny demona i Zaklinacza. Obudź każdego z nich, aby ich poinformować o nowej roli i drużynie. Nowy Zaklinacz węży jest otruty.",
     "id": "pl_PL_snakecharmer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/snakecharmer.png?raw=true",
-    "name": "Snake Charmer",
+    "name": "Zaklinacz węży",
     "otherNight": 12,
-    "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
+    "otherNightReminder": "Zaklinacz węży wskazuje gracza. Jeśli ten gracz jest demonem - Zamień postaci i drużyny demona i Zaklinacza. Obudź każdego z nich, aby ich poinformować o nowej robi i drużynie. Nowy Zaklinacz węży jest otruty.",
     "reminders": [
-      "Poisoned"
+      "otruty"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -148,34 +148,34 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, during the day, privately ask the Storyteller any yes/no question.",
+    "ability": "Raz w trakcie gry, za dnia, na osobności zadaj Bajarzowi pytanie zamknięte (tak/nie).",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "pl_PL_artist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/artist.png?raw=true",
-    "name": "Artist",
+    "name": "Artysta",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "brak zdolności"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, at night, choose a good character: gain that ability. If this character is in play, they are drunk.",
+    "ability": "Raz w trakcie gry, nocą, wybierz dobrą postać - uzyskasz jej zdolność. Jeśli ta postać jest w grze, jest od teraz pijana.",
     "edition": "snv",
     "firstNight": 2,
-    "firstNightReminder": "The Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
+    "firstNightReminder": "Filozof albo kręci głową na nie albo wskazuje dobrą postać na skrypcie. Jeśli wybrał postać - zamień żeton postaci, której nie ma w grze, z żetonem Filozofa i umieść przy nim żeton 'JEST FILOZOFEM'. Lub, jeśli postać jest w grze, umieść żeton 'PIJANY' przy tym graczu.",
     "id": "pl_PL_philosopher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/philosopher.png?raw=true",
-    "name": "Philosopher",
+    "name": "Filozof",
     "otherNight": 2,
-    "otherNightReminder": "If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
+    "otherNightReminder": "Jeśli Filozof nie wykorzystał jeszcze swojej zdolności - Filozof albo kręci głową na nie albo wskazuje dobrą postać na skrypcie. Jeśli wybrał postać - zamień żeton postaci, której nie ma w grze, z żetonem Filozofa i umieść przy nim żeton 'JEST FILOZOFEM'. Lub, jeśli postać jest w grze, umieść żeton 'PIJANY' przy tym graczu.",
     "reminders": [
-      "Drunk",
-      "Is the Philosopher"
+      "jest filozofem",
+      "pijany"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -229,7 +229,7 @@
     "team": "outsider"
   },
   {
-    "ability": "If you are “mad” about being an Outsider, you might be executed.",
+    "ability": "Jeśli \"szalejesz\" na punkcie bycia outsiderem, możesz zostać stracony.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -390,7 +390,7 @@
     "team": "demon"
   },
   {
-    "ability": "Each night*, choose a player: they die. Townsfolk abilities yield false info. Each day, if no-one is executed, evil wins.",
+    "ability": "Każdej nocy* wybierz gracza, który umiera. Zdolności mieszczan zwracają fałszywe informacje. Każdego dnia, jeśli nikt nie został stracony, zło wygrywa.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -398,9 +398,9 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vortox.png?raw=true",
     "name": "Vortox",
     "otherNight": 31,
-    "otherNightReminder": "The Vortox points to a player. That player dies.",
+    "otherNightReminder": "Vortox wskazuje gracza. Gracz ten umiera.",
     "reminders": [
-      "Dead"
+      "zgon"
     ],
     "setup": false,
     "team": "demon"

@@ -1,12 +1,12 @@
 [
   {
-    "ability": "You start knowing how many steps from the Demon to its nearest Minion.",
+    "ability": "Na początku gry dowiadujesz się, ile kroków dzieli demona od jego najbliższego sługusa.",
     "edition": "snv",
     "firstNight": 40,
-    "firstNightReminder": "Show the hand signal for the number (1, 2, 3, etc.) of places from Demon to closest Minion.",
+    "firstNightReminder": "Pokaż na palcach liczbę (0, 1, 2,) siedzeń między demonem a jego najbliższym sługusem.",
     "id": "pl_PL_clockmaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/clockmaker.png?raw=true",
-    "name": "Clockmaker",
+    "name": "Zegarmistrz",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -59,31 +59,31 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, during the day, privately ask the Storyteller any yes/no question.",
+    "ability": "Raz w trakcie gry, za dnia, na osobności zadaj Bajarzowi pytanie zamknięte (tak/nie).",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "pl_PL_artist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/artist.png?raw=true",
-    "name": "Artist",
+    "name": "Artysta",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "brak zdolności"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "If the Demon kills you, you learn that it is 1 of 2 players.",
+    "ability": "Jeśli zabije Cię demon, dowiadujesz się, że jest to jeden z dwóch graczy.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "pl_PL_sage",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sage.png?raw=true",
-    "name": "Sage",
+    "name": "Mędrzec",
     "otherNight": 43,
-    "otherNightReminder": "If the Sage was killed by a Demon: Point to two players, one of which is that Demon.",
+    "otherNightReminder": "Jeśli demon zabił Mędrca: wskaż dwóch graczy, jeden z nich to ten demon.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -106,13 +106,13 @@
     "team": "outsider"
   },
   {
-    "ability": "When you learn that you died, publicly choose 1 alive player: if they are evil, your team loses.",
+    "ability": "Kiedy dowiesz się, że nie żyjesz, publicznie wybierz jednego żywego gracza - jeśli jest zły, Twoja drużyna przegrywa.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "pl_PL_klutz",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/klutz.png?raw=true",
-    "name": "Klutz",
+    "name": "Fajtłapa",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],

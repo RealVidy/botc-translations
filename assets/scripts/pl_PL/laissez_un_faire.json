@@ -16,17 +16,17 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, during the day, privately ask the Storyteller any yes/no question.",
+    "ability": "Raz w trakcie gry, za dnia, na osobności zadaj Bajarzowi pytanie zamknięte (tak/nie).",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "pl_PL_artist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/artist.png?raw=true",
-    "name": "Artist",
+    "name": "Artysta",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "brak zdolności"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -140,7 +140,7 @@
     "team": "outsider"
   },
   {
-    "ability": "If you are “mad” about being an Outsider, you might be executed.",
+    "ability": "Jeśli \"szalejesz\" na punkcie bycia outsiderem, możesz zostać stracony.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -154,13 +154,13 @@
     "team": "outsider"
   },
   {
-    "ability": "Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false.",
+    "ability": "Każdego dnia możesz odwiedzić Bajarza, żeby na osobności dowiedzieć się 2 rzeczy - jedna z nich to prawda, a jedna fałsz.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "pl_PL_savant",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/savant.png?raw=true",
-    "name": "Savant",
+    "name": "Uczony",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],

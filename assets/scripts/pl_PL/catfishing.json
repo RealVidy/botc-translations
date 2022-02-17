@@ -69,18 +69,18 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, until dusk, 1) a player becomes sober, healthy and gets true info, or 2) their ability works twice. They learn which.",
+    "ability": "Każdej nocy, aż do zmierzchu, 1) gracz trzeźwieje, zdrowieje i dostaje prawdziwe informacje, lub 2) ich zdolność działa dwa razy. Gracz dowiaduje się, która opcja na niego działa.",
     "edition": "snv",
     "firstNight": 1,
-    "firstNightReminder": "Choose a player, wake them and tell them which Barista power is affecting them. Treat them accordingly (sober/healthy/true info or activate their ability twice).",
+    "firstNightReminder": "Wybierz gracza, obudź go i powiedz, która moc Baristy ma na niego wpływ. Potraktuj go zgodnie z tą mocą (trzeźwy/zdrowy/prawdziwe informacle lub aktywuj ich zdolność dwa razy).",
     "id": "pl_PL_barista",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/barista.png?raw=true",
     "name": "Barista",
     "otherNight": 1,
-    "otherNightReminder": "Choose a player, wake them and tell them which Barista power is affecting them. Treat them accordingly (sober/healthy/true info or activate their ability twice).",
+    "otherNightReminder": "Wybierz gracza, obudź go i powiedz, która moc Baristy ma na niego wpływ. Potraktuj go zgodnie z tą mocą (trzeźwy/zdrowy/prawdziwe informacle lub aktywuj ich zdolność dwa razy).",
     "reminders": [
-      "Ability twice",
-      "Sober & Healthy"
+      "2x zdolność",
+      "trzeźwy i zdrowy"
     ],
     "setup": false,
     "team": "traveler"
@@ -100,18 +100,18 @@
     "team": "traveler"
   },
   {
-    "ability": "Once per game, at night, choose a dead player: they regain their ability until dusk.",
+    "ability": "Raz w trakcie gry, nocą, wybierz martwego gracza - odzyskuje on swoją zdolność postaci do zmierzchu.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "pl_PL_bonecollector",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bonecollector.png?raw=true",
-    "name": "Bone Collector",
+    "name": "Kolekcjoner kości",
     "otherNight": 1,
-    "otherNightReminder": "The Bone Collector either shakes their head no or points at any dead player. If they pointed at any dead player, put the Bone Collector's 'Has Ability' reminder by the chosen player's character token. (They may need to be woken tonight to use it.)",
+    "otherNightReminder": "Kolekcjoner kości albo kręci głową na nie albo wskazuje któregokolwiek martwego gracza. Jeśli wskazał martwego gracza, oznacz go żetonem Kolekcjonera 'ma zdolność' przy jego żetonie postaci. (Możliwe, że będziesz musiał obudzić tego gracza, żeby skorzystał ze swojej zdolności.)",
     "reminders": [
-      "Has ability",
-      "No ability"
+      "brak zdolności",
+      "ma zdolność"
     ],
     "setup": false,
     "team": "traveler"
@@ -148,15 +148,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, choose a player (not yourself or Travellers): you learn 1 good and 1 evil character, 1 of which is correct.",
+    "ability": "Każdej nocy wybierz gracza (nie siebie, nie wędrowców). Zobaczysz 1 dobrą i 1 złą postać, jedna z nich jest prawidłowa.",
     "edition": "snv",
     "firstNight": 41,
-    "firstNightReminder": "The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.",
+    "firstNightReminder": "Śniączka wskazuje gracza. Pokaż 1 żeton dobrej postaci i 1 złej; jeden z nich jest prawidłowy.",
     "id": "pl_PL_dreamer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/dreamer.png?raw=true",
-    "name": "Dreamer",
+    "name": "Śniączka",
     "otherNight": 57,
-    "otherNightReminder": "The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.",
+    "otherNightReminder": "Śniączka wskazuje gracza. Pokaż 1 żeton dobrej postaci i 1 złej; jeden z nich jest prawidłowy.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -179,7 +179,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Each night*, choose a player: they die. The 1st Outsider this kills becomes an evil Fang Gu & you die instead. [+1 Outsider]",
+    "ability": "Każdej nocy* wybierz gracza, który umiera. Pierwszy outsider, którego tak zabijesz, zostaje złym Fang Gu, a Ty giniesz zamiast niego. [+1 Outsider]",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -187,10 +187,9 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fanggu.png?raw=true",
     "name": "Fang Gu",
     "otherNight": 29,
-    "otherNightReminder": "The Fang Gu points to a player. That player dies. Or, if that player was an Outsider and there are no other Fang Gu in play: The Fang Gu dies instead of the chosen player. The chosen player is now an evil Fang Gu. Wake the new Fang Gu. Show the 'You are' card, then the Fang Gu token. Show the 'You are' card, then the thumb-down 'evil' hand sign.",
+    "otherNightReminder": "Fang Gu wskazuje gracza. Gracz ten umiera. Lub, jeśli ten gracz jest outsiderem i nie ma w grze innego Fang Gu - demon ginie zamiast wybranego gracza. Wybrany gracz jest teraz złym Fang Gu. Obudź nowego Fang Gu. Pokaż mu kartę 'JESTEŚ' i żeton Fang Gu, potem pokaż kciukiem do dołu, że jest zły.",
     "reminders": [
-      "Dead",
-      "Once"
+      "zgon"
     ],
     "setup": true,
     "team": "demon"
@@ -261,17 +260,17 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, choose a living player: if they agree, you learn their character, but you both might die.",
+    "ability": "Każdej nocy* wybierz żywego gracza - jeśli się zgodzi, dowiadujesz się, jaką jest postacią, ale obydwoje możecie umrzeć.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "pl_PL_harlot",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/harlot.png?raw=true",
-    "name": "Harlot",
+    "name": "Ladacznica",
     "otherNight": 1,
-    "otherNightReminder": "The Harlot points at any player. Then, put the Harlot to sleep. Wake the chosen player, show them the 'This character selected you' token, then the Harlot token. That player either nods their head yes or shakes their head no. If they nodded their head yes, wake the Harlot and show them the chosen player's character token. Then, you may decide that both players die.",
+    "otherNightReminder": "Ladacznica wskazuje któregokolwiek gracza. Połóż Ladacznicę spać. Obudź wybranego przez nią gracza, pokaż mu kartę 'TA POSTAĆ CIĘ WYBRAŁA' i żeton Ladacznicy. Gracz ten albo kiwa głową na tak albo kręci na nie. Jeśli gracz pokiwał głową, obudź Ladacznicę i pokaż jej żeton postaci wybranego gracza. Potem możesz zdecydować, że obydwoje umrą.",
     "reminders": [
-      "Dead"
+      "zgon"
     ],
     "setup": false,
     "team": "traveler"
@@ -328,7 +327,7 @@
     "team": "outsider"
   },
   {
-    "ability": "If you are “mad” about being an Outsider, you might be executed.",
+    "ability": "Jeśli \"szalejesz\" na punkcie bycia outsiderem, możesz zostać stracony.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -342,32 +341,32 @@
     "team": "outsider"
   },
   {
-    "ability": "Once per game, at night, choose a good character: gain that ability. If this character is in play, they are drunk.",
+    "ability": "Raz w trakcie gry, nocą, wybierz dobrą postać - uzyskasz jej zdolność. Jeśli ta postać jest w grze, jest od teraz pijana.",
     "edition": "snv",
     "firstNight": 2,
-    "firstNightReminder": "The Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
+    "firstNightReminder": "Filozof albo kręci głową na nie albo wskazuje dobrą postać na skrypcie. Jeśli wybrał postać - zamień żeton postaci, której nie ma w grze, z żetonem Filozofa i umieść przy nim żeton 'JEST FILOZOFEM'. Lub, jeśli postać jest w grze, umieść żeton 'PIJANY' przy tym graczu.",
     "id": "pl_PL_philosopher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/philosopher.png?raw=true",
-    "name": "Philosopher",
+    "name": "Filozof",
     "otherNight": 2,
-    "otherNightReminder": "If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
+    "otherNightReminder": "Jeśli Filozof nie wykorzystał jeszcze swojej zdolności - Filozof albo kręci głową na nie albo wskazuje dobrą postać na skrypcie. Jeśli wybrał postać - zamień żeton postaci, której nie ma w grze, z żetonem Filozofa i umieść przy nim żeton 'JEST FILOZOFEM'. Lub, jeśli postać jest w grze, umieść żeton 'PIJANY' przy tym graczu.",
     "reminders": [
-      "Drunk",
-      "Is the Philosopher"
+      "jest filozofem",
+      "pijany"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, choose a player & a character they become (if not-in-play). If a Demon is made, deaths tonight are arbitrary.",
+    "ability": "Każdej nocy*, wybierz gracza i postać, którą zostanie (jeśli nie ma jej w grze). Jeśli zostanie tak stworzony demon, zgony tej nocy zależą od Bajarza.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "pl_PL_pithag",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pithag.png?raw=true",
-    "name": "Pit-Hag",
+    "name": "Jędza",
     "otherNight": 17,
-    "otherNightReminder": "The Pit-Hag points to a player and a character on the sheet. If this character is not in play, wake that player and show them the 'You are' card and the relevant character token. If the character is in play, nothing happens.",
+    "otherNightReminder": "Jędza wskazuje na gracza i postać na skrypcie. Jeśli tej postaci nie ma w grze, obudź tego gracza i pokaż mu kartę 'JESTEŚ' i odpowiedni żeton postaci. Jeśli postać jest w grze, nic się nie dzieje.",
     "reminders": [],
     "setup": false,
     "team": "minion"
@@ -401,13 +400,13 @@
     "team": "outsider"
   },
   {
-    "ability": "Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false.",
+    "ability": "Każdego dnia możesz odwiedzić Bajarza, żeby na osobności dowiedzieć się 2 rzeczy - jedna z nich to prawda, a jedna fałsz.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "pl_PL_savant",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/savant.png?raw=true",
-    "name": "Savant",
+    "name": "Uczony",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -415,39 +414,39 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, choose an alive player: a chosen Demon swaps characters & alignments with you & is then poisoned.",
+    "ability": "Każdej nocy wybierz żywego gracza - jeśli wybrałeś demona, to zamieniacie się z nim postaciami i drużynami a i zostaje on otruty.",
     "edition": "snv",
     "firstNight": 20,
-    "firstNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
+    "firstNightReminder": "Zaklinacz węży wskazuje gracza. Jeśli ten gracz jest demonem - Zamień postaci i drużyny demona i Zaklinacza. Obudź każdego z nich, aby ich poinformować o nowej roli i drużynie. Nowy Zaklinacz węży jest otruty.",
     "id": "pl_PL_snakecharmer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/snakecharmer.png?raw=true",
-    "name": "Snake Charmer",
+    "name": "Zaklinacz węży",
     "otherNight": 12,
-    "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
+    "otherNightReminder": "Zaklinacz węży wskazuje gracza. Jeśli ten gracz jest demonem - Zamień postaci i drużyny demona i Zaklinacza. Obudź każdego z nich, aby ich poinformować o nowej robi i drużynie. Nowy Zaklinacz węży jest otruty.",
     "reminders": [
-      "Poisoned"
+      "otruty"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "When you die, 1 player is drunk from now on.",
+    "ability": "Po Twojej śmierci jeden z graczy będzie pijany.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "pl_PL_sweetheart",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sweetheart.png?raw=true",
-    "name": "Sweetheart",
+    "name": "Cukiereczek",
     "otherNight": 41,
-    "otherNightReminder": "Choose a player that is drunk.",
+    "otherNightReminder": "Jeśli dziś umarł Cukiereczek - wybierz gracza, który będzie pijany.",
     "reminders": [
-      "Drunk"
+      "pijany"
     ],
     "setup": false,
     "team": "outsider"
   },
   {
-    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & poison 1 Townsfolk neighbour. [−1 Outsider]",
+    "ability": "Każdej nocy* wybierz gracza, który umiera. Sługusi, których zabijesz, nadal posiadają swoją zdolność i zatruwają 1 sąsiadującego mieszczanina. [-1 Outsider]",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -455,11 +454,11 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vigormortis.png?raw=true",
     "name": "Vigormortis",
     "otherNight": 32,
-    "otherNightReminder": "The Vigormortis points to a player. That player dies. If a Minion, they keep their ability and one of their Townsfolk neighbours is poisoned.",
+    "otherNightReminder": "Vigormortis wskazuje gracza. Gracz ten umiera. Jeśli był to sługus, to nadal może korzystać on ze swojej zdolności i jeden z jego sąsiadujących mieszczan zostaje na stałe otruty.",
     "reminders": [
-      "Dead",
-      "Has ability",
-      "Poisoned"
+      "ma zdolność",
+      "otruty",
+      "zgon"
     ],
     "setup": true,
     "team": "demon"

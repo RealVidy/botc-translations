@@ -46,17 +46,17 @@
     "team": "outsider"
   },
   {
-    "ability": "Each night, choose a player & a good character: they are “mad” they are this character tomorrow, or might be executed.",
+    "ability": "Każdej nocy wybierz gracza i dobrą postać - ma jutro szaleć na punkcie bycia tą postacią, bo inaczej może zostać stracony.",
     "edition": "snv",
     "firstNight": 25,
-    "firstNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
+    "firstNightReminder": "Cerenovus wskazuje gracza i postać na skrypcie. Obudź tego gracza. Pokaż mu kartę 'TA POSTAĆ CIĘ WYBRAŁA' i żeton Cerenovusa. Pokaż żeton wybranej postaci. Jeśli ten gracz nie będzie jutro szalał na punkcie bycia tą postacią, może zostać stracony.",
     "id": "pl_PL_cerenovus",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cerenovus.png?raw=true",
     "name": "Cerenovus",
     "otherNight": 16,
-    "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
+    "otherNightReminder": "Cerenovus wskazuje gracza i postać na skrypcie. Obudź tego gracza. Pokaż mu kartę 'TA POSTAĆ CIĘ WYBRAŁA' i żeton Cerenovusa. Pokaż żeton wybranej postaci. Jeśli ten gracz nie będzie jutro szalał na punkcie bycia tą postacią, może zostać stracony.",
     "reminders": [
-      "Mad"
+      "szaleństwo"
     ],
     "setup": false,
     "team": "minion"
@@ -90,23 +90,23 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You & an opposing player know each other. If the good player is executed, evil wins. Good can't win if you both live.",
+    "ability": "Ty i gracz z przeciwnej drużyny wiecie, kim jesteście. Jeśli dobry gracz zostanie stracony, zło wygrywa. Dobro nie może wygrać, jeśli żyje obydwoje bliźniaków.",
     "edition": "snv",
     "firstNight": 23,
-    "firstNightReminder": "Wake the Evil Twin and their twin. Confirm that they have acknowledged each other. Point to the Evil Twin. Show their Evil Twin token to the twin player. Point to the twin. Show their character token to the Evil Twin player.",
+    "firstNightReminder": "Obudź Złego bliźniaka i jego bliźniaka. Potwierdź, że się zauważyli. Wskaż na Złego bliźniaka. Pokaż jego bliźniakowi żeton Złego bliźniaka. Wskaż na bliźniaka. Pokaż żeton jego postaci Złemu bliźniakowi.",
     "id": "pl_PL_eviltwin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/eviltwin.png?raw=true",
-    "name": "Evil Twin",
+    "name": "Zły bliźniak",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Twin"
+      "bliźniak"
     ],
     "setup": false,
     "team": "minion"
   },
   {
-    "ability": "Each night*, choose a player: they die. The 1st Outsider this kills becomes an evil Fang Gu & you die instead. [+1 Outsider]",
+    "ability": "Każdej nocy* wybierz gracza, który umiera. Pierwszy outsider, którego tak zabijesz, zostaje złym Fang Gu, a Ty giniesz zamiast niego. [+1 Outsider]",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -114,10 +114,9 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fanggu.png?raw=true",
     "name": "Fang Gu",
     "otherNight": 29,
-    "otherNightReminder": "The Fang Gu points to a player. That player dies. Or, if that player was an Outsider and there are no other Fang Gu in play: The Fang Gu dies instead of the chosen player. The chosen player is now an evil Fang Gu. Wake the new Fang Gu. Show the 'You are' card, then the Fang Gu token. Show the 'You are' card, then the thumb-down 'evil' hand sign.",
+    "otherNightReminder": "Fang Gu wskazuje gracza. Gracz ten umiera. Lub, jeśli ten gracz jest outsiderem i nie ma w grze innego Fang Gu - demon ginie zamiast wybranego gracza. Wybrany gracz jest teraz złym Fang Gu. Obudź nowego Fang Gu. Pokaż mu kartę 'JESTEŚ' i żeton Fang Gu, potem pokaż kciukiem do dołu, że jest zły.",
     "reminders": [
-      "Dead",
-      "Once"
+      "zgon"
     ],
     "setup": true,
     "team": "demon"
@@ -217,7 +216,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, choose a player: they die. Your 2 Townsfolk neighbours are poisoned.",
+    "ability": "Każdej nocy* wybierz gracza, który umiera. Dwójka sąsiadujących z Tobą mieszczan jest otruta.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -225,24 +224,24 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/nodashii.png?raw=true",
     "name": "No Dashii",
     "otherNight": 30,
-    "otherNightReminder": "The No Dashii points to a player. That player dies.",
+    "otherNightReminder": "No Dashii wskazuje gracza. Gracz ten umiera.",
     "reminders": [
-      "Dead",
-      "Poisoned"
+      "otruty",
+      "zgon"
     ],
     "setup": false,
     "team": "demon"
   },
   {
-    "ability": "Each night*, choose a player & a character they become (if not-in-play). If a Demon is made, deaths tonight are arbitrary.",
+    "ability": "Każdej nocy*, wybierz gracza i postać, którą zostanie (jeśli nie ma jej w grze). Jeśli zostanie tak stworzony demon, zgony tej nocy zależą od Bajarza.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "pl_PL_pithag",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pithag.png?raw=true",
-    "name": "Pit-Hag",
+    "name": "Jędza",
     "otherNight": 17,
-    "otherNightReminder": "The Pit-Hag points to a player and a character on the sheet. If this character is not in play, wake that player and show them the 'You are' card and the relevant character token. If the character is in play, nothing happens.",
+    "otherNightReminder": "Jędza wskazuje na gracza i postać na skrypcie. Jeśli tej postaci nie ma w grze, obudź tego gracza i pokaż mu kartę 'JESTEŚ' i odpowiedni żeton postaci. Jeśli postać jest w grze, nic się nie dzieje.",
     "reminders": [],
     "setup": false,
     "team": "minion"
@@ -366,7 +365,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & poison 1 Townsfolk neighbour. [−1 Outsider]",
+    "ability": "Każdej nocy* wybierz gracza, który umiera. Sługusi, których zabijesz, nadal posiadają swoją zdolność i zatruwają 1 sąsiadującego mieszczanina. [-1 Outsider]",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -374,11 +373,11 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vigormortis.png?raw=true",
     "name": "Vigormortis",
     "otherNight": 32,
-    "otherNightReminder": "The Vigormortis points to a player. That player dies. If a Minion, they keep their ability and one of their Townsfolk neighbours is poisoned.",
+    "otherNightReminder": "Vigormortis wskazuje gracza. Gracz ten umiera. Jeśli był to sługus, to nadal może korzystać on ze swojej zdolności i jeden z jego sąsiadujących mieszczan zostaje na stałe otruty.",
     "reminders": [
-      "Dead",
-      "Has ability",
-      "Poisoned"
+      "ma zdolność",
+      "otruty",
+      "zgon"
     ],
     "setup": true,
     "team": "demon"
@@ -400,7 +399,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, choose a player: they die. Townsfolk abilities yield false info. Each day, if no-one is executed, evil wins.",
+    "ability": "Każdej nocy* wybierz gracza, który umiera. Zdolności mieszczan zwracają fałszywe informacje. Każdego dnia, jeśli nikt nie został stracony, zło wygrywa.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -408,9 +407,9 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vortox.png?raw=true",
     "name": "Vortox",
     "otherNight": 31,
-    "otherNightReminder": "The Vortox points to a player. That player dies.",
+    "otherNightReminder": "Vortox wskazuje gracza. Gracz ten umiera.",
     "reminders": [
-      "Dead"
+      "zgon"
     ],
     "setup": false,
     "team": "demon"
@@ -433,17 +432,17 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability.",
+    "ability": "Każdej nocy wybierz gracza - jeśli jutro nominuje, umrze. Tracisz tę zdolność przy trzech żywych graczach.",
     "edition": "snv",
     "firstNight": 24,
     "firstNightReminder": "The Witch points to a player. If that player nominates tomorrow they die immediately.",
     "id": "pl_PL_witch",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/witch.png?raw=true",
-    "name": "Witch",
+    "name": "Wiedźma",
     "otherNight": 15,
-    "otherNightReminder": "If there are 4 or more players alive: The Witch points to a player. If that player nominates tomorrow they die immediately.",
+    "otherNightReminder": "Jeśli przy życiu pozostaje 4 lub więcej graczy - Wiedźma wskazuje gracza. Jeśli ten gracz jutro nominuje, natychmiast umiera.",
     "reminders": [
-      "Cursed"
+      "przeklęty"
     ],
     "setup": false,
     "team": "minion"
