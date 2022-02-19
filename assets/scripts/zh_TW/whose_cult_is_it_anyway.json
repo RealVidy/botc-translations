@@ -1,0 +1,399 @@
+[
+  {
+    "ability": "每天晚上, 你轉為其中一位活著的鄰居所在的隊伍. 如果所有好人玩家都選擇加入你的教團, 則你的隊伍獲勝.",
+    "edition": "",
+    "firstNight": 47,
+    "firstNightReminder": "如果邪教領袖改變了隊伍, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
+    "id": "zh_TW_cultleader",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cultleader.png?raw=true",
+    "name": "邪教領袖",
+    "otherNight": 67,
+    "otherNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "你開始遊戲時得知三位玩家, 其中(只有)一位是邪惡的.",
+    "edition": "",
+    "firstNight": 43,
+    "firstNightReminder": "Point to 3 players including one evil player, in no particular order.",
+    "id": "zh_TW_noble",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/noble.png?raw=true",
+    "name": "貴族",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "已得知"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "你開始遊戲時得知一位在遊戲中的鎮民角色. 如果你執著地認為自己是該角色, 則在該角色的玩家死亡後你獲得該能力.",
+    "edition": "",
+    "firstNight": 29,
+    "firstNightReminder": "Show the Pixie 1 in-play Townsfolk character token.",
+    "id": "zh_TW_pixie",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pixie.png?raw=true",
+    "name": "小精靈",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "具有能力",
+      "瘋狂"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每天晚上, 你得知每種角色類別的一位玩家, 直到你已得知所有類別. [+1 城外人]",
+    "edition": "",
+    "firstNight": 44,
+    "firstNightReminder": "選擇一個角色類別. 指向一個為該類別的玩家. 以 \"已得知\" 標記該玩家.",
+    "id": "zh_TW_balloonist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/balloonist.png?raw=true",
+    "name": "氣球飛行員",
+    "otherNight": 63,
+    "otherNightReminder": "選擇一個旁邊還沒放置 \"已得知\" 標記的角色類別. 有選擇到的話, 指向一個為該類別的玩家. 以 \"已得知\" 標記該玩家.",
+    "reminders": [
+      "已得知(僕從)",
+      "已得知(城外人)",
+      "已得知(惡魔)",
+      "已得知(旅行者)",
+      "已得知(鎮民)"
+    ],
+    "setup": true,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每天晚上, 如果死亡的玩家數超過活著的玩家, 你得知一個活著的角色. 惡魔知道你是誰.",
+    "edition": "",
+    "firstNight": 9,
+    "firstNightReminder": "Wake the Demon, show them the 'This character selected you' card, show the King token and point to the King player.",
+    "id": "zh_TW_king",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/king.png?raw=true",
+    "name": "國王",
+    "otherNight": 64,
+    "otherNightReminder": "If there are more dead than living, show the King a character token of a living player.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每天晚上, 選擇 2 位玩家: 你得知他們其中是否有惡魔. 場上有一位好人的身分會被你視為惡魔.",
+    "edition": "tb",
+    "firstNight": 37,
+    "firstNightReminder": "The Fortune Teller points to two players. Give the head signal (nod yes, shake no) for whether one of those players is the Demon.",
+    "id": "zh_TW_fortuneteller",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fortuneteller.png?raw=true",
+    "name": "算命師",
+    "otherNight": 54,
+    "otherNightReminder": "The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Demon.",
+    "reminders": [
+      "視為惡魔"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每天晚上*, 你得知有多少死去的玩家是邪惡的.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_TW_oracle",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/oracle.png?raw=true",
+    "name": "預言家",
+    "otherNight": 60,
+    "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of dead evil players.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每天晚上*, 選擇 1 位活著的玩家: 如果該玩家是好人, 該玩家死亡, 但他是當晚唯一可以死亡的玩家.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_TW_lycanthrope",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lycanthrope.png?raw=true",
+    "name": "獸人",
+    "otherNight": 23,
+    "otherNightReminder": "The Lycanthrope points to a living player: if good, they die and no one else can die tonight.",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每場遊戲一次, 晚上時, 選擇 2 位其他的玩家: 你得知他們是否為同一隊伍.",
+    "edition": "snv",
+    "firstNight": 42,
+    "firstNightReminder": "The Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
+    "id": "zh_TW_seamstress",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/seamstress.png?raw=true",
+    "name": "裁縫師",
+    "otherNight": 61,
+    "otherNightReminder": "If the Seamstress has not yet used their ability: the Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
+    "reminders": [
+      "無能力"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每場遊戲一次, 晚上時, 選擇 1 位活著的玩家: 如果你選中了少女, 他成為一位不在遊戲中的鎮民角色. [+ 少女 角色]",
+    "edition": "",
+    "firstNight": 30,
+    "firstNightReminder": "The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",
+    "id": "zh_TW_huntsman",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/huntsman.png?raw=true",
+    "name": "獵人",
+    "otherNight": 51,
+    "otherNightReminder": "The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",
+    "reminders": [
+      "無能力"
+    ],
+    "setup": true,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每天白天, 你可以拜訪Storyteller來得知兩件事, 其中一件是正確的.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_TW_savant",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/savant.png?raw=true",
+    "name": "學者",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "如果惡魔殺死了國王, 你得知惡魔是哪一位玩家. [+ 國王 角色]",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_TW_choirboy",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/choirboy.png?raw=true",
+    "name": "唱詩童",
+    "otherNight": 44,
+    "otherNightReminder": "如果國王被惡魔殺死, 喚醒唱詩童並指向惡魔玩家.",
+    "reminders": [],
+    "setup": true,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "你具有最後被處死的玩家的能力. 如果該玩家是邪惡的, 你中毒直到一個好人玩家被處死.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_TW_cannibal",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cannibal.png?raw=true",
+    "name": "食人者",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "中毒",
+      "最後被處死"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "你的身分可能會被視為邪惡的奴才或惡魔 (即使你死亡).",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_TW_recluse",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/recluse.png?raw=true",
+    "name": "隱士",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "如果你執著地認為自己是城外人, 你可能會被處決.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_TW_mutant",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mutant.png?raw=true",
+    "name": "突變體",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "所有僕從都知道你在遊戲中. 如果一位僕從公開的選擇了你 (每場遊戲一次), 則你的隊伍落敗.",
+    "edition": "",
+    "firstNight": 31,
+    "firstNightReminder": "Wake all the Minions, show them the 'This character selected you' card and the Damsel token.",
+    "id": "zh_TW_damsel",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/damsel.png?raw=true",
+    "name": "少女",
+    "otherNight": 52,
+    "otherNightReminder": "If selected by the Huntsman, wake the Damsel, show 'You are' card and a not-in-play Townsfolk token.",
+    "reminders": [
+      "已猜測"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "一位玩家醉酒 (即使你死亡). 如果你猜中是哪位玩家 (每場遊戲一次), 則你得知誰是惡魔, 但如果你猜錯, 你會得到不正確的資訊.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_TW_puzzlemaster",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/puzzlemaster.png?raw=true",
+    "name": "謎語大師",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "已猜測",
+      "醉酒"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "如果你被提名時公開聲明自己是妖精並且在該天被處決, 你的隊伍獲勝.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_TW_goblin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/goblin.png?raw=true",
+    "name": "妖精",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "已聲明"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "每天晚上, 選擇 1 位玩家: 如果該玩家於明天提名, 則他會死亡, 如果只剩下三位玩家活著, 你失去這個能力.",
+    "edition": "snv",
+    "firstNight": 24,
+    "firstNightReminder": "The Witch points to a player. If that player nominates tomorrow they die immediately.",
+    "id": "zh_TW_witch",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/witch.png?raw=true",
+    "name": "女巫",
+    "otherNight": 15,
+    "otherNightReminder": "If there are 4 or more players alive: The Witch points to a player. If that player nominates tomorrow they die immediately.",
+    "reminders": [
+      "詛咒"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "每天晚上, 選擇 1 位玩家及一個好人角色: 明天該玩家扮演這個角色, 如果他沒有執著地認為自己是該角色, 他可能會被處決.",
+    "edition": "snv",
+    "firstNight": 25,
+    "firstNightReminder": "切雷諾伏斯玩家指向一位玩家 + 角色表上的一個角色. 喚醒該玩家, 並展示 \"這個角色選擇你\" 卡片 + 切雷諾伏斯角色卡 + 切雷諾伏斯選擇的角色卡. 如果他明天沒有執著地認為自己是該角色, 他可以被處決.",
+    "id": "zh_TW_cerenovus",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cerenovus.png?raw=true",
+    "name": "切雷諾伏斯",
+    "otherNight": 16,
+    "otherNightReminder": "切雷諾伏斯玩家指向一位玩家 + 角色表上的一個角色. 喚醒該玩家, 並展示 \"這個角色選擇你\" 卡片 + 切雷諾伏斯角色卡 + 切雷諾伏斯選擇的角色卡. 如果他明天沒有執著地認為自己是該角色, 他可以被處決.",
+    "reminders": [
+      "瘋狂"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "每天晚上, 選擇 1 位玩家. 如果你提名並且處死了他, 他的隊伍落敗. 所有玩家都知道你是否有選擇新玩家.",
+    "edition": "",
+    "firstNight": 26,
+    "firstNightReminder": "The Fearmonger points to a player. Place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",
+    "id": "zh_TW_fearmonger",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fearmonger.png?raw=true",
+    "name": "恐懼販子",
+    "otherNight": 18,
+    "otherNightReminder": "The Fearmonger points to a player. If different from the previous night, place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",
+    "reminders": [
+      "恐懼"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "每天晚上, 僕從們選擇一位玩家看顧Lil'蒙斯塔的角色牌以及 \"是惡魔\" 卡片. 每天晚上*, 一位玩家死亡. [+1 僕從]",
+    "edition": "",
+    "firstNight": 16,
+    "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",
+    "id": "zh_TW_lilmonsta",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lilmonsta.png?raw=true",
+    "name": "Lil'蒙斯塔",
+    "otherNight": 36,
+    "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
+    "reminders": [],
+    "remindersGlobal": [
+      "是惡魔",
+      "死亡"
+    ],
+    "setup": true,
+    "team": "demon"
+  },
+  {
+    "ability": "每天晚上*, 選擇 1 位玩家: 該玩家死亡. 你選擇的第一位城外人成為邪惡的方谷, 並改為你死亡. [+1 城外人]",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_TW_fanggu",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fanggu.png?raw=true",
+    "name": "方谷",
+    "otherNight": 29,
+    "otherNightReminder": "The Fang Gu points to a player. That player dies. Or, if that player was an Outsider and there are no other Fang Gu in play: The Fang Gu dies instead of the chosen player. The chosen player is now an evil Fang Gu. Wake the new Fang Gu. Show the 'You are' card, then the Fang Gu token. Show the 'You are' card, then the thumb-down 'evil' hand sign.",
+    "reminders": [
+      "死亡",
+      "第一位城外人"
+    ],
+    "setup": true,
+    "team": "demon"
+  },
+  {
+    "ability": "每天晚上*, 選擇 1 位玩家: 該玩家死亡. 在你兩側離你最近且活著的鎮民中毒.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_TW_nodashii",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/nodashii.png?raw=true",
+    "name": "No大師",
+    "otherNight": 30,
+    "otherNightReminder": "The No Dashii points to a player. That player dies.",
+    "reminders": [
+      "中毒",
+      "死亡"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "每天晚上*, 選擇 1 位玩家: 該玩家死亡. 鎮民們的能力會得到錯誤的訊息. 每天白天, 如果沒有人被處死, 則邪惡陣營獲勝.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_TW_vortox",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vortox.png?raw=true",
+    "name": "沃托克斯",
+    "otherNight": 31,
+    "otherNightReminder": "The Vortox points to a player. That player dies.",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": false,
+    "team": "demon"
+  }
+]
