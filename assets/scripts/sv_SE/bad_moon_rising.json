@@ -33,7 +33,7 @@
     "team": "minion"
   },
   {
-    "ability": "Only the Storyteller can nominate. At least 1 opposite player must be nominated each day.",
+    "ability": "Bara Sagoberättaren kan nominera. Minst 1 spelare från motsatt lag måste bli nominerad varje dag.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -43,8 +43,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Nominate evil",
-      "Nominate good"
+      "Nominera god",
+      "Nominera ond."
     ],
     "setup": false,
     "team": "traveler"

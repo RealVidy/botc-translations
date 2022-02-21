@@ -100,7 +100,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Once per game, at night, choose a dead player: they regain their ability until dusk.",
+    "ability": "En gång per match, under natten, välj en död spelare: de får tillbaka sin förmåga tills skymmningen.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -108,10 +108,10 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bonecollector.png?raw=true",
     "name": "Bensamlare",
     "otherNight": 1,
-    "otherNightReminder": "The Bone Collector either shakes their head no or points at any dead player. If they pointed at any dead player, put the Bone Collector's 'Has Ability' reminder by the chosen player's character token. (They may need to be woken tonight to use it.)",
+    "otherNightReminder": "Bensamlaren skakar antingen på huvudet eller pekar på en död spelare. Om de pekar på en död spelare, sätt Bensamlarens \"Har förmåga\" påminnelse bredvid den valda spelarens pollett. (De kan behöva väckas inatt för att använda sin förmåga)",
     "reminders": [
-      "Has ability",
-      "No ability"
+      "Har förmåga",
+      "Ingen förmåga"
     ],
     "setup": false,
     "team": "traveler"

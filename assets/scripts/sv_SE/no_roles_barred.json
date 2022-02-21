@@ -50,7 +50,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]",
+    "ability": "Du börjar att veta 1 ond spelare. Om spelaren du vet dör, lär du dig en ny ond spelare inatt. [1 Bybo är ond]",
     "edition": "",
     "firstNight": 45,
     "firstNightReminder": "Point to 1 evil player. Wake the townsfolk who is evil and show them the 'You are' card and the thumbs down evil sign.",
@@ -341,7 +341,7 @@
     "team": "minion"
   },
   {
-    "ability": "If you are executed, all but 3 players die. 1 minute later, the player with the most players pointing at them dies.",
+    "ability": "Om du blir avrättad, dör alla förutom 3 spelare. 1 minut senare, spelaren med flest spelare som pekar på dem dör.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
