@@ -1,0 +1,408 @@
+[
+  {
+    "ability": "你拥有一个不在游戏中的爪牙身份的技能。",
+    "edition": "",
+    "firstNight": 3,
+    "firstNightReminder": "向炼金术师展示一个不在游戏中的爪牙身份标志，将炼金术师的身份替换为该身份，并放置炼金术师标记。",
+    "id": "zh_CN_alchemist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/alchemist.png?raw=true",
+    "name": "炼金术",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "炼金术师"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "游戏开始时，你得知三名玩家，他们之中有且只有一名属于邪恶阵营。",
+    "edition": "",
+    "firstNight": 43,
+    "firstNightReminder": "唤醒贵族并指向三名玩家，其中有且仅有一名是邪恶玩家，并为这三名玩家放置被知晓标记。",
+    "id": "zh_CN_noble",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/noble.png?raw=true",
+    "name": "贵族",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "被知晓"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "游戏开始时，你得知一个本局存在的村民身份，当你对“我是该身份”疯狂时，你将在他死亡时获得他的技能。",
+    "edition": "",
+    "firstNight": 29,
+    "firstNightReminder": "向精灵展示一个在游戏中的村民身份标志。",
+    "id": "zh_CN_pixie",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pixie.png?raw=true",
+    "name": "精灵",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "疯狂",
+      "获取技能"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "游戏开始时，你得知一名邪恶玩家。如果该玩家死亡，当晚，你再得知一名其他邪恶玩家。[一位村民加入邪恶阵营]",
+    "edition": "",
+    "firstNight": 45,
+    "firstNightReminder": "指向一名邪恶玩家。唤醒加入邪恶阵营的村民告知他已转变为邪恶阵营。",
+    "id": "zh_CN_bountyhunter",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bountyhunter.png?raw=true",
+    "name": "赏金猎人",
+    "otherNight": 65,
+    "otherNightReminder": "如果之前被知晓的邪恶玩家已经死亡，指向另一名邪恶玩家。",
+    "reminders": [
+      "被知晓"
+    ],
+    "setup": true,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每个夜晚，你得知与你相邻的存活玩家中有多少名属于邪恶阵营。",
+    "edition": "tb",
+    "firstNight": 36,
+    "firstNightReminder": "唤醒神使，并告知神使他相邻的存活玩家有多少名属于邪恶阵营。",
+    "id": "zh_CN_empath",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
+    "name": "神使",
+    "otherNight": 53,
+    "otherNightReminder": "唤醒神使，并告知神使他相邻的存活玩家有多少名属于邪恶阵营。",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每个夜晚，你得知一名玩家。你得知的玩家均是不同身份类型。直到你每个身份类型都得知了一次。[+1外来者]",
+    "edition": "",
+    "firstNight": 44,
+    "firstNightReminder": "选择一种尚未被气球驾驶员知晓的身份类型，并告知其一个符合该类型的玩家。在该玩家旁边标记已被知晓。",
+    "id": "zh_CN_balloonist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/balloonist.png?raw=true",
+    "name": "热气球驾驶员",
+    "otherNight": 63,
+    "otherNightReminder": "选择一种尚未被气球驾驶员知晓的身份类型，并告知其一个符合该类型的玩家。在该玩家旁边标记已被知晓。如果所有类型均已被知晓或无该种类型，气球驾驶员不会醒来。",
+    "reminders": [
+      "知晓外来者",
+      "知晓恶魔",
+      "知晓旅行者",
+      "知晓村民",
+      "知晓爪牙"
+    ],
+    "setup": true,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每个夜晚，选择一名存活玩家，当你选中一名恶魔时，交换你和他的身份以及阵营，然后，他中毒。",
+    "edition": "snv",
+    "firstNight": 20,
+    "firstNightReminder": "耍蛇人指向一名玩家，如果那名玩家是恶魔，交换恶魔和耍蛇人的身份和阵营。依次唤醒并向他展示“你是”卡和新的身份标志与阵营。新的耍蛇人中毒。",
+    "id": "zh_CN_snakecharmer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/snakecharmer.png?raw=true",
+    "name": "耍蛇人",
+    "otherNight": 12,
+    "otherNightReminder": "耍蛇人指向一名玩家，如果那名玩家是恶魔，交换恶魔和耍蛇人的身份和阵营。依次唤醒并向他展示“你是”卡和新的身份标志与阵营。新的耍蛇人中毒。",
+    "reminders": [
+      "中毒"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每个白天，你可以做出一项公开声明。如果声明正确，一名玩家在今晚死亡。",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_gossip",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gossip.png?raw=true",
+    "name": "散谣者",
+    "otherNight": 47,
+    "otherNightReminder": "如果散谣者白天的公开声明正确，选择一名今晚未被保护的玩家，那名玩家死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "你不知道你的技能是什么。直到你猜中为止。你每个白天都可以向说书人猜测一次。",
+    "edition": "",
+    "firstNight": 12,
+    "firstNightReminder": "决定追忆者的技能。如果追忆者的技能会让他在今晚醒来，唤醒他并执行其技能。",
+    "id": "zh_CN_amnesiac",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/amnesiac.png?raw=true",
+    "name": "追忆者",
+    "otherNight": 5,
+    "otherNightReminder": "如果追忆者的技能会让他在今晚醒来，唤醒他并执行其技能。",
+    "reminders": [
+      "?"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "整局游戏限一次，白天，拜访说书人并询问一个“是/否”的问题。",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_artist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/artist.png?raw=true",
+    "name": "艺术家",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "无技能"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "整局游戏限一次，夜晚，选择一个善良身份，获取他的技能，如果有玩家为该身份，他醉酒。",
+    "edition": "snv",
+    "firstNight": 2,
+    "firstNightReminder": "哲学家指向身份列表的一个身份或不使用技能。如果选择了身份，将一个不在场的身份与哲学家替换，或在在场的对应身份旁放置醉酒标记。",
+    "id": "zh_CN_philosopher",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/philosopher.png?raw=true",
+    "name": "哲学家",
+    "otherNight": 2,
+    "otherNightReminder": "哲学家指向身份列表的一个身份或不使用技能。如果选择了身份，将一个不在场的身份与哲学家替换，或在在场的对应身份旁放置醉酒标记。",
+    "reminders": [
+      "曾是哲学家",
+      "醉酒"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "整局游戏限一次，夜晚，选择一名存活玩家，如果她是闺中，将她变为一名不在游戏中的村民。[+闺中]",
+    "edition": "",
+    "firstNight": 30,
+    "firstNightReminder": "猎人不发动技能，或指向一名玩家。 如果他指向了闺中， 展示“你是”卡片与一个不在游戏中的村民身份。",
+    "id": "zh_CN_huntsman",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/huntsman.png?raw=true",
+    "name": "猎人",
+    "otherNight": 51,
+    "otherNightReminder": "猎人不发动技能，或指向一名玩家。 如果他指向了闺中， 展示“你是”卡片与一个不在游戏中的村民身份。",
+    "reminders": [
+      "无技能"
+    ],
+    "setup": true,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "恶魔与爪牙们不互知。如果你死亡，他们在当晚得知彼此是谁。",
+    "edition": "",
+    "firstNight": 4,
+    "firstNightReminder": "不要让恶魔和爪牙们之间彼此互知。",
+    "id": "zh_CN_poppygrower",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poppygrower.png?raw=true",
+    "name": "毒贩",
+    "otherNight": 3,
+    "otherNightReminder": "如果毒贩已经死亡，使恶魔和爪牙们彼此之间互相知晓。",
+    "reminders": [
+      "邪恶苏醒"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每个夜晚，当第一次有玩家选择你作为技能目标时，他醉酒直到下个黄昏。然后你加入他的阵营。",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_goon",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/goon.png?raw=true",
+    "name": "暴徒",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "醉酒"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "当你对“我是外来者”疯狂时，你可能会被处决。",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_mutant",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mutant.png?raw=true",
+    "name": "变种人",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "爪牙知道你在游戏中。整局游戏限一次，一名爪牙可以公开猜测你是谁，如果他猜对了，你的阵营落败。",
+    "edition": "",
+    "firstNight": 31,
+    "firstNightReminder": "唤醒所有爪牙, 向他们展示“这个身份选择了你”卡和闺中身份标志。",
+    "id": "zh_CN_damsel",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/damsel.png?raw=true",
+    "name": "闺中",
+    "otherNight": 52,
+    "otherNightReminder": "如果闺中被猎人选中, 唤醒闺中, 向他们展示“你是”卡和一个不在游戏中的村民身份标志。",
+    "reminders": [
+      "爪牙已猜测"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "你不知道你是酒鬼，你以为你是一个村民身份，但其实你不是。",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_drunk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
+    "name": "酒鬼",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "醉酒"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
+    "ability": "游戏开始时，你得知本局存在的外来者身份。当一名外来者在白天死亡时，当晚，你选择一名玩家，将他杀害。[±1外来者]",
+    "edition": "bmr",
+    "firstNight": 21,
+    "firstNightReminder": "唤醒教父并向他展示所有在场的外来者身份标记。",
+    "id": "zh_CN_godfather",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/godfather.png?raw=true",
+    "name": "教父",
+    "otherNight": 38,
+    "otherNightReminder": "如果上个白天有外来者死亡，唤醒教父并让其选择一名玩家，那名玩家被杀害。",
+    "reminders": [
+      "死亡",
+      "白天死亡"
+    ],
+    "setup": true,
+    "team": "minion"
+  },
+  {
+    "ability": "每个夜晚，选择一名玩家，他中毒，直到下个黄昏。",
+    "edition": "tb",
+    "firstNight": 17,
+    "firstNightReminder": "毒师指向一名玩家。在那名玩家的身份标志旁放置中毒标记。",
+    "id": "zh_CN_poisoner",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
+    "name": "毒师",
+    "otherNight": 8,
+    "otherNightReminder": "上一名中毒玩家恢复健康。毒师指向一名玩家。在那名玩家的身份标志旁放置中毒标记。",
+    "reminders": [
+      "中毒"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "每个夜晚，选择一名玩家，如果你提名并且处决了他，他的阵营落败。当你改变技能目标时，所有玩家都会得知。",
+    "edition": "",
+    "firstNight": 26,
+    "firstNightReminder": "怨灵指向一名玩家，在该玩家的身份标志旁放置复仇标记，并宣布一名新的玩家已经被怨灵选中。",
+    "id": "zh_CN_fearmonger",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fearmonger.png?raw=true",
+    "name": "怨灵",
+    "otherNight": 18,
+    "otherNightReminder": "怨灵指向一名玩家，在该玩家的身份标志旁放置复仇标记，并宣布一名新的玩家已经被怨灵选中。",
+    "reminders": [
+      "复仇"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "白天，你可以公开声称自己是哥布林，如果你在当天因为提名而被处决，你的阵营获胜。",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_goblin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/goblin.png?raw=true",
+    "name": "哥布林",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "已声明"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "当你被处决时，杀害若干玩家直到剩下3名玩家存活。1分钟后，所有玩家互相投票，票数最多的玩家死亡。",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_boomdandy",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/boomdandy.png?raw=true",
+    "name": "炸弹客",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "每个夜晚，爪牙们选择谁来保管罪孽之种，该玩家被视为恶魔。每个夜晚*，一名玩家被杀害。[+1爪牙]",
+    "edition": "",
+    "firstNight": 16,
+    "firstNightReminder": "同时唤醒所有爪牙，让他们通过指向来投票决定谁来保管罪孽之种。",
+    "id": "zh_CN_lilmonsta",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lilmonsta.png?raw=true",
+    "name": "罪孽之种",
+    "otherNight": 36,
+    "otherNightReminder": "同时唤醒所有爪牙，让他们通过指向来投票决定谁来保管罪孽之种。说书人选择一名玩家杀害。",
+    "reminders": [],
+    "remindersGlobal": [
+      "恶魔寄生",
+      "被杀害"
+    ],
+    "setup": true,
+    "team": "demon"
+  },
+  {
+    "ability": "每个夜晚*，可能有一名玩家被杀害。如果只有邪恶玩家投票，处决会失败。你同时被视为爪牙。[半数以上玩家为军团]",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_legion",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/legion.png?raw=true",
+    "name": "军团",
+    "otherNight": 34,
+    "otherNightReminder": "说书人可以选择一名玩家，将他杀害",
+    "reminders": [
+      "将死之人",
+      "被杀害"
+    ],
+    "setup": true,
+    "team": "demon"
+  },
+  {
+    "ability": "每个夜晚*，选择一名玩家，将他杀害。村民的技能必定获取错误信息。每个白天，如果没有玩家被处决，邪恶阵营获胜。",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_vortox",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vortox.png?raw=true",
+    "name": "混沌",
+    "otherNight": 31,
+    "otherNightReminder": "混沌指向一名玩家，将他杀害。",
+    "reminders": [
+      "被杀害"
+    ],
+    "setup": false,
+    "team": "demon"
+  }
+]

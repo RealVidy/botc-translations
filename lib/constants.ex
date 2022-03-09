@@ -10,6 +10,7 @@ defmodule Constants do
     "fil_PH",
     "es_ES",
     "ja_JA",
+    "zh_CN",
     "zh_TW",
     "sv_SE"
   ]

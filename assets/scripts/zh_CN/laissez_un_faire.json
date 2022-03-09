@@ -1,0 +1,189 @@
+[
+  {
+    "ability": "你不知道你的技能是什么。直到你猜中为止。你每个白天都可以向说书人猜测一次。",
+    "edition": "",
+    "firstNight": 12,
+    "firstNightReminder": "决定追忆者的技能。如果追忆者的技能会让他在今晚醒来，唤醒他并执行其技能。",
+    "id": "zh_CN_amnesiac",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/amnesiac.png?raw=true",
+    "name": "追忆者",
+    "otherNight": 5,
+    "otherNightReminder": "如果追忆者的技能会让他在今晚醒来，唤醒他并执行其技能。",
+    "reminders": [
+      "?"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "整局游戏限一次，白天，拜访说书人并询问一个“是/否”的问题。",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_artist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/artist.png?raw=true",
+    "name": "艺术家",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "无技能"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每个夜晚，你得知一名玩家。你得知的玩家均是不同身份类型。直到你每个身份类型都得知了一次。[+1外来者]",
+    "edition": "",
+    "firstNight": 44,
+    "firstNightReminder": "选择一种尚未被气球驾驶员知晓的身份类型，并告知其一个符合该类型的玩家。在该玩家旁边标记已被知晓。",
+    "id": "zh_CN_balloonist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/balloonist.png?raw=true",
+    "name": "热气球驾驶员",
+    "otherNight": 63,
+    "otherNightReminder": "选择一种尚未被气球驾驶员知晓的身份类型，并告知其一个符合该类型的玩家。在该玩家旁边标记已被知晓。如果所有类型均已被知晓或无该种类型，气球驾驶员不会醒来。",
+    "reminders": [
+      "知晓外来者",
+      "知晓恶魔",
+      "知晓旅行者",
+      "知晓村民",
+      "知晓爪牙"
+    ],
+    "setup": true,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "你拥有最近被处决而死的玩家的技能。如果该玩家属于邪恶阵营，你中毒直到下一个善良玩家被处决。",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_cannibal",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cannibal.png?raw=true",
+    "name": "食人族",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "中毒",
+      "食髓知味"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "整局游戏限一次，白天，让说书人给予你一条可以帮助你的阵营获胜的建议。",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_fisherman",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fisherman.png?raw=true",
+    "name": "渔夫",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "无技能"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "白天，你可以公开声称自己是哥布林，如果你在当天因为提名而被处决，你的阵营获胜。",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_goblin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/goblin.png?raw=true",
+    "name": "哥布林",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "已声明"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "如果超过一名善良阵营玩家被处决，邪恶阵营获胜。所有玩家都知道你在游戏中。第五个白天结束时，邪恶阵营获胜。",
+    "edition": "",
+    "firstNight": 53,
+    "firstNightReminder": "放置第一天标记。告知玩家利维坦在游戏中，现在是第一天。",
+    "id": "zh_CN_leviathan",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/leviathan.png?raw=true",
+    "name": "利维坦",
+    "otherNight": 73,
+    "otherNightReminder": "将天数标记更换为下一天。",
+    "reminders": [
+      "善良玩家被处决",
+      "第一天",
+      "第三天",
+      "第二天",
+      "第五天",
+      "第四天"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "你以为你是恶魔，但其实你不是。恶魔知道你是谁，以及你在每晚选择了谁。",
+    "edition": "bmr",
+    "firstNight": 7,
+    "firstNightReminder": "当多于7名玩家时，告知狂人等同于本局爪牙数的爪牙，向狂人展示3个善良身份标记。如果狂人收到的恶魔身份在第一夜就会被唤醒，允许狂人执行行动，并放置攻击标记。唤醒恶魔，告知他是真的恶魔，并告知他谁是狂人。如果狂人攻击了一名玩家，告知恶魔狂人攻击了哪些玩家，然后移除这些标记。",
+    "id": "zh_CN_lunatic",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
+    "name": "狂人",
+    "otherNight": 21,
+    "otherNightReminder": "允许狂人执行恶魔行动，放置攻击标记。如果狂人攻击了一名玩家，告知恶魔狂人攻击了哪些玩家，然后移除这些标记。",
+    "reminders": [
+      "攻击1",
+      "攻击2",
+      "攻击3"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "当你对“我是外来者”疯狂时，你可能会被处决。",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_mutant",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mutant.png?raw=true",
+    "name": "变种人",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "每个白天，拜访说书人并获取两条信息，其中一条是正确的，一条是错误的。",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_savant",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/savant.png?raw=true",
+    "name": "学者",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "在你的第一个夜晚，你查看魔典并选择一名玩家，使他中毒。一名善良玩家会得知本局存在寡妇。",
+    "edition": "",
+    "firstNight": 18,
+    "firstNightReminder": "寡妇查看魔典。然后指向一名玩家，他中毒。然后唤醒一名善良玩家，告知他本局存在寡妇。",
+    "id": "zh_CN_widow",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/widow.png?raw=true",
+    "name": "寡妇",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "中毒"
+    ],
+    "remindersGlobal": [
+      "已被知晓"
+    ],
+    "setup": false,
+    "team": "minion"
+  }
+]
