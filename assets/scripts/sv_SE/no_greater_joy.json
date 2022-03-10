@@ -1,9 +1,9 @@
 [
   {
-    "ability": "You start knowing how many steps from the Demon to its nearest Minion.",
+    "ability": "Du börjar att veta hur många steg från Demonen har till sin närmaste Minion.",
     "edition": "snv",
     "firstNight": 40,
-    "firstNightReminder": "Show the hand signal for the number (1, 2, 3, etc.) of places from Demon to closest Minion.",
+    "firstNightReminder": "Visa fingersignalen (1, 2, 3, etc.) för hur många steg från Demonen har till sin närmaste Minion.",
     "id": "sv_SE_clockmaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/clockmaker.png?raw=true",
     "name": "Klockmakare",
@@ -45,15 +45,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, choose 2 alive players (not yourself): you learn how many woke tonight due to their ability.",
+    "ability": "Varje natt, välj 2 levande spelare (inte dig själv): du får reda på hur många som vaknade inatt på grund av deras egna förmåga.",
     "edition": "bmr",
     "firstNight": 50,
-    "firstNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, …) for how many of those players wake tonight for their ability.",
+    "firstNightReminder": "Kammarjungfrun pekar på två spelare. Visa dem fingersignalen (0, 1, 2, ...) för hur många av de valda spelarna som vaknade inatt på grund av deras egna förmåga.",
     "id": "sv_SE_chambermaid",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chambermaid.png?raw=true",
     "name": "Kammarjungfru",
     "otherNight": 70,
-    "otherNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, …) for how many of those players wake tonight for their ability.",
+    "otherNightReminder": "Kammarjungfrun pekar på två spelare. Visa dem fingersignalen (0, 1, 2, ...) för hur många av de valda spelarna som vaknade inatt på grund av deras egna förmåga.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"

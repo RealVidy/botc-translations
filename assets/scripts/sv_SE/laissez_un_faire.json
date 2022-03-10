@@ -52,7 +52,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.",
+    "ability": "Du har förmågan av den senaste avrättade karaktären. Om de var ond, blir du förgiftad tills en god spelare dör av avrättning.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -62,8 +62,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Died today",
-      "Poisoned"
+      "Dog idag",
+      "Förgiftad"
     ],
     "setup": false,
     "team": "townsfolk"

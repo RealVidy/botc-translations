@@ -14,47 +14,47 @@
     "team": "traveler"
   },
   {
-    "ability": "Each night, choose a player (not yourself): their vote counts as 3 votes tomorrow.",
+    "ability": "Varje natt, välj en spelare (inte dig själv): deras röst räknas som 3 röster imorgon.",
     "edition": "tb",
     "firstNight": 1,
-    "firstNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
+    "firstNightReminder": "Byråkraten pekar på en spelare. Lägg Byråkratens \"3 röster\" påminnelse på den valda spelarens karaktärs-pollett.",
     "id": "sv_SE_bureaucrat",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bureaucrat.png?raw=true",
     "name": "Byråkrat",
     "otherNight": 1,
-    "otherNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
+    "otherNightReminder": "Byråkraten pekar på en spelare. Lägg Byråkratens \"3 röster\" påminnelse på den valda spelarens karaktärs-pollett.",
     "reminders": [
-      "3 votes"
+      "3 röster"
     ],
     "setup": false,
     "team": "traveler"
   },
   {
-    "ability": "Each night, choose a player (not yourself): tomorrow, you may only vote if they are voting too.",
+    "ability": "Varje natt, välj en spelare (inte dig själv): imorgon, du får bara rösta om den du valt också röstar.",
     "edition": "tb",
     "firstNight": 38,
-    "firstNightReminder": "The Butler points to a player. Mark that player as 'Master'.",
+    "firstNightReminder": "Butlern pekar på en spelare. Markera den spelaren som \"Mästare\"",
     "id": "sv_SE_butler",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/butler.png?raw=true",
     "name": "Butler",
     "otherNight": 55,
-    "otherNightReminder": "The Butler points to a player. Mark that player as 'Master'.",
+    "otherNightReminder": "Butlern pekar på en spelare. Markera den spelaren som \"Mästare\"",
     "reminders": [
-      "Master"
+      "Mästare"
     ],
     "setup": false,
     "team": "outsider"
   },
   {
-    "ability": "Each night, choose a player & a good character: they are “mad” they are this character tomorrow, or might be executed.",
+    "ability": "Varje natt, välj en spelare & en god karaktär: de är \"Mad\" att de är den karaktären imorgon, annars kan de bli avrättad.",
     "edition": "snv",
     "firstNight": 25,
-    "firstNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
+    "firstNightReminder": "Cerenouvus pekar på en spelare, sen på en karaktär på deras karaktärslista. Väck den spelare, visa dem \"Den här karaktären valde dig\"-kortet och sedan Cerenouvus-polletten. Visa den valda karaktär-polletten. Om spelaren inte är \"Mad\" att de är den karaktären imorgon, så kan du avrätta dem.",
     "id": "sv_SE_cerenovus",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cerenovus.png?raw=true",
     "name": "Cerenovus",
     "otherNight": 16,
-    "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
+    "otherNightReminder": "Cerenouvus pekar på en spelare, sen på en karaktär på deras karaktärslista. Väck den spelare, visa dem \"Den här karaktären valde dig\"-kortet och sedan Cerenouvus-polletten. Visa den valda karaktär-polletten. Om spelaren inte är \"Mad\" att de är den karaktären imorgon, så kan du avrätta dem.",
     "reminders": [
       "Mad"
     ],
@@ -62,10 +62,10 @@
     "team": "minion"
   },
   {
-    "ability": "You start knowing how many pairs of evil players there are.",
+    "ability": "Du börjar att veta hur många par onda spelare det finns.",
     "edition": "tb",
     "firstNight": 35,
-    "firstNightReminder": "Show the finger signal (0, 1, 2, …) for the number of pairs of neighbouring evil players.",
+    "firstNightReminder": "Visa fingersignalen (0, 1, 2, ...) för antalet par onda spelare.",
     "id": "sv_SE_chef",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true",
     "name": "Kock",

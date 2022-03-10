@@ -116,30 +116,30 @@
     "ability": "Du börjar att veta 1 ond spelare. Om spelaren du vet dör, lär du dig en ny ond spelare inatt. [1 Bybo är ond]",
     "edition": "",
     "firstNight": 45,
-    "firstNightReminder": "Point to 1 evil player. Wake the townsfolk who is evil and show them the 'You are' card and the thumbs down evil sign.",
+    "firstNightReminder": "Peka på 1 ond spelare. Väck Bybon som är ond och visa dem \"Du är\" kortet och signalera tumme ner för ond.",
     "id": "sv_SE_bountyhunter",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bountyhunter.png?raw=true",
     "name": "Prisjägare",
     "otherNight": 65,
-    "otherNightReminder": "If the known evil player has died, point to another evil player.",
+    "otherNightReminder": "Om den onda spelaren dör, peka på en till ond spelare.",
     "reminders": [
-      "Known"
+      "Känd"
     ],
     "setup": true,
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, choose a player (not yourself): their vote counts as 3 votes tomorrow.",
+    "ability": "Varje natt, välj en spelare (inte dig själv): deras röst räknas som 3 röster imorgon.",
     "edition": "tb",
     "firstNight": 1,
-    "firstNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
+    "firstNightReminder": "Byråkraten pekar på en spelare. Lägg Byråkratens \"3 röster\" påminnelse på den valda spelarens karaktärs-pollett.",
     "id": "sv_SE_bureaucrat",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bureaucrat.png?raw=true",
     "name": "Byråkrat",
     "otherNight": 1,
-    "otherNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
+    "otherNightReminder": "Byråkraten pekar på en spelare. Lägg Byråkratens \"3 röster\" påminnelse på den valda spelarens karaktärs-pollett.",
     "reminders": [
-      "3 votes"
+      "3 röster"
     ],
     "setup": false,
     "team": "traveler"
@@ -159,7 +159,7 @@
     "team": "traveler"
   },
   {
-    "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.",
+    "ability": "Du har förmågan av den senaste avrättade karaktären. Om de var ond, blir du förgiftad tills en god spelare dör av avrättning.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -169,22 +169,22 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Died today",
-      "Poisoned"
+      "Dog idag",
+      "Förgiftad"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, choose a player & a good character: they are “mad” they are this character tomorrow, or might be executed.",
+    "ability": "Varje natt, välj en spelare & en god karaktär: de är \"Mad\" att de är den karaktären imorgon, annars kan de bli avrättad.",
     "edition": "snv",
     "firstNight": 25,
-    "firstNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
+    "firstNightReminder": "Cerenouvus pekar på en spelare, sen på en karaktär på deras karaktärslista. Väck den spelare, visa dem \"Den här karaktären valde dig\"-kortet och sedan Cerenouvus-polletten. Visa den valda karaktär-polletten. Om spelaren inte är \"Mad\" att de är den karaktären imorgon, så kan du avrätta dem.",
     "id": "sv_SE_cerenovus",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cerenovus.png?raw=true",
     "name": "Cerenovus",
     "otherNight": 16,
-    "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
+    "otherNightReminder": "Cerenouvus pekar på en spelare, sen på en karaktär på deras karaktärslista. Väck den spelare, visa dem \"Den här karaktären valde dig\"-kortet och sedan Cerenouvus-polletten. Visa den valda karaktär-polletten. Om spelaren inte är \"Mad\" att de är den karaktären imorgon, så kan du avrätta dem.",
     "reminders": [
       "Mad"
     ],
@@ -192,10 +192,10 @@
     "team": "minion"
   },
   {
-    "ability": "You start knowing how many pairs of evil players there are.",
+    "ability": "Du börjar att veta hur många par onda spelare det finns.",
     "edition": "tb",
     "firstNight": 35,
-    "firstNightReminder": "Show the finger signal (0, 1, 2, …) for the number of pairs of neighbouring evil players.",
+    "firstNightReminder": "Visa fingersignalen (0, 1, 2, ...) för antalet par onda spelare.",
     "id": "sv_SE_chef",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true",
     "name": "Kock",

@@ -173,7 +173,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "If the Demon kills the King, you learn which player is the Demon. [+ the King]",
+    "ability": "Om Demonen dördar Kungen, får du reda på vilken spelare som är Demonen. [+ the King]",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -181,13 +181,13 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/choirboy.png?raw=true",
     "name": "Körgosse",
     "otherNight": 44,
-    "otherNightReminder": "If the King was killed by the Demon, wake the Choirboy and point to the Demon player.",
+    "otherNightReminder": "Om Kungen blev dödad av Demonen, väck Körgossen och peka på spelaren som är Demonen.",
     "reminders": [],
     "setup": true,
     "team": "townsfolk"
   },
   {
-    "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.",
+    "ability": "Du har förmågan av den senaste avrättade karaktären. Om de var ond, blir du förgiftad tills en god spelare dör av avrättning.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -197,8 +197,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Died today",
-      "Poisoned"
+      "Dog idag",
+      "Förgiftad"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -297,15 +297,15 @@
     "team": "minion"
   },
   {
-    "ability": "Each night, choose a player & a good character: they are “mad” they are this character tomorrow, or might be executed.",
+    "ability": "Varje natt, välj en spelare & en god karaktär: de är \"Mad\" att de är den karaktären imorgon, annars kan de bli avrättad.",
     "edition": "snv",
     "firstNight": 25,
-    "firstNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
+    "firstNightReminder": "Cerenouvus pekar på en spelare, sen på en karaktär på deras karaktärslista. Väck den spelare, visa dem \"Den här karaktären valde dig\"-kortet och sedan Cerenouvus-polletten. Visa den valda karaktär-polletten. Om spelaren inte är \"Mad\" att de är den karaktären imorgon, så kan du avrätta dem.",
     "id": "sv_SE_cerenovus",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cerenovus.png?raw=true",
     "name": "Cerenovus",
     "otherNight": 16,
-    "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
+    "otherNightReminder": "Cerenouvus pekar på en spelare, sen på en karaktär på deras karaktärslista. Väck den spelare, visa dem \"Den här karaktären valde dig\"-kortet och sedan Cerenouvus-polletten. Visa den valda karaktär-polletten. Om spelaren inte är \"Mad\" att de är den karaktären imorgon, så kan du avrätta dem.",
     "reminders": [
       "Mad"
     ],

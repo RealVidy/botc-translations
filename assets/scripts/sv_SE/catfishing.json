@@ -117,7 +117,7 @@
     "team": "traveler"
   },
   {
-    "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.",
+    "ability": "Du har förmågan av den senaste avrättade karaktären. Om de var ond, blir du förgiftad tills en god spelare dör av avrättning.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -127,17 +127,17 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Died today",
-      "Poisoned"
+      "Dog idag",
+      "Förgiftad"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "You start knowing how many pairs of evil players there are.",
+    "ability": "Du börjar att veta hur många par onda spelare det finns.",
     "edition": "tb",
     "firstNight": 35,
-    "firstNightReminder": "Show the finger signal (0, 1, 2, …) for the number of pairs of neighbouring evil players.",
+    "firstNightReminder": "Visa fingersignalen (0, 1, 2, ...) för antalet par onda spelare.",
     "id": "sv_SE_chef",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true",
     "name": "Kock",

@@ -50,21 +50,21 @@
     "team": "traveler"
   },
   {
-    "ability": "Each night, choose 2 alive players (not yourself): you learn how many woke tonight due to their ability.",
+    "ability": "Varje natt, välj 2 levande spelare (inte dig själv): du får reda på hur många som vaknade inatt på grund av deras egna förmåga.",
     "edition": "bmr",
     "firstNight": 50,
-    "firstNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, …) for how many of those players wake tonight for their ability.",
+    "firstNightReminder": "Kammarjungfrun pekar på två spelare. Visa dem fingersignalen (0, 1, 2, ...) för hur många av de valda spelarna som vaknade inatt på grund av deras egna förmåga.",
     "id": "sv_SE_chambermaid",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chambermaid.png?raw=true",
     "name": "Kammarjungfru",
     "otherNight": 70,
-    "otherNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, …) for how many of those players wake tonight for their ability.",
+    "otherNightReminder": "Kammarjungfrun pekar på två spelare. Visa dem fingersignalen (0, 1, 2, ...) för hur många av de valda spelarna som vaknade inatt på grund av deras egna förmåga.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, at night, choose a character: they are drunk for 3 nights & 3 days.",
+    "ability": "En gång per spel, på natten, välj en karaktär: de är full under 3 dagar & 3 nätter.",
     "edition": "bmr",
     "firstNight": 19,
     "firstNightReminder": "The Courtier either shows a 'no' head signal, or points to a character on the sheet. If the Courtier used their ability: If that character is in play, that player is drunk.",

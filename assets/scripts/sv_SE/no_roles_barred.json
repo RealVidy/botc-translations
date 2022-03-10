@@ -53,14 +53,14 @@
     "ability": "Du börjar att veta 1 ond spelare. Om spelaren du vet dör, lär du dig en ny ond spelare inatt. [1 Bybo är ond]",
     "edition": "",
     "firstNight": 45,
-    "firstNightReminder": "Point to 1 evil player. Wake the townsfolk who is evil and show them the 'You are' card and the thumbs down evil sign.",
+    "firstNightReminder": "Peka på 1 ond spelare. Väck Bybon som är ond och visa dem \"Du är\" kortet och signalera tumme ner för ond.",
     "id": "sv_SE_bountyhunter",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bountyhunter.png?raw=true",
     "name": "Prisjägare",
     "otherNight": 65,
-    "otherNightReminder": "If the known evil player has died, point to another evil player.",
+    "otherNightReminder": "Om den onda spelaren dör, peka på en till ond spelare.",
     "reminders": [
-      "Known"
+      "Känd"
     ],
     "setup": true,
     "team": "townsfolk"
