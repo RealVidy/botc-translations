@@ -1,22 +1,22 @@
 [
   {
-    "ability": "在你的第一个夜晚，如果你属于善良阵营，获得一个村民身份的技能。如果你属于邪恶阵营，获得一个爪牙身份的技能。",
+    "ability": "在你加入游戏后的第一个夜晚，你获得一个村民/爪牙的能力（如果你属于善良/邪恶阵营）。",
     "edition": "bmr",
     "firstNight": 1,
-    "firstNightReminder": "向学徒展示一个村民或爪牙标记。在魔典中，用那个身份标记代替学徒的身份标记，并在该身份旁放置曾是学徒标记。",
+    "firstNightReminder": "对学徒展示一个村民或爪牙标记。在魔法书中，用那个角色标记代替学徒标记，并在一旁标识该玩家是学徒。",
     "id": "zh_CN_apprentice",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/apprentice.png?raw=true",
     "name": "学徒",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "曾是学徒"
+      "是学徒"
     ],
     "setup": false,
     "team": "traveler"
   },
   {
-    "ability": "整局游戏限一次，夜晚*，选择一名玩家，将他杀害。即使你因为某些原因不能这么做。",
+    "ability": "每局游戏限一次，在夜晚*，选择一名玩家：无视任何会让该玩家不死的效果，杀死该玩家。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -24,16 +24,16 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/assassin.png?raw=true",
     "name": "刺客",
     "otherNight": 37,
-    "otherNightReminder": "刺客指向一名玩家或不使用技能。如果刺客选择了玩家，那名玩家死亡。",
+    "otherNightReminder": "如果刺客还未使用能力：刺客要么选择不使用，要么指向一名玩家。如果刺客选择了玩家：那名玩家死亡。",
     "reminders": [
-      "无技能",
-      "被杀害"
+      "失去能力",
+      "死亡"
     ],
     "setup": false,
     "team": "minion"
   },
   {
-    "ability": "只有说书人可以发起提名。每天，都会有至少一名与你阵营不同的玩家被提名。",
+    "ability": "只有说书人可以提名。每个白天至少会有一名与你阵营对立的玩家会被提名。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -43,63 +43,61 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "提名善良方",
-      "提名邪恶方"
+      "坏人被提名",
+      "好人被提名"
     ],
     "setup": false,
     "team": "traveler"
   },
   {
-    "ability": "每个夜晚，选择两名其他存活玩家，你得知今晚他们当中有多少名由于自身的技能被唤醒。",
+    "ability": "每个夜晚，选择除自己以外的两名存活玩家：你会得知在这两名玩家中，因自身能力在今夜醒来的总玩家数。",
     "edition": "bmr",
     "firstNight": 50,
-    "firstNightReminder": "女佣指向两名玩家。告知她这些玩家中有几名因为他们的技能在今晚被唤醒",
+    "firstNightReminder": "侍女指向两名玩家。告诉她这些玩家的能力在今晚唤醒了玩家几次(0，1，2)。",
     "id": "zh_CN_chambermaid",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chambermaid.png?raw=true",
-    "name": "女佣",
+    "name": "侍女",
     "otherNight": 70,
-    "otherNightReminder": "女佣指向两名玩家。告知她这些玩家中有几名因为他们的技能在今晚被唤醒",
+    "otherNightReminder": "侍女指向两名玩家。告诉她这些玩家的能力在今晚唤醒了玩家几次(0，1，2)。",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "整局游戏限一次，夜晚，选择一个身份，如果该身份在场，使对应的玩家醉酒三天三夜。",
+    "ability": "每局游戏限一次，在夜晚时，从剧本角色列表选择一个角色。如果那个角色在场，其对应玩家会从今夜开始醉三天三夜。",
     "edition": "bmr",
     "firstNight": 19,
-    "firstNightReminder": "侍臣不使用技能，或指向身份列表上的一个身份，如果那个身份在场，在对应的玩家的身份标志旁放置醉酒3标记。",
+    "firstNightReminder": "侍臣要么选择不使用，要么指向剧本列表上的一个角色：如果那个角色在场，对应的玩家会醉酒。",
     "id": "zh_CN_courtier",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/courtier.png?raw=true",
     "name": "侍臣",
     "otherNight": 10,
-    "otherNightReminder": "减少醉酒玩家的持续天数，替换为少一天的标记。如果侍臣未使用技能，侍臣不使用技能，或指向剧本列表上的一个身份，如果那个身份在场，在对应的玩家的身份标志旁放置醉酒3标记。",
+    "otherNightReminder": "减少醉酒玩家的醉酒持续时间。如果侍臣还未使用能力：侍臣要么选择不使用，要么指向剧本列表上的一个角色：如果那个角色在场，对应的玩家会醉酒。",
     "reminders": [
-      "无技能",
-      "醉酒1",
-      "醉酒2",
-      "醉酒3"
+      "失去能力",
+      "醉酒3天"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "每个夜晚，选择一名存活玩家(需与上一夜不同)，明天，当他被处决时，他不会死亡。",
+    "ability": "每个夜晚，选择一名存活玩家（须与前一夜不同）：如果这名玩家明天被处决，该玩家不会因此死亡。",
     "edition": "bmr",
     "firstNight": 22,
-    "firstNightReminder": "律师指向一名存活玩家，该玩家下个白天被处决时不会死亡。",
+    "firstNightReminder": "魔鬼拥护者指向一名存活玩家：那名玩家明天白天被处决时不会死亡。",
     "id": "zh_CN_devilsadvocate",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/devilsadvocate.png?raw=true",
-    "name": "律师",
+    "name": "魔鬼拥护者",
     "otherNight": 14,
-    "otherNightReminder": "律师指向一名与前一晚不同的存活玩家，该玩家下个白天被处决时不会死亡。",
+    "otherNightReminder": "魔鬼拥护者指向一名与前一晚不同的存活玩家：那名玩家明天白天被处决时不会死亡。",
     "reminders": [
-      "不会被处决"
+      "不被处决"
     ],
     "setup": false,
     "team": "minion"
   },
   {
-    "ability": "每个夜晚*，选择一名玩家（需与上一夜不同）如果你选中了恶魔，他在今晚不会被唤醒，并得知你是谁。",
+    "ability": "每个夜晚*，选择一名玩家（须与前一夜不同）：如果你选中了恶魔，则恶魔会得知你是驱魔师，但他当晚不会因自己的能力醒来。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -107,7 +105,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/exorcist.png?raw=true",
     "name": "驱魔师",
     "otherNight": 22,
-    "otherNightReminder": "驱魔师指向一名和上一夜不同的玩家。如果那名玩家是恶魔，将他唤醒，然后展示驱魔师的身份标志，并指向驱魔师。恶魔今晚不会被唤醒。",
+    "otherNightReminder": "驱魔师指向一个和前一夜不同的玩家。如果那名玩家是恶魔：将其唤醒，然后展示驱魔师标记，并指向驱魔师。恶魔今晚不会再醒来。",
     "reminders": [
       "被选择"
     ],
@@ -115,23 +113,23 @@
     "team": "townsfolk"
   },
   {
-    "ability": "当你第一次死亡时，你不会死亡。",
+    "ability": "当你第一次将要死去时，你不会死亡。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "zh_CN_fool",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fool.png?raw=true",
-    "name": "小丑",
+    "name": "弄臣",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "无技能"
+      "失去能力"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "每个夜晚*，选择一名玩家并猜测他的身份，当你猜测错误时，你死亡。",
+    "ability": "每个夜晚*，选择一名玩家并猜测那名玩家的角色：如果你猜错了，那么你会死亡。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -139,7 +137,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gambler.png?raw=true",
     "name": "赌徒",
     "otherNight": 11,
-    "otherNightReminder": "赌徒指向一名玩家和一个身份列表上的身份。如果那名玩家不是该身份，赌徒死亡。",
+    "otherNightReminder": "赌徒指向一名玩家，和一个剧本列表上的角色。如果那名玩家不是这个角色，赌徒死亡。",
     "reminders": [
       "死亡"
     ],
@@ -147,15 +145,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "游戏开始时，你得知本局存在的外来者身份。当一名外来者在白天死亡时，当晚，你选择一名玩家，将他杀害。[±1外来者]",
+    "ability": "在你的首个夜晚，你会得知本局游戏里有哪些外来者在场。如果在白天有外来者死去了，当晚你会选择一名玩家：杀死那名玩家。（如果场中有教父，则外来者总数量会必定+1或-1）",
     "edition": "bmr",
     "firstNight": 21,
-    "firstNightReminder": "唤醒教父并向他展示所有在场的外来者身份标记。",
+    "firstNightReminder": "展示所有在场的外来者标记。",
     "id": "zh_CN_godfather",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/godfather.png?raw=true",
     "name": "教父",
     "otherNight": 38,
-    "otherNightReminder": "如果上个白天有外来者死亡，唤醒教父并让其选择一名玩家，那名玩家被杀害。",
+    "otherNightReminder": "如果今天白天有外来者死去：唤醒教父并让其选择一名玩家，那名玩家死亡。",
     "reminders": [
       "死亡",
       "白天死亡"
@@ -164,13 +162,13 @@
     "team": "minion"
   },
   {
-    "ability": "每个夜晚，当第一次有玩家选择你作为技能目标时，他醉酒直到下个黄昏。然后你加入他的阵营。",
+    "ability": "每个夜晚，首个使用其技能并选择了你的玩家，会在该技能生效前立即醉酒至第二天黄昏；随后，如果该玩家与你不为同一阵营，你会被说书人唤醒并提醒你的阵营发生了转变。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "zh_CN_goon",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/goon.png?raw=true",
-    "name": "暴徒",
+    "name": "打手",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -180,15 +178,15 @@
     "team": "outsider"
   },
   {
-    "ability": "每个白天，你可以做出一项公开声明。如果声明正确，一名玩家在今晚死亡。",
+    "ability": "每个白天，你可以做出一项公开声明，【在当晚，如果该声明是正确的】，则会有一位玩家死亡。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "zh_CN_gossip",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gossip.png?raw=true",
-    "name": "散谣者",
+    "name": "造谣者",
     "otherNight": 47,
-    "otherNightReminder": "如果散谣者白天的公开声明正确，选择一名今晚未被保护的玩家，那名玩家死亡。",
+    "otherNightReminder": "如果造谣者白天的公开声明为真：选择一名今晚不受免死效果保护的玩家，那名玩家死亡。",
     "reminders": [
       "死亡"
     ],
@@ -196,15 +194,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "游戏开始时，你得知一名善良玩家与他的身份，当恶魔杀害他时，你死亡。",
+    "ability": "在你的首个夜晚，你会得知一名善良阵营的玩家和那名玩家的角色。【如果恶魔杀死了那名玩家】，你会一同死去。",
     "edition": "bmr",
     "firstNight": 39,
-    "firstNightReminder": "唤醒祖母并展示一个善良身份标志，然后指向该身份对应的玩家。",
+    "firstNightReminder": "展示对应的角色标记，并指向该角色对应的玩家。",
     "id": "zh_CN_grandmother",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/grandmother.png?raw=true",
     "name": "祖母",
     "otherNight": 50,
-    "otherNightReminder": "当孙子被恶魔杀害时，祖母死亡。",
+    "otherNightReminder": "如果祖母的孙子今晚被恶魔杀掉：祖母死去。",
     "reminders": [
       "孙子"
     ],
@@ -212,7 +210,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "每个夜晚*，选择两名玩家，他们在今晚不会死亡，但其中一名会醉酒，直到下个黄昏。",
+    "ability": "每个夜晚*，选择两名玩家：这两名玩家今晚不会死去，但其中一名会醉酒到第二天黄昏。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -220,7 +218,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/innkeeper.png?raw=true",
     "name": "旅店老板",
     "otherNight": 9,
-    "otherNightReminder": "移除先前的被保护标记和醉酒标记。旅店老板指向两名玩家。为那两名玩家放置被保护标记，其中一名放置醉酒标记。",
+    "otherNightReminder": "移除之前被保护和喝醉的玩家的标记。旅店老板指向两名玩家。两名玩家标记为被保护，其中一名标记为醉酒。",
     "reminders": [
       "被保护",
       "醉酒"
@@ -229,7 +227,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "整局游戏限一次，在一次其他玩家发起的提名投票结束后，你可以强制执行处决或否决已经通过的投票。",
+    "ability": "每局游戏限一次，如果一名其他玩家发起了提名，你可以在该次投票结束后选择让这次处决直接成功或失败。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -239,37 +237,36 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "无技能"
+      "失去能力"
     ],
     "setup": false,
     "team": "traveler"
   },
   {
-    "ability": "你以为你是恶魔，但其实你不是。恶魔知道你是谁，以及你在每晚选择了谁。",
+    "ability": "你会抽取到一个恶魔角色（该恶魔角色可能在场，也可能不在场），且会如同恶魔一样被告知三名不在场善良角色和你的爪牙，但这些信息可能是错误的。而恶魔玩家会在首个夜晚得知你是疯子，且会在每个夜晚醒来时行动前得知你当晚用恶魔技能选择了哪些玩家。",
     "edition": "bmr",
     "firstNight": 7,
-    "firstNightReminder": "当多于7名玩家时，告知狂人等同于本局爪牙数的爪牙，向狂人展示3个善良身份标记。如果狂人收到的恶魔身份在第一夜就会被唤醒，允许狂人执行行动，并放置攻击标记。唤醒恶魔，告知他是真的恶魔，并告知他谁是狂人。如果狂人攻击了一名玩家，告知恶魔狂人攻击了哪些玩家，然后移除这些标记。",
+    "firstNightReminder": "如果多于7名玩家：随意告诉疯子等同于当前在场爪牙数量的爪牙，随意给疯子展示3个善良角色标记。如果疯子收到的恶魔角色今晚会醒来：允许疯子执行恶魔相关行动，放置攻击标记。唤醒恶魔，告诉他他自己真的是恶魔，并告诉他谁是疯子。如果疯子攻击了玩家：告诉恶魔疯子攻击了哪些玩家，然后移除这些标记。",
     "id": "zh_CN_lunatic",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
-    "name": "狂人",
+    "name": "疯子",
     "otherNight": 21,
-    "otherNightReminder": "允许狂人执行恶魔行动，放置攻击标记。如果狂人攻击了一名玩家，告知恶魔狂人攻击了哪些玩家，然后移除这些标记。",
+    "otherNightReminder": "允许疯子执行恶魔相关行动，放置攻击标记。如果疯子攻击了玩家：告诉恶魔疯子攻击了哪些玩家，然后移除这些标记。,",
     "reminders": [
-      "攻击1",
-      "攻击2",
-      "攻击3"
+      "攻击选择",
+      "疯子"
     ],
     "setup": false,
     "team": "outsider"
   },
   {
-    "ability": "当恶魔死于处决导致游戏结束时，再多进行一天游戏。当这一天有玩家被处决时，该玩家的阵营落败。",
+    "ability": "如果恶魔因为处决而死亡且游戏会因此结束时，额外进行一个夜晚和一个白天；在这个新的白天里如果有玩家被处决，不论他是否死去，被处决的玩家所属的阵营失败。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "zh_CN_mastermind",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mastermind.png?raw=true",
-    "name": "主谋",
+    "name": "幕后主谋",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -277,13 +274,13 @@
     "team": "minion"
   },
   {
-    "ability": "每天限三次，令两名玩家交换位置。玩家们不允许离开座位私聊。",
+    "ability": "每个白天，你可以强制让两名玩家互换座位，最多三次。玩家不能发起私聊。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "zh_CN_matron",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/matron.png?raw=true",
-    "name": "宿管",
+    "name": "女宿管",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -291,7 +288,7 @@
     "team": "traveler"
   },
   {
-    "ability": "当爪牙被处决时，除了旅行者之外的所有玩家醉酒到明天的黄昏。",
+    "ability": "当一名爪牙因为被处决而死去时，所有其他玩家（旅行者除外）会醉酒到第二天黄昏。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -307,7 +304,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "当你得知你死亡时，公开选择一名活着的玩家，如果他属于善良阵营，今晚，他死亡。",
+    "ability": "当说书人告知你死亡时，公开选择一名存活玩家：【当晚如果那名玩家是善良的】，那么该玩家死亡。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -315,7 +312,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/moonchild.png?raw=true",
     "name": "月之子",
     "otherNight": 49,
-    "otherNightReminder": "如果月之子今天使用了他的技能选择了一名玩家，并且该玩家属于善良阵营，他死亡。",
+    "otherNightReminder": "如果今天白天月之子使用其能力选择了一名玩家：如果那名玩家是善良的，那么那名玩家死亡。",
     "reminders": [
       "死亡"
     ],
@@ -323,13 +320,13 @@
     "team": "outsider"
   },
   {
-    "ability": "善良阵营的玩家被处决时，可能不会死亡。",
+    "ability": "被处决的善良玩家也许不会死亡。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "zh_CN_pacifist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pacifist.png?raw=true",
-    "name": "调停者",
+    "name": "和平主义者",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -337,24 +334,24 @@
     "team": "townsfolk"
   },
   {
-    "ability": "每个夜晚*，你可以选择一名玩家，将他杀害。如果你上次放弃了选择，你这次改为选择三名。",
+    "ability": "每个夜晚*，你可以选择一名玩家：杀死那名玩家。如果你上一次未选择玩家，则【当晚改为选择三名玩家】。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "zh_CN_po",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/po.png?raw=true",
-    "name": "“迷迭香”",
+    "name": "恶之花",
     "otherNight": 28,
-    "otherNightReminder": "“迷迭香”指向一名玩家或不使用技能，如果“迷迭香”指向了一名玩家，将他杀害。如果“迷迭香”上一次放弃了选择，改为选择三名玩家。",
+    "otherNightReminder": "如果恶之花前一夜未选择玩家：选择三名玩家。否则：恶之花要么选择不杀死玩家，要么选择一名玩家。被选择的玩家死亡。",
     "reminders": [
-      "三次杀害",
-      "被杀害"
+      "攻击三次",
+      "死亡"
     ],
     "setup": false,
     "team": "demon"
   },
   {
-    "ability": "整局游戏限一次，夜晚*，选择一名死亡的玩家，如果他是村民，将他复活。",
+    "ability": "每局游戏限一次，在夜晚时*，选择一名当前处于死亡状态的玩家，如果那名玩家是村民，则被复活。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -362,41 +359,41 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/professor.png?raw=true",
     "name": "教授",
     "otherNight": 45,
-    "otherNightReminder": "教授不使用技能或指向一名玩家。如果那名玩家在教授视角内已经死亡，实际上也已死亡，并且他是一名村民，那名玩家被复活。",
+    "otherNightReminder": "如果教授还未使用能力：教授要么选择不使用，要么指向一名玩家。如果那名玩家在教授看来已死亡，当前也确实已死亡，且是村民，则那名玩家被复活。",
     "reminders": [
       "复活",
-      "无技能"
+      "失去能力"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "每个夜晚，选择一名玩家，他中毒。先前已经中毒的玩家死亡并恢复健康。",
+    "ability": "每个夜晚，选择一名玩家，那名玩家中毒。被你上一次选择的玩家会死亡并解除中毒。",
     "edition": "bmr",
     "firstNight": 28,
-    "firstNightReminder": "疫魔指向一名玩家，该玩家中毒。",
+    "firstNightReminder": "纯种恶魔指向一名玩家，那名玩家中毒。",
     "id": "zh_CN_pukka",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pukka.png?raw=true",
-    "name": "疫魔",
+    "name": "纯种恶魔",
     "otherNight": 26,
-    "otherNightReminder": "疫魔指向一名玩家，该玩家中毒。先前已中毒的玩家被杀害。",
+    "otherNightReminder": "纯种恶魔指向一名玩家，那名玩家中毒。上一个中毒的玩家死亡。",
     "reminders": [
       "中毒",
-      "被杀害"
+      "死亡"
     ],
     "setup": false,
     "team": "demon"
   },
   {
-    "ability": "你不会死亡。每个夜晚，选择一名存活玩家，你和他其中一名醉酒，直到下个黄昏。",
+    "ability": "每个夜晚，选择一名玩家：你或该玩家之一会醉酒到第二天黄昏。你不会死亡。",
     "edition": "bmr",
     "firstNight": 10,
-    "firstNightReminder": "水手指向一名存活玩家。在水手或那名玩家的身份标志旁放置醉酒标记。",
+    "firstNightReminder": "水手指向一名玩家。要么那名玩家，要么水手，获得醉酒标记。",
     "id": "zh_CN_sailor",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sailor.png?raw=true",
     "name": "水手",
     "otherNight": 4,
-    "otherNightReminder": "原本的醉酒玩家恢复清醒，水手指向一名存活玩家，在水手或那名玩家的身份标志旁放置醉酒标记。",
+    "otherNightReminder": "原本的醉酒玩家不再醉酒。水手指向一名玩家。要么那名玩家，要么水手，获得醉酒标记。",
     "reminders": [
       "醉酒"
     ],
@@ -404,30 +401,30 @@
     "team": "townsfolk"
   },
   {
-    "ability": "每个夜晚*，选择两名玩家，将他们杀害。你上一晚选择的玩家可能会因反刍而复活。",
+    "ability": "每个夜晚*，选择两名玩家：这些玩家死亡。被你上一次选择的玩家之一可能因为你的反刍而复活。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "zh_CN_shabaloth",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/shabaloth.png?raw=true",
-    "name": "憎恶",
+    "name": "巨颚",
     "otherNight": 27,
-    "otherNightReminder": "前一晚憎恶选择的玩家之一可能会复活。憎恶指向两名玩家，这两名玩家死亡。",
+    "otherNightReminder": "前一晚巨颚选择的玩家之一可能会复活。巨颚指向两名玩家，这两名玩家死亡。",
     "reminders": [
       "复活",
-      "被杀害"
+      "死亡"
     ],
     "setup": false,
     "team": "demon"
   },
   {
-    "ability": "如果与你相邻的存活玩家属于善良阵营，他们不会死亡。",
+    "ability": "如果你的左右两侧最靠近你的存活玩家均为善良阵营，那么这两名玩家不会死亡。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "zh_CN_tealady",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/tealady.png?raw=true",
-    "name": "茶女",
+    "name": "茶女郎",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -437,7 +434,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "你随时可能死亡。",
+    "ability": "你随时都有可能会死亡。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -445,7 +442,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/tinker.png?raw=true",
     "name": "修补匠",
     "otherNight": 48,
-    "otherNightReminder": "修补匠随时可能死亡。",
+    "otherNightReminder": "修补匠可能会死。",
     "reminders": [
       "死亡"
     ],
@@ -453,7 +450,7 @@
     "team": "outsider"
   },
   {
-    "ability": "只有你和死亡的玩家可以在提名中投票，这不会消耗投票标记。取消投票达半才能处决的限制。",
+    "ability": "只有你和死者可以投票，且他们不需要消耗投票机会。白天会处决得票最高的玩家，不论票数是否过半。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -467,18 +464,18 @@
     "team": "traveler"
   },
   {
-    "ability": "每个夜晚*，当白天没有玩家死亡时，选择一名玩家，将他杀害。当你第一次死亡时，你仍然活着，但被视为死亡。",
+    "ability": "每个夜晚*，如果白天时没有任何人死亡，则醒来并选择一名玩家：那名玩家死亡；【当你第一次死亡时】，你并不会真正死去，但你会表现的像是死了。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "zh_CN_zombuul",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/zombuul.png?raw=true",
-    "name": "僵尸",
+    "name": "丧尸",
     "otherNight": 25,
-    "otherNightReminder": "如果没有人在白天死亡，僵尸选择一名玩家杀害",
+    "otherNightReminder": "如果没有人在白天死亡，丧尸选择一个玩家：那名玩家死亡。",
     "reminders": [
-      "白天死亡",
-      "被杀害"
+      "死亡",
+      "白天死亡"
     ],
     "setup": false,
     "team": "demon"

@@ -1,22 +1,23 @@
 [
   {
-    "ability": "你不知道你的技能是什么。直到你猜中为止。你每个白天都可以向说书人猜测一次。",
+    "ability": "你不知道你有什么能力，但你的能力仍然会照常生效。你的能力可能会超出现有角色的能力范围。每个白天，你可以私下询问说书人关于你能力的一个是非问题。",
     "edition": "",
     "firstNight": 12,
-    "firstNightReminder": "决定追忆者的技能。如果追忆者的技能会让他在今晚醒来，唤醒他并执行其技能。",
+    "firstNightReminder": "决定失忆者的能力。如果失忆者的能力会让他在今晚醒来：唤醒他并执行其能力。",
     "id": "zh_CN_amnesiac",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/amnesiac.png?raw=true",
-    "name": "追忆者",
+    "name": "失忆者",
     "otherNight": 5,
-    "otherNightReminder": "如果追忆者的技能会让他在今晚醒来，唤醒他并执行其技能。",
+    "otherNightReminder": "如果失忆者的能力会让他在今晚醒来：唤醒他并执行其能力。",
     "reminders": [
-      "?"
+      "失忆",
+      "已询问"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "整局游戏限一次，白天，拜访说书人并询问一个“是/否”的问题。",
+    "ability": "每局游戏限一次，在白天时，你可以私下询问说书人一个是非问题。",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -26,33 +27,30 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "无技能"
+      "失去能力"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "每个夜晚，你得知一名玩家。你得知的玩家均是不同身份类型。直到你每个身份类型都得知了一次。[+1外来者]",
+    "ability": "每个夜晚，你会得知一个不同角色类型（村民/外来者/爪牙/恶魔/旅行者）的玩家，直到在场的每种角色类型都有一名玩家被告知与你。（+1外来者）",
     "edition": "",
     "firstNight": 44,
-    "firstNightReminder": "选择一种尚未被气球驾驶员知晓的身份类型，并告知其一个符合该类型的玩家。在该玩家旁边标记已被知晓。",
+    "firstNightReminder": "选择一种角色类型，并告知其一个符合该类型的玩家。在该玩家旁边标记已被知晓。",
     "id": "zh_CN_balloonist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/balloonist.png?raw=true",
-    "name": "热气球驾驶员",
+    "name": "气球驾驶员",
     "otherNight": 63,
-    "otherNightReminder": "选择一种尚未被气球驾驶员知晓的身份类型，并告知其一个符合该类型的玩家。在该玩家旁边标记已被知晓。如果所有类型均已被知晓或无该种类型，气球驾驶员不会醒来。",
+    "otherNightReminder": "选择一种尚未被气球驾驶员知晓的角色类型，并告知其一个符合该类型的玩家。在该玩家旁边标记已被知晓。如果所有类型均已被知晓或无该种类型，气球驾驶员不会醒来。",
     "reminders": [
       "知晓外来者",
-      "知晓恶魔",
-      "知晓旅行者",
-      "知晓村民",
-      "知晓爪牙"
+      "知晓村民"
     ],
     "setup": true,
     "team": "townsfolk"
   },
   {
-    "ability": "你拥有最近被处决而死的玩家的技能。如果该玩家属于邪恶阵营，你中毒直到下一个善良玩家被处决。",
+    "ability": "你具有最近被处决的那名玩家的角色能力（你并不知道那是什么，但能力会正常生效）。如果那名玩家是邪恶阵营的，你会中毒直到一名善良阵营的玩家被处决。",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -63,13 +61,13 @@
     "otherNightReminder": "",
     "reminders": [
       "中毒",
-      "食髓知味"
+      "刚吃的"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "整局游戏限一次，白天，让说书人给予你一条可以帮助你的阵营获胜的建议。",
+    "ability": "每局游戏限一次，在白天时，私下询问说书人并获得能帮助自己的团队获胜的建议。",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -79,13 +77,13 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "无技能"
+      "失去能力"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "白天，你可以公开声称自己是哥布林，如果你在当天因为提名而被处决，你的阵营获胜。",
+    "ability": "如果当你在被提名后的辩护中公开宣称自己是哥布林且在那天被成功处决，你的阵营获胜。",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -95,23 +93,23 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "已声明"
+      "已宣称"
     ],
     "setup": false,
     "team": "minion"
   },
   {
-    "ability": "如果超过一名善良阵营玩家被处决，邪恶阵营获胜。所有玩家都知道你在游戏中。第五个白天结束时，邪恶阵营获胜。",
+    "ability": "如果有超过一位的善良阵营玩家被处决，邪恶阵营会获胜。所有玩家都会知道本局的恶魔是利维坦。在第五个白天结束时，邪恶阵营获胜。",
     "edition": "",
     "firstNight": 53,
-    "firstNightReminder": "放置第一天标记。告知玩家利维坦在游戏中，现在是第一天。",
+    "firstNightReminder": "放置利维坦的第一天标记，宣告利维坦在场，现在是第一天。",
     "id": "zh_CN_leviathan",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/leviathan.png?raw=true",
     "name": "利维坦",
     "otherNight": 73,
-    "otherNightReminder": "将天数标记更换为下一天。",
+    "otherNightReminder": "将利维坦的标记转换到下一天。,",
     "reminders": [
-      "善良玩家被处决",
+      "好人被处决",
       "第一天",
       "第三天",
       "第二天",
@@ -122,25 +120,24 @@
     "team": "demon"
   },
   {
-    "ability": "你以为你是恶魔，但其实你不是。恶魔知道你是谁，以及你在每晚选择了谁。",
+    "ability": "你会抽取到一个恶魔角色（该恶魔角色可能在场，也可能不在场），且会如同恶魔一样被告知三名不在场善良角色和你的爪牙，但这些信息可能是错误的。而恶魔玩家会在首个夜晚得知你是疯子，且会在每个夜晚醒来时行动前得知你当晚用恶魔技能选择了哪些玩家。",
     "edition": "bmr",
     "firstNight": 7,
-    "firstNightReminder": "当多于7名玩家时，告知狂人等同于本局爪牙数的爪牙，向狂人展示3个善良身份标记。如果狂人收到的恶魔身份在第一夜就会被唤醒，允许狂人执行行动，并放置攻击标记。唤醒恶魔，告知他是真的恶魔，并告知他谁是狂人。如果狂人攻击了一名玩家，告知恶魔狂人攻击了哪些玩家，然后移除这些标记。",
+    "firstNightReminder": "如果多于7名玩家：随意告诉疯子等同于当前在场爪牙数量的爪牙，随意给疯子展示3个善良角色标记。如果疯子收到的恶魔角色今晚会醒来：允许疯子执行恶魔相关行动，放置攻击标记。唤醒恶魔，告诉他他自己真的是恶魔，并告诉他谁是疯子。如果疯子攻击了玩家：告诉恶魔疯子攻击了哪些玩家，然后移除这些标记。",
     "id": "zh_CN_lunatic",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
-    "name": "狂人",
+    "name": "疯子",
     "otherNight": 21,
-    "otherNightReminder": "允许狂人执行恶魔行动，放置攻击标记。如果狂人攻击了一名玩家，告知恶魔狂人攻击了哪些玩家，然后移除这些标记。",
+    "otherNightReminder": "允许疯子执行恶魔相关行动，放置攻击标记。如果疯子攻击了玩家：告诉恶魔疯子攻击了哪些玩家，然后移除这些标记。,",
     "reminders": [
-      "攻击1",
-      "攻击2",
-      "攻击3"
+      "攻击选择",
+      "疯子"
     ],
     "setup": false,
     "team": "outsider"
   },
   {
-    "ability": "当你对“我是外来者”疯狂时，你可能会被处决。",
+    "ability": "如果你表现得像个外来者（或别人认为你是），你可能会被立刻处决。",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -154,13 +151,13 @@
     "team": "outsider"
   },
   {
-    "ability": "每个白天，拜访说书人并获取两条信息，其中一条是正确的，一条是错误的。",
+    "ability": "每个白天，你可以私下从说书人处获得两个信息：其中一个是正确的，而另一个是错误的。",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "zh_CN_savant",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/savant.png?raw=true",
-    "name": "学者",
+    "name": "博学者",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -168,10 +165,10 @@
     "team": "townsfolk"
   },
   {
-    "ability": "在你的第一个夜晚，你查看魔典并选择一名玩家，使他中毒。一名善良玩家会得知本局存在寡妇。",
+    "ability": "在你的第一个夜晚，你可以查看魔法书并选择一名玩家：那名玩家中毒。会有一名善良玩家知道这场游戏里有寡妇。",
     "edition": "",
     "firstNight": 18,
-    "firstNightReminder": "寡妇查看魔典。然后指向一名玩家，他中毒。然后唤醒一名善良玩家，告知他本局存在寡妇。",
+    "firstNightReminder": "给寡妇展示魔法书，她想看多久就看多久。等她看完后，让她指向一个玩家。那个玩家中毒。唤醒一名善良玩家，告诉他场上有寡妇。",
     "id": "zh_CN_widow",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/widow.png?raw=true",
     "name": "寡妇",
@@ -181,7 +178,7 @@
       "中毒"
     ],
     "remindersGlobal": [
-      "已被知晓"
+      "被知晓"
     ],
     "setup": false,
     "team": "minion"
