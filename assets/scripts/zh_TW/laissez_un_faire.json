@@ -1,14 +1,14 @@
 [
   {
-    "ability": "你不知道你擁有的能力. 每天白天, 私下猜測你的能力: 你得知你的猜測有多準確.",
+    "ability": "你不知道你擁有的能力。每天白天，私下猜測你的能力：你得知你的猜測有多準確。",
     "edition": "",
     "firstNight": 12,
-    "firstNightReminder": "決定失憶症玩家的真實能力. 如果此能力使他在今晚醒來: 喚醒失憶症玩家並且進行他的能力.",
+    "firstNightReminder": "決定失憶患者的真實能力，如果此能力使他在今晚醒來：喚醒失憶症玩家並且進行他的能力。",
     "id": "zh_TW_amnesiac",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/amnesiac.png?raw=true",
-    "name": "失憶症",
+    "name": "失憶患者",
     "otherNight": 5,
-    "otherNightReminder": "如果失憶症玩家的能力使他在今晚醒來: 喚醒他並且進行他的能力.",
+    "otherNightReminder": "如果失憶患者的能力使他在今晚醒來：喚醒他並且進行他的能力。",
     "reminders": [
       "?"
     ],
@@ -16,7 +16,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "每場遊戲一次, 白天時, 私下問Storyteller任何一個yes/no問題.",
+    "ability": "每場遊戲一次，白天時，私下問說書人任何一個是非題。",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -32,15 +32,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "每天晚上, 你得知每種角色類別的一位玩家, 直到你已得知所有類別. [+1 城外人]",
+    "ability": "每天晚上，你得知每種角色類別的一位玩家，直到你已得知所有類別。[+1 城外人]",
     "edition": "",
     "firstNight": 44,
-    "firstNightReminder": "選擇一個角色類別. 指向一個為該類別的玩家. 以 \"已得知\" 標記該玩家.",
+    "firstNightReminder": "選擇一個角色類別，指向一個為該類別的玩家，以「已得知」標記該玩家。",
     "id": "zh_TW_balloonist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/balloonist.png?raw=true",
     "name": "氣球飛行員",
     "otherNight": 63,
-    "otherNightReminder": "選擇一個旁邊還沒放置 \"已得知\" 標記的角色類別. 有選擇到的話, 指向一個為該類別的玩家. 以 \"已得知\" 標記該玩家.",
+    "otherNightReminder": "選擇一個旁邊還沒放置「已得知」標記的角色類別，有選擇到的話，指向一個為該類別的玩家，以「已得知」標記該玩家。",
     "reminders": [
       "已得知(僕從)",
       "已得知(城外人)",
@@ -52,13 +52,13 @@
     "team": "townsfolk"
   },
   {
-    "ability": "你具有最後被處死的玩家的能力. 如果該玩家是邪惡的, 你中毒直到一個好人玩家被處死.",
+    "ability": "你具有最後被處死的玩家的能力。如果該玩家是邪惡的，你中毒直到一個好人玩家被處死。",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "zh_TW_cannibal",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cannibal.png?raw=true",
-    "name": "食人者",
+    "name": "食人族",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -69,7 +69,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "每場遊戲一次, 白天時, 拜訪Storyteller獲取一些幫助你獲勝的建議.",
+    "ability": "每場遊戲一次，白天時，拜訪說書人獲取一些幫助你獲勝的建議。",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -85,13 +85,13 @@
     "team": "townsfolk"
   },
   {
-    "ability": "如果你被提名時公開聲明自己是妖精並且在該天被處決, 你的隊伍獲勝.",
+    "ability": "如果你被提名時公開聲明自己是哥布林並且在該天被處決，你的隊伍獲勝。",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "zh_TW_goblin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/goblin.png?raw=true",
-    "name": "妖精",
+    "name": "哥布林",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -101,36 +101,36 @@
     "team": "minion"
   },
   {
-    "ability": "如果超過一位好人玩家被處決, 則你獲勝. 所有玩家都知道你在遊戲中. 第五天過後, 邪惡隊伍獲勝.",
+    "ability": "如果超過一位好人玩家被處決，則你獲勝。所有玩家都知道你在遊戲中。第五天過後，邪惡隊伍獲勝。",
     "edition": "",
     "firstNight": 53,
-    "firstNightReminder": "Place the Leviathan 'Day 1' marker. Announce 'The Leviathan is in play; this is Day 1.'",
+    "firstNightReminder": "以「第一天」標記利維坦。宣布「利維坦在遊戲中，今天是第一天。」",
     "id": "zh_TW_leviathan",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/leviathan.png?raw=true",
     "name": "利維坦",
     "otherNight": 73,
-    "otherNightReminder": "Change the Leviathan Day reminder for the next day.",
+    "otherNightReminder": "增加利維坦標記的天數。",
     "reminders": [
-      "第1天",
-      "第2天",
-      "第3天",
-      "第4天",
-      "第5天",
+      "第一天",
+      "第三天",
+      "第二天",
+      "第五天",
+      "第四天",
       "處決好人"
     ],
     "setup": false,
     "team": "demon"
   },
   {
-    "ability": "你認為自己是惡魔, 但你不是, 惡魔知道你是誰以及你每天晚上選了誰.",
+    "ability": "你認為自己是惡魔，但你不是，惡魔知道你是誰以及你每天晚上選了誰。",
     "edition": "bmr",
     "firstNight": 7,
-    "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
+    "firstNightReminder": "如果有7位或更多玩家：將若干個僕從展示給瘋子，其數量等同於遊戲中僕從們的數量(這些玩家不一定要是真的僕從)，將三個任意的好人角色代幣展示給瘋子，如果瘋子的惡魔角色會在第一晚行動：讓他進行惡魔的動作，以「攻擊」標記他的目標。喚醒惡魔並告知他真正的角色以及瘋子是誰，如果瘋子有攻擊玩家，指向每個被標記的目標，移除所有「攻擊」標記。",
     "id": "zh_TW_lunatic",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
     "name": "瘋子",
     "otherNight": 21,
-    "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
+    "otherNightReminder": "讓瘋子進行惡魔的動作，以「攻擊」標記他的目標，如果瘋子有攻擊玩家：喚醒惡魔並指向每個被標記的目標，移除所有「攻擊」標記。",
     "reminders": [
       "攻擊1",
       "攻擊2",
@@ -140,7 +140,7 @@
     "team": "outsider"
   },
   {
-    "ability": "如果你執著地認為自己是城外人, 你可能會被處決.",
+    "ability": "如果你執著地認為自己是城外人，你可能會被處決。",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -154,7 +154,7 @@
     "team": "outsider"
   },
   {
-    "ability": "每天白天, 你可以拜訪Storyteller來得知兩件事, 其中一件是正確的.",
+    "ability": "每天白天，你可以拜訪說書人來得知兩件事，其中一件是正確的。",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -168,10 +168,10 @@
     "team": "townsfolk"
   },
   {
-    "ability": "在你的第一晚, 查看魔典(遊戲資料書)並且選擇 1 位玩家: 該玩家中毒. 一位好人玩家知道寡婦在遊戲中.",
+    "ability": "在你的第一晚，查看魔典並且選擇一位玩家：該玩家中毒。一位好人玩家知道寡婦在遊戲中。",
     "edition": "",
     "firstNight": 18,
-    "firstNightReminder": "Show the Grimoire to the Widow for as long as they need. The Widow points to a player. That player is poisoned. Wake a good player. Show the 'These characters are in play' card, then the Widow character token.",
+    "firstNightReminder": "將魔典展示給寡婦，寡婦選擇一位玩家，以「中毒」標記該玩家。喚醒一位好人玩家並展示「這些角色在遊戲中」提示卡 + 寡婦的角色代幣，以「得知寡婦」標記該玩家。",
     "id": "zh_TW_widow",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/widow.png?raw=true",
     "name": "寡婦",
