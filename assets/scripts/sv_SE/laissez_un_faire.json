@@ -3,12 +3,12 @@
     "ability": "Du vet inte vad din förmåga är. Varje dag, gissa privat vad din förmåga är: du får reda på hur nära du är.",
     "edition": "",
     "firstNight": 12,
-    "firstNightReminder": "Bestäm _ hela förmåga. Om _ förmåga gör så de vaknar under natten: väck _ och utför deras förmåga.",
+    "firstNightReminder": "Bestäm Minnesförlorarens hela förmåga. Om Minnesförlorarens förmåga gör så de vaknar under natten: väck Minnesförloraren och utför deras förmåga.",
     "id": "sv_SE_amnesiac",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/amnesiac.png?raw=true",
-    "name": "Amnesiac",
+    "name": "Minnesförlorare",
     "otherNight": 5,
-    "otherNightReminder": "Om _ förmåga gör så de vaknar under natten: väck _ och utför deras förmåga.",
+    "otherNightReminder": "Om Minnesförlorarens förmåga gör så de vaknar under natten: väck Minnesförloraren och utför deras förmåga.",
     "reminders": [
       "?"
     ],
@@ -16,7 +16,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "En gång per spel, under dagen, privat fråga Sagoberättaren en ja/nej fråga.",
+    "ability": "En gång per spel, under dagen, fråga privat Sagoberättaren en ja/nej fråga.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -35,12 +35,12 @@
     "ability": "Varje natt, får du reda på 1 spelare av varje karaktärstyp, tills det inte finns några fler typer att få reda på. [+1 Outsider]",
     "edition": "",
     "firstNight": 44,
-    "firstNightReminder": "Välj en karaktärtyp. Peka på en spelare vars karaktär är av samma typ. Placera Ballongfararens \"Sett\" påminnelsepollett bredvid den karaktären.",
+    "firstNightReminder": "Välj en karaktärtyp. Peka på en spelare vars karaktär är av samma typ. Placera Ballongfararens \"Sett\" markör bredvid den karaktären.",
     "id": "sv_SE_balloonist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/balloonist.png?raw=true",
     "name": "Ballongfarare",
     "otherNight": 63,
-    "otherNightReminder": "Välj en karaktärstyp som inte har en \"Sett\" påminnelse-pollett bredvid en karaktär av den typen. Peka på en spelare vars karaktär är av den typen, om det finns några. Placera Ballongfararens \"Sett\" påminnelse bredvid den karaktären.",
+    "otherNightReminder": "Välj en karaktärstyp som inte har en \"Sett\" markör bredvid en karaktär av den typen. Peka på en spelare vars karaktär är av den typen, om det finns några. Placera Ballongfararens \"Sett\" markör bredvid den karaktären.",
     "reminders": [
       "Sett Bybo",
       "Sett Demon",
@@ -52,7 +52,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Du har förmågan av den senaste avrättade karaktären. Om de var ond, blir du förgiftad tills en god spelare dör av avrättning.",
+    "ability": "Du har förmågan av den senaste avrättade karaktären. Om den var ond, blir du förgiftad tills en god spelare dör av avrättning.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -69,7 +69,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, during the day, visit the Storyteller for some advice to help you win.",
+    "ability": "En gång per spel, under dagen, besök Sagoberättaren för ett råd för att hjälpa dig vinna.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -79,13 +79,13 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "Ingen förmåga"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "If you publicly claim to be the Goblin when nominated & are executed that day, your team wins.",
+    "ability": "Om du publikt påstår vara en Goblin när du blir nominerad & blir avrättad den dagen, vinner ditt lag.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -95,42 +95,42 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Claimed"
+      "Påstått"
     ],
     "setup": false,
     "team": "minion"
   },
   {
-    "ability": "If more than 1 good player is executed, you win. All players know you are in play. After day 5, evil wins.",
+    "ability": "Om mer än 1 god spelare är avrättad, vinner du. Alla spelare vet att du är i spel. Efter dag 5, vinner onda.",
     "edition": "",
     "firstNight": 53,
-    "firstNightReminder": "Place the Leviathan 'Day 1' marker. Announce 'The Leviathan is in play; this is Day 1.'",
+    "firstNightReminder": "Placera Leviathans \"Dag 1\" markör. Utropa \"Leviathan är i spel; det här är dag 1\".",
     "id": "sv_SE_leviathan",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/leviathan.png?raw=true",
     "name": "Leviathan",
     "otherNight": 73,
-    "otherNightReminder": "Change the Leviathan Day reminder for the next day.",
+    "otherNightReminder": "Byt ut Leviathans Dagpåminnelse till nästa dagen.",
     "reminders": [
-      "Day 1",
-      "Day 2",
-      "Day 3",
-      "Day 4",
-      "Day 5",
-      "Good player executed"
+      "Dag 1",
+      "Dag 2",
+      "Dag 3",
+      "Dag 4",
+      "Dag 5",
+      "God spelare avrättad"
     ],
     "setup": false,
     "team": "demon"
   },
   {
-    "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night.",
+    "ability": "Du tror du är en Demon, men det är du inte. Demonen vet vem du är & vem du väljer på natten.",
     "edition": "bmr",
     "firstNight": 7,
-    "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
+    "firstNightReminder": "Om 7 eller fler spelare är med: Visa Galningen ett relevant antal godtyckliga Minions. Visa 3 godtyckliga goda karaktärer. Om polletten som Galningen fick är en Demon som skulle vakna inatt: Låt Galningen utföra Demonens aktioner. Placera deras \"attack\" markörer. Väck Demonen. Visa dem Demonens ricktiga karkatär-pollett. Visa dem spelaren som är Galningen. Om Galningen attackerade spelare: Visa den riktiga Demonen varje markerad spelare. Ta bort alla Galningens \"attack\" markörer.",
     "id": "sv_SE_lunatic",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
     "name": "Galning",
     "otherNight": 21,
-    "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
+    "otherNightReminder": "Låt Galningen utföra aktionerna som Demonen skulle. Placera deras \"attack\" markörer. Om Galningen valde spelare: Väck Demonen. Visa dem \"attack\" markören och sedan peka på varke markerad spelare. Ta bort alla Galningens \"attack\" markörer.",
     "reminders": [
       "Attack 1",
       "Attack 2",
@@ -140,7 +140,7 @@
     "team": "outsider"
   },
   {
-    "ability": "If you are “mad” about being an Outsider, you might be executed.",
+    "ability": "Om du är \"galen\" att du är en Outsider, kan du bli avrättad.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -154,7 +154,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false.",
+    "ability": "Varje dag, får du besöka Sagoberättaren för att privat får reda på 2 saker: 1 är sant & 1 är falsk.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -168,20 +168,20 @@
     "team": "townsfolk"
   },
   {
-    "ability": "On your 1st night, look at the Grimoire and choose a player: they are poisoned. 1 good player knows a Widow is in play.",
+    "ability": "På din 1a natt, titta på Grimoaren och välj en spelare: de är fögiftad. 1 god spelare vet att en Änka är i spel.",
     "edition": "",
     "firstNight": 18,
-    "firstNightReminder": "Show the Grimoire to the Widow for as long as they need. The Widow points to a player. That player is poisoned. Wake a good player. Show the 'These characters are in play' card, then the Widow character token.",
+    "firstNightReminder": "Visa Änkan Grimoaren så länge de behöver. Änkan pekar på en spelare. Den spelaren är förgiftad. Väck en god spelare. Visa dem \"De här karaktärerna är i spel\" kortet, sedan Änka-polletten.",
     "id": "sv_SE_widow",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/widow.png?raw=true",
     "name": "Änka",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Poisoned"
+      "Förgiftad"
     ],
     "remindersGlobal": [
-      "Knows"
+      "Vet"
     ],
     "setup": false,
     "team": "minion"

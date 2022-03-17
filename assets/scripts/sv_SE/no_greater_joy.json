@@ -14,32 +14,32 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You start knowing that 1 of 2 players is a particular Minion.",
+    "ability": "Du börjar veta att 1 av 2 spelare är en specifik Minion.",
     "edition": "tb",
     "firstNight": 34,
-    "firstNightReminder": "Show the character token of a Minion in play. Point to two players, one of which is that character.",
+    "firstNightReminder": "Visa en karaktärs-pollett av en Minion som är med i spelet. Peka på 2 spelare, varav 1 av dem är den karaktären.",
     "id": "sv_SE_investigator",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/investigator.png?raw=true",
     "name": "Utredare",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Minion",
-      "Wrong"
+      "Fel",
+      "Minion"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, you learn how many of your 2 alive neighbours are evil.",
+    "ability": "Varje natt, du lär dig hur många av dina 2 levande grannar är ond.",
     "edition": "tb",
     "firstNight": 36,
-    "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath.",
+    "firstNightReminder": "Visa fingersignalen (0, 1, 2) för det nummer onda levande grannar till Empaten.",
     "id": "sv_SE_empath",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
     "name": "Empat",
     "otherNight": 53,
-    "otherNightReminder": "Show the finger signal (0, 1, 2) for the number of evil neighbours.",
+    "otherNightReminder": "Visa fingersignalen (0, 1, 2) för det nummer onda levande grannar.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -59,7 +59,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "En gång per spel, under dagen, privat fråga Sagoberättaren en ja/nej fråga.",
+    "ability": "En gång per spel, under dagen, fråga privat Sagoberättaren en ja/nej fråga.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -75,21 +75,21 @@
     "team": "townsfolk"
   },
   {
-    "ability": "If the Demon kills you, you learn that it is 1 of 2 players.",
+    "ability": "Om Demonen dödar dig, lär du dig att det är 1 av 2 spelare.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "sv_SE_sage",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sage.png?raw=true",
-    "name": "Sage",
+    "name": "Vis Man",
     "otherNight": 43,
-    "otherNightReminder": "If the Sage was killed by a Demon: Point to two players, one of which is that Demon.",
+    "otherNightReminder": "Om den Visa Mannen dör av Demonen: Peka på 2 spelare, en av dem är Demonen.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not.",
+    "ability": "Du vet inte att du är Fylleristen. Du tror att du är en Bybo, men det är du inte.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -100,13 +100,13 @@
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Drunk"
+      "Fyllerist"
     ],
     "setup": true,
     "team": "outsider"
   },
   {
-    "ability": "When you learn that you died, publicly choose 1 alive player: if they are evil, your team loses.",
+    "ability": "När du lär dig att du har dött, publikt välj 1 levande spelare: om de är ond, förlorar ditt lag.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -120,7 +120,7 @@
     "team": "outsider"
   },
   {
-    "ability": "If there are 5 or more players alive & the Demon dies, you become the Demon. (Travellers don’t count)",
+    "ability": "Om det är 5 eller fler spelare levande & Demonen dör, blir du Demonen. (Resande räknas inte)",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -128,7 +128,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scarletwoman.png?raw=true",
     "name": "Scarlet Woman",
     "otherNight": 20,
-    "otherNightReminder": "If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",
+    "otherNightReminder": "Om _ blev Demon idag: Visa dem \"Du är\" kortet och sedan Demonens pollett.",
     "reminders": [
       "Demon"
     ],
@@ -150,7 +150,7 @@
     "team": "minion"
   },
   {
-    "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp.",
+    "ability": "Varje natt*, välj en spelare: de dör. Om du väljer dig själv, blir en Minion Djävulen.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -158,9 +158,9 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/imp.png?raw=true",
     "name": "Djävul",
     "otherNight": 24,
-    "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
+    "otherNightReminder": "Djävulen pekar på en spelare. Den spelaren dör. Om Djävulen väljer sig själv: Byt ut karaktären av 1 levande Minion med en extra Djävuls-pollett. Visa dem \"Du är\" kortet och sedan Djävulen.",
     "reminders": [
-      "Dead"
+      "Död"
     ],
     "setup": false,
     "team": "demon"
