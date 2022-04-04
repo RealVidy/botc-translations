@@ -82,7 +82,22 @@
     "setup": true,
     "team": "townsfolk"
   },
-  null,
+  {
+    "ability": "La première nuit, le Conteur vous désigne 1 joueur maléfique (votre cible). Si ce joueur meurt, cette nuit le Conteur vous désigne 1 nouveau joueur maléfique (nouvelle cible) [1 Villageois est maléfique].",
+    "edition": "",
+    "firstNight": 45,
+    "firstNightReminder": "Le Conteur choisi un joueur maléfique vivant et lui assigne le jeton « Cible ». Réveiller le Chasseur de primes et pointez lui la « Cible ».",
+    "id": "fr_FR_bountyhunter",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bountyhunter.png?raw=true",
+    "name": "Chasseur de primes",
+    "otherNight": 65,
+    "otherNightReminder": "Si la « Cible » est morte depuis la nuit précédente: Le Conteur choisi un nouveau joueur maléfique vivant et lui assigne le jeton « Cible ». Réveiller le Chasseur de primes et pointez lui la nouvelle « Cible ».",
+    "reminders": [
+      "Cible"
+    ],
+    "setup": true,
+    "team": "townsfolk"
+  },
   {
     "ability": "Chaque nuit*, vous gagnez la capacité du dernier rôle exécuté. Si l'exécuté était maléfique, vous gagnez une capacité au choix du Conteur et vous êtes empoisonné jusqu'à ce qu'un nouveau rôle « bon » soit exécuté.",
     "edition": "",
@@ -175,7 +190,20 @@
     "setup": false,
     "team": "townsfolk"
   },
-  null,
+  {
+    "ability": "Chaque nuit, prenez l'alignement d'un voisin vivant: si tous les « bons » joueurs choisissent de rejoindre votre culte, votre équipe gagne.",
+    "edition": "",
+    "firstNight": 47,
+    "firstNightReminder": "Le Conteur choisi : l'alignement du Chef de culte basé sur un de ces voisin vivant. Si son alignement change : Réveiller-le et montrez-lui la carte violette « Vous êtes », puis le signal de la main (pouce en haut ou pouce en bas).",
+    "id": "fr_FR_cultleader",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cultleader.png?raw=true",
+    "name": "Chef de secte",
+    "otherNight": 67,
+    "otherNightReminder": "Le Conteur choisi : l'alignement du Chef de culte basé sur un de ces voisin vivant. Si son alignement change : Réveiller-le et montrez-lui la carte violette « Vous êtes », puis le signal de la main (pouce en haut ou pouce en bas).",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
   {
     "ability": "Chaque nuit, choisissez un autre joueur (pas un Voyageur), vous apprendrez son rôle et un rôle d'alignement opposé.",
     "edition": "snv",
@@ -299,7 +327,22 @@
     "setup": false,
     "team": "townsfolk"
   },
-  null,
+  {
+    "ability": "Chaque nuit, choisissez 2 joueurs : vous apprenez si l’un d’eux est un Démon. Un des joueurs « Bon » est votre faux positif.",
+    "edition": "tb",
+    "firstNight": 37,
+    "firstNightReminder": "Elle pointe deux joueurs. Si l'un d’eux est un Démon ou son faux positif, hocher la tête, sinon, secouez la tête.",
+    "id": "fr_FR_fortuneteller",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fortuneteller.png?raw=true",
+    "name": "Voyante",
+    "otherNight": 54,
+    "otherNightReminder": "Elle pointe deux joueurs. Si l'un d’eux est un Démon ou son faux positif, hocher la tête, sinon, secouez la tête.",
+    "reminders": [
+      "Faux positif"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
   {
     "ability": "Chaque nuit*, choisissez un joueur et tenter de deviner son rôle, si vous faites erreur, vous mourrez.",
     "edition": "bmr",
@@ -645,7 +688,22 @@
     "setup": false,
     "team": "townsfolk"
   },
-  null,
+  {
+    "ability": "Les maléfiques ne se connaissent entre eux. À votre mort, ils apprennent qui sont les Sbires et le Démon.",
+    "edition": "",
+    "firstNight": 4,
+    "firstNightReminder": "Ne réveiller pas les Sbires lors de la première nuit, ils ne savent pas qui est le Démon et les autres Sbires. Le Démon reçoit malgré tout ses trois bluffs.",
+    "id": "fr_FR_poppygrower",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poppygrower.png?raw=true",
+    "name": "Cultivateur de pavot",
+    "otherNight": 3,
+    "otherNightReminder": "Si le Cultivateur est mort, réveiller les Sbires et Démon (morts ou vifs) et leurs présenter le Démon et les Sbires.",
+    "reminders": [
+      "Maléfiques se réveillent"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
   {
     "ability": "Chaque nuit, choisissez un joueur: si le joueur choisi est un Sbire il se fait réveiller et il apprend qu’il a perdu sa capacité.",
     "edition": "",
@@ -770,7 +828,22 @@
     "setup": false,
     "team": "townsfolk"
   },
-  null,
+  {
+    "ability": "Chaque nuit, choisissez un joueur vivant. Si vous avez choisi un Démon, vous échangez de rôle avec lui et il devient empoisonné.",
+    "edition": "snv",
+    "firstNight": 20,
+    "firstNightReminder": "Il pointe un joueur. Si ce joueur est le Démon: Échangez leurs jetons rôle. Lui Indiquer qu'il est le nouveau Démon. Montrez-lui la carte violette « Vous êtes » et le jeton Démon. Réveillez l'ancien Démon et montrez-lui la carte violette « Vous êtes », le jeton Charmeur de serpent et un pouce vers le haut et il est maintenant empoisonné.",
+    "id": "fr_FR_snakecharmer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/snakecharmer.png?raw=true",
+    "name": "Charmeur de serpent",
+    "otherNight": 12,
+    "otherNightReminder": "Il pointe un joueur. Si ce joueur est le Démon: Échangez leurs jetons rôle. Lui Indiquer qu'il est le nouveau Démon. Montrez-lui la carte violette « Vous êtes » et le jeton Démon. Réveillez l'ancien Démon et montrez-lui la carte violette « Vous êtes », le jeton Charmeur de serpent et un pouce vers le haut et il est maintenant empoisonné.",
+    "reminders": [
+      "Empoisonné"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
   {
     "ability": "Vous êtes à l'abri du démon.",
     "edition": "tb",
@@ -785,8 +858,39 @@
     "setup": false,
     "team": "townsfolk"
   },
-  null,
-  null,
+  {
+    "ability": "Si vos deux voisins vivants sont « bons », ils ne peuvent pas mourir.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_tealady",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/tealady.png?raw=true",
+    "name": "Herboriste",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Protégé"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Chaque nuit*, vous apprenez si un Sbire a nommé.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "Placez le jeton “Aucune nomination”.",
+    "id": "fr_FR_towncrier",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/towncrier.png?raw=true",
+    "name": "Crieur",
+    "otherNight": 59,
+    "otherNightReminder": "Indiquer d'un signal de tête (hocher oui, secouer non) pour indiquer si un Sbire a nommé aujourd'hui. Remplacer le jeton “Nomination” par le “Aucune nomination” (le cas échéant).",
+    "reminders": [
+      "Aucune nomination",
+      "Sbire Nomination"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
   {
     "ability": "Chaque nuit*, vous apprenez quel est le rôle du joueur qui vient d’être exécuté.",
     "edition": "tb",
@@ -1192,8 +1296,38 @@
     "setup": false,
     "team": "minion"
   },
-  null,
-  null,
+  {
+    "ability": "Chaque nuit, choisissez un joueur vivant (différent de la nuit précédente ni le Zombuul mort): s'il est exécuté demain, il ne mourra pas.",
+    "edition": "bmr",
+    "firstNight": 22,
+    "firstNightReminder": "Il pointe vers un joueur vivant. Ce joueur survivra à l'exécution demain.",
+    "id": "fr_FR_devilsadvocate",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/devilsadvocate.png?raw=true",
+    "name": "Avocat du diable",
+    "otherNight": 14,
+    "otherNightReminder": "Il pointe vers un joueur vivant différent de la nuit précédente. Ce joueur survivra à l'exécution demain.",
+    "reminders": [
+      "Survit à l'exécution"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Vous et un joueur bon (votre jumeau) vous vous connaissez. Si votre jumeau est exécuté, le mal gagne. Les bons ne peuvent pas gagner si vous êtes les deux en vie (même si le Démon est mort).",
+    "edition": "snv",
+    "firstNight": 23,
+    "firstNightReminder": "Réveillez le Jumeau Maléfique et son jumeau. Confirmez qu'ils se sont reconnus. Pointez le Jumeau Maléfique et montrez son jeton rôle au joueur jumeau. Pointer le jumeau et montrez son jeton rôle au joueur Jumeau Maléfique.",
+    "id": "fr_FR_eviltwin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/eviltwin.png?raw=true",
+    "name": "Jumeau Maléfique",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Jumeau"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
   {
     "ability": "Chaque nuit, choisissez un joueur : si vous le nominnez et qu'il est exécuté, son équipe perd. Tous les joueurs sont avertis lorsque vous choisissez un nouveau joueur.",
     "edition": "",
@@ -1291,7 +1425,20 @@
     "setup": false,
     "team": "minion"
   },
-  null,
+  {
+    "ability": "Chaque nuit*, choisissez un joueur et un rôle qu'il devient (s'il n'est pas en jeu) sans changer d’alignement. Si un Démon est créé, les morts de cette nuit seront laissés au choix du Conteur.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_pithag",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pithag.png?raw=true",
+    "name": "Vieille Chouette",
+    "otherNight": 17,
+    "otherNightReminder": "Elle pointe un joueur et un rôle sur sa feuille. Si le rôle n'est pas en jeu: Remplacez le jeton de rôle de ce joueur par le rôle choisi. Réveillez ce joueur et montrez la carte violette « Vous êtes », puis le nouveau rôle et faire signe de la main pour indiquer aucun changement d'alignement.",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
   {
     "ability": "Chaque nuit, choisissez un joueur: il est empoisonné cette nuit ainsi que le jour suivant.",
     "edition": "tb",
@@ -1322,7 +1469,22 @@
     "setup": false,
     "team": "minion"
   },
-  null,
+  {
+    "ability": "S'il y a 5 joueurs vivants ou plus (voyageurs exclus) et que le Démon meurt, vous devenez le nouveau Démon.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_scarletwoman",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scarletwoman.png?raw=true",
+    "name": "Croqueuse d'homme",
+    "otherNight": 20,
+    "otherNightReminder": "Si 5 joueurs vivants ou + (voyageurs exclus) et Démon meurt par exécution, elle remplacera le Démon, la réveiller et lui indiquer.",
+    "reminders": [
+      "Démon"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
   {
     "ability": "Chaque nuit, vous voyez le grimoire. Vous êtes généralement reconnu comme étant « Bon » (Villageois ou Étranger), même si vous êtes mort.",
     "edition": "tb",
@@ -1372,8 +1534,43 @@
     "setup": false,
     "team": "minion"
   },
-  null,
-  null,
+  {
+    "ability": "Chaque nuit*, vous choisissez 3 joueurs (tous les joueurs apprennent de qui il s'agit) et chacun d'eux choisit individuellement de vivre ou mourir. Si tous choisissent de vivrent, alors ils meurent tous.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_alhadikhia",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/alhadikhia.png?raw=true",
+    "name": "Al-Hadikhia",
+    "otherNight": 33,
+    "otherNightReminder": "L'Al-Hadikhia choisit 3 joueurs. Announce the first player, wake them to nod yes to live or shake head no to die, kill or resurrect accordingly, then put to sleep and announce the next player. If all 3 are alive after this, all 3 die.",
+    "reminders": [
+      "1",
+      "2",
+      "3",
+      "Souhaite mourir",
+      "Souhaite vivre"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "Chaque nuit*, choisissez un joueur: il meurt, sauf s’il est un Étranger. Le 1er Étranger vous tue et devient le 2e Fang Gu en jeu [+1 Étranger].",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_fanggu",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fanggu.png?raw=true",
+    "name": "Fang Gu",
+    "otherNight": 29,
+    "otherNightReminder": "Il pointe un joueur: il meurt, sauf s’il est le premier Étranger. Si c’est le cas, tuez le Démon (sans lui indiquer). Réveillez ce premier Étranger, montrez-lui la carte violette « Vous êtes » et le jeton du Démon. Lui faire signe de la main pour indiquer son nouvel alignement maléfique.",
+    "reminders": [
+      "Assassiné",
+      "Transféré"
+    ],
+    "setup": true,
+    "team": "demon"
+  },
   {
     "ability": "Chaque nuit*, choisissez un joueur : il meurt. Si vous vous choisissez, vous mourez et un Sbire vivant devient l’Imp.",
     "edition": "tb",
@@ -1428,7 +1625,24 @@
     "setup": false,
     "team": "demon"
   },
-  null,
+  {
+    "ability": "Chaque nuit, les Sbires choisissent qui garde le jeton P’tit Monstre et « est le Démon ». Un joueur meurt chaque nuit* [+1 Sbire]Chaque nuit, les Sbires choisissent qui garde le jeton P’tit Monstre et « est le Démon ». Un joueur meurt chaque nuit* [+1 Sbire].",
+    "edition": "",
+    "firstNight": 16,
+    "firstNightReminder": "Au début de la nuit, réveillez tous les Sbires. Les Sbires désignent un joueur qui reçoit le jeton P'tit Monstre et devient le Démon.",
+    "id": "fr_FR_lilmonsta",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lilmonsta.png?raw=true",
+    "name": "P'tit monstre",
+    "otherNight": 36,
+    "otherNightReminder": "Au début de la nuit, réveillez tous les Sbires. Les Sbires désignent un joueur qui reçoit le jeton P'tit Monstre et devient le Démon. Plus tard pendant la nuit, le Conteur désigne un joueur qui est aussitôt assassiné (vous pouvez demander la préférence du gardien du P’tit Monstre pour déterminer la cible de celui-ci).",
+    "reminders": [],
+    "remindersGlobal": [
+      "Assassiné",
+      "P’tit Monstre"
+    ],
+    "setup": true,
+    "team": "demon"
+  },
   {
     "ability": "Chaque nuit*, choisissez un joueur : il meurt. La première nuit, vous choisissez un joueur vivant : il devient empoisonné et vous mourrez si et uniquement s'il meurt.",
     "edition": "",
@@ -1446,7 +1660,23 @@
     "setup": false,
     "team": "demon"
   },
-  null,
+  {
+    "ability": "Chaque nuit*, choisissez un joueur: il meurt. Vos deux voisins Villageois (morts ou vifs) qui vous entourent sont empoisonnés.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_nodashii",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/nodashii.png?raw=true",
+    "name": "No Dashii",
+    "otherNight": 30,
+    "otherNightReminder": "Il pointe un joueur: il meurt",
+    "reminders": [
+      "Assassiné",
+      "Empoisonné"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
   {
     "ability": "Chaque nuit*, vous pouvez choisir un joueur et il meurt. Si votre dernier choix n'était personne, choisissez trois joueurs qui mourront cette nuit.",
     "edition": "bmr",
@@ -1630,7 +1860,23 @@
     "setup": false,
     "team": "traveler"
   },
-  null,
+  {
+    "ability": "Une fois par partie, au crépuscule, choisissez un joueur mort: il retrouvera ses capacités jusqu'au crépuscule suivant.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_bonecollector",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bonecollector.png?raw=true",
+    "name": "Collecteur d'os",
+    "otherNight": 1,
+    "otherNightReminder": "Il secoue la tête ou désigne un joueur mort. Ce joueur retrouve ses capacités jusqu'au crépuscule.",
+    "reminders": [
+      "Capacité active",
+      "Inactif"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
   {
     "ability": "Chaque nuit, choisissez un autre joueur: son vote comptera pour 3 votes le jour suivant.",
     "edition": "tb",
@@ -1835,7 +2081,12 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fiddler.png?raw=true",
     "name": "Fiddler"
   },
-  null,
+  {
+    "ability": "Something bad might happen to whoever talks when the Storyteller has asked for silence.",
+    "id": "fr_FR_hellslibrarian",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/hellslibrarian.png?raw=true",
+    "name": "Hell's Librarian"
+  },
   {
     "ability": "2 neighboring players are known to be the same alignment. Once per game, one of them registers falsely",
     "id": "fr_FR_revolutionary",
@@ -1848,8 +2099,18 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
     "name": "Sentinel"
   },
-  null,
-  null,
+  {
+    "ability": "There can't be more than 1 extra evil player.",
+    "id": "fr_FR_spiritofivory",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spiritofivory.png?raw=true",
+    "name": "Spirit Of Ivory"
+  },
+  {
+    "ability": "Name a good character. If in play, they can only die by execution, but evil players learn which player it is.",
+    "id": "fr_FR_stormcatcher",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/stormcatcher.png?raw=true",
+    "name": "Storm Catcher"
+  },
   {
     "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info.",
     "id": "fr_FR_toymaker",

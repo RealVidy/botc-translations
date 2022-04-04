@@ -82,7 +82,22 @@
     "setup": true,
     "team": "townsfolk"
   },
-  null,
+  {
+    "ability": "You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]",
+    "edition": "",
+    "firstNight": 45,
+    "firstNightReminder": "Point to 1 evil player. Wake the townsfolk who is evil and show them the 'You are' card and the thumbs down evil sign.",
+    "id": "ja_JA_bountyhunter",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bountyhunter.png?raw=true",
+    "name": "Bounty Hunter",
+    "otherNight": 65,
+    "otherNightReminder": "If the known evil player has died, point to another evil player.",
+    "reminders": [
+      "Known"
+    ],
+    "setup": true,
+    "team": "townsfolk"
+  },
   {
     "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.",
     "edition": "",
@@ -175,7 +190,20 @@
     "setup": false,
     "team": "townsfolk"
   },
-  null,
+  {
+    "ability": "Each night, you become the alignment of an alive neighbour. If all good players choose to join your cult, your team wins.",
+    "edition": "",
+    "firstNight": 47,
+    "firstNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
+    "id": "ja_JA_cultleader",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cultleader.png?raw=true",
+    "name": "Cult Leader",
+    "otherNight": 67,
+    "otherNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
   {
     "ability": "毎夜、プレイヤーを1人選ぶ（自分は不可）。それが善良な人物1人か邪悪な人物1人のどちらかであることを知ることができる。",
     "edition": "snv",
@@ -299,7 +327,22 @@
     "setup": false,
     "team": "townsfolk"
   },
-  null,
+  {
+    "ability": "毎夜、プレイヤーを2人選び、その中に悪魔がいるかどうかを知ることができる。あなたに対して偽りの情報となる善良のプレイヤーが1人いる。",
+    "edition": "tb",
+    "firstNight": 37,
+    "firstNightReminder": "The Fortune Teller points to two players. Give the head signal (nod yes, shake no) for whether one of those players is the Demon.",
+    "id": "ja_JA_fortuneteller",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fortuneteller.png?raw=true",
+    "name": "占い師",
+    "otherNight": 54,
+    "otherNightReminder": "The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Demon.",
+    "reminders": [
+      "Red herring"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
   {
     "ability": "毎夜(*)、プレイヤーを1人選び、その人物を当てる。それが間違っていた場合、あなたは死亡する。",
     "edition": "bmr",
@@ -645,7 +688,22 @@
     "setup": false,
     "team": "townsfolk"
   },
-  null,
+  {
+    "ability": "Minions & Demons do not know each other. If you die, they learn who each other are that night.",
+    "edition": "",
+    "firstNight": 4,
+    "firstNightReminder": "Do not inform the Demon/Minions who each other are",
+    "id": "ja_JA_poppygrower",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poppygrower.png?raw=true",
+    "name": "Poppy Grower",
+    "otherNight": 3,
+    "otherNightReminder": "If the Poppy Grower has died, show the Minions/Demon who each other are.",
+    "reminders": [
+      "Evil wakes"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
   {
     "ability": "Each night, choose a player: a Minion, if chosen, learns this. All chosen Minions have no ability.",
     "edition": "",
@@ -769,7 +827,22 @@
     "setup": false,
     "team": "townsfolk"
   },
-  null,
+  {
+    "ability": "毎夜、生き残っているプレイヤーを1人選ぶ。選ばれたのが悪魔なら、あなたとそのプレイヤーは人物と所属を入れ替え、その後そのプレイヤーは毒を受ける。",
+    "edition": "snv",
+    "firstNight": 20,
+    "firstNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
+    "id": "ja_JA_snakecharmer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/snakecharmer.png?raw=true",
+    "name": "蛇使い",
+    "otherNight": 12,
+    "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
+    "reminders": [
+      "Poisoned"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
   {
     "ability": "悪魔からは身を護られる。",
     "edition": "tb",
@@ -784,8 +857,39 @@
     "setup": false,
     "team": "townsfolk"
   },
-  null,
-  null,
+  {
+    "ability": "自分の生き残っている両隣が共に善良なら、彼らは死亡しない。",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ja_JA_tealady",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/tealady.png?raw=true",
+    "name": "お茶汲み",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Can not die"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "毎夜(*)、告発された手下がいたかどうかを知ることができる。",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ja_JA_towncrier",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/towncrier.png?raw=true",
+    "name": "触れ役",
+    "otherNight": 59,
+    "otherNightReminder": "Nod 'yes' or shake head 'no' for whether a Minion nominated today. Place the 'Minion not nominated' marker (remove 'Minion nominated', if any).",
+    "reminders": [
+      "Minion nominated",
+      "Minions not nominated"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
   {
     "ability": "毎夜(*)、今日の処刑で死亡したのがどの人物であるかを知ることができる。",
     "edition": "tb",
@@ -1190,8 +1294,38 @@
     "setup": false,
     "team": "minion"
   },
-  null,
-  null,
+  {
+    "ability": "毎夜、生き残っているプレイヤーを1人選ぶ（昨夜選んだプレイヤーは不可）。そのプレイヤーは、翌日に処刑されても死亡しない。",
+    "edition": "bmr",
+    "firstNight": 22,
+    "firstNightReminder": "The Devil’s Advocate points to a living player. That player survives execution tomorrow.",
+    "id": "ja_JA_devilsadvocate",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/devilsadvocate.png?raw=true",
+    "name": "悪魔の代弁者",
+    "otherNight": 14,
+    "otherNightReminder": "The Devil’s Advocate points to a living player, different from the previous night. That player survives execution tomorrow.",
+    "reminders": [
+      "Survives execution"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "あなたと敵側のプレイヤー1人は互いに相手を知っている。その善良なプレイヤーが処刑された場合、邪悪が勝利する。その両方が死亡した場合、善良な側は勝利できない。",
+    "edition": "snv",
+    "firstNight": 23,
+    "firstNightReminder": "Wake the Evil Twin and their twin. Confirm that they have acknowledged each other. Point to the Evil Twin. Show their Evil Twin token to the twin player. Point to the twin. Show their character token to the Evil Twin player.",
+    "id": "ja_JA_eviltwin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/eviltwin.png?raw=true",
+    "name": "邪悪な双子",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Twin"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
   {
     "ability": "Each night, choose a player. If you nominate & execute them, their team loses. All players know if you choose a new player.",
     "edition": "",
@@ -1289,7 +1423,20 @@
     "setup": false,
     "team": "minion"
   },
-  null,
+  {
+    "ability": "毎夜(*)、プレイヤー1人と人物を1人選ぶ。その人物がいないなら、そのプレイヤーはその人物になる。これによりいずれかの悪魔になった場合、今夜の殺害はルールの適用外になる。",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ja_JA_pithag",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pithag.png?raw=true",
+    "name": "痘痕の老婆",
+    "otherNight": 17,
+    "otherNightReminder": "The Pit-Hag points to a player and a character on the sheet. If this character is not in play, wake that player and show them the 'You are' card and the relevant character token. If the character is in play, nothing happens.",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
   {
     "ability": "毎夜、プレイヤーを1人選ぶ。そのプレイヤーの能力は、その夜と翌日の昼は機能しない。",
     "edition": "tb",
@@ -1320,7 +1467,22 @@
     "setup": false,
     "team": "minion"
   },
-  null,
+  {
+    "ability": "プレイヤーが5人以上生き残っていて、悪魔が死亡した場合、あなたは悪魔になる。（旅人は数に入れない）",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ja_JA_scarletwoman",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scarletwoman.png?raw=true",
+    "name": "緋色の女",
+    "otherNight": 20,
+    "otherNightReminder": "If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",
+    "reminders": [
+      "Demon"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
   {
     "ability": "毎夜、魔導書を見る。死亡している場合も含め、自分が善良である、あるいは住民やよそ者であると認知される可能性がある。",
     "edition": "tb",
@@ -1370,8 +1532,43 @@
     "setup": false,
     "team": "minion"
   },
-  null,
-  null,
+  {
+    "ability": "Each night*, choose 3 players (all players learn who): each silently chooses to live or die, but if all live, all die.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ja_JA_alhadikhia",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/alhadikhia.png?raw=true",
+    "name": "Al-Hadikhia",
+    "otherNight": 33,
+    "otherNightReminder": "The Al-Hadikhia chooses 3 players. Announce the first player, wake them to nod yes to live or shake head no to die, kill or resurrect accordingly, then put to sleep and announce the next player. If all 3 are alive after this, all 3 die.",
+    "reminders": [
+      "1",
+      "2",
+      "3",
+      "Chose death",
+      "Chose life"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "毎夜(*)、プレイヤーを1人選ぶ。そのプレイヤーは死亡する。最初によそ者を選んだ時、代わりにそのプレイヤーは邪悪なファン・グーになり、あなたは死亡する。〔よそ者＋1〕",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ja_JA_fanggu",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fanggu.png?raw=true",
+    "name": "ファン・グー",
+    "otherNight": 29,
+    "otherNightReminder": "The Fang Gu points to a player. That player dies. Or, if that player was an Outsider and there are no other Fang Gu in play: The Fang Gu dies instead of the chosen player. The chosen player is now an evil Fang Gu. Wake the new Fang Gu. Show the 'You are' card, then the Fang Gu token. Show the 'You are' card, then the thumb-down 'evil' hand sign.",
+    "reminders": [
+      "Dead",
+      "Once"
+    ],
+    "setup": true,
+    "team": "demon"
+  },
   {
     "ability": "毎夜(*)、プレイヤーを1人選ぶ。そのプレイヤーは死亡する。これにより自分を死亡させた場合、手下が1人インプになる。",
     "edition": "tb",
@@ -1426,7 +1623,24 @@
     "setup": false,
     "team": "demon"
   },
-  null,
+  {
+    "ability": "Each night, Minions choose who babysits Lil' Monsta's token & \"is the Demon\". A player dies each night*. [+1 Minion]",
+    "edition": "",
+    "firstNight": 16,
+    "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",
+    "id": "ja_JA_lilmonsta",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lilmonsta.png?raw=true",
+    "name": "Lil' Monsta",
+    "otherNight": 36,
+    "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
+    "reminders": [],
+    "remindersGlobal": [
+      "Dead",
+      "Is the Demon"
+    ],
+    "setup": true,
+    "team": "demon"
+  },
   {
     "ability": "Each night*, choose a player: they die. You start by choosing an alive player: they are poisoned - you die if & only if they die.",
     "edition": "",
@@ -1444,7 +1658,23 @@
     "setup": false,
     "team": "demon"
   },
-  null,
+  {
+    "ability": "毎夜(*)、プレイヤーを1人選ぶ。そのプレイヤーは死亡する。あなたの両側の最も近い住民は毒を受ける。",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ja_JA_nodashii",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/nodashii.png?raw=true",
+    "name": "ノ・ダシイー",
+    "otherNight": 30,
+    "otherNightReminder": "The No Dashii points to a player. That player dies.",
+    "reminders": [
+      "Dead",
+      "Poisoned"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
   {
     "ability": "毎夜(*)、プレイヤーを1人選んでよい。そのプレイヤーは死亡する。昨夜に誰も選ばなかった場合、今夜はプレイヤーを3人選ぶ。",
     "edition": "bmr",
@@ -1625,7 +1855,23 @@
     "setup": false,
     "team": "traveler"
   },
-  null,
+  {
+    "ability": "ゲーム中に1回、夜の間に、死亡したプレイヤーを1人選ぶ。次の夕暮れまで、そのプレイヤーは自身の能力を取り戻す。",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ja_JA_bonecollector",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bonecollector.png?raw=true",
+    "name": "骨拾い",
+    "otherNight": 1,
+    "otherNightReminder": "The Bone Collector either shakes their head no or points at any dead player. If they pointed at any dead player, put the Bone Collector's 'Has Ability' reminder by the chosen player's character token. (They may need to be woken tonight to use it.)",
+    "reminders": [
+      "Has ability",
+      "No ability"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
   {
     "ability": "毎夜、プレイヤーを1人選ぶ（自分は不可）。翌日、そのプレイヤーの賛成は3票に数える。",
     "edition": "tb",
@@ -1830,7 +2076,12 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fiddler.png?raw=true",
     "name": "バイオリン弾き"
   },
-  null,
+  {
+    "ability": "語り部が口を閉じるよう告げた後に話を続けたプレイヤーに対し、何か悪いことが起こりえる。",
+    "id": "ja_JA_hellslibrarian",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/hellslibrarian.png?raw=true",
+    "name": "地獄の司書"
+  },
   {
     "ability": "いずれかの隣り合っている2名のプレイヤーは、同じ所属であることを知ることができる。ゲーム中に1回、そのうち1人は偽の情報を得る。",
     "id": "ja_JA_revolutionary",
@@ -1843,8 +2094,18 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
     "name": "衛兵"
   },
-  null,
-  null,
+  {
+    "ability": "邪悪側のプレイヤーは最大で1人までしか増えない。",
+    "id": "ja_JA_spiritofivory",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spiritofivory.png?raw=true",
+    "name": "象牙の精"
+  },
+  {
+    "ability": "Name a good character. If in play, they can only die by execution, but evil players learn which player it is.",
+    "id": "ja_JA_stormcatcher",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/stormcatcher.png?raw=true",
+    "name": "Storm Catcher"
+  },
   {
     "ability": "悪魔は誰も攻撃しないことを選ぶことができる。これはゲーム中に1回行う義務がある。邪悪のプレイヤーは通常のゲーム開始時の情報を得る。",
     "id": "ja_JA_toymaker",

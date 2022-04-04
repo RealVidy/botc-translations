@@ -82,7 +82,22 @@
     "setup": true,
     "team": "townsfolk"
   },
-  null,
+  {
+    "ability": "You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]",
+    "edition": "",
+    "firstNight": 45,
+    "firstNightReminder": "Point to 1 evil player. Wake the townsfolk who is evil and show them the 'You are' card and the thumbs down evil sign.",
+    "id": "pl_PL_bountyhunter",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bountyhunter.png?raw=true",
+    "name": "Bounty Hunter",
+    "otherNight": 65,
+    "otherNightReminder": "If the known evil player has died, point to another evil player.",
+    "reminders": [
+      "Known"
+    ],
+    "setup": true,
+    "team": "townsfolk"
+  },
   {
     "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.",
     "edition": "",
@@ -175,7 +190,20 @@
     "setup": false,
     "team": "townsfolk"
   },
-  null,
+  {
+    "ability": "Each night, you become the alignment of an alive neighbour. If all good players choose to join your cult, your team wins.",
+    "edition": "",
+    "firstNight": 47,
+    "firstNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
+    "id": "pl_PL_cultleader",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cultleader.png?raw=true",
+    "name": "Cult Leader",
+    "otherNight": 67,
+    "otherNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
   {
     "ability": "Każdej nocy wybierz gracza (nie siebie, nie wędrowców). Zobaczysz 1 dobrą i 1 złą postać, jedna z nich jest prawidłowa.",
     "edition": "snv",
@@ -299,7 +327,22 @@
     "setup": false,
     "team": "townsfolk"
   },
-  null,
+  {
+    "ability": "Kazdej nocy wybierasz 2 graczy - dowiadujesz sie, czy ktorys z nich jest Demonem. Jeden z dobrych graczy pokazuje Ci sie jako zly.",
+    "edition": "tb",
+    "firstNight": 37,
+    "firstNightReminder": "The Fortune Teller points to two players. Give the head signal (nod yes, shake no) for whether one of those players is the Demon.",
+    "id": "pl_PL_fortuneteller",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fortuneteller.png?raw=true",
+    "name": "Wrozka",
+    "otherNight": 54,
+    "otherNightReminder": "The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Demon.",
+    "reminders": [
+      "Red herring"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
   {
     "ability": "Kazdej nocy* wybierz gracza i zgadnij, ktora jest postacia. Jesli sie pomylisz, umrzesz.",
     "edition": "bmr",
@@ -645,7 +688,22 @@
     "setup": false,
     "team": "townsfolk"
   },
-  null,
+  {
+    "ability": "Minions & Demons do not know each other. If you die, they learn who each other are that night.",
+    "edition": "",
+    "firstNight": 4,
+    "firstNightReminder": "Do not inform the Demon/Minions who each other are",
+    "id": "pl_PL_poppygrower",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poppygrower.png?raw=true",
+    "name": "Poppy Grower",
+    "otherNight": 3,
+    "otherNightReminder": "If the Poppy Grower has died, show the Minions/Demon who each other are.",
+    "reminders": [
+      "Evil wakes"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
   {
     "ability": "Each night, choose a player: a Minion, if chosen, learns this. All chosen Minions have no ability.",
     "edition": "",
@@ -769,7 +827,22 @@
     "setup": false,
     "team": "townsfolk"
   },
-  null,
+  {
+    "ability": "Każdej nocy wybierz żywego gracza - jeśli wybrałeś demona, to zamieniacie się z nim postaciami i drużynami a i zostaje on otruty.",
+    "edition": "snv",
+    "firstNight": 20,
+    "firstNightReminder": "Zaklinacz węży wskazuje gracza. Jeśli ten gracz jest demonem - Zamień postaci i drużyny demona i Zaklinacza. Obudź każdego z nich, aby ich poinformować o nowej roli i drużynie. Nowy Zaklinacz węży jest otruty.",
+    "id": "pl_PL_snakecharmer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/snakecharmer.png?raw=true",
+    "name": "Zaklinacz węży",
+    "otherNight": 12,
+    "otherNightReminder": "Zaklinacz węży wskazuje gracza. Jeśli ten gracz jest demonem - Zamień postaci i drużyny demona i Zaklinacza. Obudź każdego z nich, aby ich poinformować o nowej robi i drużynie. Nowy Zaklinacz węży jest otruty.",
+    "reminders": [
+      "otruty"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
   {
     "ability": "Nie mozesz zostac zabity przez Demona.",
     "edition": "tb",
@@ -784,8 +857,39 @@
     "setup": false,
     "team": "townsfolk"
   },
-  null,
-  null,
+  {
+    "ability": "Jesli obydwoje z Twoich zyjacych sasiadow jest dobrych, zadne z nich nie moze umrzec.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_tealady",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/tealady.png?raw=true",
+    "name": "Herbaciarka",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Can not die"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Każdej nocy* dowiadujesz się, czy sługus dziś nominował",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "Umieść żeton 'sługus nie nominował'.",
+    "id": "pl_PL_towncrier",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/towncrier.png?raw=true",
+    "name": "Krzykacz miejski",
+    "otherNight": 59,
+    "otherNightReminder": "Pokiwaj głową na tak lub pokręć na nie w zależności od tego, czy sługus dziś nominował. Umieść żeton 'sługus nie nominował' (zabierz żeton 'sługus nominował', jeśli tam jest).",
+    "reminders": [
+      "sługus nie nominował",
+      "sługus nominował"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
   {
     "ability": "Kazdej nocy* dowiadujesz sie, ktora postac stracono dzis podczas egzekucji.",
     "edition": "tb",
@@ -1190,8 +1294,38 @@
     "setup": false,
     "team": "minion"
   },
-  null,
-  null,
+  {
+    "ability": "Kazdej nocy wybierz zywego gracza (innego niz poprzedniej nocy). Jesli jutro zostanie stracony, nie umrze.",
+    "edition": "bmr",
+    "firstNight": 22,
+    "firstNightReminder": "The Devil’s Advocate points to a living player. That player survives execution tomorrow.",
+    "id": "pl_PL_devilsadvocate",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/devilsadvocate.png?raw=true",
+    "name": "Adwokat diabla",
+    "otherNight": 14,
+    "otherNightReminder": "The Devil’s Advocate points to a living player, different from the previous night. That player survives execution tomorrow.",
+    "reminders": [
+      "Survives execution"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Ty i gracz z przeciwnej drużyny wiecie, kim jesteście. Jeśli dobry gracz zostanie stracony, zło wygrywa. Dobro nie może wygrać, jeśli żyje obydwoje bliźniaków.",
+    "edition": "snv",
+    "firstNight": 23,
+    "firstNightReminder": "Obudź Złego bliźniaka i jego bliźniaka. Potwierdź, że się zauważyli. Wskaż na Złego bliźniaka. Pokaż jego bliźniakowi żeton Złego bliźniaka. Wskaż na bliźniaka. Pokaż żeton jego postaci Złemu bliźniakowi.",
+    "id": "pl_PL_eviltwin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/eviltwin.png?raw=true",
+    "name": "Zły bliźniak",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "bliźniak"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
   {
     "ability": "Each night, choose a player. If you nominate & execute them, their team loses. All players know if you choose a new player.",
     "edition": "",
@@ -1289,7 +1423,20 @@
     "setup": false,
     "team": "minion"
   },
-  null,
+  {
+    "ability": "Każdej nocy*, wybierz gracza i postać, którą zostanie (jeśli nie ma jej w grze). Jeśli zostanie tak stworzony demon, zgony tej nocy zależą od Bajarza.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_pithag",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pithag.png?raw=true",
+    "name": "Jędza",
+    "otherNight": 17,
+    "otherNightReminder": "Jędza wskazuje na gracza i postać na skrypcie. Jeśli tej postaci nie ma w grze, obudź tego gracza i pokaż mu kartę 'JESTEŚ' i odpowiedni żeton postaci. Jeśli postać jest w grze, nic się nie dzieje.",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
   {
     "ability": "Kazdej nocy wybierz gracza, ktorego umiejetnosc nie zadziala tej nocy ani jutro za dnia.",
     "edition": "tb",
@@ -1320,7 +1467,22 @@
     "setup": false,
     "team": "minion"
   },
-  null,
+  {
+    "ability": "Jesli przy zyciu pozostaje 5 lub wiecej graczy a demon zginie, zostajesz demonem (podroznicy sie nie licza).",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_scarletwoman",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scarletwoman.png?raw=true",
+    "name": "Kochanica diabla",
+    "otherNight": 20,
+    "otherNightReminder": "If the Scarlet Woman became the Demon today: Show the 'YOU ARE' card & then the demon token.",
+    "reminders": [
+      "Demon"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
   {
     "ability": "Kazdej nocy zagladasz do grymuaru. Mozesz pokazac sie jako dobry i jako mieszczanin lub outsider, nawet po smierci.",
     "edition": "tb",
@@ -1370,8 +1532,42 @@
     "setup": false,
     "team": "minion"
   },
-  null,
-  null,
+  {
+    "ability": "Each night*, choose 3 players (all players learn who): each silently chooses to live or die, but if all live, all die.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_alhadikhia",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/alhadikhia.png?raw=true",
+    "name": "Al-Hadikhia",
+    "otherNight": 33,
+    "otherNightReminder": "The Al-Hadikhia chooses 3 players. Announce the first player, wake them to nod yes to live or shake head no to die, kill or resurrect accordingly, then put to sleep and announce the next player. If all 3 are alive after this, all 3 die.",
+    "reminders": [
+      "1",
+      "2",
+      "3",
+      "Chose death",
+      "Chose life"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "Każdej nocy* wybierz gracza, który umiera. Pierwszy outsider, którego tak zabijesz, zostaje złym Fang Gu, a Ty giniesz zamiast niego. [+1 Outsider]",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_fanggu",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fanggu.png?raw=true",
+    "name": "Fang Gu",
+    "otherNight": 29,
+    "otherNightReminder": "Fang Gu wskazuje gracza. Gracz ten umiera. Lub, jeśli ten gracz jest outsiderem i nie ma w grze innego Fang Gu - demon ginie zamiast wybranego gracza. Wybrany gracz jest teraz złym Fang Gu. Obudź nowego Fang Gu. Pokaż mu kartę 'JESTEŚ' i żeton Fang Gu, potem pokaż kciukiem do dołu, że jest zły.",
+    "reminders": [
+      "zgon"
+    ],
+    "setup": true,
+    "team": "demon"
+  },
   {
     "ability": "Kazdej nocy wybierz gracza, ktory umiera. Jesli zabijesz w ten sposob siebie, slugus zostaje demonem.",
     "edition": "tb",
@@ -1426,7 +1622,24 @@
     "setup": false,
     "team": "demon"
   },
-  null,
+  {
+    "ability": "Each night, Minions choose who babysits Lil' Monsta's token & \"is the Demon\". A player dies each night*. [+1 Minion]",
+    "edition": "",
+    "firstNight": 16,
+    "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",
+    "id": "pl_PL_lilmonsta",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lilmonsta.png?raw=true",
+    "name": "Lil' Monsta",
+    "otherNight": 36,
+    "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
+    "reminders": [],
+    "remindersGlobal": [
+      "Dead",
+      "Is the Demon"
+    ],
+    "setup": true,
+    "team": "demon"
+  },
   {
     "ability": "Each night*, choose a player: they die. You start by choosing an alive player: they are poisoned - you die if & only if they die.",
     "edition": "",
@@ -1444,7 +1657,23 @@
     "setup": false,
     "team": "demon"
   },
-  null,
+  {
+    "ability": "Każdej nocy* wybierz gracza, który umiera. Dwójka sąsiadujących z Tobą mieszczan jest otruta.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_nodashii",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/nodashii.png?raw=true",
+    "name": "No Dashii",
+    "otherNight": 30,
+    "otherNightReminder": "No Dashii wskazuje gracza. Gracz ten umiera.",
+    "reminders": [
+      "otruty",
+      "zgon"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
   {
     "ability": "Kazdej nocy*, mozesz wybrac gracza, ktory umrze. Jesli poprzednio nie wybrales nikogo, tej nocy wybierz 3 graczy.",
     "edition": "bmr",
@@ -1625,7 +1854,23 @@
     "setup": false,
     "team": "traveler"
   },
-  null,
+  {
+    "ability": "Raz w trakcie gry, nocą, wybierz martwego gracza - odzyskuje on swoją zdolność postaci do zmierzchu.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_bonecollector",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bonecollector.png?raw=true",
+    "name": "Kolekcjoner kości",
+    "otherNight": 1,
+    "otherNightReminder": "Kolekcjoner kości albo kręci głową na nie albo wskazuje któregokolwiek martwego gracza. Jeśli wskazał martwego gracza, oznacz go żetonem Kolekcjonera 'ma zdolność' przy jego żetonie postaci. (Możliwe, że będziesz musiał obudzić tego gracza, żeby skorzystał ze swojej zdolności.)",
+    "reminders": [
+      "brak zdolności",
+      "ma zdolność"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
   {
     "ability": "Each night, choose a player (not yourself): their vote counts as 3 votes tomorrow.",
     "edition": "tb",
@@ -1830,7 +2075,12 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fiddler.png?raw=true",
     "name": "Fiddler"
   },
-  null,
+  {
+    "ability": "Something bad might happen to whoever talks when the Storyteller has asked for silence.",
+    "id": "pl_PL_hellslibrarian",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/hellslibrarian.png?raw=true",
+    "name": "Hell's Librarian"
+  },
   {
     "ability": "2 neighboring players are known to be the same alignment. Once per game, one of them registers falsely",
     "id": "pl_PL_revolutionary",
@@ -1843,8 +2093,18 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
     "name": "Sentinel"
   },
-  null,
-  null,
+  {
+    "ability": "There can't be more than 1 extra evil player.",
+    "id": "pl_PL_spiritofivory",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spiritofivory.png?raw=true",
+    "name": "Spirit Of Ivory"
+  },
+  {
+    "ability": "Name a good character. If in play, they can only die by execution, but evil players learn which player it is.",
+    "id": "pl_PL_stormcatcher",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/stormcatcher.png?raw=true",
+    "name": "Storm Catcher"
+  },
   {
     "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info.",
     "id": "pl_PL_toymaker",
