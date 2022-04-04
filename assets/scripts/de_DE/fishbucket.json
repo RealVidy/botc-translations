@@ -2038,78 +2038,91 @@
     "ability": "Something bad might happen to whoever is most responsible for the death of a new player.",
     "id": "de_DE_angel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/angel.png?raw=true",
-    "name": "Angel"
+    "name": "Angel",
+    "team": "fabled"
   },
   {
     "ability": "For the first 2 minutes of each day, veteran players may not talk.",
     "id": "de_DE_buddhist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/buddhist.png?raw=true",
-    "name": "Buddhist"
+    "name": "Buddhist",
+    "team": "fabled"
   },
   {
     "ability": "Use the Djinn's special rule. All players know what it is.",
     "id": "de_DE_djinn",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/djinn.png?raw=true",
-    "name": "Djinn"
+    "name": "Djinn",
+    "team": "fabled"
   },
   {
     "ability": "If 4 or more players live, each living player may publicly choose (once per game) that a player of their own alignment dies.",
     "id": "de_DE_doomsayer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/doomsayer.png?raw=true",
-    "name": "Doomsayer"
+    "name": "Doomsayer",
+    "team": "fabled"
   },
   {
     "ability": "Each day, 3 players may choose to visit you. At night*, each visitor learns how many visitors are evil, but 1 gets false info.",
     "id": "de_DE_duchess",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/duchess.png?raw=true",
-    "name": "Duchess"
+    "name": "Duchess",
+    "team": "fabled"
   },
   {
     "ability": "Once per game, 1 good player might get false information.",
     "id": "de_DE_fibbin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fibbin.png?raw=true",
-    "name": "Fibbin"
+    "name": "Fibbin",
+    "team": "fabled"
   },
   {
     "ability": "Once per game, the Demon secretly chooses an opposing player: all players choose which of these 2 players win.",
     "id": "de_DE_fiddler",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fiddler.png?raw=true",
-    "name": "Fiddler"
+    "name": "Fiddler",
+    "team": "fabled"
   },
   {
     "ability": "Something bad might happen to whoever talks when the Storyteller has asked for silence.",
     "id": "de_DE_hellslibrarian",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/hellslibrarian.png?raw=true",
-    "name": "Hell's Librarian"
+    "name": "Hell's Librarian",
+    "team": "fabled"
   },
   {
     "ability": "2 neighboring players are known to be the same alignment. Once per game, one of them registers falsely",
     "id": "de_DE_revolutionary",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/revolutionary.png?raw=true",
-    "name": "Revolutionary"
+    "name": "Revolutionary",
+    "team": "fabled"
   },
   {
     "ability": "There might be 1 extra or 1 fewer Outsider in-play.",
     "id": "de_DE_sentinel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
-    "name": "Sentinel"
+    "name": "Sentinel",
+    "team": "fabled"
   },
   {
     "ability": "There can't be more than 1 extra evil player.",
     "id": "de_DE_spiritofivory",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spiritofivory.png?raw=true",
-    "name": "Spirit Of Ivory"
+    "name": "Spirit Of Ivory",
+    "team": "fabled"
   },
   {
     "ability": "Name a good character. If in play, they can only die by execution, but evil players learn which player it is.",
     "id": "de_DE_stormcatcher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/stormcatcher.png?raw=true",
-    "name": "Storm Catcher"
+    "name": "Storm Catcher",
+    "team": "fabled"
   },
   {
     "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info.",
     "id": "de_DE_toymaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/toymaker.png?raw=true",
-    "name": "Toymaker"
+    "name": "Toymaker",
+    "team": "fabled"
   }
 ]

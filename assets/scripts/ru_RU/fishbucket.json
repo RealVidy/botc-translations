@@ -2038,78 +2038,91 @@
     "ability": "Иногда с тем, кто внес наибольший вклад в гибель новичка, может случиться что-то плохое.",
     "id": "ru_RU_angel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/angel.png?raw=true",
-    "name": "Ангел"
+    "name": "Ангел",
+    "team": "fabled"
   },
   {
     "ability": "В течение первых 2 минут каждого дня опытным игрокам запрещено разговаривать.",
     "id": "ru_RU_buddhist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/buddhist.png?raw=true",
-    "name": "Буддист"
+    "name": "Буддист",
+    "team": "fabled"
   },
   {
     "ability": "Особое правило Джинна в силе. Оно известно всем игрокам.",
     "id": "ru_RU_djinn",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/djinn.png?raw=true",
-    "name": "Джинн"
+    "name": "Джинн",
+    "team": "fabled"
   },
   {
     "ability": "Пока в живых есть 4 или больше игроков, каждый живой игрок может (один раз за игру) открыто потребовать, чтобы умер кто-то на его стороне.",
     "id": "ru_RU_doomsayer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/doomsayer.png?raw=true",
-    "name": "Паникер"
+    "name": "Паникер",
+    "team": "fabled"
   },
   {
     "ability": "Каждый день ровно 3 игрока могут посетить вас. Ночью* каждый посетитель узнает, сколько среди посетителей злых игроков, но один из них получит неверную информацию.",
     "id": "ru_RU_duchess",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/duchess.png?raw=true",
-    "name": "Герцогиня"
+    "name": "Герцогиня",
+    "team": "fabled"
   },
   {
     "ability": "Один раз за игру 1 добрый игрок иногда может получить неверную информацию.",
     "id": "ru_RU_fibbin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fibbin.png?raw=true",
-    "name": "Врунишка"
+    "name": "Врунишка",
+    "team": "fabled"
   },
   {
     "ability": "Один раз за игру Демон тайно выбирает игрока из противоположной команды: все игроки сообща присуждают победу одному из этих двоих игроков.",
     "id": "ru_RU_fiddler",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fiddler.png?raw=true",
-    "name": "Скрипач"
+    "name": "Скрипач",
+    "team": "fabled"
   },
   {
     "ability": "Иногда с тем, кто разговаривал, когда Рассказчик попросил тишины, может произойти что-то плохое.",
     "id": "ru_RU_hellslibrarian",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/hellslibrarian.png?raw=true",
-    "name": "Тишина в зале"
+    "name": "Тишина в зале",
+    "team": "fabled"
   },
   {
     "ability": "Всем известно, что 2 сидящих рядом игрока находятся на одной стороне. Один раз за игру, 1 из них иногда может неверно представиться.",
     "id": "ru_RU_revolutionary",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/revolutionary.png?raw=true",
-    "name": "Революционер"
+    "name": "Революционер",
+    "team": "fabled"
   },
   {
     "ability": "В игре иногда может быть на 1 Изгоя больше или меньше, чем должно быть.",
     "id": "ru_RU_sentinel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
-    "name": "Привратник"
+    "name": "Привратник",
+    "team": "fabled"
   },
   {
     "ability": "На стороне зла не может быть более одного лишнего игрока.",
     "id": "ru_RU_spiritofivory",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spiritofivory.png?raw=true",
-    "name": "Дух-защитник"
+    "name": "Дух-защитник",
+    "team": "fabled"
   },
   {
     "ability": "Назовите добрую роль. Если она находится в игре, то ее владелец может быть убит только на казни, но злым игрокам будет известно, кто он.",
     "id": "ru_RU_stormcatcher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/stormcatcher.png?raw=true",
-    "name": "Киногерой"
+    "name": "Киногерой",
+    "team": "fabled"
   },
   {
     "ability": "Демон может воздержаться от атаки и обязан это сделать хотя бы раз за игру. Злые игроки получают обычную стартовую информацию.",
     "id": "ru_RU_toymaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/toymaker.png?raw=true",
-    "name": "Куклодел"
+    "name": "Куклодел",
+    "team": "fabled"
   }
 ]

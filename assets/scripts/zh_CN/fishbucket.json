@@ -2032,78 +2032,91 @@
     "ability": "如果一名新手玩家即将死亡，可能会有糟糕的事情发生在造成其死亡责任最大的玩家身上。",
     "id": "zh_CN_angel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/angel.png?raw=true",
-    "name": "天使"
+    "name": "天使",
+    "team": "fabled"
   },
   {
     "ability": "在每个白天的第一轮发言或自由发言的前两分钟内，老手玩家不能发言。",
     "id": "zh_CN_buddhist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/buddhist.png?raw=true",
-    "name": "活佛"
+    "name": "活佛",
+    "team": "fabled"
   },
   {
     "ability": "使用灯神的特殊规则，所有玩家都知道那个特殊规则是什么。（在使用脚本自动生成剧本时，用以处理规则上较为不平衡或无法生效的技能时参考）",
     "id": "zh_CN_djinn",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/djinn.png?raw=true",
-    "name": "灯神"
+    "name": "灯神",
+    "team": "fabled"
   },
   {
     "ability": "如果有四名或更多玩家存活，每个存活玩家可公开选择发动此效果（每位玩家限一次）；效果发动后，会有一名与自己同阵营的玩家死亡。",
     "id": "zh_CN_doomsayer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/doomsayer.png?raw=true",
-    "name": "灾难预言者"
+    "name": "灾难预言者",
+    "team": "fabled"
   },
   {
     "ability": "每个白天，至多三名角色可以选择拜访你。每个夜晚*，这些访客会得知当天有多少名访客是邪恶阵营，但其中一位得到的信息会是错误的。",
     "id": "zh_CN_duchess",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/duchess.png?raw=true",
-    "name": "女爵"
+    "name": "女爵",
+    "team": "fabled"
   },
   {
     "ability": "每局游戏限一次，可能会有一名善良阵营的玩家获得错误的信息。",
     "id": "zh_CN_fibbin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fibbin.png?raw=true",
-    "name": "小骗子"
+    "name": "小骗子",
+    "team": "fabled"
   },
   {
     "ability": "每局游戏限一次，恶魔可以秘密的选择自己和一名对立阵营的玩家：所有玩家需要投票表决这两名玩家中的一位，让其所属的阵营胜利。",
     "id": "zh_CN_fiddler",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fiddler.png?raw=true",
-    "name": "小提琴家"
+    "name": "小提琴家",
+    "team": "fabled"
   },
   {
     "ability": "当说书人宣布安静时，可能会有糟糕的事情发生在还在说话的玩家身上。",
     "id": "zh_CN_hellslibrarian",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/hellslibrarian.png?raw=true",
-    "name": "地狱藏书馆员"
+    "name": "地狱藏书馆员",
+    "team": "fabled"
   },
   {
     "ability": "会有一对玩家相邻坐着，且会被其他玩家得知他们一定为同一阵营。这两个玩家之间可以随意说悄悄话。每局游戏限一次，其中一人获得的信息会是错误的。",
     "id": "zh_CN_revolutionary",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/revolutionary.png?raw=true",
-    "name": "革命家"
+    "name": "革命家",
+    "team": "fabled"
   },
   {
     "ability": "游戏开始时可能会多或者少一名外来者。",
     "id": "zh_CN_sentinel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
-    "name": "哨兵"
+    "name": "哨兵",
+    "team": "fabled"
   },
   {
     "ability": "游戏过程中比不可能再产生超过一名邪恶玩家。",
     "id": "zh_CN_spiritofivory",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spiritofivory.png?raw=true",
-    "name": "象牙精魄"
+    "name": "象牙精魄",
+    "team": "fabled"
   },
   {
     "ability": "宣布一个善良阵营角色。如果那个角色在场，则对应玩家只能因处决而死亡。但邪恶玩家会得知拥有这个身份的玩家是谁。",
     "id": "zh_CN_stormcatcher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/stormcatcher.png?raw=true",
-    "name": "暴风捕手"
+    "name": "暴风捕手",
+    "team": "fabled"
   },
   {
     "ability": "恶魔可以选择不在夜晚杀人，且必须至少在一局游戏里这样选择一次。",
     "id": "zh_CN_toymaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/toymaker.png?raw=true",
-    "name": "玩具制造商"
+    "name": "玩具制造商",
+    "team": "fabled"
   }
 ]

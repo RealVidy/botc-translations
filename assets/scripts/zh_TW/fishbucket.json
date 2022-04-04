@@ -2038,78 +2038,91 @@
     "ability": "任何需要對新玩家的死亡負最大責任的玩家可能會受到懲罰。",
     "id": "zh_TW_angel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/angel.png?raw=true",
-    "name": "天使"
+    "name": "天使",
+    "team": "fabled"
   },
   {
     "ability": "每天白天開始的前兩分鐘，老手玩家不能交談。",
     "id": "zh_TW_buddhist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/buddhist.png?raw=true",
-    "name": "佛教徒"
+    "name": "佛教徒",
+    "team": "fabled"
   },
   {
     "ability": "使用神靈的特殊規則。所有玩家都得知這個規則。",
     "id": "zh_TW_djinn",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/djinn.png?raw=true",
-    "name": "神靈"
+    "name": "神靈",
+    "team": "fabled"
   },
   {
     "ability": "如果有四個或更多玩家活著，每個活著的玩家都可以公開選擇(每場遊戲一次)一位與自己同隊伍的玩家：該玩家死亡。",
     "id": "zh_TW_doomsayer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/doomsayer.png?raw=true",
-    "name": "末日審判者"
+    "name": "末日審判者",
+    "team": "fabled"
   },
   {
     "ability": "每天白天，至多三位玩家可以拜訪說書人。當晚*，他們得知有多少拜訪者是邪惡的，但其中一位得到不正確的訊息。",
     "id": "zh_TW_duchess",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/duchess.png?raw=true",
-    "name": "夫人"
+    "name": "夫人",
+    "team": "fabled"
   },
   {
     "ability": "每場遊戲一次，一位好人玩家可能會得到不正確的資訊。",
     "id": "zh_TW_fibbin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fibbin.png?raw=true",
-    "name": "小仙子"
+    "name": "小仙子",
+    "team": "fabled"
   },
   {
     "ability": "每場遊戲一次，惡魔私下選擇一位對手：所有玩家選擇這兩位中哪一位獲勝。",
     "id": "zh_TW_fiddler",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fiddler.png?raw=true",
-    "name": "提琴手"
+    "name": "提琴手",
+    "team": "fabled"
   },
   {
     "ability": "在說書人要求安靜時說話的玩家可能會受到懲罰。",
     "id": "zh_TW_hellslibrarian",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/hellslibrarian.png?raw=true",
-    "name": "地獄圖書管理員"
+    "name": "地獄圖書管理員",
+    "team": "fabled"
   },
   {
     "ability": "兩位相鄰的玩家會被設定為相同隊伍。每場遊戲一次，其中一位玩家的身分會被視為不正確的隊伍或角色。",
     "id": "zh_TW_revolutionary",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/revolutionary.png?raw=true",
-    "name": "革命家"
+    "name": "革命家",
+    "team": "fabled"
   },
   {
     "ability": "城外人數量可能會加一或減一。",
     "id": "zh_TW_sentinel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
-    "name": "哨兵"
+    "name": "哨兵",
+    "team": "fabled"
   },
   {
     "ability": "不能存在超過一個的額外邪惡玩家。",
     "id": "zh_TW_spiritofivory",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spiritofivory.png?raw=true",
-    "name": "象牙精"
+    "name": "象牙精",
+    "team": "fabled"
   },
   {
     "ability": "選擇一個角色名稱。如果該角色在遊戲中，該角色的玩家只能死於處刑，但邪惡玩家知道他是哪位玩家。",
     "id": "zh_TW_stormcatcher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/stormcatcher.png?raw=true",
-    "name": "捕風手"
+    "name": "捕風手",
+    "team": "fabled"
   },
   {
     "ability": "惡魔晚上時可以選擇不攻擊(且一局遊戲中至少要做一次)。邪惡玩家正常地獲得起始資訊。",
     "id": "zh_TW_toymaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/toymaker.png?raw=true",
-    "name": "玩具製造商"
+    "name": "玩具製造商",
+    "team": "fabled"
   }
 ]

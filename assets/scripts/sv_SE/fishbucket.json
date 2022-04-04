@@ -2038,78 +2038,91 @@
     "ability": "Något dåligt kan hända för spelaren som är mest ansvarig för en ny spelares död.",
     "id": "sv_SE_angel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/angel.png?raw=true",
-    "name": "Ängel"
+    "name": "Ängel",
+    "team": "fabled"
   },
   {
     "ability": "De första 2 minuterna varje dag, får inte erfarna spelare prata.",
     "id": "sv_SE_buddhist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/buddhist.png?raw=true",
-    "name": "Buddhist"
+    "name": "Buddhist",
+    "team": "fabled"
   },
   {
     "ability": "Använd Djins specialregel. Alla spelare vet vad regeln är.",
     "id": "sv_SE_djinn",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/djinn.png?raw=true",
-    "name": "Djinn"
+    "name": "Djinn",
+    "team": "fabled"
   },
   {
     "ability": "Om 4 eller fler spelare lever, så får varje levande spelare publikt välja (en gång per spel) att den spelare på samma lag som dem dör.",
     "id": "sv_SE_doomsayer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/doomsayer.png?raw=true",
-    "name": "Domedagsprofet"
+    "name": "Domedagsprofet",
+    "team": "fabled"
   },
   {
     "ability": "Varje dag, 3 spelare kan välja att besöka dig. På natten*, varje besökare lär sig hur många besökare är onda, men 1 får falsk information.",
     "id": "sv_SE_duchess",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/duchess.png?raw=true",
-    "name": "Hertiginna"
+    "name": "Hertiginna",
+    "team": "fabled"
   },
   {
     "ability": "En gång per spel, 1 god spelare kan få falsk information.",
     "id": "sv_SE_fibbin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fibbin.png?raw=true",
-    "name": "Fibbin"
+    "name": "Fibbin",
+    "team": "fabled"
   },
   {
     "ability": "En gång per spel, Demonen väljer i hemlighet en spelare av motsatt lag: alla spelare väljer vilken av dessa 2 spelare vinner.",
     "id": "sv_SE_fiddler",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fiddler.png?raw=true",
-    "name": "Violinist"
+    "name": "Violinist",
+    "team": "fabled"
   },
   {
     "ability": "Något dåligt kan hända till den spelaren som pratar över Sagoberättaren om du har bett om tystnad.",
     "id": "sv_SE_hellslibrarian",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/hellslibrarian.png?raw=true",
-    "name": "Helvetets Biblotikarie"
+    "name": "Helvetets Biblotikarie",
+    "team": "fabled"
   },
   {
     "ability": "Alla vet att 2 stycken grannar är på samma lag. En gång per spel, en av dom registrerar falskt.",
     "id": "sv_SE_revolutionary",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/revolutionary.png?raw=true",
-    "name": "Revolutionär"
+    "name": "Revolutionär",
+    "team": "fabled"
   },
   {
     "ability": "Det kan vara 1 extra eller 1 färre Outsider i spel.",
     "id": "sv_SE_sentinel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
-    "name": "Vakt"
+    "name": "Vakt",
+    "team": "fabled"
   },
   {
     "ability": "Det kan inte finnas mer än 1 extra ond spelare.",
     "id": "sv_SE_spiritofivory",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spiritofivory.png?raw=true",
-    "name": "Spirit Of Ivory"
+    "name": "Spirit Of Ivory",
+    "team": "fabled"
   },
   {
     "ability": "Välj en god karaktär. Om den är i spel, kan de bara dö av avrättning, men onda spelare vet vilken spelare det är.",
     "id": "sv_SE_stormcatcher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/stormcatcher.png?raw=true",
-    "name": "Stormfångare"
+    "name": "Stormfångare",
+    "team": "fabled"
   },
   {
     "ability": "Demonen kan välja att inte attackera & måste göra det minst en gång per spel. Onda spelare får normal start-information.",
     "id": "sv_SE_toymaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/toymaker.png?raw=true",
-    "name": "Leksaksmakare"
+    "name": "Leksaksmakare",
+    "team": "fabled"
   }
 ]

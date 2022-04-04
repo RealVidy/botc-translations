@@ -2038,78 +2038,91 @@
     "ability": "Algo malo puede pasarle a aquel que tenga mayor responsabilidad en la muerte de un nuevo jugador.",
     "id": "es_ES_angel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/angel.png?raw=true",
-    "name": "Ángel"
+    "name": "Ángel",
+    "team": "fabled"
   },
   {
     "ability": "Los primeros 2 minutos de cada día, los jugadores veteranos no pueden hablar.",
     "id": "es_ES_buddhist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/buddhist.png?raw=true",
-    "name": "Budista"
+    "name": "Budista",
+    "team": "fabled"
   },
   {
     "ability": "Usa la regla especial del Genio. Todos los jugadores la conocen.",
     "id": "es_ES_djinn",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/djinn.png?raw=true",
-    "name": "Genio"
+    "name": "Genio",
+    "team": "fabled"
   },
   {
     "ability": "Si 4 o más jugadores viven, cada jugador vivo puede decidir públicamente (una vez por partida) que un jugador de su propio bando muere.",
     "id": "es_ES_doomsayer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/doomsayer.png?raw=true",
-    "name": "Agorero"
+    "name": "Agorero",
+    "team": "fabled"
   },
   {
     "ability": "Cada día, 3 jugadores pueden decidir visitarte. Durante la noche*, cada visitante sabrá cuántos visitantes son malignos, pero 1 recibe información falsa.",
     "id": "es_ES_duchess",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/duchess.png?raw=true",
-    "name": "Duquesa"
+    "name": "Duquesa",
+    "team": "fabled"
   },
   {
     "ability": "Una vez por partida, 1 jugador honrado podría recibir información falsa.",
     "id": "es_ES_fibbin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fibbin.png?raw=true",
-    "name": "Embustero"
+    "name": "Embustero",
+    "team": "fabled"
   },
   {
     "ability": "Una vez por partida, el Demonio elige en secreto a un jugador del bando opuesto: todos los jugadores deciden cuál de estos dos jugadores gana.",
     "id": "es_ES_fiddler",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fiddler.png?raw=true",
-    "name": "Violinista"
+    "name": "Violinista",
+    "team": "fabled"
   },
   {
     "ability": "Algo malo puede pasar a quien hable cuando el Narrador ha pedido guardar silencio.",
     "id": "es_ES_hellslibrarian",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/hellslibrarian.png?raw=true",
-    "name": "Bibliotecario infernal"
+    "name": "Bibliotecario infernal",
+    "team": "fabled"
   },
   {
     "ability": "2 jugadores sentados juntos son del mismo bando. Una vez por partida, uno de ellos aparece como de otro bando.",
     "id": "es_ES_revolutionary",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/revolutionary.png?raw=true",
-    "name": "Revolucionario"
+    "name": "Revolucionario",
+    "team": "fabled"
   },
   {
     "ability": "Podría haber 1 Forastero extra o 1 Forastero menos en la partida.",
     "id": "es_ES_sentinel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
-    "name": "Centinela"
+    "name": "Centinela",
+    "team": "fabled"
   },
   {
     "ability": "No puede haber más de 1 jugador maligno extra.",
     "id": "es_ES_spiritofivory",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spiritofivory.png?raw=true",
-    "name": "Espíritu de marfil"
+    "name": "Espíritu de marfil",
+    "team": "fabled"
   },
   {
     "ability": "Nombra un personaje honrado. Si está en la partida, solo podrá morir ejecutado, pero los jugadores malignos sabrán qué jugador es.",
     "id": "es_ES_stormcatcher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/stormcatcher.png?raw=true",
-    "name": "Cazatormentas"
+    "name": "Cazatormentas",
+    "team": "fabled"
   },
   {
     "ability": "El Demonio puede elegir no atacar y debe hacerlo al menos una vez por partida. Los jugadores malignos obtienen la información inicial normal.",
     "id": "es_ES_toymaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/toymaker.png?raw=true",
-    "name": "Juguetero"
+    "name": "Juguetero",
+    "team": "fabled"
   }
 ]
