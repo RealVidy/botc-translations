@@ -1,0 +1,394 @@
+[
+  {
+    "ability": "La première nuit, le Conteur vous indique votre descendance et son rôle « bon ». Si elle est tuée par le Démon, vous mourrez également.",
+    "edition": "bmr",
+    "firstNight": 39,
+    "firstNightReminder": "Pointer sa descendance et montrer le rôle de celui-ci.",
+    "id": "fr_FR_grandmother",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/grandmother.png?raw=true",
+    "name": "Mamie",
+    "otherNight": 50,
+    "otherNightReminder": "Si sa descendance a été tué par le démon cette nuit: La Mamie meurt.",
+    "reminders": [
+      "Descendance"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Chaque nuit, vous apprenez 1 joueur de chaque type, jusqu'à ce qu'il n'y ait plus de types à découvrir [+1 Étranger].",
+    "edition": "",
+    "firstNight": 44,
+    "firstNightReminder": "Choisissez un type de rôle. Pointez un joueur dont le rôle est de ce type. Placez le rappel « Vu » de l'Aéronaute sous ce rôle.",
+    "id": "fr_FR_balloonist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/balloonist.png?raw=true",
+    "name": "Aéronaute",
+    "otherNight": 63,
+    "otherNightReminder": "Choisissez un type de rôle que vous n'avez pas encore choisi. Pointez un joueur dont le rôle est de ce type. Placez le rappel « Vu » de l'Aéronaute sous ce rôle.",
+    "reminders": [
+      "Vu Démon",
+      "Vu Sbire",
+      "Vu Villageois",
+      "Vu Voyageur",
+      "Vu Étranger"
+    ],
+    "setup": true,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Chaque nuit, choisissez un joueur vivant. Si vous avez choisi un Démon, vous échangez de rôle avec lui et il devient empoisonné.",
+    "edition": "snv",
+    "firstNight": 20,
+    "firstNightReminder": "Il pointe un joueur. Si ce joueur est le Démon: Échangez leurs jetons rôle. Lui Indiquer qu'il est le nouveau Démon. Montrez-lui la carte violette « Vous êtes » et le jeton Démon. Réveillez l'ancien Démon et montrez-lui la carte violette « Vous êtes », le jeton Charmeur de serpent et un pouce vers le haut et il est maintenant empoisonné.",
+    "id": "fr_FR_snakecharmer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/snakecharmer.png?raw=true",
+    "name": "Charmeur de serpent",
+    "otherNight": 12,
+    "otherNightReminder": "Il pointe un joueur. Si ce joueur est le Démon: Échangez leurs jetons rôle. Lui Indiquer qu'il est le nouveau Démon. Montrez-lui la carte violette « Vous êtes » et le jeton Démon. Réveillez l'ancien Démon et montrez-lui la carte violette « Vous êtes », le jeton Charmeur de serpent et un pouce vers le haut et il est maintenant empoisonné.",
+    "reminders": [
+      "Empoisonné"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Chaque nuit, prenez l'alignement d'un voisin vivant: si tous les « bons » joueurs choisissent de rejoindre votre culte, votre équipe gagne.",
+    "edition": "",
+    "firstNight": 47,
+    "firstNightReminder": "Le Conteur choisi : l'alignement du Chef de culte basé sur un de ces voisin vivant. Si son alignement change : Réveiller-le et montrez-lui la carte violette « Vous êtes », puis le signal de la main (pouce en haut ou pouce en bas).",
+    "id": "fr_FR_cultleader",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cultleader.png?raw=true",
+    "name": "Chef de secte",
+    "otherNight": 67,
+    "otherNightReminder": "Le Conteur choisi : l'alignement du Chef de culte basé sur un de ces voisin vivant. Si son alignement change : Réveiller-le et montrez-lui la carte violette « Vous êtes », puis le signal de la main (pouce en haut ou pouce en bas).",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Chaque nuit*, vous apprenez si le démon a voté.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "Placez le jeton “Aucun vote”.",
+    "id": "fr_FR_flowergirl",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/flowergirl.png?raw=true",
+    "name": "Fleuriste",
+    "otherNight": 58,
+    "otherNightReminder": "Indiquer d'un signal de tête (hocher oui, secouer non) pour indiquer si le Démon a voté aujourd'hui. Remplacer le jeton “Vote” par le “Aucun vote” (le cas échéant).",
+    "reminders": [
+      "Aucun Vote",
+      "Démon Vote"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Chaque jour, visitez le Conteur pour apprendre: une vérité et un mensonge.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_savant",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/savant.png?raw=true",
+    "name": "Savant",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Vous ne connaissez pas votre capacité. Chaque jour, tentez de la deviner en privé : vous apprenez à quel point vous êtes précis.",
+    "edition": "",
+    "firstNight": 12,
+    "firstNightReminder": "Décidez de la capacité de l'Amnésique. Si sa capacité l'amène à se réveiller la nuit : réveillez l'amnésique et activez sa capacité.",
+    "id": "fr_FR_amnesiac",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/amnesiac.png?raw=true",
+    "name": "Amnesique",
+    "otherNight": 5,
+    "otherNightReminder": "Si la capacité de l'Amnésique l'amène à se réveiller la nuit: Réveillez l'amnésique et activer sa capacité.",
+    "reminders": [
+      "?"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Votre première journée, devinez publiquement jusqu'à 5 combinaisons joueur-rôle. La nuit suivante, vous apprendrez combien étaient correctes.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_juggler",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/juggler.png?raw=true",
+    "name": "Jongleur",
+    "otherNight": 62,
+    "otherNightReminder": "La première journée du Jongleur : Indiquer le nombre combinaison joueur- rôles réussi. Retirez les jetons.",
+    "reminders": [
+      "Correct"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Une fois par partie, de nuit, choisissez un joueur qui apprendra qui vous êtes.",
+    "edition": "",
+    "firstNight": 46,
+    "firstNightReminder": "Le Veilleur de Nuit peut pointer un joueur. Réveillez ce joueur, montrez-lui la carte \"Ce personnage vous a choisi\" et le jeton du Veilleur de Nuit, puis pointez le joueur qui est Veilleur de Nuit.",
+    "id": "fr_FR_nightwatchman",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/nightwatchman.png?raw=true",
+    "name": "Veilleur de Nuit",
+    "otherNight": 66,
+    "otherNightReminder": "Le Veilleur de Nuit peut pointer un joueur. Réveillez ce joueur, montrez-lui la carte \"Ce personnage vous a choisi\" et le jeton du Veilleur de Nuit, puis pointez le joueur qui est Veilleur de Nuit.",
+    "reminders": [
+      "Utilisé"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Une fois par partie, pendant la journée, visitez le Conteur pour obtenir des conseils pour vous aider à gagner.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_fisherman",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fisherman.png?raw=true",
+    "name": "Pêcheur",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Inactif"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Une fois par partie, pendant la journée, choisissez publiquement un joueur : si c’est un Démon, il meurt.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_slayer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
+    "name": "Mercenaire",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Inactif"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Si vous mourez pendant la nuit, vous choisissez un joueur et apprenez son rôle.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_ravenkeeper",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true",
+    "name": "Gardien",
+    "otherNight": 42,
+    "otherNightReminder": "S’il meurt cette nuit, réveillez-le. Il pointe un joueur de son choix. Montrer lui le jeton rôle de ce joueur.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "La première fois que vous êtes mise en nomination, si le proposant est un Villageois, il est exécuté immédiatement.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_virgin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/virgin.png?raw=true",
+    "name": "Pucelle",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Inactif"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Si vous mourez par exécution, vous et le village perdez.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_saint",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/saint.png?raw=true",
+    "name": "Vertueux",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Vous êtes Dément : Ne révélez pas votre vraie nature (Étranger ou Bête de foire), d’aucune façon, sinon c’est possiblement l’exécution.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_mutant",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mutant.png?raw=true",
+    "name": "Bête de foire",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Vous ne savez pas que vous êtes ivre. Vous pensez que vous êtes un Villageois, mais vous ne l’êtes pas.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_drunk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
+    "name": "Soulard",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Soulard"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
+    "ability": "Si vous êtes le joueur qui est majoritairement responsable de la défaite de votre équipe, vous gagnez avec l’équipe adverse (même mort).",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_politician",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/politician.png?raw=true",
+    "name": "Politicien",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Chaque nuit, choisissez un joueur: il est empoisonné cette nuit ainsi que le jour suivant.",
+    "edition": "tb",
+    "firstNight": 17,
+    "firstNightReminder": "Choisit un joueur qui sera empoisonné (nuit et jour suivant)",
+    "id": "fr_FR_poisoner",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
+    "name": "Empoisonneur",
+    "otherNight": 8,
+    "otherNightReminder": "Le joueur précédemment empoisonné ne l'est plus. Choisit un joueur qui sera empoisonné (nuit et jour suivant).",
+    "reminders": [
+      "Empoisonné"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Chaque nuit, choisissez un joueur : si vous le nominnez et qu'il est exécuté, son équipe perd. Tous les joueurs sont avertis lorsque vous choisissez un nouveau joueur.",
+    "edition": "",
+    "firstNight": 26,
+    "firstNightReminder": "L'Alarmiste désigne un joueur. Placez le jeton «Alarme» à côté de ce joueur et annoncez qu'un nouveau joueur a été sélectionné par le pouvoir de l'Alarmiste.",
+    "id": "fr_FR_fearmonger",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fearmonger.png?raw=true",
+    "name": "Alarmiste",
+    "otherNight": 18,
+    "otherNightReminder": "L'Alarmiste désigne un joueur. Placez le jeton «Alarme» à côté de ce joueur et annoncez qu'un nouveau joueur a été sélectionné par le pouvoir de l'Alarmiste.",
+    "reminders": [
+      "Alarme"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Chaque nuit*, choisissez un joueur et un rôle qu'il devient (s'il n'est pas en jeu) sans changer d’alignement. Si un Démon est créé, les morts de cette nuit seront laissés au choix du Conteur.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_pithag",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pithag.png?raw=true",
+    "name": "Vieille Chouette",
+    "otherNight": 17,
+    "otherNightReminder": "Elle pointe un joueur et un rôle sur sa feuille. Si le rôle n'est pas en jeu: Remplacez le jeton de rôle de ce joueur par le rôle choisi. Réveillez ce joueur et montrez la carte violette « Vous êtes », puis le nouveau rôle et faire signe de la main pour indiquer aucun changement d'alignement.",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Chaque jour, avant les nominations, vous pouvez choisir un joueur publiquement : il meurt. Si vous êtes exécuté, vous ne mourrez que si vous perdez à pierre-feuille-ciseau.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_psychopath",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/psychopath.png?raw=true",
+    "name": "Psychopathe",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Une fois nommé, vous pouvez prétendre publiquement être le Gobelin : si vous êtes exécuté malgré tout, votre équipe gagne.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_goblin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/goblin.png?raw=true",
+    "name": "Gobelin",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Prétendu"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Chaque nuit, choisissez un joueur: il est empoisonné jusqu'à la nuit prochaine, puis il meurt et devient sain.",
+    "edition": "bmr",
+    "firstNight": 28,
+    "firstNightReminder": "The Pukka points to a player. That player is poisoned.",
+    "id": "fr_FR_pukka",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pukka.png?raw=true",
+    "name": "Pooka",
+    "otherNight": 26,
+    "otherNightReminder": "Le précédent joueur empoisonné meurt. Il pointe un joueur. Ce joueur est empoisonné.",
+    "reminders": [
+      "Empoisonné",
+      "Mort"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "Chaque nuit*, choisissez un joueur : il meurt. Si vous vous choisissez, vous mourez et un Sbire vivant devient l’Imp.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_imp",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/imp.png?raw=true",
+    "name": "Imp",
+    "otherNight": 24,
+    "otherNightReminder": "Choisit un joueur qui est aussitôt assassiné. S’il se choisit, réveiller un Sbire vivant qui devient le nouveau Démon.",
+    "reminders": [
+      "Assassiné"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "Chaque nuit*, choisissez un joueur: il meurt, sauf s’il est un Étranger. Le 1er Étranger vous tue et devient le 2e Fang Gu en jeu [+1 Étranger].",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_fanggu",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fanggu.png?raw=true",
+    "name": "Fang Gu",
+    "otherNight": 29,
+    "otherNightReminder": "Il pointe un joueur: il meurt, sauf s’il est le premier Étranger. Si c’est le cas, tuez le Démon (sans lui indiquer). Réveillez ce premier Étranger, montrez-lui la carte violette « Vous êtes » et le jeton du Démon. Lui faire signe de la main pour indiquer son nouvel alignement maléfique.",
+    "reminders": [
+      "Assassiné",
+      "Transféré"
+    ],
+    "setup": true,
+    "team": "demon"
+  }
+]

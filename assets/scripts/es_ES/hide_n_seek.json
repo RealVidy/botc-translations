@@ -1,0 +1,394 @@
+[
+  {
+    "ability": "Comienzas sabiendo quién es uno de los jugadores honrados y su personaje. Si el Demonio lo mata, tú también mueres.",
+    "edition": "bmr",
+    "firstNight": 39,
+    "firstNightReminder": "Muestra la ficha del personaje marcado. Señala al jugador marcado.",
+    "id": "es_ES_grandmother",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/grandmother.png?raw=true",
+    "name": "Abuelita",
+    "otherNight": 50,
+    "otherNightReminder": "Si el Demonio mata al nieto de la Abuela: la Abuela muere.",
+    "reminders": [
+      "Nieto"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Cada noche, conocerás a 1 jugador de cada tipo de personaje hasta que no haya más tipos. [+1 Forastero]",
+    "edition": "",
+    "firstNight": 44,
+    "firstNightReminder": "Elige un tipo de personaje. Señala a un jugador que tenga un personaje de ese tipo. Pon el recordatorio \"Divisado\" del Aeronauta junto a ese personaje.",
+    "id": "es_ES_balloonist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/balloonist.png?raw=true",
+    "name": "Aeronauta",
+    "otherNight": 63,
+    "otherNightReminder": "Elige un tipo de personaje que aún no tenga el recordatorio \"Divisado\" junto a un personaje de ese tipo. Señala a un jugador cuyo personaje sea de ese tipo, si los hay. Pon el recordatorio \"Divisado\" del Aeronauta junto a ese personaje.",
+    "reminders": [
+      "Aldeano Divisado",
+      "Demonio Divisado",
+      "Forastero Divisado",
+      "Secuaz Divisado",
+      "Viajero Divisado"
+    ],
+    "setup": true,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Cada noche, elige a un jugador con vida: si eliges a un Demonio se intercambian los personajes y bandos y el otro jugador quedará envenenado.",
+    "edition": "snv",
+    "firstNight": 20,
+    "firstNightReminder": "El Encantador de serpientes señala a un jugador. Si ese jugador es el Demonio: intercambia los personajes y bandos del Demonio y el Encantador de serpientes. Despierta a cada jugador para informarles de su nuevo personaje y bando. El nuevo Encantador de serpientes estará envenenado.",
+    "id": "es_ES_snakecharmer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/snakecharmer.png?raw=true",
+    "name": "Encantador de serpientes",
+    "otherNight": 12,
+    "otherNightReminder": "El Encantador de serpientes señala a un jugador. Si ese jugador es el Demonio: intercambia los personajes y bandos del Demonio y el Encantador de serpientes. Despierta a cada jugador para informarles de su nuevo personaje y bando. El nuevo Encantador de serpientes estará envenenado.",
+    "reminders": [
+      "Envenenado"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Cada noche, pasas al bando de un vecino vivo. Si todos los personajes honrados deciden unirse a tu secta, tu equipo gana.",
+    "edition": "",
+    "firstNight": 47,
+    "firstNightReminder": "Si el Sectario cambia de bando, muéstrale la señal de honrado con el pulgar hacia arriba o de maligno con el pulgar hacia abajo según corresponda.",
+    "id": "es_ES_cultleader",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cultleader.png?raw=true",
+    "name": "Sectario",
+    "otherNight": 67,
+    "otherNightReminder": "Si el Sectario cambia de bando, muéstrale la señal de honrado con el pulgar hacia arriba o de maligno con el pulgar hacia abajo según corresponda.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Cada noche*, sabrás si un Demonio votó hoy.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_flowergirl",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/flowergirl.png?raw=true",
+    "name": "Florista",
+    "otherNight": 58,
+    "otherNightReminder": "Indica que sí o que no con la cabeza para confirmar si el Demonio votó hoy. Pon el recordatorio \"El Demonio no votó (o quita el recordatorio \"El Demonio votó\", si lo hay).",
+    "reminders": [
+      "El Demonio no votó",
+      "El Demonio votó"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Cada día, puedes visitar al Narrador que te dirá 2 cosas: 1 verdadera y 1 falsa.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_savant",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/savant.png?raw=true",
+    "name": "Sapiente",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "No sabes cuál es tu habilidad. Cada día, en privado, intenta adivinarla: sabrás si te acercas a adivinarlo (frío/templado/caliente/bingo).",
+    "edition": "",
+    "firstNight": 12,
+    "firstNightReminder": "Decide la habilidad del Amnésico. Si la habilidad requiere que se despierte esta noche: despiértalo para usarla.",
+    "id": "es_ES_amnesiac",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/amnesiac.png?raw=true",
+    "name": "Amnésico",
+    "otherNight": 5,
+    "otherNightReminder": "Si la habilidad del Amnésico requiere que se despierte esta noche: despiértalo para usarla.",
+    "reminders": [
+      "?"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Tu 1º día, intenta adivinar públicamente los personajes de hasta 5 jugadores. Esa noche, sabrás cuántos has acertado.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_juggler",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/juggler.png?raw=true",
+    "name": "Malabarista",
+    "otherNight": 62,
+    "otherNightReminder": "Si hoy fue el primer día del Malabarista: muéstrale con los dedos el número (0, 1, 2, etc.) de aciertos. Quita los marcadores.",
+    "reminders": [
+      "Correcto"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Una vez por partida, durante la noche, elige a un jugador: sabrá qué personaje eres.",
+    "edition": "",
+    "firstNight": 46,
+    "firstNightReminder": "El Vigilante nocturno puede señalar a un jugador. Despierta a ese jugador, muéstrale la tarjeta \"Este personaje te ha seleccionado\" y la ficha del Vigilante nocturno. Después, señala al jugador Vigilante nocturno.",
+    "id": "es_ES_nightwatchman",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/nightwatchman.png?raw=true",
+    "name": "Vigilante nocturno",
+    "otherNight": 66,
+    "otherNightReminder": "El Vigilante nocturno puede señalar a un jugador. Despierta a ese jugador, muéstrale la tarjeta \"Este personaje te ha seleccionado\" y la ficha del Vigilante nocturno. Después, señala al jugador Vigilante nocturno.",
+    "reminders": [
+      "Sin habilidad"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Una vez por partida, durante el día, visita al Narrador para obtener alguna pista que te ayude a ganar.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_fisherman",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fisherman.png?raw=true",
+    "name": "Pescador",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Sin habilidad"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Una vez por partida, durante el día, elige públicamente a un jugador: si es el Demonio, morirá.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_slayer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
+    "name": "Ballestero",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Sin habilidad"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Si mueres durante la noche, te despertarás para elegir a un jugador: conocerás su personaje.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_ravenkeeper",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true",
+    "name": "Criacuervos",
+    "otherNight": 42,
+    "otherNightReminder": "Si el Criacuervos murió esta noche: el Criacuervos señala a un jugador. Muéstrale la ficha de personaje de ese jugador.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "La primera vez que eres nominado, si el jugador que te nominó es un Aldeano, es ejecutado inmediatamente.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_virgin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/virgin.png?raw=true",
+    "name": "Virgen",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Sin habilidad"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Si mueres ejecutada, tu equipo pierde.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_saint",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/saint.png?raw=true",
+    "name": "Santa",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Si haces ver a los demás de que eres un Forastero, puedes ser ejecutado",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_mutant",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mutant.png?raw=true",
+    "name": "Mutante",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "No sabes que eres el Borracho. Crees que eres un Aldeano, pero no lo eres.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_drunk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
+    "name": "Borracho",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Borracho"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
+    "ability": "Si fuiste el jugador con mayor responsabilidad en la derrota de tu equipo, cambias de bando y ganas, incluso si estás muerto.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_politician",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/politician.png?raw=true",
+    "name": "Político",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Cada noche, elige a un jugador: estará envenenado esta noche y el día de mañana.",
+    "edition": "tb",
+    "firstNight": 17,
+    "firstNightReminder": "El Emponzoñador señala a un jugador. Ese jugador estará envenenado.",
+    "id": "es_ES_poisoner",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
+    "name": "Emponzoñador",
+    "otherNight": 8,
+    "otherNightReminder": "El jugador envenenado previamente ya no está envenenado. El Emponzoñador señala a un jugador. Ese jugador estará envenenado.",
+    "reminders": [
+      "Envenenado"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Cada noche, elige a un jugador. Si lo nominas y es ejecutado, su equipo pierde. Todos los jugadores saben si has elegido a un nuevo jugador.",
+    "edition": "",
+    "firstNight": 26,
+    "firstNightReminder": "El Agitador señala a un jugador. Pon el recordatorio de \"Agitado\" junto a ese jugador y anuncia que un nuevo jugador ha sido seleccionado con la habilidad del Agitador.",
+    "id": "es_ES_fearmonger",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fearmonger.png?raw=true",
+    "name": "Agitador",
+    "otherNight": 18,
+    "otherNightReminder": "El Agitador señala a un jugador. Si es diferente al de la noche anterior, por el recordatorio de \"Agitado\" junto a ese jugador y anuncia que un nuevo jugador ha sido elegido con la habilidad del Agitador.",
+    "reminders": [
+      "Agitado"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Cada noche*, elige a un jugador y el personaje en el que se convierte (si no está ya presente en la partida). Si creas un Demonio, esta noche las muertes serán aleatorias.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_pithag",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pithag.png?raw=true",
+    "name": "Vieja loca",
+    "otherNight": 17,
+    "otherNightReminder": "La Vieja loca señala a un jugador y un personaje de la hoja. Si el personaje no está presente en la partida, despierta a ese jugador y muéstrale la tarjeta \"Eres\" y la ficha de personaje pertinente. Si el personaje ya está en la partida, no ocurre nada.",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Cada día, antes de las nominaciones, puedes elegir públicamente a un jugador: morirá. Si te ejecutan, solo morirás si pierdes a piedra-papel-tijera con quien te ha nominado.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_psychopath",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/psychopath.png?raw=true",
+    "name": "Psicópata",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Si declaras públicamente ser el Goblin cuando te nominan y te ejecutan ese día, tu equipo gana.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_goblin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/goblin.png?raw=true",
+    "name": "Goblin",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Declarado"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Cada noche, elige a un jugador: será envenenado. El jugador envenenado previamente muere y deja de estar envenenado.",
+    "edition": "bmr",
+    "firstNight": 28,
+    "firstNightReminder": "El Pukka señala a un jugador. Ese jugador es envenenado.",
+    "id": "es_ES_pukka",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pukka.png?raw=true",
+    "name": "Pukka",
+    "otherNight": 26,
+    "otherNightReminder": "El Pukka señala a un jugador. Ese jugador es envenenado. El jugador envenenado previamente muere.",
+    "reminders": [
+      "Envenenado",
+      "Muerto"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "Cada noche*, elige a un jugador: morirá. Si te matas a ti mismo, un Secuaz se convertirá en el Diablillo.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_imp",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/imp.png?raw=true",
+    "name": "Diablillo",
+    "otherNight": 24,
+    "otherNightReminder": "El Diablillo señala a un jugador. Ese jugador muere. Si el Diablillo se elige a sí mismo: sustituye el personaje de 1 Secuaz con vida con una ficha extra de Diablillo. Muéstrale la tarjeta \"Eres\" y la ficha del Diablillo.",
+    "reminders": [
+      "Muerto"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "Cada noche*, elige a un jugador: morirá. El 1º Forastero que mates se convertirá en un Fang Gu maligno y tú morirás en su lugar. [+1 Forastero]",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_fanggu",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fanggu.png?raw=true",
+    "name": "Fang Gu",
+    "otherNight": 29,
+    "otherNightReminder": "El Fang Gu señala a un jugador. Ese jugador muere. O, si ese jugador era un Forastero y no hay otros Fang Gu presentes en la partida: el Fang Gu muere en lugar del jugador elegido. El jugador elegido es ahora un Fang Gu maligno. Despierta al nuevo Fang Gu. Muéstrale la tarjeta \"Eres\" y la ficha de Fang Gu. Muéstrale la tarjeta \"Eres\" y el signo de maligno con el pulgar hacia abajo.",
+    "reminders": [
+      "Muerto",
+      "Una vez"
+    ],
+    "setup": true,
+    "team": "demon"
+  }
+]
