@@ -1,0 +1,400 @@
+[
+  {
+    "ability": "You start knowing 3 players, 1 and only 1 of which is evil.",
+    "edition": "",
+    "firstNight": 43,
+    "firstNightReminder": "Point to 3 players including one evil player, in no particular order.",
+    "id": "pl_PL_noble",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/noble.png?raw=true",
+    "name": "Noble",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Seen"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "You start knowing 1 in-play Townsfolk. If you were mad that you were this character, you gain their ability when they die.",
+    "edition": "",
+    "firstNight": 29,
+    "firstNightReminder": "Show the Pixie 1 in-play Townsfolk character token.",
+    "id": "pl_PL_pixie",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pixie.png?raw=true",
+    "name": "Pixie",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Has ability",
+      "Mad"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Na poczatku gry dowiadujesz sie, ile par zlych graczy siedzi obok siebie.",
+    "edition": "tb",
+    "firstNight": 35,
+    "firstNightReminder": "Show the finger signal (0, 1, 2, …) for the number of pairs of neighbouring evil players.",
+    "id": "pl_PL_chef",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true",
+    "name": "Kucharz",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Kazdej nocy wybierz zywego gracza. Ktorys z Was bedzie pijany do zmierzchu. Nie mozesz umrzec.",
+    "edition": "bmr",
+    "firstNight": 10,
+    "firstNightReminder": "The Sailor points to a living player. Either the Sailor, or the chosen player, is drunk.",
+    "id": "pl_PL_sailor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sailor.png?raw=true",
+    "name": "Zeglarz",
+    "otherNight": 4,
+    "otherNightReminder": "The previously drunk player is no longer drunk. The Sailor points to a living player. Either the Sailor, or the chosen player, is drunk.",
+    "reminders": [
+      "Drunk"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Each night, you learn 1 player of each character type, until there are no more types to learn. [+1 Outsider]",
+    "edition": "",
+    "firstNight": 44,
+    "firstNightReminder": "Choose a character type. Point to a player whose character is of that type. Place the Balloonist's Seen reminder next to that character.",
+    "id": "pl_PL_balloonist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/balloonist.png?raw=true",
+    "name": "Balloonist",
+    "otherNight": 63,
+    "otherNightReminder": "Choose a character type that does not yet have a Seen reminder next to a character of that type. Point to a player whose character is of that type, if there are any. Place the Balloonist's Seen reminder next to that character.",
+    "reminders": [
+      "Seen Demon",
+      "Seen Minion",
+      "Seen Outsider",
+      "Seen Townsfolk",
+      "Seen Traveller"
+    ],
+    "setup": true,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Kazdej nocy wybierasz 2 graczy - dowiadujesz sie, czy ktorys z nich jest Demonem. Jeden z dobrych graczy pokazuje Ci sie jako zly.",
+    "edition": "tb",
+    "firstNight": 37,
+    "firstNightReminder": "The Fortune Teller points to two players. Give the head signal (nod yes, shake no) for whether one of those players is the Demon.",
+    "id": "pl_PL_fortuneteller",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fortuneteller.png?raw=true",
+    "name": "Wrozka",
+    "otherNight": 54,
+    "otherNightReminder": "The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Demon.",
+    "reminders": [
+      "Red herring"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Kazdej nocy dowiadujesz sie, ilu z Twoich zyjacych sasiadow jest zlych.",
+    "edition": "tb",
+    "firstNight": 36,
+    "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of alive evil neighbours of the Empath.",
+    "id": "pl_PL_empath",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
+    "name": "Empata",
+    "otherNight": 53,
+    "otherNightReminder": "Show the finger signal (0, 1, 2) for the number of alive evil neighbours of the Empath.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Kazdego dnia mozesz wyglosic publiczne oswiadczenie. Jesli bylo prawdziwe, jeden z graczy umrze noca.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_gossip",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gossip.png?raw=true",
+    "name": "Plotkara",
+    "otherNight": 47,
+    "otherNightReminder": "If the Gossip’s public statement was true: Choose a player, that player dies.",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Każdego dnia możesz odwiedzić Bajarza, żeby na osobności dowiedzieć się 2 rzeczy - jedna z nich to prawda, a jedna fałsz.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_savant",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/savant.png?raw=true",
+    "name": "Uczony",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Once per game, at night, choose a living player: the Damsel, if chosen, becomes a not-in-play Townsfolk. [+the Damsel]",
+    "edition": "",
+    "firstNight": 30,
+    "firstNightReminder": "The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",
+    "id": "pl_PL_huntsman",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/huntsman.png?raw=true",
+    "name": "Huntsman",
+    "otherNight": 51,
+    "otherNightReminder": "The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",
+    "reminders": [
+      "No ability"
+    ],
+    "setup": true,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "The Demon thinks you are a Minion. Minions think you are a Demon.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_magician",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/magician.png?raw=true",
+    "name": "Magician",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Jesli zginiesz noca, budzisz sie i wybierasz gracza - dowiadujesz sie, jaka jest postacia.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_ravenkeeper",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true",
+    "name": "Hodowca krukow",
+    "otherNight": 42,
+    "otherNightReminder": "If the Ravenkeeper died tonight: The Ravenkeeper points to a player. Show that player’s character token.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Za pierwszym razem kiedy mialbys umrzec, przezywasz.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_fool",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fool.png?raw=true",
+    "name": "Blazen",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "No ability"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "All Minions know you are in play. If a Minion publicly guesses you (once), your team loses.",
+    "edition": "",
+    "firstNight": 31,
+    "firstNightReminder": "Wake all the Minions, show them the 'This character selected you' card and the Damsel token.",
+    "id": "pl_PL_damsel",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/damsel.png?raw=true",
+    "name": "Damsel",
+    "otherNight": 52,
+    "otherNightReminder": "If selected by the Huntsman, wake the Damsel, show 'You are' card and a not-in-play Townsfolk token.",
+    "reminders": [
+      "Guess used"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Kazdej nocy pierwszy gracz, ktory wskaze Cie za pomoca swojej zdolnosci jest pijany do zmierzchu. Przechodzisz na jego strone.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "If a player used their character ability to choose the Goon: The ability does not work. Place the Drunk token on that player. The Goon becomes that player’s alignment. Show 'You are' card. Show thumbs-up good, thumbs-down 'evil' for the Goon’s current alignment.",
+    "id": "pl_PL_goon",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/goon.png?raw=true",
+    "name": "Zbir",
+    "otherNight": 0,
+    "otherNightReminder": "If a player used their character ability to choose the Goon: The Goon becomes that player’s alignment. Show the 'You are' card. Show the hand signal (thumbs-up 'good', thumbs-down 'evil') for the Goon’s current alignment.",
+    "reminders": [
+      "Drunk"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Jeśli \"szalejesz\" na punkcie bycia outsiderem, możesz zostać stracony.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_mutant",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mutant.png?raw=true",
+    "name": "Mutant",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Myslisz, ze jestes Demonem, ale nie jestes. Demon wie, kim jestes oraz kogo wybierasz noca.",
+    "edition": "bmr",
+    "firstNight": 7,
+    "firstNightReminder": "If 7 or more players: Show the Lunatic 'arbitrary' Information as given in Demon Information. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'ATTACK' tokens. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'ATTACK' tokens.",
+    "id": "pl_PL_lunatic",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
+    "name": "Szaleniec",
+    "otherNight": 21,
+    "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'ATTACK' tokens. If the Lunatic selected players: Wake the Demon. Show the 'ATTACK' token, then point to each marked player. Remove any Lunatic 'ATTACK' tokens.",
+    "reminders": [
+      "Attack 1",
+      "Attack 2",
+      "Attack 3"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "1 player is drunk, even if you die. If you guess (once) who it is, learn the Demon player, but guess wrong & get false info.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_puzzlemaster",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/puzzlemaster.png?raw=true",
+    "name": "Puzzlemaster",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Drunk",
+      "Guess used"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Na poczatku gry dowiadujesz sie, ktorzy Outsiderzy sa w grze. Jesli jeden z nich dzis umarl, wybierz noca gracza, ktory zginie. [-1 lub +1 Outsider]",
+    "edition": "bmr",
+    "firstNight": 21,
+    "firstNightReminder": "Show each of the Outsider tokens in play.",
+    "id": "pl_PL_godfather",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/godfather.png?raw=true",
+    "name": "Ojciec chrzestny",
+    "otherNight": 38,
+    "otherNightReminder": "If an Outsider died today: The Godfather points to a player. That player dies.",
+    "reminders": [
+      "Dead",
+      "Died today"
+    ],
+    "setup": true,
+    "team": "minion"
+  },
+  {
+    "ability": "Każdej nocy wybierz gracza i dobrą postać - ma jutro szaleć na punkcie bycia tą postacią, bo inaczej może zostać stracony.",
+    "edition": "snv",
+    "firstNight": 25,
+    "firstNightReminder": "Cerenovus wskazuje gracza i postać na skrypcie. Obudź tego gracza. Pokaż mu kartę 'TA POSTAĆ CIĘ WYBRAŁA' i żeton Cerenovusa. Pokaż żeton wybranej postaci. Jeśli ten gracz nie będzie jutro szalał na punkcie bycia tą postacią, może zostać stracony.",
+    "id": "pl_PL_cerenovus",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cerenovus.png?raw=true",
+    "name": "Cerenovus",
+    "otherNight": 16,
+    "otherNightReminder": "Cerenovus wskazuje gracza i postać na skrypcie. Obudź tego gracza. Pokaż mu kartę 'TA POSTAĆ CIĘ WYBRAŁA' i żeton Cerenovusa. Pokaż żeton wybranej postaci. Jeśli ten gracz nie będzie jutro szalał na punkcie bycia tą postacią, może zostać stracony.",
+    "reminders": [
+      "szaleństwo"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Kazdej nocy wybierz gracza, ktorego umiejetnosc nie zadziala tej nocy ani jutro za dnia.",
+    "edition": "tb",
+    "firstNight": 17,
+    "firstNightReminder": "The Poisoner points to a player. That player is poisoned.",
+    "id": "pl_PL_poisoner",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
+    "name": "Truciciel",
+    "otherNight": 8,
+    "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
+    "reminders": [
+      "Poisoned"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "If you publicly claim to be the Goblin when nominated & are executed that day, your team wins.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_goblin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/goblin.png?raw=true",
+    "name": "Goblin",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Claimed"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Kazdej nocy wybierz gracza, ktory umiera. Jesli zabijesz w ten sposob siebie, slugus zostaje demonem.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_imp",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/imp.png?raw=true",
+    "name": "Chochlik",
+    "otherNight": 24,
+    "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'YOU ARE' card, then the Imp token.",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "Każdej nocy* wybierz gracza, który umiera. Pierwszy outsider, którego tak zabijesz, zostaje złym Fang Gu, a Ty giniesz zamiast niego. [+1 Outsider]",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_fanggu",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fanggu.png?raw=true",
+    "name": "Fang Gu",
+    "otherNight": 29,
+    "otherNightReminder": "Fang Gu wskazuje gracza. Gracz ten umiera. Lub, jeśli ten gracz jest outsiderem i nie ma w grze innego Fang Gu - demon ginie zamiast wybranego gracza. Wybrany gracz jest teraz złym Fang Gu. Obudź nowego Fang Gu. Pokaż mu kartę 'JESTEŚ' i żeton Fang Gu, potem pokaż kciukiem do dołu, że jest zły.",
+    "reminders": [
+      "zgon"
+    ],
+    "setup": true,
+    "team": "demon"
+  },
+  {
+    "ability": "Each night*, choose a player: they die. You start by choosing an alive player: they are poisoned - you die if & only if they die.",
+    "edition": "",
+    "firstNight": 15,
+    "firstNightReminder": "The Lleech points to a player. Place the Poisoned reminder token.",
+    "id": "pl_PL_lleech",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lleech.png?raw=true",
+    "name": "Lleech",
+    "otherNight": 35,
+    "otherNightReminder": "The Lleech points to a player. That player dies.",
+    "reminders": [
+      "Dead",
+      "Poisoned"
+    ],
+    "setup": false,
+    "team": "demon"
+  }
+]
