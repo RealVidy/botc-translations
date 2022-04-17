@@ -1,14 +1,14 @@
 [
   {
-    "ability": "Varje natt, du blir på samma lag som en av dina levande grannar. Om alla goda spelare väljer att gå med i din sekt, så vinner ditt lag.",
+    "ability": "Varje natt, blir du på samma lag som en av dina levande grannar. Om alla goda spelare väljer att gå med i din sekt, så vinner ditt lag.",
     "edition": "",
     "firstNight": 47,
-    "firstNightReminder": "Om Sektledaren bytte lag, visa dem tummen upp för god och tumme ner för ond.",
+    "firstNightReminder": "Om Sektledaren bytte lag, visa dem tummen upp för god eller tumme ner för ond.",
     "id": "sv_SE_cultleader",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cultleader.png?raw=true",
     "name": "Sektledare",
     "otherNight": 67,
-    "otherNightReminder": "Om Sektledaren bytte lag, visa dem tummen upp för god och tumme ner för ond.",
+    "otherNightReminder": "Om Sektledaren bytte lag, visa dem tummen upp för god eller tumme ner för ond.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -173,7 +173,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Om Demonen dördar Kungen, får du reda på vilken spelare som är Demonen. [+ the King]",
+    "ability": "Om Demonen dödar Kungen, får du reda på vilken spelare som är Demonen. [+ Kung]",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -232,15 +232,15 @@
     "team": "outsider"
   },
   {
-    "ability": "Alla Minions vet att du är i spelet. Om en Minion publikt gissar dig (ett försök), så förlorar ditt lag.",
+    "ability": "Alla Minions vet att du är i spel. Om en Minion gissar dig offentligt (ett försök), så förlorar ditt lag.",
     "edition": "",
     "firstNight": 31,
-    "firstNightReminder": "Väck alla Minions, visa dem \"Den här karaktären valde dig\" kortet och sedan Mö-polletten.",
+    "firstNightReminder": "Väck alla Minions, visa dem \"Den här karaktären valde dig\" kortet och sedan Mö.",
     "id": "sv_SE_damsel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/damsel.png?raw=true",
     "name": "Mö",
     "otherNight": 52,
-    "otherNightReminder": "Om vald av Jägaren, väck Mön, visa dem \"Du är\" kortet och en Bybo-pollett som inte är med i spelet.",
+    "otherNightReminder": "Om vald av Jägaren, väck Mön, visa dem \"Du är\" kortet och en Bybo som inte är med i spelet.",
     "reminders": [
       "Har gissat"
     ],
@@ -265,7 +265,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Om du publikt påstår vara en Goblin när du blir nominerad & blir avrättad den dagen, vinner ditt lag.",
+    "ability": "Om du påstår vara en Goblin offetnligt när du blir nominerad & blir avrättad den dagen, vinner ditt lag.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -300,7 +300,7 @@
     "ability": "Varje natt, välj en spelare & en god karaktär: de är \"galen\" att de är den karaktären imorgon, annars kan de bli avrättad.",
     "edition": "snv",
     "firstNight": 25,
-    "firstNightReminder": "Cerenouvus pekar på en spelare, sen på en karaktär på deras karaktärslista. Väck den spelare, visa dem \"Den här karaktären valde dig\"-kortet och sedan Cerenouvus. Visa den valda karaktären. Om spelaren inte är \"galen\" att de är den karaktären imorgon, så kan du avrätta dem.",
+    "firstNightReminder": "Cerenouvus pekar på en spelare, sen på en karaktär på deras karaktärslista. Väck den spelaren, visa dem \"Den här karaktären valde dig\"-kortet och sedan Cerenouvus. Visa den valda karaktären. Om spelaren inte är \"galen\" att de är den karaktären imorgon, så kan du avrätta dem.",
     "id": "sv_SE_cerenovus",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cerenovus.png?raw=true",
     "name": "Cerenovus",

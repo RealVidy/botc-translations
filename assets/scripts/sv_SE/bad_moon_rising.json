@@ -53,7 +53,7 @@
     "ability": "Varje natt, välj 2 levande spelare (inte dig själv): du får reda på hur många som vaknade inatt på grund av deras egna förmåga.",
     "edition": "bmr",
     "firstNight": 50,
-    "firstNightReminder": "Kammarjungfrun pekar på två spelare. Visa dem fingersignalen (0, 1, 2, ...) för hur många av de valda spelarna som vaknade inatt på grund av deras egna förmåga.",
+    "firstNightReminder": "Kammarjungfrun pekar på två spelare. Visa dem fingersignalen (0, 1, 2, etc.) för hur många av de valda spelarna som vaknade inatt på grund av deras egna förmåga.",
     "id": "sv_SE_chambermaid",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chambermaid.png?raw=true",
     "name": "Kammarjungfru",
@@ -64,15 +64,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "En gång per spel, på natten, välj en karaktär: de är full under 3 dagar & 3 nätter.",
+    "ability": "En gång per spel, på natten, välj en karaktär: den blir full i 3 dagar & 3 nätter.",
     "edition": "bmr",
     "firstNight": 19,
-    "firstNightReminder": "Hovmannen visar antingen \"nej\" huvudsignalen, eller pekar på en karaktär på karaktärslistan. Om Hovmannen använder sin förmåga: Om den valda karaktären är med i spelet, blir den spelaren full.",
+    "firstNightReminder": "Hovmannen skakar antingen på huvudet för nej, eller pekar på en karaktär på karaktärslistan. Om Hovmannen använder sin förmåga: Om den valda karaktären är med i spelet, blir den karaktären full.",
     "id": "sv_SE_courtier",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/courtier.png?raw=true",
     "name": "Hovman",
     "otherNight": 10,
-    "otherNightReminder": "Räkna ner de kvarstående dagarna av den fulla spelaren. Reduce the remaining number of days the marked player is poisoned. Om Hovmannen inte har använt sin förmåga: Hovmannen visar antingen \"nej\" huvudsignalen, eller pekar på en karaktär på karaktärslistan. Om Hovmannen använder sin förmåga: Om den valda karaktären är med i spelet, blir den spelaren full.",
+    "otherNightReminder": "Räkna ner de kvarstående dagarna för den fulla karaktären. Om Hovmannen inte har använt sin förmåga: Hovmannen skakar antingen på huvudet för nej, eller pekar på en karaktär på karaktärslistan. Om Hovmannen använder sin förmåga: Om den valda karaktären är med i spelet, blir den karaktären full.",
     "reminders": [
       "Full 1",
       "Full 2",
@@ -107,7 +107,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/exorcist.png?raw=true",
     "name": "Exorsist",
     "otherNight": 22,
-    "otherNightReminder": "Exorsisten pekar på en spelare, annan än förra natten. Om den spelaren är Demonen: Väck Demonen. Visa dem Exorsist-polletten. Peka på Exorsisten. Demonen agerar inte i natt.",
+    "otherNightReminder": "Exorsisten pekar på en spelare, annan än förra natten. Om den spelaren är Demonen: Väck Demonen. Visa dem Exorsist karaktären. Peka på Exorsisten. Demonen agerar inte i natt.",
     "reminders": [
       "Vald"
     ],
@@ -180,7 +180,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Varje dag, du får göra ett publikt påstående. Inatt, om det var sant, dör en spelare.",
+    "ability": "Varje dag, du får göra ett påstående offentligt. Inatt, om det var sant, dör en spelare.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -188,7 +188,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gossip.png?raw=true",
     "name": "Skvallrare",
     "otherNight": 47,
-    "otherNightReminder": "Om Skvallrarens publika påstående var sant: Välj en spelare som inte är skyddad från att dö inatt. Den spelaren dör.",
+    "otherNightReminder": "Om Skvallrarens offentliga påstående var sant: Välj en spelare som inte är skyddad från att dö inatt. Den spelaren dör.",
     "reminders": [
       "Död"
     ],
@@ -307,7 +307,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "När du får reda på att du dog, välj publikt 1 levande spelare. Inatt, om de var en god spelare, dör de.",
+    "ability": "När du får reda på att du dog, välj offentligt 1 levande spelare. Inatt, om de var en god spelare, dör de.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",

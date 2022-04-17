@@ -52,15 +52,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Varje natt, du blir på samma lag som en av dina levande grannar. Om alla goda spelare väljer att gå med i din sekt, så vinner ditt lag.",
+    "ability": "Varje natt, blir du på samma lag som en av dina levande grannar. Om alla goda spelare väljer att gå med i din sekt, så vinner ditt lag.",
     "edition": "",
     "firstNight": 47,
-    "firstNightReminder": "Om Sektledaren bytte lag, visa dem tummen upp för god och tumme ner för ond.",
+    "firstNightReminder": "Om Sektledaren bytte lag, visa dem tummen upp för god eller tumme ner för ond.",
     "id": "sv_SE_cultleader",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cultleader.png?raw=true",
     "name": "Sektledare",
     "otherNight": 67,
-    "otherNightReminder": "Om Sektledaren bytte lag, visa dem tummen upp för god och tumme ner för ond.",
+    "otherNightReminder": "Om Sektledaren bytte lag, visa dem tummen upp för god eller tumme ner för ond.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -113,7 +113,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "På den 1a dagen, gissa publikt upp till 5 spelares karaktärer. Den natten, lär du dig hur många du gissade rätt.",
+    "ability": "På den 1a dagen, gissa offentligt upp till 5 spelares karaktärer. Den natten, lär du dig hur många du gissade rätt.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -161,7 +161,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "En gång per spel, under dagen, välj publikt en spelare: om de är Demonen, dör de.",
+    "ability": "En gång per spel, under dagen, välj offentligt en spelare: om de är Demonen, dör de.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -235,18 +235,18 @@
     "team": "outsider"
   },
   {
-    "ability": "Du vet inte att du är Fylleristen. Du tror att du är en Bybo, men det är du inte.",
+    "ability": "Du vet inte att du är Fyllot. Du tror att du är en Bybo, men det är du inte.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "sv_SE_drunk",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
-    "name": "Fyllerist",
+    "name": "Fyllo",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Fyllerist"
+      "Fyllo"
     ],
     "setup": true,
     "team": "outsider"
@@ -312,7 +312,7 @@
     "team": "minion"
   },
   {
-    "ability": "Varje dag, före nominationer, får du publikt välja en spelare: de dör. Om du blir avrättad, dör du bara om du förlorar i sten sax påse.",
+    "ability": "Varje dag, före nominationer, får du offentligt välja en spelare: de dör. Om du blir avrättad, dör du bara om du förlorar i sten sax påse.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -326,7 +326,7 @@
     "team": "minion"
   },
   {
-    "ability": "Om du publikt påstår vara en Goblin när du blir nominerad & blir avrättad den dagen, vinner ditt lag.",
+    "ability": "Om du påstår vara en Goblin offetnligt när du blir nominerad & blir avrättad den dagen, vinner ditt lag.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",

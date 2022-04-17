@@ -66,15 +66,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Varje natt, du lär dig hur många av dina 2 levande grannar är ond.",
+    "ability": "Varje natt, du lär dig hur många av dina 2 levande grannar är onda.",
     "edition": "tb",
     "firstNight": 36,
-    "firstNightReminder": "Visa fingersignalen (0, 1, 2) för det nummer onda levande grannar till Empaten.",
+    "firstNightReminder": "Visa fingersignalen (0, 1, 2) för antalet onda levande grannar till Empaten.",
     "id": "sv_SE_empath",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
     "name": "Empat",
     "otherNight": 53,
-    "otherNightReminder": "Visa fingersignalen (0, 1, 2) för det nummer onda levande grannar.",
+    "otherNightReminder": "Visa fingersignalen (0, 1, 2) för antalet onda levande grannar.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -116,7 +116,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Varje dag, du får göra ett publikt påstående. Inatt, om det var sant, dör en spelare.",
+    "ability": "Varje dag, du får göra ett påstående offentligt. Inatt, om det var sant, dör en spelare.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -124,7 +124,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gossip.png?raw=true",
     "name": "Skvallrare",
     "otherNight": 47,
-    "otherNightReminder": "Om Skvallrarens publika påstående var sant: Välj en spelare som inte är skyddad från att dö inatt. Den spelaren dör.",
+    "otherNightReminder": "Om Skvallrarens offentliga påstående var sant: Välj en spelare som inte är skyddad från att dö inatt. Den spelaren dör.",
     "reminders": [
       "Död"
     ],
@@ -243,15 +243,15 @@
     "team": "outsider"
   },
   {
-    "ability": "Alla Minions vet att du är i spelet. Om en Minion publikt gissar dig (ett försök), så förlorar ditt lag.",
+    "ability": "Alla Minions vet att du är i spel. Om en Minion gissar dig offentligt (ett försök), så förlorar ditt lag.",
     "edition": "",
     "firstNight": 31,
-    "firstNightReminder": "Väck alla Minions, visa dem \"Den här karaktären valde dig\" kortet och sedan Mö-polletten.",
+    "firstNightReminder": "Väck alla Minions, visa dem \"Den här karaktären valde dig\" kortet och sedan Mö.",
     "id": "sv_SE_damsel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/damsel.png?raw=true",
     "name": "Mö",
     "otherNight": 52,
-    "otherNightReminder": "Om vald av Jägaren, väck Mön, visa dem \"Du är\" kortet och en Bybo-pollett som inte är med i spelet.",
+    "otherNightReminder": "Om vald av Jägaren, väck Mön, visa dem \"Du är\" kortet och en Bybo som inte är med i spelet.",
     "reminders": [
       "Har gissat"
     ],
@@ -259,18 +259,18 @@
     "team": "outsider"
   },
   {
-    "ability": "Du vet inte att du är Fylleristen. Du tror att du är en Bybo, men det är du inte.",
+    "ability": "Du vet inte att du är Fyllot. Du tror att du är en Bybo, men det är du inte.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "sv_SE_drunk",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
-    "name": "Fyllerist",
+    "name": "Fyllo",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Fyllerist"
+      "Fyllo"
     ],
     "setup": true,
     "team": "outsider"
@@ -325,7 +325,7 @@
     "team": "minion"
   },
   {
-    "ability": "Om du publikt påstår vara en Goblin när du blir nominerad & blir avrättad den dagen, vinner ditt lag.",
+    "ability": "Om du påstår vara en Goblin offetnligt när du blir nominerad & blir avrättad den dagen, vinner ditt lag.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",

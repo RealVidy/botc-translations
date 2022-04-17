@@ -63,7 +63,7 @@
     "ability": "Du börjar att veta hur många par onda spelare det finns.",
     "edition": "tb",
     "firstNight": 35,
-    "firstNightReminder": "Visa fingersignalen (0, 1, 2, ...) för antalet par onda spelare.",
+    "firstNightReminder": "Visa fingersignalen (0, 1, 2, etc.) för antalet par onda spelare.",
     "id": "sv_SE_chef",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true",
     "name": "Kock",
@@ -74,32 +74,32 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Du vet inte att du är Fylleristen. Du tror att du är en Bybo, men det är du inte.",
+    "ability": "Du vet inte att du är Fyllot. Du tror att du är en Bybo, men det är du inte.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "sv_SE_drunk",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
-    "name": "Fyllerist",
+    "name": "Fyllo",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Fyllerist"
+      "Fyllo"
     ],
     "setup": true,
     "team": "outsider"
   },
   {
-    "ability": "Varje natt, du lär dig hur många av dina 2 levande grannar är ond.",
+    "ability": "Varje natt, du lär dig hur många av dina 2 levande grannar är onda.",
     "edition": "tb",
     "firstNight": 36,
-    "firstNightReminder": "Visa fingersignalen (0, 1, 2) för det nummer onda levande grannar till Empaten.",
+    "firstNightReminder": "Visa fingersignalen (0, 1, 2) för antalet onda levande grannar till Empaten.",
     "id": "sv_SE_empath",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
     "name": "Empat",
     "otherNight": 53,
-    "otherNightReminder": "Visa fingersignalen (0, 1, 2) för det nummer onda levande grannar.",
+    "otherNightReminder": "Visa fingersignalen (0, 1, 2) för antalet onda levande grannar.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -303,7 +303,7 @@
     "team": "minion"
   },
   {
-    "ability": "En gång per spel, under dagen, välj publikt en spelare: om de är Demonen, dör de.",
+    "ability": "En gång per spel, under dagen, välj offentligt en spelare: om de är Demonen, dör de.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",

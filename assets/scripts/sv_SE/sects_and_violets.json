@@ -49,7 +49,7 @@
     "team": "traveler"
   },
   {
-    "ability": "En gång per match, under natten, välj en död spelare: de får tillbaka sin förmåga tills skymmningen.",
+    "ability": "En gång per match, under natten, välj en död spelare: de får tillbaka sin förmåga tills skymmning.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -57,7 +57,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bonecollector.png?raw=true",
     "name": "Bensamlare",
     "otherNight": 1,
-    "otherNightReminder": "Bensamlaren skakar antingen på huvudet eller pekar på en död spelare. Om de pekar på en död spelare, sätt Bensamlarens \"Har förmåga\" påminnelse bredvid den valda spelarens pollett. (De kan behöva väckas inatt för att använda sin förmåga)",
+    "otherNightReminder": "Bensamlaren skakar antingen på huvudet eller pekar på en död spelare. Om de pekar på en död spelare, sätt Bensamlarens \"Har förmåga\" markör bredvid den valda spelarens karaktär. (De kan behöva väckas inatt för att använda sin förmåga)",
     "reminders": [
       "Har förmåga",
       "Ingen förmåga"
@@ -83,7 +83,7 @@
     "ability": "Varje natt, välj en spelare & en god karaktär: de är \"galen\" att de är den karaktären imorgon, annars kan de bli avrättad.",
     "edition": "snv",
     "firstNight": 25,
-    "firstNightReminder": "Cerenouvus pekar på en spelare, sen på en karaktär på deras karaktärslista. Väck den spelare, visa dem \"Den här karaktären valde dig\"-kortet och sedan Cerenouvus. Visa den valda karaktären. Om spelaren inte är \"galen\" att de är den karaktären imorgon, så kan du avrätta dem.",
+    "firstNightReminder": "Cerenouvus pekar på en spelare, sen på en karaktär på deras karaktärslista. Väck den spelaren, visa dem \"Den här karaktären valde dig\"-kortet och sedan Cerenouvus. Visa den valda karaktären. Om spelaren inte är \"galen\" att de är den karaktären imorgon, så kan du avrätta dem.",
     "id": "sv_SE_cerenovus",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cerenovus.png?raw=true",
     "name": "Cerenovus",
@@ -96,10 +96,10 @@
     "team": "minion"
   },
   {
-    "ability": "Du börjar att veta hur många steg från Demonen har till sin närmaste Minion.",
+    "ability": "Du börjar att veta hur många steg Demonen har till sin närmaste Minion.",
     "edition": "snv",
     "firstNight": 40,
-    "firstNightReminder": "Visa fingersignalen (1, 2, 3, etc.) för hur många steg från Demonen har till sin närmaste Minion.",
+    "firstNightReminder": "Visa fingersignalen (1, 2, 3, etc.) för hur många steg Demonen har till sin närmaste Minion.",
     "id": "sv_SE_clockmaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/clockmaker.png?raw=true",
     "name": "Klockmakare",
@@ -127,21 +127,21 @@
     "ability": "Varje natt, välj en spelare (inte dig själv eller Resande): du lär dig 1 god och 1 ond karaktär, 1 av dem är korrekt.",
     "edition": "snv",
     "firstNight": 41,
-    "firstNightReminder": "Drömmaren pekar på en spelare. Visa 1 god och 1 ond karaktär-pollett; en av dem är korrekt.",
+    "firstNightReminder": "Drömmaren pekar på en spelare. Visa 1 god och 1 ond karaktär; en av dem är korrekt.",
     "id": "sv_SE_dreamer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/dreamer.png?raw=true",
     "name": "Drömmare",
     "otherNight": 57,
-    "otherNightReminder": "Drömmaren pekar på en spelare. Visa 1 god och 1 ond karaktär-pollett; en av dem är korrekt.",
+    "otherNightReminder": "Drömmaren pekar på en spelare. Visa 1 god och 1 ond karaktär; en av dem är korrekt.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "Du & en spelare på andra laget vet om varandra. Om den goda spelaren är avrättad, vinner onda. Goda kan inte vinna om ni båda lever.",
+    "ability": "Du & en spelare på andra laget vet om varandra. Om den goda spelaren blir avrättad, vinner onda. Goda kan inte vinna om ni båda lever.",
     "edition": "snv",
     "firstNight": 23,
-    "firstNightReminder": "Väck den Onda Tvillingen och deras tvilling. Se till att de har noterat varandra. Peka på den Onda Tvillingen. Visa Onda Tvillingen-polletten till den andra tvillingen. Peka på tvillingen. Visa deras karaktärs-pollett till den Onda Tvillingen spelaren.",
+    "firstNightReminder": "Väck den Onda Tvillingen och deras tvilling. Se till att de har noterat varandra. Peka på den Onda Tvillingen. Visa Onda Tvilling karaktären till den andra tvillingen. Peka på tvillingen. Visa deras karaktär till den Onda Tvilling spelaren.",
     "id": "sv_SE_eviltwin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/eviltwin.png?raw=true",
     "name": "Ond Tvilling",
@@ -204,7 +204,7 @@
     "team": "traveler"
   },
   {
-    "ability": "På den 1a dagen, gissa publikt upp till 5 spelares karaktärer. Den natten, lär du dig hur många du gissade rätt.",
+    "ability": "På den 1a dagen, gissa offentligt upp till 5 spelares karaktärer. Den natten, lär du dig hur många du gissade rätt.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -220,7 +220,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "När du lär dig att du har dött, publikt välj 1 levande spelare: om de är ond, förlorar ditt lag.",
+    "ability": "När du lär dig att du har dött, välj offentligt 1 levande spelare: om de är ond, förlorar ditt lag.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
