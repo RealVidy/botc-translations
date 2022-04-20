@@ -16,22 +16,6 @@
     "team": "townsfolk"
   },
   {
-    "ability": "On your 1st night, you gain a Townsfolk ability (if good), or a Minion ability (if evil).",
-    "edition": "bmr",
-    "firstNight": 1,
-    "firstNightReminder": "Show the Apprentice the 'You are' card, then a Townsfolk or Minion token. In the Grimoire, replace the Apprentice token with that character token, and put the Apprentice's 'Is the Apprentice' reminder by that character token.",
-    "id": "fa_IR_apprentice",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/apprentice.png?raw=true",
-    "name": "کارآموز",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [
-      "Is the Apprentice"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
     "ability": "If you died today or tonight, the Demon may choose 2 players (not another Demon) to swap characters.",
     "edition": "snv",
     "firstNight": 0,
@@ -48,71 +32,6 @@
     "team": "outsider"
   },
   {
-    "ability": "Each night, until dusk, 1) a player becomes sober, healthy and gets true info, or 2) their ability works twice. They learn which.",
-    "edition": "snv",
-    "firstNight": 1,
-    "firstNightReminder": "Choose a player, wake them and tell them which Barista power is affecting them. Treat them accordingly (sober/healthy/true info or activate their ability twice).",
-    "id": "fa_IR_barista",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/barista.png?raw=true",
-    "name": "قهوه‌چی",
-    "otherNight": 1,
-    "otherNightReminder": "Choose a player, wake them and tell them which Barista power is affecting them. Treat them accordingly (sober/healthy/true info or activate their ability twice).",
-    "reminders": [
-      "Ability twice",
-      "Sober & Healthy"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "You must use a vote token to vote. Dead players may choose to give you theirs. If so, you learn their alignment.",
-    "edition": "tb",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "fa_IR_beggar",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/beggar.png?raw=true",
-    "name": "گدا",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "Only the Storyteller can nominate. At least 1 opposite player must be nominated each day.",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "fa_IR_bishop",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bishop.png?raw=true",
-    "name": "اسقف",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [
-      "Nominate evil",
-      "Nominate good"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "Once per game, at night, choose a dead player: they regain their ability until dusk.",
-    "edition": "snv",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "fa_IR_bonecollector",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bonecollector.png?raw=true",
-    "name": "Bone Collector",
-    "otherNight": 1,
-    "otherNightReminder": "The Bone Collector either shakes their head no or points at any dead player. If they pointed at any dead player, put the Bone Collector's 'Has Ability' reminder by the chosen player's character token. (They may need to be woken tonight to use it.)",
-    "reminders": [
-      "Has ability",
-      "No ability"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
     "ability": "You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]",
     "edition": "",
     "firstNight": 45,
@@ -127,36 +46,6 @@
     ],
     "setup": true,
     "team": "townsfolk"
-  },
-  {
-    "ability": "Each night, choose a player (not yourself): their vote counts as 3 votes tomorrow.",
-    "edition": "tb",
-    "firstNight": 1,
-    "firstNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
-    "id": "fa_IR_bureaucrat",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bureaucrat.png?raw=true",
-    "name": "بوروکرات",
-    "otherNight": 1,
-    "otherNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
-    "reminders": [
-      "3 votes"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "Each day, after the 1st execution, you may nominate again.",
-    "edition": "snv",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "fa_IR_butcher",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/butcher.png?raw=true",
-    "name": "قصاب",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
   },
   {
     "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.",
@@ -220,20 +109,6 @@
     "team": "townsfolk"
   },
   {
-    "ability": "If you were funny today, you cannot die by exile.",
-    "edition": "snv",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "fa_IR_deviant",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/deviant.png?raw=true",
-    "name": "Deviant",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
     "ability": "Each night, choose a player (not yourself or Travellers): you learn 1 good and 1 evil character, 1 of which is correct.",
     "edition": "snv",
     "firstNight": 41,
@@ -295,50 +170,6 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per day, you may choose to kill an alive neighbour, if your other alive neighbour agrees.",
-    "edition": "",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "fa_IR_gangster",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gangster.png?raw=true",
-    "name": "گنگستر",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "Each day, after the 1st vote has been tallied, you may choose a player that voted: they die.",
-    "edition": "tb",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "fa_IR_gunslinger",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gunslinger.png?raw=true",
-    "name": "تفنگدار",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "Each night*, choose a living player: if they agree, you learn their character, but you both might die.",
-    "edition": "snv",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "fa_IR_harlot",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/harlot.png?raw=true",
-    "name": "هرزه",
-    "otherNight": 1,
-    "otherNightReminder": "The Harlot points at any player. Then, put the Harlot to sleep. Wake the chosen player, show them the 'This character selected you' token, then the Harlot token. That player either nods their head yes or shakes their head no. If they nodded their head yes, wake the Harlot and show them the chosen player's character token. Then, you may decide that both players die.",
-    "reminders": [
-      "Dead"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
     "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp.",
     "edition": "tb",
     "firstNight": 0,
@@ -353,22 +184,6 @@
     ],
     "setup": false,
     "team": "demon"
-  },
-  {
-    "ability": "Once per game, if another player nominated, you may choose to force the current execution to pass or fail.",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "fa_IR_judge",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/judge.png?raw=true",
-    "name": "قاضی",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [
-      "No ability"
-    ],
-    "setup": false,
-    "team": "traveler"
   },
   {
     "ability": "Each night, Minions choose who babysits Lil' Monsta's token & \"is the Demon\". A player dies each night*. [+1 Minion]",
@@ -387,20 +202,6 @@
     ],
     "setup": true,
     "team": "demon"
-  },
-  {
-    "ability": "Each day, you may choose up to 3 sets of 2 players to swap seats. Players may not leave their seats to talk in private.",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "fa_IR_matron",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/matron.png?raw=true",
-    "name": "Matron",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
   },
   {
     "ability": "If you are “mad” about being an Outsider, you might be executed.",
@@ -505,20 +306,6 @@
     "team": "outsider"
   },
   {
-    "ability": "If a player of your alignment is executed, you might be executed instead.",
-    "edition": "tb",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "fa_IR_scapegoat",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scapegoat.png?raw=true",
-    "name": "Scapegoat",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
     "ability": "Each night, choose an alive player: a chosen Demon swaps characters & alignments with you & is then poisoned.",
     "edition": "snv",
     "firstNight": 20,
@@ -533,22 +320,6 @@
     ],
     "setup": false,
     "team": "townsfolk"
-  },
-  {
-    "ability": "Each night, choose a player (not yourself): their vote counts negatively tomorrow.",
-    "edition": "tb",
-    "firstNight": 1,
-    "firstNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
-    "id": "fa_IR_thief",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/thief.png?raw=true",
-    "name": "دزد",
-    "otherNight": 1,
-    "otherNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
-    "reminders": [
-      "Negative vote"
-    ],
-    "setup": false,
-    "team": "traveler"
   },
   {
     "ability": "Each night*, you learn if a Minion nominated today.",
@@ -566,20 +337,6 @@
     ],
     "setup": false,
     "team": "townsfolk"
-  },
-  {
-    "ability": "Only you and the dead can vote. They don't need a vote token to do so. A 50% majority is not required.",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "fa_IR_voudon",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/voudon.png?raw=true",
-    "name": "Voudon",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
   },
   {
     "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability.",

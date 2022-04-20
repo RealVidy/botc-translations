@@ -16,22 +16,6 @@
     "team": "townsfolk"
   },
   {
-    "ability": "最初の夜、あなたが善良ならいずれかの住民の能力を、邪悪ならいずれかの手下の能力を得る。",
-    "edition": "bmr",
-    "firstNight": 1,
-    "firstNightReminder": "Show the Apprentice the 'You are' card, then a Townsfolk or Minion token. In the Grimoire, replace the Apprentice token with that character token, and put the Apprentice's 'Is the Apprentice' reminder by that character token.",
-    "id": "ja_JA_apprentice",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/apprentice.png?raw=true",
-    "name": "見習い",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [
-      "Is the Apprentice"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
     "ability": "あなたが死亡した場合、いずれかの悪魔はプレイヤーを2人選んでよい（もう1人の悪魔は不可）。そうしたなら、今夜その人物を入れ替える。",
     "edition": "snv",
     "firstNight": 0,
@@ -48,71 +32,6 @@
     "team": "outsider"
   },
   {
-    "ability": "毎夜、次の夕暮れまで、プレイヤー1人に対し、「そのプレイヤーをしらふで健康で正しい情報を得られる状態にする」か「そのプレイヤーの能力を2回機能させる」かを行う。そのプレイヤーはどちらなのかを知ることができる。",
-    "edition": "snv",
-    "firstNight": 1,
-    "firstNightReminder": "Choose a player, wake them and tell them which Barista power is affecting them. Treat them accordingly (sober/healthy/true info or activate their ability twice).",
-    "id": "ja_JA_barista",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/barista.png?raw=true",
-    "name": "バリスタ",
-    "otherNight": 1,
-    "otherNightReminder": "Choose a player, wake them and tell them which Barista power is affecting them. Treat them accordingly (sober/healthy/true info or activate their ability twice).",
-    "reminders": [
-      "Ability twice",
-      "Sober & Healthy"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "賛成するためには賛成トークンを1つ使う必要がある。死亡したプレイヤーは自分の賛成トークンをあなたに与えてよい。そうした場合、あなたはそのプレイヤーの所属を知ることができる。",
-    "edition": "tb",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "ja_JA_beggar",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/beggar.png?raw=true",
-    "name": "物乞い",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "告発は語り部のみが行うことができる。毎昼、僧正の的のプレイヤーを1人告発する義務がある。",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "ja_JA_bishop",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bishop.png?raw=true",
-    "name": "僧正",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [
-      "Nominate evil",
-      "Nominate good"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "ゲーム中に1回、夜の間に、死亡したプレイヤーを1人選ぶ。次の夕暮れまで、そのプレイヤーは自身の能力を取り戻す。",
-    "edition": "snv",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "ja_JA_bonecollector",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bonecollector.png?raw=true",
-    "name": "骨拾い",
-    "otherNight": 1,
-    "otherNightReminder": "The Bone Collector either shakes their head no or points at any dead player. If they pointed at any dead player, put the Bone Collector's 'Has Ability' reminder by the chosen player's character token. (They may need to be woken tonight to use it.)",
-    "reminders": [
-      "Has ability",
-      "No ability"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
     "ability": "You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]",
     "edition": "",
     "firstNight": 45,
@@ -127,36 +46,6 @@
     ],
     "setup": true,
     "team": "townsfolk"
-  },
-  {
-    "ability": "毎夜、プレイヤーを1人選ぶ（自分は不可）。翌日、そのプレイヤーの賛成は3票に数える。",
-    "edition": "tb",
-    "firstNight": 1,
-    "firstNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
-    "id": "ja_JA_bureaucrat",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bureaucrat.png?raw=true",
-    "name": "役人",
-    "otherNight": 1,
-    "otherNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
-    "reminders": [
-      "3 votes"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "毎昼、最初の処刑の後、あなたは再び告発する。",
-    "edition": "snv",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "ja_JA_butcher",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/butcher.png?raw=true",
-    "name": "肉屋",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
   },
   {
     "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.",
@@ -220,20 +109,6 @@
     "team": "townsfolk"
   },
   {
-    "ability": "今日の昼の間に面白いことをしていたなら、あなたは追放されない。",
-    "edition": "snv",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "ja_JA_deviant",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/deviant.png?raw=true",
-    "name": "変人",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
     "ability": "毎夜、プレイヤーを1人選ぶ（自分は不可）。それが善良な人物1人か邪悪な人物1人のどちらかであることを知ることができる。",
     "edition": "snv",
     "firstNight": 41,
@@ -295,50 +170,6 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per day, you may choose to kill an alive neighbour, if your other alive neighbour agrees.",
-    "edition": "",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "ja_JA_gangster",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gangster.png?raw=true",
-    "name": "Gangster",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "毎昼、最初の票が集計された後、賛成したプレイヤー1人を選んでよい。そのプレイヤーは死亡する。",
-    "edition": "tb",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "ja_JA_gunslinger",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gunslinger.png?raw=true",
-    "name": "ガンマン",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "毎夜(*) 生き残っている人物を1人選ぶ。そのプレイヤーが同意した場合、その人物を知ることができるが、両方が死亡する可能性がある。",
-    "edition": "snv",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "ja_JA_harlot",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/harlot.png?raw=true",
-    "name": "娼婦",
-    "otherNight": 1,
-    "otherNightReminder": "The Harlot points at any player. Then, put the Harlot to sleep. Wake the chosen player, show them the 'This character selected you' token, then the Harlot token. That player either nods their head yes or shakes their head no. If they nodded their head yes, wake the Harlot and show them the chosen player's character token. Then, you may decide that both players die.",
-    "reminders": [
-      "Dead"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
     "ability": "毎夜(*)、プレイヤーを1人選ぶ。そのプレイヤーは死亡する。これにより自分を死亡させた場合、手下が1人インプになる。",
     "edition": "tb",
     "firstNight": 0,
@@ -353,22 +184,6 @@
     ],
     "setup": false,
     "team": "demon"
-  },
-  {
-    "ability": "ゲーム中に1回、他のいずれかのプレイヤーが告発された場合、強制的にその処刑を実行または却下してよい。",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "ja_JA_judge",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/judge.png?raw=true",
-    "name": "裁判官",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [
-      "No ability"
-    ],
-    "setup": false,
-    "team": "traveler"
   },
   {
     "ability": "Each night, Minions choose who babysits Lil' Monsta's token & \"is the Demon\". A player dies each night*. [+1 Minion]",
@@ -387,20 +202,6 @@
     ],
     "setup": true,
     "team": "demon"
-  },
-  {
-    "ability": "毎昼、プレイヤー2人組を選んで席を入れ替えることを3組まで行ってよい。プレイヤーは席を離れて秘密裏に会話することができない。",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "ja_JA_matron",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/matron.png?raw=true",
-    "name": "女主人",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
   },
   {
     "ability": "自分がよそ者であることに『必死』である場合、処刑される可能性がある。",
@@ -505,20 +306,6 @@
     "team": "outsider"
   },
   {
-    "ability": "あなたの所属のプレイヤーが処刑される場合、代わりにあなたが処刑される可能性がある。",
-    "edition": "tb",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "ja_JA_scapegoat",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scapegoat.png?raw=true",
-    "name": "身代わり",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
     "ability": "毎夜、生き残っているプレイヤーを1人選ぶ。選ばれたのが悪魔なら、あなたとそのプレイヤーは人物と所属を入れ替え、その後そのプレイヤーは毒を受ける。",
     "edition": "snv",
     "firstNight": 20,
@@ -533,22 +320,6 @@
     ],
     "setup": false,
     "team": "townsfolk"
-  },
-  {
-    "ability": "毎夜、プレイヤーを1人選ぶ（自分は不可）。翌日、そのプレイヤーの賛成はマイナスに数える。",
-    "edition": "tb",
-    "firstNight": 1,
-    "firstNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
-    "id": "ja_JA_thief",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/thief.png?raw=true",
-    "name": "泥棒",
-    "otherNight": 1,
-    "otherNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
-    "reminders": [
-      "Negative vote"
-    ],
-    "setup": false,
-    "team": "traveler"
   },
   {
     "ability": "毎夜(*)、告発された手下がいたかどうかを知ることができる。",
@@ -566,20 +337,6 @@
     ],
     "setup": false,
     "team": "townsfolk"
-  },
-  {
-    "ability": "あなたと死者のみが賛成できる。そのための賛成トークンは必要としない。半数以上の賛成は必要とされない。",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "ja_JA_voudon",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/voudon.png?raw=true",
-    "name": "ブードゥー教徒",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
   },
   {
     "ability": "毎夜(*)、プレイヤーを1人選ぶ。翌日そのプレイヤーが告発された場合、そのプレイヤーは死亡する。生き残っているプレイヤーが3人だけの場合、この能力は失われる。",

@@ -16,22 +16,6 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Votre première nuit, vous gagnez une capacité de Villageois si « bon » ou de Sbire si maléfique.",
-    "edition": "bmr",
-    "firstNight": 1,
-    "firstNightReminder": "Montrez-lui la carte violette « Vous êtes », puis un jeton Villageois ou Sbire.",
-    "id": "fr_FR_apprentice",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/apprentice.png?raw=true",
-    "name": "Apprenti",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [
-      "Apprenti"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
     "ability": "Si vous mourez aujourd’hui ou cette nuit, le Démon peut choisir deux joueurs (pas un autre Démon) pour échanger leurs rôles entre eux cette nuit, sans pour autant changer leur alignement.",
     "edition": "snv",
     "firstNight": 0,
@@ -48,71 +32,6 @@
     "team": "outsider"
   },
   {
-    "ability": "Chaque nuit et jusqu'au crépuscule suivant, un autre joueur apprend que : 1- Il est Sobre, en Santé et reçoit de vraies informations ou 2- sa capacité fonctionne deux fois.",
-    "edition": "snv",
-    "firstNight": 1,
-    "firstNightReminder": "Placez le jeton « Sobre et sain » ou « Capacité 2x » sous n'importe quel joueur. Réveillez ce joueur et montrez-lui la carte « Ce joueur vous a sélectionné » et le jeton Barista, puis un pouce (sobre et en bonne santé) ou deux doigts (il agira deux fois).",
-    "id": "fr_FR_barista",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/barista.png?raw=true",
-    "name": "Barista",
-    "otherNight": 1,
-    "otherNightReminder": "Placez le jeton « Sobre et sain » ou « Capacité 2x » sous n'importe quel joueur. Réveillez ce joueur et montrez-lui la carte « Ce joueur vous a sélectionné » et le jeton Barista, puis un pouce (sobre et en bonne santé) ou deux doigts (il agira deux fois).",
-    "reminders": [
-      "Capacité 2x",
-      "Sobre et sain"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "Vous ne pouvez voter que si vous disposez d'un jeton de vote. Pendant la journée, un joueur mort peut vous donner son jeton. Si cela se produit, vous apprenez son alignement.",
-    "edition": "tb",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "fr_FR_beggar",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/beggar.png?raw=true",
-    "name": "Mendiant",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "Seul le conteur peut nommer. Un joueur d'alignement opposé à l’Archevêque devra être nominé chaque jour.",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "fr_FR_bishop",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bishop.png?raw=true",
-    "name": "Archevêque",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [
-      "Nommée Bon",
-      "Nommée Maléfique"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "Une fois par partie, au crépuscule, choisissez un joueur mort: il retrouvera ses capacités jusqu'au crépuscule suivant.",
-    "edition": "snv",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "fr_FR_bonecollector",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bonecollector.png?raw=true",
-    "name": "Collecteur d'os",
-    "otherNight": 1,
-    "otherNightReminder": "Il secoue la tête ou désigne un joueur mort. Ce joueur retrouve ses capacités jusqu'au crépuscule.",
-    "reminders": [
-      "Capacité active",
-      "Inactif"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
     "ability": "La première nuit, le Conteur vous désigne 1 joueur maléfique (votre cible). Si ce joueur meurt, cette nuit le Conteur vous désigne 1 nouveau joueur maléfique (nouvelle cible) [1 Villageois est maléfique].",
     "edition": "",
     "firstNight": 45,
@@ -127,36 +46,6 @@
     ],
     "setup": true,
     "team": "townsfolk"
-  },
-  {
-    "ability": "Chaque nuit, choisissez un autre joueur: son vote comptera pour 3 votes le jour suivant.",
-    "edition": "tb",
-    "firstNight": 1,
-    "firstNightReminder": "Choisit un autre joueur (lui assigner le jeton « Vote 3x ») qui aura trois votes le jour suivant.",
-    "id": "fr_FR_bureaucrat",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bureaucrat.png?raw=true",
-    "name": "Bureaucrate",
-    "otherNight": 1,
-    "otherNightReminder": "Choisit un autre joueur (lui assigner le jeton « Vote 3x ») qui aura trois votes le jour suivant.",
-    "reminders": [
-      "Vote x3"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "Chaque jour, après la 1ère exécution, vous devez faire une nouvelle nomination.",
-    "edition": "snv",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "fr_FR_butcher",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/butcher.png?raw=true",
-    "name": "Boucher",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
   },
   {
     "ability": "Chaque nuit*, vous gagnez la capacité du dernier rôle exécuté. Si l'exécuté était maléfique, vous gagnez une capacité au choix du Conteur et vous êtes empoisonné jusqu'à ce qu'un nouveau rôle « bon » soit exécuté.",
@@ -220,20 +109,6 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Si vous étiez drôle aujourd'hui, vous pourriez ne pas être exilé.",
-    "edition": "snv",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "fr_FR_deviant",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/deviant.png?raw=true",
-    "name": "Déviant",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
     "ability": "Chaque nuit, choisissez un autre joueur (pas un Voyageur), vous apprendrez son rôle et un rôle d'alignement opposé.",
     "edition": "snv",
     "firstNight": 41,
@@ -295,50 +170,6 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Une fois par jour, vous pouvez assassiner un de vos deux voisins vivants, mais uniquement si l'autre est d'accord.",
-    "edition": "",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "fr_FR_gangster",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gangster.png?raw=true",
-    "name": "Gangster",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "Chaque jour, après le décompte de la première nomination, vous pouvez choisir un joueur qui a voté: il meurt.",
-    "edition": "tb",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "fr_FR_gunslinger",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gunslinger.png?raw=true",
-    "name": "Vengeur",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "Chaque nuit, choisissez un joueur vivant: s’il est d’accord, vous apprendrez son rôle, mais vous risquez de mourir tous les deux.",
-    "edition": "snv",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "fr_FR_harlot",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/harlot.png?raw=true",
-    "name": "Fille de joie",
-    "otherNight": 1,
-    "otherNightReminder": "Elle pointe un joueur et s'endort. Réveillez ce joueur, montrez-lui la carte verte « Ce rôle vous a sélectionné » et le jeton Fille de joie. Ce joueur hoche ou secoue la tête. S'ils hochent, réveillez la Fille de joie et montrez-lui le jeton du joueur. Décidez si les 2 joueurs meurent.",
-    "reminders": [
-      "Mort"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
     "ability": "Chaque nuit*, choisissez un joueur : il meurt. Si vous vous choisissez, vous mourez et un Sbire vivant devient l’Imp.",
     "edition": "tb",
     "firstNight": 0,
@@ -353,22 +184,6 @@
     ],
     "setup": false,
     "team": "demon"
-  },
-  {
-    "ability": "Une fois par partie, si un joueur est nommé, vous pouvez choisir de forcer ou d’annuler l'exécution.",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "fr_FR_judge",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/judge.png?raw=true",
-    "name": "Magistrat",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [
-      "Inactif"
-    ],
-    "setup": false,
-    "team": "traveler"
   },
   {
     "ability": "Chaque nuit, les Sbires choisissent qui garde le jeton P’tit Monstre et « est le Démon ». Un joueur meurt chaque nuit* [+1 Sbire].",
@@ -387,20 +202,6 @@
     ],
     "setup": true,
     "team": "demon"
-  },
-  {
-    "ability": "Les joueurs ne peuvent pas quitter leur siège pour parler en privé. Une fois par jour, vous pouvez demander à deux joueurs de changer de place.",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "fr_FR_matron",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/matron.png?raw=true",
-    "name": "Matrone",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
   },
   {
     "ability": "Vous êtes Dément : Ne révélez pas votre vraie nature (Étranger ou Bête de foire), d’aucune façon, sinon c’est possiblement l’exécution.",
@@ -505,20 +306,6 @@
     "team": "outsider"
   },
   {
-    "ability": "Si un joueur de votre alignement est exécuté, vous pourriez être exécuté à sa place.",
-    "edition": "tb",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "fr_FR_scapegoat",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scapegoat.png?raw=true",
-    "name": "Bouc Émissaire",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
     "ability": "Chaque nuit, choisissez un joueur vivant. Si vous avez choisi un Démon, vous échangez de rôle avec lui et il devient empoisonné.",
     "edition": "snv",
     "firstNight": 20,
@@ -533,22 +320,6 @@
     ],
     "setup": false,
     "team": "townsfolk"
-  },
-  {
-    "ability": "Chaque nuit, choisissez un autre joueur: son vote compte négativement le jour suivant.",
-    "edition": "tb",
-    "firstNight": 1,
-    "firstNightReminder": "Choisit un autre joueur (lui assigner le jeton « Vote négatif ») qui aura un vote négatif le jour suivant.",
-    "id": "fr_FR_thief",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/thief.png?raw=true",
-    "name": "Voleur",
-    "otherNight": 1,
-    "otherNightReminder": "Choisit un autre joueur (lui assigner le jeton « Vote négatif ») qui aura un vote négatif le jour suivant.",
-    "reminders": [
-      "Vote négatif"
-    ],
-    "setup": false,
-    "team": "traveler"
   },
   {
     "ability": "Chaque nuit*, vous apprenez si un Sbire a nommé.",
@@ -566,20 +337,6 @@
     ],
     "setup": false,
     "team": "townsfolk"
-  },
-  {
-    "ability": "Seuls vous et les morts peuvent voter. Pas besoin de jeton, ni d'une majorité de minimum 50%.",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "fr_FR_voudon",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/voudon.png?raw=true",
-    "name": "Nécromant",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
   },
   {
     "ability": "Chaque nuit, choisissez un joueur: s'il fait une nomination le jour suivant, il meurt aussitôt. Si seulement 3 joueurs sont vivants, votre capacité est inactive.",

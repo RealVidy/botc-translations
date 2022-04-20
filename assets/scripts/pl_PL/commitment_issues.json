@@ -16,22 +16,6 @@
     "team": "townsfolk"
   },
   {
-    "ability": "On your 1st night, you gain a Townsfolk ability (if good), or a Minion ability (if evil).",
-    "edition": "bmr",
-    "firstNight": 1,
-    "firstNightReminder": "Show the Apprentice the 'You are' card, then a Townsfolk or Minion token. In the Grimoire, replace the Apprentice token with that character token, and put the Apprentice's 'Is the Apprentice' reminder by that character token.",
-    "id": "pl_PL_apprentice",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/apprentice.png?raw=true",
-    "name": "Apprentice",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [
-      "Is the Apprentice"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
     "ability": "Jeśli umrzesz dziś za dnia bądź tej nocy, demon może wybrać 2 graczy (ale nie innego demona), którzy zamienią się postaciami.",
     "edition": "snv",
     "firstNight": 0,
@@ -48,71 +32,6 @@
     "team": "outsider"
   },
   {
-    "ability": "Każdej nocy, aż do zmierzchu, 1) gracz trzeźwieje, zdrowieje i dostaje prawdziwe informacje, lub 2) ich zdolność działa dwa razy. Gracz dowiaduje się, która opcja na niego działa.",
-    "edition": "snv",
-    "firstNight": 1,
-    "firstNightReminder": "Wybierz gracza, obudź go i powiedz, która moc Baristy ma na niego wpływ. Potraktuj go zgodnie z tą mocą (trzeźwy/zdrowy/prawdziwe informacle lub aktywuj ich zdolność dwa razy).",
-    "id": "pl_PL_barista",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/barista.png?raw=true",
-    "name": "Barista",
-    "otherNight": 1,
-    "otherNightReminder": "Wybierz gracza, obudź go i powiedz, która moc Baristy ma na niego wpływ. Potraktuj go zgodnie z tą mocą (trzeźwy/zdrowy/prawdziwe informacle lub aktywuj ich zdolność dwa razy).",
-    "reminders": [
-      "2x zdolność",
-      "trzeźwy i zdrowy"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "You must use a vote token to vote. Dead players may choose to give you theirs. If so, you learn their alignment.",
-    "edition": "tb",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "pl_PL_beggar",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/beggar.png?raw=true",
-    "name": "Beggar",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "Only the Storyteller can nominate. At least 1 opposite player must be nominated each day.",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "pl_PL_bishop",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bishop.png?raw=true",
-    "name": "Bishop",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [
-      "Nominate evil",
-      "Nominate good"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "Raz w trakcie gry, nocą, wybierz martwego gracza - odzyskuje on swoją zdolność postaci do zmierzchu.",
-    "edition": "snv",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "pl_PL_bonecollector",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bonecollector.png?raw=true",
-    "name": "Kolekcjoner kości",
-    "otherNight": 1,
-    "otherNightReminder": "Kolekcjoner kości albo kręci głową na nie albo wskazuje któregokolwiek martwego gracza. Jeśli wskazał martwego gracza, oznacz go żetonem Kolekcjonera 'ma zdolność' przy jego żetonie postaci. (Możliwe, że będziesz musiał obudzić tego gracza, żeby skorzystał ze swojej zdolności.)",
-    "reminders": [
-      "brak zdolności",
-      "ma zdolność"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
     "ability": "You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]",
     "edition": "",
     "firstNight": 45,
@@ -127,36 +46,6 @@
     ],
     "setup": true,
     "team": "townsfolk"
-  },
-  {
-    "ability": "Each night, choose a player (not yourself): their vote counts as 3 votes tomorrow.",
-    "edition": "tb",
-    "firstNight": 1,
-    "firstNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
-    "id": "pl_PL_bureaucrat",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bureaucrat.png?raw=true",
-    "name": "Bureaucrat",
-    "otherNight": 1,
-    "otherNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
-    "reminders": [
-      "3 votes"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "Każdego dnia po pierwszej egzekucji możesz ponownie nominować.",
-    "edition": "snv",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "pl_PL_butcher",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/butcher.png?raw=true",
-    "name": "Rzeźnik",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
   },
   {
     "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.",
@@ -220,20 +109,6 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Jeśli byłeś dziś zabawny, to nie możesz zostać wygnany.",
-    "edition": "snv",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "pl_PL_deviant",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/deviant.png?raw=true",
-    "name": "Wykolejeniec",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
     "ability": "Każdej nocy wybierz gracza (nie siebie, nie wędrowców). Zobaczysz 1 dobrą i 1 złą postać, jedna z nich jest prawidłowa.",
     "edition": "snv",
     "firstNight": 41,
@@ -294,50 +169,6 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per day, you may choose to kill an alive neighbour, if your other alive neighbour agrees.",
-    "edition": "",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "pl_PL_gangster",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gangster.png?raw=true",
-    "name": "Gangster",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "Each day, after the 1st vote has been tallied, you may choose a player that voted: they die.",
-    "edition": "tb",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "pl_PL_gunslinger",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gunslinger.png?raw=true",
-    "name": "Gunslinger",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "Każdej nocy* wybierz żywego gracza - jeśli się zgodzi, dowiadujesz się, jaką jest postacią, ale obydwoje możecie umrzeć.",
-    "edition": "snv",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "pl_PL_harlot",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/harlot.png?raw=true",
-    "name": "Ladacznica",
-    "otherNight": 1,
-    "otherNightReminder": "Ladacznica wskazuje któregokolwiek gracza. Połóż Ladacznicę spać. Obudź wybranego przez nią gracza, pokaż mu kartę 'TA POSTAĆ CIĘ WYBRAŁA' i żeton Ladacznicy. Gracz ten albo kiwa głową na tak albo kręci na nie. Jeśli gracz pokiwał głową, obudź Ladacznicę i pokaż jej żeton postaci wybranego gracza. Potem możesz zdecydować, że obydwoje umrą.",
-    "reminders": [
-      "zgon"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
     "ability": "Kazdej nocy wybierz gracza, ktory umiera. Jesli zabijesz w ten sposob siebie, slugus zostaje demonem.",
     "edition": "tb",
     "firstNight": 0,
@@ -352,22 +183,6 @@
     ],
     "setup": false,
     "team": "demon"
-  },
-  {
-    "ability": "Once per game, if another player nominated, you may choose to force the current execution to pass or fail.",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "pl_PL_judge",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/judge.png?raw=true",
-    "name": "Judge",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [
-      "No ability"
-    ],
-    "setup": false,
-    "team": "traveler"
   },
   {
     "ability": "Each night, Minions choose who babysits Lil' Monsta's token & \"is the Demon\". A player dies each night*. [+1 Minion]",
@@ -386,20 +201,6 @@
     ],
     "setup": true,
     "team": "demon"
-  },
-  {
-    "ability": "Each day, you may choose up to 3 sets of 2 players to swap seats. Players may not leave their seats to talk in private.",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "pl_PL_matron",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/matron.png?raw=true",
-    "name": "Matron",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
   },
   {
     "ability": "Jeśli \"szalejesz\" na punkcie bycia outsiderem, możesz zostać stracony.",
@@ -504,20 +305,6 @@
     "team": "outsider"
   },
   {
-    "ability": "If a player of your alignment is executed, you might be executed instead.",
-    "edition": "tb",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "pl_PL_scapegoat",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scapegoat.png?raw=true",
-    "name": "Scapegoat",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
     "ability": "Każdej nocy wybierz żywego gracza - jeśli wybrałeś demona, to zamieniacie się z nim postaciami i drużynami a i zostaje on otruty.",
     "edition": "snv",
     "firstNight": 20,
@@ -532,22 +319,6 @@
     ],
     "setup": false,
     "team": "townsfolk"
-  },
-  {
-    "ability": "Each night, choose a player (not yourself): their vote counts negatively tomorrow.",
-    "edition": "tb",
-    "firstNight": 1,
-    "firstNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
-    "id": "pl_PL_thief",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/thief.png?raw=true",
-    "name": "Thief",
-    "otherNight": 1,
-    "otherNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
-    "reminders": [
-      "Negative vote"
-    ],
-    "setup": false,
-    "team": "traveler"
   },
   {
     "ability": "Każdej nocy* dowiadujesz się, czy sługus dziś nominował",
@@ -565,20 +336,6 @@
     ],
     "setup": false,
     "team": "townsfolk"
-  },
-  {
-    "ability": "Only you and the dead can vote. They don't need a vote token to do so. A 50% majority is not required.",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "pl_PL_voudon",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/voudon.png?raw=true",
-    "name": "Voudon",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
   },
   {
     "ability": "Każdej nocy wybierz gracza - jeśli jutro nominuje, umrze. Tracisz tę zdolność przy trzech żywych graczach.",

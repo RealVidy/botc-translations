@@ -16,22 +16,6 @@
     "team": "townsfolk"
   },
   {
-    "ability": "På din 1a natt, får du en Bybos förmåga (om du är god), eller en Minions förmåga (om du är ond).",
-    "edition": "bmr",
-    "firstNight": 1,
-    "firstNightReminder": "Visa Lärlingen \"Du är\" kortet, sedan en Bybo eller en Minion. I grimoaren, byt ut Lärlingen med den karaktärens du visat, och sätt Lärlingens \"Är Lärlingen\" markör bredvid den nya karaktären.",
-    "id": "sv_SE_apprentice",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/apprentice.png?raw=true",
-    "name": "Lärling",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [
-      "Är Lärlingen"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
     "ability": "Om du dog idag eller inatt, kan Demonen välja 2 spelare (inte en annan Demon) som byter karaktärer.",
     "edition": "snv",
     "firstNight": 0,
@@ -48,71 +32,6 @@
     "team": "outsider"
   },
   {
-    "ability": "Varje natt, tills skymmning, 1) en spelare blir nykter, frisk och får sann information, eller 2) deras förmåga fungerar två gånger. De får reda på vilken.",
-    "edition": "snv",
-    "firstNight": 1,
-    "firstNightReminder": "Välj en spelare, väck dem och berätta för dem vilken av Baristans förmågor påverkar dem. Behandla dem sedan enligt förmågan (nykter/frisk/sann information eller aktivera deras förmåga två gånger)",
-    "id": "sv_SE_barista",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/barista.png?raw=true",
-    "name": "Barista",
-    "otherNight": 1,
-    "otherNightReminder": "Välj en spelare, väck dem och berätta för dem vilken av Baristans förmågor påverkar dem. Behandla dem sedan enligt förmågan (nykter/frisk/sann information eller aktivera deras förmåga två gånger)",
-    "reminders": [
-      "Förmåga två gånger",
-      "Nykter & Frisk"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "Du måste använda en rösta-pollett för att rösta. Döda spelare kan välja att ge dig deras. Om de gör det, så får du reda på deras sida.",
-    "edition": "tb",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "sv_SE_beggar",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/beggar.png?raw=true",
-    "name": "Tiggare",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "Bara Sagoberättaren kan nominera. Minst 1 spelare från motsatt lag måste bli nominerad varje dag.",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "sv_SE_bishop",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bishop.png?raw=true",
-    "name": "Biskop",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [
-      "Nominera god",
-      "Nominera ond."
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "En gång per match, under natten, välj en död spelare: de får tillbaka sin förmåga tills skymmning.",
-    "edition": "snv",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "sv_SE_bonecollector",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bonecollector.png?raw=true",
-    "name": "Bensamlare",
-    "otherNight": 1,
-    "otherNightReminder": "Bensamlaren skakar antingen på huvudet eller pekar på en död spelare. Om de pekar på en död spelare, sätt Bensamlarens \"Har förmåga\" markör bredvid den valda spelarens karaktär. (De kan behöva väckas inatt för att använda sin förmåga)",
-    "reminders": [
-      "Har förmåga",
-      "Ingen förmåga"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
     "ability": "Du börjar att veta om 1 ond spelare. Om spelaren du vet om dör, lär du dig en ny ond spelare inatt. [1 Bybo är ond]",
     "edition": "",
     "firstNight": 45,
@@ -127,36 +46,6 @@
     ],
     "setup": true,
     "team": "townsfolk"
-  },
-  {
-    "ability": "Varje natt, välj en spelare (inte dig själv): deras röst räknas som 3 röster imorgon.",
-    "edition": "tb",
-    "firstNight": 1,
-    "firstNightReminder": "Byråkraten pekar på en spelare. Lägg Byråkratens \"3 röster\" markör vid den valda spelarens karaktär.",
-    "id": "sv_SE_bureaucrat",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bureaucrat.png?raw=true",
-    "name": "Byråkrat",
-    "otherNight": 1,
-    "otherNightReminder": "Byråkraten pekar på en spelare. Lägg Byråkratens \"3 röster\" markör vid den valda spelarens karaktär.",
-    "reminders": [
-      "3 röster"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "Varje dag, efter den 1a avrättningen, får du nominera igen.",
-    "edition": "snv",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "sv_SE_butcher",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/butcher.png?raw=true",
-    "name": "Slaktare",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
   },
   {
     "ability": "Du har förmågan av den senaste avrättade karaktären. Om den var ond, blir du förgiftad tills en god spelare dör av avrättning.",
@@ -220,20 +109,6 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Om du var rolig idag, så kan du inte dö av exil.",
-    "edition": "snv",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "sv_SE_deviant",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/deviant.png?raw=true",
-    "name": "Avvikare",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
     "ability": "Varje natt, välj en spelare (inte dig själv eller Resande): du lär dig 1 god och 1 ond karaktär, 1 av dem är korrekt.",
     "edition": "snv",
     "firstNight": 41,
@@ -295,50 +170,6 @@
     "team": "townsfolk"
   },
   {
-    "ability": "En gång per dag, du får välja att döda en levande granne, om din andra granne tillåter det.",
-    "edition": "",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "sv_SE_gangster",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gangster.png?raw=true",
-    "name": "Gangster",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "Varje dag, efter den 1a omröstningen har räknats, får du välja en spelare som röstade: de dör.",
-    "edition": "tb",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "sv_SE_gunslinger",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gunslinger.png?raw=true",
-    "name": "Revolverman",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
-    "ability": "Varje natt*, välj en levande spelare: om de accepterar, lär du dig deras karaktär, men ni båda kanske dör inatt.",
-    "edition": "snv",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "sv_SE_harlot",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/harlot.png?raw=true",
-    "name": "Sköka",
-    "otherNight": 1,
-    "otherNightReminder": "Skökan pekar på en spelare. Sen, lägg Skökan. Väck den valda spelaren, visa dem \"den här karaktären valde dig\" kortet och sedan Sköka-polletten. Spelaren antingen nickar eller skakar på huvudet. Om de nickade, väck Skökan och visa dem den valda spelarens karaktär. Sedan, får du välja om båda dör.",
-    "reminders": [
-      "Död"
-    ],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
     "ability": "Varje natt*, välj en spelare: de dör. Om du väljer dig själv, blir en Minion Djävulen.",
     "edition": "tb",
     "firstNight": 0,
@@ -353,22 +184,6 @@
     ],
     "setup": false,
     "team": "demon"
-  },
-  {
-    "ability": "En gång per spel, om en annan spelare nominerade, får du välja att tvinga avrättningen att gå genom eller misslyckas.",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "sv_SE_judge",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/judge.png?raw=true",
-    "name": "Domare",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [
-      "Ingen förmåga"
-    ],
-    "setup": false,
-    "team": "traveler"
   },
   {
     "ability": "Varje natt, Minions väljer vem som är barnvakt till Lil'Monsta & \"Är Demonen\". 1 spelare dör varje natt*.  [+1 Minion]",
@@ -387,20 +202,6 @@
     ],
     "setup": true,
     "team": "demon"
-  },
-  {
-    "ability": "Varje dag, du får välja upp till 3 sets av 2 spelare som får byta plats. Spelare får inte lämna deras plats för att prata privat.",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "sv_SE_matron",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/matron.png?raw=true",
-    "name": "Husmor",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
   },
   {
     "ability": "Om du är \"galen\" att du är en Outsider, kan du bli avrättad.",
@@ -505,20 +306,6 @@
     "team": "outsider"
   },
   {
-    "ability": "Om en spelare på ditt lag blir avrättad, kan du bli avrättad istället.",
-    "edition": "tb",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "sv_SE_scapegoat",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scapegoat.png?raw=true",
-    "name": "Syndabock",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
-  },
-  {
     "ability": "Varje natt, välj en levande spelare: en vald Demon byter karaktär & lag med dig & är sedan förgiftad.",
     "edition": "snv",
     "firstNight": 20,
@@ -533,22 +320,6 @@
     ],
     "setup": false,
     "team": "townsfolk"
-  },
-  {
-    "ability": "Varje natt, välj en spelare (inte dig själv): deras röst räknas negativt imorgon.",
-    "edition": "tb",
-    "firstNight": 1,
-    "firstNightReminder": "Tjuven pekar på en spelare. Lägg Tjuvens \"Negativ röst\" markör bredvid den valda spelarens karaktär-pollett.",
-    "id": "sv_SE_thief",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/thief.png?raw=true",
-    "name": "Tjuv",
-    "otherNight": 1,
-    "otherNightReminder": "Tjuven pekar på en spelare. Lägg Tjuvens \"Negativ röst\" markör bredvid den valda spelarens karaktär-pollett.",
-    "reminders": [
-      "Negativ röst"
-    ],
-    "setup": false,
-    "team": "traveler"
   },
   {
     "ability": "Varje natt*, du lär dig om en Minion nominerade idag.",
@@ -566,20 +337,6 @@
     ],
     "setup": false,
     "team": "townsfolk"
-  },
-  {
-    "ability": "Endast du och de döda kan rösta. De behöver inte en röst-pollett för att göra det. Det krävs inte en 50% majoritet.",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "sv_SE_voudon",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/voudon.png?raw=true",
-    "name": "Voudon",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "team": "traveler"
   },
   {
     "ability": "Varje natt, välj en spelare: om de nominerar imorgon, dör de. Om 3 eller färre spelare lever förlorar du din förmåga.",
