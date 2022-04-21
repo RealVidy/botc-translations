@@ -17,6 +17,7 @@ defmodule GenerateScripts do
       |> Enum.map(fn path ->
         Path.rootname(path)
       end)
+      |> Enum.reject(fn locale -> locale == "" end)
 
     script_paths = Path.wildcard("#{@path_to_script_definitions}/*.json")
 
