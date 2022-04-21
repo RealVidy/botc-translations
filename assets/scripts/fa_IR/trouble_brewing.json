@@ -38,7 +38,7 @@
     "otherNight": 1,
     "otherNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
     "reminders": [
-      "3 votes"
+      "۳ رای"
     ],
     "setup": false,
     "team": "traveler"
@@ -54,7 +54,7 @@
     "otherNight": 55,
     "otherNightReminder": "The Butler points to a player. Mark that player as 'Master'.",
     "reminders": [
-      "Master"
+      "ارباب"
     ],
     "setup": false,
     "team": "outsider"
@@ -225,7 +225,7 @@
     "otherNight": 8,
     "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
     "reminders": [
-      "Poisoned"
+      "مسموم"
     ],
     "setup": false,
     "team": "minion"
@@ -313,7 +313,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "بدون قابلیت"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -373,7 +373,7 @@
     "otherNight": 56,
     "otherNightReminder": "If a player was executed today: Show that player’s character token.",
     "reminders": [
-      "Executed"
+      "معدوم"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -389,7 +389,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "بدون قابلیت"
     ],
     "setup": false,
     "team": "townsfolk"

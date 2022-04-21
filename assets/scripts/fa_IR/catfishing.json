@@ -10,7 +10,7 @@
     "otherNight": 5,
     "otherNightReminder": "If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
     "reminders": [
-      "?"
+      "؟"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -26,7 +26,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Is the Apprentice"
+      "کارآموز"
     ],
     "setup": false,
     "team": "traveler"
@@ -42,8 +42,8 @@
     "otherNight": 37,
     "otherNightReminder": "If the Assassin has not yet used their ability: The Assassin either shows the 'no' head signal, or points to a player. That player dies.",
     "reminders": [
-      "Dead",
-      "No ability"
+      "بدون قابلیت",
+      "مرده"
     ],
     "setup": false,
     "team": "minion"
@@ -255,7 +255,7 @@
     "otherNight": 50,
     "otherNightReminder": "If the Grandmother’s grandchild was killed by the Demon tonight: The Grandmother dies.",
     "reminders": [
-      "Grandchild"
+      "نوه"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -271,7 +271,7 @@
     "otherNight": 1,
     "otherNightReminder": "The Harlot points at any player. Then, put the Harlot to sleep. Wake the chosen player, show them the 'This character selected you' token, then the Harlot token. That player either nods their head yes or shakes their head no. If they nodded their head yes, wake the Harlot and show them the chosen player's character token. Then, you may decide that both players die.",
     "reminders": [
-      "Dead"
+      "مرده"
     ],
     "setup": false,
     "team": "traveler"
@@ -441,7 +441,7 @@
     "otherNight": 41,
     "otherNightReminder": "Choose a player that is drunk.",
     "reminders": [
-      "Drunk"
+      "مست"
     ],
     "setup": false,
     "team": "outsider"
@@ -475,7 +475,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Poisoned"
+      "مسموم"
     ],
     "remindersGlobal": [
       "Knows"

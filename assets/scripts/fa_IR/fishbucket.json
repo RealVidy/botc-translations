@@ -1,9 +1,9 @@
 [
   {
-    "ability": "You have a not-in-play Minion ability.",
+    "ability": "شما دارای قدرت یکی از مریدانی که در بازی نیست هستید.",
     "edition": "",
     "firstNight": 3,
-    "firstNightReminder": "Show the Alchemist a not-in-play Minion token",
+    "firstNightReminder": "به کیمیاگر،‌ نشانه یکی از مریدانی که در بازی نیستند را نشان دهید",
     "id": "fa_IR_alchemist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/alchemist.png?raw=true",
     "name": "کیمیاگر",
@@ -11,7 +11,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Is the Alchemist"
+      "کیمیاگر"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -27,7 +27,7 @@
     "otherNight": 5,
     "otherNightReminder": "If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
     "reminders": [
-      "?"
+      "؟"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -43,7 +43,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "بدون قابلیت"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -243,7 +243,7 @@
     "otherNight": 6,
     "otherNightReminder": "The Engineer shows a 'no' head signal, or points to a Demon or points to the relevant number of Minions. If the Engineer chose characters, replace the Demon or Minions with the choices, then wake the relevant players and show them the 'You are' card and the relevant character tokens.",
     "reminders": [
-      "No ability"
+      "بدون قابلیت"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -259,7 +259,7 @@
     "otherNight": 22,
     "otherNightReminder": "The Exorcist points to a player, different from the previous night. If that player is the Demon: Wake the Demon. Show the Exorcist token. Point to the Exorcist. The Demon does not act tonight.",
     "reminders": [
-      "Chosen"
+      "منتخب"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -289,7 +289,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "بدون قابلیت"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -322,7 +322,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "بدون قابلیت"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -384,7 +384,7 @@
     "otherNight": 47,
     "otherNightReminder": "If the Gossip’s public statement was true: Choose a player not protected from dying tonight. That player dies.",
     "reminders": [
-      "Dead"
+      "مرده"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -400,7 +400,7 @@
     "otherNight": 50,
     "otherNightReminder": "If the Grandmother’s grandchild was killed by the Demon tonight: The Grandmother dies.",
     "reminders": [
-      "Grandchild"
+      "نوه"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -416,7 +416,7 @@
     "otherNight": 51,
     "otherNightReminder": "The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",
     "reminders": [
-      "No ability"
+      "بدون قابلیت"
     ],
     "setup": true,
     "team": "townsfolk"
@@ -605,7 +605,7 @@
     "otherNight": 66,
     "otherNightReminder": "The Nightwatchman may point to a player. Wake that player, show the 'This character selected you' card and the Nightwatchman token, then point to the Nightwatchman player.",
     "reminders": [
-      "No ability"
+      "بدون قابلیت"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -776,7 +776,7 @@
     "otherNight": 4,
     "otherNightReminder": "The previously drunk player is no longer drunk. The Sailor points to a living player. Either the Sailor, or the chosen player, is drunk.",
     "reminders": [
-      "Drunk"
+      "مست"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -806,7 +806,7 @@
     "otherNight": 61,
     "otherNightReminder": "If the Seamstress has not yet used their ability: the Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
     "reminders": [
-      "No ability"
+      "بدون قابلیت"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -822,7 +822,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "بدون قابلیت"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -868,7 +868,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Can not die"
+      "نامیرا"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -901,7 +901,7 @@
     "otherNight": 56,
     "otherNightReminder": "If a player was executed today: Show that player’s character token.",
     "reminders": [
-      "Executed"
+      "معدوم"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -917,7 +917,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "بدون قابلیت"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -940,7 +940,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, if either good living neighbour is drunk or poisoned, you die.",
+    "ability": "هر شب*، اگر هرکدام از همسایه‌های شما مست یا مسموم باشند، می‌میرید.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -948,9 +948,9 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/acrobat.png?raw=true",
     "name": "بندباز",
     "otherNight": 39,
-    "otherNightReminder": "If a good living neighbour is drunk or poisoned, the Acrobat player dies.",
+    "otherNightReminder": "اگر همسایه خوب زنده بندباز مست یا مسموم است، بندباز می‌میرد.",
     "reminders": [
-      "Dead"
+      "مرده"
     ],
     "setup": false,
     "team": "outsider"
@@ -982,7 +982,7 @@
     "otherNight": 55,
     "otherNightReminder": "The Butler points to a player. Mark that player as 'Master'.",
     "reminders": [
-      "Master"
+      "ارباب"
     ],
     "setup": false,
     "team": "outsider"
@@ -1047,7 +1047,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Drunk"
+      "مست"
     ],
     "setup": false,
     "team": "outsider"
@@ -1212,7 +1212,7 @@
     "otherNight": 41,
     "otherNightReminder": "Choose a player that is drunk.",
     "reminders": [
-      "Drunk"
+      "مست"
     ],
     "setup": false,
     "team": "outsider"
@@ -1244,8 +1244,8 @@
     "otherNight": 37,
     "otherNightReminder": "If the Assassin has not yet used their ability: The Assassin either shows the 'no' head signal, or points to a player. That player dies.",
     "reminders": [
-      "Dead",
-      "No ability"
+      "بدون قابلیت",
+      "مرده"
     ],
     "setup": false,
     "team": "minion"
@@ -1321,7 +1321,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Twin"
+      "دوقلو"
     ],
     "setup": false,
     "team": "minion"
@@ -1448,7 +1448,7 @@
     "otherNight": 8,
     "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
     "reminders": [
-      "Poisoned"
+      "مسموم"
     ],
     "setup": false,
     "team": "minion"
@@ -1508,7 +1508,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Poisoned"
+      "مسموم"
     ],
     "remindersGlobal": [
       "Knows"
@@ -1527,7 +1527,7 @@
     "otherNight": 15,
     "otherNightReminder": "If there are 4 or more players alive: The Witch points to a player. If that player nominates tomorrow they die immediately.",
     "reminders": [
-      "Cursed"
+      "نفرین‌شده"
     ],
     "setup": false,
     "team": "minion"
@@ -1769,7 +1769,7 @@
     "otherNight": 31,
     "otherNightReminder": "The Vortox points to a player. That player dies.",
     "reminders": [
-      "Dead"
+      "مرده"
     ],
     "setup": false,
     "team": "demon"
@@ -1802,7 +1802,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Is the Apprentice"
+      "کارآموز"
     ],
     "setup": false,
     "team": "traveler"
@@ -1883,7 +1883,7 @@
     "otherNight": 1,
     "otherNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
     "reminders": [
-      "3 votes"
+      "۳ رای"
     ],
     "setup": false,
     "team": "traveler"
@@ -1955,7 +1955,7 @@
     "otherNight": 1,
     "otherNightReminder": "The Harlot points at any player. Then, put the Harlot to sleep. Wake the chosen player, show them the 'This character selected you' token, then the Harlot token. That player either nods their head yes or shakes their head no. If they nodded their head yes, wake the Harlot and show them the chosen player's character token. Then, you may decide that both players die.",
     "reminders": [
-      "Dead"
+      "مرده"
     ],
     "setup": false,
     "team": "traveler"
@@ -1971,7 +1971,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "بدون قابلیت"
     ],
     "setup": false,
     "team": "traveler"
@@ -2035,7 +2035,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Something bad might happen to whoever is most responsible for the death of a new player.",
+    "ability": "ممکن است برای کسی که باعث اصلی مرگ بازیکن جدید است اتفاق بدی بیفتد.",
     "id": "fa_IR_angel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/angel.png?raw=true",
     "name": "فرشته",
