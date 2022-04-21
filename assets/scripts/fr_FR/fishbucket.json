@@ -2043,14 +2043,14 @@
     "ability": "Quelque chose de grave peut arriver à celui qui est le plus responsable de la mort d'un nouveau joueur.",
     "id": "fr_FR_angel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/angel.png?raw=true",
-    "name": "Angel",
+    "name": "Ange",
     "team": "fabled"
   },
   {
     "ability": "Pendant les 2 premières minutes de chaque journée, les joueurs vétérans ne peuvent pas parler.",
     "id": "fr_FR_buddhist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/buddhist.png?raw=true",
-    "name": "Buddhist",
+    "name": "Bouddhiste",
     "team": "fabled"
   },
   {
@@ -2064,70 +2064,70 @@
     "ability": "Si 4 joueurs ou plus sont en vie, chaque joueur vivant peut décider publiquement (une fois par partie) qu'un joueur de son propre alignement meurt.",
     "id": "fr_FR_doomsayer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/doomsayer.png?raw=true",
-    "name": "Doomsayer",
+    "name": "Cassandre",
     "team": "fabled"
   },
   {
     "ability": "Chaque jour, 3 joueurs peuvent choisir de vous rendre visite. La nuit*, chaque visiteur apprend combien de visiteurs sont mauvais, mais 1 reçoit de fausses informations.",
     "id": "fr_FR_duchess",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/duchess.png?raw=true",
-    "name": "Duchess",
+    "name": "Duchesse",
     "team": "fabled"
   },
   {
     "ability": "Une fois par partie, 1 bon joueur peut obtenir de fausses informations.",
     "id": "fr_FR_fibbin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fibbin.png?raw=true",
-    "name": "Fibbin",
+    "name": "Baratineur",
     "team": "fabled"
   },
   {
     "ability": "Une fois par partie, le Démon choisit secrètement un joueur adverse : tous les joueurs choisissent lequel de ces 2 joueurs gagne.",
     "id": "fr_FR_fiddler",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fiddler.png?raw=true",
-    "name": "Fiddler",
+    "name": "Violoneux",
     "team": "fabled"
   },
   {
     "ability": "Quelque chose de grave peut arriver au joueur qui parle lorsque le conteur a demandé le silence.",
     "id": "fr_FR_hellslibrarian",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/hellslibrarian.png?raw=true",
-    "name": "Hell's Librarian",
+    "name": "Bibliothécaire de l'enfer",
     "team": "fabled"
   },
   {
     "ability": "2 joueurs voisins sont connus pour être du même alignement. Une fois par partie, l'un d'entre eux apparaîtra comme ayant l'alignement opposé",
     "id": "fr_FR_revolutionary",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/revolutionary.png?raw=true",
-    "name": "Revolutionary",
+    "name": "Révolutionnaire",
     "team": "fabled"
   },
   {
     "ability": "Il peut y avoir 1 étranger de plus ou de moins en jeu.",
     "id": "fr_FR_sentinel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
-    "name": "Sentinel",
+    "name": "Sentinelle",
     "team": "fabled"
   },
   {
     "ability": "Il ne peut pas y avoir plus d'un joueur maléfique supplémentaire.",
     "id": "fr_FR_spiritofivory",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spiritofivory.png?raw=true",
-    "name": "Spirit Of Ivory",
+    "name": "Esprit d'ivoire",
     "team": "fabled"
   },
   {
     "ability": "Nommez un rôle bon. S'il est en jeu, le joueur qui l'incarne ne peut mourir que par exécution, mais les joueurs malfaisants apprennent de qui il s'agit.",
     "id": "fr_FR_stormcatcher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/stormcatcher.png?raw=true",
-    "name": "Storm Catcher",
+    "name": "Attrape-tempête",
     "team": "fabled"
   },
   {
     "ability": "Le démon peut choisir de ne pas attaquer et doit le faire au moins une fois par partie. Les mauvais joueurs obtiennent des informations de départ normales.",
     "id": "fr_FR_toymaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/toymaker.png?raw=true",
-    "name": "Toymaker",
+    "name": "Fabricant de jouets",
     "team": "fabled"
   }
 ]
