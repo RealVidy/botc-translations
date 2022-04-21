@@ -161,7 +161,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Uma vez por partida, durante o dia, você pode escolher um jogador: se este for o Demônio, morre.",
+    "ability": "Uma vez por partida, durante o dia, você pode escolher um jogador publicamente: se o alvo for o Demônio, morre.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -177,7 +177,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Se você morrer à Noite, será acordado para escolher um jogador: você descobre o personagem dele.",
+    "ability": "Se você morrer à Noite, será acordado para escolher um jogador: você vê o personagem do alvo.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -185,13 +185,13 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true",
     "name": "Mestre dos Corvos",
     "otherNight": 42,
-    "otherNightReminder": "Se o Mestre dos Corvos morreu hoje: O Mestre dos Corvos aponta para um jogador. Mostre o token de personagem daquele jogador.",
+    "otherNightReminder": "Se o Mestre dos corvos morreu esta noite, o mesmo aponta pra um jogador. Mostre o token de personagem do alvo.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "Na 1ª vez que você é nomeado, se o nomeador é um Cidadão, este é executado imediatamente.",
+    "ability": "Na 1ª vez que você é nomeado, se o nomeador é um Cidadão, o mesmo é executado imediatamente.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",

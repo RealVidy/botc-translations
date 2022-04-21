@@ -81,17 +81,17 @@
     "team": "townsfolk"
   },
   {
-    "ability": "A cada noite, escolha 2 jogadores: você descobre se algum deles é um Demônio. Há um jogador bom que registra como Demônio para você.",
+    "ability": "A cada noite, escolha 2 jogadores: você vê se algum dos alvos é um Demônio. Há um jogador bom que sempre registra como Demônio para você.",
     "edition": "tb",
     "firstNight": 37,
-    "firstNightReminder": "A vidente aponta para dois jogadores. Sinalize com cabeça(sim ou não) para indicar se algum destes jogadores é um Demônio.",
+    "firstNightReminder": "A Vidente, aponta para dois jogadores. Com a cabeça, sinalize 'sim' ou 'não' para responder se algum dos alvos é um Demônio (ou o jogador marcado como 'Alarme Falso').",
     "id": "pt_BR_fortuneteller",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fortuneteller.png?raw=true",
     "name": "Vidente",
     "otherNight": 54,
-    "otherNightReminder": "A vidente aponta para dois jogadores. Sinalize com cabeça(sim ou não) para indicar se algum destes jogadores é um Demônio.",
+    "otherNightReminder": "A Vidente, aponta para dois jogadores. Com a cabeça, sinalize 'sim' ou 'não' para responder se algum dos alvos é um Demônio (ou o jogador marcado como 'Alarme Falso').",
     "reminders": [
-      "Red herring"
+      "Alarme Falso"
     ],
     "setup": false,
     "team": "townsfolk"

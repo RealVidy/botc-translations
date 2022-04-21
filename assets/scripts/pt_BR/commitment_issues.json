@@ -81,10 +81,10 @@
     "team": "minion"
   },
   {
-    "ability": "Você começa sabendo quantos pares de jogadores maus existem.",
+    "ability": "Você começa vendo quantos pares de jogadores maus existem.",
     "edition": "tb",
     "firstNight": 35,
-    "firstNightReminder": "Mostre um número (0, 1, 2, …) para indicar quantos pares de jogadores do mal são vizinhos.",
+    "firstNightReminder": "Com os dedos, mostre o número correspondente à quantidade de pares de jogadores maus vizinhos.",
     "id": "pt_BR_chef",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true",
     "name": "Chef",
@@ -123,15 +123,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "A cada noite, você descobre quantos de seus 2 vizinhos vivos são maus.",
+    "ability": "A cada noite, você vê quantos de seus 2 vizinhos vivos são maus.",
     "edition": "tb",
     "firstNight": 36,
-    "firstNightReminder": "Mostre um número (0, 1 ou 2) para indicar quantos dos vizinhos vivos do Empático são maus.",
+    "firstNightReminder": "Com os dedos, mostre o número correspondente à quantidade de vizinhos maus vivos do Empático.",
     "id": "pt_BR_empath",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
     "name": "Empático",
     "otherNight": 53,
-    "otherNightReminder": "Mostre um número (0, 1 ou 2) para indicar quantos dos vizinhos vivos do Empático são maus.",
+    "otherNightReminder": "Com os dedos, mostre o número correspondente à quantidade de vizinhos maus vivos do Empático.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -277,7 +277,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Se você morrer à Noite, será acordado para escolher um jogador: você descobre o personagem dele.",
+    "ability": "Se você morrer à Noite, será acordado para escolher um jogador: você vê o personagem do alvo.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -285,7 +285,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true",
     "name": "Mestre dos Corvos",
     "otherNight": 42,
-    "otherNightReminder": "Se o Mestre dos Corvos morreu hoje: O Mestre dos Corvos aponta para um jogador. Mostre o token de personagem daquele jogador.",
+    "otherNightReminder": "Se o Mestre dos corvos morreu esta noite, o mesmo aponta pra um jogador. Mostre o token de personagem do alvo.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"

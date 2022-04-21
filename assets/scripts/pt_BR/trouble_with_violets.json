@@ -62,10 +62,10 @@
     "team": "minion"
   },
   {
-    "ability": "Você começa sabendo quantos pares de jogadores maus existem.",
+    "ability": "Você começa vendo quantos pares de jogadores maus existem.",
     "edition": "tb",
     "firstNight": 35,
-    "firstNightReminder": "Mostre um número (0, 1, 2, …) para indicar quantos pares de jogadores do mal são vizinhos.",
+    "firstNightReminder": "Com os dedos, mostre o número correspondente à quantidade de pares de jogadores maus vizinhos.",
     "id": "pt_BR_chef",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true",
     "name": "Chef",
@@ -76,15 +76,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "A cada noite, você descobre quantos de seus 2 vizinhos vivos são maus.",
+    "ability": "A cada noite, você vê quantos de seus 2 vizinhos vivos são maus.",
     "edition": "tb",
     "firstNight": 36,
-    "firstNightReminder": "Mostre um número (0, 1 ou 2) para indicar quantos dos vizinhos vivos do Empático são maus.",
+    "firstNightReminder": "Com os dedos, mostre o número correspondente à quantidade de vizinhos maus vivos do Empático.",
     "id": "pt_BR_empath",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
     "name": "Empático",
     "otherNight": 53,
-    "otherNightReminder": "Mostre um número (0, 1 ou 2) para indicar quantos dos vizinhos vivos do Empático são maus.",
+    "otherNightReminder": "Com os dedos, mostre o número correspondente à quantidade de vizinhos maus vivos do Empático.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -122,17 +122,17 @@
     "team": "demon"
   },
   {
-    "ability": "A cada noite, escolha 2 jogadores: você descobre se algum deles é um Demônio. Há um jogador bom que registra como Demônio para você.",
+    "ability": "A cada noite, escolha 2 jogadores: você vê se algum dos alvos é um Demônio. Há um jogador bom que sempre registra como Demônio para você.",
     "edition": "tb",
     "firstNight": 37,
-    "firstNightReminder": "A vidente aponta para dois jogadores. Sinalize com cabeça(sim ou não) para indicar se algum destes jogadores é um Demônio.",
+    "firstNightReminder": "A Vidente, aponta para dois jogadores. Com a cabeça, sinalize 'sim' ou 'não' para responder se algum dos alvos é um Demônio (ou o jogador marcado como 'Alarme Falso').",
     "id": "pt_BR_fortuneteller",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fortuneteller.png?raw=true",
     "name": "Vidente",
     "otherNight": 54,
-    "otherNightReminder": "A vidente aponta para dois jogadores. Sinalize com cabeça(sim ou não) para indicar se algum destes jogadores é um Demônio.",
+    "otherNightReminder": "A Vidente, aponta para dois jogadores. Com a cabeça, sinalize 'sim' ou 'não' para responder se algum dos alvos é um Demônio (ou o jogador marcado como 'Alarme Falso').",
     "reminders": [
-      "Red herring"
+      "Alarme Falso"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -152,10 +152,10 @@
     "team": "traveler"
   },
   {
-    "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Lacaio específico.",
+    "ability": "Você começa vendo que 1 dentre 2 jogadores é um Lacaio específico.",
     "edition": "tb",
     "firstNight": 34,
-    "firstNightReminder": "Mostre um token de personagem Lacaio em jogo. Aponte para dois jogadores, um deles é aquele personagem.",
+    "firstNightReminder": "Mostre o token de um Lacaio em jogo. Aponte 2 jogadores, um destes deve ser o Lacaio mostrado.",
     "id": "pt_BR_investigator",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/investigator.png?raw=true",
     "name": "Investigador",
@@ -169,10 +169,10 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Forasteiro específico.(Ou que há 'zero' Forasteiros em jogo.)",
+    "ability": "Você começa vendo que 1 dentre 2 jogadores é um Forasteiro específico.(Ou que há 'zero' Forasteiros em jogo.)",
     "edition": "tb",
     "firstNight": 33,
-    "firstNightReminder": "Mostre um token de personagem Forasteiro em jogo. Aponte para dois jogadores, um deles é aquele personagem (ou mostre 'zero', caso não haja Forasteiros).",
+    "firstNightReminder": "Mostre o token de um Forasteiro em jogo. Aponte 2 jogadores, um destes deve ser o Forasteiro mostrado. Caso não haja Forasteiros, mostre o número 0.",
     "id": "pt_BR_librarian",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/librarian.png?raw=true",
     "name": "Bibliotecária",
@@ -200,7 +200,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "A cada noite*, escolha um jogador (exceto você): ele está a salvo do Demônio esta noite.",
+    "ability": "A cada noite*, escolha um jogador (exceto você): o alvo está a salvo do Demônio esta noite.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -208,7 +208,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/monk.png?raw=true",
     "name": "Monge",
     "otherNight": 13,
-    "otherNightReminder": "O jogador protegido anteriormente não está mais protegido. O Monge aponta para um jogador(exceto ele). Marque aquele jogador como PROTEGIDO.",
+    "otherNightReminder": "O Monge escolhe um jogador. marque o alvo com o token 'Protegido'.",
     "reminders": [
       "Protegido"
     ],
@@ -247,7 +247,7 @@
     "team": "minion"
   },
   {
-    "ability": "Se você morrer à Noite, será acordado para escolher um jogador: você descobre o personagem dele.",
+    "ability": "Se você morrer à Noite, será acordado para escolher um jogador: você vê o personagem do alvo.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -255,7 +255,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true",
     "name": "Mestre dos Corvos",
     "otherNight": 42,
-    "otherNightReminder": "Se o Mestre dos Corvos morreu hoje: O Mestre dos Corvos aponta para um jogador. Mostre o token de personagem daquele jogador.",
+    "otherNightReminder": "Se o Mestre dos corvos morreu esta noite, o mesmo aponta pra um jogador. Mostre o token de personagem do alvo.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -303,7 +303,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Uma vez por partida, durante o dia, você pode escolher um jogador: se este for o Demônio, morre.",
+    "ability": "Uma vez por partida, durante o dia, você pode escolher um jogador publicamente: se o alvo for o Demônio, morre.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -349,7 +349,7 @@
     "team": "traveler"
   },
   {
-    "ability": "A cada noite*, você descobre qual personagem morreu por execução durante o dia.",
+    "ability": "A cada noite*, você vê o personagem que morreu por execução durante o dia.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -357,7 +357,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/undertaker.png?raw=true",
     "name": "Coveiro",
     "otherNight": 56,
-    "otherNightReminder": "Se um jogador foi morreu por execução hoje: mostre o token de personagem desse jogador.",
+    "otherNightReminder": "Se um jogador foi morto por execuçãoo de dia, Mostre o token do personagem desse jogador.",
     "reminders": [
       "Executado"
     ],
@@ -383,7 +383,7 @@
     "team": "demon"
   },
   {
-    "ability": "Na 1ª vez que você é nomeado, se o nomeador é um Cidadão, este é executado imediatamente.",
+    "ability": "Na 1ª vez que você é nomeado, se o nomeador é um Cidadão, o mesmo é executado imediatamente.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -415,10 +415,10 @@
     "team": "demon"
   },
   {
-    "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Cidadão específico.",
+    "ability": "Você começa vendo que 1 dentre 2 jogadores é um Cidadão específico.",
     "edition": "tb",
     "firstNight": 32,
-    "firstNightReminder": "Mostre um token de personagem Cidadão em jogo. Aponte para dois jogadores, um deles é aquele personagem.",
+    "firstNightReminder": "Mostre o token de um Cidadão em jogo. Aponte 2 jogadores, um destes deve ser o Cidadão mostrado.",
     "id": "pt_BR_washerwoman",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/washerwoman.png?raw=true",
     "name": "Lavadeira",

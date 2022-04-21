@@ -134,10 +134,10 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Você começa sabendo quantos pares de jogadores maus existem.",
+    "ability": "Você começa vendo quantos pares de jogadores maus existem.",
     "edition": "tb",
     "firstNight": 35,
-    "firstNightReminder": "Mostre um número (0, 1, 2, …) para indicar quantos pares de jogadores do mal são vizinhos.",
+    "firstNightReminder": "Com os dedos, mostre o número correspondente à quantidade de pares de jogadores maus vizinhos.",
     "id": "pt_BR_chef",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true",
     "name": "Chef",
@@ -195,17 +195,17 @@
     "team": "demon"
   },
   {
-    "ability": "A cada noite, escolha 2 jogadores: você descobre se algum deles é um Demônio. Há um jogador bom que registra como Demônio para você.",
+    "ability": "A cada noite, escolha 2 jogadores: você vê se algum dos alvos é um Demônio. Há um jogador bom que sempre registra como Demônio para você.",
     "edition": "tb",
     "firstNight": 37,
-    "firstNightReminder": "A vidente aponta para dois jogadores. Sinalize com cabeça(sim ou não) para indicar se algum destes jogadores é um Demônio.",
+    "firstNightReminder": "A Vidente, aponta para dois jogadores. Com a cabeça, sinalize 'sim' ou 'não' para responder se algum dos alvos é um Demônio (ou o jogador marcado como 'Alarme Falso').",
     "id": "pt_BR_fortuneteller",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fortuneteller.png?raw=true",
     "name": "Vidente",
     "otherNight": 54,
-    "otherNightReminder": "A vidente aponta para dois jogadores. Sinalize com cabeça(sim ou não) para indicar se algum destes jogadores é um Demônio.",
+    "otherNightReminder": "A Vidente, aponta para dois jogadores. Com a cabeça, sinalize 'sim' ou 'não' para responder se algum dos alvos é um Demônio (ou o jogador marcado como 'Alarme Falso').",
     "reminders": [
-      "Red herring"
+      "Alarme Falso"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -292,10 +292,10 @@
     "team": "demon"
   },
   {
-    "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Lacaio específico.",
+    "ability": "Você começa vendo que 1 dentre 2 jogadores é um Lacaio específico.",
     "edition": "tb",
     "firstNight": 34,
-    "firstNightReminder": "Mostre um token de personagem Lacaio em jogo. Aponte para dois jogadores, um deles é aquele personagem.",
+    "firstNightReminder": "Mostre o token de um Lacaio em jogo. Aponte 2 jogadores, um destes deve ser o Lacaio mostrado.",
     "id": "pt_BR_investigator",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/investigator.png?raw=true",
     "name": "Investigador",
@@ -372,7 +372,7 @@
     "team": "minion"
   },
   {
-    "ability": "Se você morrer à Noite, será acordado para escolher um jogador: você descobre o personagem dele.",
+    "ability": "Se você morrer à Noite, será acordado para escolher um jogador: você vê o personagem do alvo.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -380,7 +380,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true",
     "name": "Mestre dos Corvos",
     "otherNight": 42,
-    "otherNightReminder": "Se o Mestre dos Corvos morreu hoje: O Mestre dos Corvos aponta para um jogador. Mostre o token de personagem daquele jogador.",
+    "otherNightReminder": "Se o Mestre dos corvos morreu esta noite, o mesmo aponta pra um jogador. Mostre o token de personagem do alvo.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
