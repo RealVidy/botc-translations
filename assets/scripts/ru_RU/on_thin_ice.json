@@ -1,0 +1,184 @@
+[
+  {
+    "ability": "Один раз за игру днем можете тайно задать Рассказчику вопрос, подразумевающий ответ да/нет.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_artist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/artist.png?raw=true",
+    "name": "Художник",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Истрачено"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Один раз за игру, ночью, выберите добрую роль: вы получите способность этой роли. Если она присутствует в игре, ее владелец становится пьян.",
+    "edition": "snv",
+    "firstNight": 2,
+    "firstNightReminder": "Философ либо качанием головы отказывается действовать, либо указывает на добрую роль в списке. Если он выбрал роль: замените жетон Философа жетоном этой роли. Или же, если эта роль есть в игре, отметьте ее владельца жетоном \"Пьян\", а Философа - жетоном \"Не Философ\".",
+    "id": "ru_RU_philosopher",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/philosopher.png?raw=true",
+    "name": "Философ",
+    "otherNight": 2,
+    "otherNightReminder": "Если Философ еще не применял свою способность: Философ либо качанием головы отказывается действовать, либо указывает на добрую роль в списке. Если он выбрал роль: замените жетон Философа жетоном этой роли. Или же, если эта роль есть в игре, отметьте ее владельца жетоном \"Пьян\", а Философа - жетоном \"Не Философ\".",
+    "reminders": [
+      "Не Философ",
+      "Пьян"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Один раз за игру, ночью*, выберите мертвого игрока. Если это Горожанин, он воскресает.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_professor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/professor.png?raw=true",
+    "name": "Профессор",
+    "otherNight": 45,
+    "otherNightReminder": "Если Профессор не применял способность: Профессор либо качанием головы отказывается действовать, либо указывает на игрока. Если этот игрок - Горожанин, он оживает.",
+    "reminders": [
+      "Жив",
+      "Истрачено"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Один раз за игру, ночью, можете выбрать 2 игроков (кроме себя). Вы узнаете, на одной ли они стороне.",
+    "edition": "snv",
+    "firstNight": 42,
+    "firstNightReminder": "Портниха либо качанием головы отказывается действовать, либо указывает на двух других игроков. Если Портниха выбрала игроков, кивните (да) или покачайте головой (нет) в зависимости от того, на одной ли они стороне.",
+    "id": "ru_RU_seamstress",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/seamstress.png?raw=true",
+    "name": "Портниха",
+    "otherNight": 61,
+    "otherNightReminder": "Если Портниха еще не применяла способность: Портниха либо качанием головы отказывается действовать, либо указывает на двух других игроков. Если Портниха выбрала игроков, кивните (да) или покачайте головой (нет) в зависимости от того, на одной ли они стороне.",
+    "reminders": [
+      "Истрачено"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Один раз за игру, днем, можете открыто выбрать игрока. Если это был Демон, он умирает.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_slayer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
+    "name": "Истребитель",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Истрачено"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Когда вас выдвигают в первый раз, выдвинувший вас игрок немедленно становится казнен сам, если он Горожанин.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_virgin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/virgin.png?raw=true",
+    "name": "Девственница",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Истрачено"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Когда вы узнаете, что умерли, открыто укажите на 1 живого игрока. Если он злой, ваша команда проигрывает.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_klutz",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/klutz.png?raw=true",
+    "name": "Растяпа",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Когда вы узнаете, что умерли, открыто укажите на 1 живого игрока. Если этот игрок добрый, ночью он умрет.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_moonchild",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/moonchild.png?raw=true",
+    "name": "Дитя луны",
+    "otherNight": 49,
+    "otherNightReminder": "Если Дитя луны применил способность и указал на игрока: если тот игрок добрый, он умирает.",
+    "reminders": [
+      "Мертв"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Вы и игрок из противоположной команды знаете личность и роли друг друга. Если доброго игрока в данной паре казнят, зло побеждает. Пока вы оба живы, добро не может победить.",
+    "edition": "snv",
+    "firstNight": 23,
+    "firstNightReminder": "Разбудите Злобного близнеца и его двойника. Удостоверьтесь, что они познакомились. Укажите на Злобного близнеца и покажите жетон его роли его двойнику. Укажите на двойника и покажите его жетон роли Злобному близнецу.",
+    "id": "ru_RU_eviltwin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/eviltwin.png?raw=true",
+    "name": "Злобный близнец",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Близнец"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Если Демон убит на казни и игра должна завершиться, продолжайте играть еще 1 день. Если в этот день казнят игрока, команда казненного проигрывает.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_mastermind",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mastermind.png?raw=true",
+    "name": "Кукловод",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Каждой ночью выберите игрока: он становится отравлен. Отравленный вами ранее игрок умирает, затем становится здоров.",
+    "edition": "bmr",
+    "firstNight": 28,
+    "firstNightReminder": "Пукка указывает на игрока. Этот игрок отравлен.",
+    "id": "ru_RU_pukka",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pukka.png?raw=true",
+    "name": "Пукка",
+    "otherNight": 26,
+    "otherNightReminder": "Пукка указывает на игрока. Этот игрок отравлен. Ранее отравленный игрок умирает.",
+    "reminders": [
+      "Мертв",
+      "Отравлен"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "В игре иногда может быть на 1 Изгоя больше или меньше, чем должно быть.",
+    "id": "ru_RU_sentinel",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
+    "name": "Привратник",
+    "team": "fabled"
+  }
+]

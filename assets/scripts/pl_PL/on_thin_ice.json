@@ -1,0 +1,184 @@
+[
+  {
+    "ability": "Raz w trakcie gry, za dnia, na osobności zadaj Bajarzowi pytanie zamknięte (tak/nie).",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_artist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/artist.png?raw=true",
+    "name": "Artysta",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "brak zdolności"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Raz w trakcie gry, nocą, wybierz dobrą postać - uzyskasz jej zdolność. Jeśli ta postać jest w grze, jest od teraz pijana.",
+    "edition": "snv",
+    "firstNight": 2,
+    "firstNightReminder": "Filozof albo kręci głową na nie albo wskazuje dobrą postać na skrypcie. Jeśli wybrał postać - zamień żeton postaci, której nie ma w grze, z żetonem Filozofa i umieść przy nim żeton 'JEST FILOZOFEM'. Lub, jeśli postać jest w grze, umieść żeton 'PIJANY' przy tym graczu.",
+    "id": "pl_PL_philosopher",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/philosopher.png?raw=true",
+    "name": "Filozof",
+    "otherNight": 2,
+    "otherNightReminder": "Jeśli Filozof nie wykorzystał jeszcze swojej zdolności - Filozof albo kręci głową na nie albo wskazuje dobrą postać na skrypcie. Jeśli wybrał postać - zamień żeton postaci, której nie ma w grze, z żetonem Filozofa i umieść przy nim żeton 'JEST FILOZOFEM'. Lub, jeśli postać jest w grze, umieść żeton 'PIJANY' przy tym graczu.",
+    "reminders": [
+      "jest filozofem",
+      "pijany"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Raz w trakcie gry, noca*, wybierz martwego gracza. Jesli jest to Mieszczanin, zostaje on wskrzeszony.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_professor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/professor.png?raw=true",
+    "name": "Profesor",
+    "otherNight": 45,
+    "otherNightReminder": "If the Professor has not used their ability: The Professor either shakes their head 'no', or points to a player. If that player is a Townsfolk, they are now alive.",
+    "reminders": [
+      "Alive",
+      "No ability"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Raz w trakcie gry, nocą, wybierz 2 graczy (nie siebie) - dowiadujesz się, czy są w tej samej drużynie.",
+    "edition": "snv",
+    "firstNight": 42,
+    "firstNightReminder": "Szwaczka albo kręci głową na nie albo wskazuje dwóch innych graczy. Jeśli Szwaczka wybrała dwóch graczy, pokiwaj bądź pokręć głową w zależności od tego czy są w tej samej drużynie.",
+    "id": "pl_PL_seamstress",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/seamstress.png?raw=true",
+    "name": "Szwaczka",
+    "otherNight": 61,
+    "otherNightReminder": "Jeśli Szwaczka nie wykorzystała jeszcze swojej zdolności - Szwaczka albo kręci głową na nie albo wskazuje dwóch innych graczy. Jeśli Szwaczka wybrała dwóch graczy, pokiwaj bądź pokręć głową w zależności od tego czy są w tej samej drużynie.",
+    "reminders": [
+      "brak zdolności"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Raz w trakcie gry, w ciagu dnia, publicznie wybierasz jednego gracza - jesli jest Demonem, ginie.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_slayer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
+    "name": "Pogromca",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "No ability"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Gdy zostaniesz nominowany po raz pierwszy w grze, a nominuje Cie mieszczanin, zostaje on natychmiast stracony.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_virgin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/virgin.png?raw=true",
+    "name": "Dziewica",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "No ability"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Kiedy dowiesz się, że nie żyjesz, publicznie wybierz jednego żywego gracza - jeśli jest zły, Twoja drużyna przegrywa.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_klutz",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/klutz.png?raw=true",
+    "name": "Fajtłapa",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Kiedy dowiesz sie, ze nie zyjesz publicznie wybierz jednego gracza. Tej nocy, jesli byl to dobry gracz, umiera.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_moonchild",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/moonchild.png?raw=true",
+    "name": "Cyganka",
+    "otherNight": 49,
+    "otherNightReminder": "If the Moonchild used their ability to target a player today: If that player was good, they die.",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Ty i gracz z przeciwnej drużyny wiecie, kim jesteście. Jeśli dobry gracz zostanie stracony, zło wygrywa. Dobro nie może wygrać, jeśli żyje obydwoje bliźniaków.",
+    "edition": "snv",
+    "firstNight": 23,
+    "firstNightReminder": "Obudź Złego bliźniaka i jego bliźniaka. Potwierdź, że się zauważyli. Wskaż na Złego bliźniaka. Pokaż jego bliźniakowi żeton Złego bliźniaka. Wskaż na bliźniaka. Pokaż żeton jego postaci Złemu bliźniakowi.",
+    "id": "pl_PL_eviltwin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/eviltwin.png?raw=true",
+    "name": "Zły bliźniak",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "bliźniak"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Jesli Demon zostanie stracony (i gra powinna sie skonczyc), gra toczy sie jeszcze jeden dzien. Jesli gracz zostanie tego dnia stracony, jego druzyna przegrywa.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_mastermind",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mastermind.png?raw=true",
+    "name": "Geniusz zla",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Kazdej nocy, wybierz gracza ktory zostanie otruty. Poprzedni otruty gracz umiera, po czym zdrowieje.",
+    "edition": "bmr",
+    "firstNight": 28,
+    "firstNightReminder": "The Pukka points to a player. That player is poisoned.",
+    "id": "pl_PL_pukka",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pukka.png?raw=true",
+    "name": "Pukka (PL)",
+    "otherNight": 26,
+    "otherNightReminder": "The Pukka points to a player. That player is poisoned. The poisoned player from last night dies.",
+    "reminders": [
+      "Dead",
+      "Poisoned"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "There might be 1 extra or 1 fewer Outsider in-play.",
+    "id": "pl_PL_sentinel",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
+    "name": "Sentinel",
+    "team": "fabled"
+  }
+]

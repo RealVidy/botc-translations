@@ -1,0 +1,184 @@
+[
+  {
+    "ability": "Une fois par partie, pendant la journée, posez une question en privé au Conteur pour recevoir une réponse affirmative ou négative.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_artist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/artist.png?raw=true",
+    "name": "Artiste",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Inactif"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Une fois par partie, pendant la nuit, choisissez un rôle « bon » et gagnez cette capacité. Si ce rôle est déjà en jeu, ce joueur devient ivre.",
+    "edition": "snv",
+    "firstNight": 2,
+    "firstNightReminder": "Il décide s’il utilise sa capacité. Si oui, il indique un rôle « bon » sur sa feuille. Il gagne cette capacité. Si le rôle était déjà en jeu, ce joueur devient ivre et le Faussaire est maintenant son rôle.",
+    "id": "fr_FR_philosopher",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/philosopher.png?raw=true",
+    "name": "Faussaire",
+    "otherNight": 2,
+    "otherNightReminder": "S’il n'a pas encore utilisé sa capacité: il décide s’il utilise sa capacité. Si oui, il indique un rôle « bon » sur sa feuille. Il gagne cette capacité. Si le rôle était déjà en jeu, ce joueur devient ivre et le Faussaire est maintenant son rôle.",
+    "reminders": [
+      "Faussaire",
+      "Ivre"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Une fois par partie, pendant la nuit*, choisissez un joueur mort: s'il s'agit d'un Villageois, il sera ressuscité.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_professor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/professor.png?raw=true",
+    "name": "Professeur",
+    "otherNight": 45,
+    "otherNightReminder": "Une fois par partie, s’ii n'a pas utilisé sa capacité, il indique s'il ne veut pas l'utiliser ou pointe un joueur mort. Si ce joueur mort est un Villageois, il est ressuscité.",
+    "reminders": [
+      "Inactif",
+      "Vivant"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Une fois par partie, pendant la nuit, choisissez deux autres joueurs. Vous apprendrez s'ils sont du même alignement.",
+    "edition": "snv",
+    "firstNight": 42,
+    "firstNightReminder": "Elle décide si elle utilise sa capacité. Si oui, elle pointe deux joueurs et lui indiquer s'ils sont du même alignement.",
+    "id": "fr_FR_seamstress",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/seamstress.png?raw=true",
+    "name": "Couturière",
+    "otherNight": 61,
+    "otherNightReminder": "Si elle n'a pas encore utilisé sa capacité: elle décide si elle utilise sa capacité. Si oui, elle pointe deux joueurs et lui indiquer s'ils sont du même alignement.",
+    "reminders": [
+      "Inactif"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Une fois par partie, pendant la journée, choisissez publiquement un joueur : si c’est un Démon, il meurt.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_slayer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
+    "name": "Mercenaire",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Inactif"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "La première fois que vous êtes mise en nomination, si le proposant est un Villageois, il est exécuté immédiatement.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_virgin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/virgin.png?raw=true",
+    "name": "Pucelle",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Inactif"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Lorsque vous apprenez que vous êtes mort, choisissez publiquement un joueur vivant: s'il est maléfique, votre équipe perd.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_klutz",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/klutz.png?raw=true",
+    "name": "Maladroit",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Lorsque vous apprenez votre mort, choisissez publiquement un autre joueur vivant: s'il est « bon », il mourra cette nuit.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_moonchild",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/moonchild.png?raw=true",
+    "name": "Gitane",
+    "otherNight": 49,
+    "otherNightReminder": "Si le joueur sélectionné est « bon », il meurt.",
+    "reminders": [
+      "Mort"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Vous et un joueur bon (votre jumeau) vous vous connaissez. Si votre jumeau est exécuté, le mal gagne. Les bons ne peuvent pas gagner si vous êtes les deux en vie (même si le Démon est mort).",
+    "edition": "snv",
+    "firstNight": 23,
+    "firstNightReminder": "Réveillez le Jumeau Maléfique et son jumeau. Confirmez qu'ils se sont reconnus. Pointez le Jumeau Maléfique et montrez son jeton rôle au joueur jumeau. Pointer le jumeau et montrez son jeton rôle au joueur Jumeau Maléfique.",
+    "id": "fr_FR_eviltwin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/eviltwin.png?raw=true",
+    "name": "Jumeau Maléfique",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Jumeau"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Si le Démon meurt par exécution, jouez encore une journée. Si un joueur « bon » est exécuté, lui et le village perdent.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_mastermind",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mastermind.png?raw=true",
+    "name": "Conspirateur",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Chaque nuit, choisissez un joueur: il est empoisonné jusqu'à la nuit prochaine, puis il meurt et devient sain.",
+    "edition": "bmr",
+    "firstNight": 28,
+    "firstNightReminder": "The Pukka points to a player. That player is poisoned.",
+    "id": "fr_FR_pukka",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pukka.png?raw=true",
+    "name": "Pooka",
+    "otherNight": 26,
+    "otherNightReminder": "Le précédent joueur empoisonné meurt. Il pointe un joueur. Ce joueur est empoisonné.",
+    "reminders": [
+      "Empoisonné",
+      "Mort"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "Il peut y avoir 1 étranger de plus ou de moins en jeu.",
+    "id": "fr_FR_sentinel",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
+    "name": "Sentinelle",
+    "team": "fabled"
+  }
+]

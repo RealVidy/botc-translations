@@ -1,0 +1,184 @@
+[
+  {
+    "ability": "Una vez por partida, durante el día, pregunta al Narrador en privado una pregunta de sí o no.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_artist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/artist.png?raw=true",
+    "name": "Artista",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Sin habilidad"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Una vez por partida, durante la noche, elige un personaje honrado: obtendrás su habilidad. Si el personaje está ya presente en la partida, quedará borracho.",
+    "edition": "snv",
+    "firstNight": 2,
+    "firstNightReminder": "El Filósofo puede negar con la cabeza o señalar a un personaje honrado en la hoja. Si elige a un personaje: sustituye la ficha de personaje del Filósofo por la del personaje no presente en la partida. O, si el personaje está presente en la partida, pon el recordatorio de \"Borracho\" junto a ese jugador y el de \"Es el Filósofo\" junto al del Filósofo.",
+    "id": "es_ES_philosopher",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/philosopher.png?raw=true",
+    "name": "Filósofo",
+    "otherNight": 2,
+    "otherNightReminder": "Si el Filósofo no ha usado su habilidad: el Filósofo puede negar con la cabeza o señalar a un personaje honrado en la hoja. Si elige a un personaje: sustituye la ficha de personaje del Filósofo por la del personaje no presente en la partida. O, si el personaje está presente en la partida, pon el recordatorio de \"Borracho\" junto a ese jugador y el de \"Es el Filósofo\" junto al del Filósofo.",
+    "reminders": [
+      "Borracho",
+      "Es el Filósofo"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Una vez por partida, durante la noche*, elige a un jugador muerto: si es un Aldeano, resucitará.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_professor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/professor.png?raw=true",
+    "name": "Catedrático",
+    "otherNight": 45,
+    "otherNightReminder": "Si el Catedrático no ha usado su habilidad: el Catedrático puede negar con la cabeza o señalar a un jugador. Si ese jugador es un Aldeano, vuelve a estar vivo.",
+    "reminders": [
+      "Sin habilidad",
+      "Vivo"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Una vez por partida, durante la noche, elige a 2 jugadores (no a ti mismo): sabrás si son del mismo bando.",
+    "edition": "snv",
+    "firstNight": 42,
+    "firstNightReminder": "La Costurera puede indicar que no con la cabeza, o señalar a dos jugadores. Si la Costurera señala a jugadores, indica sí o no con la cabeza para confirmar si son del mismo bando.",
+    "id": "es_ES_seamstress",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/seamstress.png?raw=true",
+    "name": "Costurera",
+    "otherNight": 61,
+    "otherNightReminder": "Si la Costurera no ha usado aún su habilidad: la Costurera puede indicar que no con la cabeza o señalar a dos jugadores. Si señala a jugadores, indica sí o no con la cabeza para confirmar si son del mismo bando.",
+    "reminders": [
+      "Sin habilidad"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Una vez por partida, durante el día, elige públicamente a un jugador: si es el Demonio, morirá.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_slayer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
+    "name": "Ballestero",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Sin habilidad"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "La primera vez que eres nominado, si el jugador que te nominó es un Aldeano, es ejecutado inmediatamente.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_virgin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/virgin.png?raw=true",
+    "name": "Virgen",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Sin habilidad"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Al saber que has muerto, elige públicamente a 1 jugador vivo: si es maligno, tu equipo pierde.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_klutz",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/klutz.png?raw=true",
+    "name": "Cafre",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Al saber que has muerto, elige públicamente a 1 jugador vivo. Esa noche, si era un jugador honrado, morirá.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_moonchild",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/moonchild.png?raw=true",
+    "name": "Cíngara",
+    "otherNight": 49,
+    "otherNightReminder": "Si la Cíngara usó su habilidad para elegir a un jugador: si el jugador es honrado, muere",
+    "reminders": [
+      "Muerto"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Tú y un jugador del bando opuesto sabéis quiénes sois. Si el jugador honrado es ejecutado, el Mal triunfa. El Bien no puede triunfar si los dos gemelos viven.",
+    "edition": "snv",
+    "firstNight": 23,
+    "firstNightReminder": "Despierta al Gemelo corrupto y a su gemelo. Confirma que ambos se reconocen. Señala al Gemelo corrupto. Muéstrale la ficha de Gemelo corrupto al gemelo honrado. Señala al gemelo honrado. Muéstrale la ficha de su personaje al Gemelo corrupto.",
+    "id": "es_ES_eviltwin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/eviltwin.png?raw=true",
+    "name": "Gemelo corrupto",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Gemelo"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Si el Demonio muere ejecutado (terminando así la partida), se juega 1 día más. Si se ejecuta a un jugador, su equipo pierde.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_mastermind",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mastermind.png?raw=true",
+    "name": "Maquiavélico",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Cada noche, elige a un jugador: será envenenado. El jugador envenenado previamente muere y deja de estar envenenado.",
+    "edition": "bmr",
+    "firstNight": 28,
+    "firstNightReminder": "El Pukka señala a un jugador. Ese jugador es envenenado.",
+    "id": "es_ES_pukka",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pukka.png?raw=true",
+    "name": "Pukka",
+    "otherNight": 26,
+    "otherNightReminder": "El Pukka señala a un jugador. Ese jugador es envenenado. El jugador envenenado previamente muere.",
+    "reminders": [
+      "Envenenado",
+      "Muerto"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "Podría haber 1 Forastero extra o 1 Forastero menos en la partida.",
+    "id": "es_ES_sentinel",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
+    "name": "Centinela",
+    "team": "fabled"
+  }
+]

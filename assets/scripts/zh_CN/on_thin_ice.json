@@ -1,0 +1,184 @@
+[
+  {
+    "ability": "每局游戏限一次，在白天时，你可以私下询问说书人一个是非问题。",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_artist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/artist.png?raw=true",
+    "name": "艺术家",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "失去能力"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每局游戏限一次，在夜晚时，选择一个善良阵营的角色：获得该角色的能力。如果该角色已在场，那名对应的玩家会醉酒直到你死亡。",
+    "edition": "snv",
+    "firstNight": 2,
+    "firstNightReminder": "哲学家选择不使用能力，或指向剧本列表的一个角色。如果选择了角色：将一个不在场的角色与哲学家替换，或将对应在场的角色放置醉酒标记并标记哲学家已不是哲学家。",
+    "id": "zh_CN_philosopher",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/philosopher.png?raw=true",
+    "name": "哲学家",
+    "otherNight": 2,
+    "otherNightReminder": "哲学家选择不使用能力，或指向剧本列表的一个角色。如果选择了角色：将一个不在场的角色与哲学家替换，或将对应在场的角色放置醉酒标记并标记哲学家已不是哲学家。",
+    "reminders": [
+      "哲学家",
+      "醉酒"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每局游戏限一次，在夜晚时*，选择一名当前处于死亡状态的玩家，如果那名玩家是村民，则被复活。",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_professor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/professor.png?raw=true",
+    "name": "教授",
+    "otherNight": 45,
+    "otherNightReminder": "如果教授还未使用能力：教授要么选择不使用，要么指向一名玩家。如果那名玩家在教授看来已死亡，当前也确实已死亡，且是村民，则那名玩家被复活。",
+    "reminders": [
+      "复活",
+      "失去能力"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每局游戏限一次，在夜晚时，选择除自己外的两名玩家：你会得知他们是否为同一阵营。",
+    "edition": "snv",
+    "firstNight": 42,
+    "firstNightReminder": "裁缝选择不使用能力，或指向两名玩家：如果选择了两名玩家，告诉他这两名玩家是否为同一阵营。",
+    "id": "zh_CN_seamstress",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/seamstress.png?raw=true",
+    "name": "裁缝",
+    "otherNight": 61,
+    "otherNightReminder": "裁缝选择不使用能力，或指向两名玩家：如果选择了两名玩家，告诉他这两名玩家是否为同一阵营。",
+    "reminders": [
+      "失去能力"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每局游戏限一次，在白天时，你可以公开选择一名玩家：如果那名玩家是恶魔，那么该玩家会死去。",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_slayer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
+    "name": "杀手",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "失去能力"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "当你第一次被提名时，如果提名者是村民，那么那名玩家立刻被处决。",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_virgin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/virgin.png?raw=true",
+    "name": "童贞之人",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "失去能力"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "当说书人告知你死亡时，公开选择一名存活玩家：如果那名玩家是邪恶阵营，那么你的阵营失败。",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_klutz",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/klutz.png?raw=true",
+    "name": "傻瓜",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "当说书人告知你死亡时，公开选择一名存活玩家：【当晚如果那名玩家是善良的】，那么该玩家死亡。",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_moonchild",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/moonchild.png?raw=true",
+    "name": "月之子",
+    "otherNight": 49,
+    "otherNightReminder": "如果今天白天月之子使用其能力选择了一名玩家：如果那名玩家是善良的，那么那名玩家死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "在你的首个夜晚，会有一位你对立阵营玩家成为你的双胞胎，你们会互相得知对方的角色。如果双胞胎中善良的玩家被处决，邪恶阵营获胜。如果两名双胞胎都存活，善良阵营无法获胜。",
+    "edition": "snv",
+    "firstNight": 23,
+    "firstNightReminder": "唤醒双生幻影和他的双胞胎兄弟，两人互相确认。由你展示双方的角色标记给对方查看。",
+    "id": "zh_CN_eviltwin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/eviltwin.png?raw=true",
+    "name": "双生幻影",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "双胞胎"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "如果恶魔因为处决而死亡且游戏会因此结束时，额外进行一个夜晚和一个白天；在这个新的白天里如果有玩家被处决，不论他是否死去，被处决的玩家所属的阵营失败。",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_mastermind",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mastermind.png?raw=true",
+    "name": "幕后主谋",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "每个夜晚，选择一名玩家，那名玩家中毒。被你上一次选择的玩家会死亡并解除中毒。",
+    "edition": "bmr",
+    "firstNight": 28,
+    "firstNightReminder": "纯种恶魔指向一名玩家，那名玩家中毒。",
+    "id": "zh_CN_pukka",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pukka.png?raw=true",
+    "name": "纯种恶魔",
+    "otherNight": 26,
+    "otherNightReminder": "纯种恶魔指向一名玩家，那名玩家中毒。上一个中毒的玩家死亡。",
+    "reminders": [
+      "中毒",
+      "死亡"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "游戏开始时可能会多或者少一名外来者。",
+    "id": "zh_CN_sentinel",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
+    "name": "哨兵",
+    "team": "fabled"
+  }
+]
