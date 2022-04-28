@@ -1,0 +1,185 @@
+[
+  {
+    "ability": "Comienzas sabiendo cuántos pasos hay desde el Demonio hasta su Secuaz más cercano.",
+    "edition": "snv",
+    "firstNight": 40,
+    "firstNightReminder": "Muestra la señal numérica (1, 2, 3, etc.) de los pasos entre el Demonio y su Secuaz más cercano.",
+    "id": "es_ES_clockmaker",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/clockmaker.png?raw=true",
+    "name": "Relojero",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Cada noche, sabrás cuántos de tus dos vecinos vivos son malignos.",
+    "edition": "tb",
+    "firstNight": 36,
+    "firstNightReminder": "Muestra la seña numérica con los dedos (0, 1, 2) indicando el número de vecinos malignos vivos del Émpata.",
+    "id": "es_ES_empath",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
+    "name": "Émpata",
+    "otherNight": 53,
+    "otherNightReminder": "Muestra la seña numérica con los dedos (0, 1, 2) indicando el número de vecinos malignos vivos del Émpata.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Cada noche, elige a un jugador (no a ti mismo ni a Viajeros): sabrás 1 personaje honrado y 1 personaje maligno, 1 de ellos es correcto.",
+    "edition": "snv",
+    "firstNight": 41,
+    "firstNightReminder": "El Soñador señala a un jugador. Muestra 1 ficha de personaje honrado y 1 de personaje maligno, una de ella es correcta.",
+    "id": "es_ES_dreamer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/dreamer.png?raw=true",
+    "name": "Soñador",
+    "otherNight": 57,
+    "otherNightReminder": "El Soñador señala a un jugador. Muestra 1 ficha de personaje honrado y 1 de personaje maligno, una de ella es correcta.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Una vez por partida, durante el día, elige públicamente a un jugador: si es el Demonio, morirá.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_slayer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
+    "name": "Ballestero",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Sin habilidad"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Una vez por partida, durante la noche, elige a un personaje: estará borracho 3 noches y 3 días.",
+    "edition": "bmr",
+    "firstNight": 19,
+    "firstNightReminder": "La Cortesana puede negar con la cabeza o señalar a un personaje de la hoja. Si la Cortesana utiliza su habilidad: si ese personaje está presente en la partida, ese jugador estará borracho.",
+    "id": "es_ES_courtier",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/courtier.png?raw=true",
+    "name": "Cortesana",
+    "otherNight": 10,
+    "otherNightReminder": "Reduce el número de días restantes que el jugador estará borracho. Si la Cortesana no ha usado aún su habilidad: la Cortesana puede negar con la cabeza o señalar un personaje de la hoja. Si la Cortesana ha usado su habilidad: si ese personaje está presente en la partida, ese jugador estará borracho.",
+    "reminders": [
+      "Borracho 1",
+      "Borracho 2",
+      "Borracho 3",
+      "Sin habilidad"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Si solo quedan 3 jugadores con vida y no hay ejecución, tu equipo gana. Si mueres durante la noche, otro jugador podría morir en tu lugar.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_mayor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mayor.png?raw=true",
+    "name": "Alcalde",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Crees que eres un Demonio, pero no lo eres. El Demonio sabe quién eres y a quién eliges cada noche.",
+    "edition": "bmr",
+    "firstNight": 7,
+    "firstNightReminder": "Si hay 7 o más jugadores: muestra al Lunático un número arbitrario de 'Secuaces' igual al número de Secuaces presentes en la partida. Muéstrale 3 fichas de personajes honrados aleatorias. si la ficha recibida por el Lunático es un Demonio que debe despertarse esta noche: permítele que realice las acciones del Demonio. Pon sus marcadores de 'ataque'. Despierta al Demonio. Muéstrale la ficha de personaje demoníaco real. Muéstrale al jugador Lunático. Si el Lunático ha atacado a jugadores: muéstrale al demonio real los jugadores marcados. Elimina todos los marcadores de 'ataque' del Lunático.",
+    "id": "es_ES_lunatic",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
+    "name": "Lunático",
+    "otherNight": 21,
+    "otherNightReminder": "Permite al Lunático que realice las acciones del Demonio. Pon sus marcadores de 'ataque'. Si el Lunático ha atacado a jugadores: despierta al Demonio. Muéstrale el marcador de 'ataque' y señala a cada jugador marcado. Elimina todos los marcadores de 'ataque' del Lunático.",
+    "reminders": [
+      "Ataque 1",
+      "Ataque 2",
+      "Ataque 3"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Al saber que has muerto, elige públicamente a 1 jugador vivo: si es maligno, tu equipo pierde.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_klutz",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/klutz.png?raw=true",
+    "name": "Cafre",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Si hay 5 o más jugadores con vida y el Demonio muere, te conviertes en el Demonio. (Los Viajeros no cuentan.)",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_scarletwoman",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scarletwoman.png?raw=true",
+    "name": "Mujer escarlata",
+    "otherNight": 20,
+    "otherNightReminder": "Si la Mujer escarlata se convirtió en el Demonio hoy: muéstrale la tarjeta \"Eres\" y la ficha del demonio.",
+    "reminders": [
+      "Demonio"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Cada noche, verás el Grimorio. Puedes aparecer como honrado (como Aldeano o Forastero), incluso aunque estés muerto.",
+    "edition": "tb",
+    "firstNight": 48,
+    "firstNightReminder": "Muestra el Grimorio al Espía todo el tiempo que le sea necesario.",
+    "id": "es_ES_spy",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spy.png?raw=true",
+    "name": "Espía",
+    "otherNight": 68,
+    "otherNightReminder": "Muestra el Grimorio al Espía todo el tiempo que le sea necesario.",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Cada noche*, elige a un jugador: morirá. Las habilidades de los Aldeanos dan información falsa. Cada día, si no hay ejecución, el Mal triunfa.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_vortox",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vortox.png?raw=true",
+    "name": "Vortox",
+    "otherNight": 31,
+    "otherNightReminder": "El Vortox señala a un jugador. Ese jugador muere.",
+    "reminders": [
+      "Muerto"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "Podría haber 1 Forastero extra o 1 Forastero menos en la partida.",
+    "id": "es_ES_sentinel",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
+    "name": "Centinela",
+    "team": "fabled"
+  },
+  {
+    "ability": "Si 4 o más jugadores viven, cada jugador vivo puede decidir públicamente (una vez por partida) que un jugador de su propio bando muere.",
+    "id": "es_ES_doomsayer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/doomsayer.png?raw=true",
+    "name": "Agorero",
+    "team": "fabled"
+  }
+]

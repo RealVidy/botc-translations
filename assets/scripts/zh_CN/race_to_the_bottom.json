@@ -1,0 +1,182 @@
+[
+  {
+    "ability": "在你的首个夜晚，你会得知恶魔与其最近的爪牙之间有多少名玩家。",
+    "edition": "snv",
+    "firstNight": 40,
+    "firstNightReminder": "告诉钟表匠恶魔和离他最近的爪牙相隔多少个玩家(0，1，2等等)。",
+    "id": "zh_CN_clockmaker",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/clockmaker.png?raw=true",
+    "name": "钟表匠",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每个夜晚，你会得知你左右两侧最靠近你的存活玩家有几个是邪恶的。",
+    "edition": "tb",
+    "firstNight": 36,
+    "firstNightReminder": "告知共情者他左右两侧最靠近的存活玩家有多少个是邪恶的(0，1，2)。",
+    "id": "zh_CN_empath",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
+    "name": "共情者",
+    "otherNight": 53,
+    "otherNightReminder": "告知共情者他左右两侧最靠近的存活玩家有多少个是邪恶的(0，1，2)。",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每个夜晚，选择一名玩家（除你和旅行者外）：你会得知一个善良角色和一个邪恶角色，其中一个角色是属于该玩家的。",
+    "edition": "snv",
+    "firstNight": 41,
+    "firstNightReminder": "筑梦师指向一个玩家。对筑梦师展示一好一坏两个角色标记，其中一个是正确的。",
+    "id": "zh_CN_dreamer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/dreamer.png?raw=true",
+    "name": "筑梦师",
+    "otherNight": 57,
+    "otherNightReminder": "筑梦师指向一个玩家。对筑梦师展示一好一坏两个角色标记，其中一个是正确的。",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每局游戏限一次，在白天时，你可以公开选择一名玩家：如果那名玩家是恶魔，那么该玩家会死去。",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_slayer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
+    "name": "杀手",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "失去能力"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每局游戏限一次，在夜晚时，从剧本角色列表选择一个角色。如果那个角色在场，其对应玩家会从今夜开始醉三天三夜。",
+    "edition": "bmr",
+    "firstNight": 19,
+    "firstNightReminder": "侍臣要么选择不使用，要么指向剧本列表上的一个角色：如果那个角色在场，对应的玩家会醉酒。",
+    "id": "zh_CN_courtier",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/courtier.png?raw=true",
+    "name": "侍臣",
+    "otherNight": 10,
+    "otherNightReminder": "减少醉酒玩家的醉酒持续时间。如果侍臣还未使用能力：侍臣要么选择不使用，要么指向剧本列表上的一个角色：如果那个角色在场，对应的玩家会醉酒。",
+    "reminders": [
+      "失去能力",
+      "醉酒3天"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "如果在白天只有三名玩家存活且没有执行处决，你的阵营获胜。如果你在夜晚死去，另一位玩家可能会代替你死去。",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_mayor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mayor.png?raw=true",
+    "name": "市长",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "你会抽取到一个恶魔角色（该恶魔角色可能在场，也可能不在场），且会如同恶魔一样被告知三名不在场善良角色和你的爪牙，但这些信息可能是错误的。而恶魔玩家会在首个夜晚得知你是疯子，且会在每个夜晚醒来时行动前得知你当晚用恶魔技能选择了哪些玩家。",
+    "edition": "bmr",
+    "firstNight": 7,
+    "firstNightReminder": "如果多于7名玩家：随意告诉疯子等同于当前在场爪牙数量的爪牙，随意给疯子展示3个善良角色标记。如果疯子收到的恶魔角色今晚会醒来：允许疯子执行恶魔相关行动，放置攻击标记。唤醒恶魔，告诉他他自己真的是恶魔，并告诉他谁是疯子。如果疯子攻击了玩家：告诉恶魔疯子攻击了哪些玩家，然后移除这些标记。",
+    "id": "zh_CN_lunatic",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
+    "name": "疯子",
+    "otherNight": 21,
+    "otherNightReminder": "允许疯子执行恶魔相关行动，放置攻击标记。如果疯子攻击了玩家：告诉恶魔疯子攻击了哪些玩家，然后移除这些标记。,",
+    "reminders": [
+      "攻击选择",
+      "疯子"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "当说书人告知你死亡时，公开选择一名存活玩家：如果那名玩家是邪恶阵营，那么你的阵营失败。",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_klutz",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/klutz.png?raw=true",
+    "name": "傻瓜",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "如果有五名或更多玩家存活且恶魔死去，你会变成恶魔。（旅行者的数量不计算在内）",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_scarletwoman",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scarletwoman.png?raw=true",
+    "name": "荡妇",
+    "otherNight": 20,
+    "otherNightReminder": "如果荡妇今晚变成了恶魔：唤醒她，告诉她她成为了哪个恶魔。",
+    "reminders": [
+      "恶魔"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "每个夜晚，你可以查看魔法书。当有角色的能力要探查或影响村民或外来者时，你可能会被视为一名善良角色，即使你已经死亡。",
+    "edition": "tb",
+    "firstNight": 48,
+    "firstNightReminder": "将魔法书展示给间谍，他想看多久就看多久。",
+    "id": "zh_CN_spy",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spy.png?raw=true",
+    "name": "间谍",
+    "otherNight": 68,
+    "otherNightReminder": "将魔法书展示给间谍，他想看多久就看多久。",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "每个夜晚*，选择一名玩家：该玩家死亡。村民的能力始终会获得错误的信息。在每个白天，如果没有玩家被处决，邪恶阵营获胜。",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_vortox",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vortox.png?raw=true",
+    "name": "悖论漩涡",
+    "otherNight": 31,
+    "otherNightReminder": "悖论漩涡选择一名玩家：那名玩家死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "游戏开始时可能会多或者少一名外来者。",
+    "id": "zh_CN_sentinel",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
+    "name": "哨兵",
+    "team": "fabled"
+  },
+  {
+    "ability": "如果有四名或更多玩家存活，每个存活玩家可公开选择发动此效果（每位玩家限一次）；效果发动后，会有一名与自己同阵营的玩家死亡。",
+    "id": "zh_CN_doomsayer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/doomsayer.png?raw=true",
+    "name": "灾难预言者",
+    "team": "fabled"
+  }
+]
