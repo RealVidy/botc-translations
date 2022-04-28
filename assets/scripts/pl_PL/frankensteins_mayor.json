@@ -1,0 +1,174 @@
+[
+  {
+    "ability": "Na poczatku gry dowiadujesz sie, ile par zlych graczy siedzi obok siebie.",
+    "edition": "tb",
+    "firstNight": 35,
+    "firstNightReminder": "Show the finger signal (0, 1, 2, …) for the number of pairs of neighbouring evil players.",
+    "id": "pl_PL_chef",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true",
+    "name": "Kucharz",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Kazdej nocy* dowiadujesz sie, ktora postac stracono dzis podczas egzekucji.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_undertaker",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/undertaker.png?raw=true",
+    "name": "Grabarz",
+    "otherNight": 56,
+    "otherNightReminder": "If a player was executed today: Show that player’s character token.",
+    "reminders": [
+      "Executed"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Każdej nocy* dowiadujesz się, ilu martwych graczy jest złych.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_oracle",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/oracle.png?raw=true",
+    "name": "Wyrocznia",
+    "otherNight": 60,
+    "otherNightReminder": "Pokaż na palcach liczbę martwych złych graczy (0, 1, 2 itd.).",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Jeśli zabije Cię demon, dowiadujesz się, że jest to jeden z dwóch graczy.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_sage",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sage.png?raw=true",
+    "name": "Mędrzec",
+    "otherNight": 43,
+    "otherNightReminder": "Jeśli demon zabił Mędrca: wskaż dwóch graczy, jeden z nich to ten demon.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Jesli zginiesz noca, budzisz sie i wybierasz gracza - dowiadujesz sie, jaka jest postacia.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_ravenkeeper",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true",
+    "name": "Hodowca krukow",
+    "otherNight": 42,
+    "otherNightReminder": "If the Ravenkeeper died tonight: The Ravenkeeper points to a player. Show that player’s character token.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Jesli przy trzech zywych graczach nie nastapi egzekucja, Twoja druzyna wygrywa. Jesli zginiesz noca, inny gracz moze zginac zamiast Ciebie.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_mayor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mayor.png?raw=true",
+    "name": "Burmistrz",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Mozesz pokazac sie jako zly i jako slugus lub demon, nawet po smierci.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_recluse",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/recluse.png?raw=true",
+    "name": "Odludek",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Myslisz, ze jestes Demonem, ale nie jestes. Demon wie, kim jestes oraz kogo wybierasz noca.",
+    "edition": "bmr",
+    "firstNight": 7,
+    "firstNightReminder": "If 7 or more players: Show the Lunatic 'arbitrary' Information as given in Demon Information. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'ATTACK' tokens. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'ATTACK' tokens.",
+    "id": "pl_PL_lunatic",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
+    "name": "Szaleniec",
+    "otherNight": 21,
+    "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'ATTACK' tokens. If the Lunatic selected players: Wake the Demon. Show the 'ATTACK' token, then point to each marked player. Remove any Lunatic 'ATTACK' tokens.",
+    "reminders": [
+      "Attack 1",
+      "Attack 2",
+      "Attack 3"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Kazdej nocy wybierz gracza, ktorego umiejetnosc nie zadziala tej nocy ani jutro za dnia.",
+    "edition": "tb",
+    "firstNight": 17,
+    "firstNightReminder": "The Poisoner points to a player. That player is poisoned.",
+    "id": "pl_PL_poisoner",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
+    "name": "Truciciel",
+    "otherNight": 8,
+    "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
+    "reminders": [
+      "Poisoned"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Kazdej nocy zagladasz do grymuaru. Mozesz pokazac sie jako dobry i jako mieszczanin lub outsider, nawet po smierci.",
+    "edition": "tb",
+    "firstNight": 48,
+    "firstNightReminder": "Show the Grimoire to the Spy for as long as they need.",
+    "id": "pl_PL_spy",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spy.png?raw=true",
+    "name": "Szpieg",
+    "otherNight": 68,
+    "otherNightReminder": "Show the Grimoire to the Spy for as long as they need.",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Kazdej nocy*, jesli dzis nikt nie zginal, wybierz gracza, ktory umrze. Kiedy umrzesz po raz pierwszy, bedziesz nadal zyc, ale bedziesz sie pokazywac jako martwy.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_zombuul",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/zombuul.png?raw=true",
+    "name": "Zombuul (PL)",
+    "otherNight": 25,
+    "otherNightReminder": "If no-one died during the day: The Zombuul points to a player. That player dies.",
+    "reminders": [
+      "Dead",
+      "Died today"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "There might be 1 extra or 1 fewer Outsider in-play.",
+    "id": "pl_PL_sentinel",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
+    "name": "Sentinel",
+    "team": "fabled"
+  }
+]

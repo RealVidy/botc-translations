@@ -1,0 +1,174 @@
+[
+  {
+    "ability": "Você começa vendo quantos pares de jogadores maus existem.",
+    "edition": "tb",
+    "firstNight": 35,
+    "firstNightReminder": "Com os dedos, mostre o número correspondente à quantidade de pares de jogadores maus vizinhos.",
+    "id": "pt_BR_chef",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true",
+    "name": "Chef",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "A cada noite*, você vê o personagem que morreu por execução durante o dia.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pt_BR_undertaker",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/undertaker.png?raw=true",
+    "name": "Coveiro",
+    "otherNight": 56,
+    "otherNightReminder": "Se um jogador foi morto por execuçãoo de dia, Mostre o token do personagem desse jogador.",
+    "reminders": [
+      "Executado"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "A cada noite*, você descobre quantos jogadores mortos são maus.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pt_BR_oracle",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/oracle.png?raw=true",
+    "name": "Oráculo",
+    "otherNight": 60,
+    "otherNightReminder": "Mostre com os dedos o número de jogadores maus mortos.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Se você for morto pelo Demônio, você descobre que ele é 1 dentre 2 jogadores.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pt_BR_sage",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sage.png?raw=true",
+    "name": "Sábio",
+    "otherNight": 43,
+    "otherNightReminder": "Se o Sábio foi morto por um Demônio: Informe ao Sábio dois jogadores, um dos quais é o Demônio.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Se você morrer à Noite, será acordado para escolher um jogador: você vê o personagem do alvo.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pt_BR_ravenkeeper",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true",
+    "name": "Mestre dos Corvos",
+    "otherNight": 42,
+    "otherNightReminder": "Se o Mestre dos corvos morreu esta noite, o mesmo aponta pra um jogador. Mostre o token de personagem do alvo.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Se apenas 3 jogadores  estão vivos e não houver execução, seu time vence. Se você morreria à noite, outro jogador pode morrer em vez disso.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pt_BR_mayor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mayor.png?raw=true",
+    "name": "Prefeito",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Você pode registrar como mau, Demônio ou Lacaio, mesmo quando morto.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pt_BR_recluse",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/recluse.png?raw=true",
+    "name": "Recluso",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Você pensa que é um Demônio, mas você não é. O Demônio sabe quem você é e quem você escolhe à noite.",
+    "edition": "bmr",
+    "firstNight": 7,
+    "firstNightReminder": "(Antes e informar o Demônio) Se o jogo tiver 7 jogadores ou  mais: mostre ao Lunático uma quantidade de 'Lacaios'(arbitrários) correspondente à quantidade de Lacaios em jogo. Mostre 3 tokens de personagens bons (arbitrariamente). Se o Demônio recebido pelo Lunático acordaria para agir esta noite: Permita que o Lunático faça as ações como se fosse esse Demônio. Use os marcadores de 'Ataque'  conforme as escolhas feitas. Acorde o Demônio. Mostre ao Demônio seu verdadeiro personagem. Aponte para o Lunático e mostre o token de personagem do Lunático. Se o Lunático escolheu algum jogador: mostre um marcador de 'ataque' e aponte os jogadores escolhidos. Remova o tokens de 'Ataque'.",
+    "id": "pt_BR_lunatic",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
+    "name": "Lunático",
+    "otherNight": 21,
+    "otherNightReminder": "Permita que o Lunático faça as ações como se fosse o Demônio que recebeu. Use os marcadores de 'Ataque'  conforme as escolhas feitas. Acorde o Demônio. Se o Lunático escolheu algum jogador: mostre um marcador de 'ataque' e aponte os jogadores escolhidos. Remova o tokens de 'Ataque'.",
+    "reminders": [
+      "Ataque 1",
+      "Ataque 2",
+      "Ataque 3"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "A cada noite, escolha um jogador: ele está envenenado esta noite e no dia de amanhã.",
+    "edition": "tb",
+    "firstNight": 17,
+    "firstNightReminder": "O Envenenador aponta para um jogador. Esse jogador fica envenenado.",
+    "id": "pt_BR_poisoner",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
+    "name": "Envenenador",
+    "otherNight": 8,
+    "otherNightReminder": "O jogador envenenado anteriormente fica sadio. O Envenenador aponta para um jogador. Esse jogador fica envenenado.",
+    "reminders": [
+      "Envenenado"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "A cada noite, você vê o Grimório. Você pode registrar como bom, Cidadão, ou Forasteiro, mesmo quando morto.",
+    "edition": "tb",
+    "firstNight": 48,
+    "firstNightReminder": "Mostre o Grimório para o Espião pelo tempo que ele precisar.",
+    "id": "pt_BR_spy",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spy.png?raw=true",
+    "name": "Espião",
+    "otherNight": 68,
+    "otherNightReminder": "Mostre o Grimório para o Espião pelo tempo que ele precisar.",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "A cada noite*, se ninguém morreu durante o dia, escolha um jogador: ele morre. Na 1ª vez que você morreria, continua vivo, mas registra como morto.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pt_BR_zombuul",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/zombuul.png?raw=true",
+    "name": "Zombuul",
+    "otherNight": 25,
+    "otherNightReminder": "Se ninguém morreu durante o dia: o Zombuul aponta para um jogador. Aquele jogador morre.",
+    "reminders": [
+      "Morreu de dia",
+      "Morto"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "There might be 1 extra or 1 fewer Outsider in-play.",
+    "id": "pt_BR_sentinel",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
+    "name": "Sentinel",
+    "team": "fabled"
+  }
+]

@@ -1,0 +1,175 @@
+[
+  {
+    "ability": "La première nuit, le Conteur vous indique combien il y a de joueurs maléfiques assis côte à côte dans la partie.",
+    "edition": "tb",
+    "firstNight": 35,
+    "firstNightReminder": "Donner le nombre de paires de joueurs maléfiques assis côte à côte. Forte suggestion : inclure le Reclus et exclure l'Espion.",
+    "id": "fr_FR_chef",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true",
+    "name": "Cuistot",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Chaque nuit*, vous apprenez quel est le rôle du joueur qui vient d’être exécuté.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_undertaker",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/undertaker.png?raw=true",
+    "name": "Croque-mort",
+    "otherNight": 56,
+    "otherNightReminder": "Si un joueur est mort par exécution aujourd'hui, montrer lui le jeton rôle de ce joueur.",
+    "reminders": [
+      "Exécuté"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Chaque nuit*, vous apprenez combien de joueurs morts sont maléfiques.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_oracle",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/oracle.png?raw=true",
+    "name": "Oracle",
+    "otherNight": 60,
+    "otherNightReminder": "Indiquer combien de joueurs morts, en tout, sont maléfiques.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Si le Démon vous tue, vous apprenez de qui il s'agit entre deux joueurs.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_sage",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sage.png?raw=true",
+    "name": "Sage",
+    "otherNight": 43,
+    "otherNightReminder": "S’il a été tué par le Démon, pointez deux joueurs (dont le Démon).",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Si vous mourez pendant la nuit, vous choisissez un joueur et apprenez son rôle.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_ravenkeeper",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true",
+    "name": "Gardien",
+    "otherNight": 42,
+    "otherNightReminder": "S’il meurt cette nuit, réveillez-le. Il pointe un joueur de son choix. Montrer lui le jeton rôle de ce joueur.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Si aucune exécution n'a lieu alors qu’il ne reste que 3 joueurs vivants (dont vous), victoire du village ! Si vous deviez mourir pendant la nuit, un autre joueur pourrait mourir à votre place.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_mayor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mayor.png?raw=true",
+    "name": "Maire",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Vous êtes généralement reconnu comme étant maléfique (Sbire ou Démon), même si vous êtes mort.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_recluse",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/recluse.png?raw=true",
+    "name": "Reclus",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Vous pensez que vous êtes un Démon, mais vous ne l’êtes pas. Le Démon sait qui vous êtes et qui vous avez attaqué.",
+    "edition": "bmr",
+    "firstNight": 7,
+    "firstNightReminder": "Si 7 joueurs ou plus: Montrez au Lunatique un nombre arbitraire de Sbires. Présenter 3 rôles qui ne sont pas en jeu. Si le jeton Démon reçu par le Lunatique se réveillerait cette nuit: Permettez au Lunatique de faire les actions du Démon. Placez les jetons. Réveillez le Démon. Montrez les jetons attaque, puis pointez sur chaque joueur marqué. Retirez tous les jetons attaque.",
+    "id": "fr_FR_lunatic",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
+    "name": "Lunatique",
+    "otherNight": 21,
+    "otherNightReminder": "Permettez au Lunatique de faire les actions du Démon. Placez les jetons. Réveillez le Démon. Montrez les jetons attaque, puis pointez sur chaque joueur marqué. Retirez tous les jetons attaque.",
+    "reminders": [
+      "Attaque 1",
+      "Attaque 2",
+      "Attaque 3",
+      "Autre"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Chaque nuit, choisissez un joueur: il est empoisonné cette nuit ainsi que le jour suivant.",
+    "edition": "tb",
+    "firstNight": 17,
+    "firstNightReminder": "Choisit un joueur qui sera empoisonné (nuit et jour suivant)",
+    "id": "fr_FR_poisoner",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
+    "name": "Empoisonneur",
+    "otherNight": 8,
+    "otherNightReminder": "Le joueur précédemment empoisonné ne l'est plus. Choisit un joueur qui sera empoisonné (nuit et jour suivant).",
+    "reminders": [
+      "Empoisonné"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Chaque nuit, vous voyez le grimoire. Vous êtes généralement reconnu comme étant « Bon » (Villageois ou Étranger), même si vous êtes mort.",
+    "edition": "tb",
+    "firstNight": 48,
+    "firstNightReminder": "Se réveille et peut regarder le grimoire.",
+    "id": "fr_FR_spy",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spy.png?raw=true",
+    "name": "Espion",
+    "otherNight": 68,
+    "otherNightReminder": "Se réveille et peut regarder le grimoire.",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Chaque nuit*, si personne n’est mort aujourd'hui, choisissez un joueur: il meurt. La première fois que vous mourez, vous restez en vie mais êtes reconnus comme mort.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_zombuul",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/zombuul.png?raw=true",
+    "name": "Zombuul",
+    "otherNight": 25,
+    "otherNightReminder": "Si personne n’est mort aujourd'hui, choisit un joueur, il meurt.",
+    "reminders": [
+      "Assassiné",
+      "Aucun Mort"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "Il peut y avoir 1 étranger de plus ou de moins en jeu.",
+    "id": "fr_FR_sentinel",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
+    "name": "Sentinelle",
+    "team": "fabled"
+  }
+]
