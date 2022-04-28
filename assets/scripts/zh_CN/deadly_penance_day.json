@@ -1,0 +1,348 @@
+[
+  {
+    "ability": "在你的首个夜晚，你会得知一名邪恶玩家。如果那名玩家死亡，你会在当晚再得知另一名邪恶玩家。（会有一名村民是邪恶的）",
+    "edition": "",
+    "firstNight": 45,
+    "firstNightReminder": "指向一名邪恶玩家。随后唤醒那名邪恶村民并告知他变成了邪恶阵营。",
+    "id": "zh_CN_bountyhunter",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bountyhunter.png?raw=true",
+    "name": "赏金猎人",
+    "otherNight": 65,
+    "otherNightReminder": "如果知晓的邪恶玩家死亡，指向另一名邪恶玩家。",
+    "reminders": [
+      "变得邪恶",
+      "知晓"
+    ],
+    "setup": true,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "在你的首个夜晚，你会得知有多少对邪恶玩家为邻座。",
+    "edition": "tb",
+    "firstNight": 35,
+    "firstNightReminder": "告知有多少邪恶玩家为邻座(0，1，2)。",
+    "id": "zh_CN_chef",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true",
+    "name": "厨师",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每个夜晚，你会变成你左右两侧最邻近的存活玩家之一的阵营。每个白天，你可以发起一次入团投票，如果所有善良阵营的玩家选择加入你的教团，你的阵营获胜。",
+    "edition": "",
+    "firstNight": 47,
+    "firstNightReminder": "如果异教头目改变了阵营，告诉他。",
+    "id": "zh_CN_cultleader",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cultleader.png?raw=true",
+    "name": "异教头目",
+    "otherNight": 67,
+    "otherNightReminder": "如果异教头目改变了阵营，告诉他。",
+    "reminders": [
+      "同一阵营"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每个夜晚*，选择一名玩家（须与前一夜不同）：如果你选中了恶魔，则恶魔会得知你是驱魔师，但他当晚不会因自己的能力醒来。",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_exorcist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/exorcist.png?raw=true",
+    "name": "驱魔师",
+    "otherNight": 22,
+    "otherNightReminder": "驱魔师指向一个和前一夜不同的玩家。如果那名玩家是恶魔：将其唤醒，然后展示驱魔师标记，并指向驱魔师。恶魔今晚不会再醒来。",
+    "reminders": [
+      "被选择"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "当你第一次将要死去时，你不会死亡。",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_fool",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fool.png?raw=true",
+    "name": "弄臣",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "失去能力"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每个夜晚*，选择一名玩家并猜测那名玩家的角色：如果你猜错了，那么你会死亡。",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_gambler",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gambler.png?raw=true",
+    "name": "赌徒",
+    "otherNight": 11,
+    "otherNightReminder": "赌徒指向一名玩家，和一个剧本列表上的角色。如果那名玩家不是这个角色，赌徒死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "在你的首个夜晚，你会得知两名玩家其中一位是爪牙，且知道他的角色具体是什么。",
+    "edition": "tb",
+    "firstNight": 34,
+    "firstNightReminder": "展示一个在场的爪牙角色标记。指向两名玩家，其中一位是那个角色。",
+    "id": "zh_CN_investigator",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/investigator.png?raw=true",
+    "name": "调查员",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "另一位",
+      "爪牙"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "如果在白天只有三名玩家存活且没有执行处决，你的阵营获胜。如果你在夜晚死去，另一位玩家可能会代替你死去。",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_mayor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mayor.png?raw=true",
+    "name": "市长",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每局游戏限一次，在夜晚时，选择一个善良阵营的角色：获得该角色的能力。如果该角色已在场，那名对应的玩家会醉酒直到你死亡。",
+    "edition": "snv",
+    "firstNight": 2,
+    "firstNightReminder": "哲学家选择不使用能力，或指向剧本列表的一个角色。如果选择了角色：将一个不在场的角色与哲学家替换，或将对应在场的角色放置醉酒标记并标记哲学家已不是哲学家。",
+    "id": "zh_CN_philosopher",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/philosopher.png?raw=true",
+    "name": "哲学家",
+    "otherNight": 2,
+    "otherNightReminder": "哲学家选择不使用能力，或指向剧本列表的一个角色。如果选择了角色：将一个不在场的角色与哲学家替换，或将对应在场的角色放置醉酒标记并标记哲学家已不是哲学家。",
+    "reminders": [
+      "哲学家",
+      "醉酒"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每个夜晚，选择一名玩家：如果你选中了爪牙，这名玩家会得知自己被传教士选中了（但不知道传教士是谁）。在你能力未失效时，所有被你选中的爪牙失去各自的能力。",
+    "edition": "",
+    "firstNight": 14,
+    "firstNightReminder": "传教士选择一名玩家。如果选中了爪牙，则唤醒并告知他被传教士选中。",
+    "id": "zh_CN_preacher",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/preacher.png?raw=true",
+    "name": "传教士",
+    "otherNight": 7,
+    "otherNightReminder": "传教士选择一名玩家。如果选中了爪牙，则唤醒并告知他被传教士选中。",
+    "reminders": [
+      "布道"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每个夜晚，选择一名玩家：你或该玩家之一会醉酒到第二天黄昏。你不会死亡。",
+    "edition": "bmr",
+    "firstNight": 10,
+    "firstNightReminder": "水手指向一名玩家。要么那名玩家，要么水手，获得醉酒标记。",
+    "id": "zh_CN_sailor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sailor.png?raw=true",
+    "name": "水手",
+    "otherNight": 4,
+    "otherNightReminder": "原本的醉酒玩家不再醉酒。水手指向一名玩家。要么那名玩家，要么水手，获得醉酒标记。",
+    "reminders": [
+      "醉酒"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "恶魔的能力对你无效。",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_soldier",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/soldier.png?raw=true",
+    "name": "士兵",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每个夜晚*，你会得知是否有爪牙在今天进行了提名。",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_towncrier",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/towncrier.png?raw=true",
+    "name": "公告员",
+    "otherNight": 59,
+    "otherNightReminder": "诉她白天爪牙是否参与了提名。白天时当爪牙提名，标记已提名，否则在黄昏时标记未提名。",
+    "reminders": [
+      "已提名",
+      "未提名"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "如果你是导致你的阵营落败中责任最重大的那一位，则你立刻改变你的阵营并获胜，即使你死了。",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_politician",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/politician.png?raw=true",
+    "name": "政客",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "如果你死亡，恶魔可以在当晚交换任意两名玩家的角色（但不会交换阵营），不能选择其他恶魔参与本次交换。",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_barber",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/barber.png?raw=true",
+    "name": "理发师",
+    "otherNight": 40,
+    "otherNightReminder": "如果理发师今天死了，唤醒恶魔，告诉他理发师死了。恶魔可以选择不使用理发师能力，或选择两名玩家：交换这两名玩家的角色标记。然后依次唤醒两名玩家，并对他们展示各自的新角色标记，告诉他们变成了这个角色但不告诉原因。",
+    "reminders": [
+      "今晚理发"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "你会抽取到一个原本不在场的村民角色，但实际上你不是村民，你的村民能力也不会产生任何效果。",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_drunk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
+    "name": "酒鬼",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "醉酒"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
+    "ability": "如果你因为处决而死亡，你的阵营失败。",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_saint",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/saint.png?raw=true",
+    "name": "圣徒",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "每局游戏限一次，在夜晚*，选择一名玩家：无视任何会让该玩家不死的效果，杀死该玩家。",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_assassin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/assassin.png?raw=true",
+    "name": "刺客",
+    "otherNight": 37,
+    "otherNightReminder": "如果刺客还未使用能力：刺客要么选择不使用，要么指向一名玩家。如果刺客选择了玩家：那名玩家死亡。",
+    "reminders": [
+      "失去能力",
+      "死亡"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "每个夜晚，选择一名玩家：如果那名玩家明天发起了提名，则该玩家会死亡。如果只有三名玩家存活，你失去这项能力。",
+    "edition": "snv",
+    "firstNight": 24,
+    "firstNightReminder": "女巫指向一名玩家。那名玩家在明天白天发起提名时会立刻死去。",
+    "id": "zh_CN_witch",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/witch.png?raw=true",
+    "name": "女巫",
+    "otherNight": 15,
+    "otherNightReminder": "如果有四位或更多玩家存活：女巫指向一名玩家。那名玩家在明天白天发起提名时会立刻死去。",
+    "reminders": [
+      "被诅咒"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "每个夜晚，你可以查看魔法书。当有角色的能力要探查或影响村民或外来者时，你可能会被视为一名善良角色，即使你已经死亡。",
+    "edition": "tb",
+    "firstNight": 48,
+    "firstNightReminder": "将魔法书展示给间谍，他想看多久就看多久。",
+    "id": "zh_CN_spy",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spy.png?raw=true",
+    "name": "间谍",
+    "otherNight": 68,
+    "otherNightReminder": "将魔法书展示给间谍，他想看多久就看多久。",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "场上初始配置时会有额外两名外来者。（并减少两名村民）",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_baron",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/baron.png?raw=true",
+    "name": "男爵",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": true,
+    "team": "minion"
+  },
+  {
+    "ability": "每个夜晚，爪牙玩家们需要选择由一位玩家来照看怪兽宝宝。那位玩家在照看怪兽宝宝的期间被视为恶魔且会得知自己在照看它。每个夜晚*都会有一名玩家死去。（+1爪牙）",
+    "edition": "",
+    "firstNight": 16,
+    "firstNightReminder": "唤醒所有爪牙，允许他们以指向的方式决定谁照看怪兽宝宝，但不能产生其他交流，否则会有非常糟糕的事情发生。",
+    "id": "zh_CN_lilmonsta",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lilmonsta.png?raw=true",
+    "name": "怪兽宝宝",
+    "otherNight": 36,
+    "otherNightReminder": "唤醒所有爪牙，允许他们以指向的方式决定谁照看怪兽宝宝，但不能产生其他交流，否则会有非常糟糕的事情发生。说书人选择一名玩家，那名玩家死亡。",
+    "reminders": [],
+    "remindersGlobal": [
+      "是恶魔",
+      "死亡"
+    ],
+    "setup": true,
+    "team": "demon"
+  }
+]
