@@ -123,6 +123,23 @@
     "team": "townsfolk"
   },
   {
+    "ability": "Você não sabe que é o Bêbado. Você acha que é um Cidadão, mas não é.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pt_PT_drunk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
+    "name": "Bêbado",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Bêbado"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
     "ability": "A cada noite, você descobre quantos de seus 2 vizinhos vivos são maus.",
     "edition": "tb",
     "firstNight": 36,
@@ -201,6 +218,23 @@
     ],
     "setup": true,
     "team": "demon"
+  },
+  {
+    "ability": "You think you are a good character but you are not. The Demon knows who you are. [You neighbour the Demon]",
+    "edition": "",
+    "firstNight": 11,
+    "firstNightReminder": "Select one of the good players next to the Demon and place the Is the Marionette reminder token. Wake the Demon and show them the Marionette.",
+    "id": "pt_PT_marionette",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/marionette.png?raw=true",
+    "name": "Marionette",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Is the Marionette"
+    ],
+    "setup": true,
+    "team": "minion"
   },
   {
     "ability": "Se você insinuar que é um Forasteiro, você pode ser executado imediatamente. Se você estiver alucinado que é um Forasteiro, você pode ser executado.",

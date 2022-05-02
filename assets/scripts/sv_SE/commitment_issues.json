@@ -123,6 +123,23 @@
     "team": "townsfolk"
   },
   {
+    "ability": "Du vet inte att du är Fyllot. Du tror att du är en Bybo, men det är du inte.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "sv_SE_drunk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
+    "name": "Fyllo",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Fyllo"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
     "ability": "Varje natt, du lär dig hur många av dina 2 levande grannar är onda.",
     "edition": "tb",
     "firstNight": 36,
@@ -202,6 +219,23 @@
     ],
     "setup": true,
     "team": "demon"
+  },
+  {
+    "ability": "Du tror att du är en god karaktär, men det är du inte. Demonen vet vem du är. [Du sitter granne till Demonen]",
+    "edition": "",
+    "firstNight": 11,
+    "firstNightReminder": "Välj en av de goda spelarna bredvid Demonen och placera \"Är Marionett\" markören. Väck Demonen och visa dem Marionetten.",
+    "id": "sv_SE_marionette",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/marionette.png?raw=true",
+    "name": "Marionett",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Är Marionett"
+    ],
+    "setup": true,
+    "team": "minion"
   },
   {
     "ability": "Om du är \"galen\" att du är en Outsider, kan du bli avrättad.",

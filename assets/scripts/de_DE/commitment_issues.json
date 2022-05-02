@@ -123,6 +123,23 @@
     "team": "townsfolk"
   },
   {
+    "ability": "Du weißt nicht, dass du die Schnapsdrossel bist. Du denkst, du seist ein Dorfbewohner, aber deine Fähigkeit schlägt fehl.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "de_DE_drunk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
+    "name": "Schnapsdrossel",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Drunk"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
     "ability": "Du erfährst jede Nacht, wie viele deiner beiden lebenden Nachbarn böse sind.",
     "edition": "tb",
     "firstNight": 36,
@@ -202,6 +219,23 @@
     ],
     "setup": true,
     "team": "demon"
+  },
+  {
+    "ability": "Du weisst nicht, dass du die Marionette bist. Du denkst, du seist ein guter Charakter, bist du aber nicht. Der Dämon weiss, wer du bist. [Du sitzt neben dem Dämon]",
+    "edition": "",
+    "firstNight": 11,
+    "firstNightReminder": "Select one of the good players next to the Demon and place the Is the Marionette reminder token. Wake the Demon and show them the Marionette.",
+    "id": "de_DE_marionette",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/marionette.png?raw=true",
+    "name": "Marionette",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Is the Marionette"
+    ],
+    "setup": true,
+    "team": "minion"
   },
   {
     "ability": "Wenn du \"besessen\" davon bist, ein Außenseiter zu sein, könntest du hingerichtet werden",

@@ -123,6 +123,23 @@
     "team": "townsfolk"
   },
   {
+    "ability": "Vous ne savez pas que vous êtes ivre. Vous pensez que vous êtes un Villageois, mais vous ne l’êtes pas.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_drunk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
+    "name": "Soulard",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Soulard"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
     "ability": "Chaque nuit, vous apprenez combien de vos voisins survivants sont maléfiques.",
     "edition": "tb",
     "firstNight": 36,
@@ -202,6 +219,23 @@
     ],
     "setup": true,
     "team": "demon"
+  },
+  {
+    "ability": "Vous ne savez pas que vous êtes maléfique. Vous pensez que vous êtes un joueur bon, mais vous ne l’êtes pas. Vous êtes empoisonné et le Démon sait qui vous êtes [Voisin du Démon].",
+    "edition": "",
+    "firstNight": 11,
+    "firstNightReminder": "Sélectionnez l'un des joueurs bons voisin du Démon et placez le rappel Marionnette. Réveillez le Démon et montrez-lui la Marionnette.",
+    "id": "fr_FR_marionette",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/marionette.png?raw=true",
+    "name": "Marionnette",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Marionnette"
+    ],
+    "setup": true,
+    "team": "minion"
   },
   {
     "ability": "Vous êtes Dément : Ne révélez pas votre vraie nature (Étranger ou Bête de foire), d’aucune façon, sinon c’est possiblement l’exécution.",

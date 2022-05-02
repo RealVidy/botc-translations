@@ -127,6 +127,23 @@
     "team": "townsfolk"
   },
   {
+    "ability": "你会抽取到一个原本不在场的村民角色，但实际上你不是村民，你的村民能力也不会产生任何效果。",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_drunk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
+    "name": "酒鬼",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "醉酒"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
     "ability": "每个夜晚，你会得知你左右两侧最靠近你的存活玩家有几个是邪恶的。",
     "edition": "tb",
     "firstNight": 36,
@@ -206,6 +223,23 @@
     ],
     "setup": true,
     "team": "demon"
+  },
+  {
+    "ability": "你会抽取到一个不在场的善良角色，但你并不是这个角色。恶魔知道你是提线木偶。（你会与恶魔邻座）",
+    "edition": "",
+    "firstNight": 11,
+    "firstNightReminder": "选择一个邻近恶魔的善良玩家放置提线木偶标记。唤醒恶魔并告知他谁是提线木偶。",
+    "id": "zh_CN_marionette",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/marionette.png?raw=true",
+    "name": "提线木偶",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "提线木偶"
+    ],
+    "setup": true,
+    "team": "minion"
   },
   {
     "ability": "如果你表现得像个外来者（或别人认为你是），你可能会被立刻处决。",

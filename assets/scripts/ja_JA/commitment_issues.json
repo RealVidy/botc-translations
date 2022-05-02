@@ -123,6 +123,23 @@
     "team": "townsfolk"
   },
   {
+    "ability": "自分が酔っ払いであることを知らない。自分はなんらかの住民だと思っているが、その能力は機能しない。",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ja_JA_drunk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
+    "name": "酔っ払い",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Drunk"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
     "ability": "毎夜、あなたは隣のプレイヤー2人のうち何人が邪悪であるかを知ることができる。",
     "edition": "tb",
     "firstNight": 36,
@@ -202,6 +219,23 @@
     ],
     "setup": true,
     "team": "demon"
+  },
+  {
+    "ability": "You think you are a good character but you are not. The Demon knows who you are. [You neighbour the Demon]",
+    "edition": "",
+    "firstNight": 11,
+    "firstNightReminder": "Select one of the good players next to the Demon and place the Is the Marionette reminder token. Wake the Demon and show them the Marionette.",
+    "id": "ja_JA_marionette",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/marionette.png?raw=true",
+    "name": "Marionette",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Is the Marionette"
+    ],
+    "setup": true,
+    "team": "minion"
   },
   {
     "ability": "自分がよそ者であることに『必死』である場合、処刑される可能性がある。",

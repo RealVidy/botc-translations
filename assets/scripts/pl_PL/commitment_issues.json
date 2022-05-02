@@ -123,6 +123,23 @@
     "team": "townsfolk"
   },
   {
+    "ability": "Nie wiesz, ze jestes Pijakiem. Myslisz, ze jestes mieszczaninem, ale Twoja umiejetnosc nie dziala prawidlowo.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_drunk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
+    "name": "Pijak",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Drunk"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
     "ability": "Kazdej nocy dowiadujesz sie, ilu z Twoich zyjacych sasiadow jest zlych.",
     "edition": "tb",
     "firstNight": 36,
@@ -201,6 +218,23 @@
     ],
     "setup": true,
     "team": "demon"
+  },
+  {
+    "ability": "You think you are a good character but you are not. The Demon knows who you are. [You neighbour the Demon]",
+    "edition": "",
+    "firstNight": 11,
+    "firstNightReminder": "Select one of the good players next to the Demon and place the Is the Marionette reminder token. Wake the Demon and show them the Marionette.",
+    "id": "pl_PL_marionette",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/marionette.png?raw=true",
+    "name": "Marionette",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Is the Marionette"
+    ],
+    "setup": true,
+    "team": "minion"
   },
   {
     "ability": "Jeśli \"szalejesz\" na punkcie bycia outsiderem, możesz zostać stracony.",

@@ -123,6 +123,23 @@
     "team": "townsfolk"
   },
   {
+    "ability": "Вы не знаете, что вы Пьяница. Вам кажется, что вы - какой-либо Горожанин, но это не так.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ru_RU_drunk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
+    "name": "Пьяница",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Пьяница"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
     "ability": "Каждой ночью вы узнаете, сколько из ваших живых соседей - злые.",
     "edition": "tb",
     "firstNight": 36,
@@ -202,6 +219,23 @@
     ],
     "setup": true,
     "team": "demon"
+  },
+  {
+    "ability": "Вам кажется, что вы - какая-либо добрая роль, но это не так. Демон знает, кто вы. [Вы сидите рядом с Демоном]",
+    "edition": "",
+    "firstNight": 11,
+    "firstNightReminder": "Выберите одного из добрых игроков, сидящих рядом с Демоном, и разместите рядом с ним напоминающий жетон \"Марионетка\". Разбудите Демона и укажите ему на Марионетку.",
+    "id": "ru_RU_marionette",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/marionette.png?raw=true",
+    "name": "Марионетка",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Марионетка"
+    ],
+    "setup": true,
+    "team": "minion"
   },
   {
     "ability": "Если вы \"помешаны\" на том, что вы Изгой, вы иногда можете быть казнены.",
