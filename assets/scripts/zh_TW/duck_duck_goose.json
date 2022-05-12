@@ -1,0 +1,417 @@
+[
+  {
+    "ability": "你遊戲開始時得知一位好人玩家以及他的角色，如果該玩家被惡魔殺死，則你也會死。",
+    "edition": "bmr",
+    "firstNight": 39,
+    "firstNightReminder": "以「孫子」標記一位好人玩家，展示該玩家的角色代幣並指向該玩家。",
+    "id": "zh_TW_grandmother",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/grandmother.png?raw=true",
+    "name": "祖母",
+    "otherNight": 50,
+    "otherNightReminder": "如果祖母的孫子被惡魔殺死：祖母死亡。",
+    "reminders": [
+      "孫子"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "你開始遊戲時得知一位邪惡的玩家。如果該玩家死亡，你今晚再得知另一位邪惡的玩家。[一位鎮民是邪惡的]",
+    "edition": "",
+    "firstNight": 45,
+    "firstNightReminder": "指向一位邪惡的玩家並以「已得知」標記該玩家，喚醒被標記為邪惡的鎮民並展示「你是」提示卡 + 倒讚表示邪惡。",
+    "id": "zh_TW_bountyhunter",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bountyhunter.png?raw=true",
+    "name": "寶藏獵人",
+    "otherNight": 65,
+    "otherNightReminder": "如果已得知的邪惡玩家已死亡，指向另一位邪惡的玩家並以「已得知」標記該玩家。",
+    "reminders": [
+      "已得知"
+    ],
+    "setup": true,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每天晚上，你得知你活著的鄰居中有幾位是邪惡的(0/1/2)。",
+    "edition": "tb",
+    "firstNight": 36,
+    "firstNightReminder": "展示讀心者的邪惡鄰居數量。",
+    "id": "zh_TW_empath",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
+    "name": "讀心者",
+    "otherNight": 53,
+    "otherNightReminder": "展示讀心者的邪惡鄰居數量。",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每天晚上，選擇一位活著的玩家：你或該玩家醉酒到明天黃昏，你不會死亡。",
+    "edition": "bmr",
+    "firstNight": 10,
+    "firstNightReminder": "水手指向一位活著的玩家，水手或該玩家醉酒。",
+    "id": "zh_TW_sailor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sailor.png?raw=true",
+    "name": "水手",
+    "otherNight": 4,
+    "otherNightReminder": "先前醉酒的玩家不再醉酒，水手指向一位活著的玩家，水手或該玩家醉酒。",
+    "reminders": [
+      "醉酒"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每天晚上，你得知每種角色類別的一位玩家，直到你已得知所有類別。[+1 城外人]",
+    "edition": "",
+    "firstNight": 44,
+    "firstNightReminder": "選擇一個角色類別，指向一個為該類別的玩家，以「已得知」標記該玩家。",
+    "id": "zh_TW_balloonist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/balloonist.png?raw=true",
+    "name": "氣球飛行員",
+    "otherNight": 63,
+    "otherNightReminder": "選擇一個旁邊還沒放置「已得知」標記的角色類別，有選擇到的話，指向一個為該類別的玩家，以「已得知」標記該玩家。",
+    "reminders": [
+      "已得知(僕從)",
+      "已得知(城外人)",
+      "已得知(惡魔)",
+      "已得知(旅行者)",
+      "已得知(鎮民)"
+    ],
+    "setup": true,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每天晚上，選擇兩位玩家：你得知他們其中是否有惡魔。場上有一位好人的身分會被你視為惡魔。",
+    "edition": "tb",
+    "firstNight": 37,
+    "firstNightReminder": "算命師選擇兩位玩家，以點頭或搖頭來告知他們之中是否有惡魔。",
+    "id": "zh_TW_fortuneteller",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fortuneteller.png?raw=true",
+    "name": "算命師",
+    "otherNight": 54,
+    "otherNightReminder": "算命師選擇兩位玩家，以點頭或搖頭來告知他們之中是否有惡魔。",
+    "reminders": [
+      "視為惡魔"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每天白天，你可以發表一次公開聲明，今天晚上時，如果該聲明正確，則會有一位玩家死亡",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_TW_gossip",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gossip.png?raw=true",
+    "name": "長舌婦",
+    "otherNight": 47,
+    "otherNightReminder": "如果長舌婦的公開聲明正確：選擇一位今晚沒有被保護的玩家，該玩家死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每場遊戲一次，晚上時，選擇哪些僕從或惡魔出現在遊戲中。",
+    "edition": "",
+    "firstNight": 13,
+    "firstNightReminder": "工程師可以指向角色表上的一個惡魔或數個僕從，如果他有選擇：根據選擇置換角色代幣，喚醒相關玩家並展示「你是」提示卡 + 他們的新角色代幣。",
+    "id": "zh_TW_engineer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/engineer.png?raw=true",
+    "name": "工程師",
+    "otherNight": 6,
+    "otherNightReminder": "工程師可以指向角色表上的一個惡魔或數個僕從，如果他有選擇：根據選擇置換角色代幣，喚醒相關玩家並展示「你是」提示卡 + 他們的新角色代幣。",
+    "reminders": [
+      "無能力"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "每場遊戲一次，晚上時，選擇兩位其他的玩家：你得知他們是否為同一隊伍。",
+    "edition": "snv",
+    "firstNight": 42,
+    "firstNightReminder": "理髮師可以選擇兩位其他的玩家，如果他有選擇：以點頭或搖頭來告知他們是否屬於同一隊伍。",
+    "id": "zh_TW_seamstress",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/seamstress.png?raw=true",
+    "name": "裁縫師",
+    "otherNight": 61,
+    "otherNightReminder": "理髮師可以選擇兩位其他的玩家，如果他有選擇：以點頭或搖頭來告知他們是否屬於同一隊伍。",
+    "reminders": [
+      "無能力"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "你擁有一位不在遊戲中的僕從的能力。",
+    "edition": "",
+    "firstNight": 3,
+    "firstNightReminder": "展示一個不在遊戲中的僕從角色代幣，將煉金術士的角色代幣換成那個角色的角色代幣，以「是煉金術士」標記他。",
+    "id": "zh_TW_alchemist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/alchemist.png?raw=true",
+    "name": "煉金術士",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "是煉金術士"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "你具有最後被處死的玩家的能力。如果該玩家是邪惡的，你中毒直到一個好人玩家被處死。",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_TW_cannibal",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cannibal.png?raw=true",
+    "name": "食人族",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "中毒",
+      "最後被處死"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "如果你的鄰居都是好人，則他們都不會死亡。",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_TW_tealady",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/tealady.png?raw=true",
+    "name": "泡茶人",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "不會死"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "僕從們與惡魔不會彼此相認。如果你死亡，則他們在當晚相認。",
+    "edition": "",
+    "firstNight": 4,
+    "firstNightReminder": "不要告知惡魔和僕從彼此是誰。",
+    "id": "zh_TW_poppygrower",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poppygrower.png?raw=true",
+    "name": "罌粟農",
+    "otherNight": 3,
+    "otherNightReminder": "如果罌粟農死亡：告知惡魔和僕從彼此是誰。",
+    "reminders": [
+      "邪惡相認"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "你隨時可能死亡。",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_TW_tinker",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/tinker.png?raw=true",
+    "name": "修補匠",
+    "otherNight": 48,
+    "otherNightReminder": "修補匠可能會死亡。",
+    "reminders": [
+      "死亡"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "你不知道自己是醉漢，你認為自己是某一位鎮民，但你不是。",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_TW_drunk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
+    "name": "醉漢",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "醉酒"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
+    "ability": "你每場遊戲只能提名一次。當你如此做時，如果被提名者不是惡魔，則該玩家死亡。",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_TW_golem",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/golem.png?raw=true",
+    "name": "魔像",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "不能提名"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "你認為自己是惡魔，但你不是，惡魔知道你是誰以及你每天晚上選了誰。",
+    "edition": "bmr",
+    "firstNight": 7,
+    "firstNightReminder": "如果有7位或更多玩家：將若干個僕從展示給瘋子，其數量等同於遊戲中僕從們的數量(這些玩家不一定要是真的僕從)，將三個任意的好人角色代幣展示給瘋子，如果瘋子的惡魔角色會在第一晚行動：讓他進行惡魔的動作，以「攻擊」標記他的目標。喚醒惡魔並告知他真正的角色以及瘋子是誰，如果瘋子有攻擊玩家，指向每個被標記的目標，移除所有「攻擊」標記。",
+    "id": "zh_TW_lunatic",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
+    "name": "瘋子",
+    "otherNight": 21,
+    "otherNightReminder": "讓瘋子進行惡魔的動作，以「攻擊」標記他的目標，如果瘋子有攻擊玩家：喚醒惡魔並指向每個被標記的目標，移除所有「攻擊」標記。",
+    "reminders": [
+      "攻擊1",
+      "攻擊2",
+      "攻擊3"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "你開始遊戲時得知一個暗號，第一位說出這個暗號的好人玩家在當晚轉為邪惡隊伍。",
+    "edition": "",
+    "firstNight": 27,
+    "firstNightReminder": "展示祕密的暗號。",
+    "id": "zh_TW_mezepheles",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mezepheles.png?raw=true",
+    "name": "梅澤菲勒斯",
+    "otherNight": 19,
+    "otherNightReminder": "喚醒第一位說出梅澤菲勒斯的暗號的好人玩家並展示「你是」提示卡 + 倒讚表示邪惡。",
+    "reminders": [
+      "無能力",
+      "轉為邪惡"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "每天晚上，選擇且活著的玩家(不同於昨晚)：如果該玩家明天被處決，他不會死。",
+    "edition": "bmr",
+    "firstNight": 22,
+    "firstNightReminder": "惡魔擁護者指向一位活著的玩家，以「處決保護」標記該玩家。",
+    "id": "zh_TW_devilsadvocate",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/devilsadvocate.png?raw=true",
+    "name": "惡魔擁護者",
+    "otherNight": 14,
+    "otherNightReminder": "惡魔擁護者指向一位活著的玩家，以「處決保護」標記該玩家。",
+    "reminders": [
+      "處決保護"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "每天晚上，選擇一位玩家。如果你提名並且處死了他，他的隊伍落敗。所有玩家都知道你是否有選擇新玩家。",
+    "edition": "",
+    "firstNight": 26,
+    "firstNightReminder": "恐懼販子指向一位玩家，以「恐懼」標記該玩家並宣布恐懼販子選擇了一位新玩家。",
+    "id": "zh_TW_fearmonger",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fearmonger.png?raw=true",
+    "name": "恐懼販子",
+    "otherNight": 18,
+    "otherNightReminder": "恐懼販子指向一位玩家，如果該玩家與前一晚的選擇不同：以「恐懼」標記該玩家並宣布恐懼販子選擇了一位新玩家。",
+    "reminders": [
+      "恐懼"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "每場遊戲一次，晚上時*，選擇一位玩家：該玩家死亡，儘管有某些原因導致他們不能死。",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_TW_assassin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/assassin.png?raw=true",
+    "name": "刺客",
+    "otherNight": 37,
+    "otherNightReminder": "刺客可以指向一位玩家，該玩家死亡。",
+    "reminders": [
+      "死亡",
+      "無能力"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "每天晚上，僕從們選擇一位玩家看顧Lil'蒙斯塔的角色代幣以及 「這是惡魔」提示卡。每天晚上*，一位玩家死亡。[+1 僕從]",
+    "edition": "",
+    "firstNight": 16,
+    "firstNightReminder": "喚醒所有僕從並讓他們投票選出看顧莉萌絲塔的人選。",
+    "id": "zh_TW_lilmonsta",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lilmonsta.png?raw=true",
+    "name": "莉萌絲塔",
+    "otherNight": 36,
+    "otherNightReminder": "喚醒所有僕從並讓他們投票選出看顧莉萌絲塔的人選，選擇一位玩家，該玩家死亡。",
+    "reminders": [],
+    "remindersGlobal": [
+      "是惡魔",
+      "死亡"
+    ],
+    "setup": true,
+    "team": "demon"
+  },
+  {
+    "ability": "每天晚上*，選擇一位玩家：該玩家死亡。你殺死的僕從們會保留他們的能力，並且使一位鎮民鄰居中毒。[−1 城外人]",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_TW_vigormortis",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vigormortis.png?raw=true",
+    "name": "食屍魔",
+    "otherNight": 32,
+    "otherNightReminder": "食屍魔指向一位玩家，該玩家死亡。如果該玩家是僕從，以「具有能力」標記該玩家並讓他的一位鎮民鄰居中毒。",
+    "reminders": [
+      "中毒",
+      "具有能力",
+      "死亡"
+    ],
+    "setup": true,
+    "team": "demon"
+  },
+  {
+    "ability": "每天晚上*，選擇一位玩家：該玩家死亡。你開始遊戲時選擇一位活著的玩家：該玩家中毒，你(只)會在該玩家死亡時死亡。",
+    "edition": "",
+    "firstNight": 15,
+    "firstNightReminder": "水蛭怪指向一位玩家，該玩家中毒。",
+    "id": "zh_TW_lleech",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lleech.png?raw=true",
+    "name": "水蛭怪",
+    "otherNight": 35,
+    "otherNightReminder": "水蛭怪指向一位玩家，該玩家死亡。",
+    "reminders": [
+      "中毒",
+      "死亡"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "每天晚上*，選擇一位玩家：該玩家死亡。在你兩側離你最近且活著的鎮民中毒。",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_TW_nodashii",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/nodashii.png?raw=true",
+    "name": "諾達西",
+    "otherNight": 30,
+    "otherNightReminder": "諾達西指向一位玩家，該玩家死亡。",
+    "reminders": [
+      "中毒",
+      "死亡"
+    ],
+    "setup": false,
+    "team": "demon"
+  }
+]

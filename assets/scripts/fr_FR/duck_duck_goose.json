@@ -1,0 +1,419 @@
+[
+  {
+    "ability": "La première nuit, le Conteur vous indique votre descendance et son rôle « bon ». Si elle est tuée par le Démon, vous mourrez également.",
+    "edition": "bmr",
+    "firstNight": 39,
+    "firstNightReminder": "Pointer sa descendance et montrer le rôle de celui-ci.",
+    "id": "fr_FR_grandmother",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/grandmother.png?raw=true",
+    "name": "Mamie",
+    "otherNight": 50,
+    "otherNightReminder": "Si sa descendance a été tué par le démon cette nuit: La Mamie meurt.",
+    "reminders": [
+      "Descendance"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "La première nuit, le Conteur vous désigne 1 joueur maléfique (votre cible). Si ce joueur meurt, cette nuit le Conteur vous désigne 1 nouveau joueur maléfique (nouvelle cible) [1 Villageois est maléfique].",
+    "edition": "",
+    "firstNight": 45,
+    "firstNightReminder": "Le Conteur choisi un joueur maléfique vivant et lui assigne le jeton « Cible ». Réveiller le Chasseur de primes et pointez lui la « Cible ».",
+    "id": "fr_FR_bountyhunter",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bountyhunter.png?raw=true",
+    "name": "Chasseur de primes",
+    "otherNight": 65,
+    "otherNightReminder": "Si la « Cible » est morte depuis la nuit précédente: Le Conteur choisi un nouveau joueur maléfique vivant et lui assigne le jeton « Cible ». Réveiller le Chasseur de primes et pointez lui la nouvelle « Cible ».",
+    "reminders": [
+      "Cible"
+    ],
+    "setup": true,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Chaque nuit, vous apprenez combien de vos voisins survivants sont maléfiques.",
+    "edition": "tb",
+    "firstNight": 36,
+    "firstNightReminder": "Montrer le nombre de ses voisins vivants et maléfique. Forte suggestion : inclure le Reclus et exclure l'Espion.",
+    "id": "fr_FR_empath",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
+    "name": "Empathique",
+    "otherNight": 53,
+    "otherNightReminder": "Montrer le nombre de ses voisins vivants et maléfique. Forte suggestion : inclure le Reclus et exclure l'Espion.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Chaque nuit, choisissez un joueur vivant : un de vous est ivre jusqu’au crépuscule. Si vous êtes sobre, vous ne pouvez pas mourir.",
+    "edition": "bmr",
+    "firstNight": 10,
+    "firstNightReminder": "Il choisit 1 joueur vivant : un des deux est ivre jusqu’au crépuscule (nuit et jour suivant). Le marin sobre ne peut pas mourir.",
+    "id": "fr_FR_sailor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sailor.png?raw=true",
+    "name": "Marin",
+    "otherNight": 4,
+    "otherNightReminder": "Il choisit 1 joueur vivant : un des deux est ivre jusqu’au crépuscule (nuit et jour suivant). Le marin sobre ne peut pas mourir.",
+    "reminders": [
+      "Ivre",
+      "Marin Protégé"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Chaque nuit, vous apprenez 1 joueur de chaque type, jusqu'à ce qu'il n'y ait plus de types à découvrir [+1 Étranger].",
+    "edition": "",
+    "firstNight": 44,
+    "firstNightReminder": "Choisissez un type de rôle. Pointez un joueur dont le rôle est de ce type. Placez le rappel « Vu » de l'Aéronaute sous ce rôle.",
+    "id": "fr_FR_balloonist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/balloonist.png?raw=true",
+    "name": "Aéronaute",
+    "otherNight": 63,
+    "otherNightReminder": "Choisissez un type de rôle que vous n'avez pas encore choisi. Pointez un joueur dont le rôle est de ce type. Placez le rappel « Vu » de l'Aéronaute sous ce rôle.",
+    "reminders": [
+      "Vu Démon",
+      "Vu Sbire",
+      "Vu Villageois",
+      "Vu Voyageur",
+      "Vu Étranger"
+    ],
+    "setup": true,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Chaque nuit, choisissez 2 joueurs : vous apprenez si l’un d’eux est un Démon. Un des joueurs « Bon » est votre faux positif.",
+    "edition": "tb",
+    "firstNight": 37,
+    "firstNightReminder": "Elle pointe deux joueurs. Si l'un d’eux est un Démon ou son faux positif, hocher la tête, sinon, secouez la tête.",
+    "id": "fr_FR_fortuneteller",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fortuneteller.png?raw=true",
+    "name": "Voyante",
+    "otherNight": 54,
+    "otherNightReminder": "Elle pointe deux joueurs. Si l'un d’eux est un Démon ou son faux positif, hocher la tête, sinon, secouez la tête.",
+    "reminders": [
+      "Faux positif"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Chaque jour, vous pouvez faire publiquement une déclaration de votre choix. Si elle est vraie, un joueur mourra cette nuit.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_gossip",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gossip.png?raw=true",
+    "name": "Commère",
+    "otherNight": 47,
+    "otherNightReminder": "Si la déclaration était vraie, n’importe lequel des joueurs (non protégé) meurt cette nuit, souvent la Commère est la victime.",
+    "reminders": [
+      "Mort"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Une fois par partie, pendant la nuit, choisissez quels Sbires ou quel Démon sont en jeu.",
+    "edition": "",
+    "firstNight": 13,
+    "firstNightReminder": "L'Ingénieur secoue la tête «Non» OU pointe vers un Démon OU pointe vers le nombre de Sbire approprié. Si l'Ingénieur a choisi des personnages, remplacez le Démon ou les Sbires avec ses choix, puis réveillez les joueurs concernés et montrez-leur la carte «Vous êtes» et les jetons de personnages correspondants.",
+    "id": "fr_FR_engineer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/engineer.png?raw=true",
+    "name": "Ingénieur",
+    "otherNight": 6,
+    "otherNightReminder": "L'Ingénieur secoue la tête «Non» OU pointe vers un Démon OU pointe vers le nombre de Sbire approprié. Si l'Ingénieur a choisi des personnages, remplacez le Démon ou les Sbires avec ses choix, puis réveillez les joueurs concernés et montrez-leur la carte «Vous êtes» et les jetons de personnages correspondants.",
+    "reminders": [
+      "Utilisé"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Une fois par partie, pendant la nuit, choisissez deux autres joueurs. Vous apprendrez s'ils sont du même alignement.",
+    "edition": "snv",
+    "firstNight": 42,
+    "firstNightReminder": "Elle décide si elle utilise sa capacité. Si oui, elle pointe deux joueurs et lui indiquer s'ils sont du même alignement.",
+    "id": "fr_FR_seamstress",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/seamstress.png?raw=true",
+    "name": "Couturière",
+    "otherNight": 61,
+    "otherNightReminder": "Si elle n'a pas encore utilisé sa capacité: elle décide si elle utilise sa capacité. Si oui, elle pointe deux joueurs et lui indiquer s'ils sont du même alignement.",
+    "reminders": [
+      "Inactif"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Vous avez le pouvoir d'un Sbire qui n'est pas en jeu.",
+    "edition": "",
+    "firstNight": 3,
+    "firstNightReminder": "Montrez a l'Alchimiste un jeton de Sbire qui n'est pas en jeu",
+    "id": "fr_FR_alchemist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/alchemist.png?raw=true",
+    "name": "Alchimiste",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Est l'Alchimiste"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Chaque nuit*, vous gagnez la capacité du dernier rôle exécuté. Si l'exécuté était maléfique, vous gagnez une capacité au choix du Conteur et vous êtes empoisonné jusqu'à ce qu'un nouveau rôle « bon » soit exécuté.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_cannibal",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cannibal.png?raw=true",
+    "name": "Cannibale",
+    "otherNight": 0,
+    "otherNightReminder": "Si nécessaire, réveiller ce joueur cette nuit selon sa capacité.",
+    "reminders": [
+      "Dernier Exécuté",
+      "Empoisonné"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Si vos deux voisins vivants sont « bons », ils ne peuvent pas mourir.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_tealady",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/tealady.png?raw=true",
+    "name": "Herboriste",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Protégé"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Les maléfiques ne se connaissent entre eux. À votre mort, ils apprennent qui sont les Sbires et le Démon.",
+    "edition": "",
+    "firstNight": 4,
+    "firstNightReminder": "Ne réveiller pas les Sbires lors de la première nuit, ils ne savent pas qui est le Démon et les autres Sbires. Le Démon reçoit malgré tout ses trois bluffs.",
+    "id": "fr_FR_poppygrower",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poppygrower.png?raw=true",
+    "name": "Cultivateur de pavot",
+    "otherNight": 3,
+    "otherNightReminder": "Si le Cultivateur est mort, réveiller les Sbires et Démon (morts ou vifs) et leurs présenter le Démon et les Sbires.",
+    "reminders": [
+      "Maléfiques se réveillent"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Vous pouvez mourir... à tout moment.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_tinker",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/tinker.png?raw=true",
+    "name": "Inventeur",
+    "otherNight": 48,
+    "otherNightReminder": "L'Inventeur pourrait mourir.",
+    "reminders": [
+      "Mort"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Vous ne savez pas que vous êtes ivre. Vous pensez que vous êtes un Villageois, mais vous ne l’êtes pas.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_drunk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
+    "name": "Soulard",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Soulard"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
+    "ability": "Vous ne pouvez nominer qu'une fois par partie. Lorsque vous le faites, si le nominé n'est pas le Démon, il meurt.",
+    "edition": "",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_golem",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/golem.png?raw=true",
+    "name": "Golem",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Nomination impossible"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Vous pensez que vous êtes un Démon, mais vous ne l’êtes pas. Le Démon sait qui vous êtes et qui vous avez attaqué.",
+    "edition": "bmr",
+    "firstNight": 7,
+    "firstNightReminder": "Si 7 joueurs ou plus: Montrez au Lunatique un nombre arbitraire de Sbires. Présenter 3 rôles qui ne sont pas en jeu. Si le jeton Démon reçu par le Lunatique se réveillerait cette nuit: Permettez au Lunatique de faire les actions du Démon. Placez les jetons. Réveillez le Démon. Montrez les jetons attaque, puis pointez sur chaque joueur marqué. Retirez tous les jetons attaque.",
+    "id": "fr_FR_lunatic",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
+    "name": "Lunatique",
+    "otherNight": 21,
+    "otherNightReminder": "Permettez au Lunatique de faire les actions du Démon. Placez les jetons. Réveillez le Démon. Montrez les jetons attaque, puis pointez sur chaque joueur marqué. Retirez tous les jetons attaque.",
+    "reminders": [
+      "Attaque 1",
+      "Attaque 2",
+      "Attaque 3",
+      "Autre"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Vous commencez la partie en connaissant un mot secret. Le premier joueur bon qui prononcera ce mot deviendra maléfique à partir de la nuit suivante.",
+    "edition": "",
+    "firstNight": 27,
+    "firstNightReminder": "Indiquez au Mezepheles le Mot Secret.",
+    "id": "fr_FR_mezepheles",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mezepheles.png?raw=true",
+    "name": "Mezepheles",
+    "otherNight": 19,
+    "otherNightReminder": "Réveillez le premier joueur bon ayant prononcé le Mot Secret du Mezepheles et montrez lui la carte 'Vous êtes désormais' ainsi que le signe des Maléfiques.",
+    "reminders": [
+      "Devient Maléfique",
+      "Utilisé"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Chaque nuit, choisissez un joueur vivant (différent de la nuit précédente ni le Zombuul mort): s'il est exécuté demain, il ne mourra pas.",
+    "edition": "bmr",
+    "firstNight": 22,
+    "firstNightReminder": "Il pointe vers un joueur vivant. Ce joueur survivra à l'exécution demain.",
+    "id": "fr_FR_devilsadvocate",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/devilsadvocate.png?raw=true",
+    "name": "Avocat du diable",
+    "otherNight": 14,
+    "otherNightReminder": "Il pointe vers un joueur vivant différent de la nuit précédente. Ce joueur survivra à l'exécution demain.",
+    "reminders": [
+      "Survit à l'exécution"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Chaque nuit, choisissez un joueur : si vous le nominnez et qu'il est exécuté, son équipe perd. Tous les joueurs sont avertis lorsque vous choisissez un nouveau joueur.",
+    "edition": "",
+    "firstNight": 26,
+    "firstNightReminder": "L'Alarmiste désigne un joueur. Placez le jeton «Alarme» à côté de ce joueur et annoncez qu'un nouveau joueur a été sélectionné par le pouvoir de l'Alarmiste.",
+    "id": "fr_FR_fearmonger",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fearmonger.png?raw=true",
+    "name": "Alarmiste",
+    "otherNight": 18,
+    "otherNightReminder": "L'Alarmiste désigne un joueur. Placez le jeton «Alarme» à côté de ce joueur et annoncez qu'un nouveau joueur a été sélectionné par le pouvoir de l'Alarmiste.",
+    "reminders": [
+      "Alarme"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Une fois par partie, pendant la nuit*, choisissez un joueur: il meurt, même si pour une raison quelconque, il ne le pourrait pas.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_assassin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/assassin.png?raw=true",
+    "name": "Assassin",
+    "otherNight": 37,
+    "otherNightReminder": "Si l'Assassin n'a pas encore utilisé sa capacité il décide s’il l'utilise. Si oui, il désigne un joueur. Ce joueur meurt (sans restriction).",
+    "reminders": [
+      "Inactif",
+      "Mort"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Chaque nuit, les Sbires choisissent qui garde le jeton P’tit Monstre et « est le Démon ». Un joueur meurt chaque nuit* [+1 Sbire].",
+    "edition": "",
+    "firstNight": 16,
+    "firstNightReminder": "Au début de la nuit, réveillez tous les Sbires. Les Sbires désignent un joueur qui reçoit le jeton P'tit Monstre et devient le Démon.",
+    "id": "fr_FR_lilmonsta",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lilmonsta.png?raw=true",
+    "name": "P'tit monstre",
+    "otherNight": 36,
+    "otherNightReminder": "Au début de la nuit, réveillez tous les Sbires. Les Sbires désignent un joueur qui reçoit le jeton P'tit Monstre et devient le Démon. Plus tard pendant la nuit, le Conteur désigne un joueur qui est aussitôt assassiné (vous pouvez demander la préférence du gardien du P’tit Monstre pour déterminer la cible de celui-ci).",
+    "reminders": [],
+    "remindersGlobal": [
+      "Assassiné",
+      "P’tit Monstre"
+    ],
+    "setup": true,
+    "team": "demon"
+  },
+  {
+    "ability": "Chaque nuit*, choisissez un joueur: il meurt. Les Sbires que vous tuez gardent leur capacité et un de ses voisins Villageois (mort ou vif) est empoisonné. [-1 Étranger].",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_vigormortis",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vigormortis.png?raw=true",
+    "name": "Vigormortis",
+    "otherNight": 32,
+    "otherNightReminder": "Il pointe un joueur: il meurt. Un Sbire tué garde sa capacité et un de ses voisins Villageois (mort ou vif) est empoisonné.",
+    "reminders": [
+      "Assassiné",
+      "Capacité Active",
+      "Empoisonné"
+    ],
+    "setup": true,
+    "team": "demon"
+  },
+  {
+    "ability": "Chaque nuit*, choisissez un joueur : il meurt. La première nuit, vous choisissez un joueur vivant : il devient empoisonné et vous mourrez si et uniquement s'il meurt.",
+    "edition": "",
+    "firstNight": 15,
+    "firstNightReminder": "La Sangsue désigne un joueur. Placez le jeton de rappel 'Empoisonné' sur ce joueur.",
+    "id": "fr_FR_lleech",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lleech.png?raw=true",
+    "name": "Sangsue",
+    "otherNight": 35,
+    "otherNightReminder": "La Sangsue désigne un joueur. Ce joueur meurt.",
+    "reminders": [
+      "Empoisonné",
+      "Mort"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "Chaque nuit*, choisissez un joueur: il meurt. Vos deux voisins Villageois (morts ou vifs) qui vous entourent sont empoisonnés.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_nodashii",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/nodashii.png?raw=true",
+    "name": "No Dashii",
+    "otherNight": 30,
+    "otherNightReminder": "Il pointe un joueur: il meurt",
+    "reminders": [
+      "Assassiné",
+      "Empoisonné"
+    ],
+    "setup": false,
+    "team": "demon"
+  }
+]
