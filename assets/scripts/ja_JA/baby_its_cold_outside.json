@@ -312,7 +312,20 @@
     "setup": false,
     "team": "minion"
   },
-  null,
+  {
+    "ability": "毎夜(*)、プレイヤー1人と人物を1人選ぶ。その人物がいないなら、そのプレイヤーはその人物になる。これによりいずれかの悪魔になった場合、今夜の殺害はルールの適用外になる。",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ja_JA_pithag",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pithag.png?raw=true",
+    "name": "痘痕の老婆",
+    "otherNight": 17,
+    "otherNightReminder": "The Pit-Hag points to a player and a character on the sheet. If this character is not in play, wake that player and show them the 'You are' card and the relevant character token. If the character is in play, nothing happens.",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
   {
     "ability": "ゲーム開始時に、どのよそ者がいるかを知ることができる。今日の昼にそのうち1人が死亡した場合、今夜プレイヤーを1人を選ぶ。そのプレイヤーは死亡する。〔よそ者－1または＋1〕",
     "edition": "bmr",

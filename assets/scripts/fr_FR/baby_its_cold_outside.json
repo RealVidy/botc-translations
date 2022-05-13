@@ -312,7 +312,20 @@
     "setup": false,
     "team": "minion"
   },
-  null,
+  {
+    "ability": "Chaque nuit*, choisissez un joueur et un rôle qu'il devient (s'il n'est pas en jeu) sans changer d’alignement. Si un Démon est créé, les morts de cette nuit seront laissés au choix du Conteur.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "fr_FR_pithag",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pithag.png?raw=true",
+    "name": "Vieille Chouette",
+    "otherNight": 17,
+    "otherNightReminder": "Elle pointe un joueur et un rôle sur sa feuille. Si le rôle n'est pas en jeu: Remplacez le jeton de rôle de ce joueur par le rôle choisi. Réveillez ce joueur et montrez la carte violette « Vous êtes », puis le nouveau rôle et faire signe de la main pour indiquer aucun changement d'alignement.",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
   {
     "ability": "Vous commencez en sachant quels Étrangers sont en jeu. Si l’un d’entre eux est exécuté aujourd'hui, vous assassinez un joueur de votre choix cette nuit [+1 / -1 Étranger].",
     "edition": "bmr",

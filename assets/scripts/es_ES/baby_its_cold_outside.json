@@ -312,7 +312,20 @@
     "setup": false,
     "team": "minion"
   },
-  null,
+  {
+    "ability": "Cada noche*, elige a un jugador y el personaje en el que se convierte (si no está ya presente en la partida). Si creas un Demonio, esta noche las muertes serán aleatorias.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_pithag",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pithag.png?raw=true",
+    "name": "Vieja loca",
+    "otherNight": 17,
+    "otherNightReminder": "La Vieja loca señala a un jugador y un personaje de la hoja. Si el personaje no está presente en la partida, despierta a ese jugador y muéstrale la tarjeta \"Eres\" y la ficha de personaje pertinente. Si el personaje ya está en la partida, no ocurre nada.",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
   {
     "ability": "Comienzas sabiendo qué Forasteros están presentes en la partida. Si 1 muere hoy, elige a un jugador esta noche: morirá. [-1 o +1 Forastero]",
     "edition": "bmr",

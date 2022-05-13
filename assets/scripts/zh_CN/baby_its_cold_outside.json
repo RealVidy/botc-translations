@@ -313,7 +313,20 @@
     "setup": false,
     "team": "minion"
   },
-  null,
+  {
+    "ability": "每个夜晚*，选择一名玩家及一个角色。如果那个角色未在场，该玩家会变成那个角色（但不会改变阵营）。如果有玩家因此变成了恶魔，那么将会由说书人随意决定今晚恶魔杀死的人。",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_CN_pithag",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pithag.png?raw=true",
+    "name": "熬药巫婆",
+    "otherNight": 17,
+    "otherNightReminder": "熬药巫婆指向一名玩家和一个剧本列表上的角色。如果该角色不在场，唤醒那名玩家并告诉他变成了这个角色，但不告诉他原因，并将其角色标记替换掉。如果那名角色在场，无事发生。",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
   {
     "ability": "在你的首个夜晚，你会得知本局游戏里有哪些外来者在场。如果在白天有外来者死去了，当晚你会选择一名玩家：杀死那名玩家。（如果场中有教父，则外来者总数量会必定+1或-1）",
     "edition": "bmr",

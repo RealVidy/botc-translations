@@ -312,7 +312,20 @@
     "setup": false,
     "team": "minion"
   },
-  null,
+  {
+    "ability": "每天晚上*，選擇一位玩家以及一個角色：如果該角色不在遊戲中，該玩家變成該角色，如果產生一個新惡魔，則今晚的死亡是隨機。",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "zh_TW_pithag",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pithag.png?raw=true",
+    "name": "魔女",
+    "otherNight": 17,
+    "otherNightReminder": "魔女指向一位玩家 + 角色表上的一位角色，如果選擇的角色不在遊戲中：喚醒該玩家並展示「你是」提示卡 + 魔女選擇的角色代幣。",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
   {
     "ability": "你開始遊戲時得知那些城外人在遊戲中。如果今天有城外人死亡，在今晚選擇一位玩家：該玩家死亡。[−1 或 +1 城外人]",
     "edition": "bmr",

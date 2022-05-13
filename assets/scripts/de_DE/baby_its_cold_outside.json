@@ -312,7 +312,20 @@
     "setup": false,
     "team": "minion"
   },
-  null,
+  {
+    "ability": "Jede Nacht*, wähle 1 Spieler und 1 Charakter zu dem er wird (falls nicht bereits im Spiel). Wenn du auf diesem Weg einen Dämon erschaffst, sind Tode diese Nacht willkürlich. Spieler ändern nur Charakter, nicht Gesinnung.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "de_DE_pithag",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pithag.png?raw=true",
+    "name": "Trankbrauerin",
+    "otherNight": 17,
+    "otherNightReminder": "The Pit-Hag points to a player and a character on the sheet. If this character is not in play, wake that player and show them the 'You are' card and the relevant character token. If the character is in play, nothing happens.",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
   {
     "ability": "Du beginnst das Spiel mit dem Wissen, welche Außenseiter im Spiel sind. Wenn einer am Tag gestorben ist, wähle in der darauffolgenden Nacht 1 Spieler: er stirbt. [+1 oder -1 Außenseiter]",
     "edition": "bmr",

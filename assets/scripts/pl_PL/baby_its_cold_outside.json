@@ -312,7 +312,20 @@
     "setup": false,
     "team": "minion"
   },
-  null,
+  {
+    "ability": "Każdej nocy*, wybierz gracza i postać, którą zostanie (jeśli nie ma jej w grze). Jeśli zostanie tak stworzony demon, zgony tej nocy zależą od Bajarza.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pl_PL_pithag",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pithag.png?raw=true",
+    "name": "Jędza",
+    "otherNight": 17,
+    "otherNightReminder": "Jędza wskazuje na gracza i postać na skrypcie. Jeśli tej postaci nie ma w grze, obudź tego gracza i pokaż mu kartę 'JESTEŚ' i odpowiedni żeton postaci. Jeśli postać jest w grze, nic się nie dzieje.",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
   {
     "ability": "Na poczatku gry dowiadujesz sie, ktorzy Outsiderzy sa w grze. Jesli jeden z nich dzis umarl, wybierz noca gracza, ktory zginie. [-1 lub +1 Outsider]",
     "edition": "bmr",

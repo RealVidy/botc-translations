@@ -312,7 +312,20 @@
     "setup": false,
     "team": "minion"
   },
-  null,
+  {
+    "ability": "Varje natt*, välj en spelare & en karaktär som de blir (om karaktären inte redan är i spel). Om en Demon är skapad, bestäms döda spelare ikväll av Sagoberättaren.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "sv_SE_pithag",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pithag.png?raw=true",
+    "name": "Pit-Hag",
+    "otherNight": 17,
+    "otherNightReminder": "Pit-Hag pekar på en spelare och en karaktär på listan. Om den karaktären inte är i spel, väck den valda spelaren och visa dem \"Du är\" kortet och den relevanta karaktärs-polletten. Om karaktären är i spel, händer ingenting.",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
   {
     "ability": "Du börjar att veta vilka Outsiders är med i spelet. Om 1 dog idag, välj en spelare inatt: de dör. [−1 or +1 Outsider]",
     "edition": "bmr",
