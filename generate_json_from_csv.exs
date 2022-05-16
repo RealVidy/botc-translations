@@ -9,6 +9,8 @@ require Logger
 defmodule GenerateJsonFromCsv do
   # Main function
   def process_csv(csv_path) do
+    Logger.info("Starting to process #{inspect(csv_path, pretty: true)}\n")
+
     locale =
       csv_path
       |> Path.rootname()
