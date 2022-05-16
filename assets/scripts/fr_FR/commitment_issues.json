@@ -48,7 +48,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Chaue nuit*, vous gagnez la capacité du dernier rôle exécuté et mort. S'il était maléfique, vous gagnez une capacité au choix du conteur et êtes empoisonné jusqu'à l'exécution d'un joueur bon",
+    "ability": "Chaque nuit*, vous gagnez la capacité du dernier rôle exécuté mort. S'il était maléfique, vous gagnez une capacité au choix du conteur et êtes empoisonné jusqu'à l'exécution d'un joueur bon",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
