@@ -100,7 +100,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Drunk"
+      "مست"
     ],
     "setup": true,
     "team": "outsider"
@@ -126,7 +126,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_scarletwoman",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scarletwoman.png?raw=true",
-    "name": "Scarlet Woman",
+    "name": "فاحشه",
     "otherNight": 20,
     "otherNightReminder": "If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",
     "reminders": [
@@ -160,7 +160,7 @@
     "otherNight": 24,
     "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
     "reminders": [
-      "Dead"
+      "مرده"
     ],
     "setup": false,
     "team": "demon"

@@ -20,7 +20,7 @@
     "firstNightReminder": "Show the character token of an Outsider in play. Point to two players, one of which is that character.",
     "id": "fa_IR_librarian",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/librarian.png?raw=true",
-    "name": "Librarian",
+    "name": "کتاب‌خانه‌دار",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -102,7 +102,7 @@
     "otherNight": 12,
     "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
     "reminders": [
-      "Poisoned"
+      "مسموم"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -128,7 +128,7 @@
     "firstNightReminder": "The Nightwatchman may point to a player. Wake that player, show the 'This character selected you' card and the Nightwatchman token, then point to the Nightwatchman player.",
     "id": "fa_IR_nightwatchman",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/nightwatchman.png?raw=true",
-    "name": "Nightwatchman",
+    "name": "نگهبان شب",
     "otherNight": 66,
     "otherNightReminder": "The Nightwatchman may point to a player. Wake that player, show the 'This character selected you' card and the Nightwatchman token, then point to the Nightwatchman player.",
     "reminders": [
@@ -193,7 +193,7 @@
     "firstNightReminder": "Do not inform the Demon/Minions who each other are",
     "id": "fa_IR_poppygrower",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poppygrower.png?raw=true",
-    "name": "Poppy Grower",
+    "name": "خشخاش‌کار",
     "otherNight": 3,
     "otherNightReminder": "If the Poppy Grower has died, show the Minions/Demon who each other are.",
     "reminders": [
@@ -242,7 +242,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Drunk"
+      "مست"
     ],
     "setup": true,
     "team": "outsider"
@@ -307,7 +307,7 @@
     "otherNight": 16,
     "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
     "reminders": [
-      "Mad"
+      "دیوانه"
     ],
     "setup": false,
     "team": "minion"
@@ -371,7 +371,7 @@
     "otherNight": 24,
     "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
     "reminders": [
-      "Dead"
+      "مرده"
     ],
     "setup": false,
     "team": "demon"
@@ -383,7 +383,7 @@
     "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",
     "id": "fa_IR_lilmonsta",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lilmonsta.png?raw=true",
-    "name": "Lil' Monsta",
+    "name": "هیولا کوچولو",
     "otherNight": 36,
     "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
     "reminders": [],

@@ -36,7 +36,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_oracle",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/oracle.png?raw=true",
-    "name": "Oracle",
+    "name": "پیامبر",
     "otherNight": 60,
     "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of dead evil players.",
     "reminders": [],
@@ -106,7 +106,7 @@
     "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
     "id": "fa_IR_lunatic",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
-    "name": "Lunatic",
+    "name": "مجنون",
     "otherNight": 21,
     "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
     "reminders": [
@@ -124,7 +124,7 @@
     "firstNightReminder": "The Poisoner points to a player. That player is poisoned.",
     "id": "fa_IR_poisoner",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
-    "name": "Poisoner",
+    "name": "مسموم‌کننده",
     "otherNight": 8,
     "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
     "reminders": [
@@ -168,7 +168,7 @@
     "ability": "There might be 1 extra or 1 fewer Outsider in-play.",
     "id": "fa_IR_sentinel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
-    "name": "Sentinel",
+    "name": "کشیک",
     "team": "fabled"
   }
 ]

@@ -1,14 +1,14 @@
 [
   {
-    "ability": "你不知道你擁有的能力。每天白天，私下猜測你的能力：你得知你的猜測有多準確。",
+    "ability": "你不知道你擁有的能力。每天白天，私下猜測你的能力，你得知你的猜測有多準確。",
     "edition": "",
     "firstNight": 12,
-    "firstNightReminder": "決定失憶患者的真實能力，如果此能力使他在今晚醒來：喚醒失憶症玩家並且進行他的能力。",
+    "firstNightReminder": "決定失憶患者的真實能力，如果此能力使他在今晚醒來，喚醒失憶症玩家並且進行他的能力。",
     "id": "zh_TW_amnesiac",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/amnesiac.png?raw=true",
     "name": "失憶患者",
     "otherNight": 5,
-    "otherNightReminder": "如果失憶患者的能力使他在今晚醒來：喚醒他並且進行他的能力。",
+    "otherNightReminder": "如果失憶患者的能力使他在今晚醒來，喚醒他並且進行他的能力。",
     "reminders": [
       "?"
     ],
@@ -125,12 +125,12 @@
     "ability": "你認為自己是惡魔，但你不是，惡魔知道你是誰以及你每天晚上選了誰。",
     "edition": "bmr",
     "firstNight": 7,
-    "firstNightReminder": "如果有7位或更多玩家：將若干個僕從展示給瘋子，其數量等同於遊戲中僕從們的數量(這些玩家不一定要是真的僕從)，將三個任意的好人角色代幣展示給瘋子，如果瘋子的惡魔角色會在第一晚行動：讓他進行惡魔的動作，以「攻擊」標記他的目標。喚醒惡魔並告知他真正的角色以及瘋子是誰，如果瘋子有攻擊玩家，指向每個被標記的目標，移除所有「攻擊」標記。",
+    "firstNightReminder": "如果有7位或更多玩家，將若干個僕從展示給瘋子，其數量等同於遊戲中僕從們的數量(這些玩家不一定要是真的僕從)，將三個任意的好人角色代幣展示給瘋子，如果瘋子的惡魔角色會在第一晚行動，讓他進行惡魔的動作，以「攻擊」標記他的目標。喚醒惡魔並告知他真正的角色以及瘋子是誰，如果瘋子有攻擊玩家，指向每個被標記的目標，移除所有「攻擊」標記。",
     "id": "zh_TW_lunatic",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
     "name": "瘋子",
     "otherNight": 21,
-    "otherNightReminder": "讓瘋子進行惡魔的動作，以「攻擊」標記他的目標，如果瘋子有攻擊玩家：喚醒惡魔並指向每個被標記的目標，移除所有「攻擊」標記。",
+    "otherNightReminder": "讓瘋子進行惡魔的動作，以「攻擊」標記他的目標，如果瘋子有攻擊玩家，喚醒惡魔並指向每個被標記的目標，移除所有「攻擊」標記。",
     "reminders": [
       "攻擊1",
       "攻擊2",
@@ -146,7 +146,7 @@
     "firstNightReminder": "",
     "id": "zh_TW_mutant",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mutant.png?raw=true",
-    "name": "突變體",
+    "name": "變種人",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -168,7 +168,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "在你的第一晚，查看魔典並且選擇一位玩家：該玩家中毒。一位好人玩家知道寡婦在遊戲中。",
+    "ability": "在你的第一晚，查看魔典並且選擇一位玩家，該玩家中毒。一位好人玩家知道寡婦在遊戲中。",
     "edition": "",
     "firstNight": 18,
     "firstNightReminder": "將魔典展示給寡婦，寡婦選擇一位玩家，以「中毒」標記該玩家。喚醒一位好人玩家並展示「這些角色在遊戲中」提示卡 + 寡婦的角色代幣，以「得知寡婦」標記該玩家。",

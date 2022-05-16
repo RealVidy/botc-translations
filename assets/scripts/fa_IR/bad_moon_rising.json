@@ -16,7 +16,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Once per game, at night*, choose a player: they die, even if for some reason they could not.",
+    "ability": "یک بار در بازی، در شب*، یک بازیکن را انتخاب کن. آن بازیکن می‌میرد حتی اگر به دلیلی نتواند بمیرد.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -74,10 +74,10 @@
     "otherNight": 10,
     "otherNightReminder": "Reduce the remaining number of days the marked player is poisoned. If the Courtier has not yet used their ability: The Courtier either shows a 'no' head signal, or points to a character on the sheet. If the Courtier used their ability: If that character is in play, that player is drunk.",
     "reminders": [
-      "Drunk 1",
-      "Drunk 2",
-      "Drunk 3",
-      "No ability"
+      "بدون قابلیت",
+      "مست ۱",
+      "مست ۲",
+      "مست ۳"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -93,7 +93,7 @@
     "otherNight": 14,
     "otherNightReminder": "The Devil’s Advocate points to a living player, different from the previous night. That player survives execution tomorrow.",
     "reminders": [
-      "Survives execution"
+      "اعدام نمی‌شود"
     ],
     "setup": false,
     "team": "minion"
@@ -141,7 +141,7 @@
     "otherNight": 11,
     "otherNightReminder": "The Gambler points to a player, and a character on their sheet. If incorrect, the Gambler dies.",
     "reminders": [
-      "Dead"
+      "مرده"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -222,8 +222,7 @@
     "otherNight": 9,
     "otherNightReminder": "The previously protected and drunk players lose those markers. The Innkeeper points to two players. Those players are protected. One is drunk.",
     "reminders": [
-      "Drunk",
-      "Protected"
+      "محفوظ،مست"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -251,7 +250,7 @@
     "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
     "id": "fa_IR_lunatic",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
-    "name": "Lunatic",
+    "name": "مجنون",
     "otherNight": 21,
     "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
     "reminders": [
@@ -269,7 +268,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_mastermind",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mastermind.png?raw=true",
-    "name": "Mastermind",
+    "name": "مغز متفکر",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -297,7 +296,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_minstrel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/minstrel.png?raw=true",
-    "name": "Minstrel",
+    "name": "خنیاگر",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -313,7 +312,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_moonchild",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/moonchild.png?raw=true",
-    "name": "Moonchild",
+    "name": "ماه‌گرفته",
     "otherNight": 49,
     "otherNightReminder": "If the Moonchild used their ability to target a player today: If that player is good, they die.",
     "reminders": [
@@ -459,7 +458,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_voudon",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/voudon.png?raw=true",
-    "name": "Voudon",
+    "name": "افسون‌گر",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],

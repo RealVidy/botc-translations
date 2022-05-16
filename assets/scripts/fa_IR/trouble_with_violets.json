@@ -56,7 +56,7 @@
     "otherNight": 16,
     "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
     "reminders": [
-      "Mad"
+      "دیوانه"
     ],
     "setup": false,
     "team": "minion"
@@ -176,7 +176,7 @@
     "firstNightReminder": "Show the character token of an Outsider in play. Point to two players, one of which is that character.",
     "id": "fa_IR_librarian",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/librarian.png?raw=true",
-    "name": "Librarian",
+    "name": "کتاب‌خانه‌دار",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -282,7 +282,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_saint",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/saint.png?raw=true",
-    "name": "Saint",
+    "name": "قدیس",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -296,7 +296,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_scapegoat",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scapegoat.png?raw=true",
-    "name": "Scapegoat",
+    "name": "قربانی",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -310,7 +310,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_slayer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
-    "name": "Slayer",
+    "name": "قاتل",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -374,11 +374,11 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vigormortis.png?raw=true",
     "name": "Vigormortis",
     "otherNight": 32,
-    "otherNightReminder": "The Vigormortis points to a player. That player dies. If a Minion, they keep their ability and one of their Townsfolk neighbours is poisoned.",
+    "otherNightReminder": "حتی اگر زنده نباشید، تیم برنده، بازنده، و تیم بازنده، برنده می‌شود.",
     "reminders": [
-      "Dead",
-      "Has ability",
-      "Poisoned"
+      "باقابلیت",
+      "مرده",
+      "مسموم"
     ],
     "setup": true,
     "team": "demon"

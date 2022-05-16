@@ -202,7 +202,7 @@
     "firstNightReminder": "Do not inform the Demon/Minions who each other are",
     "id": "fa_IR_poppygrower",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poppygrower.png?raw=true",
-    "name": "Poppy Grower",
+    "name": "خشخاش‌کار",
     "otherNight": 3,
     "otherNightReminder": "If the Poppy Grower has died, show the Minions/Demon who each other are.",
     "reminders": [
@@ -239,7 +239,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Drunk"
+      "مست"
     ],
     "setup": true,
     "team": "outsider"
@@ -267,7 +267,7 @@
     "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
     "id": "fa_IR_lunatic",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
-    "name": "Lunatic",
+    "name": "مجنون",
     "otherNight": 21,
     "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
     "reminders": [
@@ -306,7 +306,7 @@
     "otherNight": 14,
     "otherNightReminder": "The Devil’s Advocate points to a living player, different from the previous night. That player survives execution tomorrow.",
     "reminders": [
-      "Survives execution"
+      "اعدام نمی‌شود"
     ],
     "setup": false,
     "team": "minion"
@@ -322,13 +322,13 @@
     "otherNight": 18,
     "otherNightReminder": "The Fearmonger points to a player. If different from the previous night, place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",
     "reminders": [
-      "Fear"
+      "ترسان"
     ],
     "setup": false,
     "team": "minion"
   },
   {
-    "ability": "Once per game, at night*, choose a player: they die, even if for some reason they could not.",
+    "ability": "یک بار در بازی، در شب*، یک بازیکن را انتخاب کن. آن بازیکن می‌میرد حتی اگر به دلیلی نتواند بمیرد.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -351,7 +351,7 @@
     "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",
     "id": "fa_IR_lilmonsta",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lilmonsta.png?raw=true",
-    "name": "Lil' Monsta",
+    "name": "هیولا کوچولو",
     "otherNight": 36,
     "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
     "reminders": [],
@@ -371,11 +371,11 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vigormortis.png?raw=true",
     "name": "Vigormortis",
     "otherNight": 32,
-    "otherNightReminder": "The Vigormortis points to a player. That player dies. If a Minion, they keep their ability and one of their Townsfolk neighbours is poisoned.",
+    "otherNightReminder": "حتی اگر زنده نباشید، تیم برنده، بازنده، و تیم بازنده، برنده می‌شود.",
     "reminders": [
-      "Dead",
-      "Has ability",
-      "Poisoned"
+      "باقابلیت",
+      "مرده",
+      "مسموم"
     ],
     "setup": true,
     "team": "demon"

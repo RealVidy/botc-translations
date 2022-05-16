@@ -213,7 +213,7 @@
     "otherNight": 52,
     "otherNightReminder": "If selected by the Huntsman, wake the Damsel, show 'You are' card and a not-in-play Townsfolk token.",
     "reminders": [
-      "Guess used"
+      "حدس زده"
     ],
     "setup": false,
     "team": "outsider"
@@ -255,7 +255,7 @@
     "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
     "id": "fa_IR_lunatic",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
-    "name": "Lunatic",
+    "name": "مجنون",
     "otherNight": 21,
     "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
     "reminders": [
@@ -311,7 +311,7 @@
     "otherNight": 16,
     "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
     "reminders": [
-      "Mad"
+      "دیوانه"
     ],
     "setup": false,
     "team": "minion"
@@ -323,7 +323,7 @@
     "firstNightReminder": "The Poisoner points to a player. That player is poisoned.",
     "id": "fa_IR_poisoner",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
-    "name": "Poisoner",
+    "name": "مسموم‌کننده",
     "otherNight": 8,
     "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
     "reminders": [
@@ -359,7 +359,7 @@
     "otherNight": 24,
     "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
     "reminders": [
-      "Dead"
+      "مرده"
     ],
     "setup": false,
     "team": "demon"

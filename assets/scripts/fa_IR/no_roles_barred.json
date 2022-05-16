@@ -110,7 +110,7 @@
     "otherNight": 12,
     "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
     "reminders": [
-      "Poisoned"
+      "مسموم"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -203,7 +203,7 @@
     "firstNightReminder": "Do not inform the Demon/Minions who each other are",
     "id": "fa_IR_poppygrower",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poppygrower.png?raw=true",
-    "name": "Poppy Grower",
+    "name": "خشخاش‌کار",
     "otherNight": 3,
     "otherNightReminder": "If the Poppy Grower has died, show the Minions/Demon who each other are.",
     "reminders": [
@@ -253,7 +253,7 @@
     "otherNight": 52,
     "otherNightReminder": "If selected by the Huntsman, wake the Damsel, show 'You are' card and a not-in-play Townsfolk token.",
     "reminders": [
-      "Guess used"
+      "حدس زده"
     ],
     "setup": false,
     "team": "outsider"
@@ -270,7 +270,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Drunk"
+      "مست"
     ],
     "setup": true,
     "team": "outsider"
@@ -299,7 +299,7 @@
     "firstNightReminder": "The Poisoner points to a player. That player is poisoned.",
     "id": "fa_IR_poisoner",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
-    "name": "Poisoner",
+    "name": "مسموم‌کننده",
     "otherNight": 8,
     "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
     "reminders": [
@@ -319,7 +319,7 @@
     "otherNight": 18,
     "otherNightReminder": "The Fearmonger points to a player. If different from the previous night, place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",
     "reminders": [
-      "Fear"
+      "ترسان"
     ],
     "setup": false,
     "team": "minion"
@@ -347,7 +347,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_boomdandy",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/boomdandy.png?raw=true",
-    "name": "Boomdandy",
+    "name": "انتحاری",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -361,7 +361,7 @@
     "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",
     "id": "fa_IR_lilmonsta",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lilmonsta.png?raw=true",
-    "name": "Lil' Monsta",
+    "name": "هیولا کوچولو",
     "otherNight": 36,
     "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
     "reminders": [],

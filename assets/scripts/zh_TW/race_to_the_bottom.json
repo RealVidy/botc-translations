@@ -1,9 +1,9 @@
 [
   {
-    "ability": "你開始遊戲時得知惡魔到最近的奴才的距離(相鄰時為1)。",
+    "ability": "你開始遊戲時得知惡魔到最近的僕從的距離(相鄰時為1)。",
     "edition": "snv",
     "firstNight": 40,
-    "firstNightReminder": "展示惡魔到最近的奴才的距離數(相鄰時為1)。",
+    "firstNightReminder": "展示惡魔到最近的僕從的距離數(相鄰時為1)。",
     "id": "zh_TW_clockmaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/clockmaker.png?raw=true",
     "name": "鐘匠",
@@ -17,18 +17,18 @@
     "ability": "每天晚上，你得知你活著的鄰居中有幾位是邪惡的(0/1/2)。",
     "edition": "tb",
     "firstNight": 36,
-    "firstNightReminder": "展示讀心者的邪惡鄰居數量。",
+    "firstNightReminder": "展示靈媒的邪惡鄰居數量。",
     "id": "zh_TW_empath",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
-    "name": "讀心者",
+    "name": "靈媒",
     "otherNight": 53,
-    "otherNightReminder": "展示讀心者的邪惡鄰居數量。",
+    "otherNightReminder": "展示靈媒的邪惡鄰居數量。",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "每天晚上，選擇其他一位玩家(非旅行者)：你得知該玩家是一個好人角色或一個邪惡角色，其中一個正確。",
+    "ability": "每天晚上，選擇其他一位玩家(非旅行者)，你得知該玩家是一個好人角色或一個邪惡角色，其中一個正確。",
     "edition": "snv",
     "firstNight": 41,
     "firstNightReminder": "夢想家指向一位玩家，將一個好人的角色代幣和一個邪惡的角色代幣展示給他，其中一個是正確的。",
@@ -42,7 +42,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "每場遊戲一次，白天時，公開選擇一位玩家：如果該玩家是惡魔，他會死亡。",
+    "ability": "每場遊戲一次，白天時，公開選擇一位玩家，如果該玩家是惡魔，他會死亡。",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -58,7 +58,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "每場遊戲一次，晚上時，選擇一位角色：該角色的玩家醉酒持續三天三夜。",
+    "ability": "每場遊戲一次，晚上時，選擇一位角色，該角色的玩家醉酒持續三天三夜。",
     "edition": "bmr",
     "firstNight": 19,
     "firstNightReminder": "朝臣可以選擇角色表上的一個角色，如果朝臣使用了能力且該角色在遊戲中，以 「醉酒N」標記該角色的玩家。",
@@ -94,12 +94,12 @@
     "ability": "你認為自己是惡魔，但你不是，惡魔知道你是誰以及你每天晚上選了誰。",
     "edition": "bmr",
     "firstNight": 7,
-    "firstNightReminder": "如果有7位或更多玩家：將若干個僕從展示給瘋子，其數量等同於遊戲中僕從們的數量(這些玩家不一定要是真的僕從)，將三個任意的好人角色代幣展示給瘋子，如果瘋子的惡魔角色會在第一晚行動：讓他進行惡魔的動作，以「攻擊」標記他的目標。喚醒惡魔並告知他真正的角色以及瘋子是誰，如果瘋子有攻擊玩家，指向每個被標記的目標，移除所有「攻擊」標記。",
+    "firstNightReminder": "如果有7位或更多玩家，將若干個僕從展示給瘋子，其數量等同於遊戲中僕從們的數量(這些玩家不一定要是真的僕從)，將三個任意的好人角色代幣展示給瘋子，如果瘋子的惡魔角色會在第一晚行動，讓他進行惡魔的動作，以「攻擊」標記他的目標。喚醒惡魔並告知他真正的角色以及瘋子是誰，如果瘋子有攻擊玩家，指向每個被標記的目標，移除所有「攻擊」標記。",
     "id": "zh_TW_lunatic",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
     "name": "瘋子",
     "otherNight": 21,
-    "otherNightReminder": "讓瘋子進行惡魔的動作，以「攻擊」標記他的目標，如果瘋子有攻擊玩家：喚醒惡魔並指向每個被標記的目標，移除所有「攻擊」標記。",
+    "otherNightReminder": "讓瘋子進行惡魔的動作，以「攻擊」標記他的目標，如果瘋子有攻擊玩家，喚醒惡魔並指向每個被標記的目標，移除所有「攻擊」標記。",
     "reminders": [
       "攻擊1",
       "攻擊2",
@@ -109,7 +109,7 @@
     "team": "outsider"
   },
   {
-    "ability": "當你得知你死亡時，公開選擇一位活著的玩家：如果該玩家是邪惡的，你的隊伍落敗。",
+    "ability": "當你得知你死亡時，公開選擇一位活著的玩家，如果該玩家是邪惡的，你的隊伍落敗。",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -131,7 +131,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scarletwoman.png?raw=true",
     "name": "淫魔",
     "otherNight": 20,
-    "otherNightReminder": "如果淫魔今天成為了惡魔：將「你是」提示卡 + 惡魔的角色代幣展示給他。",
+    "otherNightReminder": "如果淫魔今天成為了惡魔，將「你是」提示卡 + 惡魔的角色代幣展示給他。",
     "reminders": [
       "是惡魔"
     ],
@@ -153,15 +153,15 @@
     "team": "minion"
   },
   {
-    "ability": "每天晚上*，選擇一位玩家：該玩家死亡。鎮民們的能力會得到錯誤的訊息。每天白天，如果沒有人被處死，則邪惡陣營獲勝。",
+    "ability": "每天晚上*，選擇一位玩家，該玩家死亡。鎮民們的能力會得到錯誤的訊息。每天白天，如果沒有人被處死，則邪惡陣營獲勝。",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "zh_TW_vortox",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vortox.png?raw=true",
-    "name": "沃托克斯",
+    "name": "迷魂",
     "otherNight": 31,
-    "otherNightReminder": "沃托克斯指向一位玩家，該玩家死亡。",
+    "otherNightReminder": "迷魂指向一位玩家，該玩家死亡。",
     "reminders": [
       "死亡"
     ],
@@ -176,7 +176,7 @@
     "team": "fabled"
   },
   {
-    "ability": "如果有四個或更多玩家活著，每個活著的玩家都可以公開選擇(每場遊戲一次)一位與自己同隊伍的玩家：該玩家死亡。",
+    "ability": "如果有四個或更多玩家活著，每個活著的玩家都可以公開選擇(每場遊戲一次)一位與自己同隊伍的玩家，該玩家死亡。",
     "id": "zh_TW_doomsayer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/doomsayer.png?raw=true",
     "name": "末日審判者",

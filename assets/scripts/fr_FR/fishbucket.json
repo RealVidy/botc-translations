@@ -99,7 +99,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Chaque nuit*, vous gagnez la capacité du dernier rôle exécuté. Si l'exécuté était maléfique, vous gagnez une capacité au choix du Conteur et vous êtes empoisonné jusqu'à ce qu'un nouveau rôle « bon » soit exécuté.",
+    "ability": "Chaue nuit*, vous gagnez la capacité du dernier rôle exécuté et mort. S'il était maléfique, vous gagnez une capacité au choix du conteur et êtes empoisonné jusqu'à l'exécution d'un joueur bon",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -150,7 +150,7 @@
     "firstNightReminder": "",
     "id": "fr_FR_choirboy",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/choirboy.png?raw=true",
-    "name": "Troubadour",
+    "name": "Enfant de Chœur",
     "otherNight": 44,
     "otherNightReminder": "Réveiller le si le Roi a été assassiné par le Démon et lui pointer le Démon.",
     "reminders": [],
@@ -1022,7 +1022,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Vous ne pouvez nominer qu'une fois par partie. Lorsque vous le faites, si le nominé n'est pas le Démon, il meurt.",
+    "ability": "Vous ne pouvez nommer qu'une fois par partie. Lorsque vous le faites, si le nominé n'est pas le Démon, il meurt.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -1714,7 +1714,7 @@
     "team": "demon"
   },
   {
-    "ability": "Les nominés meurent, mais peuvent nominer immédiatement (le 3eme jour, ils y sont obligé). Après le 3eme jour, le Mal l'emporte. [Tous les Sbires sont Émeutier]",
+    "ability": "Les nominés meurent, mais peuvent nommer immédiatement (le 3eme jour, ils y sont obligé). Après le 3eme jour, le Mal l'emporte. [Tous les Sbires sont Émeutier]",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -1830,7 +1830,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Vous ne pouvez voter que si vous disposez d'un jeton de vote. Pendant la journée, un joueur mort peut vous donner son jeton. Si cela se produit, vous apprenez son alignement.",
+    "ability": "Vous ne ne pouvez voter que si vous disposez d'un jeton de vote. Pendant la journée, un joueur mort peut vous donner son jeton. Si cela se produit, vous apprenez son alignement. Vous êtes sobre",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",

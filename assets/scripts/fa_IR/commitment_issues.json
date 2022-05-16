@@ -26,7 +26,7 @@
     "otherNight": 40,
     "otherNightReminder": "If the Barber died today: Wake the Demon. Show the 'This character selected you' card, then Barber token. The Demon either shows a 'no' head signal, or points to 2 players. If they chose players: Swap the character tokens. Wake each player. Show 'You are', then their new character token.",
     "reminders": [
-      "Haircuts tonight"
+      "وقت سلمونی"
     ],
     "setup": false,
     "team": "outsider"
@@ -75,7 +75,7 @@
     "otherNight": 16,
     "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
     "reminders": [
-      "Mad"
+      "دیوانه"
     ],
     "setup": false,
     "team": "minion"
@@ -134,7 +134,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Drunk"
+      "مست"
     ],
     "setup": true,
     "team": "outsider"
@@ -197,7 +197,7 @@
     "otherNight": 24,
     "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
     "reminders": [
-      "Dead"
+      "مرده"
     ],
     "setup": false,
     "team": "demon"
@@ -209,7 +209,7 @@
     "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",
     "id": "fa_IR_lilmonsta",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lilmonsta.png?raw=true",
-    "name": "Lil' Monsta",
+    "name": "هیولا کوچولو",
     "otherNight": 36,
     "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
     "reminders": [],
@@ -227,7 +227,7 @@
     "firstNightReminder": "Select one of the good players next to the Demon and place the Is the Marionette reminder token. Wake the Demon and show them the Marionette.",
     "id": "fa_IR_marionette",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/marionette.png?raw=true",
-    "name": "Marionette",
+    "name": "عروسک خیمه‌شب‌بازی",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -258,7 +258,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_oracle",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/oracle.png?raw=true",
-    "name": "Oracle",
+    "name": "پیامبر",
     "otherNight": 60,
     "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of dead evil players.",
     "reminders": [],
@@ -272,7 +272,7 @@
     "firstNightReminder": "The Poisoner points to a player. That player is poisoned.",
     "id": "fa_IR_poisoner",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
-    "name": "Poisoner",
+    "name": "مسموم‌کننده",
     "otherNight": 8,
     "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
     "reminders": [
@@ -350,7 +350,7 @@
     "otherNight": 12,
     "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
     "reminders": [
-      "Poisoned"
+      "مسموم"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -362,7 +362,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_towncrier",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/towncrier.png?raw=true",
-    "name": "Town Crier",
+    "name": "جارچی",
     "otherNight": 59,
     "otherNightReminder": "Nod 'yes' or shake head 'no' for whether a Minion nominated today. Place the 'Minion not nominated' marker (remove 'Minion nominated', if any).",
     "reminders": [

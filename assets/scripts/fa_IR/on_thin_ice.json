@@ -72,7 +72,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_slayer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
-    "name": "Slayer",
+    "name": "قاتل",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -118,7 +118,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_moonchild",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/moonchild.png?raw=true",
-    "name": "Moonchild",
+    "name": "ماه‌گرفته",
     "otherNight": 49,
     "otherNightReminder": "If the Moonchild used their ability to target a player today: If that player is good, they die.",
     "reminders": [
@@ -150,7 +150,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_mastermind",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mastermind.png?raw=true",
-    "name": "Mastermind",
+    "name": "مغز متفکر",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -178,7 +178,7 @@
     "ability": "There might be 1 extra or 1 fewer Outsider in-play.",
     "id": "fa_IR_sentinel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
-    "name": "Sentinel",
+    "name": "کشیک",
     "team": "fabled"
   }
 ]

@@ -85,7 +85,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Drunk"
+      "مست"
     ],
     "setup": true,
     "team": "outsider"
@@ -145,7 +145,7 @@
     "otherNight": 24,
     "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
     "reminders": [
-      "Dead"
+      "مرده"
     ],
     "setup": false,
     "team": "demon"
@@ -174,7 +174,7 @@
     "firstNightReminder": "Show the character token of an Outsider in play. Point to two players, one of which is that character.",
     "id": "fa_IR_librarian",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/librarian.png?raw=true",
-    "name": "Librarian",
+    "name": "کتاب‌خانه‌دار",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -221,7 +221,7 @@
     "firstNightReminder": "The Poisoner points to a player. That player is poisoned.",
     "id": "fa_IR_poisoner",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
-    "name": "Poisoner",
+    "name": "مسموم‌کننده",
     "otherNight": 8,
     "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
     "reminders": [
@@ -265,7 +265,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_saint",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/saint.png?raw=true",
-    "name": "Saint",
+    "name": "قدیس",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -279,7 +279,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_scapegoat",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scapegoat.png?raw=true",
-    "name": "Scapegoat",
+    "name": "قربانی",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -293,7 +293,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_scarletwoman",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scarletwoman.png?raw=true",
-    "name": "Scarlet Woman",
+    "name": "فاحشه",
     "otherNight": 20,
     "otherNightReminder": "If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",
     "reminders": [
@@ -309,7 +309,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_slayer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
-    "name": "Slayer",
+    "name": "قاتل",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [

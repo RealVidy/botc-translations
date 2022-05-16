@@ -14,7 +14,7 @@
     "team": "minion"
   },
   {
-    "ability": "Vous ne pouvez voter que si vous disposez d'un jeton de vote. Pendant la journée, un joueur mort peut vous donner son jeton. Si cela se produit, vous apprenez son alignement.",
+    "ability": "Vous ne ne pouvez voter que si vous disposez d'un jeton de vote. Pendant la journée, un joueur mort peut vous donner son jeton. Si cela se produit, vous apprenez son alignement. Vous êtes sobre",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",

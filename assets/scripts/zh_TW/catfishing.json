@@ -1,14 +1,14 @@
 [
   {
-    "ability": "你不知道你擁有的能力。每天白天，私下猜測你的能力：你得知你的猜測有多準確。",
+    "ability": "你不知道你擁有的能力。每天白天，私下猜測你的能力，你得知你的猜測有多準確。",
     "edition": "",
     "firstNight": 12,
-    "firstNightReminder": "決定失憶患者的真實能力，如果此能力使他在今晚醒來：喚醒失憶症玩家並且進行他的能力。",
+    "firstNightReminder": "決定失憶患者的真實能力，如果此能力使他在今晚醒來，喚醒失憶症玩家並且進行他的能力。",
     "id": "zh_TW_amnesiac",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/amnesiac.png?raw=true",
     "name": "失憶患者",
     "otherNight": 5,
-    "otherNightReminder": "如果失憶患者的能力使他在今晚醒來：喚醒他並且進行他的能力。",
+    "otherNightReminder": "如果失憶患者的能力使他在今晚醒來，喚醒他並且進行他的能力。",
     "reminders": [
       "?"
     ],
@@ -32,7 +32,7 @@
     "team": "traveler"
   },
   {
-    "ability": "每場遊戲一次，晚上時*，選擇一位玩家：該玩家死亡，儘管有某些原因導致他們不能死。",
+    "ability": "每場遊戲一次，晚上時*，選擇一位玩家，該玩家死亡，儘管有某些原因導致他們不能死。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -100,7 +100,7 @@
     "team": "traveler"
   },
   {
-    "ability": "每場遊戲一次，晚上時，選擇一位死亡的玩家：該玩家恢復自己的能力直到隔天黃昏。",
+    "ability": "每場遊戲一次，晚上時，選擇一位死亡的玩家，該玩家恢復自己的能力直到隔天黃昏。",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -108,7 +108,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bonecollector.png?raw=true",
     "name": "集骨家",
     "otherNight": 1,
-    "otherNightReminder": "集骨家可以指向任意死亡的玩家，如果他有選擇：以「具有能力」標記該玩家。(該玩家今晚可能需要被喚醒以使用能力)",
+    "otherNightReminder": "集骨家可以指向任意死亡的玩家，如果他有選擇，以「具有能力」標記該玩家。(該玩家今晚可能需要被喚醒以使用能力)",
     "reminders": [
       "具有能力",
       "無能力"
@@ -148,7 +148,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "每天晚上，選擇其他一位玩家(非旅行者)：你得知該玩家是一個好人角色或一個邪惡角色，其中一個正確。",
+    "ability": "每天晚上，選擇其他一位玩家(非旅行者)，你得知該玩家是一個好人角色或一個邪惡角色，其中一個正確。",
     "edition": "snv",
     "firstNight": 41,
     "firstNightReminder": "夢想家指向一位玩家，將一個好人的角色代幣和一個邪惡的角色代幣展示給他，其中一個是正確的。",
@@ -179,15 +179,15 @@
     "team": "outsider"
   },
   {
-    "ability": "每天晚上*，選擇一位玩家：該玩家死亡。你選擇的第一位城外人變成邪惡的鈁骨，並改為你死亡。[+1 城外人]",
+    "ability": "每天晚上*，選擇一位玩家，該玩家死亡。你選擇的第一位城外人變成邪惡的惡鬼，並改為你死亡。[+1 城外人]",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "zh_TW_fanggu",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fanggu.png?raw=true",
-    "name": "鈁骨",
+    "name": "惡鬼",
     "otherNight": 29,
-    "otherNightReminder": "鈁骨指向一位玩家，該玩家死亡，或者如果該玩家是城外人且遊戲中沒有其他的鈁骨，則改為鈁骨死亡，被選擇的玩家變成邪惡的鈁骨，喚醒新的鈁骨並展示「你是」提示卡 + 鈁骨角色代幣，再展示「你是」提示卡 + 倒讚表示邪惡。",
+    "otherNightReminder": "惡鬼指向一位玩家，該玩家死亡，或者如果該玩家是城外人且遊戲中沒有其他的惡鬼，則改為惡鬼死亡，被選擇的玩家變成邪惡的惡鬼，喚醒新的惡鬼並展示「你是」提示卡 + 惡鬼角色代幣，再展示「你是」提示卡 + 倒讚表示邪惡。",
     "reminders": [
       "死亡",
       "第一位城外人"
@@ -196,7 +196,7 @@
     "team": "demon"
   },
   {
-    "ability": "每天晚上，選擇兩位玩家：你得知他們其中是否有惡魔。場上有一位好人的身分會被你視為惡魔。",
+    "ability": "每天晚上，選擇兩位玩家，你得知他們其中是否有惡魔。場上有一位好人的身分會被你視為惡魔。",
     "edition": "tb",
     "firstNight": 37,
     "firstNightReminder": "算命師選擇兩位玩家，以點頭或搖頭來告知他們之中是否有惡魔。",
@@ -220,7 +220,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gambler.png?raw=true",
     "name": "賭徒",
     "otherNight": 11,
-    "otherNightReminder": "賭徒指向一位玩家 + 角色表上的一個角色，如果它們不符合：賭徒死亡。",
+    "otherNightReminder": "賭徒指向一位玩家 + 角色表上的一個角色，如果它們不符合，賭徒死亡。",
     "reminders": [
       "死亡"
     ],
@@ -228,7 +228,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "你開始遊戲時得知那些城外人在遊戲中。如果今天有城外人死亡，在今晚選擇一位玩家：該玩家死亡。[−1 或 +1 城外人]",
+    "ability": "你開始遊戲時得知那些城外人在遊戲中。如果今天有城外人死亡，在今晚選擇一位玩家，該玩家死亡。[−1 或 +1 城外人]",
     "edition": "bmr",
     "firstNight": 21,
     "firstNightReminder": "展示每個在遊戲中的城外人角色代幣。",
@@ -236,7 +236,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/godfather.png?raw=true",
     "name": "教父",
     "otherNight": 38,
-    "otherNightReminder": "如果今天有城外人死亡：教父指向一位玩家，該玩家死亡。",
+    "otherNightReminder": "如果今天有城外人死亡，教父指向一位玩家，該玩家死亡。",
     "reminders": [
       "城外人死亡",
       "死亡"
@@ -253,7 +253,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/grandmother.png?raw=true",
     "name": "祖母",
     "otherNight": 50,
-    "otherNightReminder": "如果祖母的孫子被惡魔殺死：祖母死亡。",
+    "otherNightReminder": "如果祖母的孫子被惡魔殺死，祖母死亡。",
     "reminders": [
       "孫子"
     ],
@@ -261,7 +261,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "每天晚上*，選擇一位活著的玩家：如果該玩家同意，你得知他的角色，但是你們兩個有可能會死亡。",
+    "ability": "每天晚上*，選擇一位活著的玩家，如果該玩家同意，你得知他的角色，但是你們兩個有可能會死亡。",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -269,7 +269,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/harlot.png?raw=true",
     "name": "性愛工作者",
     "otherNight": 1,
-    "otherNightReminder": "性愛工作者指向一位玩家，喚醒該玩家並展示「這個能力選擇你」提示卡 + 性愛工作者的角色代幣，讓他以點頭或搖頭來表達意願，如果該玩家點頭：喚醒性愛工作者並展示該玩家的角色代幣，然後，你可以讓兩位玩家都死亡。",
+    "otherNightReminder": "性愛工作者指向一位玩家，喚醒該玩家並展示「這個能力選擇你」提示卡 + 性愛工作者的角色代幣，讓他以點頭或搖頭來表達意願，如果該玩家點頭，喚醒性愛工作者並展示該玩家的角色代幣，然後，你可以讓兩位玩家都死亡。",
     "reminders": [
       "死亡"
     ],
@@ -277,7 +277,7 @@
     "team": "traveler"
   },
   {
-    "ability": "每天晚上*，選擇一位玩家：該玩家死亡。如果你以此法殺死自己，一位僕從變成小惡魔。",
+    "ability": "每天晚上*，選擇一位玩家，該玩家死亡。如果你以此法殺死自己，一位僕從變成小惡魔。",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -313,12 +313,12 @@
     "ability": "你認為自己是惡魔，但你不是，惡魔知道你是誰以及你每天晚上選了誰。",
     "edition": "bmr",
     "firstNight": 7,
-    "firstNightReminder": "如果有7位或更多玩家：將若干個僕從展示給瘋子，其數量等同於遊戲中僕從們的數量(這些玩家不一定要是真的僕從)，將三個任意的好人角色代幣展示給瘋子，如果瘋子的惡魔角色會在第一晚行動：讓他進行惡魔的動作，以「攻擊」標記他的目標。喚醒惡魔並告知他真正的角色以及瘋子是誰，如果瘋子有攻擊玩家，指向每個被標記的目標，移除所有「攻擊」標記。",
+    "firstNightReminder": "如果有7位或更多玩家，將若干個僕從展示給瘋子，其數量等同於遊戲中僕從們的數量(這些玩家不一定要是真的僕從)，將三個任意的好人角色代幣展示給瘋子，如果瘋子的惡魔角色會在第一晚行動，讓他進行惡魔的動作，以「攻擊」標記他的目標。喚醒惡魔並告知他真正的角色以及瘋子是誰，如果瘋子有攻擊玩家，指向每個被標記的目標，移除所有「攻擊」標記。",
     "id": "zh_TW_lunatic",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
     "name": "瘋子",
     "otherNight": 21,
-    "otherNightReminder": "讓瘋子進行惡魔的動作，以「攻擊」標記他的目標，如果瘋子有攻擊玩家：喚醒惡魔並指向每個被標記的目標，移除所有「攻擊」標記。",
+    "otherNightReminder": "讓瘋子進行惡魔的動作，以「攻擊」標記他的目標，如果瘋子有攻擊玩家，喚醒惡魔並指向每個被標記的目標，移除所有「攻擊」標記。",
     "reminders": [
       "攻擊1",
       "攻擊2",
@@ -334,7 +334,7 @@
     "firstNightReminder": "",
     "id": "zh_TW_mutant",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mutant.png?raw=true",
-    "name": "突變體",
+    "name": "變種人",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -342,15 +342,15 @@
     "team": "outsider"
   },
   {
-    "ability": "每場遊戲一次，晚上時，選擇一個好人角色：你獲得該角色能力，如果該角色在遊戲中，他會醉酒。",
+    "ability": "每場遊戲一次，晚上時，選擇一個好人角色，你獲得該角色能力，如果該角色在遊戲中，他會醉酒。",
     "edition": "snv",
     "firstNight": 2,
-    "firstNightReminder": "哲學家可以選擇角色表上的一個好人角色，如果他有選擇：如果該角色不在遊戲中，將哲學家的角色代幣置換成該角色；如果該角色在遊戲中，該角色的玩家醉酒，哲學家得到該角色能力，以「不是哲學家」標記哲學家。",
+    "firstNightReminder": "哲學家可以選擇角色表上的一個好人角色，如果他有選擇，如果該角色不在遊戲中，將哲學家的角色代幣置換成該角色；如果該角色在遊戲中，該角色的玩家醉酒，哲學家得到該角色能力，以「不是哲學家」標記哲學家。",
     "id": "zh_TW_philosopher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/philosopher.png?raw=true",
     "name": "哲學家",
     "otherNight": 2,
-    "otherNightReminder": "哲學家可以選擇角色表上的一個好人角色，如果他有選擇：如果該角色不在遊戲中，將哲學家的角色代幣置換成該角色；如果該角色在遊戲中，該角色的玩家醉酒，哲學家得到該角色能力，以「不是哲學家」標記哲學家。",
+    "otherNightReminder": "哲學家可以選擇角色表上的一個好人角色，如果他有選擇，如果該角色不在遊戲中，將哲學家的角色代幣置換成該角色；如果該角色在遊戲中，該角色的玩家醉酒，哲學家得到該角色能力，以「不是哲學家」標記哲學家。",
     "reminders": [
       "不是哲學家",
       "醉酒"
@@ -359,7 +359,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "每天晚上*，選擇一位玩家以及一個角色：如果該角色不在遊戲中，該玩家變成該角色，如果產生一個新惡魔，則今晚的死亡是隨機。",
+    "ability": "每天晚上*，選擇一位玩家以及一個角色，如果該角色不在遊戲中，該玩家變成該角色，如果產生一個新惡魔，則今晚的死亡是隨機。",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -367,13 +367,13 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pithag.png?raw=true",
     "name": "魔女",
     "otherNight": 17,
-    "otherNightReminder": "魔女指向一位玩家 + 角色表上的一位角色，如果選擇的角色不在遊戲中：喚醒該玩家並展示「你是」提示卡 + 魔女選擇的角色代幣。",
+    "otherNightReminder": "魔女指向一位玩家 + 角色表上的一位角色，如果選擇的角色不在遊戲中，喚醒該玩家並展示「你是」提示卡 + 魔女選擇的角色代幣。",
     "reminders": [],
     "setup": false,
     "team": "minion"
   },
   {
-    "ability": "如果你在晚上死亡，你醒來並選擇一位玩家：你得知他的角色。",
+    "ability": "如果你在晚上死亡，你醒來並選擇一位玩家，你得知他的角色。",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -381,13 +381,13 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true",
     "name": "養鴉人",
     "otherNight": 42,
-    "otherNightReminder": "如果養鴉人在今晚死亡：養鴉人指向一位玩家，展示該玩家的角色代幣。",
+    "otherNightReminder": "如果養鴉人在今晚死亡，養鴉人指向一位玩家，展示該玩家的角色代幣。",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "你的身分可能會被視為邪惡的奴才或惡魔(即使你死亡)。",
+    "ability": "你的身分可能會被視為邪惡的僕從或惡魔(即使你死亡)。",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -415,15 +415,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "每天晚上，選擇一位活著的玩家：如果該玩家是惡魔，你與他交換隊伍與角色，然後他中毒。",
+    "ability": "每天晚上，選擇一位活著的玩家，如果該玩家是惡魔，你與他交換隊伍與角色，然後他中毒。",
     "edition": "snv",
     "firstNight": 20,
-    "firstNightReminder": "弄蛇人指向一位玩家，如果該玩家是惡魔：交換他們的角色及隊伍，分別喚醒他們並展示「你是」提示卡 + 他們的新角色代幣，新的弄蛇人中毒。",
+    "firstNightReminder": "弄蛇人指向一位玩家，如果該玩家是惡魔，交換他們的角色及隊伍，分別喚醒他們並展示「你是」提示卡 + 他們的新角色代幣，新的弄蛇人中毒。",
     "id": "zh_TW_snakecharmer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/snakecharmer.png?raw=true",
     "name": "弄蛇人",
     "otherNight": 12,
-    "otherNightReminder": "弄蛇人指向一位玩家，如果該玩家是惡魔：交換他們的角色及隊伍，分別喚醒他們並展示「你是」提示卡 + 他們的新角色代幣，新的弄蛇人中毒。",
+    "otherNightReminder": "弄蛇人指向一位玩家，如果該玩家是惡魔，交換他們的角色及隊伍，分別喚醒他們並展示「你是」提示卡 + 他們的新角色代幣，新的弄蛇人中毒。",
     "reminders": [
       "中毒"
     ],
@@ -447,7 +447,7 @@
     "team": "outsider"
   },
   {
-    "ability": "每天晚上*，選擇一位玩家：該玩家死亡。你殺死的僕從們會保留他們的能力，並且使一位鎮民鄰居中毒。[−1 城外人]",
+    "ability": "每天晚上*，選擇一位玩家，該玩家死亡。你殺死的僕從們會保留他們的能力，並且使一位鎮民鄰居中毒。[−1 城外人]",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -465,7 +465,7 @@
     "team": "demon"
   },
   {
-    "ability": "在你的第一晚，查看魔典並且選擇一位玩家：該玩家中毒。一位好人玩家知道寡婦在遊戲中。",
+    "ability": "在你的第一晚，查看魔典並且選擇一位玩家，該玩家中毒。一位好人玩家知道寡婦在遊戲中。",
     "edition": "",
     "firstNight": 18,
     "firstNightReminder": "將魔典展示給寡婦，寡婦選擇一位玩家，以「中毒」標記該玩家。喚醒一位好人玩家並展示「這些角色在遊戲中」提示卡 + 寡婦的角色代幣，以「得知寡婦」標記該玩家。",

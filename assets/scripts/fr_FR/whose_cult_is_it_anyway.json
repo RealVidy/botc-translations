@@ -179,7 +179,7 @@
     "firstNightReminder": "",
     "id": "fr_FR_choirboy",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/choirboy.png?raw=true",
-    "name": "Troubadour",
+    "name": "Enfant de Chœur",
     "otherNight": 44,
     "otherNightReminder": "Réveiller le si le Roi a été assassiné par le Démon et lui pointer le Démon.",
     "reminders": [],
@@ -187,7 +187,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Chaque nuit*, vous gagnez la capacité du dernier rôle exécuté. Si l'exécuté était maléfique, vous gagnez une capacité au choix du Conteur et vous êtes empoisonné jusqu'à ce qu'un nouveau rôle « bon » soit exécuté.",
+    "ability": "Chaue nuit*, vous gagnez la capacité du dernier rôle exécuté et mort. S'il était maléfique, vous gagnez une capacité au choix du conteur et êtes empoisonné jusqu'à l'exécution d'un joueur bon",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",

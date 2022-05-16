@@ -103,7 +103,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_oracle",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/oracle.png?raw=true",
-    "name": "Oracle",
+    "name": "پیامبر",
     "otherNight": 60,
     "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of dead evil players.",
     "reminders": [],
@@ -117,7 +117,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_lycanthrope",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lycanthrope.png?raw=true",
-    "name": "Lycanthrope",
+    "name": "گرگینه",
     "otherNight": 23,
     "otherNightReminder": "The Lycanthrope points to a living player: if good, they die and no one else can die tonight.",
     "reminders": [
@@ -242,7 +242,7 @@
     "otherNight": 52,
     "otherNightReminder": "If selected by the Huntsman, wake the Damsel, show 'You are' card and a not-in-play Townsfolk token.",
     "reminders": [
-      "Guess used"
+      "حدس زده"
     ],
     "setup": false,
     "team": "outsider"
@@ -307,7 +307,7 @@
     "otherNight": 16,
     "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
     "reminders": [
-      "Mad"
+      "دیوانه"
     ],
     "setup": false,
     "team": "minion"
@@ -323,7 +323,7 @@
     "otherNight": 18,
     "otherNightReminder": "The Fearmonger points to a player. If different from the previous night, place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",
     "reminders": [
-      "Fear"
+      "ترسان"
     ],
     "setup": false,
     "team": "minion"
@@ -335,7 +335,7 @@
     "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",
     "id": "fa_IR_lilmonsta",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lilmonsta.png?raw=true",
-    "name": "Lil' Monsta",
+    "name": "هیولا کوچولو",
     "otherNight": 36,
     "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
     "reminders": [],

@@ -32,7 +32,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Once per game, at night*, choose a player: they die, even if for some reason they could not.",
+    "ability": "یک بار در بازی، در شب*، یک بازیکن را انتخاب کن. آن بازیکن می‌میرد حتی اگر به دلیلی نتواند بمیرد.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -106,7 +106,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_bonecollector",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bonecollector.png?raw=true",
-    "name": "Bone Collector",
+    "name": "استخون جمع‌کن",
     "otherNight": 1,
     "otherNightReminder": "The Bone Collector either shakes their head no or points at any dead player. If they pointed at any dead player, put the Bone Collector's 'Has Ability' reminder by the chosen player's character token. (They may need to be woken tonight to use it.)",
     "reminders": [
@@ -173,7 +173,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Drunk"
+      "مست"
     ],
     "setup": true,
     "team": "outsider"
@@ -222,7 +222,7 @@
     "otherNight": 11,
     "otherNightReminder": "The Gambler points to a player, and a character on their sheet. If incorrect, the Gambler dies.",
     "reminders": [
-      "Dead"
+      "مرده"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -287,7 +287,7 @@
     "otherNight": 24,
     "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
     "reminders": [
-      "Dead"
+      "مرده"
     ],
     "setup": false,
     "team": "demon"
@@ -316,7 +316,7 @@
     "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
     "id": "fa_IR_lunatic",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
-    "name": "Lunatic",
+    "name": "مجنون",
     "otherNight": 21,
     "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
     "reminders": [
@@ -425,7 +425,7 @@
     "otherNight": 12,
     "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
     "reminders": [
-      "Poisoned"
+      "مسموم"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -455,11 +455,11 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vigormortis.png?raw=true",
     "name": "Vigormortis",
     "otherNight": 32,
-    "otherNightReminder": "The Vigormortis points to a player. That player dies. If a Minion, they keep their ability and one of their Townsfolk neighbours is poisoned.",
+    "otherNightReminder": "حتی اگر زنده نباشید، تیم برنده، بازنده، و تیم بازنده، برنده می‌شود.",
     "reminders": [
-      "Dead",
-      "Has ability",
-      "Poisoned"
+      "باقابلیت",
+      "مرده",
+      "مسموم"
     ],
     "setup": true,
     "team": "demon"

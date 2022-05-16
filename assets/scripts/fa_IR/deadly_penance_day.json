@@ -86,7 +86,7 @@
     "otherNight": 11,
     "otherNightReminder": "The Gambler points to a player, and a character on their sheet. If incorrect, the Gambler dies.",
     "reminders": [
-      "Dead"
+      "مرده"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -192,7 +192,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_towncrier",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/towncrier.png?raw=true",
-    "name": "Town Crier",
+    "name": "جارچی",
     "otherNight": 59,
     "otherNightReminder": "Nod 'yes' or shake head 'no' for whether a Minion nominated today. Place the 'Minion not nominated' marker (remove 'Minion nominated', if any).",
     "reminders": [
@@ -227,7 +227,7 @@
     "otherNight": 40,
     "otherNightReminder": "If the Barber died today: Wake the Demon. Show the 'This character selected you' card, then Barber token. The Demon either shows a 'no' head signal, or points to 2 players. If they chose players: Swap the character tokens. Wake each player. Show 'You are', then their new character token.",
     "reminders": [
-      "Haircuts tonight"
+      "وقت سلمونی"
     ],
     "setup": false,
     "team": "outsider"
@@ -244,7 +244,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Drunk"
+      "مست"
     ],
     "setup": true,
     "team": "outsider"
@@ -256,7 +256,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_saint",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/saint.png?raw=true",
-    "name": "Saint",
+    "name": "قدیس",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -264,7 +264,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Once per game, at night*, choose a player: they die, even if for some reason they could not.",
+    "ability": "یک بار در بازی، در شب*، یک بازیکن را انتخاب کن. آن بازیکن می‌میرد حتی اگر به دلیلی نتواند بمیرد.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -331,7 +331,7 @@
     "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",
     "id": "fa_IR_lilmonsta",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lilmonsta.png?raw=true",
-    "name": "Lil' Monsta",
+    "name": "هیولا کوچولو",
     "otherNight": 36,
     "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
     "reminders": [],

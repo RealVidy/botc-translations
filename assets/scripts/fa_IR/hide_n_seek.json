@@ -46,7 +46,7 @@
     "otherNight": 12,
     "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
     "reminders": [
-      "Poisoned"
+      "مسموم"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -72,7 +72,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_flowergirl",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/flowergirl.png?raw=true",
-    "name": "Flowergirl",
+    "name": "گل‌فروش",
     "otherNight": 58,
     "otherNightReminder": "Nod 'yes' or shake head 'no' for whether the Demon voted today. Place the 'Demon not voted' marker (remove 'Demon voted', if any).",
     "reminders": [
@@ -119,11 +119,11 @@
     "firstNightReminder": "",
     "id": "fa_IR_juggler",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/juggler.png?raw=true",
-    "name": "Juggler",
+    "name": "تردست",
     "otherNight": 62,
     "otherNightReminder": "If today was the Juggler’s first day: Show the hand signal for the number (0, 1, 2, etc.) of 'Correct' markers. Remove markers.",
     "reminders": [
-      "Correct"
+      "صحیح"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -135,7 +135,7 @@
     "firstNightReminder": "The Nightwatchman may point to a player. Wake that player, show the 'This character selected you' card and the Nightwatchman token, then point to the Nightwatchman player.",
     "id": "fa_IR_nightwatchman",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/nightwatchman.png?raw=true",
-    "name": "Nightwatchman",
+    "name": "نگهبان شب",
     "otherNight": 66,
     "otherNightReminder": "The Nightwatchman may point to a player. Wake that player, show the 'This character selected you' card and the Nightwatchman token, then point to the Nightwatchman player.",
     "reminders": [
@@ -167,7 +167,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_slayer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
-    "name": "Slayer",
+    "name": "قاتل",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -213,7 +213,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_saint",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/saint.png?raw=true",
-    "name": "Saint",
+    "name": "قدیس",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -246,7 +246,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Drunk"
+      "مست"
     ],
     "setup": true,
     "team": "outsider"
@@ -272,7 +272,7 @@
     "firstNightReminder": "The Poisoner points to a player. That player is poisoned.",
     "id": "fa_IR_poisoner",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
-    "name": "Poisoner",
+    "name": "مسموم‌کننده",
     "otherNight": 8,
     "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
     "reminders": [
@@ -292,7 +292,7 @@
     "otherNight": 18,
     "otherNightReminder": "The Fearmonger points to a player. If different from the previous night, place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",
     "reminders": [
-      "Fear"
+      "ترسان"
     ],
     "setup": false,
     "team": "minion"
@@ -369,7 +369,7 @@
     "otherNight": 24,
     "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
     "reminders": [
-      "Dead"
+      "مرده"
     ],
     "setup": false,
     "team": "demon"

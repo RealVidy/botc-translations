@@ -26,7 +26,7 @@
     "otherNight": 40,
     "otherNightReminder": "If the Barber died today: Wake the Demon. Show the 'This character selected you' card, then Barber token. The Demon either shows a 'no' head signal, or points to 2 players. If they chose players: Swap the character tokens. Wake each player. Show 'You are', then their new character token.",
     "reminders": [
-      "Haircuts tonight"
+      "وقت سلمونی"
     ],
     "setup": false,
     "team": "outsider"
@@ -55,7 +55,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_bonecollector",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bonecollector.png?raw=true",
-    "name": "Bone Collector",
+    "name": "استخون جمع‌کن",
     "otherNight": 1,
     "otherNightReminder": "The Bone Collector either shakes their head no or points at any dead player. If they pointed at any dead player, put the Bone Collector's 'Has Ability' reminder by the chosen player's character token. (They may need to be woken tonight to use it.)",
     "reminders": [
@@ -90,7 +90,7 @@
     "otherNight": 16,
     "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
     "reminders": [
-      "Mad"
+      "دیوانه"
     ],
     "setup": false,
     "team": "minion"
@@ -177,7 +177,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_flowergirl",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/flowergirl.png?raw=true",
-    "name": "Flowergirl",
+    "name": "گل‌فروش",
     "otherNight": 58,
     "otherNightReminder": "Nod 'yes' or shake head 'no' for whether the Demon voted today. Place the 'Demon not voted' marker (remove 'Demon voted', if any).",
     "reminders": [
@@ -210,11 +210,11 @@
     "firstNightReminder": "",
     "id": "fa_IR_juggler",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/juggler.png?raw=true",
-    "name": "Juggler",
+    "name": "تردست",
     "otherNight": 62,
     "otherNightReminder": "If today was the Juggler’s first day: Show the hand signal for the number (0, 1, 2, etc.) of 'Correct' markers. Remove markers.",
     "reminders": [
-      "Correct"
+      "صحیح"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -287,7 +287,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_oracle",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/oracle.png?raw=true",
-    "name": "Oracle",
+    "name": "پیامبر",
     "otherNight": 60,
     "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of dead evil players.",
     "reminders": [],
@@ -380,7 +380,7 @@
     "otherNight": 12,
     "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
     "reminders": [
-      "Poisoned"
+      "مسموم"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -408,7 +408,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_towncrier",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/towncrier.png?raw=true",
-    "name": "Town Crier",
+    "name": "جارچی",
     "otherNight": 59,
     "otherNightReminder": "Nod 'yes' or shake head 'no' for whether a Minion nominated today. Place the 'Minion not nominated' marker (remove 'Minion nominated', if any).",
     "reminders": [
@@ -427,11 +427,11 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vigormortis.png?raw=true",
     "name": "Vigormortis",
     "otherNight": 32,
-    "otherNightReminder": "The Vigormortis points to a player. That player dies. If a Minion, they keep their ability and one of their Townsfolk neighbours is poisoned.",
+    "otherNightReminder": "حتی اگر زنده نباشید، تیم برنده، بازنده، و تیم بازنده، برنده می‌شود.",
     "reminders": [
-      "Dead",
-      "Has ability",
-      "Poisoned"
+      "باقابلیت",
+      "مرده",
+      "مسموم"
     ],
     "setup": true,
     "team": "demon"

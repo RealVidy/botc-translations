@@ -24,7 +24,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/barber.png?raw=true",
     "name": "理髮師",
     "otherNight": 40,
-    "otherNightReminder": "如果理髮師在今天死亡：喚醒惡魔並展示「這個能力選擇你」提示卡 + 理髮師角色代幣，惡魔可以指向兩位玩家，如果惡魔有選擇：交換他們的角色代幣，分別喚醒他們並展示「你是」提示卡 + 他們的新角色代幣。",
+    "otherNightReminder": "如果理髮師在今天死亡，喚醒惡魔並展示「這個能力選擇你」提示卡 + 理髮師角色代幣，惡魔可以指向兩位玩家，如果惡魔有選擇，交換他們的角色代幣，分別喚醒他們並展示「你是」提示卡 + 他們的新角色代幣。",
     "reminders": [
       "今晚剪頭髮"
     ],
@@ -49,7 +49,7 @@
     "team": "traveler"
   },
   {
-    "ability": "每場遊戲一次，晚上時，選擇一位死亡的玩家：該玩家恢復自己的能力直到隔天黃昏。",
+    "ability": "每場遊戲一次，晚上時，選擇一位死亡的玩家，該玩家恢復自己的能力直到隔天黃昏。",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -57,7 +57,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bonecollector.png?raw=true",
     "name": "集骨家",
     "otherNight": 1,
-    "otherNightReminder": "集骨家可以指向任意死亡的玩家，如果他有選擇：以「具有能力」標記該玩家。(該玩家今晚可能需要被喚醒以使用能力)",
+    "otherNightReminder": "集骨家可以指向任意死亡的玩家，如果他有選擇，以「具有能力」標記該玩家。(該玩家今晚可能需要被喚醒以使用能力)",
     "reminders": [
       "具有能力",
       "無能力"
@@ -80,15 +80,15 @@
     "team": "traveler"
   },
   {
-    "ability": "每天晚上，選擇一位玩家及一個好人角色：明天該玩家扮演這個角色，如果他沒有執著地認為自己是該角色，他可能會被處決。",
+    "ability": "每天晚上，選擇一位玩家及一個好人角色，明天該玩家扮演這個角色，如果他沒有執著地認為自己是該角色，他可能會被處決。",
     "edition": "snv",
     "firstNight": 25,
-    "firstNightReminder": "且爾諾弗斯指向一位玩家 + 角色表上的一個角色，以「瘋狂」標記該玩家，喚醒該玩家並展示「這個能力選擇你」提示卡 + 且爾諾弗斯的角色代幣 + 且爾諾弗斯選擇的角色代幣。",
+    "firstNightReminder": "洗腦師指向一位玩家 + 角色表上的一個角色，以「瘋狂」標記該玩家，喚醒該玩家並展示「這個能力選擇你」提示卡 + 洗腦師的角色代幣 + 洗腦師選擇的角色代幣。",
     "id": "zh_TW_cerenovus",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cerenovus.png?raw=true",
-    "name": "且爾諾弗斯",
+    "name": "洗腦師",
     "otherNight": 16,
-    "otherNightReminder": "且爾諾弗斯指向一位玩家 + 角色表上的一個角色，以「瘋狂」標記該玩家，喚醒該玩家並展示「這個能力選擇你」提示卡 + 且爾諾弗斯的角色代幣 + 且爾諾弗斯選擇的角色代幣。",
+    "otherNightReminder": "洗腦師指向一位玩家 + 角色表上的一個角色，以「瘋狂」標記該玩家，喚醒該玩家並展示「這個能力選擇你」提示卡 + 洗腦師的角色代幣 + 洗腦師選擇的角色代幣。",
     "reminders": [
       "瘋狂"
     ],
@@ -96,10 +96,10 @@
     "team": "minion"
   },
   {
-    "ability": "你開始遊戲時得知惡魔到最近的奴才的距離(相鄰時為1)。",
+    "ability": "你開始遊戲時得知惡魔到最近的僕從的距離(相鄰時為1)。",
     "edition": "snv",
     "firstNight": 40,
-    "firstNightReminder": "展示惡魔到最近的奴才的距離數(相鄰時為1)。",
+    "firstNightReminder": "展示惡魔到最近的僕從的距離數(相鄰時為1)。",
     "id": "zh_TW_clockmaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/clockmaker.png?raw=true",
     "name": "鐘匠",
@@ -124,7 +124,7 @@
     "team": "traveler"
   },
   {
-    "ability": "每天晚上，選擇其他一位玩家(非旅行者)：你得知該玩家是一個好人角色或一個邪惡角色，其中一個正確。",
+    "ability": "每天晚上，選擇其他一位玩家(非旅行者)，你得知該玩家是一個好人角色或一個邪惡角色，其中一個正確。",
     "edition": "snv",
     "firstNight": 41,
     "firstNightReminder": "夢想家指向一位玩家，將一個好人的角色代幣和一個邪惡的角色代幣展示給他，其中一個是正確的。",
@@ -154,15 +154,15 @@
     "team": "minion"
   },
   {
-    "ability": "每天晚上*，選擇一位玩家：該玩家死亡。你選擇的第一位城外人變成邪惡的鈁骨，並改為你死亡。[+1 城外人]",
+    "ability": "每天晚上*，選擇一位玩家，該玩家死亡。你選擇的第一位城外人變成邪惡的惡鬼，並改為你死亡。[+1 城外人]",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "zh_TW_fanggu",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fanggu.png?raw=true",
-    "name": "鈁骨",
+    "name": "惡鬼",
     "otherNight": 29,
-    "otherNightReminder": "鈁骨指向一位玩家，該玩家死亡，或者如果該玩家是城外人且遊戲中沒有其他的鈁骨，則改為鈁骨死亡，被選擇的玩家變成邪惡的鈁骨，喚醒新的鈁骨並展示「你是」提示卡 + 鈁骨角色代幣，再展示「你是」提示卡 + 倒讚表示邪惡。",
+    "otherNightReminder": "惡鬼指向一位玩家，該玩家死亡，或者如果該玩家是城外人且遊戲中沒有其他的惡鬼，則改為惡鬼死亡，被選擇的玩家變成邪惡的惡鬼，喚醒新的惡鬼並展示「你是」提示卡 + 惡鬼角色代幣，再展示「你是」提示卡 + 倒讚表示邪惡。",
     "reminders": [
       "死亡",
       "第一位城外人"
@@ -188,7 +188,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "每天晚上*，選擇一位活著的玩家：如果該玩家同意，你得知他的角色，但是你們兩個有可能會死亡。",
+    "ability": "每天晚上*，選擇一位活著的玩家，如果該玩家同意，你得知他的角色，但是你們兩個有可能會死亡。",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -196,7 +196,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/harlot.png?raw=true",
     "name": "性愛工作者",
     "otherNight": 1,
-    "otherNightReminder": "性愛工作者指向一位玩家，喚醒該玩家並展示「這個能力選擇你」提示卡 + 性愛工作者的角色代幣，讓他以點頭或搖頭來表達意願，如果該玩家點頭：喚醒性愛工作者並展示該玩家的角色代幣，然後，你可以讓兩位玩家都死亡。",
+    "otherNightReminder": "性愛工作者指向一位玩家，喚醒該玩家並展示「這個能力選擇你」提示卡 + 性愛工作者的角色代幣，讓他以點頭或搖頭來表達意願，如果該玩家點頭，喚醒性愛工作者並展示該玩家的角色代幣，然後，你可以讓兩位玩家都死亡。",
     "reminders": [
       "死亡"
     ],
@@ -212,7 +212,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/juggler.png?raw=true",
     "name": "雜耍人",
     "otherNight": 62,
-    "otherNightReminder": "如果今天是雜耍者的第一天：展示「正確」標記的總數(0/1/2/依此類推)，移除所有標記。",
+    "otherNightReminder": "如果今天是雜耍者的第一天，展示「正確」標記的總數(0/1/2/依此類推)，移除所有標記。",
     "reminders": [
       "正確"
     ],
@@ -220,7 +220,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "當你得知你死亡時，公開選擇一位活著的玩家：如果該玩家是邪惡的，你的隊伍落敗。",
+    "ability": "當你得知你死亡時，公開選擇一位活著的玩家，如果該玩家是邪惡的，你的隊伍落敗。",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -256,7 +256,7 @@
     "firstNightReminder": "",
     "id": "zh_TW_mutant",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mutant.png?raw=true",
-    "name": "突變體",
+    "name": "變種人",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -264,7 +264,7 @@
     "team": "outsider"
   },
   {
-    "ability": "每天晚上*，選擇一位玩家：該玩家死亡。在你兩側離你最近且活著的鎮民中毒。",
+    "ability": "每天晚上*，選擇一位玩家，該玩家死亡。在你兩側離你最近且活著的鎮民中毒。",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -295,15 +295,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "每場遊戲一次，晚上時，選擇一個好人角色：你獲得該角色能力，如果該角色在遊戲中，他會醉酒。",
+    "ability": "每場遊戲一次，晚上時，選擇一個好人角色，你獲得該角色能力，如果該角色在遊戲中，他會醉酒。",
     "edition": "snv",
     "firstNight": 2,
-    "firstNightReminder": "哲學家可以選擇角色表上的一個好人角色，如果他有選擇：如果該角色不在遊戲中，將哲學家的角色代幣置換成該角色；如果該角色在遊戲中，該角色的玩家醉酒，哲學家得到該角色能力，以「不是哲學家」標記哲學家。",
+    "firstNightReminder": "哲學家可以選擇角色表上的一個好人角色，如果他有選擇，如果該角色不在遊戲中，將哲學家的角色代幣置換成該角色；如果該角色在遊戲中，該角色的玩家醉酒，哲學家得到該角色能力，以「不是哲學家」標記哲學家。",
     "id": "zh_TW_philosopher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/philosopher.png?raw=true",
     "name": "哲學家",
     "otherNight": 2,
-    "otherNightReminder": "哲學家可以選擇角色表上的一個好人角色，如果他有選擇：如果該角色不在遊戲中，將哲學家的角色代幣置換成該角色；如果該角色在遊戲中，該角色的玩家醉酒，哲學家得到該角色能力，以「不是哲學家」標記哲學家。",
+    "otherNightReminder": "哲學家可以選擇角色表上的一個好人角色，如果他有選擇，如果該角色不在遊戲中，將哲學家的角色代幣置換成該角色；如果該角色在遊戲中，該角色的玩家醉酒，哲學家得到該角色能力，以「不是哲學家」標記哲學家。",
     "reminders": [
       "不是哲學家",
       "醉酒"
@@ -312,7 +312,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "每天晚上*，選擇一位玩家以及一個角色：如果該角色不在遊戲中，該玩家變成該角色，如果產生一個新惡魔，則今晚的死亡是隨機。",
+    "ability": "每天晚上*，選擇一位玩家以及一個角色，如果該角色不在遊戲中，該玩家變成該角色，如果產生一個新惡魔，則今晚的死亡是隨機。",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -320,7 +320,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pithag.png?raw=true",
     "name": "魔女",
     "otherNight": 17,
-    "otherNightReminder": "魔女指向一位玩家 + 角色表上的一位角色，如果選擇的角色不在遊戲中：喚醒該玩家並展示「你是」提示卡 + 魔女選擇的角色代幣。",
+    "otherNightReminder": "魔女指向一位玩家 + 角色表上的一位角色，如果選擇的角色不在遊戲中，喚醒該玩家並展示「你是」提示卡 + 魔女選擇的角色代幣。",
     "reminders": [],
     "setup": false,
     "team": "minion"
@@ -334,7 +334,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sage.png?raw=true",
     "name": "賢者",
     "otherNight": 43,
-    "otherNightReminder": "如果賢者被惡魔殺死：指向兩位玩家，其中一位是惡魔。",
+    "otherNightReminder": "如果賢者被惡魔殺死，指向兩位玩家，其中一位是惡魔。",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -354,15 +354,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "每場遊戲一次，晚上時，選擇兩位其他的玩家：你得知他們是否為同一隊伍。",
+    "ability": "每場遊戲一次，晚上時，選擇兩位其他的玩家，你得知他們是否為同一隊伍。",
     "edition": "snv",
     "firstNight": 42,
-    "firstNightReminder": "理髮師可以選擇兩位其他的玩家，如果他有選擇：以點頭或搖頭來告知他們是否屬於同一隊伍。",
+    "firstNightReminder": "理髮師可以選擇兩位其他的玩家，如果他有選擇，以點頭或搖頭來告知他們是否屬於同一隊伍。",
     "id": "zh_TW_seamstress",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/seamstress.png?raw=true",
     "name": "裁縫師",
     "otherNight": 61,
-    "otherNightReminder": "理髮師可以選擇兩位其他的玩家，如果他有選擇：以點頭或搖頭來告知他們是否屬於同一隊伍。",
+    "otherNightReminder": "理髮師可以選擇兩位其他的玩家，如果他有選擇，以點頭或搖頭來告知他們是否屬於同一隊伍。",
     "reminders": [
       "無能力"
     ],
@@ -370,15 +370,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "每天晚上，選擇一位活著的玩家：如果該玩家是惡魔，你與他交換隊伍與角色，然後他中毒。",
+    "ability": "每天晚上，選擇一位活著的玩家，如果該玩家是惡魔，你與他交換隊伍與角色，然後他中毒。",
     "edition": "snv",
     "firstNight": 20,
-    "firstNightReminder": "弄蛇人指向一位玩家，如果該玩家是惡魔：交換他們的角色及隊伍，分別喚醒他們並展示「你是」提示卡 + 他們的新角色代幣，新的弄蛇人中毒。",
+    "firstNightReminder": "弄蛇人指向一位玩家，如果該玩家是惡魔，交換他們的角色及隊伍，分別喚醒他們並展示「你是」提示卡 + 他們的新角色代幣，新的弄蛇人中毒。",
     "id": "zh_TW_snakecharmer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/snakecharmer.png?raw=true",
     "name": "弄蛇人",
     "otherNight": 12,
-    "otherNightReminder": "弄蛇人指向一位玩家，如果該玩家是惡魔：交換他們的角色及隊伍，分別喚醒他們並展示「你是」提示卡 + 他們的新角色代幣，新的弄蛇人中毒。",
+    "otherNightReminder": "弄蛇人指向一位玩家，如果該玩家是惡魔，交換他們的角色及隊伍，分別喚醒他們並展示「你是」提示卡 + 他們的新角色代幣，新的弄蛇人中毒。",
     "reminders": [
       "中毒"
     ],
@@ -419,7 +419,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "每天晚上*，選擇一位玩家：該玩家死亡。你殺死的僕從們會保留他們的能力，並且使一位鎮民鄰居中毒。[−1 城外人]",
+    "ability": "每天晚上*，選擇一位玩家，該玩家死亡。你殺死的僕從們會保留他們的能力，並且使一位鎮民鄰居中毒。[−1 城外人]",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -437,15 +437,15 @@
     "team": "demon"
   },
   {
-    "ability": "每天晚上*，選擇一位玩家：該玩家死亡。鎮民們的能力會得到錯誤的訊息。每天白天，如果沒有人被處死，則邪惡陣營獲勝。",
+    "ability": "每天晚上*，選擇一位玩家，該玩家死亡。鎮民們的能力會得到錯誤的訊息。每天白天，如果沒有人被處死，則邪惡陣營獲勝。",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "zh_TW_vortox",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vortox.png?raw=true",
-    "name": "沃托克斯",
+    "name": "迷魂",
     "otherNight": 31,
-    "otherNightReminder": "沃托克斯指向一位玩家，該玩家死亡。",
+    "otherNightReminder": "迷魂指向一位玩家，該玩家死亡。",
     "reminders": [
       "死亡"
     ],
@@ -453,7 +453,7 @@
     "team": "demon"
   },
   {
-    "ability": "每天晚上，選擇一位玩家：如果該玩家於明天提名，則他會死亡，如果只剩下三位玩家活著，你失去這個能力。",
+    "ability": "每天晚上，選擇一位玩家，如果該玩家於明天提名，則他會死亡，如果只剩下三位玩家活著，你失去這個能力。",
     "edition": "snv",
     "firstNight": 24,
     "firstNightReminder": "女巫指向一位玩家，以「詛咒」標記該玩家。",
@@ -461,7 +461,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/witch.png?raw=true",
     "name": "女巫",
     "otherNight": 15,
-    "otherNightReminder": "如果有四位或以上玩家活著：女巫指向一位玩家，以「詛咒」標記該玩家。",
+    "otherNightReminder": "如果有四位或以上玩家活著，女巫指向一位玩家，以「詛咒」標記該玩家。",
     "reminders": [
       "詛咒"
     ],

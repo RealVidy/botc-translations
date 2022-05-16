@@ -1,9 +1,9 @@
 [
   {
-    "ability": "你開始遊戲時得知惡魔到最近的奴才的距離(相鄰時為1)。",
+    "ability": "你開始遊戲時得知惡魔到最近的僕從的距離(相鄰時為1)。",
     "edition": "snv",
     "firstNight": 40,
-    "firstNightReminder": "展示惡魔到最近的奴才的距離數(相鄰時為1)。",
+    "firstNightReminder": "展示惡魔到最近的僕從的距離數(相鄰時為1)。",
     "id": "zh_TW_clockmaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/clockmaker.png?raw=true",
     "name": "鐘匠",
@@ -34,12 +34,12 @@
     "ability": "每天晚上，你得知你活著的鄰居中有幾位是邪惡的(0/1/2)。",
     "edition": "tb",
     "firstNight": 36,
-    "firstNightReminder": "展示讀心者的邪惡鄰居數量。",
+    "firstNightReminder": "展示靈媒的邪惡鄰居數量。",
     "id": "zh_TW_empath",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
-    "name": "讀心者",
+    "name": "靈媒",
     "otherNight": 53,
-    "otherNightReminder": "展示讀心者的邪惡鄰居數量。",
+    "otherNightReminder": "展示靈媒的邪惡鄰居數量。",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -83,7 +83,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sage.png?raw=true",
     "name": "賢者",
     "otherNight": 43,
-    "otherNightReminder": "如果賢者被惡魔殺死：指向兩位玩家，其中一位是惡魔。",
+    "otherNightReminder": "如果賢者被惡魔殺死，指向兩位玩家，其中一位是惡魔。",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -106,7 +106,7 @@
     "team": "outsider"
   },
   {
-    "ability": "當你得知你死亡時，公開選擇一位活著的玩家：如果該玩家是邪惡的，你的隊伍落敗。",
+    "ability": "當你得知你死亡時，公開選擇一位活著的玩家，如果該玩家是邪惡的，你的隊伍落敗。",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -128,7 +128,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scarletwoman.png?raw=true",
     "name": "淫魔",
     "otherNight": 20,
-    "otherNightReminder": "如果淫魔今天成為了惡魔：將「你是」提示卡 + 惡魔的角色代幣展示給他。",
+    "otherNightReminder": "如果淫魔今天成為了惡魔，將「你是」提示卡 + 惡魔的角色代幣展示給他。",
     "reminders": [
       "是惡魔"
     ],
@@ -150,7 +150,7 @@
     "team": "minion"
   },
   {
-    "ability": "每天晚上*，選擇一位玩家：該玩家死亡。如果你以此法殺死自己，一位僕從變成小惡魔。",
+    "ability": "每天晚上*，選擇一位玩家，該玩家死亡。如果你以此法殺死自己，一位僕從變成小惡魔。",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
