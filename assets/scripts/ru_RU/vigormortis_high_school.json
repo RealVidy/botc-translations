@@ -36,7 +36,7 @@
     "firstNightReminder": "",
     "id": "ru_RU_oracle",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/oracle.png?raw=true",
-    "name": "Провидец",
+    "name": "Пророк",
     "otherNight": 60,
     "otherNightReminder": "Покажите жестом (0, 1, 2...) число мертвых злых игроков.",
     "reminders": [],

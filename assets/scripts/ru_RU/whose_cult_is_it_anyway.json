@@ -53,7 +53,7 @@
     "firstNightReminder": "Выберите класс ролей. Укажите на игрока, чья роль принадлежит к этому классу. Положите рядом с этой ролью напоминающий жетон \"Видел _\".",
     "id": "ru_RU_balloonist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/balloonist.png?raw=true",
-    "name": "Баллонист",
+    "name": "Аэронавт",
     "otherNight": 63,
     "otherNightReminder": "Выберите класс ролей, роли в котором еще не были отмечены жетоном \"Видел _\". Укажите на игрока, чья роль принадлежит к этому классу, если такой имеется. Положите рядом с этой ролью напоминающий жетон \"Видел _\".",
     "reminders": [
@@ -103,7 +103,7 @@
     "firstNightReminder": "",
     "id": "ru_RU_oracle",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/oracle.png?raw=true",
-    "name": "Провидец",
+    "name": "Пророк",
     "otherNight": 60,
     "otherNightReminder": "Покажите жестом (0, 1, 2...) число мертвых злых игроков.",
     "reminders": [],
@@ -370,9 +370,9 @@
     "firstNightReminder": "",
     "id": "ru_RU_nodashii",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/nodashii.png?raw=true",
-    "name": "Но Даши",
+    "name": "Но Дащи",
     "otherNight": 30,
-    "otherNightReminder": "Но Даши указывает на игрока. Этот игрок умирает.",
+    "otherNightReminder": "Но Дащи указывает на игрока. Этот игрок умирает.",
     "reminders": [
       "Мертв",
       "Отравлен"

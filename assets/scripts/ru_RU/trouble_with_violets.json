@@ -93,10 +93,10 @@
     "ability": "Вы и игрок из противоположной команды знаете личность и роли друг друга. Если доброго игрока в данной паре казнят, зло побеждает. Пока вы оба живы, добро не может победить.",
     "edition": "snv",
     "firstNight": 23,
-    "firstNightReminder": "Разбудите Злобного близнеца и его двойника. Удостоверьтесь, что они познакомились. Укажите на Злобного близнеца и покажите жетон его роли его двойнику. Укажите на двойника и покажите его жетон роли Злобному близнецу.",
+    "firstNightReminder": "Разбудите Злого близнеца и его двойника. Удостоверьтесь, что они познакомились. Укажите на Злого близнеца и покажите жетон его роли его двойнику. Укажите на двойника и покажите его жетон роли Злому близнецу.",
     "id": "ru_RU_eviltwin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/eviltwin.png?raw=true",
-    "name": "Злобный близнец",
+    "name": "Злой близнец",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -223,9 +223,9 @@
     "firstNightReminder": "",
     "id": "ru_RU_nodashii",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/nodashii.png?raw=true",
-    "name": "Но Даши",
+    "name": "Но Дащи",
     "otherNight": 30,
-    "otherNightReminder": "Но Даши указывает на игрока. Этот игрок умирает.",
+    "otherNightReminder": "Но Дащи указывает на игрока. Этот игрок умирает.",
     "reminders": [
       "Мертв",
       "Отравлен"

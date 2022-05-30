@@ -22,9 +22,9 @@
     "firstNightReminder": "",
     "id": "ru_RU_assassin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/assassin.png?raw=true",
-    "name": "Киллер",
+    "name": "Убийца",
     "otherNight": 37,
-    "otherNightReminder": "Если Киллер еще не применял свою способность: Киллер качанием головы отказывается действовать или указывает на игрока. Тот игрок умирает.",
+    "otherNightReminder": "Если Убийца еще не применял свою способность: Убийца качанием головы отказывается действовать или указывает на игрока. Тот игрок умирает.",
     "reminders": [
       "Истрачено",
       "Мертв"
@@ -137,9 +137,9 @@
     "firstNightReminder": "",
     "id": "ru_RU_gambler",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gambler.png?raw=true",
-    "name": "Игрок",
+    "name": "Азартный игрок",
     "otherNight": 11,
-    "otherNightReminder": "Игрок указывает на игрока, а затем на роль в списке. Если догадка неверная, Игрок умирает.",
+    "otherNightReminder": "Азартный игрок указывает на игрока, а затем на роль в списке. Если догадка неверная, Игрок умирает.",
     "reminders": [
       "Мертв"
     ],
@@ -170,7 +170,7 @@
     "firstNightReminder": "",
     "id": "ru_RU_goon",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/goon.png?raw=true",
-    "name": "Вышибала",
+    "name": "Наемник",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -186,9 +186,9 @@
     "firstNightReminder": "",
     "id": "ru_RU_gossip",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gossip.png?raw=true",
-    "name": "Сплетник",
+    "name": "Сплетница",
     "otherNight": 47,
-    "otherNightReminder": "Если открытое заявление Сплетника было истинным: выберите игрока, который этой ночью не защищен от смерти. Этот игрок умирает.",
+    "otherNightReminder": "Если открытое заявление Сплетницы было истинным: выберите игрока, который этой ночью не защищен от смерти. Этот игрок умирает.",
     "reminders": [
       "Мертв"
     ],
