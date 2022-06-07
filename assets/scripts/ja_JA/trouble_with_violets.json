@@ -76,6 +76,23 @@
     "team": "townsfolk"
   },
   {
+    "ability": "自分が酔っ払いであることを知らない。自分はなんらかの住民だと思っているが、その能力は機能しない。",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ja_JA_drunk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
+    "name": "酔っ払い",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Drunk"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
     "ability": "毎夜、あなたは隣のプレイヤー2人のうち何人が邪悪であるかを知ることができる。",
     "edition": "tb",
     "firstNight": 36,

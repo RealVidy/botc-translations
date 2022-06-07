@@ -76,6 +76,23 @@
     "team": "townsfolk"
   },
   {
+    "ability": "No sabes que eres el Borracho. Crees que eres un Aldeano, pero no lo eres.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "es_ES_drunk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
+    "name": "Borracho",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Borracho"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
     "ability": "Cada noche, sabrás cuántos de tus dos vecinos vivos son malignos.",
     "edition": "tb",
     "firstNight": 36,

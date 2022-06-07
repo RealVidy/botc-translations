@@ -76,6 +76,23 @@
     "team": "townsfolk"
   },
   {
+    "ability": "Você não sabe que é o Bêbado. Você acha que é um Cidadão, mas não é.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "pt_PT_drunk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
+    "name": "Bêbado",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Bêbado"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
     "ability": "A cada noite, você descobre quantos de seus 2 vizinhos vivos são maus.",
     "edition": "tb",
     "firstNight": 36,

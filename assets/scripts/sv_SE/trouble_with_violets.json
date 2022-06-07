@@ -76,6 +76,23 @@
     "team": "townsfolk"
   },
   {
+    "ability": "Du vet inte att du är Fyllot. Du tror att du är en Bybo, men det är du inte.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "sv_SE_drunk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
+    "name": "Fyllo",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Fyllo"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
     "ability": "Varje natt, du lär dig hur många av dina 2 levande grannar är onda.",
     "edition": "tb",
     "firstNight": 36,
