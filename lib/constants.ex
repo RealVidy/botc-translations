@@ -13,7 +13,8 @@ defmodule Constants do
     "zh_CN",
     "zh_TW",
     "sv_SE",
-    "fa_IR"
+    "fa_IR",
+    "kw_KW"
   ]
 
   @role_ids [
