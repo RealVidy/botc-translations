@@ -1,6 +1,6 @@
 [
   {
-    "ability": "Você começa vendo quantos pares de jogadores maus existem.",
+    "ability": "Você começa vendo quantos pares de jogadores maus vizinhos existem.",
     "edition": "tb",
     "firstNight": 35,
     "firstNightReminder": "Com os dedos, mostre o número correspondente à quantidade de pares de jogadores maus vizinhos.",

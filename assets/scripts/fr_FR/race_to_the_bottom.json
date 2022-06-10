@@ -1,9 +1,9 @@
 [
   {
-    "ability": "La première nuit, le Conteur vous indique à quelle distance (nombre de place, minimum une) se trouve le Sbire le plus prêt du Démon.",
+    "ability": "La première nuit, le Conteur vous indique à quelle distance (nombre de place, minimum une) se trouve le Sbire le plus près du Démon.",
     "edition": "snv",
     "firstNight": 40,
-    "firstNightReminder": "Indiquer à quelle distance (nombre de places, minimum une) se trouve le Sbire le plus prêt du Démon.",
+    "firstNightReminder": "Indiquer à quelle distance (nombre de places, minimum une) se trouve le Sbire le plus près du Démon.",
     "id": "fr_FR_clockmaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/clockmaker.png?raw=true",
     "name": "Horloger",
