@@ -579,7 +579,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "A cada noite*, escolha um jogador (exceto você): o alvo está imune ao Demônio esta noite.",
+    "ability": "A cada noite*, escolha um jogador (exceto você): o alvo está a salvo do Demônio esta noite.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -844,7 +844,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Você é imune ao Demônio.",
+    "ability": "Você está a salvo do Demônio.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
