@@ -6,7 +6,7 @@
     "firstNightReminder": "",
     "id": "ru_RU_beggar",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/beggar.png?raw=true",
-    "name": "Попрошайка",
+    "name": "Нищий",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
