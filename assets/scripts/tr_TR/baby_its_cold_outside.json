@@ -14,7 +14,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Something bad might happen to whoever talks when the Storyteller has asked for silence.",
+    "ability": "2 oyuncudan 1'inin belirli bir Outsider olduğunu öğrenerek başlarsın. (Veya oyunda hiç olmadığını.)",
     "edition": "tb",
     "firstNight": 33,
     "firstNightReminder": "Show the character token of an Outsider in play. Point to two players, one of which is that character.",
