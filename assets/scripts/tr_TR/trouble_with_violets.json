@@ -187,7 +187,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You start knowing that 1 of 2 players is a particular Outsider. (Or that zero are in play.)",
+    "ability": "Something bad might happen to whoever talks when the Storyteller has asked for silence.",
     "edition": "tb",
     "firstNight": 33,
     "firstNightReminder": "Show the character token of an Outsider in play. Point to two players, one of which is that character.",
