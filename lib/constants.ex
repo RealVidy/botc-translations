@@ -1,20 +1,22 @@
 defmodule Constants do
   @known_locales [
-    "en_UK",
-    "fr_FR",
     "de_DE",
+    "en_UK",
+    "es_ES",
+    "fa_IR",
+    "fil_PH",
+    "fr_FR",
+    "it_IT",
+    "ja_JA",
+    "kw_KW",
     "pl_PL",
     "pt_BR",
     "pt_PT",
     "ru_RU",
-    "fil_PH",
-    "es_ES",
-    "ja_JA",
-    "zh_CN",
-    "zh_TW",
     "sv_SE",
-    "fa_IR",
-    "kw_KW"
+    "tr_TR",
+    "zh_CN",
+    "zh_TW"
   ]
 
   @role_ids [
@@ -161,6 +163,24 @@ defmodule Constants do
     "witch",
     "zombuul"
   ]
+
+  # @role_ids_to_normalized %{
+  #   "bountyhunter" => "bounty_hunter",
+  #   "cultleader" => "cult_leader",
+  #   "fortuneteller" => "fortune_teller",
+  #   "poppygrower" => "poppy_grower",
+  #   "snakecharmer" => "snake_charmer",
+  #   "towncrier" => "town_crier",
+  #   "tealady" => "tea_lady",
+  #   "devilsadvocate" => "devils_advocate",
+  #   "eviltwin" => "evil_twin",
+  #   "pithag" => "pit-hag",
+  #   "scarletwoman" => "scarlet_woman",
+  #   "alhadikhia" => "al-hadikhia",
+  #   "fanggu" => "fang_gu",
+  #   "lilmonsta" => "lil_monsta",
+  #   "nodashii" => "no_dashii"
+  # }
 
   @csv_headers [
     "id",
