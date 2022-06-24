@@ -293,9 +293,9 @@
     "firstNightReminder": "",
     "id": "sv_SE_scarletwoman",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scarletwoman.png?raw=true",
-    "name": "Scarlet Woman",
+    "name": "Scharlakansröd Kvinna",
     "otherNight": 20,
-    "otherNightReminder": "Om _ blev Demon idag: Visa dem \"Du är\" kortet och sedan Demonens pollett.",
+    "otherNightReminder": "Om Scharlakansröda Kvinnan blev Demon idag: Visa dem \"Du är\" kortet och sedan Demonens pollett.",
     "reminders": [
       "Demon"
     ],

@@ -1,6 +1,6 @@
 [
   {
-    "ability": "遊戲中具有額外的城外人。[+2 城外人]",
+    "ability": "遊戲中會出現額外的城外人。[+2 城外人]",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -371,7 +371,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/undertaker.png?raw=true",
     "name": "掘墓人",
     "otherNight": 56,
-    "otherNightReminder": "如果今天玩家被處決，將該玩家的角色代幣展示給掘墓人。",
+    "otherNightReminder": "如果今天有玩家被處決，將該玩家的角色代幣展示給掘墓人。",
     "reminders": [
       "處決"
     ],

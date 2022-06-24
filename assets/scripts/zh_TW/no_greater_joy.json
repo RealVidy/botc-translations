@@ -136,7 +136,7 @@
     "team": "minion"
   },
   {
-    "ability": "遊戲中具有額外的城外人。[+2 城外人]",
+    "ability": "遊戲中會出現額外的城外人。[+2 城外人]",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",

@@ -113,7 +113,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "每天白天，你可以發表一次公開聲明，今天晚上時，如果該聲明正確，則會有一位玩家死亡",
+    "ability": "每天白天，你可以發表一次公開聲明，當晚，如果該聲明正確，則會有一位玩家死亡",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -284,10 +284,10 @@
     "team": "outsider"
   },
   {
-    "ability": "你開始遊戲時得知那些城外人在遊戲中。如果今天有城外人死亡，在今晚選擇一位玩家，該玩家死亡。[−1 或 +1 城外人]",
+    "ability": "你開始遊戲時得知哪些城外人在遊戲中。如果今天有城外人死亡，在當晚選擇一位玩家，該玩家死亡。[−1 或 +1 城外人]",
     "edition": "bmr",
     "firstNight": 21,
-    "firstNightReminder": "展示每個在遊戲中的城外人角色代幣。",
+    "firstNightReminder": "展示「這些角色在遊戲中」提示卡 + 每個在遊戲中的城外人角色代幣。",
     "id": "zh_TW_godfather",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/godfather.png?raw=true",
     "name": "教父",

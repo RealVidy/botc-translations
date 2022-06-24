@@ -96,7 +96,7 @@
     "team": "minion"
   },
   {
-    "ability": "La première nuit, le Conteur vous indique à quelle distance (nombre de place, minimum une) se trouve le Sbire le plus près du Démon.",
+    "ability": "La première nuit, le Conteur vous indique à quelle distance (en nombre de places, minimum 1) se trouve le Sbire le plus près du Démon.",
     "edition": "snv",
     "firstNight": 40,
     "firstNightReminder": "Indiquer à quelle distance (nombre de places, minimum une) se trouve le Sbire le plus près du Démon.",

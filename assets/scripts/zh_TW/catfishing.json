@@ -32,7 +32,7 @@
     "team": "traveler"
   },
   {
-    "ability": "每場遊戲一次，晚上時*，選擇一位玩家，該玩家死亡，儘管有某些原因導致他們不能死。",
+    "ability": "每場遊戲一次，晚上時*，選擇一位玩家，該玩家死亡，無論是否有原因導致他們不能死。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -228,10 +228,10 @@
     "team": "townsfolk"
   },
   {
-    "ability": "你開始遊戲時得知那些城外人在遊戲中。如果今天有城外人死亡，在今晚選擇一位玩家，該玩家死亡。[−1 或 +1 城外人]",
+    "ability": "你開始遊戲時得知哪些城外人在遊戲中。如果今天有城外人死亡，在當晚選擇一位玩家，該玩家死亡。[−1 或 +1 城外人]",
     "edition": "bmr",
     "firstNight": 21,
-    "firstNightReminder": "展示每個在遊戲中的城外人角色代幣。",
+    "firstNightReminder": "展示「這些角色在遊戲中」提示卡 + 每個在遊戲中的城外人角色代幣。",
     "id": "zh_TW_godfather",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/godfather.png?raw=true",
     "name": "教父",
@@ -345,14 +345,14 @@
     "ability": "每場遊戲一次，晚上時，選擇一個好人角色，你獲得該角色能力，如果該角色在遊戲中，他會醉酒。",
     "edition": "snv",
     "firstNight": 2,
-    "firstNightReminder": "哲學家可以選擇角色表上的一個好人角色，如果他有選擇，如果該角色不在遊戲中，將哲學家的角色代幣置換成該角色；如果該角色在遊戲中，該角色的玩家醉酒，哲學家得到該角色能力，以「不是哲學家」標記哲學家。",
+    "firstNightReminder": "哲學家可以選擇角色表上的一個好人角色，如果他有選擇且該角色不在遊戲中，將哲學家的角色代幣置換成該角色；如果該角色在遊戲中，該角色的玩家醉酒，哲學家得到該角色能力，以「是哲學家」標記哲學家。",
     "id": "zh_TW_philosopher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/philosopher.png?raw=true",
     "name": "哲學家",
     "otherNight": 2,
-    "otherNightReminder": "哲學家可以選擇角色表上的一個好人角色，如果他有選擇，如果該角色不在遊戲中，將哲學家的角色代幣置換成該角色；如果該角色在遊戲中，該角色的玩家醉酒，哲學家得到該角色能力，以「不是哲學家」標記哲學家。",
+    "otherNightReminder": "哲學家可以選擇角色表上的一個好人角色，如果他有選擇且該角色不在遊戲中，將哲學家的角色代幣置換成該角色；如果該角色在遊戲中，該角色的玩家醉酒，哲學家得到該角色能力，以「是哲學家」標記哲學家。",
     "reminders": [
-      "不是哲學家",
+      "是哲學家",
       "醉酒"
     ],
     "setup": false,

@@ -130,12 +130,12 @@
     "ability": "每場遊戲一次，晚上時，選擇兩位其他的玩家，你得知他們是否為同一隊伍。",
     "edition": "snv",
     "firstNight": 42,
-    "firstNightReminder": "理髮師可以選擇兩位其他的玩家，如果他有選擇，以點頭或搖頭來告知他們是否屬於同一隊伍。",
+    "firstNightReminder": "裁縫師可以選擇兩位其他的玩家，如果他有選擇，以點頭或搖頭來告知他們是否屬於同一隊伍。",
     "id": "zh_TW_seamstress",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/seamstress.png?raw=true",
     "name": "裁縫師",
     "otherNight": 61,
-    "otherNightReminder": "理髮師可以選擇兩位其他的玩家，如果他有選擇，以點頭或搖頭來告知他們是否屬於同一隊伍。",
+    "otherNightReminder": "裁縫師可以選擇兩位其他的玩家，如果他有選擇，以點頭或搖頭來告知他們是否屬於同一隊伍。",
     "reminders": [
       "無能力"
     ],
@@ -329,7 +329,7 @@
     "team": "minion"
   },
   {
-    "ability": "每天晚上，僕從們選擇一位玩家看顧Lil'蒙斯塔的角色代幣以及 「這是惡魔」提示卡。每天晚上*，一位玩家死亡。[+1 僕從]",
+    "ability": "每天晚上，僕從們選擇一位玩家看顧莉萌絲塔的角色代幣以及 「這是惡魔」提示卡。每天晚上*，一位玩家死亡。[+1 僕從]",
     "edition": "",
     "firstNight": 16,
     "firstNightReminder": "喚醒所有僕從並讓他們投票選出看顧莉萌絲塔的人選。",
