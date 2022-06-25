@@ -14,7 +14,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Each night, choose a player (not yourself): their vote counts as 3 votes tomorrow.",
+    "ability": "هر شب، بازیکنی را (جز خودت) انتخاب کن: فردا رای او ۳ رای شمرده می‌شود.",
     "edition": "tb",
     "firstNight": 1,
     "firstNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
@@ -30,7 +30,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Each night, choose a player (not yourself): tomorrow, you may only vote if they are voting too.",
+    "ability": "هر شب، بازیکنی را (بجز خودت) انتخاب کن: فردا، فقط در صورتی که او رای دهد می‌توانید رای دهید.",
     "edition": "tb",
     "firstNight": 38,
     "firstNightReminder": "The Butler points to a player. Mark that player as 'Master'.",
@@ -52,7 +52,7 @@
     "firstNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
     "id": "fa_IR_cerenovus",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cerenovus.png?raw=true",
-    "name": "Cerenovus",
+    "name": "روانکاو",
     "otherNight": 16,
     "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
     "reminders": [
@@ -62,7 +62,7 @@
     "team": "minion"
   },
   {
-    "ability": "You start knowing how many pairs of evil players there are.",
+    "ability": "شما در ابتدا می‌دانید چند زوج بازیکن بد در بازی وجود دارد.",
     "edition": "tb",
     "firstNight": 35,
     "firstNightReminder": "Show the finger signal (0, 1, 2, …) for the number of pairs of neighbouring evil players.",
@@ -76,7 +76,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not.",
+    "ability": "شما نمی‌دانید که مست هستید. شما فکر می‌کنید شهروند هستید ولی نیستید.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -99,7 +99,7 @@
     "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath.",
     "id": "fa_IR_empath",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
-    "name": "Empath",
+    "name": "همدل",
     "otherNight": 53,
     "otherNightReminder": "Show the finger signal (0, 1, 2) for the number of evil neighbours.",
     "reminders": [],
@@ -129,12 +129,12 @@
     "firstNightReminder": "",
     "id": "fa_IR_fanggu",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fanggu.png?raw=true",
-    "name": "Fang Gu",
+    "name": "فنگو",
     "otherNight": 29,
     "otherNightReminder": "The Fang Gu points to a player. That player dies. Or, if that player was an Outsider and there are no other Fang Gu in play: The Fang Gu dies instead of the chosen player. The chosen player is now an evil Fang Gu. Wake the new Fang Gu. Show the 'You are' card, then the Fang Gu token. Show the 'You are' card, then the thumb-down 'evil' hand sign.",
     "reminders": [
-      "Dead",
-      "Once"
+      "مرده",
+      "یکبار"
     ],
     "setup": true,
     "team": "demon"
@@ -180,8 +180,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Minion",
-      "Wrong"
+      "اشتباه",
+      "مرید"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -240,7 +240,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_nodashii",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/nodashii.png?raw=true",
-    "name": "No Dashii",
+    "name": "نُدَشی",
     "otherNight": 30,
     "otherNightReminder": "The No Dashii points to a player. That player dies.",
     "reminders": [
@@ -257,7 +257,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_pithag",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pithag.png?raw=true",
-    "name": "Pit-Hag",
+    "name": "عجوزه",
     "otherNight": 17,
     "otherNightReminder": "The Pit-Hag points to a player and a character on the sheet. If this character is not in play, wake that player and show them the 'You are' card and the relevant character token. If the character is in play, nothing happens.",
     "reminders": [],
@@ -337,7 +337,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You are safe from the Demon.",
+    "ability": "شما از شیطان در امانید",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",

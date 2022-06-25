@@ -22,7 +22,7 @@
     "firstNightReminder": "Point to 1 evil player. Wake the townsfolk who is evil and show them the 'You are' card and the thumbs down evil sign.",
     "id": "fa_IR_bountyhunter",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bountyhunter.png?raw=true",
-    "name": "Bounty Hunter",
+    "name": "جایزه جو",
     "otherNight": 65,
     "otherNightReminder": "If the known evil player has died, point to another evil player.",
     "reminders": [
@@ -38,7 +38,7 @@
     "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath.",
     "id": "fa_IR_empath",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
-    "name": "Empath",
+    "name": "همدل",
     "otherNight": 53,
     "otherNightReminder": "Show the finger signal (0, 1, 2) for the number of evil neighbours.",
     "reminders": [],
@@ -114,7 +114,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, at night, choose which Minions or which Demon is in play.",
+    "ability": "یک بار در بازی، در شب، انتخاب کن چه شیطان یا مریدانی در بازی هستند.",
     "edition": "",
     "firstNight": 13,
     "firstNightReminder": "The Engineer shows a 'no' head signal, or points to a Demon or points to the relevant number of Minions. If the Engineer chose characters, replace the Demon or Minions with the choices, then wake the relevant players and show them the You are card and the relevant character tokens.",
@@ -163,7 +163,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.",
+    "ability": "شما قابلیت فرد تازه اعدام شده را دارید. اگر او بد باشد، شما تا وقتی بازیکن خوبی اعدام شود مسموم هستید.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -173,8 +173,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Died today",
-      "Poisoned"
+      "امروز مرد",
+      "مسموم"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -228,7 +228,7 @@
     "team": "outsider"
   },
   {
-    "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not.",
+    "ability": "شما نمی‌دانید که مست هستید. شما فکر می‌کنید شهروند هستید ولی نیستید.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -255,7 +255,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Can not nominate"
+      "نمی‌تواند کاندید کند"
     ],
     "setup": false,
     "team": "outsider"
@@ -285,7 +285,7 @@
     "firstNightReminder": "Show the Mezepheles their secret word.",
     "id": "fa_IR_mezepheles",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mezepheles.png?raw=true",
-    "name": "Mezepheles",
+    "name": "مزفیلیس",
     "otherNight": 19,
     "otherNightReminder": "Wake the 1st good player that said the Mezepheles' secret word and show them the 'You are' card and the thumbs down evil signal.",
     "reminders": [
@@ -296,13 +296,13 @@
     "team": "minion"
   },
   {
-    "ability": "Each night, choose a living player (different to last night): if executed tomorrow, they don't die.",
+    "ability": "هر شب، یک بازیکن زنده (متفاوت از شب گذشته)  را انتخاب کنید: اگر او فردا اعدام شود، نمی‌میرد.",
     "edition": "bmr",
     "firstNight": 22,
     "firstNightReminder": "The Devil’s Advocate points to a living player. That player survives execution tomorrow.",
     "id": "fa_IR_devilsadvocate",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/devilsadvocate.png?raw=true",
-    "name": "Devil's Advocate",
+    "name": "مدافع شیطان",
     "otherNight": 14,
     "otherNightReminder": "The Devil’s Advocate points to a living player, different from the previous night. That player survives execution tomorrow.",
     "reminders": [
@@ -404,7 +404,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_nodashii",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/nodashii.png?raw=true",
-    "name": "No Dashii",
+    "name": "نُدَشی",
     "otherNight": 30,
     "otherNightReminder": "The No Dashii points to a player. That player dies.",
     "reminders": [

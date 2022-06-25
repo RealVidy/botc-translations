@@ -6,7 +6,7 @@
     "firstNightReminder": "Point to 1 evil player. Wake the townsfolk who is evil and show them the 'You are' card and the thumbs down evil sign.",
     "id": "fa_IR_bountyhunter",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bountyhunter.png?raw=true",
-    "name": "Bounty Hunter",
+    "name": "جایزه جو",
     "otherNight": 65,
     "otherNightReminder": "If the known evil player has died, point to another evil player.",
     "reminders": [
@@ -16,7 +16,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You start knowing how many pairs of evil players there are.",
+    "ability": "شما در ابتدا می‌دانید چند زوج بازیکن بد در بازی وجود دارد.",
     "edition": "tb",
     "firstNight": 35,
     "firstNightReminder": "Show the finger signal (0, 1, 2, …) for the number of pairs of neighbouring evil players.",
@@ -30,13 +30,13 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, you become the alignment of an alive neighbour. If all good players choose to join your cult, your team wins.",
+    "ability": "هر شب، شما در تیم یکی از همسایه‌های زنده خود قرار می‌گیرید. اگر همه بازیکنان خوب تصمیم بگیرند به فرقه شما ملحق شوند، تیم شما برنده می‌شود.",
     "edition": "",
     "firstNight": 47,
     "firstNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
     "id": "fa_IR_cultleader",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cultleader.png?raw=true",
-    "name": "Cult Leader",
+    "name": "رهبر فرقه",
     "otherNight": 67,
     "otherNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
     "reminders": [],
@@ -60,7 +60,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "The first time you die, you don't.",
+    "ability": "اولین باری که بمیرید، نمی‌میرید.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -76,7 +76,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, choose a player & guess their character: if you guess wrong, you die.",
+    "ability": "هر شب*، یک بازیکن را انتخاب کنید و شخصیتش را حدس بزنید: اگر اشتباه حدس زدید، می‌میرید.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -102,8 +102,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Minion",
-      "Wrong"
+      "اشتباه",
+      "مرید"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -172,7 +172,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You are safe from the Demon.",
+    "ability": "شما از شیطان در امانید",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -217,7 +217,7 @@
     "team": "outsider"
   },
   {
-    "ability": "If you died today or tonight, the Demon may choose 2 players (not another Demon) to swap characters.",
+    "ability": "اگر امروز یا امشب مرده باشید، شیطان می‌تواند ۲ بازیکن را (که شیطان نیستند) انتخاب کند تا نقش‌هایشان تعویض شود",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -227,13 +227,13 @@
     "otherNight": 40,
     "otherNightReminder": "If the Barber died today: Wake the Demon. Show the 'This character selected you' card, then Barber token. The Demon either shows a 'no' head signal, or points to 2 players. If they chose players: Swap the character tokens. Wake each player. Show 'You are', then their new character token.",
     "reminders": [
-      "وقت سلمونی"
+      "شب سلمونی"
     ],
     "setup": false,
     "team": "outsider"
   },
   {
-    "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not.",
+    "ability": "شما نمی‌دانید که مست هستید. شما فکر می‌کنید شهروند هستید ولی نیستید.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -317,7 +317,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_baron",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/baron.png?raw=true",
-    "name": "بارون",
+    "name": "بارُن",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],

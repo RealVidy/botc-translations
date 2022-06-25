@@ -1,6 +1,6 @@
 [
   {
-    "ability": "You start knowing how many steps from the Demon to its nearest Minion.",
+    "ability": "شما در ابتدا می‌دانید که فاصله شیطان با نزدیک‌ترین مریدش چند است.",
     "edition": "snv",
     "firstNight": 40,
     "firstNightReminder": "Show the hand signal for the number (1, 2, 3, etc.) of places from Demon to closest Minion.",
@@ -20,7 +20,7 @@
     "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath.",
     "id": "fa_IR_empath",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
-    "name": "Empath",
+    "name": "همدل",
     "otherNight": 53,
     "otherNightReminder": "Show the finger signal (0, 1, 2) for the number of evil neighbours.",
     "reminders": [],
@@ -34,7 +34,7 @@
     "firstNightReminder": "The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.",
     "id": "fa_IR_dreamer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/dreamer.png?raw=true",
-    "name": "Dreamer",
+    "name": "خیال‌باف",
     "otherNight": 57,
     "otherNightReminder": "The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.",
     "reminders": [],
@@ -58,13 +58,13 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, at night, choose a character: they are drunk for 3 nights & 3 days.",
+    "ability": "یک بار در بازی، در شب، شخصیتی را انتخاب کن: او برای ۳ شب و ۳ روز مست است.",
     "edition": "bmr",
     "firstNight": 19,
     "firstNightReminder": "The Courtier either shows a 'no' head signal, or points to a character on the sheet. If the Courtier used their ability: If that character is in play, that player is drunk.",
     "id": "fa_IR_courtier",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/courtier.png?raw=true",
-    "name": "Courtier",
+    "name": "ندیم",
     "otherNight": 10,
     "otherNightReminder": "Reduce the remaining number of days the marked player is poisoned. If the Courtier has not yet used their ability: The Courtier either shows a 'no' head signal, or points to a character on the sheet. If the Courtier used their ability: If that character is in play, that player is drunk.",
     "reminders": [
@@ -179,7 +179,7 @@
     "ability": "If 4 or more players live, each living player may publicly choose (once per game) that a player of their own alignment dies.",
     "id": "fa_IR_doomsayer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/doomsayer.png?raw=true",
-    "name": "Doomsayer",
+    "name": "بدشگون",
     "team": "fabled"
   }
 ]

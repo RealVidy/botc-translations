@@ -39,7 +39,7 @@
     "firstNightReminder": "Show the Pixie 1 in-play Townsfolk character token.",
     "id": "fa_IR_pixie",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pixie.png?raw=true",
-    "name": "Pixie",
+    "name": "پری",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -56,7 +56,7 @@
     "firstNightReminder": "Point to 1 evil player. Wake the townsfolk who is evil and show them the 'You are' card and the thumbs down evil sign.",
     "id": "fa_IR_bountyhunter",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bountyhunter.png?raw=true",
-    "name": "Bounty Hunter",
+    "name": "جایزه جو",
     "otherNight": 65,
     "otherNightReminder": "If the known evil player has died, point to another evil player.",
     "reminders": [
@@ -72,7 +72,7 @@
     "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath.",
     "id": "fa_IR_empath",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
-    "name": "Empath",
+    "name": "همدل",
     "otherNight": 53,
     "otherNightReminder": "Show the finger signal (0, 1, 2) for the number of evil neighbours.",
     "reminders": [],
@@ -132,7 +132,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are.",
+    "ability": "شما قابلیت خود را نمی‌دانید. هر روز، خصوصی آن را حدس بزنید. شما می‌فهمید چه‌قدر نزدیک هستید.",
     "edition": "",
     "firstNight": 12,
     "firstNightReminder": "Decide the Amnesiac's entire ability. If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
@@ -148,7 +148,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, during the day, privately ask the Storyteller any yes/no question.",
+    "ability": "یکبار در بازی، از داستان‌سرا به صورت خصوصی یک سوال بله/خیر بپرسید.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -243,13 +243,13 @@
     "team": "outsider"
   },
   {
-    "ability": "All Minions know you are in play. If a Minion publicly guesses you (once), your team loses.",
+    "ability": "همه مریدان می‌دانند که شما در بازی هستید. اگر مریدی به صورت عمومی (یکبار) شما را حدس بزند، تیم شما می‌بازد.",
     "edition": "",
     "firstNight": 31,
     "firstNightReminder": "Wake all the Minions, show them the 'This character selected you' card and the Damsel token.",
     "id": "fa_IR_damsel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/damsel.png?raw=true",
-    "name": "Damsel",
+    "name": "دوشیزه",
     "otherNight": 52,
     "otherNightReminder": "If selected by the Huntsman, wake the Damsel, show 'You are' card and a not-in-play Townsfolk token.",
     "reminders": [
@@ -259,7 +259,7 @@
     "team": "outsider"
   },
   {
-    "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not.",
+    "ability": "شما نمی‌دانید که مست هستید. شما فکر می‌کنید شهروند هستید ولی نیستید.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -286,8 +286,8 @@
     "otherNight": 38,
     "otherNightReminder": "If an Outsider died today: The Godfather points to a player. That player dies.",
     "reminders": [
-      "Dead",
-      "Died today"
+      "امروز مرد",
+      "مرده"
     ],
     "setup": true,
     "team": "minion"
@@ -331,7 +331,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_goblin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/goblin.png?raw=true",
-    "name": "Goblin",
+    "name": "گابلین",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -341,7 +341,7 @@
     "team": "minion"
   },
   {
-    "ability": "If you are executed, all but 3 players die. 1 minute later, the player with the most players pointing at them dies.",
+    "ability": "اگر اعدام شوید،‌همه بجز ۳ نفر می‌میرند. ۱ دقیقه بعد، بازیکنی که بیشتر تعداد به او اشاره کرده‌اند می‌میرد.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -379,12 +379,12 @@
     "firstNightReminder": "",
     "id": "fa_IR_legion",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/legion.png?raw=true",
-    "name": "Legion",
+    "name": "لژیون",
     "otherNight": 34,
     "otherNightReminder": "Choose a player, that player dies.",
     "reminders": [
-      "About to die",
-      "Dead"
+      "در آستانه مرگ",
+      "مرده"
     ],
     "setup": true,
     "team": "demon"

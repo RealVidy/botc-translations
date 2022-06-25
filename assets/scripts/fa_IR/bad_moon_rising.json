@@ -1,6 +1,6 @@
 [
   {
-    "ability": "On your 1st night, you gain a Townsfolk ability (if good), or a Minion ability (if evil).",
+    "ability": "در شب اول، شما قابلیت یک شهروند (اگر خوب هستید)، یا یک میرد (اگر بد هستید) را به دست می‌آورید.",
     "edition": "bmr",
     "firstNight": 1,
     "firstNightReminder": "Show the Apprentice the 'You are' card, then a Townsfolk or Minion token. In the Grimoire, replace the Apprentice token with that character token, and put the Apprentice's 'Is the Apprentice' reminder by that character token.",
@@ -33,7 +33,7 @@
     "team": "minion"
   },
   {
-    "ability": "Only the Storyteller can nominate. At least 1 opposite player must be nominated each day.",
+    "ability": "فقط داستان‌سرا می‌تواند فردی را کاندید کند. حداقل ۱ نفر از هر تیم باید هر روز کاندید شود.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -43,14 +43,14 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Nominate evil",
-      "Nominate good"
+      "کاندید بد",
+      "کاندید خوب"
     ],
     "setup": false,
     "team": "traveler"
   },
   {
-    "ability": "Each night, choose 2 alive players (not yourself): you learn how many woke tonight due to their ability.",
+    "ability": "هر شب، ۲ بازیکن زنده (بجز خودتان) را انتخاب کنید: شما می‌فهمید چند نفر از آنها امشب به خاطر قابلیتشان بیدار شده‌اند.",
     "edition": "bmr",
     "firstNight": 50,
     "firstNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, …) for how many of those players wake tonight for their ability.",
@@ -64,13 +64,13 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, at night, choose a character: they are drunk for 3 nights & 3 days.",
+    "ability": "یک بار در بازی، در شب، شخصیتی را انتخاب کن: او برای ۳ شب و ۳ روز مست است.",
     "edition": "bmr",
     "firstNight": 19,
     "firstNightReminder": "The Courtier either shows a 'no' head signal, or points to a character on the sheet. If the Courtier used their ability: If that character is in play, that player is drunk.",
     "id": "fa_IR_courtier",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/courtier.png?raw=true",
-    "name": "Courtier",
+    "name": "ندیم",
     "otherNight": 10,
     "otherNightReminder": "Reduce the remaining number of days the marked player is poisoned. If the Courtier has not yet used their ability: The Courtier either shows a 'no' head signal, or points to a character on the sheet. If the Courtier used their ability: If that character is in play, that player is drunk.",
     "reminders": [
@@ -83,13 +83,13 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, choose a living player (different to last night): if executed tomorrow, they don't die.",
+    "ability": "هر شب، یک بازیکن زنده (متفاوت از شب گذشته)  را انتخاب کنید: اگر او فردا اعدام شود، نمی‌میرد.",
     "edition": "bmr",
     "firstNight": 22,
     "firstNightReminder": "The Devil’s Advocate points to a living player. That player survives execution tomorrow.",
     "id": "fa_IR_devilsadvocate",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/devilsadvocate.png?raw=true",
-    "name": "Devil's Advocate",
+    "name": "مدافع شیطان",
     "otherNight": 14,
     "otherNightReminder": "The Devil’s Advocate points to a living player, different from the previous night. That player survives execution tomorrow.",
     "reminders": [
@@ -115,7 +115,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "The first time you die, you don't.",
+    "ability": "اولین باری که بمیرید، نمی‌میرید.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -131,7 +131,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, choose a player & guess their character: if you guess wrong, you die.",
+    "ability": "هر شب*، یک بازیکن را انتخاب کنید و شخصیتش را حدس بزنید: اگر اشتباه حدس زدید، می‌میرید.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -157,8 +157,8 @@
     "otherNight": 38,
     "otherNightReminder": "If an Outsider died today: The Godfather points to a player. That player dies.",
     "reminders": [
-      "Dead",
-      "Died today"
+      "امروز مرد",
+      "مرده"
     ],
     "setup": true,
     "team": "minion"
@@ -218,7 +218,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_innkeeper",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/innkeeper.png?raw=true",
-    "name": "Innkeeper",
+    "name": "مهمان‌خانه‌چی",
     "otherNight": 9,
     "otherNightReminder": "The previously protected and drunk players lose those markers. The Innkeeper points to two players. Those players are protected. One is drunk.",
     "reminders": [
@@ -282,7 +282,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_matron",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/matron.png?raw=true",
-    "name": "Matron",
+    "name": "کدبانو",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -342,7 +342,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_po",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/po.png?raw=true",
-    "name": "Po",
+    "name": "پو",
     "otherNight": 28,
     "otherNightReminder": "If the Po chose no-one the previous night: The Po points to three players. Otherwise: The Po either shows the 'no' head signal , or points to a player. Chosen players die",
     "reminders": [
@@ -376,7 +376,7 @@
     "firstNightReminder": "The Pukka points to a player. That player is poisoned.",
     "id": "fa_IR_pukka",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pukka.png?raw=true",
-    "name": "Pukka",
+    "name": "پوکا",
     "otherNight": 26,
     "otherNightReminder": "The Pukka points to a player. That player is poisoned. The previously poisoned player dies.",
     "reminders": [
@@ -409,7 +409,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_shabaloth",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/shabaloth.png?raw=true",
-    "name": "Shabaloth",
+    "name": "شَبَلُف",
     "otherNight": 27,
     "otherNightReminder": "One player that the Shabaloth chose the previous night might be resurrected. The Shabaloth points to two players. Those players die.",
     "reminders": [

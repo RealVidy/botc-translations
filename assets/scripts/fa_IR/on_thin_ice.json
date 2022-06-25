@@ -1,6 +1,6 @@
 [
   {
-    "ability": "Once per game, during the day, privately ask the Storyteller any yes/no question.",
+    "ability": "یکبار در بازی، از داستان‌سرا به صورت خصوصی یک سوال بله/خیر بپرسید.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -164,7 +164,7 @@
     "firstNightReminder": "The Pukka points to a player. That player is poisoned.",
     "id": "fa_IR_pukka",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pukka.png?raw=true",
-    "name": "Pukka",
+    "name": "پوکا",
     "otherNight": 26,
     "otherNightReminder": "The Pukka points to a player. That player is poisoned. The previously poisoned player dies.",
     "reminders": [

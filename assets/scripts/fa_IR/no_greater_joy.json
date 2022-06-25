@@ -1,6 +1,6 @@
 [
   {
-    "ability": "You start knowing how many steps from the Demon to its nearest Minion.",
+    "ability": "شما در ابتدا می‌دانید که فاصله شیطان با نزدیک‌ترین مریدش چند است.",
     "edition": "snv",
     "firstNight": 40,
     "firstNightReminder": "Show the hand signal for the number (1, 2, 3, etc.) of places from Demon to closest Minion.",
@@ -24,8 +24,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Minion",
-      "Wrong"
+      "اشتباه",
+      "مرید"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -37,7 +37,7 @@
     "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath.",
     "id": "fa_IR_empath",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
-    "name": "Empath",
+    "name": "همدل",
     "otherNight": 53,
     "otherNightReminder": "Show the finger signal (0, 1, 2) for the number of evil neighbours.",
     "reminders": [],
@@ -45,7 +45,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, choose 2 alive players (not yourself): you learn how many woke tonight due to their ability.",
+    "ability": "هر شب، ۲ بازیکن زنده (بجز خودتان) را انتخاب کنید: شما می‌فهمید چند نفر از آنها امشب به خاطر قابلیتشان بیدار شده‌اند.",
     "edition": "bmr",
     "firstNight": 50,
     "firstNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, …) for how many of those players wake tonight for their ability.",
@@ -59,7 +59,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, during the day, privately ask the Storyteller any yes/no question.",
+    "ability": "یکبار در بازی، از داستان‌سرا به صورت خصوصی یک سوال بله/خیر بپرسید.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -89,7 +89,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not.",
+    "ability": "شما نمی‌دانید که مست هستید. شما فکر می‌کنید شهروند هستید ولی نیستید.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -142,7 +142,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_baron",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/baron.png?raw=true",
-    "name": "بارون",
+    "name": "بارُن",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -156,7 +156,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_imp",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/imp.png?raw=true",
-    "name": "Imp",
+    "name": "جن‌",
     "otherNight": 24,
     "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
     "reminders": [
