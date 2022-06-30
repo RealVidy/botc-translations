@@ -14,7 +14,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You start knowing that 1 of 2 players is a particular Outsider. (Or that zero are in play.)",
+    "ability": "شما در ابتدا می‌دانید یکی از دو بازیکن یک بیگانه خاص است. (یا بیگانه‌ای در بازی نیست.)",
     "edition": "tb",
     "firstNight": 33,
     "firstNightReminder": "Show the character token of an Outsider in play. Point to two players, one of which is that character.",
@@ -24,14 +24,14 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Outsider",
-      "Wrong"
+      "بیگانه",
+      "غلط"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "You start knowing 3 players, 1 and only 1 of which is evil.",
+    "ability": "شما در ابتدا سه بازیکن را می‌بینید، ۱ و فقط ۱ نفر از آنها شر است.",
     "edition": "",
     "firstNight": 43,
     "firstNightReminder": "Point to 3 players including one evil player, in no particular order.",
@@ -41,7 +41,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Seen"
+      "دیده"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -78,7 +78,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, you learn how many of your 2 alive neighbours are evil.",
+    "ability": "هر شب، شما می‌فهمید چند نفر از ۲ همسایه زنده شما شر هستند.",
     "edition": "tb",
     "firstNight": 36,
     "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath.",
@@ -297,7 +297,7 @@
     "team": "minion"
   },
   {
-    "ability": "Each night, choose a player & a good character: they are “mad” they are this character tomorrow, or might be executed.",
+    "ability": "هر شب، یک بازیکن و یک شخصیت را انتخاب کنید: او فردا «دیوانه» آن شخصیت می‌شود یا ممکن است اعدام شود.",
     "edition": "snv",
     "firstNight": 25,
     "firstNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
@@ -313,7 +313,7 @@
     "team": "minion"
   },
   {
-    "ability": "Each night*, choose a player & a character they become (if not-in-play). If a Demon is made, deaths tonight are arbitrary.",
+    "ability": "هر شب*، یک بازیکن و یک شخصیت را انتخاب کنید. (اگر آن شخصیت در بازی نباشد) او تبدیل به آن شخصیت می‌شود. اگر شیطان جدیدی ایجاد شود، مرگ‌ها در شب  به دلخواه  داستان‌سرا خواهد بود.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -327,7 +327,7 @@
     "team": "minion"
   },
   {
-    "ability": "You start knowing which Outsiders are in play. If 1 died today, choose a player tonight: they die. [−1 or +1 Outsider]",
+    "ability": "شما در ابتدا می‌دانید چه بیگانگانی در بازی هستند. اگر بیگانه‌ای در روز بمیرد، در شب بازیکنی را انتخاب کنید. او می‌میرد. [-۱ یا +۱ بیگانه]",
     "edition": "bmr",
     "firstNight": 21,
     "firstNightReminder": "Show each of the Outsider tokens in play.",
@@ -361,7 +361,7 @@
     "team": "demon"
   },
   {
-    "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp.",
+    "ability": "هر شب*، یک بازیکن را انتخاب کنید: او می‌میرد. اگر خود را انتخاب کنید، یکی از مریدان به جن تبدیل می‌شود.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",

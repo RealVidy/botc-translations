@@ -1,6 +1,6 @@
 [
   {
-    "ability": "در شب اول، شما قابلیت یک شهروند (اگر خوب هستید)، یا یک میرد (اگر بد هستید) را به دست می‌آورید.",
+    "ability": "در شب اول، شما قابلیت یک شهروند (اگر خیر هستید)، یا یک میرد (اگر شر هستید) را به دست می‌آورید.",
     "edition": "bmr",
     "firstNight": 1,
     "firstNightReminder": "Show the Apprentice the 'You are' card, then a Townsfolk or Minion token. In the Grimoire, replace the Apprentice token with that character token, and put the Apprentice's 'Is the Apprentice' reminder by that character token.",
@@ -43,8 +43,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "کاندید بد",
-      "کاندید خوب"
+      "کاندید خیر",
+      "کاندید شر"
     ],
     "setup": false,
     "team": "traveler"
@@ -147,7 +147,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You start knowing which Outsiders are in play. If 1 died today, choose a player tonight: they die. [−1 or +1 Outsider]",
+    "ability": "شما در ابتدا می‌دانید چه بیگانگانی در بازی هستند. اگر بیگانه‌ای در روز بمیرد، در شب بازیکنی را انتخاب کنید. او می‌میرد. [-۱ یا +۱ بیگانه]",
     "edition": "bmr",
     "firstNight": 21,
     "firstNightReminder": "Show each of the Outsider tokens in play.",
@@ -164,7 +164,7 @@
     "team": "minion"
   },
   {
-    "ability": "Each night, the 1st player to choose you with their ability is drunk until dusk. You become their alignment.",
+    "ability": "هر شب، اولین بازیکنی که شما را با قابلیتش انتخاب کند تا غروب مست می‌شود. شما در تیم او قرار می‌گیرید.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -180,7 +180,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Each day, you may make a public statement. Tonight, if it was true, a player dies.",
+    "ability": "هرروز، شما می‌توانید یک اعلام عمومی انجام دهید. امشب، اگر اعلامیه شما درست باشد، یک بازیکن می‌میرد.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -196,7 +196,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You start knowing a good player & their character. If the Demon kills them, you die too.",
+    "ability": "شما بازی را با دانستن یک بازیکن خیر و شخصیتش آغاز می‌کنید. اگر شیطان او را بکشد، شما هم می‌میرید.",
     "edition": "bmr",
     "firstNight": 39,
     "firstNightReminder": "Show the marked character token. Point to the marked player.",
@@ -212,7 +212,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, choose 2 players: they can't die tonight, but 1 is drunk until dusk.",
+    "ability": "هر شب*، ۲ بازیکن را انتخاب کنید: آنها امشب نمی‌میرند ولی ۱ نفر از آنها تا غروب مست خواهد بود.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -244,7 +244,7 @@
     "team": "traveler"
   },
   {
-    "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night.",
+    "ability": "شما فکر می‌کنید شیطان هستید، ولی نیستید. شیطان می‌داند شما چه‌کسی هستید و هرشب چه‌کسی را انتخاب می‌کنید.",
     "edition": "bmr",
     "firstNight": 7,
     "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
@@ -316,13 +316,13 @@
     "otherNight": 49,
     "otherNightReminder": "If the Moonchild used their ability to target a player today: If that player is good, they die.",
     "reminders": [
-      "Dead"
+      "مرده"
     ],
     "setup": false,
     "team": "outsider"
   },
   {
-    "ability": "Executed good players might not die.",
+    "ability": "ممکن است بازیکنان خیر اعدام شده نمیرند.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -442,7 +442,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_tinker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/tinker.png?raw=true",
-    "name": "Tinker",
+    "name": "وصال",
     "otherNight": 48,
     "otherNightReminder": "The Tinker might die.",
     "reminders": [
@@ -452,7 +452,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Only you and the dead can vote. They don't need a vote token to do so. A 50% majority is not required.",
+    "ability": "فقط شما و مردگان حق رای‌دادن دارید. مردگان نیازی به ژتون برای رای دادن  ندارند. اکثریت ۵۰٪ نیاز نیست.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -466,7 +466,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Each night*, if no-one died today, choose a player: they die. The 1st time you die, you live but register as dead.",
+    "ability": "هر شب*، اگر در روز کسی نمرد، بازیکنی را انتخاب کنید: او می‌میرد. اولین باری که بمیرید، نمردید ولی به نظر مرده میایید.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",

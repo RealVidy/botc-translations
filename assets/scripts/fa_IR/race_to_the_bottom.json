@@ -14,7 +14,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, you learn how many of your 2 alive neighbours are evil.",
+    "ability": "هر شب، شما می‌فهمید چند نفر از ۲ همسایه زنده شما شر هستند.",
     "edition": "tb",
     "firstNight": 36,
     "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath.",
@@ -91,7 +91,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night.",
+    "ability": "شما فکر می‌کنید شیطان هستید، ولی نیستید. شیطان می‌داند شما چه‌کسی هستید و هرشب چه‌کسی را انتخاب می‌کنید.",
     "edition": "bmr",
     "firstNight": 7,
     "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",

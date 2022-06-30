@@ -17,7 +17,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You start knowing 3 players, 1 and only 1 of which is evil.",
+    "ability": "شما در ابتدا سه بازیکن را می‌بینید، ۱ و فقط ۱ نفر از آنها شر است.",
     "edition": "",
     "firstNight": 43,
     "firstNightReminder": "Point to 3 players including one evil player, in no particular order.",
@@ -27,7 +27,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Seen"
+      "دیده"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -50,7 +50,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]",
+    "ability": "شما در ابتدا ۱ بازیکن شر  را می‌شناسید. اگر او بمیرد، شما در شب بازیکن شر جدیدی را می‌شناسید. [۱ شهروند بد است]",
     "edition": "",
     "firstNight": 45,
     "firstNightReminder": "Point to 1 evil player. Wake the townsfolk who is evil and show them the 'You are' card and the thumbs down evil sign.",
@@ -66,7 +66,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, you learn how many of your 2 alive neighbours are evil.",
+    "ability": "هر شب، شما می‌فهمید چند نفر از ۲ همسایه زنده شما شر هستند.",
     "edition": "tb",
     "firstNight": 36,
     "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath.",
@@ -80,7 +80,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, you learn 1 player of each character type, until there are no more types to learn. [+1 Outsider]",
+    "ability": "هر شب، یک بازیکن از هر نوع شخصیت به شما معرفی می‌شود تا نوعی باقی نماند. [+۱ بیگانه]",
     "edition": "",
     "firstNight": 44,
     "firstNightReminder": "Choose a character type. Point to a player whose character is of that type. Place the Balloonist's Seen reminder next to that character.",
@@ -116,7 +116,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each day, you may make a public statement. Tonight, if it was true, a player dies.",
+    "ability": "هرروز، شما می‌توانید یک اعلام عمومی انجام دهید. امشب، اگر اعلامیه شما درست باشد، یک بازیکن می‌میرد.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -174,14 +174,14 @@
     "otherNight": 2,
     "otherNightReminder": "If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
     "reminders": [
-      "Drunk",
-      "Is the Philosopher"
+      "فیلسوف",
+      "مست"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, at night, choose a living player: the Damsel, if chosen, becomes a not-in-play Townsfolk. [+the Damsel]",
+    "ability": "یکبار در بازی، در شب، یک بازیکن زنده را انتخاب کنید: اگر انتخاب شما دوشیزه بود، او تبدیل به یک شهروند جدید می‌شود. [+دوشیزه]",
     "edition": "",
     "firstNight": 30,
     "firstNightReminder": "The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",
@@ -213,7 +213,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, the 1st player to choose you with their ability is drunk until dusk. You become their alignment.",
+    "ability": "هر شب، اولین بازیکنی که شما را با قابلیتش انتخاب کند تا غروب مست می‌شود. شما در تیم او قرار می‌گیرید.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -276,7 +276,7 @@
     "team": "outsider"
   },
   {
-    "ability": "You start knowing which Outsiders are in play. If 1 died today, choose a player tonight: they die. [−1 or +1 Outsider]",
+    "ability": "شما در ابتدا می‌دانید چه بیگانگانی در بازی هستند. اگر بیگانه‌ای در روز بمیرد، در شب بازیکنی را انتخاب کنید. او می‌میرد. [-۱ یا +۱ بیگانه]",
     "edition": "bmr",
     "firstNight": 21,
     "firstNightReminder": "Show each of the Outsider tokens in play.",
@@ -315,7 +315,7 @@
     "firstNightReminder": "The Fearmonger points to a player. Place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",
     "id": "fa_IR_fearmonger",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fearmonger.png?raw=true",
-    "name": "Fearmonger",
+    "name": "هراس‌افروز",
     "otherNight": 18,
     "otherNightReminder": "The Fearmonger points to a player. If different from the previous night, place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",
     "reminders": [
@@ -325,7 +325,7 @@
     "team": "minion"
   },
   {
-    "ability": "If you publicly claim to be the Goblin when nominated & are executed that day, your team wins.",
+    "ability": "اگر در هنگام کاندیدا شدن به صورت عمومی ادعای گابلین بود بکنید و اعدام شوید، تیم شما برنده می‌شود.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -335,7 +335,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Claimed"
+      "مدعی"
     ],
     "setup": false,
     "team": "minion"

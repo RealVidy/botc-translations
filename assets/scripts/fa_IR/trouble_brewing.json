@@ -1,6 +1,6 @@
 [
   {
-    "ability": "There are extra Outsiders in play. [+2 Outsiders]",
+    "ability": "بیگانه‌های بیشتری در بازی هستند. [+۲ بیگانه]",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -14,7 +14,7 @@
     "team": "minion"
   },
   {
-    "ability": "You must use a vote token to vote. Dead players may choose to give you theirs. If so, you learn their alignment.",
+    "ability": "شما فقط با  ژتون رای می‌توانید رای دهید. بازیکنان مرده می‌توانند ژتون خود را به شما دهند. در این صورت تیم آنها را می‌فهمید.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -60,7 +60,7 @@
     "team": "outsider"
   },
   {
-    "ability": "شما در ابتدا می‌دانید چند زوج بازیکن بد در بازی وجود دارد.",
+    "ability": "شما در ابتدا می‌دانید چند زوج بازیکن شر در بازی وجود دارد.",
     "edition": "tb",
     "firstNight": 35,
     "firstNightReminder": "Show the finger signal (0, 1, 2, …) for the number of pairs of neighbouring evil players.",
@@ -91,7 +91,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Each night, you learn how many of your 2 alive neighbours are evil.",
+    "ability": "هر شب، شما می‌فهمید چند نفر از ۲ همسایه زنده شما شر هستند.",
     "edition": "tb",
     "firstNight": 36,
     "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath.",
@@ -121,7 +121,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each day, after the 1st vote has been tallied, you may choose a player that voted: they die.",
+    "ability": "هر روز، بعد از اولین رای‌گیری، شما می‌توانیید ۱ نفر از رای‌دهندگان را انتخاب کنید. او می‌میرد.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -135,7 +135,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp.",
+    "ability": "هر شب*، یک بازیکن را انتخاب کنید: او می‌میرد. اگر خود را انتخاب کنید، یکی از مریدان به جن تبدیل می‌شود.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -151,7 +151,7 @@
     "team": "demon"
   },
   {
-    "ability": "You start knowing that 1 of 2 players is a particular Minion.",
+    "ability": "شما در ابتدا می‌دانید یکی از دو بازیکن یک مرید خاص است.",
     "edition": "tb",
     "firstNight": 34,
     "firstNightReminder": "Show the character token of a Minion in play. Point to two players, one of which is that character.",
@@ -168,7 +168,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You start knowing that 1 of 2 players is a particular Outsider. (Or that zero are in play.)",
+    "ability": "شما در ابتدا می‌دانید یکی از دو بازیکن یک بیگانه خاص است. (یا بیگانه‌ای در بازی نیست.)",
     "edition": "tb",
     "firstNight": 33,
     "firstNightReminder": "Show the character token of an Outsider in play. Point to two players, one of which is that character.",
@@ -178,8 +178,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Outsider",
-      "Wrong"
+      "بیگانه",
+      "غلط"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -395,7 +395,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You start knowing that 1 of 2 players is a particular Townsfolk.",
+    "ability": "شما در ابتدا می‌دانید یکی از دو بازیکن یک شهروند خاص است.",
     "edition": "tb",
     "firstNight": 32,
     "firstNightReminder": "Show the character token of a Townsfolk in play. Point to two players, one of which is that character.",

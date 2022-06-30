@@ -62,7 +62,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, you learn 1 player of each character type, until there are no more types to learn. [+1 Outsider]",
+    "ability": "Ogni notte, apprendi 1 giocatore di ogni tipo di ruolo, finché non ci sono più tipologie da apprendere. [+1 Forestiero]",
     "edition": "",
     "firstNight": 44,
     "firstNightReminder": "Scegli un tipo di personaggo. Indica un giocatore che è di quel tipo. Affiancagli il promemoria \"Visto\" di quel tipo.",
@@ -328,7 +328,7 @@
     "team": "minion"
   },
   {
-    "ability": "Once per game, at night*, choose a player: they die, even if for some reason they could not.",
+    "ability": "Una volta durante il gioco, di notte*, scegli un giocatore: muore, anche se per qualche ragione sopravvivrebbe.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -336,7 +336,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/assassin.png?raw=true",
     "name": "Assassino",
     "otherNight": 37,
-    "otherNightReminder": "If the Assassin has not yet used their ability: The Assassin either shows the 'no' head signal, or points to a player. That player dies.",
+    "otherNightReminder": "Se l'Assassino non ha ancora usato la sua abilità: l'Assassino fa \"no\" con la testa, o indica un giocatore. Quel giocatore muore.",
     "reminders": [
       "Morto",
       "Nessuna Abilità"

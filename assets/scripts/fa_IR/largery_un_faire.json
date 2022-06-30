@@ -1,6 +1,6 @@
 [
   {
-    "ability": "Each night, you learn how many of your 2 alive neighbours are evil.",
+    "ability": "هر شب، شما می‌فهمید چند نفر از ۲ همسایه زنده شما شر هستند.",
     "edition": "tb",
     "firstNight": 36,
     "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath.",
@@ -102,8 +102,8 @@
     "otherNight": 2,
     "otherNightReminder": "If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
     "reminders": [
-      "Drunk",
-      "Is the Philosopher"
+      "فیلسوف",
+      "مست"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -125,7 +125,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, you learn 1 player of each character type, until there are no more types to learn. [+1 Outsider]",
+    "ability": "هر شب، یک بازیکن از هر نوع شخصیت به شما معرفی می‌شود تا نوعی باقی نماند. [+۱ بیگانه]",
     "edition": "",
     "firstNight": 44,
     "firstNightReminder": "Choose a character type. Point to a player whose character is of that type. Place the Balloonist's Seen reminder next to that character.",
@@ -161,7 +161,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "شما قابلیت فرد تازه اعدام شده را دارید. اگر او بد باشد، شما تا وقتی بازیکن خوبی اعدام شود مسموم هستید.",
+    "ability": "شما قابلیت فرد تازه اعدام شده را دارید. اگر او شر باشد، شما تا وقتی بازیکن خیری اعدام شود مسموم هستید.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -239,7 +239,7 @@
     "team": "outsider"
   },
   {
-    "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night.",
+    "ability": "شما فکر می‌کنید شیطان هستید، ولی نیستید. شیطان می‌داند شما چه‌کسی هستید و هرشب چه‌کسی را انتخاب می‌کنید.",
     "edition": "bmr",
     "firstNight": 7,
     "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
@@ -271,7 +271,7 @@
     "team": "outsider"
   },
   {
-    "ability": "There are extra Outsiders in play. [+2 Outsiders]",
+    "ability": "بیگانه‌های بیشتری در بازی هستند. [+۲ بیگانه]",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -301,7 +301,7 @@
     "team": "minion"
   },
   {
-    "ability": "If you publicly claim to be the Goblin when nominated & are executed that day, your team wins.",
+    "ability": "اگر در هنگام کاندیدا شدن به صورت عمومی ادعای گابلین بود بکنید و اعدام شوید، تیم شما برنده می‌شود.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -311,7 +311,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Claimed"
+      "مدعی"
     ],
     "setup": false,
     "team": "minion"
@@ -342,11 +342,11 @@
     "firstNightReminder": "Place the Leviathan 'Day 1' marker. Announce 'The Leviathan is in play; this is Day 1.'",
     "id": "fa_IR_leviathan",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/leviathan.png?raw=true",
-    "name": "لویاتان",
+    "name": "لِویاتان",
     "otherNight": 73,
     "otherNightReminder": "Change the Leviathan Day reminder for the next day.",
     "reminders": [
-      "بازیکن خوب اعدام شد",
+      "بازیکن خیر اعدام شد",
       "روز ۱",
       "روز ۲",
       "روز ۳",

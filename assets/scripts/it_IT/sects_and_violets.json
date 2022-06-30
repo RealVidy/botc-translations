@@ -16,7 +16,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "If you died today or tonight, the Demon may choose 2 players (not another Demon) to swap characters.",
+    "ability": "Se sei morto oggi o stanotte, il Demone può scegliere 2 giocatori (non un altro Demone) per scambiare i loro ruoli.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -24,7 +24,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/barber.png?raw=true",
     "name": "Barbiere",
     "otherNight": 40,
-    "otherNightReminder": "If the Barber died today: Wake the Demon. Show the 'This character selected you' card, then Barber token. The Demon either shows a 'no' head signal, or points to 2 players. If they chose players: Swap the character tokens. Wake each player. Show 'You are', then their new character token.",
+    "otherNightReminder": "Se il Barbiere è morto oggi: sveglia il Demone. Mostra la carta \"Questo personaggio ti ha scelto\", seguito dal gettone del Barbiere. Il Demone fa \"no\" con la testa, oppure indica 2 giocatori: se li ha indicati, scambia i loro ruoli; sveglia entrambi i giocatori signolarmente e comunica il nuovo ruolo.",
     "reminders": [
       "Taglio Stanotte"
     ],
@@ -32,7 +32,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Each night, until dusk, 1) a player becomes sober, healthy and gets true info, or 2) their ability works twice. They learn which.",
+    "ability": "Ogni notte, fino al tramonto, un giocatore: 1) Diventa sobrio, salubre e ottiene informazioni corrette, oppure 2) La sua abilità funziona due volte. Egli apprende quale delle due.",
     "edition": "snv",
     "firstNight": 1,
     "firstNightReminder": "Scegli un giocatore, sveglialo e digli quale potere del Barista lo affligge. Trattalo di conseguenza (Sobrio/Salube/Informazione veritiera OPPURE Abilità doppia)or activate their ability twice).",
@@ -49,7 +49,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Once per game, at night, choose a dead player: they regain their ability until dusk.",
+    "ability": "Una volta durante la partita, di notte, scegli un giocatore morto: riacquisisce la sua abilità fino al tramonto.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",

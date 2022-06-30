@@ -1,6 +1,6 @@
 [
   {
-    "ability": "You start knowing 3 players, 1 and only 1 of which is evil.",
+    "ability": "شما در ابتدا سه بازیکن را می‌بینید، ۱ و فقط ۱ نفر از آنها شر است.",
     "edition": "",
     "firstNight": 43,
     "firstNightReminder": "Point to 3 players including one evil player, in no particular order.",
@@ -10,7 +10,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Seen"
+      "دیده"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -33,7 +33,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "شما در ابتدا می‌دانید چند زوج بازیکن بد در بازی وجود دارد.",
+    "ability": "شما در ابتدا می‌دانید چند زوج بازیکن شر در بازی وجود دارد.",
     "edition": "tb",
     "firstNight": 35,
     "firstNightReminder": "Show the finger signal (0, 1, 2, …) for the number of pairs of neighbouring evil players.",
@@ -63,7 +63,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, you learn 1 player of each character type, until there are no more types to learn. [+1 Outsider]",
+    "ability": "هر شب، یک بازیکن از هر نوع شخصیت به شما معرفی می‌شود تا نوعی باقی نماند. [+۱ بیگانه]",
     "edition": "",
     "firstNight": 44,
     "firstNightReminder": "Choose a character type. Point to a player whose character is of that type. Place the Balloonist's Seen reminder next to that character.",
@@ -99,7 +99,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, you learn how many of your 2 alive neighbours are evil.",
+    "ability": "هر شب، شما می‌فهمید چند نفر از ۲ همسایه زنده شما شر هستند.",
     "edition": "tb",
     "firstNight": 36,
     "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath.",
@@ -113,7 +113,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each day, you may make a public statement. Tonight, if it was true, a player dies.",
+    "ability": "هرروز، شما می‌توانید یک اعلام عمومی انجام دهید. امشب، اگر اعلامیه شما درست باشد، یک بازیکن می‌میرد.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -143,7 +143,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, at night, choose a living player: the Damsel, if chosen, becomes a not-in-play Townsfolk. [+the Damsel]",
+    "ability": "یکبار در بازی، در شب، یک بازیکن زنده را انتخاب کنید: اگر انتخاب شما دوشیزه بود، او تبدیل به یک شهروند جدید می‌شود. [+دوشیزه]",
     "edition": "",
     "firstNight": 30,
     "firstNightReminder": "The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",
@@ -219,7 +219,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Each night, the 1st player to choose you with their ability is drunk until dusk. You become their alignment.",
+    "ability": "هر شب، اولین بازیکنی که شما را با قابلیتش انتخاب کند تا غروب مست می‌شود. شما در تیم او قرار می‌گیرید.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -249,7 +249,7 @@
     "team": "outsider"
   },
   {
-    "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night.",
+    "ability": "شما فکر می‌کنید شیطان هستید، ولی نیستید. شیطان می‌داند شما چه‌کسی هستید و هرشب چه‌کسی را انتخاب می‌کنید.",
     "edition": "bmr",
     "firstNight": 7,
     "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
@@ -284,7 +284,7 @@
     "team": "outsider"
   },
   {
-    "ability": "You start knowing which Outsiders are in play. If 1 died today, choose a player tonight: they die. [−1 or +1 Outsider]",
+    "ability": "شما در ابتدا می‌دانید چه بیگانگانی در بازی هستند. اگر بیگانه‌ای در روز بمیرد، در شب بازیکنی را انتخاب کنید. او می‌میرد. [-۱ یا +۱ بیگانه]",
     "edition": "bmr",
     "firstNight": 21,
     "firstNightReminder": "Show each of the Outsider tokens in play.",
@@ -301,7 +301,7 @@
     "team": "minion"
   },
   {
-    "ability": "Each night, choose a player & a good character: they are “mad” they are this character tomorrow, or might be executed.",
+    "ability": "هر شب، یک بازیکن و یک شخصیت را انتخاب کنید: او فردا «دیوانه» آن شخصیت می‌شود یا ممکن است اعدام شود.",
     "edition": "snv",
     "firstNight": 25,
     "firstNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
@@ -333,7 +333,7 @@
     "team": "minion"
   },
   {
-    "ability": "If you publicly claim to be the Goblin when nominated & are executed that day, your team wins.",
+    "ability": "اگر در هنگام کاندیدا شدن به صورت عمومی ادعای گابلین بود بکنید و اعدام شوید، تیم شما برنده می‌شود.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -343,13 +343,13 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Claimed"
+      "مدعی"
     ],
     "setup": false,
     "team": "minion"
   },
   {
-    "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp.",
+    "ability": "هر شب*، یک بازیکن را انتخاب کنید: او می‌میرد. اگر خود را انتخاب کنید، یکی از مریدان به جن تبدیل می‌شود.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -392,8 +392,8 @@
     "otherNight": 35,
     "otherNightReminder": "The Lleech points to a player. That player dies.",
     "reminders": [
-      "Dead",
-      "Poisoned"
+      "مرده",
+      "مسموم"
     ],
     "setup": false,
     "team": "demon"

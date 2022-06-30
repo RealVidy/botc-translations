@@ -49,7 +49,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "The Storyteller can break the game rules & if executed, good wins, even if you are dead [No evil characters]",
+    "ability": "Lo Storyteller può violare le regole del gioco & se giustiziato, il bene vince, anche se sei morto. [Nessun malvagio]",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -63,7 +63,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, you learn 1 player of each character type, until there are no more types to learn. [+1 Outsider]",
+    "ability": "Ogni notte, apprendi 1 giocatore di ogni tipo di ruolo, finché non ci sono più tipologie da apprendere. [+1 Forestiero]",
     "edition": "",
     "firstNight": 44,
     "firstNightReminder": "Scegli un tipo di personaggo. Indica un giocatore che è di quel tipo. Affiancagli il promemoria \"Visto\" di quel tipo.",
@@ -956,7 +956,7 @@
     "team": "outsider"
   },
   {
-    "ability": "If you died today or tonight, the Demon may choose 2 players (not another Demon) to swap characters.",
+    "ability": "Se sei morto oggi o stanotte, il Demone può scegliere 2 giocatori (non un altro Demone) per scambiare i loro ruoli.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -964,7 +964,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/barber.png?raw=true",
     "name": "Barbiere",
     "otherNight": 40,
-    "otherNightReminder": "If the Barber died today: Wake the Demon. Show the 'This character selected you' card, then Barber token. The Demon either shows a 'no' head signal, or points to 2 players. If they chose players: Swap the character tokens. Wake each player. Show 'You are', then their new character token.",
+    "otherNightReminder": "Se il Barbiere è morto oggi: sveglia il Demone. Mostra la carta \"Questo personaggio ti ha scelto\", seguito dal gettone del Barbiere. Il Demone fa \"no\" con la testa, oppure indica 2 giocatori: se li ha indicati, scambia i loro ruoli; sveglia entrambi i giocatori signolarmente e comunica il nuovo ruolo.",
     "reminders": [
       "Taglio Stanotte"
     ],
@@ -1234,7 +1234,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Once per game, at night*, choose a player: they die, even if for some reason they could not.",
+    "ability": "Una volta durante il gioco, di notte*, scegli un giocatore: muore, anche se per qualche ragione sopravvivrebbe.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -1242,7 +1242,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/assassin.png?raw=true",
     "name": "Assassino",
     "otherNight": 37,
-    "otherNightReminder": "If the Assassin has not yet used their ability: The Assassin either shows the 'no' head signal, or points to a player. That player dies.",
+    "otherNightReminder": "Se l'Assassino non ha ancora usato la sua abilità: l'Assassino fa \"no\" con la testa, o indica un giocatore. Quel giocatore muore.",
     "reminders": [
       "Morto",
       "Nessuna Abilità"
@@ -1251,7 +1251,7 @@
     "team": "minion"
   },
   {
-    "ability": "There are extra Outsiders in play. [+2 Outsiders]",
+    "ability": "Ci sono Forestieri aggiuntivi in gioco. [+2 Forestieri]",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -1808,7 +1808,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Each night, until dusk, 1) a player becomes sober, healthy and gets true info, or 2) their ability works twice. They learn which.",
+    "ability": "Ogni notte, fino al tramonto, un giocatore: 1) Diventa sobrio, salubre e ottiene informazioni corrette, oppure 2) La sua abilità funziona due volte. Egli apprende quale delle due.",
     "edition": "snv",
     "firstNight": 1,
     "firstNightReminder": "Scegli un giocatore, sveglialo e digli quale potere del Barista lo affligge. Trattalo di conseguenza (Sobrio/Salube/Informazione veritiera OPPURE Abilità doppia)or activate their ability twice).",
@@ -1825,7 +1825,7 @@
     "team": "traveler"
   },
   {
-    "ability": "You must use a vote token to vote. Dead players may choose to give you theirs. If so, you learn their alignment. You are sober & healthy.",
+    "ability": "Devi usare un gettone di voto per votare. I morti possono scegliere di darti il loro gettone. Se lo fanno, apprendi il loro allineamento. Sei sobrio & salubre.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -1839,7 +1839,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Only the Storyteller can nominate. At least 1 opposite player must be nominated each day.",
+    "ability": "Solo lo Storyteller può nominare. Almeno 1 giocatore di allineamento opposto al tuo dev'essere nominato ogni giorno.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -1849,14 +1849,14 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Nominate Bene",
+      "Nominato Bene",
       "Nominato Male"
     ],
     "setup": false,
     "team": "traveler"
   },
   {
-    "ability": "Once per game, at night, choose a dead player: they regain their ability until dusk.",
+    "ability": "Una volta durante la partita, di notte, scegli un giocatore morto: riacquisisce la sua abilità fino al tramonto.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",

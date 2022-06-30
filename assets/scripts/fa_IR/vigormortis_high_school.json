@@ -1,6 +1,6 @@
 [
   {
-    "ability": "شما در ابتدا می‌دانید چند زوج بازیکن بد در بازی وجود دارد.",
+    "ability": "شما در ابتدا می‌دانید چند زوج بازیکن شر در بازی وجود دارد.",
     "edition": "tb",
     "firstNight": 35,
     "firstNightReminder": "Show the finger signal (0, 1, 2, …) for the number of pairs of neighbouring evil players.",
@@ -30,7 +30,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, you learn how many dead players are evil.",
+    "ability": "هر شب*، شما می‌فهمید چند نفر از بازیکنان مرده شر هستند.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -100,7 +100,7 @@
     "team": "outsider"
   },
   {
-    "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night.",
+    "ability": "شما فکر می‌کنید شیطان هستید، ولی نیستید. شیطان می‌داند شما چه‌کسی هستید و هرشب چه‌کسی را انتخاب می‌کنید.",
     "edition": "bmr",
     "firstNight": 7,
     "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
@@ -148,7 +148,7 @@
     "team": "minion"
   },
   {
-    "ability": "Each night*, if no-one died today, choose a player: they die. The 1st time you die, you live but register as dead.",
+    "ability": "هر شب*، اگر در روز کسی نمرد، بازیکنی را انتخاب کنید: او می‌میرد. اولین باری که بمیرید، نمردید ولی به نظر مرده میایید.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",

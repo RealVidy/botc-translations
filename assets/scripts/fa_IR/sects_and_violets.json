@@ -32,7 +32,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Each night, until dusk, 1) a player becomes sober, healthy and gets true info, or 2) their ability works twice. They learn which.",
+    "ability": "هر شب، تا غروب، ۱) یک بازیکن هشیار و سالم می‌شود و اطلاعات درست می‌گیرد، یا ۲) قابلیتش دو بار کار می‌کند. او می‌داند کدام رخ داده.",
     "edition": "snv",
     "firstNight": 1,
     "firstNightReminder": "Choose a player, wake them and tell them which Barista power is affecting them. Treat them accordingly (sober/healthy/true info or activate their ability twice).",
@@ -80,7 +80,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Each night, choose a player & a good character: they are “mad” they are this character tomorrow, or might be executed.",
+    "ability": "هر شب، یک بازیکن و یک شخصیت را انتخاب کنید: او فردا «دیوانه» آن شخصیت می‌شود یا ممکن است اعدام شود.",
     "edition": "snv",
     "firstNight": 25,
     "firstNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
@@ -188,7 +188,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, choose a living player: if they agree, you learn their character, but you both might die.",
+    "ability": "هر شب*، یک بازیکن زنده را انتخاب کنید. اگر او موافقت کند، شما شخصیتشان را می‌فهمید، ولی هردو ممکن است بمیرید.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -264,7 +264,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Each night*, choose a player: they die. Your 2 Townsfolk neighbours are poisoned.",
+    "ability": "هر شب*، یک بازیکن را انتخاب کنید: او می‌میرد. ۲ شهروند همسایه شما مسموم هستند.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -274,14 +274,14 @@
     "otherNight": 30,
     "otherNightReminder": "The No Dashii points to a player. That player dies.",
     "reminders": [
-      "Dead",
-      "Poisoned"
+      "مرده",
+      "مسموم"
     ],
     "setup": false,
     "team": "demon"
   },
   {
-    "ability": "Each night*, you learn how many dead players are evil.",
+    "ability": "هر شب*، شما می‌فهمید چند نفر از بازیکنان مرده شر هستند.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -305,14 +305,14 @@
     "otherNight": 2,
     "otherNightReminder": "If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
     "reminders": [
-      "Drunk",
-      "Is the Philosopher"
+      "فیلسوف",
+      "مست"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, choose a player & a character they become (if not-in-play). If a Demon is made, deaths tonight are arbitrary.",
+    "ability": "هر شب*، یک بازیکن و یک شخصیت را انتخاب کنید. (اگر آن شخصیت در بازی نباشد) او تبدیل به آن شخصیت می‌شود. اگر شیطان جدیدی ایجاد شود، مرگ‌ها در شب  به دلخواه  داستان‌سرا خواهد بود.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",

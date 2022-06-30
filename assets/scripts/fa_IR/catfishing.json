@@ -16,7 +16,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "در شب اول، شما قابلیت یک شهروند (اگر خوب هستید)، یا یک میرد (اگر بد هستید) را به دست می‌آورید.",
+    "ability": "در شب اول، شما قابلیت یک شهروند (اگر خیر هستید)، یا یک میرد (اگر شر هستید) را به دست می‌آورید.",
     "edition": "bmr",
     "firstNight": 1,
     "firstNightReminder": "Show the Apprentice the 'You are' card, then a Townsfolk or Minion token. In the Grimoire, replace the Apprentice token with that character token, and put the Apprentice's 'Is the Apprentice' reminder by that character token.",
@@ -49,7 +49,7 @@
     "team": "minion"
   },
   {
-    "ability": "Each night, you learn 1 player of each character type, until there are no more types to learn. [+1 Outsider]",
+    "ability": "هر شب، یک بازیکن از هر نوع شخصیت به شما معرفی می‌شود تا نوعی باقی نماند. [+۱ بیگانه]",
     "edition": "",
     "firstNight": 44,
     "firstNightReminder": "Choose a character type. Point to a player whose character is of that type. Place the Balloonist's Seen reminder next to that character.",
@@ -69,7 +69,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, until dusk, 1) a player becomes sober, healthy and gets true info, or 2) their ability works twice. They learn which.",
+    "ability": "هر شب، تا غروب، ۱) یک بازیکن هشیار و سالم می‌شود و اطلاعات درست می‌گیرد، یا ۲) قابلیتش دو بار کار می‌کند. او می‌داند کدام رخ داده.",
     "edition": "snv",
     "firstNight": 1,
     "firstNightReminder": "Choose a player, wake them and tell them which Barista power is affecting them. Treat them accordingly (sober/healthy/true info or activate their ability twice).",
@@ -86,7 +86,7 @@
     "team": "traveler"
   },
   {
-    "ability": "You must use a vote token to vote. Dead players may choose to give you theirs. If so, you learn their alignment.",
+    "ability": "شما فقط با  ژتون رای می‌توانید رای دهید. بازیکنان مرده می‌توانند ژتون خود را به شما دهند. در این صورت تیم آنها را می‌فهمید.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -117,7 +117,7 @@
     "team": "traveler"
   },
   {
-    "ability": "شما قابلیت فرد تازه اعدام شده را دارید. اگر او بد باشد، شما تا وقتی بازیکن خوبی اعدام شود مسموم هستید.",
+    "ability": "شما قابلیت فرد تازه اعدام شده را دارید. اگر او شر باشد، شما تا وقتی بازیکن خیری اعدام شود مسموم هستید.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -134,7 +134,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "شما در ابتدا می‌دانید چند زوج بازیکن بد در بازی وجود دارد.",
+    "ability": "شما در ابتدا می‌دانید چند زوج بازیکن شر در بازی وجود دارد.",
     "edition": "tb",
     "firstNight": 35,
     "firstNightReminder": "Show the finger signal (0, 1, 2, …) for the number of pairs of neighbouring evil players.",
@@ -228,7 +228,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You start knowing which Outsiders are in play. If 1 died today, choose a player tonight: they die. [−1 or +1 Outsider]",
+    "ability": "شما در ابتدا می‌دانید چه بیگانگانی در بازی هستند. اگر بیگانه‌ای در روز بمیرد، در شب بازیکنی را انتخاب کنید. او می‌میرد. [-۱ یا +۱ بیگانه]",
     "edition": "bmr",
     "firstNight": 21,
     "firstNightReminder": "Show each of the Outsider tokens in play.",
@@ -245,7 +245,7 @@
     "team": "minion"
   },
   {
-    "ability": "You start knowing a good player & their character. If the Demon kills them, you die too.",
+    "ability": "شما بازی را با دانستن یک بازیکن خیر و شخصیتش آغاز می‌کنید. اگر شیطان او را بکشد، شما هم می‌میرید.",
     "edition": "bmr",
     "firstNight": 39,
     "firstNightReminder": "Show the marked character token. Point to the marked player.",
@@ -261,7 +261,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, choose a living player: if they agree, you learn their character, but you both might die.",
+    "ability": "هر شب*، یک بازیکن زنده را انتخاب کنید. اگر او موافقت کند، شما شخصیتشان را می‌فهمید، ولی هردو ممکن است بمیرید.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -277,7 +277,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp.",
+    "ability": "هر شب*، یک بازیکن را انتخاب کنید: او می‌میرد. اگر خود را انتخاب کنید، یکی از مریدان به جن تبدیل می‌شود.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -293,7 +293,7 @@
     "team": "demon"
   },
   {
-    "ability": "You start knowing that 1 of 2 players is a particular Minion.",
+    "ability": "شما در ابتدا می‌دانید یکی از دو بازیکن یک مرید خاص است.",
     "edition": "tb",
     "firstNight": 34,
     "firstNightReminder": "Show the character token of a Minion in play. Point to two players, one of which is that character.",
@@ -310,7 +310,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night.",
+    "ability": "شما فکر می‌کنید شیطان هستید، ولی نیستید. شیطان می‌داند شما چه‌کسی هستید و هرشب چه‌کسی را انتخاب می‌کنید.",
     "edition": "bmr",
     "firstNight": 7,
     "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
@@ -352,14 +352,14 @@
     "otherNight": 2,
     "otherNightReminder": "If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
     "reminders": [
-      "Drunk",
-      "Is the Philosopher"
+      "فیلسوف",
+      "مست"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, choose a player & a character they become (if not-in-play). If a Demon is made, deaths tonight are arbitrary.",
+    "ability": "هر شب*، یک بازیکن و یک شخصیت را انتخاب کنید. (اگر آن شخصیت در بازی نباشد) او تبدیل به آن شخصیت می‌شود. اگر شیطان جدیدی ایجاد شود، مرگ‌ها در شب  به دلخواه  داستان‌سرا خواهد بود.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",

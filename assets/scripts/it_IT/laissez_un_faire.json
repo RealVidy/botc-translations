@@ -32,7 +32,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, you learn 1 player of each character type, until there are no more types to learn. [+1 Outsider]",
+    "ability": "Ogni notte, apprendi 1 giocatore di ogni tipo di ruolo, finché non ci sono più tipologie da apprendere. [+1 Forestiero]",
     "edition": "",
     "firstNight": 44,
     "firstNightReminder": "Scegli un tipo di personaggo. Indica un giocatore che è di quel tipo. Affiancagli il promemoria \"Visto\" di quel tipo.",

@@ -1,6 +1,6 @@
 [
   {
-    "ability": "You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]",
+    "ability": "شما در ابتدا ۱ بازیکن شر  را می‌شناسید. اگر او بمیرد، شما در شب بازیکن شر جدیدی را می‌شناسید. [۱ شهروند بد است]",
     "edition": "",
     "firstNight": 45,
     "firstNightReminder": "Point to 1 evil player. Wake the townsfolk who is evil and show them the 'You are' card and the thumbs down evil sign.",
@@ -16,7 +16,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "شما در ابتدا می‌دانید چند زوج بازیکن بد در بازی وجود دارد.",
+    "ability": "شما در ابتدا می‌دانید چند زوج بازیکن شر در بازی وجود دارد.",
     "edition": "tb",
     "firstNight": 35,
     "firstNightReminder": "Show the finger signal (0, 1, 2, …) for the number of pairs of neighbouring evil players.",
@@ -30,7 +30,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "هر شب، شما در تیم یکی از همسایه‌های زنده خود قرار می‌گیرید. اگر همه بازیکنان خوب تصمیم بگیرند به فرقه شما ملحق شوند، تیم شما برنده می‌شود.",
+    "ability": "هر شب، شما در تیم یکی از همسایه‌های زنده خود قرار می‌گیرید. اگر همه بازیکنان خیر تصمیم بگیرند به فرقه شما ملحق شوند، تیم شما برنده می‌شود.",
     "edition": "",
     "firstNight": 47,
     "firstNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
@@ -92,7 +92,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You start knowing that 1 of 2 players is a particular Minion.",
+    "ability": "شما در ابتدا می‌دانید یکی از دو بازیکن یک مرید خاص است.",
     "edition": "tb",
     "firstNight": 34,
     "firstNightReminder": "Show the character token of a Minion in play. Point to two players, one of which is that character.",
@@ -133,8 +133,8 @@
     "otherNight": 2,
     "otherNightReminder": "If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
     "reminders": [
-      "Drunk",
-      "Is the Philosopher"
+      "فیلسوف",
+      "مست"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -311,7 +311,7 @@
     "team": "minion"
   },
   {
-    "ability": "There are extra Outsiders in play. [+2 Outsiders]",
+    "ability": "بیگانه‌های بیشتری در بازی هستند. [+۲ بیگانه]",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
