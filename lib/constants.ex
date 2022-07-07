@@ -1,7 +1,7 @@
 defmodule Constants do
   @known_locales [
     "de_DE",
-    "en_UK",
+    "en_GB",
     "es_ES",
     "fa_IR",
     "fil_PH",
