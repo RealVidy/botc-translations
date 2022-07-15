@@ -1,12 +1,12 @@
 [
   {
-    "ability": "شما در ابتدا می‌دانید چند زوج بازیکن شر در بازی وجود دارد.",
+    "ability": "You start knowing how many pairs of evil players there are.",
     "edition": "tb",
     "firstNight": 35,
     "firstNightReminder": "Show the finger signal (0, 1, 2, …) for the number of pairs of neighbouring evil players.",
     "id": "fa_IR_chef",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true",
-    "name": "سرآشپز",
+    "name": "Chef",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -20,23 +20,23 @@
     "firstNightReminder": "",
     "id": "fa_IR_undertaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/undertaker.png?raw=true",
-    "name": "مرده‌شور",
+    "name": "Undertaker",
     "otherNight": 56,
     "otherNightReminder": "If a player was executed today: Show that player’s character token.",
     "reminders": [
-      "معدوم"
+      "Executed"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "هر شب*، شما می‌فهمید چند نفر از بازیکنان مرده شر هستند.",
+    "ability": "Each night*, you learn how many dead players are evil.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fa_IR_oracle",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/oracle.png?raw=true",
-    "name": "غیب‌بین",
+    "name": "Oracle",
     "otherNight": 60,
     "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of dead evil players.",
     "reminders": [],
@@ -50,7 +50,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_sage",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sage.png?raw=true",
-    "name": "حکیم",
+    "name": "Sage",
     "otherNight": 43,
     "otherNightReminder": "If the Sage was killed by a Demon: Point to two players, one of which is that Demon.",
     "reminders": [],
@@ -64,7 +64,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_ravenkeeper",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true",
-    "name": "کلاغ‌بان",
+    "name": "Ravenkeeper",
     "otherNight": 42,
     "otherNightReminder": "If the Ravenkeeper died tonight: The Ravenkeeper points to a player. Show that player’s character token.",
     "reminders": [],
@@ -78,7 +78,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_mayor",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mayor.png?raw=true",
-    "name": "شهردار",
+    "name": "Mayor",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -92,7 +92,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_recluse",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/recluse.png?raw=true",
-    "name": "گوشه گیر",
+    "name": "Recluse",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -100,13 +100,13 @@
     "team": "outsider"
   },
   {
-    "ability": "شما فکر می‌کنید شیطان هستید، ولی نیستید. شیطان می‌داند شما چه‌کسی هستید و هرشب چه‌کسی را انتخاب می‌کنید.",
+    "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night.",
     "edition": "bmr",
     "firstNight": 7,
     "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
     "id": "fa_IR_lunatic",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
-    "name": "مجنون",
+    "name": "Lunatic",
     "otherNight": 21,
     "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
     "reminders": [
@@ -124,11 +124,11 @@
     "firstNightReminder": "The Poisoner points to a player. That player is poisoned.",
     "id": "fa_IR_poisoner",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
-    "name": "مسموم‌کننده",
+    "name": "Poisoner",
     "otherNight": 8,
     "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
     "reminders": [
-      "مسموم"
+      "Poisoned"
     ],
     "setup": false,
     "team": "minion"
@@ -140,7 +140,7 @@
     "firstNightReminder": "Show the Grimoire to the Spy for as long as they need.",
     "id": "fa_IR_spy",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spy.png?raw=true",
-    "name": "جاسوس",
+    "name": "Spy",
     "otherNight": 68,
     "otherNightReminder": "Show the Grimoire to the Spy for as long as they need.",
     "reminders": [],
@@ -148,13 +148,13 @@
     "team": "minion"
   },
   {
-    "ability": "هر شب*، اگر در روز کسی نمرد، بازیکنی را انتخاب کنید: او می‌میرد. اولین باری که بمیرید، نمردید ولی به نظر مرده میایید.",
+    "ability": "Each night*, if no-one died today, choose a player: they die. The 1st time you die, you live but register as dead.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fa_IR_zombuul",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/zombuul.png?raw=true",
-    "name": "زامبول",
+    "name": "Zombuul",
     "otherNight": 25,
     "otherNightReminder": "If no-one died during the day: The Zombuul points to a player. That player dies.",
     "reminders": [
@@ -168,7 +168,7 @@
     "ability": "There might be 1 extra or 1 fewer Outsider in-play.",
     "id": "fa_IR_sentinel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
-    "name": "کشیک",
+    "name": "Sentinel",
     "team": "fabled"
   }
 ]

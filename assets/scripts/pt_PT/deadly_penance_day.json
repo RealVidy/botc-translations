@@ -1,14 +1,14 @@
 [
   {
-    "ability": "Você começa o jogo sabendo quem é 1 jogador do mal. Se esse jogador do mal morrer, você descobre outro nesta noite. [1 Cidadão é Mal]",
+    "ability": "Você começa o jogo sabendo que 1 jogador específico é mau. Se esse jogador do morrer, você descobre outro nesta noite. [1 Cidadão é mau]",
     "edition": "",
     "firstNight": 45,
-    "firstNightReminder": "Antes da partida começar, um cidadão é escolhido como do mal e um dos personagens do mal é escolhido como alvo do Caçador de Recompensas. Informe ao cidadão do mal o seu alinhamento no inicio da Primeira Noite. Então mesmo que o Caçador de Recompensas esteja bêbado/envenenado na primeira noite ainda vai ter um personagem alvo. Informe ao Caçador de Recompensas qual jogador é seu alvo. Caso o Caçador de Recompensas esteja bêbado/envenenado na primeira noite informe-o um jogador que não seja o seu alvo.",
+    "firstNightReminder": "Antes da partida começar, escolha um cidadão para ser mau. Esvolha um dos jogadores maus para ser Caçador de Recompensas. Informe ao Cidadão mau sobre o allinhamento dele no início da primeira noite. Acorde o Caçador de Recompensas e aponte para o jogador marcado como alvo.",
     "id": "pt_PT_bountyhunter",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bountyhunter.png?raw=true",
     "name": "Caçador de Recompensas",
     "otherNight": 65,
-    "otherNightReminder": "Se o alvo do Caçador de Recompensas morreu desde a noite anterior: Informe-o seu novo alvo. Caso o jogador marcado como “Alvo” se tornar bom, mova o marcador de “Alvo” para um jogador da equipe do mal e desperte o Caçador de Recompensas na próxima oportunidade para ele aprender isso.",
+    "otherNightReminder": "Cado o alvo do Caçador de Recompensas esteja morto ou tenha se tornado bom, mude o alvo para outro jogador mau, acorde o Caçador de Recompensas e aponte para o novo alvo.",
     "reminders": [
       "Alvo"
     ],
@@ -16,10 +16,10 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Você começa sabendo quantos pares de jogadores maus existem.",
+    "ability": "Você começa vendo quantos pares de jogadores maus vizinhos existem.",
     "edition": "tb",
     "firstNight": 35,
-    "firstNightReminder": "Mostre um número (0, 1, 2, …) para indicar quantos pares de jogadores do mal são vizinhos.",
+    "firstNightReminder": "Com os dedos, mostre o número correspondente à quantidade de pares de jogadores maus vizinhos.",
     "id": "pt_PT_chef",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true",
     "name": "Chef",
@@ -30,21 +30,21 @@
     "team": "townsfolk"
   },
   {
-    "ability": "A cada noite o seu alinhamento (bem/mal) será igual a um de seus vizinhos vivos. Se todos os jogadores do bem aderirem a seita, seu time vence.",
+    "ability": "A cada noite, o seu alinhamento será igual ao de um de seus vizinhos vivos. Se todos os jogadores do bem aderirem à seita, seu time vence.",
     "edition": "",
     "firstNight": 47,
-    "firstNightReminder": "Escolha arbitraiamente um vizinho vivo do Líder da Seita, O alinhamento dele agora é igual ao do jogador escolhido. Se o Líder da Seita mudou o seu alinhamento, acorde-o e informe-o o seu alinhamento Atual.",
+    "firstNightReminder": "Escolha um vizinho vivo do Líder da Seita, O alinhamento do Líder da Seita agora é igual ao do vizinho escolhido. Se o Líder da Seita mudou o seu alinhamento, acorde-o e informe-o sobre o alinhamento atual dele.",
     "id": "pt_PT_cultleader",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cultleader.png?raw=true",
     "name": "Líder da Seita",
     "otherNight": 67,
-    "otherNightReminder": "Escolha arbitraiamente um vizinho vivo do Líder da Seita, O alinhamento dele agora é igual ao do jogador escolhido. Se o Líder da Seita mudou o seu alinhamento, acorde-o e informe-o o seu alinhamento Atual.",
+    "otherNightReminder": "Escolha um vizinho vivo do Líder da Seita, O alinhamento do Líder da Seita agora é igual ao do vizinho escolhido. Se o Líder da Seita mudou o seu alinhamento, acorde-o e informe-o sobre o alinhamento atual dele.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "A cada noite*, escolha um jogador (diferente do anterior): o Demônio, se escolhido, descobre quem você é e não acorda esta noite.",
+    "ability": "A cada noite*, escolha um jogador (exceto o alvo da noite anterior): o Demônio, se escolhido, descobre quem você é e não age esta noite.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -76,7 +76,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Toda noite*, escolha um jogador e tente adivinhar seu personagem: se errar, você morre.",
+    "ability": "A cada noite*, escolha um jogador e tente adivinhar o personagem do alvo: se errar, você morre.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -95,7 +95,7 @@
     "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Lacaio específico.",
     "edition": "tb",
     "firstNight": 34,
-    "firstNightReminder": "Mostre um token de personagem Lacaio em jogo. Aponte para dois jogadores, um deles é aquele personagem.",
+    "firstNightReminder": "Mostre o token de um Lacaio em jogo. Aponte 2 jogadores, um destes deve ser o Lacaio mostrado.",
     "id": "pt_PT_investigator",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/investigator.png?raw=true",
     "name": "Investigador",
@@ -109,7 +109,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Se apenas 3 jogadores  estão vivos e não houver execução, seu time vence. Se você morreria à noite, outro jogador pode morrer em vez disso.",
+    "ability": "Se apenas 3 jogadores estão vivos e não houver execução, seu time vence. Se você morreria à noite, outro jogador pode morrer em vez disso.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -123,32 +123,32 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Uma vez por jogo, à noite, escolha um personagem bom: ganhe aquela habilidade. Se o personagem estiver em jogo, ele fica bêbado.",
+    "ability": "Uma vez por jogo, à noite, escolha um personagem bom: ganhe aquela habilidade. Se o personagem estiver em jogo, esse jogador fica bêbado.",
     "edition": "snv",
     "firstNight": 2,
-    "firstNightReminder": "(Antes de informar os lacaios) O Filósofo pode fazer um 'não 'com a cabeça, ou apontar para um personagem bom na sua ficha. Se escolher um personagem: Troque o token do Filósofo pelo token de personagem escolhido coloque ao lado dele o lembrete 'É o Filósofo'.ap the out-of-play character token with the Philosopher token. Se o personagem escolhido já estava em jogo, coloque o lembrete 'Bêbado' próximo ao token desse personagem.",
+    "firstNightReminder": "O Filósofo pode fazer um 'não 'com a cabeça, ou apontar para um personagem bom na ficha de personagens. Se escolher um personagem: Troque o token do Filósofo pelo token do personagem escolhido coloque ao lado dele o lembrete 'É o Filósofo'. Se o personagem escolhido já estava em jogo, coloque o lembrete 'Bêbado' próximo ao token desse personagem.",
     "id": "pt_PT_philosopher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/philosopher.png?raw=true",
-    "name": "Philosopher",
+    "name": "Filósofo",
     "otherNight": 2,
-    "otherNightReminder": "Se o Filósofo ainda não usou a habilidade: O Filósofo pode fazer um 'não 'com a cabeça, ou apontar para um personagem bom na sua ficha. Se escolher um personagem: Troque o token do Filósofo pelo token de personagem escolhido coloque ao lado dele o lembrete 'É o Filósofo'.ap the out-of-play character token with the Philosopher token. Se o personagem escolhido já estava em jogo, coloque o lembrete 'Bêbado' próximo ao token desse personagem.",
+    "otherNightReminder": "Se o Filósofo ainda não usou a habilidade: o Filósofo pode fazer um 'não 'com a cabeça, ou apontar para um personagem bom na ficha de personagens. Se escolher um personagem: Troque o token do Filósofo pelo token do personagem escolhido coloque ao lado dele o lembrete 'É o Filósofo'. Se o personagem escolhido já estava em jogo, coloque o lembrete 'Bêbado' próximo ao token desse personagem.",
     "reminders": [
-      "Drunk",
-      "Is the Philosopher"
+      "Bêbado",
+      "É o Filósofo"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "Toda Noite, escolha um jogador: Caso seja um Lacaio, ele saberá que foi escolhido. Todos os Lacaios escolhidos perdem a habilidade.",
+    "ability": "A cada noite, escolha um jogador: caso seja um Lacaio, o alvo saberá que foi escolhido. Todos os Lacaios escolhidos perdem a habilidade.",
     "edition": "",
     "firstNight": 14,
-    "firstNightReminder": "O Missinário escolhe um jogador. Se esse jogador for um Lacaio: Desperte o Lacaio. Informe-o que foi escolhido pelo Missionário. O Lacaio agora não tem mais uma habilidade. Caso o Missionário fique bêbado/envenenado/morra o Lacaio volta a ter sua habilidade até que o Missionário fique sóbrio novamente.",
+    "firstNightReminder": "O Pregador escolhe um jogador. Se esse jogador for um Lacaio: Acorde o alvo. Informe-o que foi escolhido pelo Pregador. O alvo não tem habilidade a partir de agora.",
     "id": "pt_PT_preacher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/preacher.png?raw=true",
-    "name": "Missionário",
+    "name": "Pregador",
     "otherNight": 7,
-    "otherNightReminder": "O Missinário escolhe um jogador. Se esse jogador for um Lacaio: Desperte o Lacaio. Informe-o que foi escolhido pelo Missionário. O Lacaio agora não tem mais uma habilidade. Caso o Missionário fique bêbado/envenenado/morra o Lacaio volta a ter sua habilidade até que o Missionário fique sóbrio novamente.",
+    "otherNightReminder": "O Pregador escolhe um jogador. Se esse jogador for um Lacaio: Acorde o alvo. Informe-o que foi escolhido pelo Pregador. O alvo não tem habilidade a partir de agora.",
     "reminders": [
       "Sem habilidade"
     ],
@@ -156,7 +156,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "A cada noite, escolha um jogador vivo: ou ele, ou você fica bêbado até o anoitecer. Você não pode morrer.",
+    "ability": "A cada noite, escolha um jogador vivo: você ou o alvo fica bêbado até o anoitecer. Você não pode morrer.",
     "edition": "bmr",
     "firstNight": 10,
     "firstNightReminder": "O Marinheiro aponta para um jogador. Marque ou Marinheiro, ou o jogador escolhido como 'Bêbado'.",
@@ -164,7 +164,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sailor.png?raw=true",
     "name": "Marinheiro",
     "otherNight": 4,
-    "otherNightReminder": "Remova o token 'Bêbado' do jogador afetado pelo Marinheiro na noite anterior. Ele não está mais bêbado. O Marinheiro aponta para um jogador. Marque ou Marinheiro, ou o jogador escolhido como 'Bêbado'.",
+    "otherNightReminder": "Remova o token 'Bêbado'. O Marinheiro aponta para um jogador. Marque o Marinheiro ou o jogador escolhido como 'Bêbado'.",
     "reminders": [
       "Bêbado"
     ],
@@ -194,7 +194,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/towncrier.png?raw=true",
     "name": "Arauto da Cidade",
     "otherNight": 59,
-    "otherNightReminder": "Faça 'sim' ou 'não' com a cabeça para indicar se algum Lacaio nomeou hoje. Coloque o lembrete 'Lacaio não nomeou' (remova 'Lacaios não nomearam', se for o caso).",
+    "otherNightReminder": "Faça 'sim' ou 'não' com a cabeça para indicar se algum Lacaio nomeou hoje. Coloque o lembrete 'Lacaios não nomearam' (remova 'Lacaio nomeou', se for o caso).",
     "reminders": [
       "Lacaio nomeou",
       "Lacaios não nomearam"
@@ -203,7 +203,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Se você for o maior responsável pela derrota do seu time, o seu alinhamento (bem/mal) muda e você vence, mesmo estando morto. Caso bêbado/envenenado sua habilidade não tem efeito.",
+    "ability": "Se você for o maior responsável pela derrota do seu time, o seu alinhamento muda e você vence, mesmo estando morto.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -217,7 +217,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Se você morrer, esta Noite o Demônio pode escolher dois jogadores: eles trocam de personagens entre si.",
+    "ability": "Se você morrer, esta noite o Demônio pode escolher dois jogadores (exceto outro Demônio): os alvos trocam de personagens entre si.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -225,9 +225,9 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/barber.png?raw=true",
     "name": "Barbeiro",
     "otherNight": 40,
-    "otherNightReminder": "Se o Barbeiro morreu hoje: Desperte o Demônio. Informe-o que o Barbeiro morreu este dia. O Demônio pode recusar usar a habilidade do Barbeiro ou escolher 2 jogadores que não são Demônio. Se ele escolher jogadores: Troque as fichas de personagem. Acorde cada jogador. Informe-os quais são seus novos personagens.",
+    "otherNightReminder": "Se o Barbeiro morreu hoje: Acorde o Demônio. Mostre o token 'Você foi alvo desta habilidade' e o token do Barbeiro. O Demônio pode recusar usar a habilidade do Barbeiro ou escolher 2 jogadores que não sejam Demônio. Se ele escolher jogadores: Troque as fichas de personagem dos alvos. Acorde cada jogador escolhido. Informe-os quais são seus novos personagens.",
     "reminders": [
-      "Troca"
+      "Cortes de Cabelo hoje"
     ],
     "setup": false,
     "team": "outsider"
@@ -264,7 +264,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Uma vez por jogo, à noite*, você pode escolher um jogador: ele morre mesmo que, por alguma razão, não possa morrer.",
+    "ability": "Uma vez por jogo, à noite*, você pode escolher um jogador: o alvo morre mesmo que, por alguma razão, não possa morrer.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -272,7 +272,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/assassin.png?raw=true",
     "name": "Assassino",
     "otherNight": 37,
-    "otherNightReminder": "Se o Assassino ainda não usou a habilidade: o Assassino pode fazer que 'não' com a cabeça, ou escolher um jogador: o jogador escolhido morre, mesmo que algo impeça isso.",
+    "otherNightReminder": "Se o Assassino ainda não usou a habilidade: o Assassino pode sinalizar 'não' com a cabeça, ou escolher um jogador: o alvo morre, mesmo que algo impeça isso.",
     "reminders": [
       "Morto",
       "Sem habilidade"
@@ -281,15 +281,15 @@
     "team": "minion"
   },
   {
-    "ability": "Toda Noite, escolha um jogador: se ele nomear durante o próximo Dia, morre. Se apenas 3 jogadores estiverem vivos, você perde esta habilidade.",
+    "ability": "A cada noite, escolha um jogador: se o alvo nomear durante o dia, morre. Se apenas 3 jogadores estiverem vivos, você perde esta habilidade.",
     "edition": "snv",
     "firstNight": 24,
-    "firstNightReminder": "A Bruxa escolhe um jogador. Esse jogador esta amaldiçoado no próximo dia.",
+    "firstNightReminder": "A Feiticeira escolhe um jogador. Marque o alvo como 'Amaldiçoado'.",
     "id": "pt_PT_witch",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/witch.png?raw=true",
-    "name": "Bruxa",
+    "name": "Feiticeira",
     "otherNight": 15,
-    "otherNightReminder": "A Bruxa escolhe um jogador. Esse jogador esta amaldiçoado no próximo dia.",
+    "otherNightReminder": "Remova o token 'Amaldiçoado'. A Feiticeira escolhe um jogador. Marque o alvo como 'Amaldiçoado'.",
     "reminders": [
       "Amaldiçoado"
     ],
@@ -297,7 +297,7 @@
     "team": "minion"
   },
   {
-    "ability": "A cada noite, você vê o Grimório. Você pode registrar como bom, Cidadão, ou Forasteiro, mesmo quando morto.",
+    "ability": "A cada noite, você vê o Grimório. Você pode ser registrado como bom e Cidadão/Forasteiro, mesmo quando morto.",
     "edition": "tb",
     "firstNight": 48,
     "firstNightReminder": "Mostre o Grimório para o Espião pelo tempo que ele precisar.",
@@ -325,15 +325,15 @@
     "team": "minion"
   },
   {
-    "ability": "A cada noite os Lacaios escolhem quem ficará com o token do Bebê Monstro e será o Demônio. Um jogador morre a cada noite. [+1 Lacaio]",
+    "ability": "A cada noite os Lacaios escolhem quem cuidará do Bebê Monstro e será \"o Demônio\". A cada noite*, um jogador morre. [+1 Lacaio]",
     "edition": "",
     "firstNight": 16,
-    "firstNightReminder": "Na primeira noite, pule as etapas de informações dos Lacaios e  as informações do Demônio. Acorde todos os Lacaios. Todos os Lacaios acordam ao mesmo tempo e escolhem um jogador que recebe o Bebê Monstro e se torna o Demônio.",
+    "firstNightReminder": "Todos os Lacaios acordam ao mesmo tempo e escolhem um jogador para ficar do token do Bebê Monstro. Este jogador 'é o Demônio', mas mantém seu alinhamento e personagem.",
     "id": "pt_PT_lilmonsta",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lilmonsta.png?raw=true",
     "name": "Bebê Monstro",
     "otherNight": 36,
-    "otherNightReminder": "Todos os Lacaios acordam ao mesmo tempo e escolhem um jogador que recebe o Bebê Monstro e se torna o Demônio. Escolha alguém para morrer mesmo que a babá atual do bebê mostro esteja bêbada/envenenada.",
+    "otherNightReminder": "Todos os Lacaios acordam ao mesmo tempo e escolhem um jogador para ficar do token do Bebê Monstro. Este jogador 'é o Demônio', mas mantém seu alinhamento e personagem. Então escolha um jogador para morrer.",
     "reminders": [],
     "remindersGlobal": [
       "Demônio",

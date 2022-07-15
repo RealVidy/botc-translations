@@ -180,7 +180,7 @@
     "ability": "Si 4 joueurs ou plus sont en vie, chaque joueur vivant peut décider publiquement (une fois par partie) qu'un joueur de son propre alignement meurt.",
     "id": "fr_FR_doomsayer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/doomsayer.png?raw=true",
-    "name": "Cassandre",
+    "name": "Prêcheur de l'Apocalypse",
     "team": "fabled"
   }
 ]

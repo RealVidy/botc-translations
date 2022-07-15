@@ -1,12 +1,12 @@
 [
   {
-    "ability": "هر شب، شما در تیم یکی از همسایه‌های زنده خود قرار می‌گیرید. اگر همه بازیکنان خیر تصمیم بگیرند به فرقه شما ملحق شوند، تیم شما برنده می‌شود.",
+    "ability": "Each night, you become the alignment of an alive neighbour. If all good players choose to join your cult, your team wins.",
     "edition": "",
     "firstNight": 47,
     "firstNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
     "id": "fa_IR_cultleader",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cultleader.png?raw=true",
-    "name": "رهبر فرقه",
+    "name": "Cult Leader",
     "otherNight": 67,
     "otherNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
     "reminders": [],
@@ -14,17 +14,17 @@
     "team": "townsfolk"
   },
   {
-    "ability": "شما در ابتدا سه بازیکن را می‌بینید، ۱ و فقط ۱ نفر از آنها شر است.",
+    "ability": "You start knowing 3 players, 1 and only 1 of which is evil.",
     "edition": "",
     "firstNight": 43,
     "firstNightReminder": "Point to 3 players including one evil player, in no particular order.",
     "id": "fa_IR_noble",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/noble.png?raw=true",
-    "name": "اشراف‌زاده",
+    "name": "Noble",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "دیده"
+      "Seen"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -36,7 +36,7 @@
     "firstNightReminder": "Show the Pixie 1 in-play Townsfolk character token.",
     "id": "fa_IR_pixie",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pixie.png?raw=true",
-    "name": "پری",
+    "name": "Pixie",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -47,13 +47,13 @@
     "team": "townsfolk"
   },
   {
-    "ability": "هر شب، یک بازیکن از هر نوع شخصیت به شما معرفی می‌شود تا نوعی باقی نماند. [+۱ بیگانه]",
+    "ability": "Each night, you learn 1 player of each character type, until there are no more types to learn. [+1 Outsider]",
     "edition": "",
     "firstNight": 44,
     "firstNightReminder": "Choose a character type. Point to a player whose character is of that type. Place the Balloonist's Seen reminder next to that character.",
     "id": "fa_IR_balloonist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/balloonist.png?raw=true",
-    "name": "بالن‌سوار",
+    "name": "Balloonist",
     "otherNight": 63,
     "otherNightReminder": "Choose a character type that does not yet have a Seen reminder next to a character of that type. Point to a player whose character is of that type, if there are any. Place the Balloonist's Seen reminder next to that character.",
     "reminders": [
@@ -73,7 +73,7 @@
     "firstNightReminder": "Wake the Demon, show them the 'This character selected you' card, show the King token and point to the King player.",
     "id": "fa_IR_king",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/king.png?raw=true",
-    "name": "شاه",
+    "name": "King",
     "otherNight": 64,
     "otherNightReminder": "If there are more dead than living, show the King a character token of a living player.",
     "reminders": [],
@@ -87,7 +87,7 @@
     "firstNightReminder": "The Fortune Teller points to two players. Give the head signal (nod yes, shake no) for whether one of those players is the Demon.",
     "id": "fa_IR_fortuneteller",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fortuneteller.png?raw=true",
-    "name": "فال‌گیر",
+    "name": "Fortune Teller",
     "otherNight": 54,
     "otherNightReminder": "The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Demon.",
     "reminders": [
@@ -97,13 +97,13 @@
     "team": "townsfolk"
   },
   {
-    "ability": "هر شب*، شما می‌فهمید چند نفر از بازیکنان مرده شر هستند.",
+    "ability": "Each night*, you learn how many dead players are evil.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fa_IR_oracle",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/oracle.png?raw=true",
-    "name": "غیب‌بین",
+    "name": "Oracle",
     "otherNight": 60,
     "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of dead evil players.",
     "reminders": [],
@@ -117,11 +117,11 @@
     "firstNightReminder": "",
     "id": "fa_IR_lycanthrope",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lycanthrope.png?raw=true",
-    "name": "گرگینه",
+    "name": "Lycanthrope",
     "otherNight": 23,
     "otherNightReminder": "The Lycanthrope points to a living player: if good, they die and no one else can die tonight.",
     "reminders": [
-      "مرده"
+      "Dead"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -133,27 +133,27 @@
     "firstNightReminder": "The Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
     "id": "fa_IR_seamstress",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/seamstress.png?raw=true",
-    "name": "خیاط",
+    "name": "Seamstress",
     "otherNight": 61,
     "otherNightReminder": "If the Seamstress has not yet used their ability: the Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
     "reminders": [
-      "بدون قابلیت"
+      "No ability"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "یکبار در بازی، در شب، یک بازیکن زنده را انتخاب کنید: اگر انتخاب شما دوشیزه بود، او تبدیل به یک شهروند جدید می‌شود. [+دوشیزه]",
+    "ability": "Once per game, at night, choose a living player: the Damsel, if chosen, becomes a not-in-play Townsfolk. [+the Damsel]",
     "edition": "",
     "firstNight": 30,
     "firstNightReminder": "The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",
     "id": "fa_IR_huntsman",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/huntsman.png?raw=true",
-    "name": "شکارچی",
+    "name": "Huntsman",
     "otherNight": 51,
     "otherNightReminder": "The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",
     "reminders": [
-      "بدون قابلیت"
+      "No ability"
     ],
     "setup": true,
     "team": "townsfolk"
@@ -165,7 +165,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_savant",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/savant.png?raw=true",
-    "name": "عالم",
+    "name": "Savant",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -173,13 +173,13 @@
     "team": "townsfolk"
   },
   {
-    "ability": "اگر شیطان شاه را بکشد، شما می‌فهمید کدام بازیکن شیطان است. [+ شاه]",
+    "ability": "If the Demon kills the King, you learn which player is the Demon. [+ the King]",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fa_IR_choirboy",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/choirboy.png?raw=true",
-    "name": "آوازخوان",
+    "name": "Choirboy",
     "otherNight": 44,
     "otherNightReminder": "If the King was killed by the Demon, wake the Choirboy and point to the Demon player.",
     "reminders": [],
@@ -187,18 +187,18 @@
     "team": "townsfolk"
   },
   {
-    "ability": "شما قابلیت فرد تازه اعدام شده را دارید. اگر او شر باشد، شما تا وقتی بازیکن خیری اعدام شود مسموم هستید.",
+    "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fa_IR_cannibal",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cannibal.png?raw=true",
-    "name": "آدمخوار",
+    "name": "Cannibal",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "امروز مرد",
-      "مسموم"
+      "Died today",
+      "Poisoned"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -210,7 +210,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_recluse",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/recluse.png?raw=true",
-    "name": "گوشه گیر",
+    "name": "Recluse",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -224,7 +224,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_mutant",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mutant.png?raw=true",
-    "name": "جهش‌یافته",
+    "name": "Mutant",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -232,17 +232,17 @@
     "team": "outsider"
   },
   {
-    "ability": "همه مریدان می‌دانند که شما در بازی هستید. اگر مریدی به صورت عمومی (یکبار) شما را حدس بزند، تیم شما می‌بازد.",
+    "ability": "All Minions know you are in play. If a Minion publicly guesses you (once), your team loses.",
     "edition": "",
     "firstNight": 31,
     "firstNightReminder": "Wake all the Minions, show them the 'This character selected you' card and the Damsel token.",
     "id": "fa_IR_damsel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/damsel.png?raw=true",
-    "name": "دوشیزه",
+    "name": "Damsel",
     "otherNight": 52,
     "otherNightReminder": "If selected by the Huntsman, wake the Damsel, show 'You are' card and a not-in-play Townsfolk token.",
     "reminders": [
-      "حدس زده"
+      "Guess used"
     ],
     "setup": false,
     "team": "outsider"
@@ -254,7 +254,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_puzzlemaster",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/puzzlemaster.png?raw=true",
-    "name": "پازل‌چین",
+    "name": "Puzzlemaster",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -265,17 +265,17 @@
     "team": "outsider"
   },
   {
-    "ability": "اگر در هنگام کاندیدا شدن به صورت عمومی ادعای گابلین بود بکنید و اعدام شوید، تیم شما برنده می‌شود.",
+    "ability": "If you publicly claim to be the Goblin when nominated & are executed that day, your team wins.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fa_IR_goblin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/goblin.png?raw=true",
-    "name": "گابلین",
+    "name": "Goblin",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "مدعی"
+      "Claimed"
     ],
     "setup": false,
     "team": "minion"
@@ -287,27 +287,27 @@
     "firstNightReminder": "The Witch points to a player. If that player nominates tomorrow they die immediately.",
     "id": "fa_IR_witch",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/witch.png?raw=true",
-    "name": "ساحره",
+    "name": "Witch",
     "otherNight": 15,
     "otherNightReminder": "If there are 4 or more players alive: The Witch points to a player. If that player nominates tomorrow they die immediately.",
     "reminders": [
-      "نفرین‌شده"
+      "Cursed"
     ],
     "setup": false,
     "team": "minion"
   },
   {
-    "ability": "هر شب، یک بازیکن و یک شخصیت را انتخاب کنید: او فردا «دیوانه» آن شخصیت می‌شود یا ممکن است اعدام شود.",
+    "ability": "Each night, choose a player & a good character: they are “mad” they are this character tomorrow, or might be executed.",
     "edition": "snv",
     "firstNight": 25,
     "firstNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
     "id": "fa_IR_cerenovus",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cerenovus.png?raw=true",
-    "name": "روانکاو",
+    "name": "Cerenovus",
     "otherNight": 16,
     "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
     "reminders": [
-      "دیوانه"
+      "Mad"
     ],
     "setup": false,
     "team": "minion"
@@ -319,11 +319,11 @@
     "firstNightReminder": "The Fearmonger points to a player. Place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",
     "id": "fa_IR_fearmonger",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fearmonger.png?raw=true",
-    "name": "هراس‌افروز",
+    "name": "Fearmonger",
     "otherNight": 18,
     "otherNightReminder": "The Fearmonger points to a player. If different from the previous night, place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",
     "reminders": [
-      "ترسان"
+      "Fear"
     ],
     "setup": false,
     "team": "minion"
@@ -335,7 +335,7 @@
     "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",
     "id": "fa_IR_lilmonsta",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lilmonsta.png?raw=true",
-    "name": "هیولا کوچولو",
+    "name": "Lil' Monsta",
     "otherNight": 36,
     "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
     "reminders": [],
@@ -353,29 +353,29 @@
     "firstNightReminder": "",
     "id": "fa_IR_fanggu",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fanggu.png?raw=true",
-    "name": "فنگو",
+    "name": "Fang Gu",
     "otherNight": 29,
     "otherNightReminder": "The Fang Gu points to a player. That player dies. Or, if that player was an Outsider and there are no other Fang Gu in play: The Fang Gu dies instead of the chosen player. The chosen player is now an evil Fang Gu. Wake the new Fang Gu. Show the 'You are' card, then the Fang Gu token. Show the 'You are' card, then the thumb-down 'evil' hand sign.",
     "reminders": [
-      "مرده",
-      "یکبار"
+      "Dead",
+      "Once"
     ],
     "setup": true,
     "team": "demon"
   },
   {
-    "ability": "هر شب*، یک بازیکن را انتخاب کنید: او می‌میرد. ۲ شهروند همسایه شما مسموم هستند.",
+    "ability": "Each night*, choose a player: they die. Your 2 Townsfolk neighbours are poisoned.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fa_IR_nodashii",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/nodashii.png?raw=true",
-    "name": "نُدَشی",
+    "name": "No Dashii",
     "otherNight": 30,
     "otherNightReminder": "The No Dashii points to a player. That player dies.",
     "reminders": [
-      "مرده",
-      "مسموم"
+      "Dead",
+      "Poisoned"
     ],
     "setup": false,
     "team": "demon"
@@ -391,7 +391,7 @@
     "otherNight": 31,
     "otherNightReminder": "The Vortox points to a player. That player dies.",
     "reminders": [
-      "مرده"
+      "Dead"
     ],
     "setup": false,
     "team": "demon"

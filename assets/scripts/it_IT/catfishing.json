@@ -106,9 +106,9 @@
     "firstNightReminder": "",
     "id": "it_IT_bonecollector",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bonecollector.png?raw=true",
-    "name": "Collettore d'Ossa",
+    "name": "Collezionista d'Ossa",
     "otherNight": 1,
-    "otherNightReminder": "The Bone Collector either shakes their head no or points at any dead player. If they pointed at any dead player, put the Bone Collector's 'Has Ability' reminder by the chosen player's character token. (They may need to be woken tonight to use it.)",
+    "otherNightReminder": "Il Collezionista d'ossa fa \"no\" con la testa o indica un giocatore morto: se ha puntato un giocatore, posiziona il gettone \"Ha abilità\" (Potrebbe essere svegliato di notte per usarla)",
     "reminders": [
       "Ha Abilità",
       "Nessuna Abilità"

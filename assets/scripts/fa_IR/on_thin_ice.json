@@ -1,16 +1,16 @@
 [
   {
-    "ability": "یکبار در بازی، از داستان‌سرا به صورت خصوصی یک سوال بله/خیر بپرسید.",
+    "ability": "Once per game, during the day, privately ask the Storyteller any yes/no question.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fa_IR_artist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/artist.png?raw=true",
-    "name": "هنرمند",
+    "name": "Artist",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "بدون قابلیت"
+      "No ability"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -22,12 +22,12 @@
     "firstNightReminder": "The Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
     "id": "fa_IR_philosopher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/philosopher.png?raw=true",
-    "name": "فیلسوف",
+    "name": "Philosopher",
     "otherNight": 2,
     "otherNightReminder": "If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
     "reminders": [
-      "فیلسوف",
-      "مست"
+      "Drunk",
+      "Is the Philosopher"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -39,7 +39,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_professor",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/professor.png?raw=true",
-    "name": "استاد",
+    "name": "Professor",
     "otherNight": 45,
     "otherNightReminder": "If the Professor has not used their ability: The Professor either shakes their head no, or points to a player. If that player is a Townsfolk, they are now alive.",
     "reminders": [
@@ -56,11 +56,11 @@
     "firstNightReminder": "The Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
     "id": "fa_IR_seamstress",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/seamstress.png?raw=true",
-    "name": "خیاط",
+    "name": "Seamstress",
     "otherNight": 61,
     "otherNightReminder": "If the Seamstress has not yet used their ability: the Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
     "reminders": [
-      "بدون قابلیت"
+      "No ability"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -72,11 +72,11 @@
     "firstNightReminder": "",
     "id": "fa_IR_slayer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
-    "name": "قاتل",
+    "name": "Slayer",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "بدون قابلیت"
+      "No ability"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -88,11 +88,11 @@
     "firstNightReminder": "",
     "id": "fa_IR_virgin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/virgin.png?raw=true",
-    "name": "باکره",
+    "name": "Virgin",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "بدون قابلیت"
+      "No ability"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -104,7 +104,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_klutz",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/klutz.png?raw=true",
-    "name": "دست‌وپا چلفتی",
+    "name": "Klutz",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -118,11 +118,11 @@
     "firstNightReminder": "",
     "id": "fa_IR_moonchild",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/moonchild.png?raw=true",
-    "name": "ماه‌گرفته",
+    "name": "Moonchild",
     "otherNight": 49,
     "otherNightReminder": "If the Moonchild used their ability to target a player today: If that player is good, they die.",
     "reminders": [
-      "مرده"
+      "Dead"
     ],
     "setup": false,
     "team": "outsider"
@@ -134,11 +134,11 @@
     "firstNightReminder": "Wake the Evil Twin and their twin. Confirm that they have acknowledged each other. Point to the Evil Twin. Show their Evil Twin token to the twin player. Point to the twin. Show their character token to the Evil Twin player.",
     "id": "fa_IR_eviltwin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/eviltwin.png?raw=true",
-    "name": "دوقلوی شرور",
+    "name": "Evil Twin",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "دوقلو"
+      "Twin"
     ],
     "setup": false,
     "team": "minion"
@@ -150,7 +150,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_mastermind",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mastermind.png?raw=true",
-    "name": "مغز متفکر",
+    "name": "Mastermind",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -164,7 +164,7 @@
     "firstNightReminder": "The Pukka points to a player. That player is poisoned.",
     "id": "fa_IR_pukka",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pukka.png?raw=true",
-    "name": "پوکا",
+    "name": "Pukka",
     "otherNight": 26,
     "otherNightReminder": "The Pukka points to a player. That player is poisoned. The previously poisoned player dies.",
     "reminders": [
@@ -178,7 +178,7 @@
     "ability": "There might be 1 extra or 1 fewer Outsider in-play.",
     "id": "fa_IR_sentinel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
-    "name": "کشیک",
+    "name": "Sentinel",
     "team": "fabled"
   }
 ]

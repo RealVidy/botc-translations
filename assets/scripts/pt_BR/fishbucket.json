@@ -2010,12 +2010,12 @@
     "ability": "A cada noite, escolha um jogador (exceto você): o voto do alvo conta negaruvamente amanhã.",
     "edition": "tb",
     "firstNight": 1,
-    "firstNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
+    "firstNightReminder": "O Ladrão aponta para um jogador. Marque o alvo com o token 'voto negativo'.",
     "id": "pt_BR_thief",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/thief.png?raw=true",
     "name": "Ladrão",
     "otherNight": 1,
-    "otherNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
+    "otherNightReminder": "O Ladrão aponta para um jogador. Marque o alvo com o token 'voto negativo'.",
     "reminders": [
       "Voto Negativo"
     ],

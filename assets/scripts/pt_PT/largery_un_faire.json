@@ -1,20 +1,20 @@
 [
   {
-    "ability": "A cada noite, você descobre quantos de seus 2 vizinhos vivos são maus.",
+    "ability": "A cada noite, você vê quantos de seus 2 vizinhos vivos são maus.",
     "edition": "tb",
     "firstNight": 36,
-    "firstNightReminder": "Mostre um número (0, 1 ou 2) para indicar quantos dos vizinhos vivos do Empático são maus.",
+    "firstNightReminder": "Com os dedos, mostre o número correspondente à quantidade de vizinhos maus vivos do Empático.",
     "id": "pt_PT_empath",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
     "name": "Empático",
     "otherNight": 53,
-    "otherNightReminder": "Mostre um número (0, 1 ou 2) para indicar quantos dos vizinhos vivos do Empático são maus.",
+    "otherNightReminder": "Com os dedos, mostre o número correspondente à quantidade de vizinhos maus vivos do Empático.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "A cada noite*, você descobre qual personagem morreu por execução durante o dia.",
+    "ability": "A cada noite*, você vê o personagem que morreu por execução durante o dia.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -22,7 +22,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/undertaker.png?raw=true",
     "name": "Coveiro",
     "otherNight": 56,
-    "otherNightReminder": "Se um jogador foi morreu por execução hoje: mostre o token de personagem desse jogador.",
+    "otherNightReminder": "Se um jogador foi morto por execuçãoo de dia, mostre o token do personagem desse jogador.",
     "reminders": [
       "Executado"
     ],
@@ -30,7 +30,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Uma vez por partida, durante o dia, você pode escolher um jogador: se este for o Demônio, morre.",
+    "ability": "Uma vez por jogo, durante o dia, você pode escolher um jogador publicamente: se o alvo for o Demônio, morre.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -46,15 +46,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "A cada noite, escolha um jogador vivo: um Demônio escolhido desta forma, troca de personagem e alinhamento com você, e então fica envenenado.",
+    "ability": "A cada noite, escolha um jogador vivo: se o alvo for um Demônio, troca de personagem e alinhamento com você, e então fica envenenado.",
     "edition": "snv",
     "firstNight": 20,
-    "firstNightReminder": "O Encantador de Serpentes aponta para um jogador. Se esse jogador for um Demônio: troque oa personagens do Demônio e do Encantador de Serpentes. Acorde-os individualmente para informar seus novos personagens e alinhamentos. O novo Encantador de Serpentes fica envenenado.",
+    "firstNightReminder": "O Encantador de Serpentes aponta para um jogador. Se esse jogador for um Demônio: troque os personagens do Demônio e do Encantador de Serpentes. Acorde-os individualmente para informar seus novos personagens e alinhamentos. O novo Encantador de Serpentes fica envenenado.",
     "id": "pt_PT_snakecharmer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/snakecharmer.png?raw=true",
     "name": "Encantador de Serpentes",
     "otherNight": 12,
-    "otherNightReminder": "O Encantador de Serpentes aponta para um jogador. Se esse jogador for um Demônio: troque oa personagens do Demônio e do Encantador de Serpentes. Acorde-os individualmente para informar seus novos personagens e alinhamentos. O novo Encantador de Serpentes fica envenenado.",
+    "otherNightReminder": "O Encantador de Serpentes aponta para um jogador. Se esse jogador for um Demônio: troque os personagens do Demônio e do Encantador de Serpentes. Acorde-os individualmente para informar seus novos personagens e alinhamentos. O novo Encantador de Serpentes fica envenenado.",
     "reminders": [
       "Envenenado"
     ],
@@ -62,7 +62,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "A cada dia, você pode visitar o Narrador para descobrir 2 coisas em segredo: 1 é verdadeira e 1 é falsa.",
+    "ability": "A cada dia, você pode visitar o Narrador para saber 2 coisas em segredo: 1 é verdadeira e 1 é falsa.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -76,15 +76,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Uma vez por jogo, à noite, você pode escolher 2 jogadores (exceto você): você descobre se eles têm o mesmo alinhamento.",
+    "ability": "Uma vez por jogo, à noite, você pode escolher 2 jogadores (exceto você): você descobre se os alvos têm o mesmo alinhamento.",
     "edition": "snv",
     "firstNight": 42,
-    "firstNightReminder": "A Costureira pode fazer um 'não 'com a cabeça, ou escolher outros dois jogadores. Se ela escolher, faça 'sim' ou 'não' com a cabeça para indicar se esses dois jogadores possuem o mesmo alinhamento.",
+    "firstNightReminder": "A Costureira pode sinalizar 'não 'com a cabeça, ou escolher outros dois jogadores. Se ela escolher, faça 'sim' ou 'não' com a cabeça para indicar se esses dois jogadores possuem o mesmo alinhamento.",
     "id": "pt_PT_seamstress",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/seamstress.png?raw=true",
     "name": "Costureira",
     "otherNight": 61,
-    "otherNightReminder": "Se a Costureira ainda não usou a habilidade: A Costureira pode fazer um 'não 'com a cabeça, ou escolher outros dois jogadores. Se ela escolher, mostre 'sim' ou 'não' para indicar se esses dois jogadores possuem o mesmo alinhamento.",
+    "otherNightReminder": "Se a Costureira ainda não usou a habilidade: A Costureira pode sinalizar 'não 'com a cabeça, ou escolher outros dois jogadores. Se ela escolher, mostre 'sim' ou 'não' para indicar se esses dois jogadores possuem o mesmo alinhamento.",
     "reminders": [
       "Sem habilidade"
     ],
@@ -92,18 +92,18 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Uma vez por jogo, à noite, escolha um personagem bom: ganhe aquela habilidade. Se o personagem estiver em jogo, ele fica bêbado.",
+    "ability": "Uma vez por jogo, à noite, escolha um personagem bom: ganhe aquela habilidade. Se o personagem estiver em jogo, esse jogador fica bêbado.",
     "edition": "snv",
     "firstNight": 2,
-    "firstNightReminder": "(Antes de informar os lacaios) O Filósofo pode fazer um 'não 'com a cabeça, ou apontar para um personagem bom na sua ficha. Se escolher um personagem: Troque o token do Filósofo pelo token de personagem escolhido coloque ao lado dele o lembrete 'É o Filósofo'.ap the out-of-play character token with the Philosopher token. Se o personagem escolhido já estava em jogo, coloque o lembrete 'Bêbado' próximo ao token desse personagem.",
+    "firstNightReminder": "O Filósofo pode fazer um 'não 'com a cabeça, ou apontar para um personagem bom na ficha de personagens. Se escolher um personagem: Troque o token do Filósofo pelo token do personagem escolhido coloque ao lado dele o lembrete 'É o Filósofo'. Se o personagem escolhido já estava em jogo, coloque o lembrete 'Bêbado' próximo ao token desse personagem.",
     "id": "pt_PT_philosopher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/philosopher.png?raw=true",
-    "name": "Philosopher",
+    "name": "Filósofo",
     "otherNight": 2,
-    "otherNightReminder": "Se o Filósofo ainda não usou a habilidade: O Filósofo pode fazer um 'não 'com a cabeça, ou apontar para um personagem bom na sua ficha. Se escolher um personagem: Troque o token do Filósofo pelo token de personagem escolhido coloque ao lado dele o lembrete 'É o Filósofo'.ap the out-of-play character token with the Philosopher token. Se o personagem escolhido já estava em jogo, coloque o lembrete 'Bêbado' próximo ao token desse personagem.",
+    "otherNightReminder": "Se o Filósofo ainda não usou a habilidade: o Filósofo pode fazer um 'não 'com a cabeça, ou apontar para um personagem bom na ficha de personagens. Se escolher um personagem: Troque o token do Filósofo pelo token do personagem escolhido coloque ao lado dele o lembrete 'É o Filósofo'. Se o personagem escolhido já estava em jogo, coloque o lembrete 'Bêbado' próximo ao token desse personagem.",
     "reminders": [
-      "Drunk",
-      "Is the Philosopher"
+      "Bêbado",
+      "É o Filósofo"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -125,27 +125,27 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Toda noite, você descobre um jogador de cada tipo de personagem, até que não haja mais tipos para descobrir. [+1 Forasteiro]",
+    "ability": "A cada noite, você vê um jogador de um tipo diferente de personagem, até que tenha visto um jogador de cada tipo. [+1 Forasteiro]",
     "edition": "",
     "firstNight": 44,
-    "firstNightReminder": "Escolha um tipo de personagem. Informe ao Balonista um jogador cujo personagem é desse tipo. Coloque o lembrete 'Visto' do Balonista ao lado desse personagem.",
+    "firstNightReminder": "Escolha um tipo de personagem. Aponte para um jogador cujo personagem é desse tipo. Coloque o lembrete 'Visto' do Balonista ao lado desse personagem.",
     "id": "pt_PT_balloonist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/balloonist.png?raw=true",
     "name": "Balonista",
     "otherNight": 63,
     "otherNightReminder": "Escolha um tipo de personagem que você ainda não escolheu. Informe ao Balonista um jogador cujo personagem é desse tipo, se houver algum. Coloque o lembrete 'Visto' do Balonista ao lado desse personagem.",
     "reminders": [
-      "Visto Cidadão",
-      "Visto Demônio",
-      "Visto Forasteiro",
-      "Visto Lacaio",
-      "Visto Viajante"
+      "Cidadão Visto",
+      "Demônio Visto",
+      "Forasteiro Visto",
+      "Lacaio Visto",
+      "Viajante Visto"
     ],
     "setup": true,
     "team": "townsfolk"
   },
   {
-    "ability": "Você não sabe qual é a sua habilidade. Todo dia, visite o Storyteller para tentar adivinhar a sua habilidade: você descobre o quão perto está da resposta.",
+    "ability": "Você não sabe qual é a sua habilidade. A cada dia, visite o Narrador para tentar adivinhar a sua habilidade: você descobre o quão perto está da resposta.",
     "edition": "",
     "firstNight": 12,
     "firstNightReminder": "Decida a habilidade do Esquecido. Se a habilidade do Esquecido faz com que ele acorde esta noite: Acorde o Esquecido e execute sua habilidade.",
@@ -161,7 +161,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Você tem a habilidade do jogador executado mais recente. Se ele for do mal, você está envenenado até um jogador do Bem ser executado.",
+    "ability": "Você tem a habilidade do jogador executado mais recente. Se o mesmo for mau, você está envenenado até um jogador bom ser executado.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -178,7 +178,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Uma vez por jogo, durante o dia, visite o Storyteller para obter conselhos de como vencer.",
+    "ability": "Uma vez por jogo, durante o dia, visite o Narrador para obter conselhos de como vencer.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -188,21 +188,21 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Usado"
+      "Sem habilidade"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "Cada noite, você descobre qual tendência o Storyteller acredita que está ganhando: Bem, Mal ou Nenhum.",
+    "ability": "A cada noite, você descobre qual time o narrador acredita que está vencendo: Bem, Mal ou nenhum.",
     "edition": "",
     "firstNight": 49,
-    "firstNightReminder": "Informe ao General: bom, mau ou nenhum; para o alinhamento que você acredita estar ganhando.",
+    "firstNightReminder": "Informe ao General qual time você acha que está vencendo usando seu polegar: Bem (polegar para cima), Mal (polegar para baixo) ou nenhum (polegar para o lado).",
     "id": "pt_PT_general",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/general.png?raw=true",
     "name": "General",
     "otherNight": 69,
-    "otherNightReminder": "Informe ao General: bom, mau ou nenhum; para o alinhamento que você acredita estar ganhando.",
+    "otherNightReminder": "Informe ao General qual time você acha que está vencendo usando seu polegar: Bem (polegar para cima), Mal (polegar para baixo) ou nenhum (polegar para o lado).",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -242,12 +242,12 @@
     "ability": "Você pensa que é um Demônio, mas você não é. O Demônio sabe quem você é e quem você escolhe à noite.",
     "edition": "bmr",
     "firstNight": 7,
-    "firstNightReminder": "(Antes e informar o Demônio) Se o jogo tiver 7 jogadores ou  mais: mostre ao Lunático uma quantidade de 'Lacaios'(arbitrários) correspondente à quantidade de Lacaios em jogo. Mostre 3 tokens de personagens bons (arbitrariamente). Se o Demônio recebido pelo Lunático acordaria para agir esta noite: Permita que o Lunático faça as ações como se fosse esse Demônio. Use os marcadores de 'Ataque'  conforme as escolhas feitas. Acorde o Demônio. Mostre ao Demônio seu verdadeiro personagem. Aponte para o Lunático e mostre o token de personagem do Lunático. Se o Lunático escolheu algum jogador: mostre um marcador de 'ataque' e aponte os jogadores escolhidos. Remova o tokens de 'Ataque'.",
+    "firstNightReminder": "Caso este jogo tenha etapa de informação do Demônio, realize esta etapa com o Lunático dando informações arbitrárias. Se o Demônio acordaria hoje para receber informações ou fazer escolhas, faça o mesmo com o Lunático (informações arbitrárias). Acorde o Demônio, Mostre o token do Lunático e aponte para o jogador correspondente. Informe quaisquer alvos que o Lunático tenha escolhido com sua habilidade falsa.",
     "id": "pt_PT_lunatic",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
     "name": "Lunático",
     "otherNight": 21,
-    "otherNightReminder": "Permita que o Lunático faça as ações como se fosse o Demônio que recebeu. Use os marcadores de 'Ataque'  conforme as escolhas feitas. Acorde o Demônio. Se o Lunático escolheu algum jogador: mostre um marcador de 'ataque' e aponte os jogadores escolhidos. Remova o tokens de 'Ataque'.",
+    "otherNightReminder": "Se o Demônio acordaria hoje para receber informações ou fazer escolhas, faça o mesmo com o Lunático (informações arbitrárias). Acorde o Demônio e informe quaisquer alvos que o Lunático tenha escolhido com sua habilidade falsa.",
     "reminders": [
       "Ataque 1",
       "Ataque 2",
@@ -257,7 +257,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Se você insinuar que é um Forasteiro, você pode ser executado imediatamente. Se você estiver alucinado que é um Forasteiro, você pode ser executado.",
+    "ability": "Se você alucinar ser um Forasteiro, você pode ser executado.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -301,7 +301,7 @@
     "team": "minion"
   },
   {
-    "ability": "Quando nomeado, você pode publicamente afirmar ser o Goblin: Se for executado naquele dia, seu time vence.",
+    "ability": "Quando nomeado, você pode publicamente alegar ser o Goblin: Se for executado naquele dia, seu time vence.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -311,16 +311,16 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Clamado Hoje"
+      "Alegou hoje"
     ],
     "setup": false,
     "team": "minion"
   },
   {
-    "ability": "Na primeira Noite, veja o Grimório e escolha um jogador: ele está envenenado. 1 jogador do Bem sabe que a Viúva está em jogo.",
+    "ability": "Na sua primeira noite, veja o Grimório e escolha um jogador: o alvo está envenenado. 1 jogador do Bem sabe que a Viúva está em jogo.",
     "edition": "",
     "firstNight": 18,
-    "firstNightReminder": "Mostre o Grimório para a viúva. A viúva escolhe um jogador. Esse jogador está envenenado. Acorde um bom jogador. Informe-o que a Viúva está em jogo. Caso a Viuvá se escolha, nenhum jogador deverá ser acordado. Caso a Viúva fique bêbada/envenenada/morra, o veneno da Viúva cessa até que ela fique sóbria novamente. Quando o bom jogador que sabe que a viúva está em jogo muda o alinhamento para ser mau, outro jogador do time bom imediatamente descobre que a viúva está em jogo",
+    "firstNightReminder": "Mostre o Grimório para a viúva. A viúva escolhe um jogador. Esse jogador está envenenado. Acorde um jogador bom. Informe-o que a Viúva está em jogo.",
     "id": "pt_PT_widow",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/widow.png?raw=true",
     "name": "Viúva",
@@ -328,31 +328,31 @@
     "otherNightReminder": "",
     "reminders": [
       "Envenenado",
-      "Knowing"
+      "Sabe"
     ],
     "remindersGlobal": [
-      "Knows"
+      "Sabe"
     ],
     "setup": false,
     "team": "minion"
   },
   {
-    "ability": "Todos os jogadores sabem que você está em jogo. Depois de 5 dias, o Mal vence. Se mais de 1 jogador do Bem for executado, o Mal vence.",
+    "ability": "Se mais de um jogador bom for executado, o Mal vence. Todos sabem que você está emjogo. Após o dia 5, o Mal vence.",
     "edition": "",
     "firstNight": 53,
-    "firstNightReminder": "Coloque o marcador Leviathan “Dia 1”. Anuncie no próximo amanhecer “O Leviathan está em jogo; este é o primeiro dia ”.",
+    "firstNightReminder": "Coloque o lembrete 'Dia 1'. Anuncie ao amanhecer: “O Leviatã está em jogo; este é o primeiro dia ”.",
     "id": "pt_PT_leviathan",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/leviathan.png?raw=true",
-    "name": "Leviathan",
+    "name": "Leviatã",
     "otherNight": 73,
-    "otherNightReminder": "Coloque o próximo marcador de Leviathan 'Dia N', onde 'N' é o número do dia. Anuncie no próximo amanhcer “O Leviathan está em jogo; este é o dia n. ”.",
+    "otherNightReminder": "Coloque o lembrete com o número do dia que irá amanhecer. Se ainda não anunciou que o Leviatã está em jogo, faça isso ao amanhcer, anunciando também o número correspondente ao dia.",
     "reminders": [
+      "Bom Executado",
       "Dia 1",
       "Dia 2",
       "Dia 3",
       "Dia 4",
-      "Dia 5",
-      "Executado e do Bem"
+      "Dia 5"
     ],
     "setup": false,
     "team": "demon"

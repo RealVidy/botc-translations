@@ -128,7 +128,7 @@ spy,Espião,"A cada noite, você vê o Grimório. Você pode ser registrado como
 stormcatcher,Storm Catcher,"Diga o nome de um personagem bom. Se estiver em jogo, o personagem só pode morrer por execução, mas o Mal sabe quem é aquele personagem.",,,,
 sweetheart,Queridinha,"Se você morrer, um jogador fica bêbado.",,"Se a Queridinha morreu, marque um jogador como 'Bêbado'.",,Bêbado
 tealady,Moça do Chá,"Se ambos os seus vizinhos vivos são bons, não podem morrer.",,,,Não pode morrer
-thief,Ladrão,"A cada noite, escolha um jogador (exceto você): o voto do alvo conta negaruvamente amanhã.",The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.,The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.,,Voto Negativo
+thief,Ladrão,"A cada noite, escolha um jogador (exceto você): o voto do alvo conta negaruvamente amanhã.",O Ladrão aponta para um jogador. Marque o alvo com o token 'voto negativo'.,O Ladrão aponta para um jogador. Marque o alvo com o token 'voto negativo'.,,Voto Negativo
 tinker,Imprudente,Você pode morrer a qualquer momento.,,O Imprudente pode morrer.,,Morto
 towncrier,Arauto da Cidade,"A cada noite*, você descobre se um Lacaio nomeou hoje.",,"Faça 'sim' ou 'não' com a cabeça para indicar se algum Lacaio nomeou hoje. Coloque o lembrete 'Lacaios não nomearam' (remova 'Lacaio nomeou', se for o caso).",,"Lacaio nomeou,Lacaios não nomearam"
 toymaker,Brinquinheiro,O Demônio pode escolher não atacar e deve fazer isso pelo menos uma vez no jogo. O Mal começa com as informações iniciais.,,,,

@@ -14,35 +14,35 @@
     "team": "townsfolk"
   },
   {
-    "ability": "A cada noite, você descobre quantos de seus 2 vizinhos vivos são maus.",
+    "ability": "A cada noite, você vê quantos de seus 2 vizinhos vivos são maus.",
     "edition": "tb",
     "firstNight": 36,
-    "firstNightReminder": "Mostre um número (0, 1 ou 2) para indicar quantos dos vizinhos vivos do Empático são maus.",
+    "firstNightReminder": "Com os dedos, mostre o número correspondente à quantidade de vizinhos maus vivos do Empático.",
     "id": "pt_PT_empath",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
     "name": "Empático",
     "otherNight": 53,
-    "otherNightReminder": "Mostre um número (0, 1 ou 2) para indicar quantos dos vizinhos vivos do Empático são maus.",
+    "otherNightReminder": "Com os dedos, mostre o número correspondente à quantidade de vizinhos maus vivos do Empático.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "A cada noite, escolha um jogador (exceto você ou Viajantes): você descobre que ele é 1 dentre 2 personagens (um bom e um mal).",
+    "ability": "A cada noite, escolha um jogador (exceto você ou Viajantes): você vê 2 personagens (um bom e um mal). Um destes é o do alvo.",
     "edition": "snv",
     "firstNight": 41,
-    "firstNightReminder": "O Sonhador aponta para um jogador Mostre um token de personagem bom e um mal, sendo um dos dois o verdadeiro personagem do jogador escolhido.",
+    "firstNightReminder": "O Sonhador aponta para um jogador. Mostre um token de personagem bom e um mal, sendo um dos dois o verdadeiro personagem do jogador escolhido.",
     "id": "pt_PT_dreamer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/dreamer.png?raw=true",
     "name": "Sonhador",
     "otherNight": 57,
-    "otherNightReminder": "O Sonhador aponta para um jogador Mostre um token de personagem bom e um mal, sendo um dos dois o verdadeiro personagem do jogador escolhido.",
+    "otherNightReminder": "O Sonhador aponta para um jogador. Mostre um token de personagem bom e um mal, sendo um dos dois o verdadeiro personagem do jogador escolhido.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "Uma vez por partida, durante o dia, você pode escolher um jogador: se este for o Demônio, morre.",
+    "ability": "Uma vez por jogo, durante o dia, você pode escolher um jogador publicamente: se o alvo for o Demônio, morre.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -61,12 +61,12 @@
     "ability": "Uma vez por jogo, à noite, escolha um personagem: ele fica bêbado por 3 noites e 3 dias.",
     "edition": "bmr",
     "firstNight": 19,
-    "firstNightReminder": "O Cortesão pode fazer um 'não' com a cabeça, ou apontar para um personagem na ficha. Se o Cortesão usou a habilidade, e o personagem estiver em jogo,  o jogador correapondnte fica bêbado.",
+    "firstNightReminder": "O Cortesão pode sinalizar 'não' com a cabeça, ou apontar para um personagem na ficha. Se o Cortesão usou a habilidade, e o personagem estiver em jogo, o alvo fica bêbado.",
     "id": "pt_PT_courtier",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/courtier.png?raw=true",
     "name": "Cortesão",
     "otherNight": 10,
-    "otherNightReminder": "Reduza a quantidade de dias restantes do jogador bêbado. Se o Cortesão ainda não usou a habilidade: O Cortesão pode fazer um 'não' com a cabeça, ou apontar para um personagem na ficha. Se o Cortesão usou a habilidade, e o personagem estiver em jogo,  o jogador correapondnte fica bêbado.",
+    "otherNightReminder": "Reduza a quantidade de dias restantes do jogador bêbado. Se o Cortesão ainda não usou a habilidade: O Cortesão pode sinalizar 'não' com a cabeça, ou apontar para um personagem na ficha. Se o Cortesão usou a habilidade, e o personagem estiver em jogo, o alvo fica bêbado.",
     "reminders": [
       "Bêbado 1",
       "Bêbado 2",
@@ -77,7 +77,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Se apenas 3 jogadores  estão vivos e não houver execução, seu time vence. Se você morreria à noite, outro jogador pode morrer em vez disso.",
+    "ability": "Se apenas 3 jogadores estão vivos e não houver execução, seu time vence. Se você morreria à noite, outro jogador pode morrer em vez disso.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -94,12 +94,12 @@
     "ability": "Você pensa que é um Demônio, mas você não é. O Demônio sabe quem você é e quem você escolhe à noite.",
     "edition": "bmr",
     "firstNight": 7,
-    "firstNightReminder": "(Antes e informar o Demônio) Se o jogo tiver 7 jogadores ou  mais: mostre ao Lunático uma quantidade de 'Lacaios'(arbitrários) correspondente à quantidade de Lacaios em jogo. Mostre 3 tokens de personagens bons (arbitrariamente). Se o Demônio recebido pelo Lunático acordaria para agir esta noite: Permita que o Lunático faça as ações como se fosse esse Demônio. Use os marcadores de 'Ataque'  conforme as escolhas feitas. Acorde o Demônio. Mostre ao Demônio seu verdadeiro personagem. Aponte para o Lunático e mostre o token de personagem do Lunático. Se o Lunático escolheu algum jogador: mostre um marcador de 'ataque' e aponte os jogadores escolhidos. Remova o tokens de 'Ataque'.",
+    "firstNightReminder": "Caso este jogo tenha etapa de informação do Demônio, realize esta etapa com o Lunático dando informações arbitrárias. Se o Demônio acordaria hoje para receber informações ou fazer escolhas, faça o mesmo com o Lunático (informações arbitrárias). Acorde o Demônio, Mostre o token do Lunático e aponte para o jogador correspondente. Informe quaisquer alvos que o Lunático tenha escolhido com sua habilidade falsa.",
     "id": "pt_PT_lunatic",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
     "name": "Lunático",
     "otherNight": 21,
-    "otherNightReminder": "Permita que o Lunático faça as ações como se fosse o Demônio que recebeu. Use os marcadores de 'Ataque'  conforme as escolhas feitas. Acorde o Demônio. Se o Lunático escolheu algum jogador: mostre um marcador de 'ataque' e aponte os jogadores escolhidos. Remova o tokens de 'Ataque'.",
+    "otherNightReminder": "Se o Demônio acordaria hoje para receber informações ou fazer escolhas, faça o mesmo com o Lunático (informações arbitrárias). Acorde o Demônio e informe quaisquer alvos que o Lunático tenha escolhido com sua habilidade falsa.",
     "reminders": [
       "Ataque 1",
       "Ataque 2",
@@ -109,7 +109,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Quando sua morte for declarada, escolha publicamente um jogador vivo do Bem, ou seu time perde.",
+    "ability": "Quando sua morte for declarada, escolha publicamente um jogador vivo: se o alvo for mau, seu time perde.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -139,7 +139,7 @@
     "team": "minion"
   },
   {
-    "ability": "A cada noite, você vê o Grimório. Você pode registrar como bom, Cidadão, ou Forasteiro, mesmo quando morto.",
+    "ability": "A cada noite, você vê o Grimório. Você pode ser registrado como bom e Cidadão/Forasteiro, mesmo quando morto.",
     "edition": "tb",
     "firstNight": 48,
     "firstNightReminder": "Mostre o Grimório para o Espião pelo tempo que ele precisar.",
@@ -153,7 +153,7 @@
     "team": "minion"
   },
   {
-    "ability": "Toda Noite*, você escolhe um jogador: ele morre imediatamente. Habilidades do Bem geram informações falsas. Todo Dia, se ninguém for executado, o Mal vence.",
+    "ability": "A cada noite*, escolha um jogador: o alvo morre. Habilidades de Cidadão geram informações falsas. A cada dia, se ninguém for executado, o Mal vence.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -161,7 +161,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vortox.png?raw=true",
     "name": "Vortox",
     "otherNight": 31,
-    "otherNightReminder": "O Vortox escolhe um jogador. O jogador morre.",
+    "otherNightReminder": "O Vortox escolhe um jogador, o alvo morre.",
     "reminders": [
       "Morto"
     ],
@@ -169,17 +169,17 @@
     "team": "demon"
   },
   {
-    "ability": "There might be 1 extra or 1 fewer Outsider in-play.",
+    "ability": "Pode haver 1 Forasteiro a mais ou a menos.",
     "id": "pt_PT_sentinel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
-    "name": "Sentinel",
+    "name": "Sentinela",
     "team": "fabled"
   },
   {
-    "ability": "If 4 or more players live, each living player may publicly choose (once per game) that a player of their own alignment dies.",
+    "ability": "Se 4 ou mais jogadores estiverm vivos, cada jogador vivo pode (uma vez por jogo) pedir que um jogador do mesmo alinhamento morra.",
     "id": "pt_PT_doomsayer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/doomsayer.png?raw=true",
-    "name": "Doomsayer",
+    "name": "Agoureiro",
     "team": "fabled"
   }
 ]

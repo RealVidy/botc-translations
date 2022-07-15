@@ -53,12 +53,12 @@
     "ability": "Une fois par partie, pendant la nuit, choisissez deux autres joueurs. Vous apprendrez s'ils sont du même alignement.",
     "edition": "snv",
     "firstNight": 42,
-    "firstNightReminder": "Elle décide si elle utilise sa capacité. Si oui, elle pointe deux joueurs et lui indiquer s'ils sont du même alignement.",
+    "firstNightReminder": "Elle décide si elle utilise sa capacité. Si oui, elle pointe deux joueurs et le conteur lui indique s'ils sont du même alignement.",
     "id": "fr_FR_seamstress",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/seamstress.png?raw=true",
     "name": "Couturière",
     "otherNight": 61,
-    "otherNightReminder": "Si elle n'a pas encore utilisé sa capacité: elle décide si elle utilise sa capacité. Si oui, elle pointe deux joueurs et lui indiquer s'ils sont du même alignement.",
+    "otherNightReminder": "Si elle n'a pas encore utilisé sa capacité: elle décide si elle utilise sa capacité. Si oui, elle pointe deux joueurs et le conteur lui indique s'ils sont du même alignement.",
     "reminders": [
       "Inactif"
     ],
