@@ -1,4 +1,4 @@
-w,name,ability,firstNightReminder,otherNightReminder,remindersGlobal,reminders
+id,name,ability,firstNightReminder,otherNightReminder,remindersGlobal,reminders
 acrobat,بندباز,هر شب*، اگر هرکدام از همسایه‌های شما مست یا مسموم باشند، می‌میرید.,,اگر همسایه خیر زنده بندباز مست یا مسموم باشد، بندباز می‌میرد.,,مرده
 alchemist,کیمیاگر,شما دارای قدرت یکی از مریدانی که در بازی نیست هستید.,به کیمیاگر،‌ نشانه یکی از مریدانی که در بازی نیستند را نشان دهید,,کیمیاگر,
 alhadikhia,الحدیقه,هرشب* ۳ نفر را انتخاب کن (همه می‌فهمند چه کسانی انتخاب شده‌اند): هرکدام بی‌صدا انتخاب می‌کنند که می‌خواهند زنده بمانند یا بمیرند، ولی اگر همگی زندگی را انتخاب‌کنند، همگی می‌میرند.,,"The Al-Hadikhia chooses 3 players. Announce the first player, wake them to nod yes to live or shake head no to die, kill or resurrect accordingly, then put to sleep and announce the next player. If all 3 are alive after this, all 3 die.",,"۱,۲,۳,زندگی,مرگ"
