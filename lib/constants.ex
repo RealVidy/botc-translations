@@ -6,6 +6,7 @@ defmodule Constants do
     "fa_IR",
     "fil_PH",
     "fr_FR",
+    "hu_HU",
     "it_IT",
     "ja_JA",
     "kw_KW",
