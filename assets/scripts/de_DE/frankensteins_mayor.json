@@ -24,7 +24,7 @@
     "otherNight": 56,
     "otherNightReminder": "If a player was executed today: Show that player’s character token.",
     "reminders": [
-      "Executed"
+      "Exekutiert"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -38,7 +38,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/oracle.png?raw=true",
     "name": "Orakel",
     "otherNight": 60,
-    "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of dead evil players.",
+    "otherNightReminder": "Zeige mit deinen Fingern die Anzahl der bösen Spieler, die gestorben sind",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -110,9 +110,9 @@
     "otherNight": 21,
     "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
     "reminders": [
-      "Attack 1",
-      "Attack 2",
-      "Attack 3"
+      "Angriff 1",
+      "Angriff 2",
+      "Angriff 3"
     ],
     "setup": false,
     "team": "outsider"
@@ -128,7 +128,7 @@
     "otherNight": 8,
     "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
     "reminders": [
-      "Poisoned"
+      "Vergiftet"
     ],
     "setup": false,
     "team": "minion"
@@ -158,8 +158,8 @@
     "otherNight": 25,
     "otherNightReminder": "If no-one died during the day: The Zombuul points to a player. That player dies.",
     "reminders": [
-      "Dead",
-      "Died today"
+      "Tot",
+      "starb heute"
     ],
     "setup": false,
     "team": "demon"

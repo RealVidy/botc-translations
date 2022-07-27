@@ -1329,17 +1329,17 @@
     "team": "minion"
   },
   {
-    "ability": "Chaque nuit, choisissez un joueur : si vous le nominnez et qu'il est exécuté, son équipe perd. Tous les joueurs sont avertis lorsque vous choisissez un nouveau joueur.",
+    "ability": "Chaque nuit, choisissez un joueur : si vous le nommez et qu'il est exécuté, son équipe perd. Tous les joueurs sont avertis lorsque vous choisissez un nouveau joueur.",
     "edition": "",
     "firstNight": 26,
-    "firstNightReminder": "L'Alarmiste désigne un joueur. Placez le jeton «Alarme» à côté de ce joueur et annoncez qu'un nouveau joueur a été sélectionné par le pouvoir de l'Alarmiste.",
+    "firstNightReminder": "Le prophète désigne un joueur. Placez le jeton «Cible» à côté de ce joueur et annoncez qu'un nouveau joueur a été sélectionné par le pouvoir du Prophète de l'Effroi.",
     "id": "fr_FR_fearmonger",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fearmonger.png?raw=true",
-    "name": "Alarmiste",
+    "name": "Prophète de l'Effroi",
     "otherNight": 18,
-    "otherNightReminder": "L'Alarmiste désigne un joueur. Placez le jeton «Alarme» à côté de ce joueur et annoncez qu'un nouveau joueur a été sélectionné par le pouvoir de l'Alarmiste.",
+    "otherNightReminder": "Le Prophète désigne un joueur. Placez le jeton «Cible» à côté de ce joueur et annoncez qu'un nouveau joueur a été sélectionné par le pouvoir du Prophète de l'Effroi.",
     "reminders": [
-      "Alarme"
+      "Cible"
     ],
     "setup": false,
     "team": "minion"
@@ -1894,7 +1894,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Chaque jour, après la 1ère exécution, vous devez faire une nouvelle nomination.",
+    "ability": "Chaque jour, après la 1ère exécution, vous pouvez faire une nouvelle nomination.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -2044,6 +2044,10 @@
     "id": "fr_FR_angel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/angel.png?raw=true",
     "name": "Ange",
+    "reminders": [
+      "Protect",
+      "Something Bad"
+    ],
     "team": "fabled"
   },
   {
@@ -2072,6 +2076,10 @@
     "id": "fr_FR_duchess",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/duchess.png?raw=true",
     "name": "Duchesse",
+    "reminders": [
+      "False Info",
+      "Visitor"
+    ],
     "team": "fabled"
   },
   {
@@ -2079,6 +2087,9 @@
     "id": "fr_FR_fibbin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fibbin.png?raw=true",
     "name": "Baratineur",
+    "reminders": [
+      "Used"
+    ],
     "team": "fabled"
   },
   {
@@ -2093,6 +2104,9 @@
     "id": "fr_FR_hellslibrarian",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/hellslibrarian.png?raw=true",
     "name": "Bibliothécaire de l'enfer",
+    "reminders": [
+      "Something Bad"
+    ],
     "team": "fabled"
   },
   {
@@ -2100,6 +2114,9 @@
     "id": "fr_FR_revolutionary",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/revolutionary.png?raw=true",
     "name": "Révolutionnaire",
+    "reminders": [
+      "Register Falsely?"
+    ],
     "team": "fabled"
   },
   {
@@ -2114,6 +2131,9 @@
     "id": "fr_FR_spiritofivory",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spiritofivory.png?raw=true",
     "name": "Esprit d'ivoire",
+    "reminders": [
+      "No extra evil"
+    ],
     "team": "fabled"
   },
   {
@@ -2121,6 +2141,9 @@
     "id": "fr_FR_stormcatcher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/stormcatcher.png?raw=true",
     "name": "Attrape-tempête",
+    "reminders": [
+      "Safe"
+    ],
     "team": "fabled"
   },
   {
@@ -2128,6 +2151,9 @@
     "id": "fr_FR_toymaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/toymaker.png?raw=true",
     "name": "Fabricant de jouets",
+    "reminders": [
+      "No Attack"
+    ],
     "team": "fabled"
   }
 ]

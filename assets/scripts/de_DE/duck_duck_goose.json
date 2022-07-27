@@ -10,23 +10,23 @@
     "otherNight": 50,
     "otherNightReminder": "If the Grandmother’s grandchild was killed by the Demon tonight: The Grandmother dies.",
     "reminders": [
-      "Grandchild"
+      "Enkel"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "Du beginnst das Spiel mit dem Wissen, dass 1 Spieler böse ist. Wenn dieser Spieler stirbt, lernst du in der Nacht einen anderen bösen Spieler. [1 Dorfbewohner ist böse]",
+    "ability": "Du beginnst das Spiel mit dem Wissen, dass 1 Spieler böse ist. Wenn dieser Spieler stirbt, lernst du in der Nacht einen anderen bösen Spieler kennen. [1 Dorfbewohner ist böse]",
     "edition": "",
     "firstNight": 45,
-    "firstNightReminder": "Point to 1 evil player. Wake the townsfolk who is evil and show them the 'You are' card and the thumbs down evil sign.",
+    "firstNightReminder": "Zeige auf 1 bösen Spieler. Wecke den Dorfbewohner, der böse ist und zeige Ihm die 'Du bist' Karte und das Daumen-runter böse Zeichen.",
     "id": "de_DE_bountyhunter",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bountyhunter.png?raw=true",
     "name": "Kopfgeldjäger",
     "otherNight": 65,
-    "otherNightReminder": "If the known evil player has died, point to another evil player.",
+    "otherNightReminder": "Wenn der bekannte böse Spieler stirbt, zeige auf einen anderen bösen Spieler.",
     "reminders": [
-      "Known"
+      "Bekannt"
     ],
     "setup": true,
     "team": "townsfolk"
@@ -49,14 +49,14 @@
     "ability": "Jede Nacht, wähle 1 lebenden Spieler: entweder du oder er ist bis Sonnenuntergang betrunken. Du kannst nicht sterben.",
     "edition": "bmr",
     "firstNight": 10,
-    "firstNightReminder": "The Sailor points to a living player. Either the Sailor, or the chosen player, is drunk.",
+    "firstNightReminder": "Der Seemann zeigt auf einen lebenden Spieler. Entweder der Seemann oder der gewählte Spieler ist betrunken.",
     "id": "de_DE_sailor",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sailor.png?raw=true",
     "name": "Seemann",
     "otherNight": 4,
     "otherNightReminder": "The previously drunk player is no longer drunk. The Sailor points to a living player. Either the Sailor, or the chosen player, is drunk.",
     "reminders": [
-      "Drunk"
+      "Betrunken"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -65,18 +65,17 @@
     "ability": "Du erfährst jede Nacht 1 Spieler eines anderen Charaktertyps, bis keine übrig bleiben. [+1 Außenseiter]",
     "edition": "",
     "firstNight": 44,
-    "firstNightReminder": "Choose a character type. Point to a player whose character is of that type. Place the Balloonist's Seen reminder next to that character.",
+    "firstNightReminder": "Wähle eine Charakterklasse. Zeige auf einen Spieler dessen Charakter dieser Klasse entspricht. Platziere den \"Gesehen\" Reminder neben den Charakter.",
     "id": "de_DE_balloonist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/balloonist.png?raw=true",
     "name": "Ballonfahrer",
     "otherNight": 63,
-    "otherNightReminder": "Choose a character type that does not yet have a Seen reminder next to a character of that type. Point to a player whose character is of that type, if there are any. Place the Balloonist's Seen reminder next to that character.",
+    "otherNightReminder": "Wähle eine Charakterklasse neben dem noch kein \"Gesehen\" reminder liegt. Zeige auf einen Spieler dessen Charakter dieser Klasse entspricht. Platziere den \"Gesehen\" Reminder neben den Charakter.",
     "reminders": [
-      "Seen Demon",
-      "Seen Minion",
-      "Seen Outsider",
-      "Seen Townsfolk",
-      "Seen Traveller"
+      "Dorfbewohner gesehen",
+      "Dämon gesehen",
+      "Reisender gesehen",
+      "Untergebener gesehen"
     ],
     "setup": true,
     "team": "townsfolk"
@@ -92,7 +91,7 @@
     "otherNight": 54,
     "otherNightReminder": "The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Demon.",
     "reminders": [
-      "Red herring"
+      "Köder"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -106,9 +105,9 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gossip.png?raw=true",
     "name": "Schwätzer",
     "otherNight": 47,
-    "otherNightReminder": "If the Gossip’s public statement was true: Choose a player not protected from dying tonight. That player dies.",
+    "otherNightReminder": "Wenn das öffentliche Statement des Schwätzers zutrifft: Wähle einen Spieler, der nicht vor dem Tod beschützt ist. Dieser Spieler stirbt",
     "reminders": [
-      "Dead"
+      "Tot"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -124,7 +123,7 @@
     "otherNight": 6,
     "otherNightReminder": "The Engineer shows a 'no' head signal, or points to a Demon or points to the relevant number of Minions. If the Engineer chose characters, replace the Demon or Minions with the choices, then wake the relevant players and show them the 'You are' card and the relevant character tokens.",
     "reminders": [
-      "No ability"
+      "Keine Fähigkeit"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -140,7 +139,7 @@
     "otherNight": 61,
     "otherNightReminder": "If the Seamstress has not yet used their ability: the Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
     "reminders": [
-      "No ability"
+      "Keine Fähigkeit"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -149,7 +148,7 @@
     "ability": "Du hast die Fähigkeit eines Untergebenen, der nicht im Spiel ist.",
     "edition": "",
     "firstNight": 3,
-    "firstNightReminder": "Show the Alchemist a not-in-play Minion token",
+    "firstNightReminder": "Zeige dem Alchemisten den Spielstein eines Lakaien, der sich nicht im Spiel befindet",
     "id": "de_DE_alchemist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/alchemist.png?raw=true",
     "name": "Alchemist",
@@ -157,7 +156,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Is the Alchemist"
+      "Ist der Alchimist"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -173,8 +172,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Died today",
-      "Poisoned"
+      "Heute gestorben",
+      "vergiftet"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -190,7 +189,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Can not die"
+      "Kann nicht sterben"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -199,14 +198,14 @@
     "ability": "Untergebene & Dämonen kennen einander nicht. Wenn du stirbst, lernen sie einander in der Nacht kennen.",
     "edition": "",
     "firstNight": 4,
-    "firstNightReminder": "Do not inform the Demon/Minions who each other are",
+    "firstNightReminder": "Sage weder dem Dämon noch den Untergebenen, wer die anderen bösen Mitspieler sind.",
     "id": "de_DE_poppygrower",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poppygrower.png?raw=true",
     "name": "Mohnzüchter",
     "otherNight": 3,
     "otherNightReminder": "If the Poppy Grower has died, show the Minions/Demon who each other are.",
     "reminders": [
-      "Evil wakes"
+      "Böse erwacht"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -220,9 +219,9 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/tinker.png?raw=true",
     "name": "Erfinder",
     "otherNight": 48,
-    "otherNightReminder": "The Tinker might die.",
+    "otherNightReminder": "Der Erfinder könnte sterben.",
     "reminders": [
-      "Dead"
+      "Tot"
     ],
     "setup": false,
     "team": "outsider"
@@ -239,7 +238,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Drunk"
+      "Betrunken"
     ],
     "setup": true,
     "team": "outsider"
@@ -255,7 +254,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Can not nominate"
+      "Kann nicht nominieren"
     ],
     "setup": false,
     "team": "outsider"
@@ -271,9 +270,9 @@
     "otherNight": 21,
     "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
     "reminders": [
-      "Attack 1",
-      "Attack 2",
-      "Attack 3"
+      "Angriff 1",
+      "Angriff 2",
+      "Angriff 3"
     ],
     "setup": false,
     "team": "outsider"
@@ -282,15 +281,15 @@
     "ability": "Du beginnst das Spiel mit dem Wissen über ein geheimes Wort. Der erste gute Spieler, der dieses Wort ausspricht, wird in der Nacht böse.",
     "edition": "",
     "firstNight": 27,
-    "firstNightReminder": "Show the Mezepheles their secret word.",
+    "firstNightReminder": "Zeige Mezepheles das geheime Wort",
     "id": "de_DE_mezepheles",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mezepheles.png?raw=true",
     "name": "Mezepheles",
     "otherNight": 19,
     "otherNightReminder": "Wake the 1st good player that said the Mezepheles' secret word and show them the 'You are' card and the thumbs down evil signal.",
     "reminders": [
-      "No ability",
-      "Turns evil"
+      "Keine Fähigkeit",
+      "wird böse"
     ],
     "setup": false,
     "team": "minion"
@@ -306,7 +305,7 @@
     "otherNight": 14,
     "otherNightReminder": "The Devil’s Advocate points to a living player, different from the previous night. That player survives execution tomorrow.",
     "reminders": [
-      "Survives execution"
+      "Überlebt Exekution"
     ],
     "setup": false,
     "team": "minion"
@@ -322,7 +321,7 @@
     "otherNight": 18,
     "otherNightReminder": "The Fearmonger points to a player. If different from the previous night, place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",
     "reminders": [
-      "Fear"
+      "Furcht"
     ],
     "setup": false,
     "team": "minion"
@@ -336,10 +335,10 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/assassin.png?raw=true",
     "name": "Assassine",
     "otherNight": 37,
-    "otherNightReminder": "If the Assassin has not yet used their ability: The Assassin either shows the 'no' head signal, or points to a player. That player dies.",
+    "otherNightReminder": "Hat der Assassine seine Fähigkeit noch nicht verwendet: Der Assassnie zeigt entweder ein 'Nein' Signal mit dem Kopf oder zeigt auf einen Spieler. Dieser Spieler stirbt.",
     "reminders": [
-      "Dead",
-      "No ability"
+      "Keine Fähigkeit",
+      "Tot"
     ],
     "setup": false,
     "team": "minion"
@@ -356,8 +355,8 @@
     "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
     "reminders": [],
     "remindersGlobal": [
-      "Dead",
-      "Is the Demon"
+      "Tot",
+      "ist der Dämon"
     ],
     "setup": true,
     "team": "demon"
@@ -373,9 +372,9 @@
     "otherNight": 32,
     "otherNightReminder": "The Vigormortis points to a player. That player dies. If a Minion, they keep their ability and one of their Townsfolk neighbours is poisoned.",
     "reminders": [
-      "Dead",
-      "Has ability",
-      "Poisoned"
+      "Tot",
+      "hat Fähigkeit",
+      "vergiftet"
     ],
     "setup": true,
     "team": "demon"
@@ -391,8 +390,8 @@
     "otherNight": 35,
     "otherNightReminder": "The Lleech points to a player. That player dies.",
     "reminders": [
-      "Dead",
-      "Poisoned"
+      "Tot",
+      "Vergiftet"
     ],
     "setup": false,
     "team": "demon"
@@ -406,10 +405,10 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/nodashii.png?raw=true",
     "name": "No Dashii",
     "otherNight": 30,
-    "otherNightReminder": "The No Dashii points to a player. That player dies.",
+    "otherNightReminder": "Der No Dashii zeigt auf einen Spieler. Dieser Spieler stirbt.",
     "reminders": [
-      "Dead",
-      "Poisoned"
+      "Tot",
+      "vergiftet"
     ],
     "setup": false,
     "team": "demon"

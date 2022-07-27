@@ -1,0 +1,174 @@
+[
+  {
+    "ability": "Je start met te weten hoeveel paren van slechte spelers er zijn.",
+    "edition": "tb",
+    "firstNight": 35,
+    "firstNightReminder": "Toon het vinger signaal (0, 1, 2, ...) voor het aantal paren van slechte spelers die langs elkaar zitten.",
+    "id": "nl_NL_chef",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true",
+    "name": "Chef",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Iedere nacht*, leer jij het personage van de speler die vandaag is gestorven door executie.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_undertaker",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/undertaker.png?raw=true",
+    "name": "Begrafenisondernemer",
+    "otherNight": 56,
+    "otherNightReminder": "Als een speler geëxecuteerd is vandaag: Toon het personage symbool van die speler.",
+    "reminders": [
+      "Geëxecuteerd"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Each night*, you learn how many dead players are evil.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_oracle",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/oracle.png?raw=true",
+    "name": "Oracle",
+    "otherNight": 60,
+    "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of dead evil players.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "If the Demon kills you, you learn that it is 1 of 2 players.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_sage",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sage.png?raw=true",
+    "name": "Sage",
+    "otherNight": 43,
+    "otherNightReminder": "If the Sage was killed by a Demon: Point to two players, one of which is that Demon.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Als je in de nacht sterft, word je ontwaken om een speler te kiezen: je leert het personage van die speler.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_ravenkeeper",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true",
+    "name": "Raafwaker",
+    "otherNight": 42,
+    "otherNightReminder": "Als de Raafwaker sterft vannacht: De Raafwaker wijst naar een speler. Toon het personage symbool van die speler.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Als er nog enkel 3 spelers leven en er gebeuren geen executies, dan wint jouw team. Als je in de nacht sterft, kan mogelijk een andere speler in jouw plaats sterven.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_mayor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mayor.png?raw=true",
+    "name": "Burgemeester",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Je wordt mogelijk herkent als slecht & als een Minion/Handlanger of Demon, zelfs als je dood bent.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_recluse",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/recluse.png?raw=true",
+    "name": "Kluizenaar",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night.",
+    "edition": "bmr",
+    "firstNight": 7,
+    "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
+    "id": "nl_NL_lunatic",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
+    "name": "Lunatic",
+    "otherNight": 21,
+    "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
+    "reminders": [
+      "Attack 1",
+      "Attack 2",
+      "Attack 3"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Iedere nacht, kies een speler: die speler is vergiftigd vannacht en de volgende dag.",
+    "edition": "tb",
+    "firstNight": 17,
+    "firstNightReminder": "De Vergiftiger wijst naar een speler. Die speler is vergiftigd.",
+    "id": "nl_NL_poisoner",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
+    "name": "Vergiftiger",
+    "otherNight": 8,
+    "otherNightReminder": "De vorige vergiftigde speler is niet meer vergiftigd. De Vergiftiger wijst naar een speler. Die speler is vergiftigd.",
+    "reminders": [
+      "Vergiftigd"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Ieder nacht, zie je kort de Grimoire. Je kan mogelijk herkent worden als goed & als een Townfolk/Burger of Buitenstaander/Outsider, zelfs als je dood bent.",
+    "edition": "tb",
+    "firstNight": 48,
+    "firstNightReminder": "Toon de Grimoire aan de Spion voor zolang het nodig is.",
+    "id": "nl_NL_spy",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spy.png?raw=true",
+    "name": "Spion",
+    "otherNight": 68,
+    "otherNightReminder": "Toon de Grimoire aan de Spion voor zolang het nodig is.",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Each night*, if no-one died today, choose a player: they die. The 1st time you die, you live but register as dead.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_zombuul",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/zombuul.png?raw=true",
+    "name": "Zombuul",
+    "otherNight": 25,
+    "otherNightReminder": "If no-one died during the day: The Zombuul points to a player. That player dies.",
+    "reminders": [
+      "Dead",
+      "Died today"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "There might be 1 extra or 1 fewer Outsider in-play.",
+    "id": "nl_NL_sentinel",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
+    "name": "Sentinel",
+    "team": "fabled"
+  }
+]

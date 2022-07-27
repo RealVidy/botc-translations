@@ -10,7 +10,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "Keine Fähigkeit"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -26,8 +26,8 @@
     "otherNight": 2,
     "otherNightReminder": "If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
     "reminders": [
-      "Drunk",
-      "Is the Philosopher"
+      "Betrunken",
+      "ist der Philosoph"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -43,8 +43,8 @@
     "otherNight": 45,
     "otherNightReminder": "If the Professor has not used their ability: The Professor either shakes their head no, or points to a player. If that player is a Townsfolk, they are now alive.",
     "reminders": [
-      "Alive",
-      "No ability"
+      "Am Leben",
+      "Keine Fähigkeit"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -60,7 +60,7 @@
     "otherNight": 61,
     "otherNightReminder": "If the Seamstress has not yet used their ability: the Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
     "reminders": [
-      "No ability"
+      "Keine Fähigkeit"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -76,7 +76,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "Keine Fähigkeit"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -92,7 +92,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "Keine Fähigkeit"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -122,7 +122,7 @@
     "otherNight": 49,
     "otherNightReminder": "If the Moonchild used their ability to target a player today: If that player is good, they die.",
     "reminders": [
-      "Dead"
+      "Tot"
     ],
     "setup": false,
     "team": "outsider"
@@ -131,14 +131,14 @@
     "ability": "Du und ein Spieler des gegnerischen Teams kennen einander. Wenn der gute Spieler hingerichtet wird, gewinnt das böse Team. Das gute Team kann nicht gewinnen, wenn ihr beide noch lebt.",
     "edition": "snv",
     "firstNight": 23,
-    "firstNightReminder": "Wake the Evil Twin and their twin. Confirm that they have acknowledged each other. Point to the Evil Twin. Show their Evil Twin token to the twin player. Point to the twin. Show their character token to the Evil Twin player.",
+    "firstNightReminder": "Wecke den bösen Zwilling und den Zwilling. Achte darauf, dass sich beide Zwillinge gefunden haben. Zeige auf den bösen Zwilling und zeige dem anderen Zwilling die Spielkarte des bösen Zwilling. Zeige auf den anderen Zwilling und zeige seine Spielkarte dem Spieler des bösen Zwilling.",
     "id": "de_DE_eviltwin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/eviltwin.png?raw=true",
     "name": "Böser Zwilling",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Twin"
+      "Zwilling"
     ],
     "setup": false,
     "team": "minion"
@@ -161,15 +161,15 @@
     "ability": "Jede Nacht, wähle 1 Spieler: er ist vergiftet. Der zuvor vergiftete Spieler stirbt und wird dann gesund.",
     "edition": "bmr",
     "firstNight": 28,
-    "firstNightReminder": "The Pukka points to a player. That player is poisoned.",
+    "firstNightReminder": "Der Pukka zeigt auf einen Spieler. Dieser Spieler ist vergiftet.",
     "id": "de_DE_pukka",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pukka.png?raw=true",
     "name": "Pukka",
     "otherNight": 26,
-    "otherNightReminder": "The Pukka points to a player. That player is poisoned. The previously poisoned player dies.",
+    "otherNightReminder": "Der Pukka zeigt auf einen Spieler. Dieser Spieler ist vergiftet. Der Spieler der zuvor vergiftet wurde, stirbt.",
     "reminders": [
-      "Dead",
-      "Poisoned"
+      "Tot",
+      "Vergiftet"
     ],
     "setup": false,
     "team": "demon"

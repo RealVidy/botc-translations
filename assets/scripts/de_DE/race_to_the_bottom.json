@@ -52,7 +52,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "Keine Fähigkeit"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -68,10 +68,10 @@
     "otherNight": 10,
     "otherNightReminder": "Reduce the remaining number of days the marked player is poisoned. If the Courtier has not yet used their ability: The Courtier either shows a 'no' head signal, or points to a character on the sheet. If the Courtier used their ability: If that character is in play, that player is drunk.",
     "reminders": [
-      "Drunk 1",
-      "Drunk 2",
-      "Drunk 3",
-      "No ability"
+      "Betrunken 1",
+      "Betrunken 2",
+      "Betrunken 3",
+      "keine Fähigkeit"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -101,9 +101,9 @@
     "otherNight": 21,
     "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
     "reminders": [
-      "Attack 1",
-      "Attack 2",
-      "Attack 3"
+      "Angriff 1",
+      "Angriff 2",
+      "Angriff 3"
     ],
     "setup": false,
     "team": "outsider"
@@ -133,7 +133,7 @@
     "otherNight": 20,
     "otherNightReminder": "If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",
     "reminders": [
-      "Demon"
+      "Dämon"
     ],
     "setup": false,
     "team": "minion"
@@ -163,7 +163,7 @@
     "otherNight": 31,
     "otherNightReminder": "The Vortox points to a player. That player dies.",
     "reminders": [
-      "Dead"
+      "Tot"
     ],
     "setup": false,
     "team": "demon"

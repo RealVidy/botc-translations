@@ -2033,6 +2033,10 @@
     "id": "zh_CN_angel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/angel.png?raw=true",
     "name": "天使",
+    "reminders": [
+      "Protect",
+      "Something Bad"
+    ],
     "team": "fabled"
   },
   {
@@ -2061,6 +2065,10 @@
     "id": "zh_CN_duchess",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/duchess.png?raw=true",
     "name": "女爵",
+    "reminders": [
+      "False Info",
+      "Visitor"
+    ],
     "team": "fabled"
   },
   {
@@ -2068,6 +2076,9 @@
     "id": "zh_CN_fibbin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fibbin.png?raw=true",
     "name": "小骗子",
+    "reminders": [
+      "Used"
+    ],
     "team": "fabled"
   },
   {
@@ -2082,6 +2093,9 @@
     "id": "zh_CN_hellslibrarian",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/hellslibrarian.png?raw=true",
     "name": "地狱藏书馆员",
+    "reminders": [
+      "Something Bad"
+    ],
     "team": "fabled"
   },
   {
@@ -2089,6 +2103,9 @@
     "id": "zh_CN_revolutionary",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/revolutionary.png?raw=true",
     "name": "革命家",
+    "reminders": [
+      "Register Falsely?"
+    ],
     "team": "fabled"
   },
   {
@@ -2103,6 +2120,9 @@
     "id": "zh_CN_spiritofivory",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spiritofivory.png?raw=true",
     "name": "象牙精魄",
+    "reminders": [
+      "No extra evil"
+    ],
     "team": "fabled"
   },
   {
@@ -2110,6 +2130,9 @@
     "id": "zh_CN_stormcatcher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/stormcatcher.png?raw=true",
     "name": "暴风捕手",
+    "reminders": [
+      "Safe"
+    ],
     "team": "fabled"
   },
   {
@@ -2117,6 +2140,9 @@
     "id": "zh_CN_toymaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/toymaker.png?raw=true",
     "name": "玩具制造商",
+    "reminders": [
+      "No Attack"
+    ],
     "team": "fabled"
   }
 ]

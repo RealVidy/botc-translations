@@ -14,13 +14,13 @@
     "team": "minion"
   },
   {
-    "ability": "You must use a vote token to vote. Dead players may choose to give you theirs. If so, you learn their alignment.",
+    "ability": "Du benötigst einen Spielstein zum Abstimmen. Tote Spiele dürfen Dir ihren Stein abgeben. Wenn sie das tun, lernst Du ihre Gesinnung (gut/böse)",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "de_DE_beggar",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/beggar.png?raw=true",
-    "name": "Beggar",
+    "name": "Bettler",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -28,17 +28,17 @@
     "team": "traveler"
   },
   {
-    "ability": "Each night, choose a player (not yourself): their vote counts as 3 votes tomorrow.",
+    "ability": "Jede Nacht, wähler einen Spieler (nicht dich selbst): die Stimme dieses Spieler zählt für 3 Stimmen bei der Abstimmung am folgenden Tag.",
     "edition": "tb",
     "firstNight": 1,
-    "firstNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
+    "firstNightReminder": "Der Bürokrat zeigt auf einen Spieler. Lege den '3 Stimmen' reminder neben die Karte des ausgewählten Spielers.",
     "id": "de_DE_bureaucrat",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bureaucrat.png?raw=true",
-    "name": "Bureaucrat",
+    "name": "Bürokrat",
     "otherNight": 1,
-    "otherNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
+    "otherNightReminder": "Der Bürokrat zeigt auf einen Spieler. Lege den '3 Stimmen' reminder neben die Karte des ausgewählten Spielers.",
     "reminders": [
-      "3 votes"
+      "3 Stimmen"
     ],
     "setup": false,
     "team": "traveler"
@@ -47,14 +47,14 @@
     "ability": "Jede Nacht, wähle 1 Spieler (nicht dich selbst): am folgenden Tag kannst du nur abstimmen, wenn dieser Spieler auch abstimmt.",
     "edition": "tb",
     "firstNight": 38,
-    "firstNightReminder": "The Butler points to a player. Mark that player as 'Master'.",
+    "firstNightReminder": "Der Butler zeigt auf einen Spieler. Markiere diesen Spieler als 'Meister'.",
     "id": "de_DE_butler",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/butler.png?raw=true",
     "name": "Butler",
     "otherNight": 55,
-    "otherNightReminder": "The Butler points to a player. Mark that player as 'Master'.",
+    "otherNightReminder": "Der Butler zeigt auf einen Spieler. Markiere diesen Spieler als 'Meister'.",
     "reminders": [
-      "Master"
+      "Meister"
     ],
     "setup": false,
     "team": "outsider"
@@ -85,7 +85,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Drunk"
+      "Betrunken"
     ],
     "setup": true,
     "team": "outsider"
@@ -115,7 +115,7 @@
     "otherNight": 54,
     "otherNightReminder": "The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Demon.",
     "reminders": [
-      "Red herring"
+      "Köder"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -145,7 +145,7 @@
     "otherNight": 24,
     "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
     "reminders": [
-      "Dead"
+      "Tot"
     ],
     "setup": false,
     "team": "demon"
@@ -161,8 +161,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Minion",
-      "Wrong"
+      "Untergebener",
+      "falsch"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -178,8 +178,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Outsider",
-      "Wrong"
+      "Außenseiter",
+      "Falsch"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -225,7 +225,7 @@
     "otherNight": 8,
     "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
     "reminders": [
-      "Poisoned"
+      "Vergiftet"
     ],
     "setup": false,
     "team": "minion"
@@ -279,7 +279,7 @@
     "firstNightReminder": "",
     "id": "de_DE_scapegoat",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scapegoat.png?raw=true",
-    "name": "Scapegoat",
+    "name": "Sündenbock",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -297,7 +297,7 @@
     "otherNight": 20,
     "otherNightReminder": "If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",
     "reminders": [
-      "Demon"
+      "Dämon"
     ],
     "setup": false,
     "team": "minion"
@@ -313,7 +313,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "Keine Fähigkeit"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -353,11 +353,11 @@
     "firstNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
     "id": "de_DE_thief",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/thief.png?raw=true",
-    "name": "Thief",
+    "name": "Dieb",
     "otherNight": 1,
     "otherNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
     "reminders": [
-      "Negative vote"
+      "Negative Stimme"
     ],
     "setup": false,
     "team": "traveler"
@@ -373,7 +373,7 @@
     "otherNight": 56,
     "otherNightReminder": "If a player was executed today: Show that player’s character token.",
     "reminders": [
-      "Executed"
+      "Exekutiert"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -389,7 +389,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "Keine Fähigkeit"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -405,8 +405,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Townsfolk",
-      "Wrong"
+      "Dorfbewohner",
+      "Falsch"
     ],
     "setup": false,
     "team": "townsfolk"

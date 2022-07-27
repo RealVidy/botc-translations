@@ -3,12 +3,12 @@
     "ability": "Du kennst deine Fähigkeit nicht. Jeden Tag, versuche, sie privat zu erraten: du erfährst, wie richtig du liegst.",
     "edition": "",
     "firstNight": 12,
-    "firstNightReminder": "Decide the Amnesiac's entire ability. If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
+    "firstNightReminder": "Suche eine Fähigkeit des Amnestikers aus. Wenn die Fähigkeit in der Nacht aktiv ist: Wecke den Amnestiker und spiele seine Fähigkeit.",
     "id": "de_DE_amnesiac",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/amnesiac.png?raw=true",
-    "name": "Amnesiker",
+    "name": "Amnestiker",
     "otherNight": 5,
-    "otherNightReminder": "If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
+    "otherNightReminder": "Wenn die Fähigkeit in der Nacht aktiv ist: Wecke den Amnestiker und spiele seine Fähigkeit.",
     "reminders": [
       "?"
     ],
@@ -16,17 +16,17 @@
     "team": "townsfolk"
   },
   {
-    "ability": "On your 1st night, you gain a Townsfolk ability (if good), or a Minion ability (if evil).",
+    "ability": "In deiner ersten Nacht bekommst Du die Fähigkeit eines Dorfbewohners oder eines Untergebenen.",
     "edition": "bmr",
     "firstNight": 1,
-    "firstNightReminder": "Show the Apprentice the 'You are' card, then a Townsfolk or Minion token. In the Grimoire, replace the Apprentice token with that character token, and put the Apprentice's 'Is the Apprentice' reminder by that character token.",
+    "firstNightReminder": "Zeige dem Lehrling zuerst die \"Du bist\" Karte und dann die Karte eines Dorfbewohners oder eines Untergebenen. Im Grimoire, ersetze die Karte des Lehrlings mit der Karte des Charakters und lege den \"Ist der Lehrling\" reminders auf die Karte des Charakters.",
     "id": "de_DE_apprentice",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/apprentice.png?raw=true",
-    "name": "Apprentice",
+    "name": "Lehrling",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Is the Apprentice"
+      "Ist der Lehrling"
     ],
     "setup": false,
     "team": "traveler"
@@ -40,10 +40,10 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/assassin.png?raw=true",
     "name": "Assassine",
     "otherNight": 37,
-    "otherNightReminder": "If the Assassin has not yet used their ability: The Assassin either shows the 'no' head signal, or points to a player. That player dies.",
+    "otherNightReminder": "Hat der Assassine seine Fähigkeit noch nicht verwendet: Der Assassnie zeigt entweder ein 'Nein' Signal mit dem Kopf oder zeigt auf einen Spieler. Dieser Spieler stirbt.",
     "reminders": [
-      "Dead",
-      "No ability"
+      "Keine Fähigkeit",
+      "Tot"
     ],
     "setup": false,
     "team": "minion"
@@ -52,47 +52,46 @@
     "ability": "Du erfährst jede Nacht 1 Spieler eines anderen Charaktertyps, bis keine übrig bleiben. [+1 Außenseiter]",
     "edition": "",
     "firstNight": 44,
-    "firstNightReminder": "Choose a character type. Point to a player whose character is of that type. Place the Balloonist's Seen reminder next to that character.",
+    "firstNightReminder": "Wähle eine Charakterklasse. Zeige auf einen Spieler dessen Charakter dieser Klasse entspricht. Platziere den \"Gesehen\" Reminder neben den Charakter.",
     "id": "de_DE_balloonist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/balloonist.png?raw=true",
     "name": "Ballonfahrer",
     "otherNight": 63,
-    "otherNightReminder": "Choose a character type that does not yet have a Seen reminder next to a character of that type. Point to a player whose character is of that type, if there are any. Place the Balloonist's Seen reminder next to that character.",
+    "otherNightReminder": "Wähle eine Charakterklasse neben dem noch kein \"Gesehen\" reminder liegt. Zeige auf einen Spieler dessen Charakter dieser Klasse entspricht. Platziere den \"Gesehen\" Reminder neben den Charakter.",
     "reminders": [
-      "Seen Demon",
-      "Seen Minion",
-      "Seen Outsider",
-      "Seen Townsfolk",
-      "Seen Traveller"
+      "Dorfbewohner gesehen",
+      "Dämon gesehen",
+      "Reisender gesehen",
+      "Untergebener gesehen"
     ],
     "setup": true,
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, until dusk, 1) a player becomes sober, healthy and gets true info, or 2) their ability works twice. They learn which.",
+    "ability": "Jede Nacht, bis zum Sonnenuntergang, 1) ein Spieler wird nüchtern und bekommt tatsächliche Informationen oder 2) die Fähigkeit funktioniert zweimal.",
     "edition": "snv",
     "firstNight": 1,
-    "firstNightReminder": "Choose a player, wake them and tell them which Barista power is affecting them. Treat them accordingly (sober/healthy/true info or activate their ability twice).",
+    "firstNightReminder": "Wähle einen Spieler, wecke ihn und sage ihm welche Fähigkeit des Baristas ihn betrifft. Behandle die Fähigkeit dementsprechend (nüchtern/gesund/wahre Info oder Fähigkeit zweimal einsetzen).",
     "id": "de_DE_barista",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/barista.png?raw=true",
     "name": "Barista",
     "otherNight": 1,
-    "otherNightReminder": "Choose a player, wake them and tell them which Barista power is affecting them. Treat them accordingly (sober/healthy/true info or activate their ability twice).",
+    "otherNightReminder": "Wähle einen Spieler, wecke ihn und sage ihm welche Fähigkeit des Baristas ihn betrifft. Behandle die Fähigkeit dementsprechend (nüchtern/gesund/wahre Info oder Fähigkeit zweimal einsetzen).",
     "reminders": [
-      "Ability twice",
-      "Sober & Healthy"
+      "Fähigkeit zweimal",
+      "Nüchtern und Gesund"
     ],
     "setup": false,
     "team": "traveler"
   },
   {
-    "ability": "You must use a vote token to vote. Dead players may choose to give you theirs. If so, you learn their alignment.",
+    "ability": "Du benötigst einen Spielstein zum Abstimmen. Tote Spiele dürfen Dir ihren Stein abgeben. Wenn sie das tun, lernst Du ihre Gesinnung (gut/böse)",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "de_DE_beggar",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/beggar.png?raw=true",
-    "name": "Beggar",
+    "name": "Bettler",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -100,18 +99,18 @@
     "team": "traveler"
   },
   {
-    "ability": "Once per game, at night, choose a dead player: they regain their ability until dusk.",
+    "ability": "Einmal im Spiel, wähle einen toten Spieler in der Nacht: der Spieler bekommt seine Fähigkeit bis zum Ende des Tages wieder.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "de_DE_bonecollector",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bonecollector.png?raw=true",
-    "name": "Bone Collector",
+    "name": "Knochensammler",
     "otherNight": 1,
-    "otherNightReminder": "The Bone Collector either shakes their head no or points at any dead player. If they pointed at any dead player, put the Bone Collector's 'Has Ability' reminder by the chosen player's character token. (They may need to be woken tonight to use it.)",
+    "otherNightReminder": "Der Knochensammler schüttelt den Kopf (nein) oder zeigt auf einen toten Spieler. Zeigt er auf einen toten Spieler, legen den 'Hat Fähigkeit' reminder zur Spielkarte des ausgewählten Spielers.",
     "reminders": [
-      "Has ability",
-      "No ability"
+      "Hat Fähigkeit",
+      "Keine Fähigkeit"
     ],
     "setup": false,
     "team": "traveler"
@@ -127,8 +126,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Died today",
-      "Poisoned"
+      "Heute gestorben",
+      "vergiftet"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -173,7 +172,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Drunk"
+      "Betrunken"
     ],
     "setup": true,
     "team": "outsider"
@@ -189,8 +188,8 @@
     "otherNight": 29,
     "otherNightReminder": "The Fang Gu points to a player. That player dies. Or, if that player was an Outsider and there are no other Fang Gu in play: The Fang Gu dies instead of the chosen player. The chosen player is now an evil Fang Gu. Wake the new Fang Gu. Show the 'You are' card, then the Fang Gu token. Show the 'You are' card, then the thumb-down 'evil' hand sign.",
     "reminders": [
-      "Dead",
-      "Once"
+      "Einmalig",
+      "Tot"
     ],
     "setup": true,
     "team": "demon"
@@ -206,7 +205,7 @@
     "otherNight": 54,
     "otherNightReminder": "The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Demon.",
     "reminders": [
-      "Red herring"
+      "Köder"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -222,7 +221,7 @@
     "otherNight": 11,
     "otherNightReminder": "The Gambler points to a player, and a character on their sheet. If incorrect, the Gambler dies.",
     "reminders": [
-      "Dead"
+      "Tot"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -231,15 +230,15 @@
     "ability": "Du beginnst das Spiel mit dem Wissen, welche Außenseiter im Spiel sind. Wenn einer am Tag gestorben ist, wähle in der darauffolgenden Nacht 1 Spieler: er stirbt. [+1 oder -1 Außenseiter]",
     "edition": "bmr",
     "firstNight": 21,
-    "firstNightReminder": "Show each of the Outsider tokens in play.",
+    "firstNightReminder": "Zeige alle Außenseiter Spielsteine, die sich im Spiel befinden",
     "id": "de_DE_godfather",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/godfather.png?raw=true",
     "name": "Pate",
     "otherNight": 38,
-    "otherNightReminder": "If an Outsider died today: The Godfather points to a player. That player dies.",
+    "otherNightReminder": "Wenn heute ein Außenseiter stirbt: Der Pate zeigt auf einen Spieler, dieser Spieler stirbt",
     "reminders": [
-      "Dead",
-      "Died today"
+      "Starb heute",
+      "Tot"
     ],
     "setup": true,
     "team": "minion"
@@ -255,7 +254,7 @@
     "otherNight": 50,
     "otherNightReminder": "If the Grandmother’s grandchild was killed by the Demon tonight: The Grandmother dies.",
     "reminders": [
-      "Grandchild"
+      "Enkel"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -271,7 +270,7 @@
     "otherNight": 1,
     "otherNightReminder": "The Harlot points at any player. Then, put the Harlot to sleep. Wake the chosen player, show them the 'This character selected you' token, then the Harlot token. That player either nods their head yes or shakes their head no. If they nodded their head yes, wake the Harlot and show them the chosen player's character token. Then, you may decide that both players die.",
     "reminders": [
-      "Dead"
+      "Tot"
     ],
     "setup": false,
     "team": "traveler"
@@ -287,7 +286,7 @@
     "otherNight": 24,
     "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
     "reminders": [
-      "Dead"
+      "Tot"
     ],
     "setup": false,
     "team": "demon"
@@ -303,8 +302,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Minion",
-      "Wrong"
+      "Untergebener",
+      "falsch"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -320,9 +319,9 @@
     "otherNight": 21,
     "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
     "reminders": [
-      "Attack 1",
-      "Attack 2",
-      "Attack 3"
+      "Angriff 1",
+      "Angriff 2",
+      "Angriff 3"
     ],
     "setup": false,
     "team": "outsider"
@@ -352,8 +351,8 @@
     "otherNight": 2,
     "otherNightReminder": "If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
     "reminders": [
-      "Drunk",
-      "Is the Philosopher"
+      "Betrunken",
+      "ist der Philosoph"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -425,7 +424,7 @@
     "otherNight": 12,
     "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
     "reminders": [
-      "Poisoned"
+      "Vergiftet"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -439,9 +438,9 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sweetheart.png?raw=true",
     "name": "Liebling",
     "otherNight": 41,
-    "otherNightReminder": "Choose a player that is drunk.",
+    "otherNightReminder": "Wähle einen Spieler, der betrunken wird.",
     "reminders": [
-      "Drunk"
+      "Betrunken"
     ],
     "setup": false,
     "team": "outsider"
@@ -457,9 +456,9 @@
     "otherNight": 32,
     "otherNightReminder": "The Vigormortis points to a player. That player dies. If a Minion, they keep their ability and one of their Townsfolk neighbours is poisoned.",
     "reminders": [
-      "Dead",
-      "Has ability",
-      "Poisoned"
+      "Tot",
+      "hat Fähigkeit",
+      "vergiftet"
     ],
     "setup": true,
     "team": "demon"
@@ -475,7 +474,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Poisoned"
+      "Vergiftet"
     ],
     "remindersGlobal": [
       "Knows"

@@ -3,20 +3,20 @@
     "ability": "Du beginnst das Spiel mit dem Wissen, dass genau 1 von 3 Spielern böse ist.",
     "edition": "",
     "firstNight": 43,
-    "firstNightReminder": "Point to 3 players including one evil player, in no particular order.",
+    "firstNightReminder": "Zeige auf 3 zufällige Spieler, von denen einer böse ist.",
     "id": "de_DE_noble",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/noble.png?raw=true",
     "name": "Adlige",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Seen"
+      "Gesehen"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "Du beginnst das Spiel mit dem Wissen, dass 1 Dorfbewohner im Spiel ist. Wenn du \"besessen\" davon bist, dass du dieser Charakter bist, erhälst du seine Fähigkeit, wenn er stirbt.",
+    "ability": "Du beginnst das Spiel mit dem Wissen, dass 1 Dorfbewohner im Spiel ist. Wenn du \"besessen\" davon bist, dass du dieser Charakter bist, erhätlst du seine Fähigkeit, wenn er stirbt.",
     "edition": "",
     "firstNight": 29,
     "firstNightReminder": "Show the Pixie 1 in-play Townsfolk character token.",
@@ -26,8 +26,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Has ability",
-      "Mad"
+      "Hat Fähigkeit",
+      "Verrückt"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -50,14 +50,14 @@
     "ability": "Jede Nacht, wähle 1 lebenden Spieler: entweder du oder er ist bis Sonnenuntergang betrunken. Du kannst nicht sterben.",
     "edition": "bmr",
     "firstNight": 10,
-    "firstNightReminder": "The Sailor points to a living player. Either the Sailor, or the chosen player, is drunk.",
+    "firstNightReminder": "Der Seemann zeigt auf einen lebenden Spieler. Entweder der Seemann oder der gewählte Spieler ist betrunken.",
     "id": "de_DE_sailor",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sailor.png?raw=true",
     "name": "Seemann",
     "otherNight": 4,
     "otherNightReminder": "The previously drunk player is no longer drunk. The Sailor points to a living player. Either the Sailor, or the chosen player, is drunk.",
     "reminders": [
-      "Drunk"
+      "Betrunken"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -66,18 +66,17 @@
     "ability": "Du erfährst jede Nacht 1 Spieler eines anderen Charaktertyps, bis keine übrig bleiben. [+1 Außenseiter]",
     "edition": "",
     "firstNight": 44,
-    "firstNightReminder": "Choose a character type. Point to a player whose character is of that type. Place the Balloonist's Seen reminder next to that character.",
+    "firstNightReminder": "Wähle eine Charakterklasse. Zeige auf einen Spieler dessen Charakter dieser Klasse entspricht. Platziere den \"Gesehen\" Reminder neben den Charakter.",
     "id": "de_DE_balloonist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/balloonist.png?raw=true",
     "name": "Ballonfahrer",
     "otherNight": 63,
-    "otherNightReminder": "Choose a character type that does not yet have a Seen reminder next to a character of that type. Point to a player whose character is of that type, if there are any. Place the Balloonist's Seen reminder next to that character.",
+    "otherNightReminder": "Wähle eine Charakterklasse neben dem noch kein \"Gesehen\" reminder liegt. Zeige auf einen Spieler dessen Charakter dieser Klasse entspricht. Platziere den \"Gesehen\" Reminder neben den Charakter.",
     "reminders": [
-      "Seen Demon",
-      "Seen Minion",
-      "Seen Outsider",
-      "Seen Townsfolk",
-      "Seen Traveller"
+      "Dorfbewohner gesehen",
+      "Dämon gesehen",
+      "Reisender gesehen",
+      "Untergebener gesehen"
     ],
     "setup": true,
     "team": "townsfolk"
@@ -93,7 +92,7 @@
     "otherNight": 54,
     "otherNightReminder": "The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Demon.",
     "reminders": [
-      "Red herring"
+      "Köder"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -121,9 +120,9 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gossip.png?raw=true",
     "name": "Schwätzer",
     "otherNight": 47,
-    "otherNightReminder": "If the Gossip’s public statement was true: Choose a player not protected from dying tonight. That player dies.",
+    "otherNightReminder": "Wenn das öffentliche Statement des Schwätzers zutrifft: Wähle einen Spieler, der nicht vor dem Tod beschützt ist. Dieser Spieler stirbt",
     "reminders": [
-      "Dead"
+      "Tot"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -153,7 +152,7 @@
     "otherNight": 51,
     "otherNightReminder": "The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",
     "reminders": [
-      "No ability"
+      "Keine Fähigkeit"
     ],
     "setup": true,
     "team": "townsfolk"
@@ -197,7 +196,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "Keine Fähigkeit"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -229,7 +228,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Drunk"
+      "Betrunken"
     ],
     "setup": false,
     "team": "outsider"
@@ -259,9 +258,9 @@
     "otherNight": 21,
     "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
     "reminders": [
-      "Attack 1",
-      "Attack 2",
-      "Attack 3"
+      "Angriff 1",
+      "Angriff 2",
+      "Angriff 3"
     ],
     "setup": false,
     "team": "outsider"
@@ -277,8 +276,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Drunk",
-      "Guess used"
+      "Betrunken",
+      "Rateversuch verbraucht"
     ],
     "setup": false,
     "team": "outsider"
@@ -287,15 +286,15 @@
     "ability": "Du beginnst das Spiel mit dem Wissen, welche Außenseiter im Spiel sind. Wenn einer am Tag gestorben ist, wähle in der darauffolgenden Nacht 1 Spieler: er stirbt. [+1 oder -1 Außenseiter]",
     "edition": "bmr",
     "firstNight": 21,
-    "firstNightReminder": "Show each of the Outsider tokens in play.",
+    "firstNightReminder": "Zeige alle Außenseiter Spielsteine, die sich im Spiel befinden",
     "id": "de_DE_godfather",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/godfather.png?raw=true",
     "name": "Pate",
     "otherNight": 38,
-    "otherNightReminder": "If an Outsider died today: The Godfather points to a player. That player dies.",
+    "otherNightReminder": "Wenn heute ein Außenseiter stirbt: Der Pate zeigt auf einen Spieler, dieser Spieler stirbt",
     "reminders": [
-      "Dead",
-      "Died today"
+      "Starb heute",
+      "Tot"
     ],
     "setup": true,
     "team": "minion"
@@ -311,7 +310,7 @@
     "otherNight": 16,
     "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
     "reminders": [
-      "Mad"
+      "Verrückt"
     ],
     "setup": false,
     "team": "minion"
@@ -327,7 +326,7 @@
     "otherNight": 8,
     "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
     "reminders": [
-      "Poisoned"
+      "Vergiftet"
     ],
     "setup": false,
     "team": "minion"
@@ -359,7 +358,7 @@
     "otherNight": 24,
     "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
     "reminders": [
-      "Dead"
+      "Tot"
     ],
     "setup": false,
     "team": "demon"
@@ -375,8 +374,8 @@
     "otherNight": 29,
     "otherNightReminder": "The Fang Gu points to a player. That player dies. Or, if that player was an Outsider and there are no other Fang Gu in play: The Fang Gu dies instead of the chosen player. The chosen player is now an evil Fang Gu. Wake the new Fang Gu. Show the 'You are' card, then the Fang Gu token. Show the 'You are' card, then the thumb-down 'evil' hand sign.",
     "reminders": [
-      "Dead",
-      "Once"
+      "Einmalig",
+      "Tot"
     ],
     "setup": true,
     "team": "demon"
@@ -392,8 +391,8 @@
     "otherNight": 35,
     "otherNightReminder": "The Lleech points to a player. That player dies.",
     "reminders": [
-      "Dead",
-      "Poisoned"
+      "Tot",
+      "Vergiftet"
     ],
     "setup": false,
     "team": "demon"

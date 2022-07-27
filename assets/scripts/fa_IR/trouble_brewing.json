@@ -1,12 +1,12 @@
 [
   {
-    "ability": "There are extra Outsiders in play. [+2 Outsiders]",
+    "ability": "بیگانه‌های بیشتری در بازی هستند. [+۲ بیگانه]",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fa_IR_baron",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/baron.png?raw=true",
-    "name": "Baron",
+    "name": "بارُن",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -14,13 +14,13 @@
     "team": "minion"
   },
   {
-    "ability": "You must use a vote token to vote. Dead players may choose to give you theirs. If so, you learn their alignment. You are sober & healthy.",
+    "ability": "شما فقط با  ژتون رای می‌توانید رای دهید. بازیکنان مرده می‌توانند ژتون خود را به شما دهند. در این صورت تیم آنها را می‌فهمید.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fa_IR_beggar",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/beggar.png?raw=true",
-    "name": "Beggar",
+    "name": "گدا",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -28,45 +28,45 @@
     "team": "traveler"
   },
   {
-    "ability": "Each night, choose a player (not yourself): their vote counts as 3 votes tomorrow.",
+    "ability": "هر شب، بازیکنی را (جز خودت) انتخاب کن: فردا رای او ۳ رای شمرده می‌شود.",
     "edition": "tb",
     "firstNight": 1,
     "firstNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
     "id": "fa_IR_bureaucrat",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bureaucrat.png?raw=true",
-    "name": "Bureaucrat",
+    "name": "بوروکرات",
     "otherNight": 1,
     "otherNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
     "reminders": [
-      "3 votes"
+      "۳ رای"
     ],
     "setup": false,
     "team": "traveler"
   },
   {
-    "ability": "Each night, choose a player (not yourself): tomorrow, you may only vote if they are voting too.",
+    "ability": "هر شب، بازیکنی را (بجز خودت) انتخاب کن: فردا، فقط در صورتی که او رای دهد می‌توانید رای دهید.",
     "edition": "tb",
     "firstNight": 38,
     "firstNightReminder": "The Butler points to a player. Mark that player as 'Master'.",
     "id": "fa_IR_butler",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/butler.png?raw=true",
-    "name": "Butler",
+    "name": "ساقی",
     "otherNight": 55,
     "otherNightReminder": "The Butler points to a player. Mark that player as 'Master'.",
     "reminders": [
-      "Master"
+      "ارباب"
     ],
     "setup": false,
     "team": "outsider"
   },
   {
-    "ability": "You start knowing how many pairs of evil players there are.",
+    "ability": "شما در ابتدا می‌دانید چند زوج بازیکن شر در بازی وجود دارد.",
     "edition": "tb",
     "firstNight": 35,
     "firstNightReminder": "Show the finger signal (0, 1, 2, …) for the number of pairs of neighbouring evil players.",
     "id": "fa_IR_chef",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true",
-    "name": "Chef",
+    "name": "سرآشپز",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -74,30 +74,30 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not.",
+    "ability": "شما نمی‌دانید که مست هستید. شما فکر می‌کنید شهروند هستید ولی نیستید.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fa_IR_drunk",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
-    "name": "Drunk",
+    "name": "مست",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Drunk"
+      "مست"
     ],
     "setup": true,
     "team": "outsider"
   },
   {
-    "ability": "Each night, you learn how many of your 2 alive neighbours are evil.",
+    "ability": "هر شب، شما می‌فهمید چند نفر از ۲ همسایه زنده شما شر هستند.",
     "edition": "tb",
     "firstNight": 36,
     "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath.",
     "id": "fa_IR_empath",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
-    "name": "Empath",
+    "name": "همدل",
     "otherNight": 53,
     "otherNightReminder": "Show the finger signal (0, 1, 2) for the number of evil neighbours.",
     "reminders": [],
@@ -105,29 +105,29 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, choose 2 players: you learn if either is a Demon. There is a good player that registers as a Demon to you.",
+    "ability": "هر شب، ۲ بازیکن را انتخاب کنید. شما می‌فهمید که آیا یکی از آنها شیطان است یا نه. یک بازیکن خوب به نظر شما شیطانی می‌آید.",
     "edition": "tb",
     "firstNight": 37,
     "firstNightReminder": "The Fortune Teller points to two players. Give the head signal (nod yes, shake no) for whether one of those players is the Demon.",
     "id": "fa_IR_fortuneteller",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fortuneteller.png?raw=true",
-    "name": "Fortune Teller",
+    "name": "فال‌گیر",
     "otherNight": 54,
     "otherNightReminder": "The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Demon.",
     "reminders": [
-      "Red herring"
+      "نخود سیاه"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "Each day, after the 1st vote has been tallied, you may choose a player that voted: they die.",
+    "ability": "هر روز، بعد از اولین رای‌گیری، شما می‌توانیید ۱ نفر از رای‌دهندگان را انتخاب کنید. او می‌میرد.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fa_IR_gunslinger",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gunslinger.png?raw=true",
-    "name": "Gunslinger",
+    "name": "تفنگدار",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -135,51 +135,51 @@
     "team": "traveler"
   },
   {
-    "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp.",
+    "ability": "هر شب*، یک بازیکن را انتخاب کنید: او می‌میرد. اگر خود را انتخاب کنید، یکی از مریدان به جن تبدیل می‌شود.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fa_IR_imp",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/imp.png?raw=true",
-    "name": "Imp",
+    "name": "جن‌",
     "otherNight": 24,
     "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
     "reminders": [
-      "Dead"
+      "مرده"
     ],
     "setup": false,
     "team": "demon"
   },
   {
-    "ability": "You start knowing that 1 of 2 players is a particular Minion.",
+    "ability": "شما در ابتدا می‌دانید یکی از دو بازیکن یک مرید خاص است.",
     "edition": "tb",
     "firstNight": 34,
     "firstNightReminder": "Show the character token of a Minion in play. Point to two players, one of which is that character.",
     "id": "fa_IR_investigator",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/investigator.png?raw=true",
-    "name": "Investigator",
+    "name": "کاراگاه",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Minion",
-      "Wrong"
+      "اشتباه",
+      "مرید"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "You start knowing that 1 of 2 players is a particular Outsider. (Or that zero are in play.)",
+    "ability": "شما در ابتدا می‌دانید یکی از دو بازیکن یک بیگانه خاص است. (یا بیگانه‌ای در بازی نیست.)",
     "edition": "tb",
     "firstNight": 33,
     "firstNightReminder": "Show the character token of an Outsider in play. Point to two players, one of which is that character.",
     "id": "fa_IR_librarian",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/librarian.png?raw=true",
-    "name": "Librarian",
+    "name": "کتاب‌خانه‌دار",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Outsider",
-      "Wrong"
+      "بیگانه",
+      "غلط"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -191,7 +191,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_mayor",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mayor.png?raw=true",
-    "name": "Mayor",
+    "name": "شهردار",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -205,7 +205,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_monk",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/monk.png?raw=true",
-    "name": "Monk",
+    "name": "راهب",
     "otherNight": 13,
     "otherNightReminder": "The previously protected player is no longer protected. The Monk points to a player not themself. Mark that player 'Protected'.",
     "reminders": [
@@ -221,11 +221,11 @@
     "firstNightReminder": "The Poisoner points to a player. That player is poisoned.",
     "id": "fa_IR_poisoner",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
-    "name": "Poisoner",
+    "name": "مسموم‌کننده",
     "otherNight": 8,
     "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
     "reminders": [
-      "Poisoned"
+      "مسموم"
     ],
     "setup": false,
     "team": "minion"
@@ -237,7 +237,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_ravenkeeper",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true",
-    "name": "Ravenkeeper",
+    "name": "کلاغ‌بان",
     "otherNight": 42,
     "otherNightReminder": "If the Ravenkeeper died tonight: The Ravenkeeper points to a player. Show that player’s character token.",
     "reminders": [],
@@ -251,7 +251,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_recluse",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/recluse.png?raw=true",
-    "name": "Recluse",
+    "name": "گوشه گیر",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -265,7 +265,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_saint",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/saint.png?raw=true",
-    "name": "Saint",
+    "name": "قدیس",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -279,7 +279,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_scapegoat",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scapegoat.png?raw=true",
-    "name": "Scapegoat",
+    "name": "قربانی",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -293,7 +293,7 @@
     "firstNightReminder": "",
     "id": "fa_IR_scarletwoman",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scarletwoman.png?raw=true",
-    "name": "Scarlet Woman",
+    "name": "فاحشه",
     "otherNight": 20,
     "otherNightReminder": "If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",
     "reminders": [
@@ -309,23 +309,23 @@
     "firstNightReminder": "",
     "id": "fa_IR_slayer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
-    "name": "Slayer",
+    "name": "قاتل",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "بدون قابلیت"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "You are safe from the Demon.",
+    "ability": "شما از شیطان در امانید",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fa_IR_soldier",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/soldier.png?raw=true",
-    "name": "Soldier",
+    "name": "سرباز",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -339,7 +339,7 @@
     "firstNightReminder": "Show the Grimoire to the Spy for as long as they need.",
     "id": "fa_IR_spy",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spy.png?raw=true",
-    "name": "Spy",
+    "name": "جاسوس",
     "otherNight": 68,
     "otherNightReminder": "Show the Grimoire to the Spy for as long as they need.",
     "reminders": [],
@@ -347,13 +347,13 @@
     "team": "minion"
   },
   {
-    "ability": "Each night, choose a player (not yourself): their vote counts negatively tomorrow.",
+    "ability": "هر شب، یک بازیکن (جز خودتان) را انتخاب کنید: رای آنها فردا منفی شمرده می‌شود.",
     "edition": "tb",
     "firstNight": 1,
     "firstNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
     "id": "fa_IR_thief",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/thief.png?raw=true",
-    "name": "Thief",
+    "name": "دزد",
     "otherNight": 1,
     "otherNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
     "reminders": [
@@ -369,11 +369,11 @@
     "firstNightReminder": "",
     "id": "fa_IR_undertaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/undertaker.png?raw=true",
-    "name": "Undertaker",
+    "name": "مرده‌شور",
     "otherNight": 56,
     "otherNightReminder": "If a player was executed today: Show that player’s character token.",
     "reminders": [
-      "Executed"
+      "معدوم"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -385,23 +385,23 @@
     "firstNightReminder": "",
     "id": "fa_IR_virgin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/virgin.png?raw=true",
-    "name": "Virgin",
+    "name": "باکره",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "بدون قابلیت"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "You start knowing that 1 of 2 players is a particular Townsfolk.",
+    "ability": "شما در ابتدا می‌دانید یکی از دو بازیکن یک شهروند خاص است.",
     "edition": "tb",
     "firstNight": 32,
     "firstNightReminder": "Show the character token of a Townsfolk in play. Point to two players, one of which is that character.",
     "id": "fa_IR_washerwoman",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/washerwoman.png?raw=true",
-    "name": "Washerwoman",
+    "name": "رختشور",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [

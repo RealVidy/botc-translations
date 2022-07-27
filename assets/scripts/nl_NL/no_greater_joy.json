@@ -1,0 +1,168 @@
+[
+  {
+    "ability": "You start knowing how many steps from the Demon to its nearest Minion.",
+    "edition": "snv",
+    "firstNight": 40,
+    "firstNightReminder": "Show the hand signal for the number (1, 2, 3, etc.) of places from Demon to closest Minion.",
+    "id": "nl_NL_clockmaker",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/clockmaker.png?raw=true",
+    "name": "Clockmaker",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Je start met te weten dat 1 van 2 spelers een bepaalde Handlanger/Minion is.",
+    "edition": "tb",
+    "firstNight": 34,
+    "firstNightReminder": "Toon het personage symbool van een Handlanger/Minion in het spel. Wijs naar twee spelers, een van die spelers is dat personage.",
+    "id": "nl_NL_investigator",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/investigator.png?raw=true",
+    "name": "Onderzoeker",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Fout",
+      "Minion"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Iedere nacht, leer je hoeveel van je 2 levende buren slecht zijn.",
+    "edition": "tb",
+    "firstNight": 36,
+    "firstNightReminder": "Toon het vinger signaal (0, 1, 2) voor het aantal van levende slechte buren van de Meelever.",
+    "id": "nl_NL_empath",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
+    "name": "Meelever",
+    "otherNight": 53,
+    "otherNightReminder": "Toon het vinger signaal (0, 1, 2) voor het aantal van levende slechte buren van de Meelever.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Each night, choose 2 alive players (not yourself): you learn how many woke tonight due to their ability.",
+    "edition": "bmr",
+    "firstNight": 50,
+    "firstNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, …) for how many of those players wake tonight for their ability.",
+    "id": "nl_NL_chambermaid",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chambermaid.png?raw=true",
+    "name": "Chambermaid",
+    "otherNight": 70,
+    "otherNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, …) for how many of those players wake tonight for their ability.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Once per game, during the day, privately ask the Storyteller any yes/no question.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_artist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/artist.png?raw=true",
+    "name": "Artist",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "No ability"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "If the Demon kills you, you learn that it is 1 of 2 players.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_sage",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sage.png?raw=true",
+    "name": "Sage",
+    "otherNight": 43,
+    "otherNightReminder": "If the Sage was killed by a Demon: Point to two players, one of which is that Demon.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Je weet niet dat je de dronkaard bent. Je denkt dat je een Burger/Townsfolk personage bent, maar je bent dat niet.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_drunk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
+    "name": "Dronkaard",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Dronken"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
+    "ability": "When you learn that you died, publicly choose 1 alive player: if they are evil, your team loses.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_klutz",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/klutz.png?raw=true",
+    "name": "Klutz",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Als er nog 5 of meer spelers leven & de Demon sterft, dan word je de nieuwe Demon (Reizigers tellen niet mee).",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_scarletwoman",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scarletwoman.png?raw=true",
+    "name": "Plezier Dame",
+    "otherNight": 20,
+    "otherNightReminder": "Als de Plezier Dame de Demon is geworden vandaag: Toon de 'Jij bent' kaart, dan het Demon symbool.",
+    "reminders": [
+      "Demon"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Er zijn extra Buitenstaanders in het spel. [+2 Outsiders/Buitenstaanders]",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_baron",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/baron.png?raw=true",
+    "name": "Baron",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": true,
+    "team": "minion"
+  },
+  {
+    "ability": "Iedere nacht*, kies een speler: die speler sterft. Als je jezelf doodt op deze manier, dan wordt een Handlanger/Minion de nieuwe Kobold.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_imp",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/imp.png?raw=true",
+    "name": "Kobold",
+    "otherNight": 24,
+    "otherNightReminder": "De Kobold wijst naar een speler. Die speler sterft. Als de Kobold zichzelf kiest: Vervang het personage van 1 levende Handlanger/Minion door een reserve Kobold symbool. Toon de nieuwe Kobold speler de 'Jij bent' kaart', dan het Kobold symbool.",
+    "reminders": [
+      "Dood"
+    ],
+    "setup": false,
+    "team": "demon"
+  }
+]

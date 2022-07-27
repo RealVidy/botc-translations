@@ -1,0 +1,414 @@
+[
+  {
+    "ability": "Er zijn extra Buitenstaanders in het spel. [+2 Outsiders/Buitenstaanders]",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_baron",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/baron.png?raw=true",
+    "name": "Baron",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": true,
+    "team": "minion"
+  },
+  {
+    "ability": "You must use a vote token to vote. Dead players may choose to give you theirs. If so, you learn their alignment. You are sober & healthy.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_beggar",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/beggar.png?raw=true",
+    "name": "Beggar",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Each night, choose a player (not yourself): their vote counts as 3 votes tomorrow.",
+    "edition": "tb",
+    "firstNight": 1,
+    "firstNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
+    "id": "nl_NL_bureaucrat",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bureaucrat.png?raw=true",
+    "name": "Bureaucrat",
+    "otherNight": 1,
+    "otherNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
+    "reminders": [
+      "3 votes"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Iedere nacht, kies een speler (niet jezelf): Volgende dag mag je enkel stemmen als die speler ook stemt.",
+    "edition": "tb",
+    "firstNight": 38,
+    "firstNightReminder": "De Bulter wijst naar een speler. Markeer die speler als 'De meester'.",
+    "id": "nl_NL_butler",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/butler.png?raw=true",
+    "name": "Butler",
+    "otherNight": 55,
+    "otherNightReminder": "De Bulter wijst naar een speler. Markeer die speler als 'De meester'.",
+    "reminders": [
+      "De meester"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Je start met te weten hoeveel paren van slechte spelers er zijn.",
+    "edition": "tb",
+    "firstNight": 35,
+    "firstNightReminder": "Toon het vinger signaal (0, 1, 2, ...) voor het aantal paren van slechte spelers die langs elkaar zitten.",
+    "id": "nl_NL_chef",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true",
+    "name": "Chef",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Je weet niet dat je de dronkaard bent. Je denkt dat je een Burger/Townsfolk personage bent, maar je bent dat niet.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_drunk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
+    "name": "Dronkaard",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Dronken"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
+    "ability": "Iedere nacht, leer je hoeveel van je 2 levende buren slecht zijn.",
+    "edition": "tb",
+    "firstNight": 36,
+    "firstNightReminder": "Toon het vinger signaal (0, 1, 2) voor het aantal van levende slechte buren van de Meelever.",
+    "id": "nl_NL_empath",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
+    "name": "Meelever",
+    "otherNight": 53,
+    "otherNightReminder": "Toon het vinger signaal (0, 1, 2) voor het aantal van levende slechte buren van de Meelever.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Iedere nacht, kies 2 spelers: je leert of een van hen een Demon is. Er is één goede speler die je herkent als een foute Demon.",
+    "edition": "tb",
+    "firstNight": 37,
+    "firstNightReminder": "De Voorspeller wijst naar twee spelers. Geef het hoofd signaal (knikken ja, schudden nee) voor of een van die spelers de Demon is.",
+    "id": "nl_NL_fortuneteller",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fortuneteller.png?raw=true",
+    "name": "Voorspeller",
+    "otherNight": 54,
+    "otherNightReminder": "De Voorspeller wijst naar twee spelers. Geef het hoofd signaal (knikken ja, schudden nee) voor of een van die spelers de Demon is.",
+    "reminders": [
+      "Rode haring"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Each day, after the 1st vote has been tallied, you may choose a player that voted: they die.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_gunslinger",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gunslinger.png?raw=true",
+    "name": "Gunslinger",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Iedere nacht*, kies een speler: die speler sterft. Als je jezelf doodt op deze manier, dan wordt een Handlanger/Minion de nieuwe Kobold.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_imp",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/imp.png?raw=true",
+    "name": "Kobold",
+    "otherNight": 24,
+    "otherNightReminder": "De Kobold wijst naar een speler. Die speler sterft. Als de Kobold zichzelf kiest: Vervang het personage van 1 levende Handlanger/Minion door een reserve Kobold symbool. Toon de nieuwe Kobold speler de 'Jij bent' kaart', dan het Kobold symbool.",
+    "reminders": [
+      "Dood"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "Je start met te weten dat 1 van 2 spelers een bepaalde Handlanger/Minion is.",
+    "edition": "tb",
+    "firstNight": 34,
+    "firstNightReminder": "Toon het personage symbool van een Handlanger/Minion in het spel. Wijs naar twee spelers, een van die spelers is dat personage.",
+    "id": "nl_NL_investigator",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/investigator.png?raw=true",
+    "name": "Onderzoeker",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Fout",
+      "Minion"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Je start met te weten dat 1 van 2 spelers een bepaalde Buitenstaander/Outsider is. (of dat er geen in het spel zijn.)",
+    "edition": "tb",
+    "firstNight": 33,
+    "firstNightReminder": "Toon het personage symbool van een Buitenstaander/Outsider in het spel. Wijs naar twee spelers, een van die spelers is dat personage.",
+    "id": "nl_NL_librarian",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/librarian.png?raw=true",
+    "name": "Boekhouder",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Fout",
+      "Outsider"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Als er nog enkel 3 spelers leven en er gebeuren geen executies, dan wint jouw team. Als je in de nacht sterft, kan mogelijk een andere speler in jouw plaats sterven.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_mayor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mayor.png?raw=true",
+    "name": "Burgemeester",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Iedere nacht*, kies een speler (niet jezelf): die speler is beschermt tegen de Demon vannacht.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_monk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/monk.png?raw=true",
+    "name": "Monnik",
+    "otherNight": 13,
+    "otherNightReminder": "De vorige beschermde speler is niet meer beschermt. De Monnik wijst naar een speler, niet zichzelf. Markeer die speler als 'Beschermt'.",
+    "reminders": [
+      "Beschermt"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Iedere nacht, kies een speler: die speler is vergiftigd vannacht en de volgende dag.",
+    "edition": "tb",
+    "firstNight": 17,
+    "firstNightReminder": "De Vergiftiger wijst naar een speler. Die speler is vergiftigd.",
+    "id": "nl_NL_poisoner",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
+    "name": "Vergiftiger",
+    "otherNight": 8,
+    "otherNightReminder": "De vorige vergiftigde speler is niet meer vergiftigd. De Vergiftiger wijst naar een speler. Die speler is vergiftigd.",
+    "reminders": [
+      "Vergiftigd"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Als je in de nacht sterft, word je ontwaken om een speler te kiezen: je leert het personage van die speler.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_ravenkeeper",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true",
+    "name": "Raafwaker",
+    "otherNight": 42,
+    "otherNightReminder": "Als de Raafwaker sterft vannacht: De Raafwaker wijst naar een speler. Toon het personage symbool van die speler.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Je wordt mogelijk herkent als slecht & als een Minion/Handlanger of Demon, zelfs als je dood bent.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_recluse",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/recluse.png?raw=true",
+    "name": "Kluizenaar",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Als je sterft door executie, dan verliest jouw team.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_saint",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/saint.png?raw=true",
+    "name": "Heilige",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "If a player of your alignment is executed, you might be executed instead.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_scapegoat",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scapegoat.png?raw=true",
+    "name": "Scapegoat",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Als er nog 5 of meer spelers leven & de Demon sterft, dan word je de nieuwe Demon (Reizigers tellen niet mee).",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_scarletwoman",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scarletwoman.png?raw=true",
+    "name": "Plezier Dame",
+    "otherNight": 20,
+    "otherNightReminder": "Als de Plezier Dame de Demon is geworden vandaag: Toon de 'Jij bent' kaart, dan het Demon symbool.",
+    "reminders": [
+      "Demon"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Eenmaal per spel, tijdens de dag, kondig aan iedereen aan dat je een speler kiest om te doden: als die speler de Demon is, sterft die speler.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_slayer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
+    "name": "Slachter",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Aanval gebruikt"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Je bent veilig van de Demon.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_soldier",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/soldier.png?raw=true",
+    "name": "Soldaat",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Ieder nacht, zie je kort de Grimoire. Je kan mogelijk herkent worden als goed & als een Townfolk/Burger of Buitenstaander/Outsider, zelfs als je dood bent.",
+    "edition": "tb",
+    "firstNight": 48,
+    "firstNightReminder": "Toon de Grimoire aan de Spion voor zolang het nodig is.",
+    "id": "nl_NL_spy",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spy.png?raw=true",
+    "name": "Spion",
+    "otherNight": 68,
+    "otherNightReminder": "Toon de Grimoire aan de Spion voor zolang het nodig is.",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Each night, choose a player (not yourself): their vote counts negatively tomorrow.",
+    "edition": "tb",
+    "firstNight": 1,
+    "firstNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
+    "id": "nl_NL_thief",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/thief.png?raw=true",
+    "name": "Thief",
+    "otherNight": 1,
+    "otherNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
+    "reminders": [
+      "Negative vote"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "Iedere nacht*, leer jij het personage van de speler die vandaag is gestorven door executie.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_undertaker",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/undertaker.png?raw=true",
+    "name": "Begrafenisondernemer",
+    "otherNight": 56,
+    "otherNightReminder": "Als een speler geëxecuteerd is vandaag: Toon het personage symbool van die speler.",
+    "reminders": [
+      "Geëxecuteerd"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "De eerste keer dat je genomineerd wordt, als de speler die de nominatie heeft gedaan een Burger/Townfolk is, wordt die speler meteen geëxecuteerd.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "nl_NL_virgin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/virgin.png?raw=true",
+    "name": "Maagd",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Geen eigenschap"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Je start met te weten dat 1 van 2 spelers een bepaalde Burger/Townfolk is.",
+    "edition": "tb",
+    "firstNight": 32,
+    "firstNightReminder": "Toon het personage symbool van een Burger/Townfolk in het spel. Wijs naar twee spelers, een van die spelers is dat personage.",
+    "id": "nl_NL_washerwoman",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/washerwoman.png?raw=true",
+    "name": "Wasvrouw",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Fout",
+      "Townsfolk"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  }
+]

@@ -314,17 +314,17 @@
     "team": "minion"
   },
   {
-    "ability": "Chaque nuit, choisissez un joueur : si vous le nominnez et qu'il est exécuté, son équipe perd. Tous les joueurs sont avertis lorsque vous choisissez un nouveau joueur.",
+    "ability": "Chaque nuit, choisissez un joueur : si vous le nommez et qu'il est exécuté, son équipe perd. Tous les joueurs sont avertis lorsque vous choisissez un nouveau joueur.",
     "edition": "",
     "firstNight": 26,
-    "firstNightReminder": "L'Alarmiste désigne un joueur. Placez le jeton «Alarme» à côté de ce joueur et annoncez qu'un nouveau joueur a été sélectionné par le pouvoir de l'Alarmiste.",
+    "firstNightReminder": "Le prophète désigne un joueur. Placez le jeton «Cible» à côté de ce joueur et annoncez qu'un nouveau joueur a été sélectionné par le pouvoir du Prophète de l'Effroi.",
     "id": "fr_FR_fearmonger",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fearmonger.png?raw=true",
-    "name": "Alarmiste",
+    "name": "Prophète de l'Effroi",
     "otherNight": 18,
-    "otherNightReminder": "L'Alarmiste désigne un joueur. Placez le jeton «Alarme» à côté de ce joueur et annoncez qu'un nouveau joueur a été sélectionné par le pouvoir de l'Alarmiste.",
+    "otherNightReminder": "Le Prophète désigne un joueur. Placez le jeton «Cible» à côté de ce joueur et annoncez qu'un nouveau joueur a été sélectionné par le pouvoir du Prophète de l'Effroi.",
     "reminders": [
-      "Alarme"
+      "Cible"
     ],
     "setup": false,
     "team": "minion"

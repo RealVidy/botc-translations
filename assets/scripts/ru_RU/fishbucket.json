@@ -2039,6 +2039,10 @@
     "id": "ru_RU_angel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/angel.png?raw=true",
     "name": "Ангел",
+    "reminders": [
+      "Protect",
+      "Something Bad"
+    ],
     "team": "fabled"
   },
   {
@@ -2067,6 +2071,10 @@
     "id": "ru_RU_duchess",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/duchess.png?raw=true",
     "name": "Герцогиня",
+    "reminders": [
+      "False Info",
+      "Visitor"
+    ],
     "team": "fabled"
   },
   {
@@ -2074,6 +2082,9 @@
     "id": "ru_RU_fibbin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fibbin.png?raw=true",
     "name": "Врунишка",
+    "reminders": [
+      "Used"
+    ],
     "team": "fabled"
   },
   {
@@ -2088,6 +2099,9 @@
     "id": "ru_RU_hellslibrarian",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/hellslibrarian.png?raw=true",
     "name": "Тишина в зале",
+    "reminders": [
+      "Something Bad"
+    ],
     "team": "fabled"
   },
   {
@@ -2095,6 +2109,9 @@
     "id": "ru_RU_revolutionary",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/revolutionary.png?raw=true",
     "name": "Революционер",
+    "reminders": [
+      "Register Falsely?"
+    ],
     "team": "fabled"
   },
   {
@@ -2109,6 +2126,9 @@
     "id": "ru_RU_spiritofivory",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spiritofivory.png?raw=true",
     "name": "Дух-защитник",
+    "reminders": [
+      "No extra evil"
+    ],
     "team": "fabled"
   },
   {
@@ -2116,6 +2136,9 @@
     "id": "ru_RU_stormcatcher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/stormcatcher.png?raw=true",
     "name": "Киногерой",
+    "reminders": [
+      "Safe"
+    ],
     "team": "fabled"
   },
   {
@@ -2123,6 +2146,9 @@
     "id": "ru_RU_toymaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/toymaker.png?raw=true",
     "name": "Куклодел",
+    "reminders": [
+      "No Attack"
+    ],
     "team": "fabled"
   }
 ]

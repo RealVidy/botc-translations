@@ -2038,6 +2038,10 @@
     "id": "pl_PL_angel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/angel.png?raw=true",
     "name": "Angel",
+    "reminders": [
+      "Protect",
+      "Something Bad"
+    ],
     "team": "fabled"
   },
   {
@@ -2066,6 +2070,10 @@
     "id": "pl_PL_duchess",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/duchess.png?raw=true",
     "name": "Duchess",
+    "reminders": [
+      "False Info",
+      "Visitor"
+    ],
     "team": "fabled"
   },
   {
@@ -2073,6 +2081,9 @@
     "id": "pl_PL_fibbin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fibbin.png?raw=true",
     "name": "Fibbin",
+    "reminders": [
+      "Used"
+    ],
     "team": "fabled"
   },
   {
@@ -2087,6 +2098,9 @@
     "id": "pl_PL_hellslibrarian",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/hellslibrarian.png?raw=true",
     "name": "Hell's Librarian",
+    "reminders": [
+      "Something Bad"
+    ],
     "team": "fabled"
   },
   {
@@ -2094,6 +2108,9 @@
     "id": "pl_PL_revolutionary",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/revolutionary.png?raw=true",
     "name": "Revolutionary",
+    "reminders": [
+      "Register Falsely?"
+    ],
     "team": "fabled"
   },
   {
@@ -2108,6 +2125,9 @@
     "id": "pl_PL_spiritofivory",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spiritofivory.png?raw=true",
     "name": "Spirit Of Ivory",
+    "reminders": [
+      "No extra evil"
+    ],
     "team": "fabled"
   },
   {
@@ -2115,6 +2135,9 @@
     "id": "pl_PL_stormcatcher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/stormcatcher.png?raw=true",
     "name": "Storm Catcher",
+    "reminders": [
+      "Safe"
+    ],
     "team": "fabled"
   },
   {
@@ -2122,6 +2145,9 @@
     "id": "pl_PL_toymaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/toymaker.png?raw=true",
     "name": "Toymaker",
+    "reminders": [
+      "No Attack"
+    ],
     "team": "fabled"
   }
 ]
