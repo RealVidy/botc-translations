@@ -10,6 +10,7 @@ defmodule Constants do
     "it_IT",
     "ja_JA",
     "kw_KW",
+    "nl_NL",
     "pl_PL",
     "pt_BR",
     "pt_PT",
