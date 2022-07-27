@@ -164,23 +164,23 @@ defmodule Constants do
     "zombuul"
   ]
 
-  # @role_ids_to_normalized %{
-  #   "bountyhunter" => "bounty_hunter",
-  #   "cultleader" => "cult_leader",
-  #   "fortuneteller" => "fortune_teller",
-  #   "poppygrower" => "poppy_grower",
-  #   "snakecharmer" => "snake_charmer",
-  #   "towncrier" => "town_crier",
-  #   "tealady" => "tea_lady",
-  #   "devilsadvocate" => "devils_advocate",
-  #   "eviltwin" => "evil_twin",
-  #   "pithag" => "pit-hag",
-  #   "scarletwoman" => "scarlet_woman",
-  #   "alhadikhia" => "al-hadikhia",
-  #   "fanggu" => "fang_gu",
-  #   "lilmonsta" => "lil_monsta",
-  #   "nodashii" => "no_dashii"
-  # }
+  @role_ids_to_normalized %{
+    "bountyhunter" => "bounty_hunter",
+    "cultleader" => "cult_leader",
+    "fortuneteller" => "fortune_teller",
+    "poppygrower" => "poppy_grower",
+    "snakecharmer" => "snake_charmer",
+    "towncrier" => "town_crier",
+    "tealady" => "tea_lady",
+    "devilsadvocate" => "devils_advocate",
+    "eviltwin" => "evil_twin",
+    "pithag" => "pit-hag",
+    "scarletwoman" => "scarlet_woman",
+    "alhadikhia" => "al-hadikhia",
+    "fanggu" => "fang_gu",
+    "lilmonsta" => "lil_monsta",
+    "nodashii" => "no_dashii"
+  }
 
   @csv_headers [
     "id",
@@ -202,5 +202,9 @@ defmodule Constants do
 
   def get_csv_headers do
     @csv_headers
+  end
+
+  def normalize_role_id(role_id) do
+    Map.get(@role_ids_to_normalized, role_id, role_id)
   end
 end

@@ -1,0 +1,238 @@
+openapi: 3.0.2
+info:
+  title: ''
+  version: ''
+paths:
+  /api/scripts/:
+    get:
+      operationId: listScriptVersions
+      description: ''
+      parameters:
+      - name: page
+        required: false
+        in: query
+        description: A page number within the paginated result set.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  count:
+                    type: integer
+                    example: 123
+                  next:
+                    type: string
+                    nullable: true
+                    format: uri
+                    example: http://api.example.org/accounts/?page=4
+                  previous:
+                    type: string
+                    nullable: true
+                    format: uri
+                    example: http://api.example.org/accounts/?page=2
+                  results:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Script'
+          description: ''
+      tags:
+      - api
+  /api/scripts/{id}/:
+    get:
+      operationId: retrieveScriptVersion
+      description: ''
+      parameters:
+      - name: id
+        in: path
+        required: true
+        description: A unique integer value identifying this script version.
+        schema:
+          type: string
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Script'
+          description: ''
+      tags:
+      - api
+  /api/scripts/{id}/json/:
+    get:
+      operationId: jsonScriptVersion
+      description: ''
+      parameters:
+      - name: id
+        in: path
+        required: true
+        description: A unique integer value identifying this script version.
+        schema:
+          type: string
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Script'
+          description: ''
+      tags:
+      - api
+  /api/translations/{language}/{character_id}/:
+    get:
+      operationId: retrieveTranslation
+      description: ''
+      parameters:
+      - name: language
+        in: path
+        required: true
+        description: ''
+        schema:
+          type: string
+      - name: character_id
+        in: path
+        required: true
+        description: ''
+        schema:
+          type: string
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Translation'
+          description: ''
+      tags:
+      - api
+    post:
+      operationId: createTranslation
+      description: ''
+      parameters:
+      - name: language
+        in: path
+        required: true
+        description: ''
+        schema:
+          type: string
+      - name: character_id
+        in: path
+        required: true
+        description: ''
+        schema:
+          type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Translation'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Translation'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Translation'
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Translation'
+          description: ''
+      tags:
+      - api
+    put:
+      operationId: updateTranslation
+      description: ''
+      parameters:
+      - name: language
+        in: path
+        required: true
+        description: ''
+        schema:
+          type: string
+      - name: character_id
+        in: path
+        required: true
+        description: ''
+        schema:
+          type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Translation'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Translation'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Translation'
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Translation'
+          description: ''
+      tags:
+      - api
+components:
+  schemas:
+    Script:
+      type: object
+      properties:
+        pk:
+          type: integer
+          readOnly: true
+        name:
+          type: string
+        version:
+          type: string
+        content:
+          type: object
+        score:
+          type: string
+          readOnly: true
+      required:
+      - name
+      - version
+      - content
+    Translation:
+      type: object
+      properties:
+        character_name:
+          type: string
+          maxLength: 30
+        ability:
+          type: string
+        first_night_reminder:
+          type: string
+          nullable: true
+        other_night_reminder:
+          type: string
+          nullable: true
+        global_reminders:
+          type: string
+          nullable: true
+          maxLength: 30
+        reminders:
+          type: string
+          nullable: true
+      required:
+      - character_name
+      - ability
