@@ -53,12 +53,12 @@
     "ability": "Jede Nacht, wähle 2 lebende Spieler (nicht dich selbst): du erfährst, wie viele von ihnen diese Nacht aufgrund ihrer Charakterfähigkeit erwachten.",
     "edition": "bmr",
     "firstNight": 50,
-    "firstNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, …) for how many of those players wake tonight for their ability.",
+    "firstNightReminder": "Das Kammermädchen zeigt auf zwei Spieler. Zeige dem Spieler wieviele (0, 1 oder 2) dieser Spieler in der letzten Nacht erwacht sind um ihre Fähigkeit zu verwenden.",
     "id": "de_DE_chambermaid",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chambermaid.png?raw=true",
     "name": "Kammermädchen",
     "otherNight": 70,
-    "otherNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, …) for how many of those players wake tonight for their ability.",
+    "otherNightReminder": "Das Kammermädchen zeigt auf zwei Spieler. Zeige dem Spieler wieviele (0, 1 oder 2) dieser Spieler in der letzten Nacht erwacht sind um ihre Fähigkeit zu verwenden.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -67,12 +67,12 @@
     "ability": "Einmal pro Spiel, in der Nacht, wähle 1 Charakter: falls im Spiel, ist dieser für 3 Nächte und 3 Tage betrunken.",
     "edition": "bmr",
     "firstNight": 19,
-    "firstNightReminder": "The Courtier either shows a 'no' head signal, or points to a character on the sheet. If the Courtier used their ability: If that character is in play, that player is drunk.",
+    "firstNightReminder": "Der Schmeichler schüttelt entweder den Kopf (Nein) oder zeigt auf einen Charakter am Charakterbogen. Wenn der Schmeichler seine Fähigkeit nutzt: Der ausgewählte Charakter ist für drei Tage und Nächte betrunken, wenn er sich im Spiel befindet.",
     "id": "de_DE_courtier",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/courtier.png?raw=true",
     "name": "Schmeichler",
     "otherNight": 10,
-    "otherNightReminder": "Reduce the remaining number of days the marked player is poisoned. If the Courtier has not yet used their ability: The Courtier either shows a 'no' head signal, or points to a character on the sheet. If the Courtier used their ability: If that character is in play, that player is drunk.",
+    "otherNightReminder": "Reduziere die Anzahl der Tage, die der ausgewählte Spieler betrunken ist. Falls der Schmeichler seine Fähigkeit noch nicht benutzt hat: Der Schmeichler schüttelt entweder den Kopf (Nein) oder zeigt auf einen Charakter am Charakterbogen. Wenn der Schmeichler seine Fähigkeit nutzt: Der ausgewählte Charakter ist für drei Tage und Nächte betrunken, wenn er sich im Spiel befindet.",
     "reminders": [
       "Betrunken 1",
       "Betrunken 2",
@@ -86,12 +86,12 @@
     "ability": "Jede Nacht, wähle 1 lebenden Spieler (nicht denselben wie die Nacht zuvor): wird der Spieler morgen hingerichtet, stirbt er nicht.",
     "edition": "bmr",
     "firstNight": 22,
-    "firstNightReminder": "The Devil’s Advocate points to a living player. That player survives execution tomorrow.",
+    "firstNightReminder": "Des Teufels Anwalt zeigt auf einen lebenden Spieler. Dieser Spieler übberlebt die Exekution morgen.",
     "id": "de_DE_devilsadvocate",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/devilsadvocate.png?raw=true",
     "name": "Teufels Anwalt",
     "otherNight": 14,
-    "otherNightReminder": "The Devil’s Advocate points to a living player, different from the previous night. That player survives execution tomorrow.",
+    "otherNightReminder": "Des Teufels Anwalt zeigt auf einen (anderen) lebenden Spieler. Dieser Spieler übberlebt die Exekution morgen.",
     "reminders": [
       "Überlebt Exekution"
     ],
@@ -107,7 +107,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/exorcist.png?raw=true",
     "name": "Exorzist",
     "otherNight": 22,
-    "otherNightReminder": "The Exorcist points to a player, different from the previous night. If that player is the Demon: Wake the Demon. Show the Exorcist token. Point to the Exorcist. The Demon does not act tonight.",
+    "otherNightReminder": "Der Exorzist zeigt auf einen Spieler (einen anderen als vorherige Nacht). Ist dieser Spieler der Dämon: Wecke den Dämon. Zeige ihm den Token des Exorzisten. Zeige auf den Spieler des Exorzisten. Der Dämon darf heute Nacht keine Aktion durchführen.",
     "reminders": [
       "Auserwählt"
     ],
@@ -139,7 +139,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gambler.png?raw=true",
     "name": "Glücksspieler",
     "otherNight": 11,
-    "otherNightReminder": "The Gambler points to a player, and a character on their sheet. If incorrect, the Gambler dies.",
+    "otherNightReminder": "Der Glücksspieler zeigt auf einen Spieler und einen Charakter auf dem Charakterbogen. Liegt er falsch, stirbt der Glücksspieler.",
     "reminders": [
       "Tot"
     ],
@@ -155,7 +155,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/godfather.png?raw=true",
     "name": "Pate",
     "otherNight": 38,
-    "otherNightReminder": "Wenn heute ein Außenseiter stirbt: Der Pate zeigt auf einen Spieler, dieser Spieler stirbt",
+    "otherNightReminder": "Wenn heute ein Außenseiter stirbt: Der Pate zeigt auf einen Spieler, dieser Spieler stirbt.",
     "reminders": [
       "Starb heute",
       "Tot"
@@ -199,12 +199,12 @@
     "ability": "Du beginnst das Spiel mit dem Wissen, dass ein bestimmter guter Spieler ein bestimmter Charakter ist. Wird der Spieler vom Dämon getötet, stirbst du auch.",
     "edition": "bmr",
     "firstNight": 39,
-    "firstNightReminder": "Show the marked character token. Point to the marked player.",
+    "firstNightReminder": "Zeige auf den als Enkel markierten Charaktertoken. Zeige auf den markierten Spieler.",
     "id": "de_DE_grandmother",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/grandmother.png?raw=true",
     "name": "Großmutter",
     "otherNight": 50,
-    "otherNightReminder": "If the Grandmother’s grandchild was killed by the Demon tonight: The Grandmother dies.",
+    "otherNightReminder": "Stirbt der Enkel der Großmutter heute Nacht: Die Großmutter stirbt.",
     "reminders": [
       "Enkel"
     ],
@@ -220,7 +220,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/innkeeper.png?raw=true",
     "name": "Gastwirt",
     "otherNight": 9,
-    "otherNightReminder": "The previously protected and drunk players lose those markers. The Innkeeper points to two players. Those players are protected. One is drunk.",
+    "otherNightReminder": "Die zuvor beschützten und betrunkenen Spieler verlieren die Marker. Der Gastwirt zeigt auf zwei Spieler. Diese Spieler sind beschützt. Einer von ihnen ist betrunken.",
     "reminders": [
       "Beschützt",
       "Betrunken"
@@ -229,13 +229,13 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, if another player nominated, you may choose to force the current execution to pass or fail.",
+    "ability": "Einmal im Spiel, sollte ein anderer Spieler nominiert werden, kannst Du bestimmen, ob die Exekution stattfindet oder nicht.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "de_DE_judge",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/judge.png?raw=true",
-    "name": "Judge",
+    "name": "Richter",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -248,12 +248,12 @@
     "ability": "Du weißt nicht, dass du der Wahnsinnige bist. Du denkst, du seist ein Dämon, bist du aber nicht. Der Dämon weiß, wer du bist und wen du angreifst.",
     "edition": "bmr",
     "firstNight": 7,
-    "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
+    "firstNightReminder": "Bei 7 oder mehr Spielern: Zeige dem Wahnisnnigen  die Anzahl an falschen 'Untergebenen', die im Spiel sind.Wenn der Dämon, den der Wahnsinnige sieht ein Dämon ist, der in der Nacht erwacht: Erlaube dem Wahnsinnigen Dämonenaktionen durchzuführen. Platziere den 'Attacke' Marker. Wenn der Wahnsinnige einen Spieler auswählt: Wecke den Dämon. Zeige ihm den 'Attackiere' Marker, dann zeige auf jeden vom Wahnsinnigen markierten Spieler. Entferne die Attacke Marker des Wahnsinnigen.",
     "id": "de_DE_lunatic",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
     "name": "Wahnsinniger",
     "otherNight": 21,
-    "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
+    "otherNightReminder": "Erlaube dem Wahnsinnigen Dämonenaktionen durchzuführen. Platziere den 'Attacke' Marker. Wenn der Wahnsinnige einen Spieler auswählt: Wecke den Dämon. Zeige ihm den 'Attackiere' Marker, dann zeige auf jeden vom Wahnsinnigen markierten Spieler. Entferne die Attacke Marker des Wahnsinnigen.",
     "reminders": [
       "Angriff 1",
       "Angriff 2",
@@ -277,7 +277,7 @@
     "team": "minion"
   },
   {
-    "ability": "Each day, you may choose up to 3 sets of 2 players to swap seats. Players may not leave their seats to talk in private.",
+    "ability": "Jeden Tag kannst du bis zu drei Spielerpaare bestimmen, die Plätze tauschen müssen. Spieler dürfen ihre Sitze nicht verlassen um sich privat zu unterreden.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -315,7 +315,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/moonchild.png?raw=true",
     "name": "Mondkind",
     "otherNight": 49,
-    "otherNightReminder": "If the Moonchild used their ability to target a player today: If that player is good, they die.",
+    "otherNightReminder": "Wenn das Mondkind am Tag stirbt und seine Fähigkeit einsetzt um einen Spieler auszuwählen: Ist dieser Spieler gut, stirbt er.",
     "reminders": [
       "Tot"
     ],
@@ -345,7 +345,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/po.png?raw=true",
     "name": "Pou",
     "otherNight": 28,
-    "otherNightReminder": "If the Po chose no-one the previous night: The Po points to three players. Otherwise: The Po either shows the 'no' head signal , or points to a player. Chosen players die",
+    "otherNightReminder": "Wenn der Pou niemanden in der letzten Nacht gewählt hat: Der Pou zeigt auf drei Spieler. Andernfalls: Der Pou zeigt entweder Nein durch Kopfschütteln oder zeigt auf einen Spieler. Ausgewählte Spieler sterben.",
     "reminders": [
       "3 Angriffe",
       "Tot"
@@ -362,7 +362,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/professor.png?raw=true",
     "name": "Professor",
     "otherNight": 45,
-    "otherNightReminder": "If the Professor has not used their ability: The Professor either shakes their head no, or points to a player. If that player is a Townsfolk, they are now alive.",
+    "otherNightReminder": "Wenn der Professor seine Fähigkeit noch nicht eingestzt hat: Der Professor zeigt Nein durch Kopfschütteln oder zeigt auf einen toten Spieler: Ist der Spieler ein Dorfbewohnerm wird er wiederbelebt.",
     "reminders": [
       "Am Leben",
       "Keine Fähigkeit"
@@ -396,7 +396,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sailor.png?raw=true",
     "name": "Seemann",
     "otherNight": 4,
-    "otherNightReminder": "The previously drunk player is no longer drunk. The Sailor points to a living player. Either the Sailor, or the chosen player, is drunk.",
+    "otherNightReminder": "Der Spieler der zuvor betrunken wurde ist wieder nüchtern. Der Seemann zeigt auf einen lebenden Spieler. Entweder der Seemann oder der gewählte Spieler ist betrunken.",
     "reminders": [
       "Betrunken"
     ],
@@ -453,7 +453,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Only you and the dead can vote. They don't need a vote token to do so. A 50% majority is not required.",
+    "ability": "Nur Du und die Toten können abstimmen. Die Toten brauchen keinen Spielstein zum abstimmen. Eine 50% Mehrheit ist nicht nötig.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -475,7 +475,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/zombuul.png?raw=true",
     "name": "Zombuul",
     "otherNight": 25,
-    "otherNightReminder": "If no-one died during the day: The Zombuul points to a player. That player dies.",
+    "otherNightReminder": "Wenn niemand am Tag gestorben ist: Der Zombuul zeigt auf einen Spieler. Dieser Spieler stirbt.",
     "reminders": [
       "Tot",
       "starb heute"

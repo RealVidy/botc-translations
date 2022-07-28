@@ -68,12 +68,12 @@
     "ability": "Jede Nacht, wähle 1 Spieler und 1 guten Charakter: der Spieler ist am kommenden Tag \"besessen\" davon, dass er dieser Charakter ist, ansonsten könnte er hingerichtet werden.",
     "edition": "snv",
     "firstNight": 25,
-    "firstNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
+    "firstNightReminder": "Der Cerenovus zeigt auf einen Spieler, dann auf einen Charakter auf dem Charakterbogen. Wecke diesen Spieler. Zeige ihm die 'Dieser Charakter hat dich ausgewählt' Karte und den Token des Cerenovus. Zeige den ausgewählten Charaktertoken. Wenn der Spieler am nächten Tag nicht besessen von diesem Charakter ist, kann er exekutiert werden.",
     "id": "de_DE_cerenovus",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cerenovus.png?raw=true",
     "name": "Cerenovus",
     "otherNight": 16,
-    "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
+    "otherNightReminder": "Der Cerenovus zeigt auf einen Spieler, dann auf einen Charakter auf dem Charakterbogen. Wecke diesen Spieler. Zeige ihm die 'Dieser Charakter hat dich ausgewählt' Karte und den Token des Cerenovus. Zeige den ausgewählten Charaktertoken. Wenn der Spieler am nächten Tag nicht besessen von diesem Charakter ist, kann er exekutiert werden.",
     "reminders": [
       "Verrückt"
     ],
@@ -84,7 +84,7 @@
     "ability": "Du beginnst das Spiel mit dem Wissen, wie viele Paare von bösen Spielern nebeneinander sitzen.",
     "edition": "tb",
     "firstNight": 35,
-    "firstNightReminder": "Show the finger signal (0, 1, 2, …) for the number of pairs of neighbouring evil players.",
+    "firstNightReminder": "Zeige mit der Hand die Anzahl (0, 1, 2, …) von benachbarten bösen Spielern",
     "id": "de_DE_chef",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true",
     "name": "Koch",
@@ -98,12 +98,12 @@
     "ability": "Du nimmst jede Nacht die Gesinnung eines lebenden Nachbars an. Wenn alle guten Spieler deinem Kult beitreten, gewinnt dein Team.",
     "edition": "",
     "firstNight": 47,
-    "firstNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
+    "firstNightReminder": "Wenn sich die Ausrichtung des Kultführers ändert, zeige ihm/ihr ein Daumen nach oben Signal für Gut oder ein Daumen nach unten Signal für böse.",
     "id": "de_DE_cultleader",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cultleader.png?raw=true",
     "name": "Kultführer",
     "otherNight": 67,
-    "otherNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
+    "otherNightReminder": "Wenn sich die Ausrichtung des Kultführers ändert, zeige ihm/ihr ein Daumen nach oben Signal für Gut oder ein Daumen nach unten Signal für böse.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -112,12 +112,12 @@
     "ability": "Jede Nacht, wähle 1 Spieler (nicht dich selbst): du erfährst 1 guten und 1 bösen Charakter, wovon einer richtig ist.",
     "edition": "snv",
     "firstNight": 41,
-    "firstNightReminder": "The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.",
+    "firstNightReminder": "Der Träumer zeigt auf einen Spieler. Zeige 1 guten und 1 bösen Charaktertoken: einer der Tokens ist richtig.",
     "id": "de_DE_dreamer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/dreamer.png?raw=true",
     "name": "Träumer",
     "otherNight": 57,
-    "otherNightReminder": "The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.",
+    "otherNightReminder": "Der Träumer zeigt auf einen Spieler. Zeige 1 guten und 1 bösen Charaktertoken: einer der Tokens ist richtig.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -143,12 +143,12 @@
     "ability": "Du erfährst jede Nacht, wie viele deiner beiden lebenden Nachbarn böse sind.",
     "edition": "tb",
     "firstNight": 36,
-    "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath.",
+    "firstNightReminder": "Zeige mit der Hand (0, 1, 2)  wieviele lebende Nachbarn des Empathen böse sind.",
     "id": "de_DE_empath",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
     "name": "Empath",
     "otherNight": 53,
-    "otherNightReminder": "Show the finger signal (0, 1, 2) for the number of evil neighbours.",
+    "otherNightReminder": "Zeige mit der Hand (0, 1, 2)  wieviele lebende Nachbarn des Empathen böse sind.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -162,7 +162,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fanggu.png?raw=true",
     "name": "Fang Gu",
     "otherNight": 29,
-    "otherNightReminder": "The Fang Gu points to a player. That player dies. Or, if that player was an Outsider and there are no other Fang Gu in play: The Fang Gu dies instead of the chosen player. The chosen player is now an evil Fang Gu. Wake the new Fang Gu. Show the 'You are' card, then the Fang Gu token. Show the 'You are' card, then the thumb-down 'evil' hand sign.",
+    "otherNightReminder": "Der Fang Gu zeigt auf einen Spieler. Dieser Spieler stirbt. Falls dieser Spieler ein Außenseiter war nud kein anderer Fang Gu im Spiel ist: Der Fang Gu stirbt an seiner Stelle. Der ausgewählte Spieler wird der neue Fang Gu. Wecke den neuen Fang Gu. Zeige ihm die 'Du bist' Karte und den Token des Fang Gu. Danach zeige ihm die 'Du bist' Karte und ein Daumen nach unten (böse) Zeichen",
     "reminders": [
       "Einmalig",
       "Tot"
@@ -195,7 +195,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/imp.png?raw=true",
     "name": "Imp",
     "otherNight": 24,
-    "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
+    "otherNightReminder": "Der Imp zeigt auf einen Spieler. Dieser Spieler stirbt. Wenn sich der Imp selbst wählt: Ersetze den Charakter eines lebenden Untergebenen mit einem übrigen Imp Token. Zeige ihm die 'Du bist' Karte und dann den Imp Token.",
     "reminders": [
       "Tot"
     ],
@@ -206,12 +206,12 @@
     "ability": "Jede Nacht entscheiden die Untergebenen, wer das Monster Klein-Charakterplättchen babysittet & der Dämon \"ist\". Ein Spieler stirbt jede Nacht*. [+1 Untergebener]",
     "edition": "",
     "firstNight": 16,
-    "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",
+    "firstNightReminder": "Wecke alle Untergebenen gemeinsam. Sie müssen sich einigen, wer von Ihnen das Monster Klein babysittet.",
     "id": "de_DE_lilmonsta",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lilmonsta.png?raw=true",
     "name": "Monster Klein",
     "otherNight": 36,
-    "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
+    "otherNightReminder": "Wecke alle Untergebenen gemeinsam. Sie müssen sich einigen, wer von Ihnen das Monster Klein babysittet. Wähle einen Spieler, dieser Spieler stirbt.",
     "reminders": [],
     "remindersGlobal": [
       "Tot",
@@ -224,7 +224,7 @@
     "ability": "Du weisst nicht, dass du die Marionette bist. Du denkst, du seist ein guter Charakter, bist du aber nicht. Der Dämon weiss, wer du bist. [Du sitzt neben dem Dämon]",
     "edition": "",
     "firstNight": 11,
-    "firstNightReminder": "Select one of the good players next to the Demon and place the Is the Marionette reminder token. Wake the Demon and show them the Marionette.",
+    "firstNightReminder": "Wähle einen guten Spieler neben dem Dämon und platziere den Marionetten Reminder neben ihm. Wecke den Dämon und zeige ihm die Marionette.",
     "id": "de_DE_marionette",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/marionette.png?raw=true",
     "name": "Marionette",
@@ -269,12 +269,12 @@
     "ability": "Jede Nacht, wähle 1 Spieler: der Spieler ist bis Sonnenuntergang vergiftet.",
     "edition": "tb",
     "firstNight": 17,
-    "firstNightReminder": "The Poisoner points to a player. That player is poisoned.",
+    "firstNightReminder": "Der Giftmischer zeigt auf einen Spieler. Dieser Spieler ist vergiftet.",
     "id": "de_DE_poisoner",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
     "name": "Giftmischer",
     "otherNight": 8,
-    "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
+    "otherNightReminder": "Der vorherige Spieler ist nicht mehr vergiftet. Der Giftmischer zeigt auf einen Spieler. Dieser Spieler ist vergiftet.",
     "reminders": [
       "Vergiftet"
     ],
@@ -296,15 +296,15 @@
     "team": "outsider"
   },
   {
-    "ability": "Jede Nacht, wähle 1 Spieler: Wählsr du einen Untergebenen, erfährt er davon. Alle gewählten Untergebebnen haben keine Fähigkeit.",
+    "ability": "Jede Nacht, wähle 1 Spieler: Wählst du einen Untergebenen, erfährt er davon. Alle gewählten Untergebenen haben keine Fähigkeit.",
     "edition": "",
     "firstNight": 14,
-    "firstNightReminder": "The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.",
+    "firstNightReminder": "Der Priester wählt einen Spieler. Wenn ein Untergebener gewählt wurde, wecke den Untergebenen und zeige ihm die 'Dieser Charakter hat dich ausgewählt' Karte und danach den Token des Priester.",
     "id": "de_DE_preacher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/preacher.png?raw=true",
     "name": "Priester",
     "otherNight": 7,
-    "otherNightReminder": "The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.",
+    "otherNightReminder": "Der Priester wählt einen Spieler. Wenn ein Untergebener gewählt wurde, wecke den Untergebenen und zeige ihm die 'Dieser Charakter hat dich ausgewählt' Karte und danach den Token des Priester.",
     "reminders": [
       "bei einer Predigt"
     ],
@@ -320,7 +320,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true",
     "name": "Rabenwärter",
     "otherNight": 42,
-    "otherNightReminder": "If the Ravenkeeper died tonight: The Ravenkeeper points to a player. Show that player’s character token.",
+    "otherNightReminder": "Wenn der Rabenwärter heute starb: Der Rabenwärter zeigt auf einen Spieler. Zeige dem Rabenwärter den Charaktertoken des Spielers.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -343,12 +343,12 @@
     "ability": "Jede Nacht, wähle 1 lebenden Spieler: wählst du den Dämonen, so tauschst du Charakter und Gesinnung (gut oder böse) mit ihm und er wird vergiftet.",
     "edition": "snv",
     "firstNight": 20,
-    "firstNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
+    "firstNightReminder": "Der Schlangenbeschwörer zeigt auf einen Spieler. Wenn dieser Spieler der Dämon ist: Tausche die Charaktere und die Gesinnung von Schlangenbeschwörer und Dämon. Wecke beide Spieler und informiere sie über die neue Rolle und die neue Gesinnung. Der neue Schlangenbeschwörer ist vergiftet.",
     "id": "de_DE_snakecharmer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/snakecharmer.png?raw=true",
     "name": "Schlangenbeschwörer",
     "otherNight": 12,
-    "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
+    "otherNightReminder": "Der Schlangenbeschwörer zeigt auf einen Spieler. Wenn dieser Spieler der Dämon ist: Tausche die Charaktere und die Gesinnung von Schlangenbeschwörer und Dämon. Wecke beide Spieler und informiere sie über die neue Rolle und die neue Gesinnung. Der neue Schlangenbeschwörer ist vergiftet.",
     "reminders": [
       "Vergiftet"
     ],
@@ -364,7 +364,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/towncrier.png?raw=true",
     "name": "Stadtschreier",
     "otherNight": 59,
-    "otherNightReminder": "Nod 'yes' or shake head 'no' for whether a Minion nominated today. Place the 'Minion not nominated' marker (remove 'Minion nominated', if any).",
+    "otherNightReminder": "Nicke (Ja) oder schüttle den Kopf (Nein) um zu zeigen, ob ein Untergebener heute nominiert hat. Platziere den 'Untergebener hat nicht nominiert' bzw. 'Untergebener hat nominiert'.",
     "reminders": [
       "Untergebener nicht nominiert",
       "Untergebener nominiert"
@@ -376,12 +376,12 @@
     "ability": "Jede Nacht, wähle 1 Spieler: wenn dieser Spieler am kommenden Tag jemanden nominiert, stirbt er. Wenn nur noch 3 Spieler leben, verlierst du diese Fähigkeit.",
     "edition": "snv",
     "firstNight": 24,
-    "firstNightReminder": "The Witch points to a player. If that player nominates tomorrow they die immediately.",
+    "firstNightReminder": "Die Hexe zeigt auf einen Spieler. Wenn dieser Spieler morgen jemanden nominiert, stirbt er auf der Stelle.",
     "id": "de_DE_witch",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/witch.png?raw=true",
     "name": "Hexe",
     "otherNight": 15,
-    "otherNightReminder": "If there are 4 or more players alive: The Witch points to a player. If that player nominates tomorrow they die immediately.",
+    "otherNightReminder": "Wenn vier oder mehr Spieler am Leben sind: Die Hexe zeigt auf einen Spieler. Wenn dieser Spieler morgen jemanden nominiert, stirbt er auf der Stelle.",
     "reminders": [
       "Verflucht"
     ],
