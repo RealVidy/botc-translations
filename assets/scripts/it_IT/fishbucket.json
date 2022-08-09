@@ -940,7 +940,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Ogni notte*, se uno dei tuoi vicini buoni è ubriaco o avvelenato, muori.",
+    "ability": "Ogni notte*, se uno dei tuoi vicini vivi buoni è ubriaco o avvelenato, muori.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",

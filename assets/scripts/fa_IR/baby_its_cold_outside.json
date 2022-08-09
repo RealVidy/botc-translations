@@ -174,12 +174,12 @@
     "ability": "شما قابلیت خود را نمی‌دانید. هر روز، خصوصی آن را حدس بزنید. شما می‌فهمید چه‌قدر نزدیک هستید.",
     "edition": "",
     "firstNight": 12,
-    "firstNightReminder": "Decide the Amnesiac's entire ability. If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
+    "firstNightReminder": "قابلیت فراموشگر را انتخاب کنید. اگر قابلیت او باعث می‌شود که امشب بیدار شود، او را بیدار کنید و قابلیتش رو اجرا کنید.",
     "id": "fa_IR_amnesiac",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/amnesiac.png?raw=true",
     "name": "فراموشگر",
     "otherNight": 5,
-    "otherNightReminder": "If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
+    "otherNightReminder": "گر قابلیت او باعث می‌شود که امشب بیدار شود، او را بیدار کنید و قابلیتش رو اجرا کنید.",
     "reminders": [
       "؟"
     ],

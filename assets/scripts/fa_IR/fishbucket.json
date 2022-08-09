@@ -20,12 +20,12 @@
     "ability": "شما قابلیت خود را نمی‌دانید. هر روز، خصوصی آن را حدس بزنید. شما می‌فهمید چه‌قدر نزدیک هستید.",
     "edition": "",
     "firstNight": 12,
-    "firstNightReminder": "Decide the Amnesiac's entire ability. If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
+    "firstNightReminder": "قابلیت فراموشگر را انتخاب کنید. اگر قابلیت او باعث می‌شود که امشب بیدار شود، او را بیدار کنید و قابلیتش رو اجرا کنید.",
     "id": "fa_IR_amnesiac",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/amnesiac.png?raw=true",
     "name": "فراموشگر",
     "otherNight": 5,
-    "otherNightReminder": "If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
+    "otherNightReminder": "گر قابلیت او باعث می‌شود که امشب بیدار شود، او را بیدار کنید و قابلیتش رو اجرا کنید.",
     "reminders": [
       "؟"
     ],
@@ -1532,7 +1532,7 @@
     "team": "minion"
   },
   {
-    "ability": "هرشب* ۳ نفر را انتخاب کن (همه می‌فهمند چه کسانی انتخاب شده‌اند): هرکدام بی‌صدا انتخاب می‌کنند که می‌خواهند زنده بمانند یا بمیرند، ولی اگر همگی زندگی را انتخاب‌کنند، همگی می‌میرند.",
+    "ability": "هرشب* ۳ نفر را انتخاب کنید (همه می‌فهمند چه کسانی انتخاب شده‌اند): هرکدام بی‌صدا انتخاب می‌کنند که می‌خواهند زنده بمانند یا بمیرند، ولی اگر همگی زندگی را انتخاب‌کنند، همگی می‌میرند.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -1540,7 +1540,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/alhadikhia.png?raw=true",
     "name": "الحدیقه",
     "otherNight": 33,
-    "otherNightReminder": "The Al-Hadikhia chooses 3 players. Announce the first player, wake them to nod yes to live or shake head no to die, kill or resurrect accordingly, then put to sleep and announce the next player. If all 3 are alive after this, all 3 die.",
+    "otherNightReminder": "الحدیقه ۳ بازیکن را انتخاب می‌کند. اسم اولین بازیکن را اعلام کنید و او را بیدار کنید تا با حرکت سر انتخاب کند زنده بماند یا نه. براساس تصمیمش او را بکشید یا زنده کنید و او را بخوابانید. سپس بازیکن بعدی را به ترتیب مشابه بیدار کنید. اگر هر سه بازیکن در انتها زنده بودند، هر سه می‌میرند.",
     "reminders": [
       "زندگی",
       "مرگ",
