@@ -32,18 +32,17 @@
     "team": "traveler"
   },
   {
-    "ability": "A játékban egyszer, éjszaka*, válassz egy játékos: meghal még akkor is, ha valamilyen okból nem tudna.",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "hu_HU_assassin",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/assassin.png?raw=true",
-    "name": "Orgyilkos",
-    "otherNight": 37,
-    "otherNightReminder": "Ha az Orgyilkos még nem használta a képességét: az Orgyilkos vagy 'nem'-et jelez a fejével, vagy egy játékosra mutat. Az a játékos meghal.",
+    "ability": "Minden éjszaka válaszz egy játékos és egy jó karaktert: ő holnap \"őrült\", mint ez a karakter, vagy lehet, hogy ki lesz végezve.",
+    "edition": "snv",
+    "firstNight": 25,
+    "firstNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
+    "id": "hu_HU_cerenovus",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cerenovus.png?raw=true",
+    "name": "Cerenovus",
+    "otherNight": 16,
+    "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
     "reminders": [
-      "Dead",
-      "No ability"
+      "Őrült"
     ],
     "setup": false,
     "team": "minion"

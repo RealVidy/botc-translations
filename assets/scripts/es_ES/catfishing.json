@@ -32,18 +32,17 @@
     "team": "traveler"
   },
   {
-    "ability": "Una vez por partida, durante la noche*, elige a un jugador: morirá, incluso si por cualquier razón no puede morir.",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "es_ES_assassin",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/assassin.png?raw=true",
-    "name": "Asesina",
-    "otherNight": 37,
-    "otherNightReminder": "Si la Asesina no ha utilizado su habilidad aún: la Asesina niega con la cabeza o señala a un jugador. Ese jugador muere.",
+    "ability": "Cada noche, elige a un jugador y un personaje honrado: el jugador está \"loco\" y debe hacer creer que es este personaje mañana o podría ser ejecutado.",
+    "edition": "snv",
+    "firstNight": 25,
+    "firstNightReminder": "El Cerenovus señala a un jugador, y elige un personaje de su hoja. Despierta a ese jugador. Muéstrale la tarjeta \"Este personaje te ha elegido\" y la ficha del Cerenovus. Muéstrale la ficha del personaje elegido. Si el jugador no intenta hacer creer que este personaje mañana, puede ser ejecutado.",
+    "id": "es_ES_cerenovus",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cerenovus.png?raw=true",
+    "name": "Cerenovus",
+    "otherNight": 16,
+    "otherNightReminder": "El Cerenovus señala a un jugador, y elige un personaje de su hoja. Despierta a ese jugador. Muéstrale la tarjeta \"Este personaje te ha elegido\" y la ficha del Cerenovus. Muéstrale la ficha del personaje elegido. Si el jugador no intenta hacer creer que este personaje mañana, puede ser ejecutado.",
     "reminders": [
-      "Muerto",
-      "Sin habilidad"
+      "Loco"
     ],
     "setup": false,
     "team": "minion"

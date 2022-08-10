@@ -32,18 +32,17 @@
     "team": "traveler"
   },
   {
-    "ability": "Raz w trakcie gry, w nocy*, wybierz gracza. ginie on, nawet jesli z jakiegokolwiek powodu nie powinien.",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "pl_PL_assassin",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/assassin.png?raw=true",
-    "name": "Skrytobojca",
-    "otherNight": 37,
-    "otherNightReminder": "If the Assassin has not yet used their ability: The Assassin either shows the 'no' head signal, or points to a player. That player dies.",
+    "ability": "Każdej nocy wybierz gracza i dobrą postać - ma jutro szaleć na punkcie bycia tą postacią, bo inaczej może zostać stracony.",
+    "edition": "snv",
+    "firstNight": 25,
+    "firstNightReminder": "Cerenovus wskazuje gracza i postać na skrypcie. Obudź tego gracza. Pokaż mu kartę 'TA POSTAĆ CIĘ WYBRAŁA' i żeton Cerenovusa. Pokaż żeton wybranej postaci. Jeśli ten gracz nie będzie jutro szalał na punkcie bycia tą postacią, może zostać stracony.",
+    "id": "pl_PL_cerenovus",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cerenovus.png?raw=true",
+    "name": "Cerenovus",
+    "otherNight": 16,
+    "otherNightReminder": "Cerenovus wskazuje gracza i postać na skrypcie. Obudź tego gracza. Pokaż mu kartę 'TA POSTAĆ CIĘ WYBRAŁA' i żeton Cerenovusa. Pokaż żeton wybranej postaci. Jeśli ten gracz nie będzie jutro szalał na punkcie bycia tą postacią, może zostać stracony.",
     "reminders": [
-      "Dead",
-      "No ability"
+      "szaleństwo"
     ],
     "setup": false,
     "team": "minion"

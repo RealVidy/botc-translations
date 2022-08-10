@@ -32,18 +32,17 @@
     "team": "traveler"
   },
   {
-    "ability": "Una volta durante il gioco, di notte*, scegli un giocatore: muore, anche se per qualche ragione sopravvivrebbe.",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "it_IT_assassin",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/assassin.png?raw=true",
-    "name": "Assassino",
-    "otherNight": 37,
-    "otherNightReminder": "Se l'Assassino non ha ancora usato la sua abilità: l'Assassino fa \"no\" con la testa, o indica un giocatore. Quel giocatore muore.",
+    "ability": "Each night, choose a player & a good character: they are “mad” they are this character tomorrow, or might be executed.",
+    "edition": "snv",
+    "firstNight": 25,
+    "firstNightReminder": "Lo Strizzacervelli indica un giocatore, e un ruolo nell'elenco. Sveglia quel giocatore; mostragli la carta \"Questo ruolo ti ha scelto\" con il gettone dello Strizzacervelli. Mostragli il gettone del ruolo scelto dallo Strizzacervelli: se il giocatore scelto non è Matto di essere quel ruolo domani, potrebbe essere giustiziato.",
+    "id": "it_IT_cerenovus",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cerenovus.png?raw=true",
+    "name": "Strizzacervelli",
+    "otherNight": 16,
+    "otherNightReminder": "Lo Strizzacervelli indica un giocatore, e un ruolo nell'elenco. Sveglia quel giocatore; mostragli la carta \"Questo ruolo ti ha scelto\" con il gettone dello Strizzacervelli. Mostragli il gettone del ruolo scelto dallo Strizzacervelli: se il giocatore scelto non è Matto di essere quel ruolo domani, potrebbe essere giustiziato.",
     "reminders": [
-      "Morto",
-      "Nessuna Abilità"
+      "Matto"
     ],
     "setup": false,
     "team": "minion"

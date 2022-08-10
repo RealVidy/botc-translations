@@ -33,18 +33,17 @@
     "team": "traveler"
   },
   {
-    "ability": "每局游戏限一次，在夜晚*，选择一名玩家：无视任何会让该玩家不死的效果，杀死该玩家。",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "id": "zh_CN_assassin",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/assassin.png?raw=true",
-    "name": "刺客",
-    "otherNight": 37,
-    "otherNightReminder": "如果刺客还未使用能力：刺客要么选择不使用，要么指向一名玩家。如果刺客选择了玩家：那名玩家死亡。",
+    "ability": "每个夜晚，选择一名玩家和一个善良角色：那名玩家明天必须表现得像这个角色，否则可能会被处决。",
+    "edition": "snv",
+    "firstNight": 25,
+    "firstNightReminder": "洗脑师指向一名玩家和一个剧本列表上的角色。唤醒那名玩家，告知他被洗脑师选中，告知他被洗脑成的角色是什么。如果这名玩家明天白天表现得不像这个角色，那么你可以处决他。",
+    "id": "zh_CN_cerenovus",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cerenovus.png?raw=true",
+    "name": "洗脑师",
+    "otherNight": 16,
+    "otherNightReminder": "洗脑师指向一名玩家和一个剧本列表上的角色。唤醒那名玩家，告知他被洗脑师选中，告知他被洗脑成的角色是什么。如果这名玩家明天白天表现得不像这个角色，那么你可以处决他。",
     "reminders": [
-      "失去能力",
-      "死亡"
+      "被洗脑"
     ],
     "setup": false,
     "team": "minion"
