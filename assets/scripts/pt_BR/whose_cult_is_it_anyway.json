@@ -130,12 +130,12 @@
     "ability": "Uma vez por jogo, à noite, você pode escolher 2 jogadores (exceto você): você descobre se os alvos têm o mesmo alinhamento.",
     "edition": "snv",
     "firstNight": 42,
-    "firstNightReminder": "A Costureira pode sinalizar 'não 'com a cabeça, ou escolher outros dois jogadores. Se ela escolher, faça 'sim' ou 'não' com a cabeça para indicar se esses dois jogadores possuem o mesmo alinhamento.",
+    "firstNightReminder": "A Costureira pode escolhe 2 jogadores. Sinalize 'sim' ou 'não' com a cabeça. (lembrete)",
     "id": "pt_BR_seamstress",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/seamstress.png?raw=true",
     "name": "Costureira",
     "otherNight": 61,
-    "otherNightReminder": "Se a Costureira ainda não usou a habilidade: A Costureira pode sinalizar 'não 'com a cabeça, ou escolher outros dois jogadores. Se ela escolher, mostre 'sim' ou 'não' para indicar se esses dois jogadores possuem o mesmo alinhamento.",
+    "otherNightReminder": "A Costureira pode escolhe 2 jogadores. Sinalize 'sim' ou 'não' com a cabeça. (lembrete)",
     "reminders": [
       "Sem habilidade"
     ],
@@ -254,7 +254,7 @@
     "firstNightReminder": "",
     "id": "pt_BR_puzzlemaster",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/puzzlemaster.png?raw=true",
-    "name": "Puzzlemaster",
+    "name": "Enigmático",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -284,12 +284,12 @@
     "ability": "A cada noite, escolha um jogador: se o alvo nomear durante o dia, morre. Se apenas 3 jogadores estiverem vivos, você perde esta habilidade.",
     "edition": "snv",
     "firstNight": 24,
-    "firstNightReminder": "A Feiticeira escolhe um jogador. Marque o alvo como 'Amaldiçoado'.",
+    "firstNightReminder": "A Feiticeira escolhe um jogador. (lembrete)",
     "id": "pt_BR_witch",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/witch.png?raw=true",
     "name": "Feiticeira",
     "otherNight": 15,
-    "otherNightReminder": "Remova o token 'Amaldiçoado'. A Feiticeira escolhe um jogador. Marque o alvo como 'Amaldiçoado'.",
+    "otherNightReminder": "A Feiticeira escolhe um jogador. (lembrete)",
     "reminders": [
       "Amaldiçoado"
     ],
@@ -297,15 +297,15 @@
     "team": "minion"
   },
   {
-    "ability": "Toda Noite, escolha um personagem bom e um jogador: o alvo deve alucinar ser esse personagem amanhã, ou pode ser executado.",
+    "ability": "A cada Noite, escolha um personagem bom e um jogador: o alvo deve alucinar ser esse personagem amanhã, ou pode ser executado.",
     "edition": "snv",
     "firstNight": 25,
-    "firstNightReminder": "O Cerenovus aponta para um jogador e para um personagem bom da ficha de personagens. Acorde esse jogador. Mostre o token 'Você foi alvo desta habilidade', o token do Cerenovus e o token do personagem escolhido.",
+    "firstNightReminder": "O Cerenovus escolhe um jogador e um personagem bom. (lembrete) Coloque o Cerenovus para dormir. Acorde o alvo. Mostre o token 'Você foi alvo desta habilidade', o token do Cerenovus e o token do personagem escolhido.",
     "id": "pt_BR_cerenovus",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cerenovus.png?raw=true",
     "name": "Cerenovus",
     "otherNight": 16,
-    "otherNightReminder": "O Cerenovus aponta para um jogador e para um personagem bom da ficha de personagens. Acorde esse jogador. Mostre o token 'Você foi alvo desta habilidade', o token do Cerenovus e o token do personagem escolhido.",
+    "otherNightReminder": "O Cerenovus escolhe um jogador e um personagem bom. (lembrete) Coloque o Cerenovus para dormir. Acorde o alvo. Mostre o token 'Você foi alvo desta habilidade', o token do Cerenovus e o token do personagem escolhido.",
     "reminders": [
       "Alucinando"
     ],

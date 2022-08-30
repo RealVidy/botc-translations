@@ -30,7 +30,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Chaque nuit, choisissez un autre joueur qui devient vôtre maître. Demain, vous ne pourrez voter que lorsque votre maître votera.",
+    "ability": "Chaque nuit, choisissez un autre joueur qui devient votre maître. Demain, vous ne pourrez voter que lorsque votre maître votera.",
     "edition": "tb",
     "firstNight": 38,
     "firstNightReminder": "Choisit un joueur qui sera son prochain maître.",
@@ -417,7 +417,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Chaque nuit*, choisissez un joueur; il meurt. Les bonnes capacités produisent de fausses informations. Si pas d’exécution, le mal l'emporte.",
+    "ability": "Chaque nuit*, choisissez un joueur; il meurt. Les capacités des Villageois produisent de fausses informations. Si pas d’exécution, le mal l'emporte.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",

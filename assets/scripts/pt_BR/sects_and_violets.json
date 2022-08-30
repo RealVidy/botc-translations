@@ -80,15 +80,15 @@
     "team": "traveler"
   },
   {
-    "ability": "Toda Noite, escolha um personagem bom e um jogador: o alvo deve alucinar ser esse personagem amanhã, ou pode ser executado.",
+    "ability": "A cada Noite, escolha um personagem bom e um jogador: o alvo deve alucinar ser esse personagem amanhã, ou pode ser executado.",
     "edition": "snv",
     "firstNight": 25,
-    "firstNightReminder": "O Cerenovus aponta para um jogador e para um personagem bom da ficha de personagens. Acorde esse jogador. Mostre o token 'Você foi alvo desta habilidade', o token do Cerenovus e o token do personagem escolhido.",
+    "firstNightReminder": "O Cerenovus escolhe um jogador e um personagem bom. (lembrete) Coloque o Cerenovus para dormir. Acorde o alvo. Mostre o token 'Você foi alvo desta habilidade', o token do Cerenovus e o token do personagem escolhido.",
     "id": "pt_BR_cerenovus",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cerenovus.png?raw=true",
     "name": "Cerenovus",
     "otherNight": 16,
-    "otherNightReminder": "O Cerenovus aponta para um jogador e para um personagem bom da ficha de personagens. Acorde esse jogador. Mostre o token 'Você foi alvo desta habilidade', o token do Cerenovus e o token do personagem escolhido.",
+    "otherNightReminder": "O Cerenovus escolhe um jogador e um personagem bom. (lembrete) Coloque o Cerenovus para dormir. Acorde o alvo. Mostre o token 'Você foi alvo desta habilidade', o token do Cerenovus e o token do personagem escolhido.",
     "reminders": [
       "Alucinando"
     ],
@@ -96,10 +96,10 @@
     "team": "minion"
   },
   {
-    "ability": "Você começa sabendo a quantos passos o Demônio está do seu Lacaio mais próximo.",
+    "ability": "Mostre o número com os dedos.",
     "edition": "snv",
     "firstNight": 40,
-    "firstNightReminder": "Mostre o número correpondente à distância entre o Demônio e seu Lacaio mais próximo. O número é contado a partir do vizinho do Demônio mais próximo desse Lacaio e termina no próprio Lacaio.",
+    "firstNightReminder": "Mostre o número com os dedos.",
     "id": "pt_BR_clockmaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/clockmaker.png?raw=true",
     "name": "Relojoeiro",
@@ -127,12 +127,12 @@
     "ability": "A cada noite, escolha um jogador (exceto você ou Viajantes): você vê 2 personagens (um bom e um mal). Um destes é o do alvo.",
     "edition": "snv",
     "firstNight": 41,
-    "firstNightReminder": "O Sonhador aponta para um jogador. Mostre um token de personagem bom e um mal, sendo um dos dois o verdadeiro personagem do jogador escolhido.",
+    "firstNightReminder": "O Sonhador escolhe um jogador. Mostre 1 personagem bom e 1 mau, sendo 1 deles o personagem do alvo.",
     "id": "pt_BR_dreamer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/dreamer.png?raw=true",
     "name": "Sonhador",
     "otherNight": 57,
-    "otherNightReminder": "O Sonhador aponta para um jogador. Mostre um token de personagem bom e um mal, sendo um dos dois o verdadeiro personagem do jogador escolhido.",
+    "otherNightReminder": "O Sonhador escolhe um jogador. Mostre 1 personagem bom e 1 mau, sendo 1 deles o personagem do alvo.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -141,7 +141,7 @@
     "ability": "Você e um oponente sabem o personagem um do outro. Se o jogador do bem for executado, o Mal vence. O Bem não pode vencer enquanto ambos viverem.",
     "edition": "snv",
     "firstNight": 23,
-    "firstNightReminder": "Acorde a Gêmea Má, aponte para o jogador marcado como 'Gêmea' e mostre o token do personagem deste jogador. Acorde o jogador marcado como Gêmea, mostre o token 'Você foi alvo desta habilidade', mostre o token da Gêmea Má e aponte para o respectivo jogador.",
+    "firstNightReminder": "Acorde as gêmeas. Deixe que façam contato visual. Mostre io token de personagem da Gêmea Má para sua gêmea e vice-versa.",
     "id": "pt_BR_eviltwin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/eviltwin.png?raw=true",
     "name": "Gêmea Má",
@@ -236,12 +236,12 @@
     "ability": "A cada noite, você descobre quantas habilidades funcionaram de forma anormal (desde o amanhecer) devido a habilidades de outros personagens.",
     "edition": "snv",
     "firstNight": 51,
-    "firstNightReminder": "Mostre o número de jogadores cujas habilidades não funcionaram corretamente por causa de outras habilidades.",
+    "firstNightReminder": "Mostre o número com os dedos.",
     "id": "pt_BR_mathematician",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mathematician.png?raw=true",
     "name": "Matemático",
     "otherNight": 71,
-    "otherNightReminder": "Mostre o número de jogadores cujas habilidades não funcionaram corretamente por causa de outras habilidades.",
+    "otherNightReminder": "Mostre o número com os dedos.",
     "reminders": [
       "Anormal"
     ],
@@ -297,12 +297,12 @@
     "ability": "Uma vez por jogo, à noite, escolha um personagem bom: ganhe aquela habilidade. Se o personagem estiver em jogo, esse jogador fica bêbado.",
     "edition": "snv",
     "firstNight": 2,
-    "firstNightReminder": "O Filósofo pode fazer um 'não 'com a cabeça, ou apontar para um personagem bom na ficha de personagens. Se escolher um personagem: Troque o token do Filósofo pelo token do personagem escolhido coloque ao lado dele o lembrete 'É o Filósofo'. Se o personagem escolhido já estava em jogo, coloque o lembrete 'Bêbado' próximo ao token desse personagem.",
+    "firstNightReminder": "O Filósofo pode escolher um personagem. Se necessário, troque seu token de personagem. (lembrete)",
     "id": "pt_BR_philosopher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/philosopher.png?raw=true",
     "name": "Filósofo",
     "otherNight": 2,
-    "otherNightReminder": "Se o Filósofo ainda não usou a habilidade: o Filósofo pode fazer um 'não 'com a cabeça, ou apontar para um personagem bom na ficha de personagens. Se escolher um personagem: Troque o token do Filósofo pelo token do personagem escolhido coloque ao lado dele o lembrete 'É o Filósofo'. Se o personagem escolhido já estava em jogo, coloque o lembrete 'Bêbado' próximo ao token desse personagem.",
+    "otherNightReminder": "O Filósofo pode escolher um personagem. Se necessário, troque seu token de personagem. (lembrete)",
     "reminders": [
       "Bêbado",
       "É o Filósofo"
@@ -319,7 +319,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pithag.png?raw=true",
     "name": "Bruxa do Fosso",
     "otherNight": 17,
-    "otherNightReminder": "A Bruxa do Fosso aponta para um jogador e um personagem na ficha de personagem. Se o personagem não estiver em jogo, troque o personagem do alvo por este. Acorde o alvo e avise sobre a troca.",
+    "otherNightReminder": "A Bruxa do Fosso escolhe um jogador e um personagem. Se escolher um personagem que não está em jogo: Ponha a Bruxa do fosso para dormir. Acorde o alvo. Mostre o token: 'Você é' e o token de seu novo personagem.",
     "reminders": [],
     "setup": false,
     "team": "minion"
@@ -356,12 +356,12 @@
     "ability": "Uma vez por jogo, à noite, você pode escolher 2 jogadores (exceto você): você descobre se os alvos têm o mesmo alinhamento.",
     "edition": "snv",
     "firstNight": 42,
-    "firstNightReminder": "A Costureira pode sinalizar 'não 'com a cabeça, ou escolher outros dois jogadores. Se ela escolher, faça 'sim' ou 'não' com a cabeça para indicar se esses dois jogadores possuem o mesmo alinhamento.",
+    "firstNightReminder": "A Costureira pode escolhe 2 jogadores. Sinalize 'sim' ou 'não' com a cabeça. (lembrete)",
     "id": "pt_BR_seamstress",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/seamstress.png?raw=true",
     "name": "Costureira",
     "otherNight": 61,
-    "otherNightReminder": "Se a Costureira ainda não usou a habilidade: A Costureira pode sinalizar 'não 'com a cabeça, ou escolher outros dois jogadores. Se ela escolher, mostre 'sim' ou 'não' para indicar se esses dois jogadores possuem o mesmo alinhamento.",
+    "otherNightReminder": "A Costureira pode escolhe 2 jogadores. Sinalize 'sim' ou 'não' com a cabeça. (lembrete)",
     "reminders": [
       "Sem habilidade"
     ],
@@ -372,12 +372,12 @@
     "ability": "A cada noite, escolha um jogador vivo: se o alvo for um Demônio, troca de personagem e alinhamento com você, e então fica envenenado.",
     "edition": "snv",
     "firstNight": 20,
-    "firstNightReminder": "O Encantador de Serpentes aponta para um jogador. Se esse jogador for um Demônio: troque os personagens do Demônio e do Encantador de Serpentes. Acorde-os individualmente para informar seus novos personagens e alinhamentos. O novo Encantador de Serpentes fica envenenado.",
+    "firstNightReminder": "O Encantador de Serpentes escolhe um jogador vivo. Se escolheu o Demônio: Mostre o token 'Você é' e o torn de personagem do Demônio. Mostre o polegar para biaxo. Troque os tokens de personagem do Encantador de Serpentes com o do Demônio. Coloque o antigo Encantador de Serpentes para dormir. Acorde o Demônio antigo. Mostre o token 'Você é' e o token do Encantador de Serpentes e mostre o polegar para cima. (lembrete)",
     "id": "pt_BR_snakecharmer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/snakecharmer.png?raw=true",
     "name": "Encantador de Serpentes",
     "otherNight": 12,
-    "otherNightReminder": "O Encantador de Serpentes aponta para um jogador. Se esse jogador for um Demônio: troque os personagens do Demônio e do Encantador de Serpentes. Acorde-os individualmente para informar seus novos personagens e alinhamentos. O novo Encantador de Serpentes fica envenenado.",
+    "otherNightReminder": "O Encantador de Serpentes escolhe um jogador vivo. Se escolheu o Demônio: Mostre o token 'Você é' e o torn de personagem do Demônio. Mostre o polegar para biaxo. Troque os tokens de personagem do Encantador de Serpentes com o do Demônio. Coloque o antigo Encantador de Serpentes para dormir. Acorde o Demônio antigo. Mostre o token 'Você é' e o token do Encantador de Serpentes e mostre o polegar para cima. (lembrete)",
     "reminders": [
       "Envenenado"
     ],
@@ -455,12 +455,12 @@
     "ability": "A cada noite, escolha um jogador: se o alvo nomear durante o dia, morre. Se apenas 3 jogadores estiverem vivos, você perde esta habilidade.",
     "edition": "snv",
     "firstNight": 24,
-    "firstNightReminder": "A Feiticeira escolhe um jogador. Marque o alvo como 'Amaldiçoado'.",
+    "firstNightReminder": "A Feiticeira escolhe um jogador. (lembrete)",
     "id": "pt_BR_witch",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/witch.png?raw=true",
     "name": "Feiticeira",
     "otherNight": 15,
-    "otherNightReminder": "Remova o token 'Amaldiçoado'. A Feiticeira escolhe um jogador. Marque o alvo como 'Amaldiçoado'.",
+    "otherNightReminder": "A Feiticeira escolhe um jogador. (lembrete)",
     "reminders": [
       "Amaldiçoado"
     ],

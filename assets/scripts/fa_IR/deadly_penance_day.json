@@ -264,7 +264,7 @@
     "team": "outsider"
   },
   {
-    "ability": "یک بار در بازی، در شب*، یک بازیکن را انتخاب کن. آن بازیکن می‌میرد حتی اگر به دلیلی نتواند بمیرد.",
+    "ability": "یک بار در بازی، در شب*، یک بازیکن را انتخاب کنید. آن بازیکن می‌میرد حتی اگر به دلیلی نتواند بمیرد.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -272,7 +272,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/assassin.png?raw=true",
     "name": "آدم‌کش",
     "otherNight": 37,
-    "otherNightReminder": "If the Assassin has not yet used their ability: The Assassin either shows the 'no' head signal, or points to a player. That player dies.",
+    "otherNightReminder": "اگر آدم‌کش از قابلیتش استفاده نکرده: آدم‌کش یا سر خود را به نشانه «نه» تکان می‌دهد و یا به یک بازیکن اشاره می‌کند. آن بازیکن می‌میرد.",
     "reminders": [
       "بدون قابلیت",
       "مرده"

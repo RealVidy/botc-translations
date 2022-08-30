@@ -46,15 +46,15 @@
     "team": "outsider"
   },
   {
-    "ability": "Toda Noite, escolha um personagem bom e um jogador: o alvo deve alucinar ser esse personagem amanhã, ou pode ser executado.",
+    "ability": "A cada Noite, escolha um personagem bom e um jogador: o alvo deve alucinar ser esse personagem amanhã, ou pode ser executado.",
     "edition": "snv",
     "firstNight": 25,
-    "firstNightReminder": "O Cerenovus aponta para um jogador e para um personagem bom da ficha de personagens. Acorde esse jogador. Mostre o token 'Você foi alvo desta habilidade', o token do Cerenovus e o token do personagem escolhido.",
+    "firstNightReminder": "O Cerenovus escolhe um jogador e um personagem bom. (lembrete) Coloque o Cerenovus para dormir. Acorde o alvo. Mostre o token 'Você foi alvo desta habilidade', o token do Cerenovus e o token do personagem escolhido.",
     "id": "pt_BR_cerenovus",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cerenovus.png?raw=true",
     "name": "Cerenovus",
     "otherNight": 16,
-    "otherNightReminder": "O Cerenovus aponta para um jogador e para um personagem bom da ficha de personagens. Acorde esse jogador. Mostre o token 'Você foi alvo desta habilidade', o token do Cerenovus e o token do personagem escolhido.",
+    "otherNightReminder": "O Cerenovus escolhe um jogador e um personagem bom. (lembrete) Coloque o Cerenovus para dormir. Acorde o alvo. Mostre o token 'Você foi alvo desta habilidade', o token do Cerenovus e o token do personagem escolhido.",
     "reminders": [
       "Alucinando"
     ],
@@ -110,7 +110,7 @@
     "ability": "Você e um oponente sabem o personagem um do outro. Se o jogador do bem for executado, o Mal vence. O Bem não pode vencer enquanto ambos viverem.",
     "edition": "snv",
     "firstNight": 23,
-    "firstNightReminder": "Acorde a Gêmea Má, aponte para o jogador marcado como 'Gêmea' e mostre o token do personagem deste jogador. Acorde o jogador marcado como Gêmea, mostre o token 'Você foi alvo desta habilidade', mostre o token da Gêmea Má e aponte para o respectivo jogador.",
+    "firstNightReminder": "Acorde as gêmeas. Deixe que façam contato visual. Mostre io token de personagem da Gêmea Má para sua gêmea e vice-versa.",
     "id": "pt_BR_eviltwin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/eviltwin.png?raw=true",
     "name": "Gêmea Má",
@@ -258,7 +258,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pithag.png?raw=true",
     "name": "Bruxa do Fosso",
     "otherNight": 17,
-    "otherNightReminder": "A Bruxa do Fosso aponta para um jogador e um personagem na ficha de personagem. Se o personagem não estiver em jogo, troque o personagem do alvo por este. Acorde o alvo e avise sobre a troca.",
+    "otherNightReminder": "A Bruxa do Fosso escolhe um jogador e um personagem. Se escolher um personagem que não está em jogo: Ponha a Bruxa do fosso para dormir. Acorde o alvo. Mostre o token: 'Você é' e o token de seu novo personagem.",
     "reminders": [],
     "setup": false,
     "team": "minion"
@@ -452,12 +452,12 @@
     "ability": "A cada noite, escolha um jogador: se o alvo nomear durante o dia, morre. Se apenas 3 jogadores estiverem vivos, você perde esta habilidade.",
     "edition": "snv",
     "firstNight": 24,
-    "firstNightReminder": "A Feiticeira escolhe um jogador. Marque o alvo como 'Amaldiçoado'.",
+    "firstNightReminder": "A Feiticeira escolhe um jogador. (lembrete)",
     "id": "pt_BR_witch",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/witch.png?raw=true",
     "name": "Feiticeira",
     "otherNight": 15,
-    "otherNightReminder": "Remova o token 'Amaldiçoado'. A Feiticeira escolhe um jogador. Marque o alvo como 'Amaldiçoado'.",
+    "otherNightReminder": "A Feiticeira escolhe um jogador. (lembrete)",
     "reminders": [
       "Amaldiçoado"
     ],

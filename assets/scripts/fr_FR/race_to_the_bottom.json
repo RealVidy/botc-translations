@@ -154,7 +154,7 @@
     "team": "minion"
   },
   {
-    "ability": "Chaque nuit*, choisissez un joueur; il meurt. Les bonnes capacités produisent de fausses informations. Si pas d’exécution, le mal l'emporte.",
+    "ability": "Chaque nuit*, choisissez un joueur; il meurt. Les capacités des Villageois produisent de fausses informations. Si pas d’exécution, le mal l'emporte.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
