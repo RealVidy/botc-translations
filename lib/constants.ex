@@ -181,7 +181,8 @@ defmodule Constants do
     "alhadikhia" => "al-hadikhia",
     "fanggu" => "fang_gu",
     "lilmonsta" => "lil_monsta",
-    "nodashii" => "no_dashii"
+    "nodashii" => "no_dashii",
+    "bonecollector" => "bone_collector"
   }
 
   @csv_headers [
