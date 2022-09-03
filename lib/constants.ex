@@ -53,6 +53,7 @@ defmodule Constants do
     "courtier",
     "cultleader",
     "damsel",
+    "deusexfiasco",
     "deviant",
     "devilsadvocate",
     "djinn",
