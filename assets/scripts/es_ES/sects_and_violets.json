@@ -304,10 +304,6 @@
     "name": "Filósofo",
     "otherNight": 2,
     "otherNightReminder": "Si el Filósofo no ha usado su habilidad: el Filósofo puede negar con la cabeza o señalar a un personaje honrado en la hoja. Si elige a un personaje: sustituye la ficha de personaje del Filósofo por la del personaje no presente en la partida. O, si el personaje está presente en la partida, pon el recordatorio de \"Borracho\" junto a ese jugador y el de \"Es el Filósofo\" junto al del Filósofo.",
-    "reminders": [
-      "Drunk",
-      "Is the Philosopher"
-    ],
     "remindersGlobal": [
       "Borracho",
       "Es el Filósofo"

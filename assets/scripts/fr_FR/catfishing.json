@@ -351,10 +351,6 @@
     "name": "Faussaire",
     "otherNight": 2,
     "otherNightReminder": "S’il n'a pas encore utilisé sa capacité: il décide s’il utilise sa capacité. Si oui, il indique un rôle « bon » sur sa feuille. Il gagne cette capacité. Si le rôle était déjà en jeu, ce joueur devient ivre et le Faussaire est maintenant son rôle.",
-    "reminders": [
-      "Drunk",
-      "Is the Philosopher"
-    ],
     "remindersGlobal": [
       "Faussaire",
       "Ivre"

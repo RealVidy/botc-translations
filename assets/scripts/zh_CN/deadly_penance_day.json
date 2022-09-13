@@ -135,10 +135,6 @@
     "name": "哲学家",
     "otherNight": 2,
     "otherNightReminder": "哲学家选择不使用能力，或指向剧本列表的一个角色。如果选择了角色：将一个不在场的角色与哲学家替换，或将对应在场的角色放置醉酒标记并标记哲学家已不是哲学家。",
-    "reminders": [
-      "Drunk",
-      "Is the Philosopher"
-    ],
     "remindersGlobal": [
       "哲学家",
       "醉酒"

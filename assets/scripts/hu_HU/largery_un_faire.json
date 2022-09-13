@@ -101,10 +101,6 @@
     "name": "Filozófus",
     "otherNight": 2,
     "otherNightReminder": "If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
-    "reminders": [
-      "Drunk",
-      "Is the Philosopher"
-    ],
     "remindersGlobal": [
       "Drunk",
       "Is the Philosopher"

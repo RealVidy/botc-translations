@@ -101,10 +101,6 @@
     "name": "Filozof",
     "otherNight": 2,
     "otherNightReminder": "Jeśli Filozof nie wykorzystał jeszcze swojej zdolności - Filozof albo kręci głową na nie albo wskazuje dobrą postać na skrypcie. Jeśli wybrał postać - zamień żeton postaci, której nie ma w grze, z żetonem Filozofa i umieść przy nim żeton 'JEST FILOZOFEM'. Lub, jeśli postać jest w grze, umieść żeton 'PIJANY' przy tym graczu.",
-    "reminders": [
-      "Drunk",
-      "Is the Philosopher"
-    ],
     "remindersGlobal": [
       "jest filozofem",
       "pijany"
