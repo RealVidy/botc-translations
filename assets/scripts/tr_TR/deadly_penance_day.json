@@ -136,6 +136,10 @@
       "Drunk",
       "Is the Philosopher"
     ],
+    "remindersGlobal": [
+      "Drunk",
+      "Is the Philosopher"
+    ],
     "setup": false,
     "team": "townsfolk"
   },

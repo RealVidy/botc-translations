@@ -102,6 +102,10 @@
     "otherNight": 2,
     "otherNightReminder": "O Filósofo pode escolher um personagem. Se necessário, troque seu token de personagem. (lembrete)",
     "reminders": [
+      "Drunk",
+      "Is the Philosopher"
+    ],
+    "remindersGlobal": [
       "Bêbado",
       "É o Filósofo"
     ],

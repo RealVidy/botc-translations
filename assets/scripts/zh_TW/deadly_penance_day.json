@@ -133,6 +133,10 @@
     "otherNight": 2,
     "otherNightReminder": "哲學家可以選擇角色表上的一個好人角色，如果他有選擇且該角色不在遊戲中，將哲學家的角色代幣置換成該角色；如果該角色在遊戲中，該角色的玩家醉酒，哲學家得到該角色能力，以「是哲學家」標記哲學家。",
     "reminders": [
+      "Drunk",
+      "Is the Philosopher"
+    ],
+    "remindersGlobal": [
       "是哲學家",
       "醉酒"
     ],

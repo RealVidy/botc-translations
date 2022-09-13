@@ -3,7 +3,7 @@
     "ability": "Du hast die Fähigkeit eines Untergebenen, der nicht im Spiel ist.",
     "edition": "",
     "firstNight": 3,
-    "firstNightReminder": "Zeige dem Alchemisten den Spielstein eines Lakaien, der sich nicht im Spiel befindet",
+    "firstNightReminder": "Zeige dem Alchemisten den Spielstein eines Untergebenen, der sich nicht im Spiel befindet",
     "id": "de_DE_alchemist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/alchemist.png?raw=true",
     "name": "Alchemist",
@@ -664,6 +664,10 @@
     "otherNight": 2,
     "otherNightReminder": "Wenn der Philosoph seine Fähigkeit noch nicht eingesetzt hat: Der Philosoph schüttelt den Kopf (Nein) oder zeigt auf einen guten CHarakter am Charakterbogen. Wenn er einen Charakter gewählt hat: Tausche den Charaktertoken des Philosophs mit dem neuen Charaktertoken aus. Sollte sich der Charakter bereits im Spiel befunden wird der originale Spieler betrunken.",
     "reminders": [
+      "Drunk",
+      "Is the Philosopher"
+    ],
+    "remindersGlobal": [
       "Betrunken",
       "ist der Philosoph"
     ],

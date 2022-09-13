@@ -26,6 +26,10 @@
     "otherNight": 2,
     "otherNightReminder": "S’il n'a pas encore utilisé sa capacité: il décide s’il utilise sa capacité. Si oui, il indique un rôle « bon » sur sa feuille. Il gagne cette capacité. Si le rôle était déjà en jeu, ce joueur devient ivre et le Faussaire est maintenant son rôle.",
     "reminders": [
+      "Drunk",
+      "Is the Philosopher"
+    ],
+    "remindersGlobal": [
       "Faussaire",
       "Ivre"
     ],
@@ -66,13 +70,13 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Une fois par partie, pendant la journée, choisissez publiquement un joueur : si c’est un Démon, il meurt.",
+    "ability": "Chaque nuit*, choisissez deux joueurs: ils sont dévorés. Un de ceux-ci pourrait être régurgité la nuit suivante (même s'il était déjà mort).",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fr_FR_slayer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
-    "name": "Mercenaire",
+    "name": "Shabaloth",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [

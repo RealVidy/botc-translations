@@ -161,13 +161,13 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Une fois par partie, pendant la journée, choisissez publiquement un joueur : si c’est un Démon, il meurt.",
+    "ability": "Chaque nuit*, choisissez deux joueurs: ils sont dévorés. Un de ceux-ci pourrait être régurgité la nuit suivante (même s'il était déjà mort).",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fr_FR_slayer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
-    "name": "Mercenaire",
+    "name": "Shabaloth",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
