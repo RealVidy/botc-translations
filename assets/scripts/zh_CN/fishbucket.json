@@ -1537,7 +1537,7 @@
     "firstNightReminder": "",
     "id": "zh_CN_alhadikhia",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/alhadikhia.png?raw=true",
-    "name": "囚徒末路",
+    "name": "血肉囚笼/哈迪寂亚",
     "otherNight": 33,
     "otherNightReminder": "囚徒末路选择三名玩家。对所有人宣告第一位玩家，然后唤醒他并让他选择活着还是死去。依次对第二第三位玩家如此做。如果三名玩家都选择活着，他们都死去。",
     "reminders": [

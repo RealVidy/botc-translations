@@ -303,13 +303,13 @@
     "team": "minion"
   },
   {
-    "ability": "Chaque nuit*, choisissez deux joueurs: ils sont dévorés. Un de ceux-ci pourrait être régurgité la nuit suivante (même s'il était déjà mort).",
+    "ability": "Une fois par partie, pendant la journée, choisissez publiquement un joueur : Si un démon est choisi, il meurt",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fr_FR_slayer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
-    "name": "Shabaloth",
+    "name": "Mercenaire",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
