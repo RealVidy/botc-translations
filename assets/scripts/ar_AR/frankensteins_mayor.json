@@ -1,0 +1,174 @@
+[
+  {
+    "ability": "في أول ليلة فقط، المنظم يخبرك كم شرير يجلسان بجانب بعضهما.",
+    "edition": "tb",
+    "firstNight": 35,
+    "firstNightReminder": "أخبره عدد (0,1,2) زوج متجاورين من الأشرار يجلسان بجانب بعضهما.",
+    "id": "ar_AR_chef",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true",
+    "name": "الطباخ",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "في كل ليلة، تقدر تعرف شخصية الشخص اللي قتل بالتصويت في النهار.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ar_AR_undertaker",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/undertaker.png?raw=true",
+    "name": "القبورجي",
+    "otherNight": 56,
+    "otherNightReminder": "إذا قتل لاعب بالتصويت في النهار، أخبره شخصية ذلك اللاعب.",
+    "reminders": [
+      "قتل"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Each night*, you learn how many dead players are evil.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ar_AR_oracle",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/oracle.png?raw=true",
+    "name": "Oracle",
+    "otherNight": 60,
+    "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of dead evil players.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "If the Demon kills you, you learn that it is 1 of 2 players.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ar_AR_sage",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sage.png?raw=true",
+    "name": "Sage",
+    "otherNight": 43,
+    "otherNightReminder": "If the Sage was killed by a Demon: Point to two players, one of which is that Demon.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "إذا تم قتلك في الليل يوقظك المنظم لتختار لاعب فيخبرك شخصيته.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ar_AR_ravenkeeper",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true",
+    "name": "حلاوة روح",
+    "otherNight": 42,
+    "otherNightReminder": "إذا تم قتل حلاوة روح في الليل، يختار لاعب فتخبره شخصيته.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "إذا بقيت على قيد الحياة إلى آخر 3 لاعبين ولم يتم قتل أحد ذلك اليوم فريقك يفوز، وإذا قتلت في الليل يمكن للمنظم اختيار غيرك لقتله.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ar_AR_mayor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mayor.png?raw=true",
+    "name": "المحافظ",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "المنظم يختار لك شخصية يخبرها أصحاب الميزات من سكان القرية أو من الغرباء أو من الأشرار أو رئيس الأشرار حتى لو أنت مقتول",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ar_AR_recluse",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/recluse.png?raw=true",
+    "name": "المنعزل",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night.",
+    "edition": "bmr",
+    "firstNight": 7,
+    "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
+    "id": "ar_AR_lunatic",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
+    "name": "Lunatic",
+    "otherNight": 21,
+    "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
+    "reminders": [
+      "Attack 1",
+      "Attack 2",
+      "Attack 3"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "في كل ليلة، اختار لاعب تتعطل ميزته في تلك الليلة وفي النهار التالي",
+    "edition": "tb",
+    "firstNight": 17,
+    "firstNightReminder": "المسمم يختار لاعب فتضع عليخ علامة التسمم.",
+    "id": "ar_AR_poisoner",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
+    "name": "المسمم",
+    "otherNight": 8,
+    "otherNightReminder": "اللاعب المسمم سابقا يصبح سليما. يختار المسمم لاعب فتضع عليه علامة التسمم.",
+    "reminders": [
+      "مسمم"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "في كل ليلة، تطلع على شاشة العرض الرئيسية التي يشاهدها المنظم، لتعرف جميع شخصيات اللاعبين، ويمكن للمنظم أن يختار لك شخصية من سكان القرية أو الغرباء خلال مجريات اللعب.",
+    "edition": "tb",
+    "firstNight": 48,
+    "firstNightReminder": "أرسل شاشة العرض الرئيسية للجاسوس.",
+    "id": "ar_AR_spy",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spy.png?raw=true",
+    "name": "الجاسوس",
+    "otherNight": 68,
+    "otherNightReminder": "أرسل شاشة العرض الرئيسية للجاسوس.",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Each night*, if no-one died today, choose a player: they die. The 1st time you die, you live but register as dead.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ar_AR_zombuul",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/zombuul.png?raw=true",
+    "name": "Zombuul",
+    "otherNight": 25,
+    "otherNightReminder": "If no-one died during the day: The Zombuul points to a player. That player dies.",
+    "reminders": [
+      "Dead",
+      "Died today"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "There might be 1 extra or 1 fewer Outsider in-play.",
+    "id": "ar_AR_sentinel",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
+    "name": "Sentinel",
+    "team": "fabled"
+  }
+]

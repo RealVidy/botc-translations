@@ -1,0 +1,168 @@
+[
+  {
+    "ability": "في أول ليلة فقط، المنظم يخبرك كم يبعد رئيس الأشرار عن أقرب شرير آخر.",
+    "edition": "snv",
+    "firstNight": 40,
+    "firstNightReminder": "أخبره كم يبعد رئيس الأشرار عن أقرب شرير آخر برقم (1, 2, 3, الخ).",
+    "id": "ar_AR_clockmaker",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/clockmaker.png?raw=true",
+    "name": "مصلح الساعات",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "في أول ليلة فقط، المنظم يخبرك شخصية من الأشرار لأحد لاعبين.",
+    "edition": "tb",
+    "firstNight": 34,
+    "firstNightReminder": "أخبره باسم شخصية من الأشرار الموجودين في اللعبة، ثم أخبره باسم لاعبين أحدهما صاحب هذه الشخصية.",
+    "id": "ar_AR_investigator",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/investigator.png?raw=true",
+    "name": "المحقق",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "خطأ",
+      "شرير"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "في كل ليلة، المنظم يخبرك كم لاعب حي شرير يجلسان جنبك.",
+    "edition": "tb",
+    "firstNight": 36,
+    "firstNightReminder": "أخبره عدد (0,1,2) من الأشرار يجلسان بجانبك من اليمن واليسار.",
+    "id": "ar_AR_empath",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
+    "name": "قارئ الأفكار",
+    "otherNight": 53,
+    "otherNightReminder": "أخبره عدد (0,1,2) من الأشرار يجلسان بجانبك من اليمن واليسار.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Each night, choose 2 alive players (not yourself): you learn how many woke tonight due to their ability.",
+    "edition": "bmr",
+    "firstNight": 50,
+    "firstNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, …) for how many of those players wake tonight for their ability.",
+    "id": "ar_AR_chambermaid",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chambermaid.png?raw=true",
+    "name": "Chambermaid",
+    "otherNight": 70,
+    "otherNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, …) for how many of those players wake tonight for their ability.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "مرة واحدة في اللعبة خلال النهار، اسأل المنظم سريا سؤال يجاوبه بنعم أو لا.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ar_AR_artist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/artist.png?raw=true",
+    "name": "الرسام",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "بدون ميزة"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "If the Demon kills you, you learn that it is 1 of 2 players.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ar_AR_sage",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sage.png?raw=true",
+    "name": "Sage",
+    "otherNight": 43,
+    "otherNightReminder": "If the Sage was killed by a Demon: Point to two players, one of which is that Demon.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "المنظم يخبرك شخصية محددة من سكان القرية والحقيقة أنك مخمور، فإذا كان للشخصية ميزة يقرر المنظم هل تصلك المعلومة صحيحة أو لا.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ar_AR_drunk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
+    "name": "المخمور",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "مخمور"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
+    "ability": "When you learn that you died, publicly choose 1 alive player: if they are evil, your team loses.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ar_AR_klutz",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/klutz.png?raw=true",
+    "name": "Klutz",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "إذا تم قتل رئيس الأشرار وكان هناك 5 لاعبين أو أكثر على قيد الحياة، تصبح أنت رئيس الأشرار (المسافرين لايتم احتسابهم).",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ar_AR_scarletwoman",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scarletwoman.png?raw=true",
+    "name": "المرأة الحمراء",
+    "otherNight": 20,
+    "otherNightReminder": "إذا أصبحت المرأة الحمراء هي رئيس الأشرار، أخبرها بذلك.",
+    "reminders": [
+      "رئيس الأشرار"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "بسبب وجودك لابد من إضافة 2 من الغرباء للعبة دون معرفة اللاعبين [+2 غرباء].",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ar_AR_baron",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/baron.png?raw=true",
+    "name": "الزعيم",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": true,
+    "team": "minion"
+  },
+  {
+    "ability": "أنت رئيس الأشرار، في كل ليلة اختار لاعب تقتله ، وإذا قتلت نفسك أحد الأشرار الآخرين يصبح هوا الرئيس.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ar_AR_imp",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/imp.png?raw=true",
+    "name": "العفريت",
+    "otherNight": 24,
+    "otherNightReminder": "العفريت يقتل كل ليلة لاعب من اختياره. وإذا قتل نفسه اختار أحد الأشرار وأخبره أنه أصبح رئيس الأشرار.",
+    "reminders": [
+      "ميت"
+    ],
+    "setup": false,
+    "team": "demon"
+  }
+]

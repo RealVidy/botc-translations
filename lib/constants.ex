@@ -1,5 +1,6 @@
 defmodule Constants do
   @known_locales [
+    "ar_AR",
     "de_DE",
     "en_GB",
     "es_ES",
