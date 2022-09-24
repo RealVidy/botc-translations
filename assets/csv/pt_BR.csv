@@ -91,7 +91,7 @@ monk,Monge,"A cada noite*, escolha um jogador (exceto você): o alvo está a sal
 moonchild,Filha da Noite,"Quando sua morte for declarasa, escolha publicamente 1 jogador vivo. À noite, se o alvo era bom, morre.",,"Se a Filha da Noite usou sua habilidade para escolher um jogador hoje: se esse jogador era bom, morre.",,Morto
 mutant,Mutante,"Se você alucinar ser um Forasteiro, você pode ser executado.",,,,
 nightwatchman,Vigia Noturno,"Uma vez por jogo, à noite, escolha um jogador: o alvo vê quem você é.","O Vigia Noturno sinaliza 'não' com a cabeça ou aponta para um jogador. Se apontar, acorde o alvo e mostre o token 'Você foi alvo desta habilidade' e o token do Vigia Noturno. Então aponte para o jogador correspondente.","Se o Vigia Noturno ainda não usou sua habilidade, o Vigia Noturno sinaliza 'não' com a cabeça ou aponta para um jogador. Se apontar, acorde o alvo e mostre o token 'Você foi alvo desta habilidade' e o token do Vigia Noturno. Então aponte para o jogador correspondente.",,Sem habilidade
-noble,Nobre,Você vê 3 jogadores. Apenas 1 deles é mau.,Aponte para 3 jogadores incluindo exatamente 1 mau em qualquer ordem.,,,Visto
+noble,Nobre,Você começa vendo 3 jogadores. Apenas 1 deles é mau.,Aponte para 3 jogadores incluindo exatamente 1 mau em qualquer ordem.,,,Visto
 nodashii,No Dashii,"A cada noite*, você escolhe um jogador: o alvo morre. Seus dois vizinhos Cidadãos estão envenenados.",,O No Dashii escolhe um jogador. O alvo morre.,,"Envenenado,Morto"
 oracle,Oráculo,"A cada noite*, você vê quantos jogadores mortos são maus.",,Mostre com os dedos o número de jogadores maus mortos.,,
 pacifist,Pacifista,Jogadores bons podem sobreviver à execuções.,,,,

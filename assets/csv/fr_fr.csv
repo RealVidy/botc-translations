@@ -113,7 +113,7 @@ revolutionary,Révolutionnaire,"2 joueurs voisins sont connus pour être du mêm
 riot,Émeutier,"Les nominés meurent, mais peuvent nommer immédiatement (le 3eme jour, ils y sont obligé). Après le 3eme jour, le Mal l'emporte. [Tous les Sbires sont Émeutier]",,,,
 sage,Sage,"Si le Démon vous tue, vous apprenez de qui il s'agit entre deux joueurs.",,"S’il a été tué par le Démon, pointez deux joueurs (dont le Démon).",,
 sailor,Marin,"Chaque nuit, choisissez un joueur vivant : un de vous est ivre jusqu’au crépuscule. Si vous êtes sobre, vous ne pouvez pas mourir.",Il choisit 1 joueur vivant : un des deux est ivre jusqu’au crépuscule (nuit et jour suivant). Le marin sobre ne peut pas mourir.,Il choisit 1 joueur vivant : un des deux est ivre jusqu’au crépuscule (nuit et jour suivant). Le marin sobre ne peut pas mourir.,,"Ivre,Marin Protégé"
-saint,Vertueux,"Si vous mourez par exécution, vous et le village perdez.",,,,
+saint,Vertueux,"Si vous mourez par exécution, votre équipe perd.",,,,
 savant,Savant,"Chaque jour, visitez le Conteur pour apprendre: une vérité et un mensonge.",,,,
 scapegoat,Bouc Émissaire,"Si un joueur de votre alignement est exécuté, vous pourriez être exécuté à sa place.",,,,
 scarletwoman,Croqueuse d'homme,"S'il y a 5 joueurs vivants ou plus (voyageurs exclus) et que le Démon meurt, vous devenez le nouveau Démon.",,"Si 5 joueurs vivants ou + (voyageurs exclus) et Démon meurt par exécution, elle remplacera le Démon, la réveiller et lui indiquer.",,Démon
