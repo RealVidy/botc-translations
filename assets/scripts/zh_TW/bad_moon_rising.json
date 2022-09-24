@@ -263,7 +263,7 @@
     "team": "outsider"
   },
   {
-    "ability": "如果惡魔被處決(結束遊戲)，遊戲繼續進行一天，如果有玩家被處決，該玩家的隊伍落敗。",
+    "ability": "如果惡魔被處決(結束遊戲)，則遊戲繼續進行一天，如果有玩家被處決，該玩家的隊伍落敗。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -291,7 +291,7 @@
     "team": "traveler"
   },
   {
-    "ability": "每當一個僕從被處死，除了你以外的玩家(非旅行者)都醉酒到明天黃昏。",
+    "ability": "每當一個僕從被處死，除了你以外且非旅行者的玩家都醉酒到明天黃昏。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",

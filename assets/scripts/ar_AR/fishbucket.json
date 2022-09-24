@@ -291,18 +291,17 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, you learn if a Demon voted today.",
+    "ability": "في كل ليلة، المنظم يخبرك إذا ما قام رئيس الأشرار بالتصويت ذلك اليوم",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_flowergirl",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/flowergirl.png?raw=true",
-    "name": "Flowergirl",
+    "name": "بائعة الزهور",
     "otherNight": 58,
-    "otherNightReminder": "Nod 'yes' or shake head 'no' for whether the Demon voted today. Place the 'Demon not voted' marker (remove 'Demon voted', if any).",
+    "otherNightReminder": "ضع علامة تذكير على رئيس الأشرار إذا قام بالتصويت في النهار، وفي الليل أخبر بائعة الزهور \"نعم\"",
     "reminders": [
-      "Demon not voted",
-      "Demon voted"
+      "رئيس الأشرار صوت، رئيس الأشرار لم يصوت"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -452,17 +451,17 @@
     "team": "townsfolk"
   },
   {
-    "ability": "On your 1st day, publicly guess up to 5 players' characters. That night, you learn how many you got correct.",
+    "ability": "في أول يوم، يمكنك أن تخمن شخصية 5 لاعبين على الأكثر (يمكنك أن تخمن أقل من 5 لاعبين) علنيا، في تلك الليلة يخبرك المنظم كم شخصية صحيحة ذكرتها",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_juggler",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/juggler.png?raw=true",
-    "name": "Juggler",
+    "name": "المحتال",
     "otherNight": 62,
-    "otherNightReminder": "If today was the Juggler’s first day: Show the hand signal for the number (0, 1, 2, etc.) of 'Correct' markers. Remove markers.",
+    "otherNightReminder": "إذا كان هذا هو اليوم الأول للمحتال، أخبره في الليل كم عدد التخمينات الصحيحة التي خمنها. ضع علامة \"صح\" لكل تخمين صحيح",
     "reminders": [
-      "Correct"
+      "صح"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -529,17 +528,17 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, you learn how many players’ abilities worked abnormally (since dawn) due to another character's ability.",
+    "ability": "في كل ليلة، المنظم يخبرك عدد اللاعبين الذين تعطلت ميزاتهم وأخذوا معلومات خاطئة (من طلوع الفجر) بسبب ميزة لاعبين آخرين",
     "edition": "snv",
     "firstNight": 51,
-    "firstNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of players whose ability malfunctioned due to other abilities.",
+    "firstNightReminder": "أخبره عدد اللاعبين (0,1,2, إلخ) الذين تعطلت ميزاتهم وحصلوا على معلومات خاطئة بسبب ميزة لاعبين آخرين",
     "id": "ar_AR_mathematician",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mathematician.png?raw=true",
-    "name": "Mathematician",
+    "name": "معلم الرياضيات",
     "otherNight": 71,
-    "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of players whose ability malfunctioned due to other abilities.",
+    "otherNightReminder": "أخبره عدد اللاعبين (0,1,2, إلخ) الذين تعطلت ميزاتهم وحصلوا على معلومات خاطئة بسبب ميزة لاعبين آخرين",
     "reminders": [
-      "Abnormal"
+      "متعطل"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -623,15 +622,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, you learn how many dead players are evil.",
+    "ability": "في كل ليلة، المنظم يخبرك كم عدد الأشرار الميتين",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_oracle",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/oracle.png?raw=true",
-    "name": "Oracle",
+    "name": "المستشار",
     "otherNight": 60,
-    "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of dead evil players.",
+    "otherNightReminder": "أخبره عدد اللاعبين (0, 1, 2, إلخ) الأشرار الميتين",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -651,18 +650,18 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, at night, choose a good character: gain that ability. If this character is in play, they are drunk.",
+    "ability": "مرة واحدة في اللعبة في الليل، اختار شخصية طيبة تلعبها، إذا اخترت شخصية موجودة ذلك اللاعب يصبح مخمور",
     "edition": "snv",
     "firstNight": 2,
-    "firstNightReminder": "The Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
+    "firstNightReminder": "الفيلسوف إما يؤجل اختيار شخصية أو يختار شخصية من الطيبين، فإذا كانت هذه الشخصية موجودة في اللعبة يصبح ذلك اللاعب مخمور",
     "id": "ar_AR_philosopher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/philosopher.png?raw=true",
-    "name": "Philosopher",
+    "name": "الفيلسوف",
     "otherNight": 2,
-    "otherNightReminder": "If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
+    "otherNightReminder": "إذا لم يستخدم الفيلسوف ميزته، فهو إما يؤجل اختيار شخصية أو يختار شخصية من الطيبين، فإذا كانت هذه الشخصية موجودة في اللعبة يصبح ذلك اللاعب مخمور",
     "remindersGlobal": [
-      "Drunk",
-      "Is the Philosopher"
+      "مخمور",
+      "هل هو الفيلسوف"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -748,15 +747,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "If the Demon kills you, you learn that it is 1 of 2 players.",
+    "ability": "إذا قتلك رئيس الأشرار يخبرك المنظم اسم لاعبين أحدهما هو رئيس الأشرار",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_sage",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sage.png?raw=true",
-    "name": "Sage",
+    "name": "الحكيم",
     "otherNight": 43,
-    "otherNightReminder": "If the Sage was killed by a Demon: Point to two players, one of which is that Demon.",
+    "otherNightReminder": "إذا قتل رئيس الأشرار الحكيم، أخبر الحكيم اسم لاعبين أحدهما هو رئيس الأشرار",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -778,13 +777,13 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false.",
+    "ability": "في كل يوم، يخبرك المنظم سريا معلومتين أحدهما صحيح والأخرى خاطئة",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_savant",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/savant.png?raw=true",
-    "name": "Savant",
+    "name": "العالِم",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -792,23 +791,23 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, at night, choose 2 players (not yourself): you learn if they are the same alignment.",
+    "ability": "مرة واحدة في اللعبة في الليل، تختار لاعبين غيرك ويخبرك المنظم هل هما من نفس الفريق",
     "edition": "snv",
     "firstNight": 42,
-    "firstNightReminder": "The Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
+    "firstNightReminder": "الخياط إما يرفض استخدام ميزته أو يختار لاعبين، وعليك أن تخبره إذا كان هذان اللاعبان من نفس الفريق أو لأ",
     "id": "ar_AR_seamstress",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/seamstress.png?raw=true",
-    "name": "Seamstress",
+    "name": "الخياط",
     "otherNight": 61,
-    "otherNightReminder": "If the Seamstress has not yet used their ability: the Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
+    "otherNightReminder": "إذا لم يستخدم الخياط ميزته،فهو إما يرفض استخدام ميزته الآن أو يختار لاعبين، وعليك أن تخبره إذا كان هذان اللاعبان من نفس الفريق أو لأ",
     "reminders": [
-      "No ability"
+      "بدون ميزة"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "مرة واحدة في اللعبة، خلال النهار يمكنك اختيار لاعب على الملأ فإذا كان هو رئيس الأشرار يقتل فورا.",
+    "ability": "مرة واحدة في اللعبة، خلال النهار يمكنك اختيار لاعب على الملأ فإذا كان هو رئيس الأشرار يقتل فورا",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -827,14 +826,14 @@
     "ability": "في كل ليلة، اختار لاعب إذا كان هذا اللاعب رئيس الأشرار تصبح أنت رئيس الأشرار وهو يصبح الثعبان الساحر ولكن مسمم.",
     "edition": "snv",
     "firstNight": 20,
-    "firstNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
+    "firstNightReminder": "الثعبان الساحر يختار لاعب، إذا كان هذا اللاعب هو رئيس الأشرار يتبادلون الأدوار. أخبر كل لاعب بشخصيته الجديدة . علما أن الثعبان الساحر الجديد يكون مسمم",
     "id": "ar_AR_snakecharmer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/snakecharmer.png?raw=true",
     "name": "الثعبان الساحر",
     "otherNight": 12,
-    "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
+    "otherNightReminder": "الثعبان الساحر يختار لاعب، إذا كان هذا اللاعب هو رئيس الأشرار يتبادلون الأدوار. أخبر كل لاعب بشخصيته الجديدة . علما أن الثعبان الساحر الجديد يكون مسمم",
     "reminders": [
-      "Poisoned"
+      "مسمم"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -870,18 +869,17 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, you learn if a Minion nominated today.",
+    "ability": "في كل ليلة، المنظم يخبرك إذا ما قام أحد الأشرار (ليس الرئيس) بترشيح أحد لقتله (عن طريق التصويت) في ذلك اليوم",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_towncrier",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/towncrier.png?raw=true",
-    "name": "Town Crier",
+    "name": "منادي القرية",
     "otherNight": 59,
-    "otherNightReminder": "Nod 'yes' or shake head 'no' for whether a Minion nominated today. Place the 'Minion not nominated' marker (remove 'Minion nominated', if any).",
+    "otherNightReminder": "ضع علامة \"رشح شرير\" وأخبر منادي القرية أن أحد الأشرار (ليس رئيس الأشرار) رشح لاعب لقتله عن طريق التصويت",
     "reminders": [
-      "Minion nominated",
-      "Minions not nominated"
+      "شرير لم يرشح لاعب، شرير رشح لاعب"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -960,7 +958,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/barber.png?raw=true",
     "name": "الحلاق",
     "otherNight": 40,
-    "otherNightReminder": "إذا مات الحلاق نهارا أو ليلا، أسأل رئيس الأشرار بأن الحلاق مات، هل تريد تغيير شخصية لاعبين، إذا اختار اللاعبين، أوقظ كلا منهما على حده وأخبره بشخصيته الجديدة.",
+    "otherNightReminder": "إذا مات الحلاق نهارا أو ليلا، أسأل رئيس الأشرار بأن الحلاق مات، هل تريد تغيير شخصية لاعبين، إذا اختار اللاعبين، أخبر كلا منهما على حده وأخبره بشخصيته الجديدة.",
     "reminders": [
       "قصة شعر في الليل"
     ],
@@ -1063,13 +1061,13 @@
     "team": "outsider"
   },
   {
-    "ability": "When you learn that you died, publicly choose 1 alive player: if they are evil, your team loses.",
+    "ability": "عندما تعرف أنك قتلت، اختار لاعب حي علنا فإذا كان من الأشرار يخسر فريقك",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_klutz",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/klutz.png?raw=true",
-    "name": "Klutz",
+    "name": "الأحمق",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -1111,13 +1109,13 @@
     "team": "outsider"
   },
   {
-    "ability": "If you are “mad” about being an Outsider, you might be executed.",
+    "ability": "إذا كنت غضبان كونك من الغرباء، سيقتلك المنظم",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_mutant",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mutant.png?raw=true",
-    "name": "Mutant",
+    "name": "الصامت",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -1198,17 +1196,17 @@
     "team": "outsider"
   },
   {
-    "ability": "When you die, 1 player is drunk from now on.",
+    "ability": "إذا تم قتلك، أحد اللاعبين يظل مخمور إلى نهاية اللعبة",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_sweetheart",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sweetheart.png?raw=true",
-    "name": "Sweetheart",
+    "name": "الحبيبة",
     "otherNight": 41,
-    "otherNightReminder": "Choose a player that is drunk.",
+    "otherNightReminder": "اختار لاعب ليصبح مخمور",
     "reminders": [
-      "Drunk"
+      "مخمور"
     ],
     "setup": false,
     "team": "outsider"
@@ -1274,17 +1272,17 @@
     "team": "minion"
   },
   {
-    "ability": "Each night, choose a player & a good character: they are “mad” they are this character tomorrow, or might be executed.",
+    "ability": "في كل ليلة تختار لاعب وشخصية من الطيبين ، في اليوم التالي هذا اللاعب يجب أن يصبح غضبان بهذه الشخصية وإذا لم يظهر غضبه ربما يقتله المنظم",
     "edition": "snv",
     "firstNight": 25,
-    "firstNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
+    "firstNightReminder": "المنرفز يختار لاعب وشخصية من الطيبين، أخبر ذلك اللاعب بالشخصية وأنه اختير من المنرفز ليكون هذه الشخصية، في اليوم التالي إذا لم يظهر غضبه يقتل",
     "id": "ar_AR_cerenovus",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cerenovus.png?raw=true",
-    "name": "Cerenovus",
+    "name": "المنرفز",
     "otherNight": 16,
-    "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
+    "otherNightReminder": "المنرفز يختار لاعب وشخصية من الطيبين، أخبر ذلك اللاعب بالشخصية وأنه اختير من المنرفز ليكون هذه الشخصية، في اليوم التالي إذا لم يظهر غضبه يقتل",
     "reminders": [
-      "Mad"
+      "غضبان"
     ],
     "setup": false,
     "team": "minion"
@@ -1306,17 +1304,17 @@
     "team": "minion"
   },
   {
-    "ability": "You & an opposing player know each other. If the good player is executed, evil wins. Good can't win if you both live.",
+    "ability": "أنت ولاعب آخر من الطيبين تعرفون بعضكم وتعرفون شخصياتكم، المنظم يخبر كلا منكما بأنه توأم الآخر ويخبرك شخصية التوأم الطيب، إذا تم قتل التوأم الطيب بالتصويت نهارا يفوز الأشرار، ولا يفوز الطيبين طالما  التوأم الشرير على قيد الحياة",
     "edition": "snv",
     "firstNight": 23,
-    "firstNightReminder": "Wake the Evil Twin and their twin. Confirm that they have acknowledged each other. Point to the Evil Twin. Show their Evil Twin token to the twin player. Point to the twin. Show their character token to the Evil Twin player.",
+    "firstNightReminder": "أخبر التوأم الشرير من هو توأمه من الطيبين وماهي شخصيته، وأخبر التوأم الطيب من هو توأمه من الأشرار",
     "id": "ar_AR_eviltwin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/eviltwin.png?raw=true",
-    "name": "Evil Twin",
+    "name": "التوأم الشرير",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Twin"
+      "توأم"
     ],
     "setup": false,
     "team": "minion"
@@ -1419,15 +1417,15 @@
     "team": "minion"
   },
   {
-    "ability": "Each night*, choose a player & a character they become (if not-in-play). If a Demon is made, deaths tonight are arbitrary.",
+    "ability": "في كل ليلة، اختار لاعب وشخصية له من اختيارك، ستصبح شخصيته إذا لم تكن هذه الشخصية موجودة في اللعبة عند شخص آخر، وإذا اخترت شخصية رئيس الأشرار سيكون القتل في تلك الليلة حسب اختيار المنظم",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_pithag",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pithag.png?raw=true",
-    "name": "Pit-Hag",
+    "name": "وعاء الساحرة",
     "otherNight": 17,
-    "otherNightReminder": "The Pit-Hag points to a player and a character on the sheet. If this character is not in play, wake that player and show them the 'You are' card and the relevant character token. If the character is in play, nothing happens.",
+    "otherNightReminder": "وعاء الساحرة يختار لاعب وشخصية له فإذا كانت هذه الشخصية غير موجودة في اللعب ستصبح شخصية اللاعب المختار وإذا كانت هذه الشخصية موجودة في اللعب لا شيء يحدث",
     "reminders": [],
     "setup": false,
     "team": "minion"
@@ -1512,17 +1510,17 @@
     "team": "minion"
   },
   {
-    "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability.",
+    "ability": "في كل ليلة، اختار لاعب وإذا قام هذا اللاعب بترشيح أحد اللاعبين للقتل في النهار يقتل هو، إذا بقي 3 لاعبين فقط على قيد الحياة تخسر هذه الميزة",
     "edition": "snv",
     "firstNight": 24,
-    "firstNightReminder": "The Witch points to a player. If that player nominates tomorrow they die immediately.",
+    "firstNightReminder": "الساحر يختار لاعب، وفي اليوم التالي إذا رشح هذا اللاعب أحد اللاعبين للقتل يُقتل هو على الفور",
     "id": "ar_AR_witch",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/witch.png?raw=true",
-    "name": "Witch",
+    "name": "الساحر",
     "otherNight": 15,
-    "otherNightReminder": "If there are 4 or more players alive: The Witch points to a player. If that player nominates tomorrow they die immediately.",
+    "otherNightReminder": "إذا كان هناك 4 لاعبين على الأقل على قيد الحياة، يختار الساحر لاعب، وفي اليوم التالي إذا رشح هذا اللاعب أحد اللاعبين للقتل يُقتل هو على الفور",
     "reminders": [
-      "Cursed"
+      "مسحور"
     ],
     "setup": false,
     "team": "minion"
@@ -1548,18 +1546,18 @@
     "team": "demon"
   },
   {
-    "ability": "Each night*, choose a player: they die. The 1st Outsider this kills becomes an evil Fang Gu & you die instead. [+1 Outsider]",
+    "ability": "في كل ليلة اختار لاعب تقتله، وإذا كان هذا اللاعب من الغرباء أنت تموت وهو يصبح فانغو [+1 غريب]",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_fanggu",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fanggu.png?raw=true",
-    "name": "Fang Gu",
+    "name": "فانغو",
     "otherNight": 29,
-    "otherNightReminder": "The Fang Gu points to a player. That player dies. Or, if that player was an Outsider and there are no other Fang Gu in play: The Fang Gu dies instead of the chosen player. The chosen player is now an evil Fang Gu. Wake the new Fang Gu. Show the 'You are' card, then the Fang Gu token. Show the 'You are' card, then the thumb-down 'evil' hand sign.",
+    "otherNightReminder": "الفانغو يختار لاعب لقتله كل ليلة، وإذا كان هذا اللاعب من الغرباء يقتل الفانغو ويصبح اللاعب الغريب هو الفانغو (رئيس الأشرار) الجديد. أخبر اللاعب بأنه أصبح فانغو (رئيس الأشرار) الجديد، علما أن التبديل هذا يحصل مرة واحدة فقط",
     "reminders": [
-      "Dead",
-      "Once"
+      "مرة",
+      "ميت"
     ],
     "setup": true,
     "team": "demon"
@@ -1654,18 +1652,17 @@
     "team": "demon"
   },
   {
-    "ability": "Each night*, choose a player: they die. Your 2 Townsfolk neighbours are poisoned.",
+    "ability": "في كل ليلة اختار لاعب تقتله، ويتسمم أقرب لاعبين اثنين من سكان القرية المجاورين لك (واحد من اليمين والآخر من اليسار)",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_nodashii",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/nodashii.png?raw=true",
-    "name": "No Dashii",
+    "name": "الأخطبوط",
     "otherNight": 30,
-    "otherNightReminder": "The No Dashii points to a player. That player dies.",
+    "otherNightReminder": "الأخطبوط يختار لاعب فيقتل",
     "reminders": [
-      "Dead",
-      "Poisoned"
+      "ميت،مسمم"
     ],
     "setup": false,
     "team": "demon"
@@ -1736,35 +1733,33 @@
     "team": "demon"
   },
   {
-    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & poison 1 Townsfolk neighbour. [−1 Outsider]",
+    "ability": "في كل ليلة اختار لاعب تقتله، عندما تقتل الأشرار الآخرين يحافظون على قواهم وميزاتهم بالإضافة إلى أنه يتم تسميم لاعب من سكان القرية مجاور للشرير المختار [+1 غريب]",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_vigormortis",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vigormortis.png?raw=true",
-    "name": "Vigormortis",
+    "name": "فيغومورتيس",
     "otherNight": 32,
-    "otherNightReminder": "The Vigormortis points to a player. That player dies. If a Minion, they keep their ability and one of their Townsfolk neighbours is poisoned.",
+    "otherNightReminder": "فيغومورتيس يختار لاعب لقتله. إذا كان ذلك اللاعب من الأشرار يحافظ على ميزته ويصبح أحد اللاعبين المجاورين له من سكان القرية مسمم",
     "reminders": [
-      "Dead",
-      "Has ability",
-      "Poisoned"
+      "ميت، لديه ميزة، مسمم"
     ],
     "setup": true,
     "team": "demon"
   },
   {
-    "ability": "Each night*, choose a player: they die. Townsfolk abilities yield false info. Each day, if no-one is executed, evil wins.",
+    "ability": "في كل ليلة اختار لاعب تقتله، بوجودك في اللعبة كل اللاعبين من سكان القرية أصحاب الميزات يحصلون على معلومات مغلوطة، وفي أي يوم إذا لم يتم قتل أحد اللاعبين في النهار بالتصويت يفوز الأشرار",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_vortox",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vortox.png?raw=true",
-    "name": "Vortox",
+    "name": "الدوامة",
     "otherNight": 31,
-    "otherNightReminder": "The Vortox points to a player. That player dies.",
+    "otherNightReminder": "الدوامة يختار لاعب فيقتل",
     "reminders": [
-      "Dead"
+      "ميت"
     ],
     "setup": false,
     "team": "demon"

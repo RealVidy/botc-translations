@@ -16,18 +16,18 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, at night, choose a good character: gain that ability. If this character is in play, they are drunk.",
+    "ability": "مرة واحدة في اللعبة في الليل، اختار شخصية طيبة تلعبها، إذا اخترت شخصية موجودة ذلك اللاعب يصبح مخمور",
     "edition": "snv",
     "firstNight": 2,
-    "firstNightReminder": "The Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
+    "firstNightReminder": "الفيلسوف إما يؤجل اختيار شخصية أو يختار شخصية من الطيبين، فإذا كانت هذه الشخصية موجودة في اللعبة يصبح ذلك اللاعب مخمور",
     "id": "ar_AR_philosopher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/philosopher.png?raw=true",
-    "name": "Philosopher",
+    "name": "الفيلسوف",
     "otherNight": 2,
-    "otherNightReminder": "If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
+    "otherNightReminder": "إذا لم يستخدم الفيلسوف ميزته، فهو إما يؤجل اختيار شخصية أو يختار شخصية من الطيبين، فإذا كانت هذه الشخصية موجودة في اللعبة يصبح ذلك اللاعب مخمور",
     "remindersGlobal": [
-      "Drunk",
-      "Is the Philosopher"
+      "مخمور",
+      "هل هو الفيلسوف"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -50,23 +50,23 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, at night, choose 2 players (not yourself): you learn if they are the same alignment.",
+    "ability": "مرة واحدة في اللعبة في الليل، تختار لاعبين غيرك ويخبرك المنظم هل هما من نفس الفريق",
     "edition": "snv",
     "firstNight": 42,
-    "firstNightReminder": "The Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
+    "firstNightReminder": "الخياط إما يرفض استخدام ميزته أو يختار لاعبين، وعليك أن تخبره إذا كان هذان اللاعبان من نفس الفريق أو لأ",
     "id": "ar_AR_seamstress",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/seamstress.png?raw=true",
-    "name": "Seamstress",
+    "name": "الخياط",
     "otherNight": 61,
-    "otherNightReminder": "If the Seamstress has not yet used their ability: the Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
+    "otherNightReminder": "إذا لم يستخدم الخياط ميزته،فهو إما يرفض استخدام ميزته الآن أو يختار لاعبين، وعليك أن تخبره إذا كان هذان اللاعبان من نفس الفريق أو لأ",
     "reminders": [
-      "No ability"
+      "بدون ميزة"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "مرة واحدة في اللعبة، خلال النهار يمكنك اختيار لاعب على الملأ فإذا كان هو رئيس الأشرار يقتل فورا.",
+    "ability": "مرة واحدة في اللعبة، خلال النهار يمكنك اختيار لاعب على الملأ فإذا كان هو رئيس الأشرار يقتل فورا",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -98,13 +98,13 @@
     "team": "townsfolk"
   },
   {
-    "ability": "When you learn that you died, publicly choose 1 alive player: if they are evil, your team loses.",
+    "ability": "عندما تعرف أنك قتلت، اختار لاعب حي علنا فإذا كان من الأشرار يخسر فريقك",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_klutz",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/klutz.png?raw=true",
-    "name": "Klutz",
+    "name": "الأحمق",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -128,17 +128,17 @@
     "team": "outsider"
   },
   {
-    "ability": "You & an opposing player know each other. If the good player is executed, evil wins. Good can't win if you both live.",
+    "ability": "أنت ولاعب آخر من الطيبين تعرفون بعضكم وتعرفون شخصياتكم، المنظم يخبر كلا منكما بأنه توأم الآخر ويخبرك شخصية التوأم الطيب، إذا تم قتل التوأم الطيب بالتصويت نهارا يفوز الأشرار، ولا يفوز الطيبين طالما  التوأم الشرير على قيد الحياة",
     "edition": "snv",
     "firstNight": 23,
-    "firstNightReminder": "Wake the Evil Twin and their twin. Confirm that they have acknowledged each other. Point to the Evil Twin. Show their Evil Twin token to the twin player. Point to the twin. Show their character token to the Evil Twin player.",
+    "firstNightReminder": "أخبر التوأم الشرير من هو توأمه من الطيبين وماهي شخصيته، وأخبر التوأم الطيب من هو توأمه من الأشرار",
     "id": "ar_AR_eviltwin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/eviltwin.png?raw=true",
-    "name": "Evil Twin",
+    "name": "التوأم الشرير",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Twin"
+      "توأم"
     ],
     "setup": false,
     "team": "minion"

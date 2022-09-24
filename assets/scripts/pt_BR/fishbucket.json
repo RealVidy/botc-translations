@@ -611,7 +611,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Você vê 3 jogadores. Apenas 1 deles é mau.",
+    "ability": "Você começa vendo 3 jogadores. Apenas 1 deles é mau.",
     "edition": "",
     "firstNight": 43,
     "firstNightReminder": "Aponte para 3 jogadores incluindo exatamente 1 mau em qualquer ordem.",

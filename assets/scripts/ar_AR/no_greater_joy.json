@@ -75,15 +75,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "If the Demon kills you, you learn that it is 1 of 2 players.",
+    "ability": "إذا قتلك رئيس الأشرار يخبرك المنظم اسم لاعبين أحدهما هو رئيس الأشرار",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_sage",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sage.png?raw=true",
-    "name": "Sage",
+    "name": "الحكيم",
     "otherNight": 43,
-    "otherNightReminder": "If the Sage was killed by a Demon: Point to two players, one of which is that Demon.",
+    "otherNightReminder": "إذا قتل رئيس الأشرار الحكيم، أخبر الحكيم اسم لاعبين أحدهما هو رئيس الأشرار",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -106,13 +106,13 @@
     "team": "outsider"
   },
   {
-    "ability": "When you learn that you died, publicly choose 1 alive player: if they are evil, your team loses.",
+    "ability": "عندما تعرف أنك قتلت، اختار لاعب حي علنا فإذا كان من الأشرار يخسر فريقك",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_klutz",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/klutz.png?raw=true",
-    "name": "Klutz",
+    "name": "الأحمق",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],

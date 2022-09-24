@@ -123,18 +123,18 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, at night, choose a good character: gain that ability. If this character is in play, they are drunk.",
+    "ability": "مرة واحدة في اللعبة في الليل، اختار شخصية طيبة تلعبها، إذا اخترت شخصية موجودة ذلك اللاعب يصبح مخمور",
     "edition": "snv",
     "firstNight": 2,
-    "firstNightReminder": "The Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
+    "firstNightReminder": "الفيلسوف إما يؤجل اختيار شخصية أو يختار شخصية من الطيبين، فإذا كانت هذه الشخصية موجودة في اللعبة يصبح ذلك اللاعب مخمور",
     "id": "ar_AR_philosopher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/philosopher.png?raw=true",
-    "name": "Philosopher",
+    "name": "الفيلسوف",
     "otherNight": 2,
-    "otherNightReminder": "If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
+    "otherNightReminder": "إذا لم يستخدم الفيلسوف ميزته، فهو إما يؤجل اختيار شخصية أو يختار شخصية من الطيبين، فإذا كانت هذه الشخصية موجودة في اللعبة يصبح ذلك اللاعب مخمور",
     "remindersGlobal": [
-      "Drunk",
-      "Is the Philosopher"
+      "مخمور",
+      "هل هو الفيلسوف"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -186,18 +186,17 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, you learn if a Minion nominated today.",
+    "ability": "في كل ليلة، المنظم يخبرك إذا ما قام أحد الأشرار (ليس الرئيس) بترشيح أحد لقتله (عن طريق التصويت) في ذلك اليوم",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_towncrier",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/towncrier.png?raw=true",
-    "name": "Town Crier",
+    "name": "منادي القرية",
     "otherNight": 59,
-    "otherNightReminder": "Nod 'yes' or shake head 'no' for whether a Minion nominated today. Place the 'Minion not nominated' marker (remove 'Minion nominated', if any).",
+    "otherNightReminder": "ضع علامة \"رشح شرير\" وأخبر منادي القرية أن أحد الأشرار (ليس رئيس الأشرار) رشح لاعب لقتله عن طريق التصويت",
     "reminders": [
-      "Minion nominated",
-      "Minions not nominated"
+      "شرير لم يرشح لاعب، شرير رشح لاعب"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -225,7 +224,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/barber.png?raw=true",
     "name": "الحلاق",
     "otherNight": 40,
-    "otherNightReminder": "إذا مات الحلاق نهارا أو ليلا، أسأل رئيس الأشرار بأن الحلاق مات، هل تريد تغيير شخصية لاعبين، إذا اختار اللاعبين، أوقظ كلا منهما على حده وأخبره بشخصيته الجديدة.",
+    "otherNightReminder": "إذا مات الحلاق نهارا أو ليلا، أسأل رئيس الأشرار بأن الحلاق مات، هل تريد تغيير شخصية لاعبين، إذا اختار اللاعبين، أخبر كلا منهما على حده وأخبره بشخصيته الجديدة.",
     "reminders": [
       "قصة شعر في الليل"
     ],
@@ -280,17 +279,17 @@
     "team": "minion"
   },
   {
-    "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability.",
+    "ability": "في كل ليلة، اختار لاعب وإذا قام هذا اللاعب بترشيح أحد اللاعبين للقتل في النهار يقتل هو، إذا بقي 3 لاعبين فقط على قيد الحياة تخسر هذه الميزة",
     "edition": "snv",
     "firstNight": 24,
-    "firstNightReminder": "The Witch points to a player. If that player nominates tomorrow they die immediately.",
+    "firstNightReminder": "الساحر يختار لاعب، وفي اليوم التالي إذا رشح هذا اللاعب أحد اللاعبين للقتل يُقتل هو على الفور",
     "id": "ar_AR_witch",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/witch.png?raw=true",
-    "name": "Witch",
+    "name": "الساحر",
     "otherNight": 15,
-    "otherNightReminder": "If there are 4 or more players alive: The Witch points to a player. If that player nominates tomorrow they die immediately.",
+    "otherNightReminder": "إذا كان هناك 4 لاعبين على الأقل على قيد الحياة، يختار الساحر لاعب، وفي اليوم التالي إذا رشح هذا اللاعب أحد اللاعبين للقتل يُقتل هو على الفور",
     "reminders": [
-      "Cursed"
+      "مسحور"
     ],
     "setup": false,
     "team": "minion"

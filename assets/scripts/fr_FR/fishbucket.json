@@ -1176,7 +1176,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Si vous mourez par exécution, vous et le village perdez.",
+    "ability": "Si vous mourez par exécution, votre équipe perd.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",

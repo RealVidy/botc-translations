@@ -136,13 +136,13 @@
     "team": "outsider"
   },
   {
-    "ability": "If you are “mad” about being an Outsider, you might be executed.",
+    "ability": "إذا كنت غضبان كونك من الغرباء، سيقتلك المنظم",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_mutant",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mutant.png?raw=true",
-    "name": "Mutant",
+    "name": "الصامت",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -150,13 +150,13 @@
     "team": "outsider"
   },
   {
-    "ability": "Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false.",
+    "ability": "في كل يوم، يخبرك المنظم سريا معلومتين أحدهما صحيح والأخرى خاطئة",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_savant",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/savant.png?raw=true",
-    "name": "Savant",
+    "name": "العالِم",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],

@@ -257,7 +257,7 @@
     "team": "outsider"
   },
   {
-    "ability": "如果你執著地認為自己是城外人，你可能會被處決。",
+    "ability": "如果你執著地使其他玩家相信自己是城外人，你可能會被處決。",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -346,12 +346,12 @@
     "otherNight": 73,
     "otherNightReminder": "增加利維坦標記的天數。",
     "reminders": [
+      "好人被處決",
       "第一天",
       "第三天",
       "第二天",
       "第五天",
-      "第四天",
-      "處決好人"
+      "第四天"
     ],
     "setup": false,
     "team": "demon"

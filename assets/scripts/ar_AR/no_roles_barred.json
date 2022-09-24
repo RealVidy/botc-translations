@@ -99,14 +99,14 @@
     "ability": "في كل ليلة، اختار لاعب إذا كان هذا اللاعب رئيس الأشرار تصبح أنت رئيس الأشرار وهو يصبح الثعبان الساحر ولكن مسمم.",
     "edition": "snv",
     "firstNight": 20,
-    "firstNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
+    "firstNightReminder": "الثعبان الساحر يختار لاعب، إذا كان هذا اللاعب هو رئيس الأشرار يتبادلون الأدوار. أخبر كل لاعب بشخصيته الجديدة . علما أن الثعبان الساحر الجديد يكون مسمم",
     "id": "ar_AR_snakecharmer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/snakecharmer.png?raw=true",
     "name": "الثعبان الساحر",
     "otherNight": 12,
-    "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
+    "otherNightReminder": "الثعبان الساحر يختار لاعب، إذا كان هذا اللاعب هو رئيس الأشرار يتبادلون الأدوار. أخبر كل لاعب بشخصيته الجديدة . علما أن الثعبان الساحر الجديد يكون مسمم",
     "reminders": [
-      "Poisoned"
+      "مسمم"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -160,18 +160,18 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, at night, choose a good character: gain that ability. If this character is in play, they are drunk.",
+    "ability": "مرة واحدة في اللعبة في الليل، اختار شخصية طيبة تلعبها، إذا اخترت شخصية موجودة ذلك اللاعب يصبح مخمور",
     "edition": "snv",
     "firstNight": 2,
-    "firstNightReminder": "The Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
+    "firstNightReminder": "الفيلسوف إما يؤجل اختيار شخصية أو يختار شخصية من الطيبين، فإذا كانت هذه الشخصية موجودة في اللعبة يصبح ذلك اللاعب مخمور",
     "id": "ar_AR_philosopher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/philosopher.png?raw=true",
-    "name": "Philosopher",
+    "name": "الفيلسوف",
     "otherNight": 2,
-    "otherNightReminder": "If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
+    "otherNightReminder": "إذا لم يستخدم الفيلسوف ميزته، فهو إما يؤجل اختيار شخصية أو يختار شخصية من الطيبين، فإذا كانت هذه الشخصية موجودة في اللعبة يصبح ذلك اللاعب مخمور",
     "remindersGlobal": [
-      "Drunk",
-      "Is the Philosopher"
+      "مخمور",
+      "هل هو الفيلسوف"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -225,13 +225,13 @@
     "team": "outsider"
   },
   {
-    "ability": "If you are “mad” about being an Outsider, you might be executed.",
+    "ability": "إذا كنت غضبان كونك من الغرباء، سيقتلك المنظم",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_mutant",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mutant.png?raw=true",
-    "name": "Mutant",
+    "name": "الصامت",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -386,17 +386,17 @@
     "team": "demon"
   },
   {
-    "ability": "Each night*, choose a player: they die. Townsfolk abilities yield false info. Each day, if no-one is executed, evil wins.",
+    "ability": "في كل ليلة اختار لاعب تقتله، بوجودك في اللعبة كل اللاعبين من سكان القرية أصحاب الميزات يحصلون على معلومات مغلوطة، وفي أي يوم إذا لم يتم قتل أحد اللاعبين في النهار بالتصويت يفوز الأشرار",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_vortox",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vortox.png?raw=true",
-    "name": "Vortox",
+    "name": "الدوامة",
     "otherNight": 31,
-    "otherNightReminder": "The Vortox points to a player. That player dies.",
+    "otherNightReminder": "الدوامة يختار لاعب فيقتل",
     "reminders": [
-      "Dead"
+      "ميت"
     ],
     "setup": false,
     "team": "demon"

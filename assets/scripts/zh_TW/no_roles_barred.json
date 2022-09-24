@@ -33,7 +33,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "你開始遊戲時得知一位在遊戲中的鎮民角色。如果你執著地認為自己是該角色，則在該角色的玩家死亡後你獲得該能力。",
+    "ability": "你開始遊戲時得知一位在遊戲中的鎮民角色。如果你執著地使其他玩家相信自己是該角色，則在該角色的玩家死亡後你獲得他的能力。",
     "edition": "",
     "firstNight": 29,
     "firstNightReminder": "展示一個在遊戲中的一個鎮民角色代幣。",
@@ -229,7 +229,7 @@
     "team": "outsider"
   },
   {
-    "ability": "如果你執著地認為自己是城外人，你可能會被處決。",
+    "ability": "如果你執著地使其他玩家相信自己是城外人，你可能會被處決。",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",

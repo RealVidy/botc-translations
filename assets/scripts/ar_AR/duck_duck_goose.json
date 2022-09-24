@@ -126,17 +126,17 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, at night, choose 2 players (not yourself): you learn if they are the same alignment.",
+    "ability": "مرة واحدة في اللعبة في الليل، تختار لاعبين غيرك ويخبرك المنظم هل هما من نفس الفريق",
     "edition": "snv",
     "firstNight": 42,
-    "firstNightReminder": "The Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
+    "firstNightReminder": "الخياط إما يرفض استخدام ميزته أو يختار لاعبين، وعليك أن تخبره إذا كان هذان اللاعبان من نفس الفريق أو لأ",
     "id": "ar_AR_seamstress",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/seamstress.png?raw=true",
-    "name": "Seamstress",
+    "name": "الخياط",
     "otherNight": 61,
-    "otherNightReminder": "If the Seamstress has not yet used their ability: the Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
+    "otherNightReminder": "إذا لم يستخدم الخياط ميزته،فهو إما يرفض استخدام ميزته الآن أو يختار لاعبين، وعليك أن تخبره إذا كان هذان اللاعبان من نفس الفريق أو لأ",
     "reminders": [
-      "No ability"
+      "بدون ميزة"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -358,19 +358,17 @@
     "team": "demon"
   },
   {
-    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & poison 1 Townsfolk neighbour. [−1 Outsider]",
+    "ability": "في كل ليلة اختار لاعب تقتله، عندما تقتل الأشرار الآخرين يحافظون على قواهم وميزاتهم بالإضافة إلى أنه يتم تسميم لاعب من سكان القرية مجاور للشرير المختار [+1 غريب]",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_vigormortis",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vigormortis.png?raw=true",
-    "name": "Vigormortis",
+    "name": "فيغومورتيس",
     "otherNight": 32,
-    "otherNightReminder": "The Vigormortis points to a player. That player dies. If a Minion, they keep their ability and one of their Townsfolk neighbours is poisoned.",
+    "otherNightReminder": "فيغومورتيس يختار لاعب لقتله. إذا كان ذلك اللاعب من الأشرار يحافظ على ميزته ويصبح أحد اللاعبين المجاورين له من سكان القرية مسمم",
     "reminders": [
-      "Dead",
-      "Has ability",
-      "Poisoned"
+      "ميت، لديه ميزة، مسمم"
     ],
     "setup": true,
     "team": "demon"
@@ -393,18 +391,17 @@
     "team": "demon"
   },
   {
-    "ability": "Each night*, choose a player: they die. Your 2 Townsfolk neighbours are poisoned.",
+    "ability": "في كل ليلة اختار لاعب تقتله، ويتسمم أقرب لاعبين اثنين من سكان القرية المجاورين لك (واحد من اليمين والآخر من اليسار)",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_nodashii",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/nodashii.png?raw=true",
-    "name": "No Dashii",
+    "name": "الأخطبوط",
     "otherNight": 30,
-    "otherNightReminder": "The No Dashii points to a player. That player dies.",
+    "otherNightReminder": "الأخطبوط يختار لاعب فيقتل",
     "reminders": [
-      "Dead",
-      "Poisoned"
+      "ميت،مسمم"
     ],
     "setup": false,
     "team": "demon"

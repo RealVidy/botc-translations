@@ -113,7 +113,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "在你的第一天，公開猜測至多五位玩家的角色，當晚你得知你猜對了多少。",
+    "ability": "在你的第一天，公開猜測至多五次某位玩家的角色，當晚你得知你猜對了多少。",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -221,7 +221,7 @@
     "team": "outsider"
   },
   {
-    "ability": "如果你執著地認為自己是城外人，你可能會被處決。",
+    "ability": "如果你執著地使其他玩家相信自己是城外人，你可能會被處決。",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -298,7 +298,7 @@
     "team": "minion"
   },
   {
-    "ability": "每天晚上*，選擇一位玩家以及一個角色，如果該角色不在遊戲中，該玩家變成該角色，如果產生一個新惡魔，則今晚的死亡是隨機。",
+    "ability": "每天晚上*，選擇一位玩家以及一個角色，如果該角色不在遊戲中，該玩家變成該角色，如果產生一個新惡魔，則今晚的死亡由說書人決定。",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",

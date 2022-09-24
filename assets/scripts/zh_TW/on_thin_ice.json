@@ -144,7 +144,7 @@
     "team": "minion"
   },
   {
-    "ability": "如果惡魔被處決(結束遊戲)，遊戲繼續進行一天，如果有玩家被處決，該玩家的隊伍落敗。",
+    "ability": "如果惡魔被處決(結束遊戲)，則遊戲繼續進行一天，如果有玩家被處決，該玩家的隊伍落敗。",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
