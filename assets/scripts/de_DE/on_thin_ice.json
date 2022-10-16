@@ -50,7 +50,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Einmal pro Spiel, in der Nacht, wähle 2 Spieler (nicht dich selbst): du erfährst, ob sie die selbe Gesinnung besitzen (gut oder böse).",
+    "ability": "Einmal pro Spiel, in der Nacht, wähle 2 Spieler (nicht dich selbst): du erfährst, ob sie die selbe Gesinnung besitzen.",
     "edition": "snv",
     "firstNight": 42,
     "firstNightReminder": "Die Schneiderin schüttelt entweder den Kopf (Nein) oder zeigt auf zwei Spieler. Sollte die Schneider Spieler auswählen, nicke (Ja) oder schüttle den Kopf (Nein) wenn die bbeiden Spieler die gleiche Gesinnung haben.",
@@ -178,7 +178,7 @@
     "ability": "Es kann sich ein Außenseiter mehr oder weniger im Spiel befinden.",
     "id": "de_DE_sentinel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
-    "name": "Sentinel",
+    "name": "Wächter",
     "team": "fabled"
   }
 ]

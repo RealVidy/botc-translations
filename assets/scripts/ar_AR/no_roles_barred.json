@@ -50,17 +50,17 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]",
+    "ability": "في أول ليلة فقط، تعرف لاعب من الأشرار. وإذا مات هذا اللاعب سنعرف لاعب شرير آخر [1 من سكان القرية يصبح شرير]",
     "edition": "",
     "firstNight": 45,
-    "firstNightReminder": "Point to 1 evil player. Wake the townsfolk who is evil and show them the 'You are' card and the thumbs down evil sign.",
+    "firstNightReminder": "اختار لاعب من سكان القرية وأخبره أنه أصبح شرير",
     "id": "ar_AR_bountyhunter",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bountyhunter.png?raw=true",
-    "name": "Bounty Hunter",
+    "name": "صائد الأشرار",
     "otherNight": 65,
-    "otherNightReminder": "If the known evil player has died, point to another evil player.",
+    "otherNightReminder": "إذا مات اللاعب الشرير اختار لاعب شرير آخر",
     "reminders": [
-      "Known"
+      "معروف"
     ],
     "setup": true,
     "team": "townsfolk"
@@ -112,17 +112,17 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each day, you may make a public statement. Tonight, if it was true, a player dies.",
+    "ability": "كل يوم، تستطيع أن تقول جملة عامة، فإذا كانت هذه الجملة صحيحة يقتل لاعب في الليل",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_gossip",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gossip.png?raw=true",
-    "name": "Gossip",
+    "name": "الثرثار",
     "otherNight": 47,
-    "otherNightReminder": "If the Gossip’s public statement was true: Choose a player not protected from dying tonight. That player dies.",
+    "otherNightReminder": "إذا كانت جملة الثرثار صحيحة اختار لاعب غير محمي واقتله",
     "reminders": [
-      "Dead"
+      "ميت"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -209,17 +209,17 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, the 1st player to choose you with their ability is drunk until dusk. You become their alignment.",
+    "ability": "في كل ليلة، أول لاعب يختارك عن طريق ميزته يصبح مخمور إلى المساء، وتصبح أنت معه في الفريق (طيبين أو أشرار)",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_goon",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/goon.png?raw=true",
-    "name": "Goon",
+    "name": "الأحمق",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Drunk"
+      "مخمور"
     ],
     "setup": false,
     "team": "outsider"
@@ -272,18 +272,18 @@
     "team": "outsider"
   },
   {
-    "ability": "You start knowing which Outsiders are in play. If 1 died today, choose a player tonight: they die. [−1 or +1 Outsider]",
+    "ability": "في أول ليلة فقط، المنظم يخبرك من هم شخصيات الغرباء الموجودين في اللعبة، وإذا مات أحدهم بالنهار اختار لاعب بالليل فيموت [+1 أو -1 غرباء]",
     "edition": "bmr",
     "firstNight": 21,
-    "firstNightReminder": "Show each of the Outsider tokens in play.",
+    "firstNightReminder": "أخبر العراب من هم شخصيات الغرباء الموجودون في اللعبة",
     "id": "ar_AR_godfather",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/godfather.png?raw=true",
-    "name": "Godfather",
+    "name": "العراب",
     "otherNight": 38,
-    "otherNightReminder": "If an Outsider died today: The Godfather points to a player. That player dies.",
+    "otherNightReminder": "إذا مات أحد اللاعبين الغرباء، أوقظ العراب ليختار أحد اللاعبين فيموت",
     "reminders": [
-      "Dead",
-      "Died today"
+      "مات اليوم",
+      "ميت"
     ],
     "setup": true,
     "team": "minion"
@@ -386,7 +386,7 @@
     "team": "demon"
   },
   {
-    "ability": "في كل ليلة اختار لاعب تقتله، بوجودك في اللعبة كل اللاعبين من سكان القرية أصحاب الميزات يحصلون على معلومات مغلوطة، وفي أي يوم إذا لم يتم قتل أحد اللاعبين في النهار بالتصويت يفوز الأشرار",
+    "ability": "في كل ليلة اختار لاعب تقتله، بوجودك في اللعبة كل اللاعبين من سكان القرية أصحاب الميزات يحصلون على معلومات خاطئة، وفي أي يوم إذا لم يتم قتل أحد اللاعبين في النهار بالتصويت يفوز الأشرار",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",

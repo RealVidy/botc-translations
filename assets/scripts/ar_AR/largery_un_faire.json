@@ -157,34 +157,34 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.",
+    "ability": "يصبح لديك ميزة آخر لاعب مُعدم، وإذا كان هذا اللاعب من الأشرار تصبح مسمم إلى أن يعدم لاعب من الطيبين",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_cannibal",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cannibal.png?raw=true",
-    "name": "Cannibal",
+    "name": "آكل لحوم البشر",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Died today",
-      "Poisoned"
+      "مات اليوم",
+      "مسمم"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, during the day, visit the Storyteller for some advice to help you win.",
+    "ability": "مرة واحدة في اللعبة خلال النهار، اطلب نصيحة المنظم ليساعد فريقك على الفوز",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_fisherman",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fisherman.png?raw=true",
-    "name": "Fisherman",
+    "name": "الصياد",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "بدون ميزة"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -235,19 +235,19 @@
     "team": "outsider"
   },
   {
-    "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night.",
+    "ability": "أنت تعتقد أنك رئيس الأشرار، ولكنك لست كذلك. رئيس الأشرار يعرف من أنت ومن اخترت لقتله في الليل",
     "edition": "bmr",
     "firstNight": 7,
-    "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
+    "firstNightReminder": "إذا كان هناك 7 لاعبين أو أكثر أخبر المعتوه من هم الأشرار في فريقه (سواء أشرار حقيقين أو غيرهم) بنفس عدد الأشرار الموجودين في اللعبة. ,وإذا اختار المعتوه لاعب في الليل لقتله ضع علامة على اللاعب المختار، وأخبر رئيس الأشرار الحقيقي باختيار المعتوه، ثم أزل العلامة من اللاعب المختار",
     "id": "ar_AR_lunatic",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
-    "name": "Lunatic",
+    "name": "المعتوه",
     "otherNight": 21,
-    "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
+    "otherNightReminder": "إذا اختار المعتوه لاعب في الليل لقتله ضع علامة على اللاعب المختار، وأخبر رئيس الأشرار الحقيقي باختيار المعتوه، ثم أزل العلامة من اللاعب المختار",
     "reminders": [
-      "Attack 1",
-      "Attack 2",
-      "Attack 3"
+      "اعتداء 1",
+      "اعتداء 2",
+      "اعتداء 3"
     ],
     "setup": false,
     "team": "outsider"
@@ -313,20 +313,20 @@
     "team": "minion"
   },
   {
-    "ability": "On your 1st night, look at the Grimoire and choose a player: they are poisoned. 1 good player knows a Widow is in play.",
+    "ability": "في أول ليلة، انظر إلى شاشة العرض الرئيسية واختار لاعب يتسمم. أحد اللاعبين الطيبين يعرف أنك موجود في اللعبة",
     "edition": "",
     "firstNight": 18,
-    "firstNightReminder": "Show the Grimoire to the Widow for as long as they need. The Widow points to a player. That player is poisoned. Wake a good player. Show the 'These characters are in play' card, then the Widow character token.",
+    "firstNightReminder": "أظهر شاشة العرض الرئيسية للأرملة. والأرملة يختار لاعب لكي يتسمم. أخبر أحد اللاعبين الطيبين بأن الأرملة موجود في اللعبة",
     "id": "ar_AR_widow",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/widow.png?raw=true",
-    "name": "Widow",
+    "name": "الأرملة",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Poisoned"
+      "مسمم"
     ],
     "remindersGlobal": [
-      "Knows"
+      "يعرف"
     ],
     "setup": false,
     "team": "minion"

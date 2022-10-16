@@ -133,7 +133,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "La première nuit, le Conteur vous indique combien il y a de joueurs maléfiques assis côte à côte dans la partie.",
+    "ability": "Votre première nuit, le Conteur vous indique combien il y a de joueurs maléfiques assis côte à côte dans la partie.",
     "edition": "tb",
     "firstNight": 35,
     "firstNightReminder": "Donner le nombre de paires de joueurs maléfiques assis côte à côte. Forte suggestion : inclure le Reclus et exclure l'Espion.",
@@ -161,18 +161,18 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Vous ne savez pas que vous êtes ivre. Vous pensez que vous êtes un Villageois, mais vous ne l’êtes pas.",
+    "ability": "Vous ne savez pas que vous êtes alcoolique. Vous pensez que vous êtes un Villageois, mais vous ne l’êtes pas.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fr_FR_drunk",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
-    "name": "Soulard",
+    "name": "Alcoolique",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Soulard"
+      "Alcoolique"
     ],
     "setup": true,
     "team": "outsider"
@@ -211,7 +211,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Chaque nuit*, choisissez un joueur et tenter de deviner son rôle, si vous faites erreur, vous mourrez.",
+    "ability": "Chaque nuit*, choisissez un joueur et tentez de deviner son rôle, si vous faites erreur, vous mourrez.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -292,7 +292,7 @@
     "team": "demon"
   },
   {
-    "ability": "La première nuit, le Conteur vous désigne 2 joueurs. Il vous donne ensuite le rôle de Sbire de l’un des deux.",
+    "ability": "Votre première nuit, le Conteur vous désigne 2 joueurs. Il vous donne ensuite le rôle de Sbire de l’un des deux.",
     "edition": "tb",
     "firstNight": 34,
     "firstNightReminder": "Désigner 2 joueurs et présenter le jeton rôle Sbire de l'un d'eux.",
@@ -387,7 +387,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Vous êtes généralement reconnu comme étant maléfique (Sbire ou Démon), même si vous êtes mort.",
+    "ability": "Vous pourriez être reconnu comme étant maléfique (Sbire ou Démon), même si vous êtes mort.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",

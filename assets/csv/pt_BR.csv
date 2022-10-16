@@ -81,7 +81,7 @@ lunatic,Lunático,"Você pensa que é um Demônio, mas você não é. O Demônio
 lycanthrope,Licantropo,"A cada noite*, escolha um jogador vivo: se o alvo for bom, morre, mas só o seu alvo poderá morrer esta noite.",,"O Licantropo escolhe um jogador vivo: se o alvo for bom, morre e ninguém mais pode morrer esta noite. Se por algum motivo o jogador escolhido for bom, mas não morrer, ahabilidade do Licantropo não impede outras mortes esta noite.",,Morto
 magician,Mágico,O Demônio pensa que você é um Lacaio. Lacaios pensam que você é um Demônio.,,,,
 marionette,Marionete,"Você pensa que é um personagem bom, mas não é. O Demônio sabe quem você é. [Você é vizinho do Demônio]","Acorde o Demônio, mostre o token da Marionete e aponte para o jogador correspondente.",,É a Marionete,
-mastermind,Mentor,"Se o jogo terminaria com por causa da execução do Demônio, o jogo dura mais 1 dia em vez disso. Se então um jogador for executado, o time dele perde.",,,,
+mastermind,Mentor,"Se o jogo terminaria por causa da execução do Demônio, o jogo dura mais 1 dia em vez disso. Se, então, um jogador for executado, o time dele perde.",,,,
 mathematician,Matemático,"A cada noite, você descobre quantas habilidades funcionaram de forma anormal (desde o amanhecer) devido a habilidades de outros personagens.",Mostre o número com os dedos.,Mostre o número com os dedos.,,Anormal
 matron,Matrona,"A cada dia, você pode trocar até 3 duplas de jogadores de lugar. Jogadores não podem deixar seus lugares para falar em particular.",,,,
 mayor,Prefeito,"Se apenas 3 jogadores estão vivos e não houver execução, seu time vence. Se você morreria à noite, outro jogador pode morrer em vez disso.",,,,

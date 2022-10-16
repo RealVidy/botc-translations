@@ -204,7 +204,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Vous êtes généralement reconnu comme étant maléfique (Sbire ou Démon), même si vous êtes mort.",
+    "ability": "Vous pourriez être reconnu comme étant maléfique (Sbire ou Démon), même si vous êtes mort.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",

@@ -33,18 +33,18 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, at night*, choose a dead player: if they are a Townsfolk, they are resurrected.",
+    "ability": "مرة واحدة في اللعبة، في الليل، اختار لاعب ميت فإذا كان هذا اللاعب من سكان القرية يعود للحياة",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_professor",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/professor.png?raw=true",
-    "name": "Professor",
+    "name": "البروفيسور",
     "otherNight": 45,
-    "otherNightReminder": "If the Professor has not used their ability: The Professor either shakes their head no, or points to a player. If that player is a Townsfolk, they are now alive.",
+    "otherNightReminder": "إذا البروفيسور لم يستخدم ميزته يختار إما استخدامها أو تأجيلها، إذا أرد استخدامها يختار لاعب ميت فإذا كان اللاعب الميت من سكان القرية يعود للحياة",
     "reminders": [
-      "Alive",
-      "No ability"
+      "بدون ميزة",
+      "حي"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -112,17 +112,17 @@
     "team": "outsider"
   },
   {
-    "ability": "When you learn that you died, publicly choose 1 alive player. Tonight, if it was a good player, they die.",
+    "ability": "عندما تموت اختار لاعب حي علناً، وفي تلك الليلة إذا كان هذا اللاعب من الطيبين فإنه يموت",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_moonchild",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/moonchild.png?raw=true",
-    "name": "Moonchild",
+    "name": "الهائم",
     "otherNight": 49,
-    "otherNightReminder": "If the Moonchild used their ability to target a player today: If that player is good, they die.",
+    "otherNightReminder": "إذا الطفل المريض اختار اللاعب وكان هذا اللاعب من الطيبين فإنه يموت",
     "reminders": [
-      "Dead"
+      "ميت"
     ],
     "setup": false,
     "team": "outsider"
@@ -144,13 +144,13 @@
     "team": "minion"
   },
   {
-    "ability": "If the Demon dies by execution (ending the game), play for 1 more day. If a player is then executed, their team loses.",
+    "ability": "إذا مات رئيس الأشرار (انتهت اللعبة)، يضاف يوم آخر وفي هذا اليوم من يُعدم في النهار يخسر فريقه",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_mastermind",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mastermind.png?raw=true",
-    "name": "Mastermind",
+    "name": "العقل المدبر",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -158,18 +158,18 @@
     "team": "minion"
   },
   {
-    "ability": "Each night, choose a player: they are poisoned. The previously poisoned player dies then becomes healthy.",
+    "ability": "في كل ليلة، اختار لاعب لكي يتسمم. اللاعب المسمم السابق يموت ويصبح معافى من التسمم (في حال كان لديه ميزة يستخدمها بعد الموت)",
     "edition": "bmr",
     "firstNight": 28,
-    "firstNightReminder": "The Pukka points to a player. That player is poisoned.",
+    "firstNightReminder": "البوكا يختار لاعب لكي يتسمم",
     "id": "ar_AR_pukka",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pukka.png?raw=true",
-    "name": "Pukka",
+    "name": "البوكا",
     "otherNight": 26,
-    "otherNightReminder": "The Pukka points to a player. That player is poisoned. The previously poisoned player dies.",
+    "otherNightReminder": "البوكا يختار لاعب لكي يتسمم. اللاعب المسمم سابقا يموت",
     "reminders": [
-      "Dead",
-      "Poisoned"
+      "مسمم",
+      "ميت"
     ],
     "setup": false,
     "team": "demon"

@@ -131,7 +131,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Chaque nuit*, choisissez un joueur et tenter de deviner son rôle, si vous faites erreur, vous mourrez.",
+    "ability": "Chaque nuit*, choisissez un joueur et tentez de deviner son rôle, si vous faites erreur, vous mourrez.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -164,7 +164,7 @@
     "team": "minion"
   },
   {
-    "ability": "La capacité du 1er rôle qui vous vise ne fonctionne pas. Celui-ci devient ivre jusqu’au crépuscule et vous changez pour son alignement.",
+    "ability": "La capacité du 1er rôle qui vous vise chaque nuit ne fonctionne pas. Celui-ci devient ivre jusqu’au crépuscule et vous changez pour son alignement.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "Le premier joueur qui a utilisé sa capacité sur la Brute ne fonctionne pas, ajouter le jeton ivre à ce joueur. Il change d’alignement pour ce joueur. Si c’est le cas: Le réveiller et montrez-lui la carte violette « Vous êtes », puis un signal de la main (pouce vers le haut « bon », pouce vers le bas maléfique) pour son nouvel alignement.",
@@ -472,7 +472,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Chaque nuit*, si personne n’est mort aujourd'hui, choisissez un joueur: il meurt. La première fois que vous mourez, vous restez en vie mais êtes reconnus comme mort.",
+    "ability": "Chaque nuit*, si personne n’est mort aujourd'hui, choisissez un joueur: il meurt. La première fois que vous mourez, vous restez en vie mais êtes reconnu comme mort.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",

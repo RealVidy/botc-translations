@@ -1,16 +1,16 @@
 [
   {
-    "ability": "You start knowing a good player & their character. If the Demon kills them, you die too.",
+    "ability": "المنظم يخبرك اسم لاعب من الطيبين (الحفيد) وشخصيته، إذا قتل هذا اللاعب ليلا بواسطة رئيس الأشرار تموت أنت كذلك",
     "edition": "bmr",
     "firstNight": 39,
-    "firstNightReminder": "Show the marked character token. Point to the marked player.",
+    "firstNightReminder": "اختار لاعب وضع علامة الحفيد عليه",
     "id": "ar_AR_grandmother",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/grandmother.png?raw=true",
-    "name": "Grandmother",
+    "name": "الجدة",
     "otherNight": 50,
-    "otherNightReminder": "If the Grandmother’s grandchild was killed by the Demon tonight: The Grandmother dies.",
+    "otherNightReminder": "إذا قتل الحفيد ليلا بواسطة رئيس الأشرار تموت الجدة",
     "reminders": [
-      "Grandchild"
+      "الحفيد"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -48,15 +48,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, you become the alignment of an alive neighbour. If all good players choose to join your cult, your team wins.",
+    "ability": "في كل ليلة، أنت تصبح مع الفريق الذي يمثله جارك الحي. وإذا أصبح كل اللاعبين الطيبين في حزبك فإنه يفوز فريقك",
     "edition": "",
     "firstNight": 47,
-    "firstNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
+    "firstNightReminder": "أخبر قائد الحزب إذا تغيًر فريقه (الطيبين أو الأشرار)",
     "id": "ar_AR_cultleader",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cultleader.png?raw=true",
-    "name": "Cult Leader",
+    "name": "قائد الحزب",
     "otherNight": 67,
-    "otherNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
+    "otherNightReminder": "أخبر قائد الحزب إذا تغيًر فريقه (الطيبين أو الأشرار)",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -140,17 +140,17 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, during the day, visit the Storyteller for some advice to help you win.",
+    "ability": "مرة واحدة في اللعبة خلال النهار، اطلب نصيحة المنظم ليساعد فريقك على الفوز",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_fisherman",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fisherman.png?raw=true",
-    "name": "Fisherman",
+    "name": "الصياد",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "بدون ميزة"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -247,13 +247,13 @@
     "team": "outsider"
   },
   {
-    "ability": "If you were the player most responsible for your team losing, you change alignment & win, even if dead.",
+    "ability": "إذا كنت أنت المسؤول عن هزيمة فريقك فإنك تستطيعتغيير فريقك وتفوز حتى لو كنت ميت",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_politician",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/politician.png?raw=true",
-    "name": "Politician",
+    "name": "السياسي",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -337,18 +337,18 @@
     "team": "minion"
   },
   {
-    "ability": "Each night, choose a player: they are poisoned. The previously poisoned player dies then becomes healthy.",
+    "ability": "في كل ليلة، اختار لاعب لكي يتسمم. اللاعب المسمم السابق يموت ويصبح معافى من التسمم (في حال كان لديه ميزة يستخدمها بعد الموت)",
     "edition": "bmr",
     "firstNight": 28,
-    "firstNightReminder": "The Pukka points to a player. That player is poisoned.",
+    "firstNightReminder": "البوكا يختار لاعب لكي يتسمم",
     "id": "ar_AR_pukka",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pukka.png?raw=true",
-    "name": "Pukka",
+    "name": "البوكا",
     "otherNight": 26,
-    "otherNightReminder": "The Pukka points to a player. That player is poisoned. The previously poisoned player dies.",
+    "otherNightReminder": "البوكا يختار لاعب لكي يتسمم. اللاعب المسمم سابقا يموت",
     "reminders": [
-      "Dead",
-      "Poisoned"
+      "مسمم",
+      "ميت"
     ],
     "setup": false,
     "team": "demon"

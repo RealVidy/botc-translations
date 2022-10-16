@@ -45,15 +45,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, choose 2 alive players (not yourself): you learn how many woke tonight due to their ability.",
+    "ability": "في كل ليلة، اختار لاعبين غيرك والمنظم يخبرك كم لاعب منهما استيقظ في الليل نتيجة ميزة له",
     "edition": "bmr",
     "firstNight": 50,
-    "firstNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, …) for how many of those players wake tonight for their ability.",
+    "firstNightReminder": "الخادمة تشير إلى لاعبَين فتخبره عدد (0, 1, 2) من هؤلاء اللاعبَين الذين استيقظوا في الليل",
     "id": "ar_AR_chambermaid",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chambermaid.png?raw=true",
-    "name": "Chambermaid",
+    "name": "الخادمة",
     "otherNight": 70,
-    "otherNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, …) for how many of those players wake tonight for their ability.",
+    "otherNightReminder": "الخادمة تشير إلى لاعبَين فتخبره عدد (0, 1, 2) من هؤلاء اللاعبَين الذين استيقظوا في الليل",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"

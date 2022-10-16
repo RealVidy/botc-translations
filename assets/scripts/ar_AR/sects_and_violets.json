@@ -32,18 +32,18 @@
     "team": "outsider"
   },
   {
-    "ability": "Each night, until dusk, 1) a player becomes sober, healthy and gets true info, or 2) their ability works twice. They learn which.",
+    "ability": "في كل ليلة حتى المساء التالي، 1) أحد اللاعبين يصبح سليم ومعافى، أو 2) أحد اللاعبين تصبح ميزته مضاعفة.  وهذا اللاعب يعرف هذه الميزة التي حصل عليها بسبب الباريستا",
     "edition": "snv",
     "firstNight": 1,
-    "firstNightReminder": "Choose a player, wake them and tell them which Barista power is affecting them. Treat them accordingly (sober/healthy/true info or activate their ability twice).",
+    "firstNightReminder": "اختار لاعب وأخبره الميزة التي حصل عليها بسبب الباريستا. تعامل معه على أساس هذه الميزة (سليم/صحي/معلومة صحيحة أو تصبح ميزته مضاعفة)",
     "id": "ar_AR_barista",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/barista.png?raw=true",
-    "name": "Barista",
+    "name": "الباريستا",
     "otherNight": 1,
-    "otherNightReminder": "Choose a player, wake them and tell them which Barista power is affecting them. Treat them accordingly (sober/healthy/true info or activate their ability twice).",
+    "otherNightReminder": "اختار لاعب وأخبره الميزة التي حصل عليها بسبب الباريستا. تعامل معه على أساس هذه الميزة (سليم/صحي/معلومة صحيحة أو تصبح ميزته مضاعفة)",
     "reminders": [
-      "Ability twice",
-      "Sober & Healthy"
+      "سليم & صحي",
+      "ميزة مضاعفة"
     ],
     "setup": false,
     "team": "traveler"
@@ -432,7 +432,7 @@
     "team": "demon"
   },
   {
-    "ability": "في كل ليلة اختار لاعب تقتله، بوجودك في اللعبة كل اللاعبين من سكان القرية أصحاب الميزات يحصلون على معلومات مغلوطة، وفي أي يوم إذا لم يتم قتل أحد اللاعبين في النهار بالتصويت يفوز الأشرار",
+    "ability": "في كل ليلة اختار لاعب تقتله، بوجودك في اللعبة كل اللاعبين من سكان القرية أصحاب الميزات يحصلون على معلومات خاطئة، وفي أي يوم إذا لم يتم قتل أحد اللاعبين في النهار بالتصويت يفوز الأشرار",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",

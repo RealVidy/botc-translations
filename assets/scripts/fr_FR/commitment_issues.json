@@ -81,7 +81,7 @@
     "team": "minion"
   },
   {
-    "ability": "La première nuit, le Conteur vous indique combien il y a de joueurs maléfiques assis côte à côte dans la partie.",
+    "ability": "Votre première nuit, le Conteur vous indique combien il y a de joueurs maléfiques assis côte à côte dans la partie.",
     "edition": "tb",
     "firstNight": 35,
     "firstNightReminder": "Donner le nombre de paires de joueurs maléfiques assis côte à côte. Forte suggestion : inclure le Reclus et exclure l'Espion.",
@@ -123,18 +123,18 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Vous ne savez pas que vous êtes ivre. Vous pensez que vous êtes un Villageois, mais vous ne l’êtes pas.",
+    "ability": "Vous ne savez pas que vous êtes alcoolique. Vous pensez que vous êtes un Villageois, mais vous ne l’êtes pas.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fr_FR_drunk",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
-    "name": "Soulard",
+    "name": "Alcoolique",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Soulard"
+      "Alcoolique"
     ],
     "setup": true,
     "team": "outsider"
@@ -326,7 +326,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Vous êtes généralement reconnu comme étant maléfique (Sbire ou Démon), même si vous êtes mort.",
+    "ability": "Vous pourriez être reconnu comme étant maléfique (Sbire ou Démon), même si vous êtes mort.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",

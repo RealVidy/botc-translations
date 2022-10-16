@@ -130,7 +130,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "La première nuit, le Conteur vous indique combien il y a de joueurs maléfiques assis côte à côte dans la partie.",
+    "ability": "Votre première nuit, le Conteur vous indique combien il y a de joueurs maléfiques assis côte à côte dans la partie.",
     "edition": "tb",
     "firstNight": 35,
     "firstNightReminder": "Donner le nombre de paires de joueurs maléfiques assis côte à côte. Forte suggestion : inclure le Reclus et exclure l'Espion.",
@@ -344,7 +344,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Chaque nuit*, choisissez un joueur et tenter de deviner son rôle, si vous faites erreur, vous mourrez.",
+    "ability": "Chaque nuit*, choisissez un joueur et tentez de deviner son rôle, si vous faites erreur, vous mourrez.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -439,7 +439,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "La première nuit, le Conteur vous désigne 2 joueurs. Il vous donne ensuite le rôle de Sbire de l’un des deux.",
+    "ability": "Votre première nuit, le Conteur vous désigne 2 joueurs. Il vous donne ensuite le rôle de Sbire de l’un des deux.",
     "edition": "tb",
     "firstNight": 34,
     "firstNightReminder": "Désigner 2 joueurs et présenter le jeton rôle Sbire de l'un d'eux.",
@@ -486,7 +486,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "La première nuit, le Conteur vous désigne 2 joueurs. Il vous donne ensuite le rôle d’Étranger de l’un des deux (ou que zéro sont en jeu).",
+    "ability": "Votre première nuit, le Conteur vous désigne 2 joueurs. Il vous donne ensuite le rôle d’Étranger de l’un des deux (ou que zéro sont en jeu).",
     "edition": "tb",
     "firstNight": 33,
     "firstNightReminder": "Désigner 2 joueurs et présenter le jeton rôle Étranger de l'un d'eux.",
@@ -579,7 +579,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Chaque nuit*, choisissez un autre joueur: il est à l'abri du Démon cette nuit.",
+    "ability": "Chaque nuit*, choisissez un autre joueur: il est à l'abri des effets négatifs du Démon cette nuit.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -845,7 +845,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Vous êtes à l'abri du démon.",
+    "ability": "Vous êtes à l'abri des effets négatifs du Démon.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -892,7 +892,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Chaque nuit*, vous apprenez quel est le rôle du joueur qui vient d’être exécuté.",
+    "ability": "Chaque nuit*, vous apprenez quel est le rôle du joueur qui vient d’être exécuté le jour dernier.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -914,7 +914,7 @@
     "firstNightReminder": "",
     "id": "fr_FR_virgin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/virgin.png?raw=true",
-    "name": "Pucelle",
+    "name": "Vierge",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -924,7 +924,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "La première nuit, le Conteur vous désigne 2 joueurs. Il vous donne ensuite le rôle de Villageois de l’un des deux.",
+    "ability": "Votre première nuit, le Conteur vous désigne 2 joueurs. Il vous donne ensuite le rôle de Villageois de l’un des deux.",
     "edition": "tb",
     "firstNight": 32,
     "firstNightReminder": "Désigner 2 joueurs et présenter le jeton rôle Villageois de l'un d'eux.",
@@ -1005,18 +1005,18 @@
     "team": "outsider"
   },
   {
-    "ability": "Vous ne savez pas que vous êtes ivre. Vous pensez que vous êtes un Villageois, mais vous ne l’êtes pas.",
+    "ability": "Vous ne savez pas que vous êtes alcoolique. Vous pensez que vous êtes un Villageois, mais vous ne l’êtes pas.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fr_FR_drunk",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
-    "name": "Soulard",
+    "name": "Alcoolique",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Soulard"
+      "Alcoolique"
     ],
     "setup": true,
     "team": "outsider"
@@ -1038,7 +1038,7 @@
     "team": "outsider"
   },
   {
-    "ability": "La capacité du 1er rôle qui vous vise ne fonctionne pas. Celui-ci devient ivre jusqu’au crépuscule et vous changez pour son alignement.",
+    "ability": "La capacité du 1er rôle qui vous vise chaque nuit ne fonctionne pas. Celui-ci devient ivre jusqu’au crépuscule et vous changez pour son alignement.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "Le premier joueur qui a utilisé sa capacité sur la Brute ne fonctionne pas, ajouter le jeton ivre à ce joueur. Il change d’alignement pour ce joueur. Si c’est le cas: Le réveiller et montrez-lui la carte violette « Vous êtes », puis un signal de la main (pouce vers le haut « bon », pouce vers le bas maléfique) pour son nouvel alignement.",
@@ -1162,7 +1162,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Vous êtes généralement reconnu comme étant maléfique (Sbire ou Démon), même si vous êtes mort.",
+    "ability": "Vous pourriez être reconnu comme étant maléfique (Sbire ou Démon), même si vous êtes mort.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -1486,7 +1486,7 @@
     "team": "minion"
   },
   {
-    "ability": "Chaque nuit, vous voyez le grimoire. Vous êtes généralement reconnu comme étant « Bon » (Villageois ou Étranger), même si vous êtes mort.",
+    "ability": "Chaque nuit, vous voyez le grimoire. Vous pourriez être reconnu comme étant « Bon » (Villageois ou Étranger), même si vous êtes mort.",
     "edition": "tb",
     "firstNight": 48,
     "firstNightReminder": "Se réveille et peut regarder le grimoire.",
@@ -1780,7 +1780,7 @@
     "team": "demon"
   },
   {
-    "ability": "Chaque nuit*, si personne n’est mort aujourd'hui, choisissez un joueur: il meurt. La première fois que vous mourez, vous restez en vie mais êtes reconnus comme mort.",
+    "ability": "Chaque nuit*, si personne n’est mort aujourd'hui, choisissez un joueur: il meurt. La première fois que vous mourez, vous restez en vie mais êtes reconnu comme mort.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",

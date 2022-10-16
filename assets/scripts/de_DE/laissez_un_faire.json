@@ -6,7 +6,7 @@
     "firstNightReminder": "Suche eine Fähigkeit des Amnestikers aus. Wenn die Fähigkeit in der Nacht aktiv ist: Wecke den Amnestiker und spiele seine Fähigkeit.",
     "id": "de_DE_amnesiac",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/amnesiac.png?raw=true",
-    "name": "Amnestiker",
+    "name": "Amnesiker",
     "otherNight": 5,
     "otherNightReminder": "Wenn die Fähigkeit in der Nacht aktiv ist: Wecke den Amnestiker und spiele seine Fähigkeit.",
     "reminders": [

@@ -1,14 +1,14 @@
 [
   {
-    "ability": "Each night, you become the alignment of an alive neighbour. If all good players choose to join your cult, your team wins.",
+    "ability": "في كل ليلة، أنت تصبح مع الفريق الذي يمثله جارك الحي. وإذا أصبح كل اللاعبين الطيبين في حزبك فإنه يفوز فريقك",
     "edition": "",
     "firstNight": 47,
-    "firstNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
+    "firstNightReminder": "أخبر قائد الحزب إذا تغيًر فريقه (الطيبين أو الأشرار)",
     "id": "ar_AR_cultleader",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cultleader.png?raw=true",
-    "name": "Cult Leader",
+    "name": "قائد الحزب",
     "otherNight": 67,
-    "otherNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
+    "otherNightReminder": "أخبر قائد الحزب إذا تغيًر فريقه (الطيبين أو الأشرار)",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -183,18 +183,18 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.",
+    "ability": "يصبح لديك ميزة آخر لاعب مُعدم، وإذا كان هذا اللاعب من الأشرار تصبح مسمم إلى أن يعدم لاعب من الطيبين",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_cannibal",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cannibal.png?raw=true",
-    "name": "Cannibal",
+    "name": "آكل لحوم البشر",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Died today",
-      "Poisoned"
+      "مات اليوم",
+      "مسمم"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -376,7 +376,7 @@
     "team": "demon"
   },
   {
-    "ability": "في كل ليلة اختار لاعب تقتله، بوجودك في اللعبة كل اللاعبين من سكان القرية أصحاب الميزات يحصلون على معلومات مغلوطة، وفي أي يوم إذا لم يتم قتل أحد اللاعبين في النهار بالتصويت يفوز الأشرار",
+    "ability": "في كل ليلة اختار لاعب تقتله، بوجودك في اللعبة كل اللاعبين من سكان القرية أصحاب الميزات يحصلون على معلومات خاطئة، وفي أي يوم إذا لم يتم قتل أحد اللاعبين في النهار بالتصويت يفوز الأشرار",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",

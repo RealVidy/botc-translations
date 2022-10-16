@@ -140,7 +140,7 @@
     "team": "minion"
   },
   {
-    "ability": "Chaque nuit, vous voyez le grimoire. Vous êtes généralement reconnu comme étant « Bon » (Villageois ou Étranger), même si vous êtes mort.",
+    "ability": "Chaque nuit, vous voyez le grimoire. Vous pourriez être reconnu comme étant « Bon » (Villageois ou Étranger), même si vous êtes mort.",
     "edition": "tb",
     "firstNight": 48,
     "firstNightReminder": "Se réveille et peut regarder le grimoire.",

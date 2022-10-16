@@ -32,34 +32,34 @@
     "team": "outsider"
   },
   {
-    "ability": "You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]",
+    "ability": "في أول ليلة فقط، تعرف لاعب من الأشرار. وإذا مات هذا اللاعب سنعرف لاعب شرير آخر [1 من سكان القرية يصبح شرير]",
     "edition": "",
     "firstNight": 45,
-    "firstNightReminder": "Point to 1 evil player. Wake the townsfolk who is evil and show them the 'You are' card and the thumbs down evil sign.",
+    "firstNightReminder": "اختار لاعب من سكان القرية وأخبره أنه أصبح شرير",
     "id": "ar_AR_bountyhunter",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bountyhunter.png?raw=true",
-    "name": "Bounty Hunter",
+    "name": "صائد الأشرار",
     "otherNight": 65,
-    "otherNightReminder": "If the known evil player has died, point to another evil player.",
+    "otherNightReminder": "إذا مات اللاعب الشرير اختار لاعب شرير آخر",
     "reminders": [
-      "Known"
+      "معروف"
     ],
     "setup": true,
     "team": "townsfolk"
   },
   {
-    "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.",
+    "ability": "يصبح لديك ميزة آخر لاعب مُعدم، وإذا كان هذا اللاعب من الأشرار تصبح مسمم إلى أن يعدم لاعب من الطيبين",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_cannibal",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cannibal.png?raw=true",
-    "name": "Cannibal",
+    "name": "آكل لحوم البشر",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Died today",
-      "Poisoned"
+      "مات اليوم",
+      "مسمم"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -95,15 +95,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, you become the alignment of an alive neighbour. If all good players choose to join your cult, your team wins.",
+    "ability": "في كل ليلة، أنت تصبح مع الفريق الذي يمثله جارك الحي. وإذا أصبح كل اللاعبين الطيبين في حزبك فإنه يفوز فريقك",
     "edition": "",
     "firstNight": 47,
-    "firstNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
+    "firstNightReminder": "أخبر قائد الحزب إذا تغيًر فريقه (الطيبين أو الأشرار)",
     "id": "ar_AR_cultleader",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cultleader.png?raw=true",
-    "name": "Cult Leader",
+    "name": "قائد الحزب",
     "otherNight": 67,
-    "otherNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
+    "otherNightReminder": "أخبر قائد الحزب إذا تغيًر فريقه (الطيبين أو الأشرار)",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -171,17 +171,17 @@
     "team": "demon"
   },
   {
-    "ability": "Once per game, during the day, visit the Storyteller for some advice to help you win.",
+    "ability": "مرة واحدة في اللعبة خلال النهار، اطلب نصيحة المنظم ليساعد فريقك على الفوز",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_fisherman",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fisherman.png?raw=true",
-    "name": "Fisherman",
+    "name": "الصياد",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "بدون ميزة"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -221,18 +221,18 @@
     "team": "demon"
   },
   {
-    "ability": "You think you are a good character but you are not. The Demon knows who you are. [You neighbour the Demon]",
+    "ability": "أنت تعتقد أنك من الطيبين ولكنك من الأشرار. رئيس الأشرار يعرفك. [جارك هو رئيس الأشرار]",
     "edition": "",
     "firstNight": 11,
-    "firstNightReminder": "Select one of the good players next to the Demon and place the Is the Marionette reminder token. Wake the Demon and show them the Marionette.",
+    "firstNightReminder": "اختار لاعب بجوار رئيس الأشرار وضع عليه علامة \"العروسة المتحركة\". أخبر رئيس الأشرار من هي العروسة المتحركة",
     "id": "ar_AR_marionette",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/marionette.png?raw=true",
-    "name": "Marionette",
+    "name": "العروسة المتحركة",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Is the Marionette"
+      "العروسة المتحركة"
     ],
     "setup": true,
     "team": "minion"
@@ -282,13 +282,13 @@
     "team": "minion"
   },
   {
-    "ability": "If you were the player most responsible for your team losing, you change alignment & win, even if dead.",
+    "ability": "إذا كنت أنت المسؤول عن هزيمة فريقك فإنك تستطيعتغيير فريقك وتفوز حتى لو كنت ميت",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_politician",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/politician.png?raw=true",
-    "name": "Politician",
+    "name": "السياسي",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -296,17 +296,17 @@
     "team": "outsider"
   },
   {
-    "ability": "Each night, choose a player: a Minion, if chosen, learns this. All chosen Minions have no ability.",
+    "ability": "في كل ليلة، اختار لاعب وإذا كان هذا اللاعب من الأشرار (ليس رئيس الأشرار)  فإنه يعرف أنك اخترته وكذلك جميع اللاعبين الأشرار المختارين تتعطل ميزتهم",
     "edition": "",
     "firstNight": 14,
-    "firstNightReminder": "The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.",
+    "firstNightReminder": "الواعظ يختار لاعب، وإذا كان هذا اللاعب من الأشرار (ليس رئيس الأشرار) أخبره بأن الواعظ قد اختاره",
     "id": "ar_AR_preacher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/preacher.png?raw=true",
-    "name": "Preacher",
+    "name": "الواعظ",
     "otherNight": 7,
-    "otherNightReminder": "The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.",
+    "otherNightReminder": "الواعظ يختار لاعب، وإذا كان هذا اللاعب من الأشرار (ليس رئيس الأشرار) أخبره بأن الواعظ قد اختاره",
     "reminders": [
-      "At a sermon"
+      "متعظ"
     ],
     "setup": false,
     "team": "townsfolk"

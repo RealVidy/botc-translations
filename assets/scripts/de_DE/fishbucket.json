@@ -23,7 +23,7 @@
     "firstNightReminder": "Suche eine Fähigkeit des Amnestikers aus. Wenn die Fähigkeit in der Nacht aktiv ist: Wecke den Amnestiker und spiele seine Fähigkeit.",
     "id": "de_DE_amnesiac",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/amnesiac.png?raw=true",
-    "name": "Amnestiker",
+    "name": "Amnesiker",
     "otherNight": 5,
     "otherNightReminder": "Wenn die Fähigkeit in der Nacht aktiv ist: Wecke den Amnestiker und spiele seine Fähigkeit.",
     "reminders": [
@@ -373,7 +373,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Du triffst jeden Tag eine öffentliche Aussage. Die darauffolgende Nacht, wenn die Aussage zutraf, stirbt ein Spieler.",
+    "ability": "Du darfst jeden Tag eine öffentliche Aussage treffen. Die darauffolgende Nacht, wenn die Aussage zutraf, stirbt ein Spieler.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -795,7 +795,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Einmal pro Spiel, in der Nacht, wähle 2 Spieler (nicht dich selbst): du erfährst, ob sie die selbe Gesinnung besitzen (gut oder böse).",
+    "ability": "Einmal pro Spiel, in der Nacht, wähle 2 Spieler (nicht dich selbst): du erfährst, ob sie die selbe Gesinnung besitzen.",
     "edition": "snv",
     "firstNight": 42,
     "firstNightReminder": "Die Schneiderin schüttelt entweder den Kopf (Nein) oder zeigt auf zwei Spieler. Sollte die Schneider Spieler auswählen, nicke (Ja) oder schüttle den Kopf (Nein) wenn die bbeiden Spieler die gleiche Gesinnung haben.",
@@ -1838,7 +1838,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Nur der Erzähler kann nominieren. Zumindest 1 Spieler der anderen Seite muss nominiert werden.",
+    "ability": "Nur der Erzähler kann nominieren. Mindestens 1 Spieler der anderen Seite muss nominiert werden.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -1855,7 +1855,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Einmal im Spiel, wähle einen toten Spieler in der Nacht: der Spieler bekommt seine Fähigkeit bis zum Ende des Tages wieder.",
+    "ability": "Einmal pro Spiel, in der Nacht, wähle einen toten Spieler: der Spieler kann seine Fähigkeit bis Sonnenuntergang verwenden.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -1872,7 +1872,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Jede Nacht, wähler einen Spieler (nicht dich selbst): die Stimme dieses Spieler zählt für 3 Stimmen bei der Abstimmung am folgenden Tag.",
+    "ability": "Jede Nacht, wähle einen Spieler (nicht dich selbst): die Stimme dieses Spieler zählt für 3 Stimmen bei der Abstimmung am folgenden Tag.",
     "edition": "tb",
     "firstNight": 1,
     "firstNightReminder": "Der Bürokrat zeigt auf einen Spieler. Lege den '3 Stimmen' reminder neben die Karte des ausgewählten Spielers.",
@@ -1888,7 +1888,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Jede Tag nach der ersten Exekution, darfst du einen weiteren Spieler nominieren.",
+    "ability": "Jede Tag nach der ersten Hinrichtung, darfst du einen weiteren Spieler nominieren.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -1982,7 +1982,7 @@
     "firstNightReminder": "",
     "id": "de_DE_matron",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/matron.png?raw=true",
-    "name": "Matron",
+    "name": "Oberin",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -1990,7 +1990,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Wenn ein Spieler deiner Gesinnung am Tag exekutiert wurde, kannst Du Dich stattdessen opfern.",
+    "ability": "Wenn ein Spieler deiner Gesinnung am Tag hingerichtet wurde, kannst Du Dich stattdessen opfern.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -2020,7 +2020,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Nur Du und die Toten können abstimmen. Die Toten brauchen keinen Spielstein zum abstimmen. Eine 50% Mehrheit ist nicht nötig.",
+    "ability": "Nur du und die Toten können abstimmen. Die Toten brauchen keinen Spielstein zum abstimmen. Eine 50% Mehrheit ist nicht nötig.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -2045,7 +2045,7 @@
     "team": "fabled"
   },
   {
-    "ability": "In den ersten zwei Minuten an jedem Tag dürfen erfahrene Spieler nicht sprechen.",
+    "ability": "In den ersten zwei Minuten jedes Tages dürfen erfahrene Spieler nicht sprechen.",
     "id": "de_DE_buddhist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/buddhist.png?raw=true",
     "name": "Buddhist",
@@ -2117,7 +2117,7 @@
     "ability": "Es kann sich ein Außenseiter mehr oder weniger im Spiel befinden.",
     "id": "de_DE_sentinel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
-    "name": "Sentinel",
+    "name": "Wächter",
     "team": "fabled"
   },
   {

@@ -14,7 +14,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "La première nuit, le Conteur vous désigne 2 joueurs. Il vous donne ensuite le rôle d’Étranger de l’un des deux (ou que zéro sont en jeu).",
+    "ability": "Votre première nuit, le Conteur vous désigne 2 joueurs. Il vous donne ensuite le rôle d’Étranger de l’un des deux (ou que zéro sont en jeu).",
     "edition": "tb",
     "firstNight": 33,
     "firstNightReminder": "Désigner 2 joueurs et présenter le jeton rôle Étranger de l'un d'eux.",
@@ -231,18 +231,18 @@
     "team": "outsider"
   },
   {
-    "ability": "Vous ne savez pas que vous êtes ivre. Vous pensez que vous êtes un Villageois, mais vous ne l’êtes pas.",
+    "ability": "Vous ne savez pas que vous êtes alcoolique. Vous pensez que vous êtes un Villageois, mais vous ne l’êtes pas.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fr_FR_drunk",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
-    "name": "Soulard",
+    "name": "Alcoolique",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Soulard"
+      "Alcoolique"
     ],
     "setup": true,
     "team": "outsider"

@@ -28,7 +28,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Jede Nacht, wähler einen Spieler (nicht dich selbst): die Stimme dieses Spieler zählt für 3 Stimmen bei der Abstimmung am folgenden Tag.",
+    "ability": "Jede Nacht, wähle einen Spieler (nicht dich selbst): die Stimme dieses Spieler zählt für 3 Stimmen bei der Abstimmung am folgenden Tag.",
     "edition": "tb",
     "firstNight": 1,
     "firstNightReminder": "Der Bürokrat zeigt auf einen Spieler. Lege den '3 Stimmen' reminder neben die Karte des ausgewählten Spielers.",
@@ -273,7 +273,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Wenn ein Spieler deiner Gesinnung am Tag exekutiert wurde, kannst Du Dich stattdessen opfern.",
+    "ability": "Wenn ein Spieler deiner Gesinnung am Tag hingerichtet wurde, kannst Du Dich stattdessen opfern.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",

@@ -112,7 +112,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Du triffst jeden Tag eine öffentliche Aussage. Die darauffolgende Nacht, wenn die Aussage zutraf, stirbt ein Spieler.",
+    "ability": "Du darfst jeden Tag eine öffentliche Aussage treffen. Die darauffolgende Nacht, wenn die Aussage zutraf, stirbt ein Spieler.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",

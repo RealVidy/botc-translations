@@ -100,19 +100,19 @@
     "team": "outsider"
   },
   {
-    "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night.",
+    "ability": "أنت تعتقد أنك رئيس الأشرار، ولكنك لست كذلك. رئيس الأشرار يعرف من أنت ومن اخترت لقتله في الليل",
     "edition": "bmr",
     "firstNight": 7,
-    "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
+    "firstNightReminder": "إذا كان هناك 7 لاعبين أو أكثر أخبر المعتوه من هم الأشرار في فريقه (سواء أشرار حقيقين أو غيرهم) بنفس عدد الأشرار الموجودين في اللعبة. ,وإذا اختار المعتوه لاعب في الليل لقتله ضع علامة على اللاعب المختار، وأخبر رئيس الأشرار الحقيقي باختيار المعتوه، ثم أزل العلامة من اللاعب المختار",
     "id": "ar_AR_lunatic",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
-    "name": "Lunatic",
+    "name": "المعتوه",
     "otherNight": 21,
-    "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
+    "otherNightReminder": "إذا اختار المعتوه لاعب في الليل لقتله ضع علامة على اللاعب المختار، وأخبر رئيس الأشرار الحقيقي باختيار المعتوه، ثم أزل العلامة من اللاعب المختار",
     "reminders": [
-      "Attack 1",
-      "Attack 2",
-      "Attack 3"
+      "اعتداء 1",
+      "اعتداء 2",
+      "اعتداء 3"
     ],
     "setup": false,
     "team": "outsider"
@@ -148,18 +148,18 @@
     "team": "minion"
   },
   {
-    "ability": "Each night*, if no-one died today, choose a player: they die. The 1st time you die, you live but register as dead.",
+    "ability": "في كل ليلة، إذا لم يمت أي لاعب في النهار، اختار لاعب يقتل. عندما تُقتل أول مرة فإنك لاتموت ولكن يظهر للاعبين أنك ميت",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_zombuul",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/zombuul.png?raw=true",
-    "name": "Zombuul",
+    "name": "زومبول",
     "otherNight": 25,
-    "otherNightReminder": "If no-one died during the day: The Zombuul points to a player. That player dies.",
+    "otherNightReminder": "إذا لم يمت أي لاعب في النهار يختار الزومبول لاعب فيقتله",
     "reminders": [
-      "Dead",
-      "Died today"
+      "مات اليوم",
+      "ميت"
     ],
     "setup": false,
     "team": "demon"

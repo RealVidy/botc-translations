@@ -64,18 +64,18 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, until dusk, 1) a player becomes sober, healthy and gets true info, or 2) their ability works twice. They learn which.",
+    "ability": "في كل ليلة حتى المساء التالي، 1) أحد اللاعبين يصبح سليم ومعافى، أو 2) أحد اللاعبين تصبح ميزته مضاعفة.  وهذا اللاعب يعرف هذه الميزة التي حصل عليها بسبب الباريستا",
     "edition": "snv",
     "firstNight": 1,
-    "firstNightReminder": "Choose a player, wake them and tell them which Barista power is affecting them. Treat them accordingly (sober/healthy/true info or activate their ability twice).",
+    "firstNightReminder": "اختار لاعب وأخبره الميزة التي حصل عليها بسبب الباريستا. تعامل معه على أساس هذه الميزة (سليم/صحي/معلومة صحيحة أو تصبح ميزته مضاعفة)",
     "id": "ar_AR_barista",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/barista.png?raw=true",
-    "name": "Barista",
+    "name": "الباريستا",
     "otherNight": 1,
-    "otherNightReminder": "Choose a player, wake them and tell them which Barista power is affecting them. Treat them accordingly (sober/healthy/true info or activate their ability twice).",
+    "otherNightReminder": "اختار لاعب وأخبره الميزة التي حصل عليها بسبب الباريستا. تعامل معه على أساس هذه الميزة (سليم/صحي/معلومة صحيحة أو تصبح ميزته مضاعفة)",
     "reminders": [
-      "Ability twice",
-      "Sober & Healthy"
+      "سليم & صحي",
+      "ميزة مضاعفة"
     ],
     "setup": false,
     "team": "traveler"
@@ -112,18 +112,18 @@
     "team": "traveler"
   },
   {
-    "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.",
+    "ability": "يصبح لديك ميزة آخر لاعب مُعدم، وإذا كان هذا اللاعب من الأشرار تصبح مسمم إلى أن يعدم لاعب من الطيبين",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_cannibal",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cannibal.png?raw=true",
-    "name": "Cannibal",
+    "name": "آكل لحوم البشر",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Died today",
-      "Poisoned"
+      "مات اليوم",
+      "مسمم"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -207,50 +207,50 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, choose a player & guess their character: if you guess wrong, you die.",
+    "ability": "في كل ليلة، اختار لاعب وخمن شخصيته، إذا كان تخمينك خاطئ تموت",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ar_AR_gambler",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gambler.png?raw=true",
-    "name": "Gambler",
+    "name": "المقامر",
     "otherNight": 11,
-    "otherNightReminder": "The Gambler points to a player, and a character on their sheet. If incorrect, the Gambler dies.",
+    "otherNightReminder": "المقامر يختار لاعب ويخمن شخصيته، إذا كان تخمينه خاطئ يموت",
     "reminders": [
-      "Dead"
+      "ميت"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "You start knowing which Outsiders are in play. If 1 died today, choose a player tonight: they die. [−1 or +1 Outsider]",
+    "ability": "في أول ليلة فقط، المنظم يخبرك من هم شخصيات الغرباء الموجودين في اللعبة، وإذا مات أحدهم بالنهار اختار لاعب بالليل فيموت [+1 أو -1 غرباء]",
     "edition": "bmr",
     "firstNight": 21,
-    "firstNightReminder": "Show each of the Outsider tokens in play.",
+    "firstNightReminder": "أخبر العراب من هم شخصيات الغرباء الموجودون في اللعبة",
     "id": "ar_AR_godfather",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/godfather.png?raw=true",
-    "name": "Godfather",
+    "name": "العراب",
     "otherNight": 38,
-    "otherNightReminder": "If an Outsider died today: The Godfather points to a player. That player dies.",
+    "otherNightReminder": "إذا مات أحد اللاعبين الغرباء، أوقظ العراب ليختار أحد اللاعبين فيموت",
     "reminders": [
-      "Dead",
-      "Died today"
+      "مات اليوم",
+      "ميت"
     ],
     "setup": true,
     "team": "minion"
   },
   {
-    "ability": "You start knowing a good player & their character. If the Demon kills them, you die too.",
+    "ability": "المنظم يخبرك اسم لاعب من الطيبين (الحفيد) وشخصيته، إذا قتل هذا اللاعب ليلا بواسطة رئيس الأشرار تموت أنت كذلك",
     "edition": "bmr",
     "firstNight": 39,
-    "firstNightReminder": "Show the marked character token. Point to the marked player.",
+    "firstNightReminder": "اختار لاعب وضع علامة الحفيد عليه",
     "id": "ar_AR_grandmother",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/grandmother.png?raw=true",
-    "name": "Grandmother",
+    "name": "الجدة",
     "otherNight": 50,
-    "otherNightReminder": "If the Grandmother’s grandchild was killed by the Demon tonight: The Grandmother dies.",
+    "otherNightReminder": "إذا قتل الحفيد ليلا بواسطة رئيس الأشرار تموت الجدة",
     "reminders": [
-      "Grandchild"
+      "الحفيد"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -305,19 +305,19 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night.",
+    "ability": "أنت تعتقد أنك رئيس الأشرار، ولكنك لست كذلك. رئيس الأشرار يعرف من أنت ومن اخترت لقتله في الليل",
     "edition": "bmr",
     "firstNight": 7,
-    "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
+    "firstNightReminder": "إذا كان هناك 7 لاعبين أو أكثر أخبر المعتوه من هم الأشرار في فريقه (سواء أشرار حقيقين أو غيرهم) بنفس عدد الأشرار الموجودين في اللعبة. ,وإذا اختار المعتوه لاعب في الليل لقتله ضع علامة على اللاعب المختار، وأخبر رئيس الأشرار الحقيقي باختيار المعتوه، ثم أزل العلامة من اللاعب المختار",
     "id": "ar_AR_lunatic",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
-    "name": "Lunatic",
+    "name": "المعتوه",
     "otherNight": 21,
-    "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
+    "otherNightReminder": "إذا اختار المعتوه لاعب في الليل لقتله ضع علامة على اللاعب المختار، وأخبر رئيس الأشرار الحقيقي باختيار المعتوه، ثم أزل العلامة من اللاعب المختار",
     "reminders": [
-      "Attack 1",
-      "Attack 2",
-      "Attack 3"
+      "اعتداء 1",
+      "اعتداء 2",
+      "اعتداء 3"
     ],
     "setup": false,
     "team": "outsider"
@@ -458,20 +458,20 @@
     "team": "demon"
   },
   {
-    "ability": "On your 1st night, look at the Grimoire and choose a player: they are poisoned. 1 good player knows a Widow is in play.",
+    "ability": "في أول ليلة، انظر إلى شاشة العرض الرئيسية واختار لاعب يتسمم. أحد اللاعبين الطيبين يعرف أنك موجود في اللعبة",
     "edition": "",
     "firstNight": 18,
-    "firstNightReminder": "Show the Grimoire to the Widow for as long as they need. The Widow points to a player. That player is poisoned. Wake a good player. Show the 'These characters are in play' card, then the Widow character token.",
+    "firstNightReminder": "أظهر شاشة العرض الرئيسية للأرملة. والأرملة يختار لاعب لكي يتسمم. أخبر أحد اللاعبين الطيبين بأن الأرملة موجود في اللعبة",
     "id": "ar_AR_widow",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/widow.png?raw=true",
-    "name": "Widow",
+    "name": "الأرملة",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Poisoned"
+      "مسمم"
     ],
     "remindersGlobal": [
-      "Knows"
+      "يعرف"
     ],
     "setup": false,
     "team": "minion"

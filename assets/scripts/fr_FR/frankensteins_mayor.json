@@ -1,6 +1,6 @@
 [
   {
-    "ability": "La première nuit, le Conteur vous indique combien il y a de joueurs maléfiques assis côte à côte dans la partie.",
+    "ability": "Votre première nuit, le Conteur vous indique combien il y a de joueurs maléfiques assis côte à côte dans la partie.",
     "edition": "tb",
     "firstNight": 35,
     "firstNightReminder": "Donner le nombre de paires de joueurs maléfiques assis côte à côte. Forte suggestion : inclure le Reclus et exclure l'Espion.",
@@ -14,7 +14,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Chaque nuit*, vous apprenez quel est le rôle du joueur qui vient d’être exécuté.",
+    "ability": "Chaque nuit*, vous apprenez quel est le rôle du joueur qui vient d’être exécuté le jour dernier.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -86,7 +86,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Vous êtes généralement reconnu comme étant maléfique (Sbire ou Démon), même si vous êtes mort.",
+    "ability": "Vous pourriez être reconnu comme étant maléfique (Sbire ou Démon), même si vous êtes mort.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -135,7 +135,7 @@
     "team": "minion"
   },
   {
-    "ability": "Chaque nuit, vous voyez le grimoire. Vous êtes généralement reconnu comme étant « Bon » (Villageois ou Étranger), même si vous êtes mort.",
+    "ability": "Chaque nuit, vous voyez le grimoire. Vous pourriez être reconnu comme étant « Bon » (Villageois ou Étranger), même si vous êtes mort.",
     "edition": "tb",
     "firstNight": 48,
     "firstNightReminder": "Se réveille et peut regarder le grimoire.",
@@ -149,7 +149,7 @@
     "team": "minion"
   },
   {
-    "ability": "Chaque nuit*, si personne n’est mort aujourd'hui, choisissez un joueur: il meurt. La première fois que vous mourez, vous restez en vie mais êtes reconnus comme mort.",
+    "ability": "Chaque nuit*, si personne n’est mort aujourd'hui, choisissez un joueur: il meurt. La première fois que vous mourez, vous restez en vie mais êtes reconnu comme mort.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",

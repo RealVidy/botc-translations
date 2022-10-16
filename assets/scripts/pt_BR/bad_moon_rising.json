@@ -263,7 +263,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Se o jogo terminaria com por causa da execução do Demônio, o jogo dura mais 1 dia em vez disso. Se então um jogador for executado, o time dele perde.",
+    "ability": "Se o jogo terminaria por causa da execução do Demônio, o jogo dura mais 1 dia em vez disso. Se, então, um jogador for executado, o time dele perde.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",

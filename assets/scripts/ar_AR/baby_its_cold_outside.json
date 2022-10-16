@@ -327,18 +327,18 @@
     "team": "minion"
   },
   {
-    "ability": "You start knowing which Outsiders are in play. If 1 died today, choose a player tonight: they die. [−1 or +1 Outsider]",
+    "ability": "في أول ليلة فقط، المنظم يخبرك من هم شخصيات الغرباء الموجودين في اللعبة، وإذا مات أحدهم بالنهار اختار لاعب بالليل فيموت [+1 أو -1 غرباء]",
     "edition": "bmr",
     "firstNight": 21,
-    "firstNightReminder": "Show each of the Outsider tokens in play.",
+    "firstNightReminder": "أخبر العراب من هم شخصيات الغرباء الموجودون في اللعبة",
     "id": "ar_AR_godfather",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/godfather.png?raw=true",
-    "name": "Godfather",
+    "name": "العراب",
     "otherNight": 38,
-    "otherNightReminder": "If an Outsider died today: The Godfather points to a player. That player dies.",
+    "otherNightReminder": "إذا مات أحد اللاعبين الغرباء، أوقظ العراب ليختار أحد اللاعبين فيموت",
     "reminders": [
-      "Dead",
-      "Died today"
+      "مات اليوم",
+      "ميت"
     ],
     "setup": true,
     "team": "minion"

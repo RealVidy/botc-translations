@@ -58,20 +58,20 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, at night, choose a character: they are drunk for 3 nights & 3 days.",
+    "ability": "مرة واحدة في اللعبة، اختار شخصية فيصبح ذلك اللاعب مخمور ل 3 ليالي 3 أيام",
     "edition": "bmr",
     "firstNight": 19,
-    "firstNightReminder": "The Courtier either shows a 'no' head signal, or points to a character on the sheet. If the Courtier used their ability: If that character is in play, that player is drunk.",
+    "firstNightReminder": "الحاشية إما يختار شخصية أو يؤجل الاختيار. إذا اختار شخصية وهذه الشخصية موجودة في اللعبة يصبح ذلك اللاعب مخمور",
     "id": "ar_AR_courtier",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/courtier.png?raw=true",
-    "name": "Courtier",
+    "name": "الحاشية",
     "otherNight": 10,
-    "otherNightReminder": "Reduce the remaining number of days the marked player is poisoned. If the Courtier has not yet used their ability: The Courtier either shows a 'no' head signal, or points to a character on the sheet. If the Courtier used their ability: If that character is in play, that player is drunk.",
+    "otherNightReminder": "خفض عدد الأيام للاعب المخمور. وإذا لم يستخدم الحاشية ميزته إسأله إما يختار شخصية أو يؤجل الاختيار. إذا اختار شخصية وهذه الشخصية موجودة في اللعبة يصبح ذلك اللاعب مخمور",
     "reminders": [
-      "Drunk 1",
-      "Drunk 2",
-      "Drunk 3",
-      "No ability"
+      "بدون ميزة",
+      "مخمور1",
+      "مخمور2",
+      "مخمور3"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -91,19 +91,19 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night.",
+    "ability": "أنت تعتقد أنك رئيس الأشرار، ولكنك لست كذلك. رئيس الأشرار يعرف من أنت ومن اخترت لقتله في الليل",
     "edition": "bmr",
     "firstNight": 7,
-    "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
+    "firstNightReminder": "إذا كان هناك 7 لاعبين أو أكثر أخبر المعتوه من هم الأشرار في فريقه (سواء أشرار حقيقين أو غيرهم) بنفس عدد الأشرار الموجودين في اللعبة. ,وإذا اختار المعتوه لاعب في الليل لقتله ضع علامة على اللاعب المختار، وأخبر رئيس الأشرار الحقيقي باختيار المعتوه، ثم أزل العلامة من اللاعب المختار",
     "id": "ar_AR_lunatic",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
-    "name": "Lunatic",
+    "name": "المعتوه",
     "otherNight": 21,
-    "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
+    "otherNightReminder": "إذا اختار المعتوه لاعب في الليل لقتله ضع علامة على اللاعب المختار، وأخبر رئيس الأشرار الحقيقي باختيار المعتوه، ثم أزل العلامة من اللاعب المختار",
     "reminders": [
-      "Attack 1",
-      "Attack 2",
-      "Attack 3"
+      "اعتداء 1",
+      "اعتداء 2",
+      "اعتداء 3"
     ],
     "setup": false,
     "team": "outsider"
@@ -153,7 +153,7 @@
     "team": "minion"
   },
   {
-    "ability": "في كل ليلة اختار لاعب تقتله، بوجودك في اللعبة كل اللاعبين من سكان القرية أصحاب الميزات يحصلون على معلومات مغلوطة، وفي أي يوم إذا لم يتم قتل أحد اللاعبين في النهار بالتصويت يفوز الأشرار",
+    "ability": "في كل ليلة اختار لاعب تقتله، بوجودك في اللعبة كل اللاعبين من سكان القرية أصحاب الميزات يحصلون على معلومات خاطئة، وفي أي يوم إذا لم يتم قتل أحد اللاعبين في النهار بالتصويت يفوز الأشرار",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",

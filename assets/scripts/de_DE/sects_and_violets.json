@@ -49,7 +49,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Einmal im Spiel, wähle einen toten Spieler in der Nacht: der Spieler bekommt seine Fähigkeit bis zum Ende des Tages wieder.",
+    "ability": "Einmal pro Spiel, in der Nacht, wähle einen toten Spieler: der Spieler kann seine Fähigkeit bis Sonnenuntergang verwenden.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -66,7 +66,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Jede Tag nach der ersten Exekution, darfst du einen weiteren Spieler nominieren.",
+    "ability": "Jede Tag nach der ersten Hinrichtung, darfst du einen weiteren Spieler nominieren.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -354,7 +354,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Einmal pro Spiel, in der Nacht, wähle 2 Spieler (nicht dich selbst): du erfährst, ob sie die selbe Gesinnung besitzen (gut oder böse).",
+    "ability": "Einmal pro Spiel, in der Nacht, wähle 2 Spieler (nicht dich selbst): du erfährst, ob sie die selbe Gesinnung besitzen.",
     "edition": "snv",
     "firstNight": 42,
     "firstNightReminder": "Die Schneiderin schüttelt entweder den Kopf (Nein) oder zeigt auf zwei Spieler. Sollte die Schneider Spieler auswählen, nicke (Ja) oder schüttle den Kopf (Nein) wenn die bbeiden Spieler die gleiche Gesinnung haben.",

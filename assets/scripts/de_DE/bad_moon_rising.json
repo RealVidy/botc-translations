@@ -33,7 +33,7 @@
     "team": "minion"
   },
   {
-    "ability": "Nur der Erzähler kann nominieren. Zumindest 1 Spieler der anderen Seite muss nominiert werden.",
+    "ability": "Nur der Erzähler kann nominieren. Mindestens 1 Spieler der anderen Seite muss nominiert werden.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -180,7 +180,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Du triffst jeden Tag eine öffentliche Aussage. Die darauffolgende Nacht, wenn die Aussage zutraf, stirbt ein Spieler.",
+    "ability": "Du darfst jeden Tag eine öffentliche Aussage treffen. Die darauffolgende Nacht, wenn die Aussage zutraf, stirbt ein Spieler.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -283,7 +283,7 @@
     "firstNightReminder": "",
     "id": "de_DE_matron",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/matron.png?raw=true",
-    "name": "Matron",
+    "name": "Oberin",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -453,7 +453,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Nur Du und die Toten können abstimmen. Die Toten brauchen keinen Spielstein zum abstimmen. Eine 50% Mehrheit ist nicht nötig.",
+    "ability": "Nur du und die Toten können abstimmen. Die Toten brauchen keinen Spielstein zum abstimmen. Eine 50% Mehrheit ist nicht nötig.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
