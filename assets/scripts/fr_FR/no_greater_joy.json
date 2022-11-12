@@ -89,18 +89,18 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Vous ne savez pas que vous êtes alcoolique. Vous pensez que vous êtes un Villageois, mais vous ne l’êtes pas.",
+    "ability": "Vous ne savez pas que vous êtes soulard. Vous pensez que vous êtes un Villageois, mais vous ne l’êtes pas.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fr_FR_drunk",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
-    "name": "Alcoolique",
+    "name": "Soulard",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Alcoolique"
+      "Soulard"
     ],
     "setup": true,
     "team": "outsider"
