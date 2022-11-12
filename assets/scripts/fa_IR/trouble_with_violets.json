@@ -293,7 +293,7 @@
     "team": "outsider"
   },
   {
-    "ability": "If you die by execution, your team loses.",
+    "ability": "اگر از طریق اعدام کشته‌شوید، تیم شما بازنده می‌شود.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -307,7 +307,7 @@
     "team": "outsider"
   },
   {
-    "ability": "If a player of your alignment is executed, you might be executed instead.",
+    "ability": "اگر بازیکنی از تیم شما اعدام شود، ممکن است شما به جای او اعدام شوید.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -321,7 +321,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die.",
+    "ability": "یک بار در بازی، در روز، در ملا عام یک بازیکن را انتخاب کنید: اگر او شیطان باشد، می‌میرد.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -337,7 +337,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "شما از شیطان در امانید",
+    "ability": "شما از شیطان در امانید.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -361,13 +361,13 @@
     "otherNight": 1,
     "otherNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
     "reminders": [
-      "Negative vote"
+      "رای منفی"
     ],
     "setup": false,
     "team": "traveler"
   },
   {
-    "ability": "Each night*, you learn which character died by execution today.",
+    "ability": "هر شب*، شما می‌فهمید چه شخصیتی امروز اعدام شده.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -383,13 +383,13 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & poison 1 Townsfolk neighbour. [−1 Outsider]",
+    "ability": "هر شب*، یک بازیکن را انتخاب کنید: او می‌میرد. مریدانی که می‌کشید قابلیت خود را حفظ می‌کنند و ۱ شهروند همسایه خود را مسموم می‌کنند. [-۱ بیگانه]",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fa_IR_vigormortis",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vigormortis.png?raw=true",
-    "name": "Vigormortis",
+    "name": "ویگرمورتیس",
     "otherNight": 32,
     "otherNightReminder": "حتی اگر زنده نباشید، تیم برنده، بازنده، و تیم بازنده، برنده می‌شود.",
     "reminders": [
@@ -401,7 +401,7 @@
     "team": "demon"
   },
   {
-    "ability": "The 1st time you are nominated, if the nominator is a Townsfolk, they are executed immediately.",
+    "ability": "اولین بار که کسی شما را کاندید کند، به شرطی که کاندیدگر شهروند باشد، درلحظه اعدام می‌شود.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -417,15 +417,15 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, choose a player: they die. Townsfolk abilities yield false info. Each day, if no-one is executed, evil wins.",
+    "ability": "هر شب*، یک بازیکن را انتخاب کنید: او می‌میرد. قابلیت‌های شهروندان اطلاعات غلط می‌دهد. هرروز، اگر کسی اعدام نشود، شر برنده می‌شود.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fa_IR_vortox",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vortox.png?raw=true",
-    "name": "Vortox",
+    "name": "گرداب",
     "otherNight": 31,
-    "otherNightReminder": "The Vortox points to a player. That player dies.",
+    "otherNightReminder": "گرداب به یک بازیکن اشاره می‌کند. آن بازیکن می‌میرد.",
     "reminders": [
       "مرده"
     ],
@@ -443,14 +443,14 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Townsfolk",
-      "Wrong"
+      "شهروند",
+      "غلط"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability.",
+    "ability": "هرشب، یک بازیکن را انتخاب کنید: اگر فردا کسی را کاندیدا کند می‌میرد. اگر فقط ۳ بازیکن زنده باشند، این قابلیت را از دست می‌دهید.",
     "edition": "snv",
     "firstNight": 24,
     "firstNightReminder": "The Witch points to a player. If that player nominates tomorrow they die immediately.",

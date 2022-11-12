@@ -6,7 +6,7 @@
     "firstNightReminder": "Point to 1 evil player. Wake the townsfolk who is evil and show them the 'You are' card and the thumbs down evil sign.",
     "id": "hu_HU_bountyhunter",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bountyhunter.png?raw=true",
-    "name": "Bounty Hunter",
+    "name": "Fejvadász",
     "otherNight": 65,
     "otherNightReminder": "If the known evil player has died, point to another evil player.",
     "reminders": [
@@ -36,7 +36,7 @@
     "firstNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
     "id": "hu_HU_cultleader",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cultleader.png?raw=true",
-    "name": "Cult Leader",
+    "name": "Kultista vezető",
     "otherNight": 67,
     "otherNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
     "reminders": [],
@@ -146,7 +146,7 @@
     "firstNightReminder": "The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.",
     "id": "hu_HU_preacher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/preacher.png?raw=true",
-    "name": "Preacher",
+    "name": "Prédikátor",
     "otherNight": 7,
     "otherNightReminder": "The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.",
     "reminders": [
@@ -209,7 +209,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_politician",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/politician.png?raw=true",
-    "name": "Politician",
+    "name": "Politikus",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -264,7 +264,7 @@
     "team": "outsider"
   },
   {
-    "ability": "A játékban egyszer, éjszaka*, válassz egy játékos: meghal még akkor is, ha valamilyen okból nem tudna.",
+    "ability": "A játékban egyszer, éjszaka*, válassz egy játékost: meghal még akkor is, ha valamilyen okból nem tudna.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -274,8 +274,8 @@
     "otherNight": 37,
     "otherNightReminder": "Ha az Orgyilkos még nem használta a képességét: az Orgyilkos vagy 'nem'-et jelez a fejével, vagy egy játékosra mutat. Az a játékos meghal.",
     "reminders": [
-      "Dead",
-      "No ability"
+      "Halott",
+      "Nincs képesség"
     ],
     "setup": false,
     "team": "minion"

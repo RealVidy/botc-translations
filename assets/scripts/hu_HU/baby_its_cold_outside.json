@@ -6,7 +6,7 @@
     "firstNightReminder": "Mutasd az ujjaddal (1, 2, 3, stb.) a Démon és a legközelebbi Csatlósa közötti helyek számát.",
     "id": "hu_HU_clockmaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/clockmaker.png?raw=true",
-    "name": "Órakészítő",
+    "name": "Órásmester",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -37,7 +37,7 @@
     "firstNightReminder": "Point to 3 players including one evil player, in no particular order.",
     "id": "hu_HU_noble",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/noble.png?raw=true",
-    "name": "Noble",
+    "name": "Nemes",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -53,7 +53,7 @@
     "firstNightReminder": "Show the Pixie 1 in-play Townsfolk character token.",
     "id": "hu_HU_pixie",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pixie.png?raw=true",
-    "name": "Pixie",
+    "name": "Tündér",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -128,7 +128,7 @@
     "firstNightReminder": "The Nightwatchman may point to a player. Wake that player, show the 'This character selected you' card and the Nightwatchman token, then point to the Nightwatchman player.",
     "id": "hu_HU_nightwatchman",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/nightwatchman.png?raw=true",
-    "name": "Nightwatchman",
+    "name": "Éjjeli őr",
     "otherNight": 66,
     "otherNightReminder": "The Nightwatchman may point to a player. Wake that player, show the 'This character selected you' card and the Nightwatchman token, then point to the Nightwatchman player.",
     "reminders": [
@@ -154,32 +154,32 @@
     "team": "townsfolk"
   },
   {
-    "ability": "You have a not-in-play Minion ability.",
+    "ability": "Van egy nem játékban lévő Minion képességed.",
     "edition": "",
     "firstNight": 3,
-    "firstNightReminder": "Show the Alchemist a not-in-play Minion token",
+    "firstNightReminder": "Mutass az Alkimistának egy nem játékban lévő Minion képességet.",
     "id": "hu_HU_alchemist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/alchemist.png?raw=true",
-    "name": "Alchemist",
+    "name": "Alkimista",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Is the Alchemist"
+      "Az Alkimista"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are.",
+    "ability": "Nem tudod, hogy mi a képességed. Minden nap, titokban kitalálod, hogy mi az: megtudod, hogy mennyire vagy pontos.",
     "edition": "",
     "firstNight": 12,
-    "firstNightReminder": "Decide the Amnesiac's entire ability. If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
+    "firstNightReminder": "Döntsd el az Amnéziás teljes képességét. Ha az Amnéziás képessége miatt ma este felébred: Ébreszd fel az Amnéziásat, és aktiváljátok a képességét.",
     "id": "hu_HU_amnesiac",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/amnesiac.png?raw=true",
-    "name": "Amnesiac",
+    "name": "Amnéziás",
     "otherNight": 5,
-    "otherNightReminder": "If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
+    "otherNightReminder": "Ha az Amnéziás képessége miatt ma este felébred: Ébreszd fel az Amnéziásat, és aktiváljátok a képességét.",
     "reminders": [
       "?"
     ],
@@ -193,7 +193,7 @@
     "firstNightReminder": "Do not inform the Demon/Minions who each other are",
     "id": "hu_HU_poppygrower",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poppygrower.png?raw=true",
-    "name": "Poppy Grower",
+    "name": "Máktermelő",
     "otherNight": 3,
     "otherNightReminder": "If the Poppy Grower has died, show the Minions/Demon who each other are.",
     "reminders": [
@@ -254,7 +254,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_sweetheart",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sweetheart.png?raw=true",
-    "name": "Sweetheart",
+    "name": "Édesem",
     "otherNight": 41,
     "otherNightReminder": "Choose a player that is drunk.",
     "reminders": [

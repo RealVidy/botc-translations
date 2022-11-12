@@ -1,14 +1,14 @@
 [
   {
-    "ability": "You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are.",
+    "ability": "Nem tudod, hogy mi a képességed. Minden nap, titokban kitalálod, hogy mi az: megtudod, hogy mennyire vagy pontos.",
     "edition": "",
     "firstNight": 12,
-    "firstNightReminder": "Decide the Amnesiac's entire ability. If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
+    "firstNightReminder": "Döntsd el az Amnéziás teljes képességét. Ha az Amnéziás képessége miatt ma este felébred: Ébreszd fel az Amnéziásat, és aktiváljátok a képességét.",
     "id": "hu_HU_amnesiac",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/amnesiac.png?raw=true",
-    "name": "Amnesiac",
+    "name": "Amnéziás",
     "otherNight": 5,
-    "otherNightReminder": "If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
+    "otherNightReminder": "Ha az Amnéziás képessége miatt ma este felébred: Ébreszd fel az Amnéziásat, és aktiváljátok a képességét.",
     "reminders": [
       "?"
     ],
@@ -38,7 +38,7 @@
     "firstNightReminder": "Point to 1 evil player. Wake the townsfolk who is evil and show them the 'You are' card and the thumbs down evil sign.",
     "id": "hu_HU_bountyhunter",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bountyhunter.png?raw=true",
-    "name": "Bounty Hunter",
+    "name": "Fejvadász",
     "otherNight": 65,
     "otherNightReminder": "If the known evil player has died, point to another evil player.",
     "reminders": [
@@ -54,7 +54,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_cannibal",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cannibal.png?raw=true",
-    "name": "Cannibal",
+    "name": "Kannibál",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -101,7 +101,7 @@
     "firstNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
     "id": "hu_HU_cultleader",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cultleader.png?raw=true",
-    "name": "Cult Leader",
+    "name": "Kultista vezető",
     "otherNight": 67,
     "otherNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
     "reminders": [],
@@ -177,7 +177,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_fisherman",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fisherman.png?raw=true",
-    "name": "Fisherman",
+    "name": "Halász",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -227,7 +227,7 @@
     "firstNightReminder": "Select one of the good players next to the Demon and place the Is the Marionette reminder token. Wake the Demon and show them the Marionette.",
     "id": "hu_HU_marionette",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/marionette.png?raw=true",
-    "name": "Marionette",
+    "name": "Marionett",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -288,7 +288,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_politician",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/politician.png?raw=true",
-    "name": "Politician",
+    "name": "Politikus",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -302,7 +302,7 @@
     "firstNightReminder": "The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.",
     "id": "hu_HU_preacher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/preacher.png?raw=true",
-    "name": "Preacher",
+    "name": "Prédikátor",
     "otherNight": 7,
     "otherNightReminder": "The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.",
     "reminders": [

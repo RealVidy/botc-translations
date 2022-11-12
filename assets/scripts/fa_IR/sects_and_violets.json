@@ -124,7 +124,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Each night, choose a player (not yourself or Travellers): you learn 1 good and 1 evil character, 1 of which is correct.",
+    "ability": "هر شب، یک بازیکن را انتخاب کنید (بجز خودتان یا مسافران): شما یک شخصیت خیر و یک شخصیت شر دریافت می‌کنید. یکی از این دو صحیح است.",
     "edition": "snv",
     "firstNight": 41,
     "firstNightReminder": "The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.",
@@ -204,7 +204,7 @@
     "team": "traveler"
   },
   {
-    "ability": "On your 1st day, publicly guess up to 5 players' characters. That night, you learn how many you got correct.",
+    "ability": "در اولین روز بازیتان، در ملا عام شخصیت ۵ نفر را حدث بزنید. در شب، شما می‌فهمید چه تعدادی از حدث‌های شما صحیح بوده.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -220,7 +220,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "When you learn that you died, publicly choose 1 alive player: if they are evil, your team loses.",
+    "ability": "هر شب، اگر تعداد بازیکنان مرده از زنده بیشتر باشد، شما ۱ شخصیت زنده را می‌فهمید. شیطان می‌داند شما کی هستید.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -326,7 +326,7 @@
     "team": "minion"
   },
   {
-    "ability": "If the Demon kills you, you learn that it is 1 of 2 players.",
+    "ability": "اگر شیطان شما را بکشد، شما می‌فهمید یکی از دو نفر است.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -340,7 +340,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false.",
+    "ability": "هر روز، شما می‌توانید به صورت خصوصی از قصه‌گو دو مطلب بیاموزید: ۱ حقیقت و ۱ دروغ.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -370,7 +370,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, choose an alive player: a chosen Demon swaps characters & alignments with you & is then poisoned.",
+    "ability": "هر شب، یک بازیکن زنده را انتخاب کنید: اگر شیطان باشد شخصیت و تیمتان با هم عوض می‌شود و سپس مسموم می‌شود.",
     "edition": "snv",
     "firstNight": 20,
     "firstNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
@@ -412,20 +412,20 @@
     "otherNight": 59,
     "otherNightReminder": "Nod 'yes' or shake head 'no' for whether a Minion nominated today. Place the 'Minion not nominated' marker (remove 'Minion nominated', if any).",
     "reminders": [
-      "Minion nominated",
-      "Minions not nominated"
+      "مریدان نامزد نکرده‌اند",
+      "مریدان نامزد کرده‌اند"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & poison 1 Townsfolk neighbour. [−1 Outsider]",
+    "ability": "هر شب*، یک بازیکن را انتخاب کنید: او می‌میرد. مریدانی که می‌کشید قابلیت خود را حفظ می‌کنند و ۱ شهروند همسایه خود را مسموم می‌کنند. [-۱ بیگانه]",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fa_IR_vigormortis",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vigormortis.png?raw=true",
-    "name": "Vigormortis",
+    "name": "ویگرمورتیس",
     "otherNight": 32,
     "otherNightReminder": "حتی اگر زنده نباشید، تیم برنده، بازنده، و تیم بازنده، برنده می‌شود.",
     "reminders": [
@@ -437,15 +437,15 @@
     "team": "demon"
   },
   {
-    "ability": "Each night*, choose a player: they die. Townsfolk abilities yield false info. Each day, if no-one is executed, evil wins.",
+    "ability": "هر شب*، یک بازیکن را انتخاب کنید: او می‌میرد. قابلیت‌های شهروندان اطلاعات غلط می‌دهد. هرروز، اگر کسی اعدام نشود، شر برنده می‌شود.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fa_IR_vortox",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vortox.png?raw=true",
-    "name": "Vortox",
+    "name": "گرداب",
     "otherNight": 31,
-    "otherNightReminder": "The Vortox points to a player. That player dies.",
+    "otherNightReminder": "گرداب به یک بازیکن اشاره می‌کند. آن بازیکن می‌میرد.",
     "reminders": [
       "مرده"
     ],
@@ -453,7 +453,7 @@
     "team": "demon"
   },
   {
-    "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability.",
+    "ability": "هرشب، یک بازیکن را انتخاب کنید: اگر فردا کسی را کاندیدا کند می‌میرد. اگر فقط ۳ بازیکن زنده باشند، این قابلیت را از دست می‌دهید.",
     "edition": "snv",
     "firstNight": 24,
     "firstNightReminder": "The Witch points to a player. If that player nominates tomorrow they die immediately.",

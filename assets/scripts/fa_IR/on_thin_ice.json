@@ -66,7 +66,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die.",
+    "ability": "یک بار در بازی، در روز، در ملا عام یک بازیکن را انتخاب کنید: اگر او شیطان باشد، می‌میرد.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -82,7 +82,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "The 1st time you are nominated, if the nominator is a Townsfolk, they are executed immediately.",
+    "ability": "اولین بار که کسی شما را کاندید کند، به شرطی که کاندیدگر شهروند باشد، درلحظه اعدام می‌شود.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -98,7 +98,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "When you learn that you died, publicly choose 1 alive player: if they are evil, your team loses.",
+    "ability": "هر شب، اگر تعداد بازیکنان مرده از زنده بیشتر باشد، شما ۱ شخصیت زنده را می‌فهمید. شیطان می‌داند شما کی هستید.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -175,7 +175,7 @@
     "team": "demon"
   },
   {
-    "ability": "There might be 1 extra or 1 fewer Outsider in-play.",
+    "ability": "ممکن است ۱ بیگانه بیشتر یا کمتر در بازی باشد.",
     "id": "fa_IR_sentinel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
     "name": "کشیک",

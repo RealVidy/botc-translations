@@ -222,7 +222,7 @@
     "otherNight": 48,
     "otherNightReminder": "The Tinker might die.",
     "reminders": [
-      "Dead"
+      "مرده"
     ],
     "setup": false,
     "team": "outsider"
@@ -312,7 +312,7 @@
     "team": "minion"
   },
   {
-    "ability": "Each night, choose a player. If you nominate & execute them, their team loses. All players know if you choose a new player.",
+    "ability": "هرشب، یک بازیکن را انتخاب کنید. اگر شما او را کاندید و اعدام کنید، تیم او می‌بازد. همه بازیکنان می‌فهمند که شما یک بازیکن جدید را انتخاب کردید.",
     "edition": "",
     "firstNight": 26,
     "firstNightReminder": "The Fearmonger points to a player. Place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",
@@ -345,7 +345,7 @@
     "team": "minion"
   },
   {
-    "ability": "Each night, Minions choose who babysits Lil' Monsta's token & \"is the Demon\". A player dies each night*. [+1 Minion]",
+    "ability": "هر شب، مریدان تصمیم می‌گیرند چه کسی از هیولا کوچولو نگهداری کند. او شیطان می‌شود. هر شب* یک بازیکن می‌میرد. [+۱ مرید]",
     "edition": "",
     "firstNight": 16,
     "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",
@@ -363,13 +363,13 @@
     "team": "demon"
   },
   {
-    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & poison 1 Townsfolk neighbour. [−1 Outsider]",
+    "ability": "هر شب*، یک بازیکن را انتخاب کنید: او می‌میرد. مریدانی که می‌کشید قابلیت خود را حفظ می‌کنند و ۱ شهروند همسایه خود را مسموم می‌کنند. [-۱ بیگانه]",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fa_IR_vigormortis",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vigormortis.png?raw=true",
-    "name": "Vigormortis",
+    "name": "ویگرمورتیس",
     "otherNight": 32,
     "otherNightReminder": "حتی اگر زنده نباشید، تیم برنده، بازنده، و تیم بازنده، برنده می‌شود.",
     "reminders": [
@@ -381,7 +381,7 @@
     "team": "demon"
   },
   {
-    "ability": "Each night*, choose a player: they die. You start by choosing an alive player: they are poisoned - you die if & only if they die.",
+    "ability": "هر شب*، یک بازیکن را انتخاب کنید: او می‌میرد. شما در ابتدا یک بازیکن زنده را انتخاب می‌کنید: او مسموم می‌شود. شما فقط در صورت مرگ او می‌میرید.",
     "edition": "",
     "firstNight": 15,
     "firstNightReminder": "The Lleech points to a player. Place the Poisoned reminder token.",

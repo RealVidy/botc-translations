@@ -10,7 +10,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "Nincs képesség"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -55,7 +55,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_bonecollector",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bonecollector.png?raw=true",
-    "name": "Bone Collector",
+    "name": "Csontgyűjtő",
     "otherNight": 1,
     "otherNightReminder": "The Bone Collector either shakes their head no or points at any dead player. If they pointed at any dead player, put the Bone Collector's 'Has Ability' reminder by the chosen player's character token. (They may need to be woken tonight to use it.)",
     "reminders": [
@@ -72,7 +72,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_butcher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/butcher.png?raw=true",
-    "name": "Butcher",
+    "name": "Hentes",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -102,7 +102,7 @@
     "firstNightReminder": "Mutasd az ujjaddal (1, 2, 3, stb.) a Démon és a legközelebbi Csatlósa közötti helyek számát.",
     "id": "hu_HU_clockmaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/clockmaker.png?raw=true",
-    "name": "Órakészítő",
+    "name": "Órásmester",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -116,7 +116,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_deviant",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/deviant.png?raw=true",
-    "name": "Deviant",
+    "name": "Deviáns",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -194,7 +194,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_harlot",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/harlot.png?raw=true",
-    "name": "Harlot",
+    "name": "Szajha",
     "otherNight": 1,
     "otherNightReminder": "The Harlot points at any player. Then, put the Harlot to sleep. Wake the chosen player, show them the 'This character selected you' token, then the Harlot token. That player either nods their head yes or shakes their head no. If they nodded their head yes, wake the Harlot and show them the chosen player's character token. Then, you may decide that both players die.",
     "reminders": [
@@ -392,7 +392,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_sweetheart",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sweetheart.png?raw=true",
-    "name": "Sweetheart",
+    "name": "Édesem",
     "otherNight": 41,
     "otherNightReminder": "Choose a player that is drunk.",
     "reminders": [
@@ -425,7 +425,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_vigormortis",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vigormortis.png?raw=true",
-    "name": "Vigormortis",
+    "name": "Élőhalott",
     "otherNight": 32,
     "otherNightReminder": "The Vigormortis points to a player. That player dies. If a Minion, they keep their ability and one of their Townsfolk neighbours is poisoned.",
     "reminders": [

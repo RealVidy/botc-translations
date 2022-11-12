@@ -205,7 +205,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, choose a player (not yourself or Travellers): you learn 1 good and 1 evil character, 1 of which is correct.",
+    "ability": "هر شب، یک بازیکن را انتخاب کنید (بجز خودتان یا مسافران): شما یک شخصیت خیر و یک شخصیت شر دریافت می‌کنید. یکی از این دو صحیح است.",
     "edition": "snv",
     "firstNight": 41,
     "firstNightReminder": "The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.",
@@ -249,7 +249,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, choose a player (different to last night): the Demon, if chosen, learns who you are then doesn't wake tonight.",
+    "ability": "هر شب*، یک بازیکن را انتخاب کنید (متفاوت با شب قبل): اگر شیطان را انتخاب کنید، او می‌فهمند شما کی هستید و امشب بیدار نمی‌شود.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -265,7 +265,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "If you die at night, an alive good player becomes a Farmer.",
+    "ability": "اگر در شب کشته شوید، یک بازیکن زنده خیر کشاورز می‌شود.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -279,7 +279,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, during the day, visit the Storyteller for some advice to help you win.",
+    "ability": "یکبار در بازی، در طول روز، پیش قصه‌گو بروید تا توصیه‌ای برای بردن بازی به شما داده شود.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -455,7 +455,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "On your 1st day, publicly guess up to 5 players' characters. That night, you learn how many you got correct.",
+    "ability": "در اولین روز بازیتان، در ملا عام شخصیت ۵ نفر را حدث بزنید. در شب، شما می‌فهمید چه تعدادی از حدث‌های شما صحیح بوده.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -751,7 +751,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "If the Demon kills you, you learn that it is 1 of 2 players.",
+    "ability": "اگر شیطان شما را بکشد، شما می‌فهمید یکی از دو نفر است.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -781,7 +781,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false.",
+    "ability": "هر روز، شما می‌توانید به صورت خصوصی از قصه‌گو دو مطلب بیاموزید: ۱ حقیقت و ۱ دروغ.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -811,7 +811,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die.",
+    "ability": "یک بار در بازی، در روز، در ملا عام یک بازیکن را انتخاب کنید: اگر او شیطان باشد، می‌میرد.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -827,7 +827,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, choose an alive player: a chosen Demon swaps characters & alignments with you & is then poisoned.",
+    "ability": "هر شب، یک بازیکن زنده را انتخاب کنید: اگر شیطان باشد شخصیت و تیمتان با هم عوض می‌شود و سپس مسموم می‌شود.",
     "edition": "snv",
     "firstNight": 20,
     "firstNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
@@ -843,7 +843,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "شما از شیطان در امانید",
+    "ability": "شما از شیطان در امانید.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -883,14 +883,14 @@
     "otherNight": 59,
     "otherNightReminder": "Nod 'yes' or shake head 'no' for whether a Minion nominated today. Place the 'Minion not nominated' marker (remove 'Minion nominated', if any).",
     "reminders": [
-      "Minion nominated",
-      "Minions not nominated"
+      "مریدان نامزد نکرده‌اند",
+      "مریدان نامزد کرده‌اند"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, you learn which character died by execution today.",
+    "ability": "هر شب*، شما می‌فهمید چه شخصیتی امروز اعدام شده.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -906,7 +906,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "The 1st time you are nominated, if the nominator is a Townsfolk, they are executed immediately.",
+    "ability": "اولین بار که کسی شما را کاندید کند، به شرطی که کاندیدگر شهروند باشد، درلحظه اعدام می‌شود.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -932,8 +932,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Townsfolk",
-      "Wrong"
+      "شهروند",
+      "غلط"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -1066,7 +1066,7 @@
     "team": "outsider"
   },
   {
-    "ability": "When you learn that you died, publicly choose 1 alive player: if they are evil, your team loses.",
+    "ability": "هر شب، اگر تعداد بازیکنان مرده از زنده بیشتر باشد، شما ۱ شخصیت زنده را می‌فهمید. شیطان می‌داند شما کی هستید.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -1173,7 +1173,7 @@
     "team": "outsider"
   },
   {
-    "ability": "If you die by execution, your team loses.",
+    "ability": "اگر از طریق اعدام کشته‌شوید، تیم شما بازنده می‌شود.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -1187,7 +1187,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Minions start knowing 3 not-in-play characters.",
+    "ability": "مریدان در ابتدا ۳ شخصیت خارج از بازی را می‌دانند.",
     "edition": "",
     "firstNight": 6,
     "firstNightReminder": "After Minion info wake each Minion and show them three not-in-play character tokens. These may be the same or different to each other and the ones shown to the Demon.",
@@ -1227,7 +1227,7 @@
     "otherNight": 48,
     "otherNightReminder": "The Tinker might die.",
     "reminders": [
-      "Dead"
+      "مرده"
     ],
     "setup": false,
     "team": "outsider"
@@ -1326,7 +1326,7 @@
     "team": "minion"
   },
   {
-    "ability": "Each night, choose a player. If you nominate & execute them, their team loses. All players know if you choose a new player.",
+    "ability": "هرشب، یک بازیکن را انتخاب کنید. اگر شما او را کاندید و اعدام کنید، تیم او می‌بازد. همه بازیکنان می‌فهمند که شما یک بازیکن جدید را انتخاب کردید.",
     "edition": "",
     "firstNight": 26,
     "firstNightReminder": "The Fearmonger points to a player. Place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",
@@ -1467,7 +1467,7 @@
     "team": "minion"
   },
   {
-    "ability": "If there are 5 or more players alive & the Demon dies, you become the Demon. (Travellers don’t count)",
+    "ability": "اگر ۵ بازیکن یا بیشتر زنده باشند و شیطان بمیرد، شما شیطان می‌شوید. (مسافران شمرده نمی‌شوند)",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -1477,13 +1477,13 @@
     "otherNight": 20,
     "otherNightReminder": "If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",
     "reminders": [
-      "Demon"
+      "شیطان"
     ],
     "setup": false,
     "team": "minion"
   },
   {
-    "ability": "Each night, you see the Grimoire. You might register as good & as a Townsfolk or Outsider, even if dead.",
+    "ability": "هر شب، شما کتاب جادو را می‌بینید. شما ممکن است به نظر خیر و شهروند یا بیگانه به نظر بیایید، حتی اگر مرده باشید.",
     "edition": "tb",
     "firstNight": 48,
     "firstNightReminder": "Show the Grimoire to the Spy for as long as they need.",
@@ -1497,7 +1497,7 @@
     "team": "minion"
   },
   {
-    "ability": "On your 1st night, look at the Grimoire and choose a player: they are poisoned. 1 good player knows a Widow is in play.",
+    "ability": "در شب اولتان، کتاب جادو را نگاه کنید و یک بازیکن را انتخاب کنید: او مسموم می‌شود. ۱ بازیکن خیر می‌داند که بیوه در بازی است.",
     "edition": "",
     "firstNight": 18,
     "firstNightReminder": "Show the Grimoire to the Widow for as long as they need. The Widow points to a player. That player is poisoned. Wake a good player. Show the 'These characters are in play' card, then the Widow character token.",
@@ -1516,7 +1516,7 @@
     "team": "minion"
   },
   {
-    "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability.",
+    "ability": "هرشب، یک بازیکن را انتخاب کنید: اگر فردا کسی را کاندیدا کند می‌میرد. اگر فقط ۳ بازیکن زنده باشند، این قابلیت را از دست می‌دهید.",
     "edition": "snv",
     "firstNight": 24,
     "firstNightReminder": "The Witch points to a player. If that player nominates tomorrow they die immediately.",
@@ -1585,7 +1585,7 @@
     "team": "demon"
   },
   {
-    "ability": "Each night*, a player might die. Executions fail if only evil voted. You register as a Minion too. [Most players are Legion]",
+    "ability": "هر شب*، یک بازیکن ممکن است بمیرد. اگر تمام رای‌ها برای اعدام از تیم شر باشد اعدام موفقیت‌امیز نخواهد بود. شما مرید هم به نظر می‌آیید. [اکثر بازیکنان لژیون هستند]",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -1602,7 +1602,7 @@
     "team": "demon"
   },
   {
-    "ability": "If more than 1 good player is executed, you win. All players know you are in play. After day 5, evil wins.",
+    "ability": "اگر بیشتر از ۱ بازیکن خیر اعدام شود، شما برنده می‌شوید. همه بازیکنان می‌دانند شما در بازی هستید. بعد از ۵ روز تیم شر برنده می‌شود.",
     "edition": "",
     "firstNight": 53,
     "firstNightReminder": "Place the Leviathan 'Day 1' marker. Announce 'The Leviathan is in play; this is Day 1.'",
@@ -1623,7 +1623,7 @@
     "team": "demon"
   },
   {
-    "ability": "Each night, Minions choose who babysits Lil' Monsta's token & \"is the Demon\". A player dies each night*. [+1 Minion]",
+    "ability": "هر شب، مریدان تصمیم می‌گیرند چه کسی از هیولا کوچولو نگهداری کند. او شیطان می‌شود. هر شب* یک بازیکن می‌میرد. [+۱ مرید]",
     "edition": "",
     "firstNight": 16,
     "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",
@@ -1641,7 +1641,7 @@
     "team": "demon"
   },
   {
-    "ability": "Each night*, choose a player: they die. You start by choosing an alive player: they are poisoned - you die if & only if they die.",
+    "ability": "هر شب*، یک بازیکن را انتخاب کنید: او می‌میرد. شما در ابتدا یک بازیکن زنده را انتخاب می‌کنید: او مسموم می‌شود. شما فقط در صورت مرگ او می‌میرید.",
     "edition": "",
     "firstNight": 15,
     "firstNightReminder": "The Lleech points to a player. Place the Poisoned reminder token.",
@@ -1723,7 +1723,7 @@
     "team": "demon"
   },
   {
-    "ability": "Each night*, choose 2 players: they die. A dead player you chose last night might be regurgitated.",
+    "ability": "هر شب*، ۲ بازیکن را انتخاب کنید: آنها می‌میرند. ممکن است یکی از بازیکنانی که شب قبل انتخاب کرده بودید را بالا بیاورید.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -1733,20 +1733,20 @@
     "otherNight": 27,
     "otherNightReminder": "One player that the Shabaloth chose the previous night might be resurrected. The Shabaloth points to two players. Those players die.",
     "reminders": [
-      "Alive",
-      "Dead"
+      "زنده",
+      "مرده"
     ],
     "setup": false,
     "team": "demon"
   },
   {
-    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & poison 1 Townsfolk neighbour. [−1 Outsider]",
+    "ability": "هر شب*، یک بازیکن را انتخاب کنید: او می‌میرد. مریدانی که می‌کشید قابلیت خود را حفظ می‌کنند و ۱ شهروند همسایه خود را مسموم می‌کنند. [-۱ بیگانه]",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fa_IR_vigormortis",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vigormortis.png?raw=true",
-    "name": "Vigormortis",
+    "name": "ویگرمورتیس",
     "otherNight": 32,
     "otherNightReminder": "حتی اگر زنده نباشید، تیم برنده، بازنده، و تیم بازنده، برنده می‌شود.",
     "reminders": [
@@ -1758,15 +1758,15 @@
     "team": "demon"
   },
   {
-    "ability": "Each night*, choose a player: they die. Townsfolk abilities yield false info. Each day, if no-one is executed, evil wins.",
+    "ability": "هر شب*، یک بازیکن را انتخاب کنید: او می‌میرد. قابلیت‌های شهروندان اطلاعات غلط می‌دهد. هرروز، اگر کسی اعدام نشود، شر برنده می‌شود.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fa_IR_vortox",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vortox.png?raw=true",
-    "name": "Vortox",
+    "name": "گرداب",
     "otherNight": 31,
-    "otherNightReminder": "The Vortox points to a player. That player dies.",
+    "otherNightReminder": "گرداب به یک بازیکن اشاره می‌کند. آن بازیکن می‌میرد.",
     "reminders": [
       "مرده"
     ],
@@ -1784,8 +1784,8 @@
     "otherNight": 25,
     "otherNightReminder": "If no-one died during the day: The Zombuul points to a player. That player dies.",
     "reminders": [
-      "Dead",
-      "Died today"
+      "امروز مرده",
+      "مرده"
     ],
     "setup": false,
     "team": "demon"
@@ -1960,7 +1960,7 @@
     "team": "traveler"
   },
   {
-    "ability": "Once per game, if another player nominated, you may choose to force the current execution to pass or fail.",
+    "ability": "یکبار در بازی، اگر بازیکن دیگری کاندید شود، شما می‌توانید تصمیم بگیرید که نتیجه رای‌گیری چه باشد.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -1990,7 +1990,7 @@
     "team": "traveler"
   },
   {
-    "ability": "If a player of your alignment is executed, you might be executed instead.",
+    "ability": "اگر بازیکنی از تیم شما اعدام شود، ممکن است شما به جای او اعدام شوید.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -2014,7 +2014,7 @@
     "otherNight": 1,
     "otherNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
     "reminders": [
-      "Negative vote"
+      "رای منفی"
     ],
     "setup": false,
     "team": "traveler"
@@ -2087,7 +2087,7 @@
     "team": "fabled"
   },
   {
-    "ability": "Once per game, the Demon secretly chooses an opposing player: all players choose which of these 2 players win.",
+    "ability": "یکبار در بازی، شیطان مخفیانه یک بازیکن خیر را انتخاب می‌کند: همه بازیکنان انتخاب می‌کنند کدام یک از این دو برنده شوند.",
     "id": "fa_IR_fiddler",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fiddler.png?raw=true",
     "name": "کمانچه‌نواز",
@@ -2114,19 +2114,19 @@
     "team": "fabled"
   },
   {
-    "ability": "There might be 1 extra or 1 fewer Outsider in-play.",
+    "ability": "ممکن است ۱ بیگانه بیشتر یا کمتر در بازی باشد.",
     "id": "fa_IR_sentinel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
     "name": "کشیک",
     "team": "fabled"
   },
   {
-    "ability": "There can't be more than 1 extra evil player.",
+    "ability": "بیشتر از ۱ بازیکن اضافه شر نمی‌تواند وجود داشته باشد.",
     "id": "fa_IR_spiritofivory",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spiritofivory.png?raw=true",
     "name": "روح پاک",
     "reminders": [
-      "No extra evil"
+      "شر بیشتر ممنوع"
     ],
     "team": "fabled"
   },
@@ -2134,19 +2134,19 @@
     "ability": "یک شخصیت خیر را نام ببرید. اگر در بازی باشد، او فقط از طریق اعدام می‌تواند بمیرد ولی تیم شر آن بازیکن را می‌شناسد.",
     "id": "fa_IR_stormcatcher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/stormcatcher.png?raw=true",
-    "name": "Storm Catcher",
+    "name": "طوفان‌گیر",
     "reminders": [
-      "Safe"
+      "امن"
     ],
     "team": "fabled"
   },
   {
-    "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info.",
+    "ability": "شیطان می‌تواند انتخاب کند که به کسی حمله نکند و باید حداقل یک‌بار در بازی این کار را انجام دهد. بازیکنان شر اطلاعات شروع عادی را دریافت می‌کنند.",
     "id": "fa_IR_toymaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/toymaker.png?raw=true",
     "name": "اسباب‌بازی‌ساز",
     "reminders": [
-      "No Attack"
+      "بدون حمله"
     ],
     "team": "fabled"
   }

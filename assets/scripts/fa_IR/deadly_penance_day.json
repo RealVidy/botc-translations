@@ -44,7 +44,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, choose a player (different to last night): the Demon, if chosen, learns who you are then doesn't wake tonight.",
+    "ability": "هر شب*، یک بازیکن را انتخاب کنید (متفاوت با شب قبل): اگر شیطان را انتخاب کنید، او می‌فهمند شما کی هستید و امشب بیدار نمی‌شود.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -172,7 +172,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "شما از شیطان در امانید",
+    "ability": "شما از شیطان در امانید.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -196,8 +196,8 @@
     "otherNight": 59,
     "otherNightReminder": "Nod 'yes' or shake head 'no' for whether a Minion nominated today. Place the 'Minion not nominated' marker (remove 'Minion nominated', if any).",
     "reminders": [
-      "Minion nominated",
-      "Minions not nominated"
+      "مریدان نامزد نکرده‌اند",
+      "مریدان نامزد کرده‌اند"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -250,7 +250,7 @@
     "team": "outsider"
   },
   {
-    "ability": "If you die by execution, your team loses.",
+    "ability": "اگر از طریق اعدام کشته‌شوید، تیم شما بازنده می‌شود.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -281,7 +281,7 @@
     "team": "minion"
   },
   {
-    "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability.",
+    "ability": "هرشب، یک بازیکن را انتخاب کنید: اگر فردا کسی را کاندیدا کند می‌میرد. اگر فقط ۳ بازیکن زنده باشند، این قابلیت را از دست می‌دهید.",
     "edition": "snv",
     "firstNight": 24,
     "firstNightReminder": "The Witch points to a player. If that player nominates tomorrow they die immediately.",
@@ -297,7 +297,7 @@
     "team": "minion"
   },
   {
-    "ability": "Each night, you see the Grimoire. You might register as good & as a Townsfolk or Outsider, even if dead.",
+    "ability": "هر شب، شما کتاب جادو را می‌بینید. شما ممکن است به نظر خیر و شهروند یا بیگانه به نظر بیایید، حتی اگر مرده باشید.",
     "edition": "tb",
     "firstNight": 48,
     "firstNightReminder": "Show the Grimoire to the Spy for as long as they need.",
@@ -325,7 +325,7 @@
     "team": "minion"
   },
   {
-    "ability": "Each night, Minions choose who babysits Lil' Monsta's token & \"is the Demon\". A player dies each night*. [+1 Minion]",
+    "ability": "هر شب، مریدان تصمیم می‌گیرند چه کسی از هیولا کوچولو نگهداری کند. او شیطان می‌شود. هر شب* یک بازیکن می‌میرد. [+۱ مرید]",
     "edition": "",
     "firstNight": 16,
     "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",

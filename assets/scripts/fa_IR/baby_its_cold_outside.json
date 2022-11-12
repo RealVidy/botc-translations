@@ -64,7 +64,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, choose a player (not yourself or Travellers): you learn 1 good and 1 evil character, 1 of which is correct.",
+    "ability": "هر شب، یک بازیکن را انتخاب کنید (بجز خودتان یا مسافران): شما یک شخصیت خیر و یک شخصیت شر دریافت می‌کنید. یکی از این دو صحیح است.",
     "edition": "snv",
     "firstNight": 41,
     "firstNightReminder": "The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.",
@@ -92,7 +92,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, choose an alive player: a chosen Demon swaps characters & alignments with you & is then poisoned.",
+    "ability": "هر شب، یک بازیکن زنده را انتخاب کنید: اگر شیطان باشد شخصیت و تیمتان با هم عوض می‌شود و سپس مسموم می‌شود.",
     "edition": "snv",
     "firstNight": 20,
     "firstNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
@@ -108,7 +108,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false.",
+    "ability": "هر روز، شما می‌توانید به صورت خصوصی از قصه‌گو دو مطلب بیاموزید: ۱ حقیقت و ۱ دروغ.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -217,7 +217,7 @@
     "team": "outsider"
   },
   {
-    "ability": "When you learn that you died, publicly choose 1 alive player: if they are evil, your team loses.",
+    "ability": "هر شب، اگر تعداد بازیکنان مرده از زنده بیشتر باشد، شما ۱ شخصیت زنده را می‌فهمید. شیطان می‌داند شما کی هستید.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -281,7 +281,7 @@
     "team": "outsider"
   },
   {
-    "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability.",
+    "ability": "هرشب، یک بازیکن را انتخاب کنید: اگر فردا کسی را کاندیدا کند می‌میرد. اگر فقط ۳ بازیکن زنده باشند، این قابلیت را از دست می‌دهید.",
     "edition": "snv",
     "firstNight": 24,
     "firstNightReminder": "The Witch points to a player. If that player nominates tomorrow they die immediately.",
@@ -377,7 +377,7 @@
     "team": "demon"
   },
   {
-    "ability": "Each night, Minions choose who babysits Lil' Monsta's token & \"is the Demon\". A player dies each night*. [+1 Minion]",
+    "ability": "هر شب، مریدان تصمیم می‌گیرند چه کسی از هیولا کوچولو نگهداری کند. او شیطان می‌شود. هر شب* یک بازیکن می‌میرد. [+۱ مرید]",
     "edition": "",
     "firstNight": 16,
     "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",

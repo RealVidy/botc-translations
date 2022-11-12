@@ -129,7 +129,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false.",
+    "ability": "هر روز، شما می‌توانید به صورت خصوصی از قصه‌گو دو مطلب بیاموزید: ۱ حقیقت و ۱ دروغ.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -382,7 +382,7 @@
     "team": "demon"
   },
   {
-    "ability": "Each night*, choose a player: they die. You start by choosing an alive player: they are poisoned - you die if & only if they die.",
+    "ability": "هر شب*، یک بازیکن را انتخاب کنید: او می‌میرد. شما در ابتدا یک بازیکن زنده را انتخاب می‌کنید: او مسموم می‌شود. شما فقط در صورت مرگ او می‌میرید.",
     "edition": "",
     "firstNight": 15,
     "firstNightReminder": "The Lleech points to a player. Place the Poisoned reminder token.",

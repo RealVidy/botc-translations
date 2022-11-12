@@ -14,7 +14,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, you learn which character died by execution today.",
+    "ability": "هر شب*، شما می‌فهمید چه شخصیتی امروز اعدام شده.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -44,7 +44,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "If the Demon kills you, you learn that it is 1 of 2 players.",
+    "ability": "اگر شیطان شما را بکشد، شما می‌فهمید یکی از دو نفر است.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -134,7 +134,7 @@
     "team": "minion"
   },
   {
-    "ability": "Each night, you see the Grimoire. You might register as good & as a Townsfolk or Outsider, even if dead.",
+    "ability": "هر شب، شما کتاب جادو را می‌بینید. شما ممکن است به نظر خیر و شهروند یا بیگانه به نظر بیایید، حتی اگر مرده باشید.",
     "edition": "tb",
     "firstNight": 48,
     "firstNightReminder": "Show the Grimoire to the Spy for as long as they need.",
@@ -158,14 +158,14 @@
     "otherNight": 25,
     "otherNightReminder": "If no-one died during the day: The Zombuul points to a player. That player dies.",
     "reminders": [
-      "Dead",
-      "Died today"
+      "امروز مرده",
+      "مرده"
     ],
     "setup": false,
     "team": "demon"
   },
   {
-    "ability": "There might be 1 extra or 1 fewer Outsider in-play.",
+    "ability": "ممکن است ۱ بیگانه بیشتر یا کمتر در بازی باشد.",
     "id": "fa_IR_sentinel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
     "name": "کشیک",

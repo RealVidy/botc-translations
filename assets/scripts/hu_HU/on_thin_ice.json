@@ -10,7 +10,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "Nincs képesség"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -150,7 +150,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_mastermind",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mastermind.png?raw=true",
-    "name": "Mesterelme",
+    "name": "Lángész",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -178,7 +178,7 @@
     "ability": "There might be 1 extra or 1 fewer Outsider in-play.",
     "id": "hu_HU_sentinel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
-    "name": "Sentinel",
+    "name": "Őrszem",
     "team": "fabled"
   }
 ]

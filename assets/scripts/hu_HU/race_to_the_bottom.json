@@ -6,7 +6,7 @@
     "firstNightReminder": "Mutasd az ujjaddal (1, 2, 3, stb.) a Démon és a legközelebbi Csatlósa közötti helyek számát.",
     "id": "hu_HU_clockmaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/clockmaker.png?raw=true",
-    "name": "Órakészítő",
+    "name": "Órásmester",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -172,7 +172,7 @@
     "ability": "There might be 1 extra or 1 fewer Outsider in-play.",
     "id": "hu_HU_sentinel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
-    "name": "Sentinel",
+    "name": "Őrszem",
     "team": "fabled"
   },
   {

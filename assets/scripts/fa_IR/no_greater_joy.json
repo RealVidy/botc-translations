@@ -75,7 +75,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "If the Demon kills you, you learn that it is 1 of 2 players.",
+    "ability": "اگر شیطان شما را بکشد، شما می‌فهمید یکی از دو نفر است.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -106,7 +106,7 @@
     "team": "outsider"
   },
   {
-    "ability": "When you learn that you died, publicly choose 1 alive player: if they are evil, your team loses.",
+    "ability": "هر شب، اگر تعداد بازیکنان مرده از زنده بیشتر باشد، شما ۱ شخصیت زنده را می‌فهمید. شیطان می‌داند شما کی هستید.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -120,7 +120,7 @@
     "team": "outsider"
   },
   {
-    "ability": "If there are 5 or more players alive & the Demon dies, you become the Demon. (Travellers don’t count)",
+    "ability": "اگر ۵ بازیکن یا بیشتر زنده باشند و شیطان بمیرد، شما شیطان می‌شوید. (مسافران شمرده نمی‌شوند)",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -130,7 +130,7 @@
     "otherNight": 20,
     "otherNightReminder": "If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",
     "reminders": [
-      "Demon"
+      "شیطان"
     ],
     "setup": false,
     "team": "minion"

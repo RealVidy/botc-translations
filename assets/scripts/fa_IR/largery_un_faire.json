@@ -14,7 +14,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, you learn which character died by execution today.",
+    "ability": "هر شب*، شما می‌فهمید چه شخصیتی امروز اعدام شده.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -30,7 +30,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die.",
+    "ability": "یک بار در بازی، در روز، در ملا عام یک بازیکن را انتخاب کنید: اگر او شیطان باشد، می‌میرد.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -46,7 +46,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, choose an alive player: a chosen Demon swaps characters & alignments with you & is then poisoned.",
+    "ability": "هر شب، یک بازیکن زنده را انتخاب کنید: اگر شیطان باشد شخصیت و تیمتان با هم عوض می‌شود و سپس مسموم می‌شود.",
     "edition": "snv",
     "firstNight": 20,
     "firstNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
@@ -62,7 +62,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false.",
+    "ability": "هر روز، شما می‌توانید به صورت خصوصی از قصه‌گو دو مطلب بیاموزید: ۱ حقیقت و ۱ دروغ.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -178,7 +178,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, during the day, visit the Storyteller for some advice to help you win.",
+    "ability": "یکبار در بازی، در طول روز، پیش قصه‌گو بروید تا توصیه‌ای برای بردن بازی به شما داده شود.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -225,7 +225,7 @@
     "team": "outsider"
   },
   {
-    "ability": "If you die by execution, your team loses.",
+    "ability": "اگر از طریق اعدام کشته‌شوید، تیم شما بازنده می‌شود.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -285,7 +285,7 @@
     "team": "minion"
   },
   {
-    "ability": "If there are 5 or more players alive & the Demon dies, you become the Demon. (Travellers don’t count)",
+    "ability": "اگر ۵ بازیکن یا بیشتر زنده باشند و شیطان بمیرد، شما شیطان می‌شوید. (مسافران شمرده نمی‌شوند)",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -295,7 +295,7 @@
     "otherNight": 20,
     "otherNightReminder": "If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",
     "reminders": [
-      "Demon"
+      "شیطان"
     ],
     "setup": false,
     "team": "minion"
@@ -317,7 +317,7 @@
     "team": "minion"
   },
   {
-    "ability": "On your 1st night, look at the Grimoire and choose a player: they are poisoned. 1 good player knows a Widow is in play.",
+    "ability": "در شب اولتان، کتاب جادو را نگاه کنید و یک بازیکن را انتخاب کنید: او مسموم می‌شود. ۱ بازیکن خیر می‌داند که بیوه در بازی است.",
     "edition": "",
     "firstNight": 18,
     "firstNightReminder": "Show the Grimoire to the Widow for as long as they need. The Widow points to a player. That player is poisoned. Wake a good player. Show the 'These characters are in play' card, then the Widow character token.",
@@ -336,7 +336,7 @@
     "team": "minion"
   },
   {
-    "ability": "If more than 1 good player is executed, you win. All players know you are in play. After day 5, evil wins.",
+    "ability": "اگر بیشتر از ۱ بازیکن خیر اعدام شود، شما برنده می‌شوید. همه بازیکنان می‌دانند شما در بازی هستید. بعد از ۵ روز تیم شر برنده می‌شود.",
     "edition": "",
     "firstNight": 53,
     "firstNightReminder": "Place the Leviathan 'Day 1' marker. Announce 'The Leviathan is in play; this is Day 1.'",

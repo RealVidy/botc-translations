@@ -6,7 +6,7 @@
     "firstNightReminder": "Mutasd az ujjaddal (1, 2, 3, stb.) a Démon és a legközelebbi Csatlósa közötti helyek számát.",
     "id": "hu_HU_clockmaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/clockmaker.png?raw=true",
-    "name": "Órakészítő",
+    "name": "Órásmester",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -69,7 +69,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "Nincs képesség"
     ],
     "setup": false,
     "team": "townsfolk"

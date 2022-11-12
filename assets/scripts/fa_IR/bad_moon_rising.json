@@ -99,7 +99,7 @@
     "team": "minion"
   },
   {
-    "ability": "Each night*, choose a player (different to last night): the Demon, if chosen, learns who you are then doesn't wake tonight.",
+    "ability": "هر شب*، یک بازیکن را انتخاب کنید (متفاوت با شب قبل): اگر شیطان را انتخاب کنید، او می‌فهمند شما کی هستید و امشب بیدار نمی‌شود.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -228,7 +228,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, if another player nominated, you may choose to force the current execution to pass or fail.",
+    "ability": "یکبار در بازی، اگر بازیکن دیگری کاندید شود، شما می‌توانید تصمیم بگیرید که نتیجه رای‌گیری چه باشد.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -403,7 +403,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, choose 2 players: they die. A dead player you chose last night might be regurgitated.",
+    "ability": "هر شب*، ۲ بازیکن را انتخاب کنید: آنها می‌میرند. ممکن است یکی از بازیکنانی که شب قبل انتخاب کرده بودید را بالا بیاورید.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -413,8 +413,8 @@
     "otherNight": 27,
     "otherNightReminder": "One player that the Shabaloth chose the previous night might be resurrected. The Shabaloth points to two players. Those players die.",
     "reminders": [
-      "Alive",
-      "Dead"
+      "زنده",
+      "مرده"
     ],
     "setup": false,
     "team": "demon"
@@ -446,7 +446,7 @@
     "otherNight": 48,
     "otherNightReminder": "The Tinker might die.",
     "reminders": [
-      "Dead"
+      "مرده"
     ],
     "setup": false,
     "team": "outsider"
@@ -476,8 +476,8 @@
     "otherNight": 25,
     "otherNightReminder": "If no-one died during the day: The Zombuul points to a player. That player dies.",
     "reminders": [
-      "Dead",
-      "Died today"
+      "امروز مرده",
+      "مرده"
     ],
     "setup": false,
     "team": "demon"

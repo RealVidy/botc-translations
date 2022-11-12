@@ -152,13 +152,13 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/choirboy.png?raw=true",
     "name": "Coroinha",
     "otherNight": 44,
-    "otherNightReminder": "Se o Rei foi morto pelo Demônio, acorde o Garoto do Coral e aponte para o jogador que é o Demônio.",
+    "otherNightReminder": "Se o Rei foi morto pelo Demônio, acorde o Coroinha e aponte para o jogador que é o Demônio.",
     "reminders": [],
     "setup": true,
     "team": "townsfolk"
   },
   {
-    "ability": "Mostre o número com os dedos.",
+    "ability": "Você começa sabendo a quantos passos o Demônio está do seu Lacaios mais próximo.",
     "edition": "snv",
     "firstNight": 40,
     "firstNightReminder": "Mostre o número com os dedos.",
@@ -233,7 +233,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Uma vez po jogo, à noite, você pode decidir quais Lacaios ou qual Demônio está em jogo.",
+    "ability": "Uma vez por jogo, à noite, você pode decidir quais Lacaios ou qual Demônio está em jogo.",
     "edition": "",
     "firstNight": 13,
     "firstNightReminder": "O Engenheiro sinaliza 'não' com a cabeça, ou aponta na ficha de personagens para um Demônio ou para uma quantidade de Lacaios (conforme o número de jogadores). Se o Engenheiro fizer isso, troque os personagens, conforme escolhido, e acorde os jogadores correspondentes para informá-los sobre a mudança.",

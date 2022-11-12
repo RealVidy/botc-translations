@@ -168,7 +168,7 @@
     "ability": "There might be 1 extra or 1 fewer Outsider in-play.",
     "id": "hu_HU_sentinel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
-    "name": "Sentinel",
+    "name": "Őrszem",
     "team": "fabled"
   }
 ]

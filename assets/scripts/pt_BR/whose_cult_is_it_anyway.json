@@ -181,7 +181,7 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/choirboy.png?raw=true",
     "name": "Coroinha",
     "otherNight": 44,
-    "otherNightReminder": "Se o Rei foi morto pelo Demônio, acorde o Garoto do Coral e aponte para o jogador que é o Demônio.",
+    "otherNightReminder": "Se o Rei foi morto pelo Demônio, acorde o Coroinha e aponte para o jogador que é o Demônio.",
     "reminders": [],
     "setup": true,
     "team": "townsfolk"

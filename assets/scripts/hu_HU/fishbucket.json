@@ -1,31 +1,31 @@
 [
   {
-    "ability": "You have a not-in-play Minion ability.",
+    "ability": "Van egy nem játékban lévő Minion képességed.",
     "edition": "",
     "firstNight": 3,
-    "firstNightReminder": "Show the Alchemist a not-in-play Minion token",
+    "firstNightReminder": "Mutass az Alkimistának egy nem játékban lévő Minion képességet.",
     "id": "hu_HU_alchemist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/alchemist.png?raw=true",
-    "name": "Alchemist",
+    "name": "Alkimista",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "Is the Alchemist"
+      "Az Alkimista"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are.",
+    "ability": "Nem tudod, hogy mi a képességed. Minden nap, titokban kitalálod, hogy mi az: megtudod, hogy mennyire vagy pontos.",
     "edition": "",
     "firstNight": 12,
-    "firstNightReminder": "Decide the Amnesiac's entire ability. If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
+    "firstNightReminder": "Döntsd el az Amnéziás teljes képességét. Ha az Amnéziás képessége miatt ma este felébred: Ébreszd fel az Amnéziásat, és aktiváljátok a képességét.",
     "id": "hu_HU_amnesiac",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/amnesiac.png?raw=true",
-    "name": "Amnesiac",
+    "name": "Amnéziás",
     "otherNight": 5,
-    "otherNightReminder": "If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
+    "otherNightReminder": "Ha az Amnéziás képessége miatt ma este felébred: Ébreszd fel az Amnéziásat, és aktiváljátok a képességét.",
     "reminders": [
       "?"
     ],
@@ -43,19 +43,19 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "No ability"
+      "Nincs képesség"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "The Storyteller can break the game rules & if executed, good wins, even if you are dead [No evil characters]",
+    "ability": "A Mesélő megszegheti a játékszabályokat & ha kivégzik, a jó nyer, még akkor is, ha halott vagy [Nincs gonosz karakter]",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "hu_HU_atheist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/atheist.png?raw=true",
-    "name": "Atheist",
+    "name": "Ateista",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -69,7 +69,7 @@
     "firstNightReminder": "Choose a character type. Point to a player whose character is of that type. Place the Balloonist's Seen reminder next to that character.",
     "id": "hu_HU_balloonist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/balloonist.png?raw=true",
-    "name": "Balloonist",
+    "name": "Lufiművész",
     "otherNight": 63,
     "otherNightReminder": "Choose a character type that does not yet have a Seen reminder next to a character of that type. Point to a player whose character is of that type, if there are any. Place the Balloonist's Seen reminder next to that character.",
     "reminders": [
@@ -89,7 +89,7 @@
     "firstNightReminder": "Point to 1 evil player. Wake the townsfolk who is evil and show them the 'You are' card and the thumbs down evil sign.",
     "id": "hu_HU_bountyhunter",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bountyhunter.png?raw=true",
-    "name": "Bounty Hunter",
+    "name": "Fejvadász",
     "otherNight": 65,
     "otherNightReminder": "If the known evil player has died, point to another evil player.",
     "reminders": [
@@ -105,7 +105,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_cannibal",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cannibal.png?raw=true",
-    "name": "Cannibal",
+    "name": "Kannibál",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -150,7 +150,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_choirboy",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/choirboy.png?raw=true",
-    "name": "Choirboy",
+    "name": "Kórustag",
     "otherNight": 44,
     "otherNightReminder": "If the King was killed by the Demon, wake the Choirboy and point to the Demon player.",
     "reminders": [],
@@ -164,7 +164,7 @@
     "firstNightReminder": "Mutasd az ujjaddal (1, 2, 3, stb.) a Démon és a legközelebbi Csatlósa közötti helyek számát.",
     "id": "hu_HU_clockmaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/clockmaker.png?raw=true",
-    "name": "Órakészítő",
+    "name": "Órásmester",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -197,7 +197,7 @@
     "firstNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
     "id": "hu_HU_cultleader",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cultleader.png?raw=true",
-    "name": "Cult Leader",
+    "name": "Kultista vezető",
     "otherNight": 67,
     "otherNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
     "reminders": [],
@@ -239,7 +239,7 @@
     "firstNightReminder": "The Engineer shows a 'no' head signal, or points to a Demon or points to the relevant number of Minions. If the Engineer chose characters, replace the Demon or Minions with the choices, then wake the relevant players and show them the You are card and the relevant character tokens.",
     "id": "hu_HU_engineer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/engineer.png?raw=true",
-    "name": "Engineer",
+    "name": "Mérnök",
     "otherNight": 6,
     "otherNightReminder": "The Engineer shows a 'no' head signal, or points to a Demon or points to the relevant number of Minions. If the Engineer chose characters, replace the Demon or Minions with the choices, then wake the relevant players and show them the 'You are' card and the relevant character tokens.",
     "reminders": [
@@ -285,7 +285,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_fisherman",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fisherman.png?raw=true",
-    "name": "Fisherman",
+    "name": "Halász",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -366,7 +366,7 @@
     "firstNightReminder": "Show the General thumbs up for good winning, thumbs down for evil winning or thumb to the side for neither.",
     "id": "hu_HU_general",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/general.png?raw=true",
-    "name": "General",
+    "name": "Tábornok",
     "otherNight": 69,
     "otherNightReminder": "Show the General thumbs up for good winning, thumbs down for evil winning or thumb to the side for neither.",
     "reminders": [],
@@ -412,7 +412,7 @@
     "firstNightReminder": "The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",
     "id": "hu_HU_huntsman",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/huntsman.png?raw=true",
-    "name": "Huntsman",
+    "name": "Vadász",
     "otherNight": 51,
     "otherNightReminder": "The Huntsman shakes their head 'no' or points to a player. If they point to the Damsel, wake that player, show the 'You are' card and a not-in-play character token.",
     "reminders": [
@@ -478,7 +478,7 @@
     "firstNightReminder": "Wake the Demon, show them the 'This character selected you' card, show the King token and point to the King player.",
     "id": "hu_HU_king",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/king.png?raw=true",
-    "name": "King",
+    "name": "Király",
     "otherNight": 64,
     "otherNightReminder": "If there are more dead than living, show the King a character token of a living player.",
     "reminders": [],
@@ -509,7 +509,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_lycanthrope",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lycanthrope.png?raw=true",
-    "name": "Lycanthrope",
+    "name": "Farkasember",
     "otherNight": 23,
     "otherNightReminder": "The Lycanthrope points to a living player: if good, they die and no one else can die tonight.",
     "reminders": [
@@ -525,7 +525,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_magician",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/magician.png?raw=true",
-    "name": "Magician",
+    "name": "Bűvész",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -601,7 +601,7 @@
     "firstNightReminder": "The Nightwatchman may point to a player. Wake that player, show the 'This character selected you' card and the Nightwatchman token, then point to the Nightwatchman player.",
     "id": "hu_HU_nightwatchman",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/nightwatchman.png?raw=true",
-    "name": "Nightwatchman",
+    "name": "Éjjeli őr",
     "otherNight": 66,
     "otherNightReminder": "The Nightwatchman may point to a player. Wake that player, show the 'This character selected you' card and the Nightwatchman token, then point to the Nightwatchman player.",
     "reminders": [
@@ -617,7 +617,7 @@
     "firstNightReminder": "Point to 3 players including one evil player, in no particular order.",
     "id": "hu_HU_noble",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/noble.png?raw=true",
-    "name": "Noble",
+    "name": "Nemes",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -678,7 +678,7 @@
     "firstNightReminder": "Show the Pixie 1 in-play Townsfolk character token.",
     "id": "hu_HU_pixie",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pixie.png?raw=true",
-    "name": "Pixie",
+    "name": "Tündér",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -695,7 +695,7 @@
     "firstNightReminder": "Do not inform the Demon/Minions who each other are",
     "id": "hu_HU_poppygrower",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poppygrower.png?raw=true",
-    "name": "Poppy Grower",
+    "name": "Máktermelő",
     "otherNight": 3,
     "otherNightReminder": "If the Poppy Grower has died, show the Minions/Demon who each other are.",
     "reminders": [
@@ -711,7 +711,7 @@
     "firstNightReminder": "The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.",
     "id": "hu_HU_preacher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/preacher.png?raw=true",
-    "name": "Preacher",
+    "name": "Prédikátor",
     "otherNight": 7,
     "otherNightReminder": "The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.",
     "reminders": [
@@ -864,7 +864,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_tealady",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/tealady.png?raw=true",
-    "name": "Tea Lady",
+    "name": "Teáshölgy",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -940,17 +940,17 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night*, if either good living neighbour is drunk or poisoned, you die.",
+    "ability": "Minden éjjel*, ha valamelyik jó szomszédod részeg vagy mérgezett, meghalsz.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "hu_HU_acrobat",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/acrobat.png?raw=true",
-    "name": "Acrobat",
+    "name": "Akrobata",
     "otherNight": 39,
-    "otherNightReminder": "If a good living neighbour is drunk or poisoned, the Acrobat player dies.",
+    "otherNightReminder": "Ha egy jó élő szomszéd részeg vagy mérgezett, az akrobata játékos meghal.",
     "reminders": [
-      "Dead"
+      "Halott"
     ],
     "setup": false,
     "team": "outsider"
@@ -994,7 +994,7 @@
     "firstNightReminder": "Wake all the Minions, show them the 'This character selected you' card and the Damsel token.",
     "id": "hu_HU_damsel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/damsel.png?raw=true",
-    "name": "Damsel",
+    "name": "Leány",
     "otherNight": 52,
     "otherNightReminder": "If selected by the Huntsman, wake the Damsel, show 'You are' card and a not-in-play Townsfolk token.",
     "reminders": [
@@ -1027,7 +1027,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_golem",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/golem.png?raw=true",
-    "name": "Golem",
+    "name": "Gólem",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -1059,7 +1059,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_heretic",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/heretic.png?raw=true",
-    "name": "Heretic",
+    "name": "Eretnek",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -1135,7 +1135,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_politician",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/politician.png?raw=true",
-    "name": "Politician",
+    "name": "Politikus",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -1194,7 +1194,7 @@
     "firstNightReminder": "After Minion info wake each Minion and show them three not-in-play character tokens. These may be the same or different to each other and the ones shown to the Demon.",
     "id": "hu_HU_snitch",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/snitch.png?raw=true",
-    "name": "Snitch",
+    "name": "Spicli",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -1208,7 +1208,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_sweetheart",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sweetheart.png?raw=true",
-    "name": "Sweetheart",
+    "name": "Édesem",
     "otherNight": 41,
     "otherNightReminder": "Choose a player that is drunk.",
     "reminders": [
@@ -1234,7 +1234,7 @@
     "team": "outsider"
   },
   {
-    "ability": "A játékban egyszer, éjszaka*, válassz egy játékos: meghal még akkor is, ha valamilyen okból nem tudna.",
+    "ability": "A játékban egyszer, éjszaka*, válassz egy játékost: meghal még akkor is, ha valamilyen okból nem tudna.",
     "edition": "bmr",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -1244,8 +1244,8 @@
     "otherNight": 37,
     "otherNightReminder": "Ha az Orgyilkos még nem használta a képességét: az Orgyilkos vagy 'nem'-et jelez a fejével, vagy egy játékosra mutat. Az a játékos meghal.",
     "reminders": [
-      "Dead",
-      "No ability"
+      "Halott",
+      "Nincs képesség"
     ],
     "setup": false,
     "team": "minion"
@@ -1333,7 +1333,7 @@
     "firstNightReminder": "The Fearmonger points to a player. Place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",
     "id": "hu_HU_fearmonger",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fearmonger.png?raw=true",
-    "name": "Fearmonger",
+    "name": "Félelemkeltő",
     "otherNight": 18,
     "otherNightReminder": "The Fearmonger points to a player. If different from the previous night, place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",
     "reminders": [
@@ -1382,7 +1382,7 @@
     "firstNightReminder": "Select one of the good players next to the Demon and place the Is the Marionette reminder token. Wake the Demon and show them the Marionette.",
     "id": "hu_HU_marionette",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/marionette.png?raw=true",
-    "name": "Marionette",
+    "name": "Marionett",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -1399,7 +1399,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_mastermind",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mastermind.png?raw=true",
-    "name": "Mesterelme",
+    "name": "Lángész",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -1460,7 +1460,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_psychopath",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/psychopath.png?raw=true",
-    "name": "Psychopath",
+    "name": "Pszichopata",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -1504,7 +1504,7 @@
     "firstNightReminder": "Show the Grimoire to the Widow for as long as they need. The Widow points to a player. That player is poisoned. Wake a good player. Show the 'These characters are in play' card, then the Widow character token.",
     "id": "hu_HU_widow",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/widow.png?raw=true",
-    "name": "Widow",
+    "name": "Özvegy",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -1533,7 +1533,7 @@
     "team": "minion"
   },
   {
-    "ability": "Each night*, choose 3 players (all players learn who): each silently chooses to live or die, but if all live, all die.",
+    "ability": "Minden éjjel* válassz ki 3 játékost (minden játékos megtudja, hogy kit): mindegyikük csendben eldönti, hogy él vagy meghal, de ha mindannyian élnek, mindannyian meghalnak.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -1541,13 +1541,13 @@
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/alhadikhia.png?raw=true",
     "name": "Al-Hadikhia",
     "otherNight": 33,
-    "otherNightReminder": "The Al-Hadikhia chooses 3 players. Announce the first player, wake them to nod yes to live or shake head no to die, kill or resurrect accordingly, then put to sleep and announce the next player. If all 3 are alive after this, all 3 die.",
+    "otherNightReminder": "Az Al-Hadikhia 3 játékost választ. Bejelenti az első játékost, felébreszti, hogy bólintson igennel az élethez, vagy rázza a fejét nemmel a halálhoz, ennek megfelelően megöli vagy feltámasztja, majd elaltatja, és bejelenti a következő játékost. Ha ezek után mind a 3 játékos életben van, mind a 3 meghal.",
     "reminders": [
       "1",
       "2",
       "3",
-      "Chose death",
-      "Chose life"
+      "Válassz halált",
+      "Válassz életet"
     ],
     "setup": false,
     "team": "demon"
@@ -1592,7 +1592,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_legion",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/legion.png?raw=true",
-    "name": "Legion",
+    "name": "Légiós",
     "otherNight": 34,
     "otherNightReminder": "Choose a player, that player dies.",
     "reminders": [
@@ -1609,7 +1609,7 @@
     "firstNightReminder": "Place the Leviathan 'Day 1' marker. Announce 'The Leviathan is in play; this is Day 1.'",
     "id": "hu_HU_leviathan",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/leviathan.png?raw=true",
-    "name": "Leviathan",
+    "name": "Leviatán",
     "otherNight": 73,
     "otherNightReminder": "Change the Leviathan Day reminder for the next day.",
     "reminders": [
@@ -1716,7 +1716,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_riot",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/riot.png?raw=true",
-    "name": "Riot",
+    "name": "Lázadó",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -1747,7 +1747,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_vigormortis",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vigormortis.png?raw=true",
-    "name": "Vigormortis",
+    "name": "Élőhalott",
     "otherNight": 32,
     "otherNightReminder": "The Vigormortis points to a player. That player dies. If a Minion, they keep their ability and one of their Townsfolk neighbours is poisoned.",
     "reminders": [
@@ -1792,17 +1792,17 @@
     "team": "demon"
   },
   {
-    "ability": "On your 1st night, you gain a Townsfolk ability (if good), or a Minion ability (if evil).",
+    "ability": "Az 1. éjszakádon kapsz egy Városlakó képességet (ha jó vagy), vagy egy Minion képességet (ha gonosz).",
     "edition": "bmr",
     "firstNight": 1,
-    "firstNightReminder": "Show the Apprentice the 'You are' card, then a Townsfolk or Minion token. In the Grimoire, replace the Apprentice token with that character token, and put the Apprentice's 'Is the Apprentice' reminder by that character token.",
+    "firstNightReminder": "Mutasd fel a Tanoncnak a \"Te vagy\" kártyát, majd egy Városlakó vagy Minion jelölőt. A Grimoár-ban cseréljétek le a Tanonc jelzőt erre a karakterjelzőre, és tegyétek a Tanonc 'Te vagy a Tanonc' emlékeztetőjét a karakterjelző mellé.",
     "id": "hu_HU_apprentice",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/apprentice.png?raw=true",
-    "name": "Apprentice",
+    "name": "Tanonc",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Is the Apprentice"
+      "Te vagy a Tanonc"
     ],
     "setup": false,
     "team": "traveler"
@@ -1831,7 +1831,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_beggar",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/beggar.png?raw=true",
-    "name": "Beggar",
+    "name": "Koldus",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -1845,7 +1845,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_bishop",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bishop.png?raw=true",
-    "name": "Bishop",
+    "name": "Püspök",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -1862,7 +1862,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_bonecollector",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bonecollector.png?raw=true",
-    "name": "Bone Collector",
+    "name": "Csontgyűjtő",
     "otherNight": 1,
     "otherNightReminder": "The Bone Collector either shakes their head no or points at any dead player. If they pointed at any dead player, put the Bone Collector's 'Has Ability' reminder by the chosen player's character token. (They may need to be woken tonight to use it.)",
     "reminders": [
@@ -1879,7 +1879,7 @@
     "firstNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
     "id": "hu_HU_bureaucrat",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bureaucrat.png?raw=true",
-    "name": "Bureaucrat",
+    "name": "Hivatalnok",
     "otherNight": 1,
     "otherNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's '3 votes' reminder by the chosen player's character token.",
     "reminders": [
@@ -1895,7 +1895,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_butcher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/butcher.png?raw=true",
-    "name": "Butcher",
+    "name": "Hentes",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -1909,7 +1909,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_deviant",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/deviant.png?raw=true",
-    "name": "Deviant",
+    "name": "Deviáns",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -1923,7 +1923,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_gangster",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gangster.png?raw=true",
-    "name": "Gangster",
+    "name": "Gengszter",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -1937,7 +1937,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_gunslinger",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gunslinger.png?raw=true",
-    "name": "Gunslinger",
+    "name": "Pisztolyhős",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -1951,7 +1951,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_harlot",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/harlot.png?raw=true",
-    "name": "Harlot",
+    "name": "Szajha",
     "otherNight": 1,
     "otherNightReminder": "The Harlot points at any player. Then, put the Harlot to sleep. Wake the chosen player, show them the 'This character selected you' token, then the Harlot token. That player either nods their head yes or shakes their head no. If they nodded their head yes, wake the Harlot and show them the chosen player's character token. Then, you may decide that both players die.",
     "reminders": [
@@ -1967,7 +1967,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_judge",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/judge.png?raw=true",
-    "name": "Judge",
+    "name": "Bíró",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -1983,7 +1983,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_matron",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/matron.png?raw=true",
-    "name": "Matron",
+    "name": "Matróna",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -1997,7 +1997,7 @@
     "firstNightReminder": "",
     "id": "hu_HU_scapegoat",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scapegoat.png?raw=true",
-    "name": "Scapegoat",
+    "name": "Bűnbak",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -2011,7 +2011,7 @@
     "firstNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
     "id": "hu_HU_thief",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/thief.png?raw=true",
-    "name": "Thief",
+    "name": "Tolvaj",
     "otherNight": 1,
     "otherNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
     "reminders": [
@@ -2035,13 +2035,13 @@
     "team": "traveler"
   },
   {
-    "ability": "Something bad might happen to whoever is most responsible for the death of a new player.",
+    "ability": "Valami rossz történhet azzal, aki a leginkább felelős egy új játékos haláláért.",
     "id": "hu_HU_angel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/angel.png?raw=true",
-    "name": "Angel",
+    "name": "Angyal",
     "reminders": [
-      "Protect",
-      "Something Bad"
+      "Valami rossz",
+      "Védelem"
     ],
     "team": "fabled"
   },
@@ -2049,14 +2049,14 @@
     "ability": "For the first 2 minutes of each day, veteran players may not talk.",
     "id": "hu_HU_buddhist",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/buddhist.png?raw=true",
-    "name": "Buddhist",
+    "name": "Buddhista",
     "team": "fabled"
   },
   {
     "ability": "Use the Djinn's special rule. All players know what it is.",
     "id": "hu_HU_djinn",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/djinn.png?raw=true",
-    "name": "Djinn",
+    "name": "Dzsinn",
     "team": "fabled"
   },
   {
@@ -2070,7 +2070,7 @@
     "ability": "Each day, 3 players may choose to visit you. At night*, each visitor learns how many visitors are evil, but 1 gets false info.",
     "id": "hu_HU_duchess",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/duchess.png?raw=true",
-    "name": "Duchess",
+    "name": "Hercegné",
     "reminders": [
       "False Info",
       "Visitor"
@@ -2091,14 +2091,14 @@
     "ability": "Once per game, the Demon secretly chooses an opposing player: all players choose which of these 2 players win.",
     "id": "hu_HU_fiddler",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fiddler.png?raw=true",
-    "name": "Fiddler",
+    "name": "Hegedűs",
     "team": "fabled"
   },
   {
     "ability": "Something bad might happen to whoever talks when the Storyteller has asked for silence.",
     "id": "hu_HU_hellslibrarian",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/hellslibrarian.png?raw=true",
-    "name": "Hell's Librarian",
+    "name": "A pokol könyvtárosa",
     "reminders": [
       "Something Bad"
     ],
@@ -2108,7 +2108,7 @@
     "ability": "2 neighboring players are known to be the same alignment. Once per game, one of them registers falsely",
     "id": "hu_HU_revolutionary",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/revolutionary.png?raw=true",
-    "name": "Revolutionary",
+    "name": "Forradalmár",
     "reminders": [
       "Register Falsely?"
     ],
@@ -2118,14 +2118,14 @@
     "ability": "There might be 1 extra or 1 fewer Outsider in-play.",
     "id": "hu_HU_sentinel",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
-    "name": "Sentinel",
+    "name": "Őrszem",
     "team": "fabled"
   },
   {
     "ability": "There can't be more than 1 extra evil player.",
     "id": "hu_HU_spiritofivory",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spiritofivory.png?raw=true",
-    "name": "Spirit Of Ivory",
+    "name": "Elefántcsont szelleme",
     "reminders": [
       "No extra evil"
     ],
@@ -2135,7 +2135,7 @@
     "ability": "Name a good character. If in play, they can only die by execution, but evil players learn which player it is.",
     "id": "hu_HU_stormcatcher",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/stormcatcher.png?raw=true",
-    "name": "Storm Catcher",
+    "name": "Viharfogó",
     "reminders": [
       "Safe"
     ],
@@ -2145,7 +2145,7 @@
     "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info.",
     "id": "hu_HU_toymaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/toymaker.png?raw=true",
-    "name": "Toymaker",
+    "name": "játékkészítő",
     "reminders": [
       "No Attack"
     ],

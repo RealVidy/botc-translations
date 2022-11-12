@@ -159,7 +159,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false.",
+    "ability": "هر روز، شما می‌توانید به صورت خصوصی از قصه‌گو دو مطلب بیاموزید: ۱ حقیقت و ۱ دروغ.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -281,7 +281,7 @@
     "team": "minion"
   },
   {
-    "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability.",
+    "ability": "هرشب، یک بازیکن را انتخاب کنید: اگر فردا کسی را کاندیدا کند می‌میرد. اگر فقط ۳ بازیکن زنده باشند، این قابلیت را از دست می‌دهید.",
     "edition": "snv",
     "firstNight": 24,
     "firstNightReminder": "The Witch points to a player. If that player nominates tomorrow they die immediately.",
@@ -313,7 +313,7 @@
     "team": "minion"
   },
   {
-    "ability": "Each night, choose a player. If you nominate & execute them, their team loses. All players know if you choose a new player.",
+    "ability": "هرشب، یک بازیکن را انتخاب کنید. اگر شما او را کاندید و اعدام کنید، تیم او می‌بازد. همه بازیکنان می‌فهمند که شما یک بازیکن جدید را انتخاب کردید.",
     "edition": "",
     "firstNight": 26,
     "firstNightReminder": "The Fearmonger points to a player. Place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",
@@ -329,7 +329,7 @@
     "team": "minion"
   },
   {
-    "ability": "Each night, Minions choose who babysits Lil' Monsta's token & \"is the Demon\". A player dies each night*. [+1 Minion]",
+    "ability": "هر شب، مریدان تصمیم می‌گیرند چه کسی از هیولا کوچولو نگهداری کند. او شیطان می‌شود. هر شب* یک بازیکن می‌میرد. [+۱ مرید]",
     "edition": "",
     "firstNight": 16,
     "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",
@@ -381,15 +381,15 @@
     "team": "demon"
   },
   {
-    "ability": "Each night*, choose a player: they die. Townsfolk abilities yield false info. Each day, if no-one is executed, evil wins.",
+    "ability": "هر شب*، یک بازیکن را انتخاب کنید: او می‌میرد. قابلیت‌های شهروندان اطلاعات غلط می‌دهد. هرروز، اگر کسی اعدام نشود، شر برنده می‌شود.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "fa_IR_vortox",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vortox.png?raw=true",
-    "name": "Vortox",
+    "name": "گرداب",
     "otherNight": 31,
-    "otherNightReminder": "The Vortox points to a player. That player dies.",
+    "otherNightReminder": "گرداب به یک بازیکن اشاره می‌کند. آن بازیکن می‌میرد.",
     "reminders": [
       "مرده"
     ],

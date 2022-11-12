@@ -36,7 +36,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, choose an alive player: a chosen Demon swaps characters & alignments with you & is then poisoned.",
+    "ability": "هر شب، یک بازیکن زنده را انتخاب کنید: اگر شیطان باشد شخصیت و تیمتان با هم عوض می‌شود و سپس مسموم می‌شود.",
     "edition": "snv",
     "firstNight": 20,
     "firstNightReminder": "The Snake Charmer points to a player. If that player is the Demon: swap the Demon and Snake Charmer character and alignments. Wake each player to inform them of their new role and alignment. The new Snake Charmer is poisoned.",
@@ -83,7 +83,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false.",
+    "ability": "هر روز، شما می‌توانید به صورت خصوصی از قصه‌گو دو مطلب بیاموزید: ۱ حقیقت و ۱ دروغ.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -113,7 +113,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "On your 1st day, publicly guess up to 5 players' characters. That night, you learn how many you got correct.",
+    "ability": "در اولین روز بازیتان، در ملا عام شخصیت ۵ نفر را حدث بزنید. در شب، شما می‌فهمید چه تعدادی از حدث‌های شما صحیح بوده.",
     "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -145,7 +145,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, during the day, visit the Storyteller for some advice to help you win.",
+    "ability": "یکبار در بازی، در طول روز، پیش قصه‌گو بروید تا توصیه‌ای برای بردن بازی به شما داده شود.",
     "edition": "",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -161,7 +161,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die.",
+    "ability": "یک بار در بازی، در روز، در ملا عام یک بازیکن را انتخاب کنید: اگر او شیطان باشد، می‌میرد.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -191,7 +191,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "The 1st time you are nominated, if the nominator is a Townsfolk, they are executed immediately.",
+    "ability": "اولین بار که کسی شما را کاندید کند، به شرطی که کاندیدگر شهروند باشد، درلحظه اعدام می‌شود.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -207,7 +207,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "If you die by execution, your team loses.",
+    "ability": "اگر از طریق اعدام کشته‌شوید، تیم شما بازنده می‌شود.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -282,7 +282,7 @@
     "team": "minion"
   },
   {
-    "ability": "Each night, choose a player. If you nominate & execute them, their team loses. All players know if you choose a new player.",
+    "ability": "هرشب، یک بازیکن را انتخاب کنید. اگر شما او را کاندید و اعدام کنید، تیم او می‌بازد. همه بازیکنان می‌فهمند که شما یک بازیکن جدید را انتخاب کردید.",
     "edition": "",
     "firstNight": 26,
     "firstNightReminder": "The Fearmonger points to a player. Place the Fear token next to that player and announce that a new player has been selected with the Fearmonger ability.",

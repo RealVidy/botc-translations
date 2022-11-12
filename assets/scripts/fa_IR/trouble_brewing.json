@@ -259,7 +259,7 @@
     "team": "outsider"
   },
   {
-    "ability": "If you die by execution, your team loses.",
+    "ability": "اگر از طریق اعدام کشته‌شوید، تیم شما بازنده می‌شود.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -273,7 +273,7 @@
     "team": "outsider"
   },
   {
-    "ability": "If a player of your alignment is executed, you might be executed instead.",
+    "ability": "اگر بازیکنی از تیم شما اعدام شود، ممکن است شما به جای او اعدام شوید.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -287,7 +287,7 @@
     "team": "traveler"
   },
   {
-    "ability": "If there are 5 or more players alive & the Demon dies, you become the Demon. (Travellers don’t count)",
+    "ability": "اگر ۵ بازیکن یا بیشتر زنده باشند و شیطان بمیرد، شما شیطان می‌شوید. (مسافران شمرده نمی‌شوند)",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -297,13 +297,13 @@
     "otherNight": 20,
     "otherNightReminder": "If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",
     "reminders": [
-      "Demon"
+      "شیطان"
     ],
     "setup": false,
     "team": "minion"
   },
   {
-    "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die.",
+    "ability": "یک بار در بازی، در روز، در ملا عام یک بازیکن را انتخاب کنید: اگر او شیطان باشد، می‌میرد.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -319,7 +319,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "شما از شیطان در امانید",
+    "ability": "شما از شیطان در امانید.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -333,7 +333,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "Each night, you see the Grimoire. You might register as good & as a Townsfolk or Outsider, even if dead.",
+    "ability": "هر شب، شما کتاب جادو را می‌بینید. شما ممکن است به نظر خیر و شهروند یا بیگانه به نظر بیایید، حتی اگر مرده باشید.",
     "edition": "tb",
     "firstNight": 48,
     "firstNightReminder": "Show the Grimoire to the Spy for as long as they need.",
@@ -357,13 +357,13 @@
     "otherNight": 1,
     "otherNightReminder": "The Thief points to a player. Put the Thief's 'Negative vote' reminder by the chosen player's character token.",
     "reminders": [
-      "Negative vote"
+      "رای منفی"
     ],
     "setup": false,
     "team": "traveler"
   },
   {
-    "ability": "Each night*, you learn which character died by execution today.",
+    "ability": "هر شب*، شما می‌فهمید چه شخصیتی امروز اعدام شده.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -379,7 +379,7 @@
     "team": "townsfolk"
   },
   {
-    "ability": "The 1st time you are nominated, if the nominator is a Townsfolk, they are executed immediately.",
+    "ability": "اولین بار که کسی شما را کاندید کند، به شرطی که کاندیدگر شهروند باشد، درلحظه اعدام می‌شود.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -405,8 +405,8 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "Townsfolk",
-      "Wrong"
+      "شهروند",
+      "غلط"
     ],
     "setup": false,
     "team": "townsfolk"
