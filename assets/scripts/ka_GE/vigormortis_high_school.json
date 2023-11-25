@@ -1,0 +1,174 @@
+[
+  {
+    "ability": "თამაშის დაწყებისას იცი, თუ რამდენი ბოროტი პერსონაჟის წყვილი ზის გვერდიგვერდ.",
+    "edition": "tb",
+    "firstNight": 35,
+    "firstNightReminder": "აჩვენე თითებით (0, 1, 2, …) რამდენი ბოროტი პერსონაჟების წყვილი ზის გვერდიგვერდ.",
+    "id": "ka_GE_chef",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true",
+    "name": "შეფი",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "ყოველ ღამით*, გაიგებ თუ რომელი პერსონაჟი გავარდა წინა დღით ხმის მიცემით.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_undertaker",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/undertaker.png?raw=true",
+    "name": "მესაფლავე",
+    "otherNight": 56,
+    "otherNightReminder": "თუ მოთამაშე გავარდა წინა დღით ხმის მიცემით, აჩვენე იმ მოთამაშის პერსონაჟის ჟეტონი.",
+    "reminders": [
+      "გავარდნილი"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Each night*, you learn how many dead players are evil.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_oracle",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/oracle.png?raw=true",
+    "name": "Oracle",
+    "otherNight": 60,
+    "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of dead evil players.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "If the Demon kills you, you learn that it is 1 of 2 players.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_sage",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sage.png?raw=true",
+    "name": "Sage",
+    "otherNight": 43,
+    "otherNightReminder": "If the Sage was killed by a Demon: Point to two players, one of which is that Demon.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "თუ მოკვდები ღამით, გაიღვიძებ და აირჩევ მოთამაშეს, რომლის პერსონაჟსაც გაიგებ.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_ravenkeeper",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true",
+    "name": "ბაზიერი",
+    "otherNight": 42,
+    "otherNightReminder": "თუ ბაზიერი მოკვდება ამ ღამით, ის აირჩევს მოთამაშეს. აჩვენე ამ მოთამაშის პერსონაჟის ჟეტონი.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "თუ მხოლოდ 3 მოთამაშეა ცოცხალი და არავინ გავარდა, შენი გუნდი იგებს. თუ მოგკლავენ ღამით, შეიძლება თქვენს ნაცვლად სხვა პერსონაჟი მოკვდეს.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_mayor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mayor.png?raw=true",
+    "name": "მერი",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "შენ შეიძლება დარეგისტრირდე როგორც ბოროტი, მინიონი ან დემონი, მაშინაც კი, როცა მკვდარ ხარ.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_recluse",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/recluse.png?raw=true",
+    "name": "განდეგილი",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night.",
+    "edition": "bmr",
+    "firstNight": 7,
+    "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary 'Minions', players equal to the number of Minions in play. Show 3 character tokens of arbitrary good characters. If the token received by the Lunatic is a Demon that would wake tonight: Allow the Lunatic to do the Demon actions. Place their 'attack' markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic 'attack' markers.",
+    "id": "ka_GE_lunatic",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/lunatic.png?raw=true",
+    "name": "Lunatic",
+    "otherNight": 21,
+    "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their 'attack' markers. If the Lunatic selected players: Wake the Demon. Show the 'attack' marker, then point to each marked player. Remove any Lunatic 'attack' markers.",
+    "reminders": [
+      "Attack 1",
+      "Attack 2",
+      "Attack 3"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "ყოველ ღამით ირჩევ მოთამაშეს. ის არის მოწამლული ამ ღამით და მომდევნო დღისით.",
+    "edition": "tb",
+    "firstNight": 17,
+    "firstNightReminder": "მწამლავი ირჩევს მოთამაშეს. მონიშნე ეგ მოთამაშე როგორც 'მოწამლული'.",
+    "id": "ka_GE_poisoner",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
+    "name": "მწამლავი",
+    "otherNight": 8,
+    "otherNightReminder": "წინა ჯერზე მოწამლული მოთამაშე აღარაა მოწამლული. მწამლავი ირჩევს მოთამაშეს. მონიშნე ეგ მოთამაშე როგორც 'მოწამლული'.",
+    "reminders": [
+      "მოწამლული"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "ყოველ ღამით შენ ხედავ გრიმუარს. შენ შეიძლება დარეგისტრირდე როგორც კარგი, ან მოქალაქე ან აუთსაიდერი, მაშინაც კი როცა მკვდარი ხარ.",
+    "edition": "tb",
+    "firstNight": 48,
+    "firstNightReminder": "აჩვენე გიმუარი ჯაშუშს რამდენი ხნითას დასჭირდება.",
+    "id": "ka_GE_spy",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spy.png?raw=true",
+    "name": "ჯაშუში",
+    "otherNight": 68,
+    "otherNightReminder": "აჩვენე გიმუარი ჯაშუშს რამდენი ხნითას დასჭირდება.",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Each night*, if no-one died today, choose a player: they die. The 1st time you die, you live but register as dead.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_zombuul",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/zombuul.png?raw=true",
+    "name": "Zombuul",
+    "otherNight": 25,
+    "otherNightReminder": "If no-one died during the day: The Zombuul points to a player. That player dies.",
+    "reminders": [
+      "Dead",
+      "Died today"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "There might be 1 extra or 1 fewer Outsider in-play.",
+    "id": "ka_GE_sentinel",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
+    "name": "Sentinel",
+    "team": "fabled"
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "ability": "Once per game, during the day, privately ask the Storyteller any yes/no question.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_artist",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/artist.png?raw=true",
+    "name": "Artist",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "No ability"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Once per game, at night, choose a good character: gain that ability. If this character is in play, they are drunk.",
+    "edition": "snv",
+    "firstNight": 2,
+    "firstNightReminder": "The Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
+    "id": "ka_GE_philosopher",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/philosopher.png?raw=true",
+    "name": "Philosopher",
+    "otherNight": 2,
+    "otherNightReminder": "If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, place the drunk marker by that player and the Not the Philosopher token by the Philosopher.",
+    "remindersGlobal": [
+      "Drunk",
+      "Is the Philosopher"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Once per game, at night*, choose a dead player: if they are a Townsfolk, they are resurrected.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_professor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/professor.png?raw=true",
+    "name": "Professor",
+    "otherNight": 45,
+    "otherNightReminder": "If the Professor has not used their ability: The Professor either shakes their head no, or points to a player. If that player is a Townsfolk, they are now alive.",
+    "reminders": [
+      "Alive",
+      "No ability"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Once per game, at night, choose 2 players (not yourself): you learn if they are the same alignment.",
+    "edition": "snv",
+    "firstNight": 42,
+    "firstNightReminder": "The Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
+    "id": "ka_GE_seamstress",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/seamstress.png?raw=true",
+    "name": "Seamstress",
+    "otherNight": 61,
+    "otherNightReminder": "If the Seamstress has not yet used their ability: the Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
+    "reminders": [
+      "No ability"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "თამაშში ერთხელ, დღის განმავლობაში, საჯაროდ ირჩევ მოთამაშეს. თუ ეს მოთამაშე დემონია, კვდება.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_slayer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
+    "name": "მკვლელი",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "უუნარო"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "როცა პირველად ვინმე დაგასახელებს, თუ დამსახელებელი არის მოქალაქე, ის მაშინვე ვარდება.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_virgin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/virgin.png?raw=true",
+    "name": "ქალწული",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "უუნარო"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "When you learn that you died, publicly choose 1 alive player: if they are evil, your team loses.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_klutz",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/klutz.png?raw=true",
+    "name": "Klutz",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "When you learn that you died, publicly choose 1 alive player. Tonight, if it was a good player, they die.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_moonchild",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/moonchild.png?raw=true",
+    "name": "Moonchild",
+    "otherNight": 49,
+    "otherNightReminder": "If the Moonchild used their ability to target a player today: If that player is good, they die.",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "You & an opposing player know each other. If the good player is executed, evil wins. Good can't win if you both live.",
+    "edition": "snv",
+    "firstNight": 23,
+    "firstNightReminder": "Wake the Evil Twin and their twin. Confirm that they have acknowledged each other. Point to the Evil Twin. Show their Evil Twin token to the twin player. Point to the twin. Show their character token to the Evil Twin player.",
+    "id": "ka_GE_eviltwin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/eviltwin.png?raw=true",
+    "name": "Evil Twin",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Twin"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "If the Demon dies by execution (ending the game), play for 1 more day. If a player is then executed, their team loses.",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_mastermind",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mastermind.png?raw=true",
+    "name": "Mastermind",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Each night, choose a player: they are poisoned. The previously poisoned player dies then becomes healthy.",
+    "edition": "bmr",
+    "firstNight": 28,
+    "firstNightReminder": "The Pukka points to a player. That player is poisoned.",
+    "id": "ka_GE_pukka",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pukka.png?raw=true",
+    "name": "Pukka",
+    "otherNight": 26,
+    "otherNightReminder": "The Pukka points to a player. That player is poisoned. The previously poisoned player dies.",
+    "reminders": [
+      "Dead",
+      "Poisoned"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "There might be 1 extra or 1 fewer Outsider in-play.",
+    "id": "ka_GE_sentinel",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/sentinel.png?raw=true",
+    "name": "Sentinel",
+    "team": "fabled"
+  }
+]
