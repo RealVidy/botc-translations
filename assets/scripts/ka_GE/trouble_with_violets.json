@@ -1,0 +1,468 @@
+[
+  {
+    "ability": "შენ იძულებული ხარ რომ გამოიყენო ხმის მიცემის ჟეტონი. თუ მკვდარი მოთამაშე დაგითმობს თავის ჟეტონს, შენ გაიგებ თუ რომელ მხარეს მიეკუთვნება ის. შენ ხარ ფხიზელი და ჯანმრთელი.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_beggar",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/beggar.png?raw=true",
+    "name": "Beggar",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "ყოველ ღამით ირჩევ სხვა მოთამაშეს. მისი ხმა, მომდევნო დღისით 3 ხმად ითვლება.",
+    "edition": "tb",
+    "firstNight": 1,
+    "firstNightReminder": "ბიუროკრატი ხელს გაიშვერს მოთამაშისკენ. მიამგრე '3 ხმა' შემხსენებლი შერჩეული მოთამაშის პერსონაჟის ჟეტონს.",
+    "id": "ka_GE_bureaucrat",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bureaucrat.png?raw=true",
+    "name": "Bureaucrat",
+    "otherNight": 1,
+    "otherNightReminder": "ბიუროკრატი ხელს გაიშვერს მოთამაშისკენ. მიამგრე '3 ხმა' შემხსენებლი შერჩეული მოთამაშის პერსონაჟის ჟეტონს.",
+    "reminders": [
+      "3 votes"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "ყოველ ღამით ირჩევ სხვა მოთამაშეს და მომდევნო დღისით მხოლოდ მაშინ აძლევ ხმას, თუ ის მოთამაშეც აძლევს ხმას.",
+    "edition": "tb",
+    "firstNight": 38,
+    "firstNightReminder": "Butler ხელს გაიშვერს მოთამაშისკენ. მონიშნე ეგ მოთამაშე როგორც 'ბატონი'.",
+    "id": "ka_GE_butler",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/butler.png?raw=true",
+    "name": "Butler",
+    "otherNight": 55,
+    "otherNightReminder": "Butler ხელს გაიშვერს მოთამაშისკენ. მონიშნე ეგ მოთამაშე როგორც 'ბატონი'.",
+    "reminders": [
+      "Master"
+    ],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "Each night, choose a player & a good character: they are “mad” they are this character tomorrow, or might be executed.",
+    "edition": "snv",
+    "firstNight": 25,
+    "firstNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
+    "id": "ka_GE_cerenovus",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/cerenovus.png?raw=true",
+    "name": "Cerenovus",
+    "otherNight": 16,
+    "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. Wake that player. Show the 'This character selected you' card, then the Cerenovus token. Show the selected character token. If the player is not mad about being that character tomorrow, they can be executed.",
+    "reminders": [
+      "Mad"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "თამაშის დაწყებისას იცი, თუ რამდენი ბოროტი პერსონაჟის წყვილი ზის გვერდიგვერდ.",
+    "edition": "tb",
+    "firstNight": 35,
+    "firstNightReminder": "აჩვენე თითებით (0, 1, 2, …) რამდენი ბოროტი პერსონაჟების წყვილი ზის გვერდიგვერდ.",
+    "id": "ka_GE_chef",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true",
+    "name": "Chef",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "შენ არ იცი რომ drunk ხარ. გგონია რომ მოქალაქე ხარ, მაგრამ არ ხარ.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_drunk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
+    "name": "Drunk",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+      "Drunk"
+    ],
+    "setup": true,
+    "team": "outsider"
+  },
+  {
+    "ability": "ყოველ ღამით, იგებ შენს ცოცხალ მეზობლებს შორის რამდენია ბოროტი.",
+    "edition": "tb",
+    "firstNight": 36,
+    "firstNightReminder": "აჩვენე თითებით (0, 1, 2) რამდენი ბოროტი ცოცხალი მეზობელი ჰყავს.",
+    "id": "ka_GE_empath",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
+    "name": "Empath",
+    "otherNight": 53,
+    "otherNightReminder": "აჩვენე თითებით (0, 1, 2) რამდენი ბოროტი ცოცხალი მეზობელი ჰყავს.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "You & an opposing player know each other. If the good player is executed, evil wins. Good can't win if you both live.",
+    "edition": "snv",
+    "firstNight": 23,
+    "firstNightReminder": "Wake the Evil Twin and their twin. Confirm that they have acknowledged each other. Point to the Evil Twin. Show their Evil Twin token to the twin player. Point to the twin. Show their character token to the Evil Twin player.",
+    "id": "ka_GE_eviltwin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/eviltwin.png?raw=true",
+    "name": "Evil Twin",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Twin"
+    ],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "Each night*, choose a player: they die. The 1st Outsider this kills becomes an evil Fang Gu & you die instead. [+1 Outsider]",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_fanggu",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fanggu.png?raw=true",
+    "name": "Fang Gu",
+    "otherNight": 29,
+    "otherNightReminder": "The Fang Gu points to a player. That player dies. Or, if that player was an Outsider and there are no other Fang Gu in play: The Fang Gu dies instead of the chosen player. The chosen player is now an evil Fang Gu. Wake the new Fang Gu. Show the 'You are' card, then the Fang Gu token. Show the 'You are' card, then the thumb-down 'evil' hand sign.",
+    "reminders": [
+      "Dead",
+      "Once"
+    ],
+    "setup": true,
+    "team": "demon"
+  },
+  {
+    "ability": "ყოველ ღამით, ირჩევ 2 მოთამაშეს და იგებ მათ შორის თუ არის დემონი. არსებობს ერთი კეთილი მოთამაშე, რომელიც შენთვის რეგისტრირდება დემონად.",
+    "edition": "tb",
+    "firstNight": 37,
+    "firstNightReminder": "Fortune Teller გაიშვერს ხელს ორი მოთამაშისკენ. თავის მოძრაობით ანიშნე არის თუ არა მათ შორის რომელიმე დემონი.",
+    "id": "ka_GE_fortuneteller",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fortuneteller.png?raw=true",
+    "name": "Fortune Teller",
+    "otherNight": 54,
+    "otherNightReminder": "Fortune Teller გაიშვერს ხელს ორი მოთამაშისკენ. თავის მოძრაობით ანიშნე არის თუ არა მათ შორის რომელიმე დემონი.",
+    "reminders": [
+      "Red herring"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "ყოველ დღე, პირველი ხმის მიცემის შემდეგ, შეგიძლია აირჩიო მოთამაშე რომელმაც ხმა მისცა და ის მოკვდება.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_gunslinger",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gunslinger.png?raw=true",
+    "name": "Gunslinger",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "თამაშის დაწყებისას იცი, რომ 2 პერსონაჟიდან 1 არის რომელიმე მინიონი.",
+    "edition": "tb",
+    "firstNight": 34,
+    "firstNightReminder": "აჩვენე თამაშში არსებული რომელიმე მინიონის ჟეტონი. გაიშვირე ხელები 2 მოთამაშისკენ, რომელთაგან ერთერთი არის ეგ პერსონაჟი.",
+    "id": "ka_GE_investigator",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/investigator.png?raw=true",
+    "name": "Investigator",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Minion",
+      "Wrong"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "თამაშის დაწყებისას იცი, რომ 2 პერსონაჟიდან 1 არის რომელიმე აუთსაიდერი. (ან 0 თუ არცერთია თამაშში)",
+    "edition": "tb",
+    "firstNight": 33,
+    "firstNightReminder": "აჩვენე თამაშში არსებული რომელიმე აუთსაიდერის ჟეტონი. გაიშვირე ხელები 2 მოთამაშისკენ, რომელთაგან ერთერთი არის ეგ პერსონაჟი.",
+    "id": "ka_GE_librarian",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/librarian.png?raw=true",
+    "name": "Librarian",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Outsider",
+      "Wrong"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "თუ მხოლოდ 3 მოთამაშეა ცოცხალი და არავინ გავარდა, შენი გუნდი იგებს. თუ მოგკლავენ ღამით, შეიძლება თქვენს ნაცვლად სხვა პერსონაჟი მოკვდეს.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_mayor",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mayor.png?raw=true",
+    "name": "Mayor",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "ყოველ ღამით*, ირჩევ მოთამაშეს (საკუთარი თავის გარდა), რომელიც ამ ღამით დემონისგან დაცულია.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_monk",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/monk.png?raw=true",
+    "name": "Monk",
+    "otherNight": 13,
+    "otherNightReminder": "წინა ჯერზე დაცული მოთამაშე აღარაა დაცული. Monk ირჩევს მოთამაშეს (არა საკუთარ თავს). მონიშნე ეგ მოთამაშე როგორც 'დაცული'.",
+    "reminders": [
+      "Protected"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Each night*, choose a player: they die. Your 2 Townsfolk neighbours are poisoned.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_nodashii",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/nodashii.png?raw=true",
+    "name": "No Dashii",
+    "otherNight": 30,
+    "otherNightReminder": "The No Dashii points to a player. That player dies.",
+    "reminders": [
+      "Dead",
+      "Poisoned"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "Each night*, choose a player & a character they become (if not-in-play). If a Demon is made, deaths tonight are arbitrary.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_pithag",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/pithag.png?raw=true",
+    "name": "Pit-Hag",
+    "otherNight": 17,
+    "otherNightReminder": "The Pit-Hag points to a player and a character on the sheet. If this character is not in play, wake that player and show them the 'You are' card and the relevant character token. If the character is in play, nothing happens.",
+    "reminders": [],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "ability": "თუ მოკვდები ღამით, გაიღვიძებ და აირჩევ მოთამაშეს, რომლის პერსონაჟსაც გაიგებ.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_ravenkeeper",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true",
+    "name": "Ravenkeeper",
+    "otherNight": 42,
+    "otherNightReminder": "თუ Ravenkeepr მოკვდება ამ ღამით, ის აირჩევს მოთამაშეს. აჩვენე ამ მოთამაშის პერსონაჟის ჟეტონი.",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "შენ შეიძლება დარეგისტრირდე როგორც ბოროტი, მინიონი ან დემონი, მაშინაც კი, როცა მკვდარ ხარ.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_recluse",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/recluse.png?raw=true",
+    "name": "Recluse",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "თუ ხმის მიცემით გავარდი, შენი გუნდი აგებს.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_saint",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/saint.png?raw=true",
+    "name": "Saint",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "outsider"
+  },
+  {
+    "ability": "თუ ხმის მიცემით შენიანი გავარდა, შეიძლება მის ნაცვლად შენ გავარდე.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_scapegoat",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scapegoat.png?raw=true",
+    "name": "Scapegoat",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "თამაშში ერთხელ, დღის განმავლობაში, საჯაროდ ირჩევ მოთამაშეს. თუ ეს მოთამაშე დემონია, კვდება.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_slayer",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
+    "name": "Slayer",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "No ability"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "შენ ხარ დაცული დემონისგან.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_soldier",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/soldier.png?raw=true",
+    "name": "Soldier",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "ყოველ ღამით ირჩევ სხვა მოთამაშეს, რომლის ხმა მომდევნო დღისით ჩაითვლება უარყოფითად. (+1-ის ნაცვლად -1)",
+    "edition": "tb",
+    "firstNight": 1,
+    "firstNightReminder": "ქურდი ირჩევს მოთამაშეს. მიამაგრე ქურდის 'უარყოფითი ხმა' შემხსენებელი მოთამაშის პერსონაჟის ჟეტონს.",
+    "id": "ka_GE_thief",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/thief.png?raw=true",
+    "name": "Thief",
+    "otherNight": 1,
+    "otherNightReminder": "ქურდი ირჩევს მოთამაშეს. მიამაგრე ქურდის 'უარყოფითი ხმა' შემხსენებელი მოთამაშის პერსონაჟის ჟეტონს.",
+    "reminders": [
+      "Negative vote"
+    ],
+    "setup": false,
+    "team": "traveler"
+  },
+  {
+    "ability": "ყოველ ღამით*, გაიგებ თუ რომელი პერსონაჟი გავარდა წინა დღით ხმის მიცემით.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_undertaker",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/undertaker.png?raw=true",
+    "name": "Undertaker",
+    "otherNight": 56,
+    "otherNightReminder": "თუ მოთამაშე გავარდა წინა დღით ხმის მიცემით, აჩვენე იმ მოთამაშის პერსონაჟის ჟეტონი.",
+    "reminders": [
+      "Executed"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & poison 1 Townsfolk neighbour. [−1 Outsider]",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_vigormortis",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vigormortis.png?raw=true",
+    "name": "Vigormortis",
+    "otherNight": 32,
+    "otherNightReminder": "The Vigormortis points to a player. That player dies. If a Minion, they keep their ability and one of their Townsfolk neighbours is poisoned.",
+    "reminders": [
+      "Dead",
+      "Has ability",
+      "Poisoned"
+    ],
+    "setup": true,
+    "team": "demon"
+  },
+  {
+    "ability": "როცა პირველად ვინმე დაგასახელებს, თუ დამსახელებელი არის მოქალაქე, ის მაშინვე ვარდება.",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_virgin",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/virgin.png?raw=true",
+    "name": "Virgin",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "No ability"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Each night*, choose a player: they die. Townsfolk abilities yield false info. Each day, if no-one is executed, evil wins.",
+    "edition": "snv",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "id": "ka_GE_vortox",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/vortox.png?raw=true",
+    "name": "Vortox",
+    "otherNight": 31,
+    "otherNightReminder": "The Vortox points to a player. That player dies.",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": false,
+    "team": "demon"
+  },
+  {
+    "ability": "თამაშის დაწყებისას იცი, რომ 2 პერსონაჟიდან 1 არის რომელიმე მოქალაქე.",
+    "edition": "tb",
+    "firstNight": 32,
+    "firstNightReminder": "აჩვენე თამაშში არსებული რომელიმე მოქალაქის ჟეტონი. გაიშვირე ხელები 2 მოთამაშისკენ, რომელთაგან ერთერთი არის ეგ პერსონაჟი.",
+    "id": "ka_GE_washerwoman",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/washerwoman.png?raw=true",
+    "name": "Washerwoman",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Townsfolk",
+      "Wrong"
+    ],
+    "setup": false,
+    "team": "townsfolk"
+  },
+  {
+    "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability.",
+    "edition": "snv",
+    "firstNight": 24,
+    "firstNightReminder": "The Witch points to a player. If that player nominates tomorrow they die immediately.",
+    "id": "ka_GE_witch",
+    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/witch.png?raw=true",
+    "name": "Witch",
+    "otherNight": 15,
+    "otherNightReminder": "If there are 4 or more players alive: The Witch points to a player. If that player nominates tomorrow they die immediately.",
+    "reminders": [
+      "Cursed"
+    ],
+    "setup": false,
+    "team": "minion"
+  }
+]
