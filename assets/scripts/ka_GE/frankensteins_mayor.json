@@ -6,7 +6,7 @@
     "firstNightReminder": "აჩვენე თითებით (0, 1, 2, …) რამდენი ბოროტი პერსონაჟების წყვილი ზის გვერდიგვერდ.",
     "id": "ka_GE_chef",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true",
-    "name": "შეფი",
+    "name": "Chef",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -20,11 +20,11 @@
     "firstNightReminder": "",
     "id": "ka_GE_undertaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/undertaker.png?raw=true",
-    "name": "მესაფლავე",
+    "name": "Undertaker",
     "otherNight": 56,
     "otherNightReminder": "თუ მოთამაშე გავარდა წინა დღით ხმის მიცემით, აჩვენე იმ მოთამაშის პერსონაჟის ჟეტონი.",
     "reminders": [
-      "გავარდნილი"
+      "Executed"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -64,9 +64,9 @@
     "firstNightReminder": "",
     "id": "ka_GE_ravenkeeper",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true",
-    "name": "ბაზიერი",
+    "name": "Ravenkeeper",
     "otherNight": 42,
-    "otherNightReminder": "თუ ბაზიერი მოკვდება ამ ღამით, ის აირჩევს მოთამაშეს. აჩვენე ამ მოთამაშის პერსონაჟის ჟეტონი.",
+    "otherNightReminder": "თუ Ravenkeepr მოკვდება ამ ღამით, ის აირჩევს მოთამაშეს. აჩვენე ამ მოთამაშის პერსონაჟის ჟეტონი.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -78,7 +78,7 @@
     "firstNightReminder": "",
     "id": "ka_GE_mayor",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mayor.png?raw=true",
-    "name": "მერი",
+    "name": "Mayor",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -92,7 +92,7 @@
     "firstNightReminder": "",
     "id": "ka_GE_recluse",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/recluse.png?raw=true",
-    "name": "განდეგილი",
+    "name": "Recluse",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -121,14 +121,14 @@
     "ability": "ყოველ ღამით ირჩევ მოთამაშეს. ის არის მოწამლული ამ ღამით და მომდევნო დღისით.",
     "edition": "tb",
     "firstNight": 17,
-    "firstNightReminder": "მწამლავი ირჩევს მოთამაშეს. მონიშნე ეგ მოთამაშე როგორც 'მოწამლული'.",
+    "firstNightReminder": "Poisoner ირჩევს მოთამაშეს. მონიშნე ეგ მოთამაშე როგორც 'მოწამლული'.",
     "id": "ka_GE_poisoner",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
-    "name": "მწამლავი",
+    "name": "Poisoner",
     "otherNight": 8,
-    "otherNightReminder": "წინა ჯერზე მოწამლული მოთამაშე აღარაა მოწამლული. მწამლავი ირჩევს მოთამაშეს. მონიშნე ეგ მოთამაშე როგორც 'მოწამლული'.",
+    "otherNightReminder": "წინა ჯერზე მოწამლული მოთამაშე აღარაა მოწამლული. Poisoner ირჩევს მოთამაშეს. მონიშნე ეგ მოთამაშე როგორც 'მოწამლული'.",
     "reminders": [
-      "მოწამლული"
+      "Poisoned"
     ],
     "setup": false,
     "team": "minion"
@@ -137,12 +137,12 @@
     "ability": "ყოველ ღამით შენ ხედავ გრიმუარს. შენ შეიძლება დარეგისტრირდე როგორც კარგი, ან მოქალაქე ან აუთსაიდერი, მაშინაც კი როცა მკვდარი ხარ.",
     "edition": "tb",
     "firstNight": 48,
-    "firstNightReminder": "აჩვენე გიმუარი ჯაშუშს რამდენი ხნითას დასჭირდება.",
+    "firstNightReminder": "აჩვენე გიმუარი Spy-ს რამდენი ხნითაც დასჭირდება.",
     "id": "ka_GE_spy",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spy.png?raw=true",
-    "name": "ჯაშუში",
+    "name": "Spy",
     "otherNight": 68,
-    "otherNightReminder": "აჩვენე გიმუარი ჯაშუშს რამდენი ხნითას დასჭირდება.",
+    "otherNightReminder": "აჩვენე გიმუარი Spy-ს რამდენი ხნითაც დასჭირდება.",
     "reminders": [],
     "setup": false,
     "team": "minion"

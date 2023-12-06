@@ -6,7 +6,7 @@
     "firstNightReminder": "",
     "id": "ka_GE_beggar",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/beggar.png?raw=true",
-    "name": "მათხოვარი",
+    "name": "Beggar",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -20,11 +20,11 @@
     "firstNightReminder": "ბიუროკრატი ხელს გაიშვერს მოთამაშისკენ. მიამგრე '3 ხმა' შემხსენებლი შერჩეული მოთამაშის პერსონაჟის ჟეტონს.",
     "id": "ka_GE_bureaucrat",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/bureaucrat.png?raw=true",
-    "name": "ბიუროკრატი",
+    "name": "Bureaucrat",
     "otherNight": 1,
     "otherNightReminder": "ბიუროკრატი ხელს გაიშვერს მოთამაშისკენ. მიამგრე '3 ხმა' შემხსენებლი შერჩეული მოთამაშის პერსონაჟის ჟეტონს.",
     "reminders": [
-      "3 ხმა"
+      "3 votes"
     ],
     "setup": false,
     "team": "traveler"
@@ -33,14 +33,14 @@
     "ability": "ყოველ ღამით ირჩევ სხვა მოთამაშეს და მომდევნო დღისით მხოლოდ მაშინ აძლევ ხმას, თუ ის მოთამაშეც აძლევს ხმას.",
     "edition": "tb",
     "firstNight": 38,
-    "firstNightReminder": "მსახური ხელს გაიშვერს მოთამაშისკენ. მონიშნე ეგ მოთამაშე როგორც 'ბატონი'.",
+    "firstNightReminder": "Butler ხელს გაიშვერს მოთამაშისკენ. მონიშნე ეგ მოთამაშე როგორც 'ბატონი'.",
     "id": "ka_GE_butler",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/butler.png?raw=true",
-    "name": "მსახური",
+    "name": "Butler",
     "otherNight": 55,
-    "otherNightReminder": "მსახური ხელს გაიშვერს მოთამაშისკენ. მონიშნე ეგ მოთამაშე როგორც 'ბატონი'.",
+    "otherNightReminder": "Butler ხელს გაიშვერს მოთამაშისკენ. მონიშნე ეგ მოთამაშე როგორც 'ბატონი'.",
     "reminders": [
-      "ბატონი"
+      "Master"
     ],
     "setup": false,
     "team": "outsider"
@@ -68,7 +68,7 @@
     "firstNightReminder": "აჩვენე თითებით (0, 1, 2, …) რამდენი ბოროტი პერსონაჟების წყვილი ზის გვერდიგვერდ.",
     "id": "ka_GE_chef",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/chef.png?raw=true",
-    "name": "შეფი",
+    "name": "Chef",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -76,18 +76,18 @@
     "team": "townsfolk"
   },
   {
-    "ability": "შენ არ იცი რომ ლოთი ხარ. გგონია რომ მოქალაქე ხარ, მაგრამ არ ხარ.",
+    "ability": "შენ არ იცი რომ drunk ხარ. გგონია რომ მოქალაქე ხარ, მაგრამ არ ხარ.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ka_GE_drunk",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
-    "name": "ლოთი",
+    "name": "Drunk",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "ლოთი"
+      "Drunk"
     ],
     "setup": true,
     "team": "outsider"
@@ -99,7 +99,7 @@
     "firstNightReminder": "აჩვენე თითებით (0, 1, 2) რამდენი ბოროტი ცოცხალი მეზობელი ჰყავს.",
     "id": "ka_GE_empath",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
-    "name": "ემპათი",
+    "name": "Empath",
     "otherNight": 53,
     "otherNightReminder": "აჩვენე თითებით (0, 1, 2) რამდენი ბოროტი ცოცხალი მეზობელი ჰყავს.",
     "reminders": [],
@@ -143,26 +143,26 @@
     "ability": "ყოველ ღამით, ირჩევ 2 მოთამაშეს და იგებ მათ შორის თუ არის დემონი. არსებობს ერთი კეთილი მოთამაშე, რომელიც შენთვის რეგისტრირდება დემონად.",
     "edition": "tb",
     "firstNight": 37,
-    "firstNightReminder": "წინასწარმეტყველი გაიშვერს ხელს ორი მოთამაშისკენ. თავის მოძრაობით ანიშნე არის თუ არა მათ შორის რომელიმე დემონი.",
+    "firstNightReminder": "Fortune Teller გაიშვერს ხელს ორი მოთამაშისკენ. თავის მოძრაობით ანიშნე არის თუ არა მათ შორის რომელიმე დემონი.",
     "id": "ka_GE_fortuneteller",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fortuneteller.png?raw=true",
-    "name": "წინასწარმეტყველი",
+    "name": "Fortune Teller",
     "otherNight": 54,
-    "otherNightReminder": "წინასწარმეტყველი გაიშვერს ხელს ორი მოთამაშისკენ. თავის მოძრაობით ანიშნე არის თუ არა მათ შორის რომელიმე დემონი.",
+    "otherNightReminder": "Fortune Teller გაიშვერს ხელს ორი მოთამაშისკენ. თავის მოძრაობით ანიშნე არის თუ არა მათ შორის რომელიმე დემონი.",
     "reminders": [
-      "შავი კატა"
+      "Red herring"
     ],
     "setup": false,
     "team": "townsfolk"
   },
   {
-    "ability": "ყოველ დღე, პირველი ხმის მიცემის შემდეგ, შეგიძია აირჩიო მოთამაშე რომელმაც ხმა მისცა და ის მოკვდება.",
+    "ability": "ყოველ დღე, პირველი ხმის მიცემის შემდეგ, შეგიძლია აირჩიო მოთამაშე რომელმაც ხმა მისცა და ის მოკვდება.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ka_GE_gunslinger",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gunslinger.png?raw=true",
-    "name": "მსროლელი",
+    "name": "Gunslinger",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -176,12 +176,12 @@
     "firstNightReminder": "აჩვენე თამაშში არსებული რომელიმე მინიონის ჟეტონი. გაიშვირე ხელები 2 მოთამაშისკენ, რომელთაგან ერთერთი არის ეგ პერსონაჟი.",
     "id": "ka_GE_investigator",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/investigator.png?raw=true",
-    "name": "გამომძიებელი",
+    "name": "Investigator",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "არასწორი",
-      "მინიონი"
+      "Minion",
+      "Wrong"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -193,12 +193,12 @@
     "firstNightReminder": "აჩვენე თამაშში არსებული რომელიმე აუთსაიდერის ჟეტონი. გაიშვირე ხელები 2 მოთამაშისკენ, რომელთაგან ერთერთი არის ეგ პერსონაჟი.",
     "id": "ka_GE_librarian",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/librarian.png?raw=true",
-    "name": "ბიბლიოთეკარი",
+    "name": "Librarian",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "არასწორი",
-      "აუთსაიდერი"
+      "Outsider",
+      "Wrong"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -210,7 +210,7 @@
     "firstNightReminder": "",
     "id": "ka_GE_mayor",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mayor.png?raw=true",
-    "name": "მერი",
+    "name": "Mayor",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -224,11 +224,11 @@
     "firstNightReminder": "",
     "id": "ka_GE_monk",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/monk.png?raw=true",
-    "name": "მღვდელი",
+    "name": "Monk",
     "otherNight": 13,
-    "otherNightReminder": "წინა ჯერზე დაცული მოთამაშე აღარაა დაცული. მღვდელი ირჩევს მოთამაშეს (არა საკუთარ თავს). მონიშნე ეგ მოთამაშე როგორც 'დაცული'.",
+    "otherNightReminder": "წინა ჯერზე დაცული მოთამაშე აღარაა დაცული. Monk ირჩევს მოთამაშეს (არა საკუთარ თავს). მონიშნე ეგ მოთამაშე როგორც 'დაცული'.",
     "reminders": [
-      "დაცული"
+      "Protected"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -271,9 +271,9 @@
     "firstNightReminder": "",
     "id": "ka_GE_ravenkeeper",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/ravenkeeper.png?raw=true",
-    "name": "ბაზიერი",
+    "name": "Ravenkeeper",
     "otherNight": 42,
-    "otherNightReminder": "თუ ბაზიერი მოკვდება ამ ღამით, ის აირჩევს მოთამაშეს. აჩვენე ამ მოთამაშის პერსონაჟის ჟეტონი.",
+    "otherNightReminder": "თუ Ravenkeepr მოკვდება ამ ღამით, ის აირჩევს მოთამაშეს. აჩვენე ამ მოთამაშის პერსონაჟის ჟეტონი.",
     "reminders": [],
     "setup": false,
     "team": "townsfolk"
@@ -285,7 +285,7 @@
     "firstNightReminder": "",
     "id": "ka_GE_recluse",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/recluse.png?raw=true",
-    "name": "განდეგილი",
+    "name": "Recluse",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -299,7 +299,7 @@
     "firstNightReminder": "",
     "id": "ka_GE_saint",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/saint.png?raw=true",
-    "name": "წმინდანი",
+    "name": "Saint",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -313,7 +313,7 @@
     "firstNightReminder": "",
     "id": "ka_GE_scapegoat",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scapegoat.png?raw=true",
-    "name": "განტევების ვაცი",
+    "name": "Scapegoat",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -327,11 +327,11 @@
     "firstNightReminder": "",
     "id": "ka_GE_slayer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
-    "name": "მკვლელი",
+    "name": "Slayer",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "უუნარო"
+      "No ability"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -343,7 +343,7 @@
     "firstNightReminder": "",
     "id": "ka_GE_soldier",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/soldier.png?raw=true",
-    "name": "ჯარისკაცი",
+    "name": "Soldier",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -357,11 +357,11 @@
     "firstNightReminder": "ქურდი ირჩევს მოთამაშეს. მიამაგრე ქურდის 'უარყოფითი ხმა' შემხსენებელი მოთამაშის პერსონაჟის ჟეტონს.",
     "id": "ka_GE_thief",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/thief.png?raw=true",
-    "name": "ქურდი",
+    "name": "Thief",
     "otherNight": 1,
     "otherNightReminder": "ქურდი ირჩევს მოთამაშეს. მიამაგრე ქურდის 'უარყოფითი ხმა' შემხსენებელი მოთამაშის პერსონაჟის ჟეტონს.",
     "reminders": [
-      "უარყოფითი ხმა"
+      "Negative vote"
     ],
     "setup": false,
     "team": "traveler"
@@ -373,11 +373,11 @@
     "firstNightReminder": "",
     "id": "ka_GE_undertaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/undertaker.png?raw=true",
-    "name": "მესაფლავე",
+    "name": "Undertaker",
     "otherNight": 56,
     "otherNightReminder": "თუ მოთამაშე გავარდა წინა დღით ხმის მიცემით, აჩვენე იმ მოთამაშის პერსონაჟის ჟეტონი.",
     "reminders": [
-      "გავარდნილი"
+      "Executed"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -407,11 +407,11 @@
     "firstNightReminder": "",
     "id": "ka_GE_virgin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/virgin.png?raw=true",
-    "name": "ქალწული",
+    "name": "Virgin",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "უუნარო"
+      "No ability"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -439,12 +439,12 @@
     "firstNightReminder": "აჩვენე თამაშში არსებული რომელიმე მოქალაქის ჟეტონი. გაიშვირე ხელები 2 მოთამაშისკენ, რომელთაგან ერთერთი არის ეგ პერსონაჟი.",
     "id": "ka_GE_washerwoman",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/washerwoman.png?raw=true",
-    "name": "მრეცხავი",
+    "name": "Washerwoman",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "არასწორი",
-      "მოქალაქე"
+      "Townsfolk",
+      "Wrong"
     ],
     "setup": false,
     "team": "townsfolk"

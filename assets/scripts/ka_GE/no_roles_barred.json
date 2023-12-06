@@ -72,7 +72,7 @@
     "firstNightReminder": "აჩვენე თითებით (0, 1, 2) რამდენი ბოროტი ცოცხალი მეზობელი ჰყავს.",
     "id": "ka_GE_empath",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
-    "name": "ემპათი",
+    "name": "Empath",
     "otherNight": 53,
     "otherNightReminder": "აჩვენე თითებით (0, 1, 2) რამდენი ბოროტი ცოცხალი მეზობელი ჰყავს.",
     "reminders": [],
@@ -259,18 +259,18 @@
     "team": "outsider"
   },
   {
-    "ability": "შენ არ იცი რომ ლოთი ხარ. გგონია რომ მოქალაქე ხარ, მაგრამ არ ხარ.",
+    "ability": "შენ არ იცი რომ drunk ხარ. გგონია რომ მოქალაქე ხარ, მაგრამ არ ხარ.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ka_GE_drunk",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
-    "name": "ლოთი",
+    "name": "Drunk",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "ლოთი"
+      "Drunk"
     ],
     "setup": true,
     "team": "outsider"
@@ -296,14 +296,14 @@
     "ability": "ყოველ ღამით ირჩევ მოთამაშეს. ის არის მოწამლული ამ ღამით და მომდევნო დღისით.",
     "edition": "tb",
     "firstNight": 17,
-    "firstNightReminder": "მწამლავი ირჩევს მოთამაშეს. მონიშნე ეგ მოთამაშე როგორც 'მოწამლული'.",
+    "firstNightReminder": "Poisoner ირჩევს მოთამაშეს. მონიშნე ეგ მოთამაშე როგორც 'მოწამლული'.",
     "id": "ka_GE_poisoner",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/poisoner.png?raw=true",
-    "name": "მწამლავი",
+    "name": "Poisoner",
     "otherNight": 8,
-    "otherNightReminder": "წინა ჯერზე მოწამლული მოთამაშე აღარაა მოწამლული. მწამლავი ირჩევს მოთამაშეს. მონიშნე ეგ მოთამაშე როგორც 'მოწამლული'.",
+    "otherNightReminder": "წინა ჯერზე მოწამლული მოთამაშე აღარაა მოწამლული. Poisoner ირჩევს მოთამაშეს. მონიშნე ეგ მოთამაშე როგორც 'მოწამლული'.",
     "reminders": [
-      "მოწამლული"
+      "Poisoned"
     ],
     "setup": false,
     "team": "minion"

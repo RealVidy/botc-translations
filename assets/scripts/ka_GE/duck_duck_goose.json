@@ -38,7 +38,7 @@
     "firstNightReminder": "აჩვენე თითებით (0, 1, 2) რამდენი ბოროტი ცოცხალი მეზობელი ჰყავს.",
     "id": "ka_GE_empath",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
-    "name": "ემპათი",
+    "name": "Empath",
     "otherNight": 53,
     "otherNightReminder": "აჩვენე თითებით (0, 1, 2) რამდენი ბოროტი ცოცხალი მეზობელი ჰყავს.",
     "reminders": [],
@@ -85,14 +85,14 @@
     "ability": "ყოველ ღამით, ირჩევ 2 მოთამაშეს და იგებ მათ შორის თუ არის დემონი. არსებობს ერთი კეთილი მოთამაშე, რომელიც შენთვის რეგისტრირდება დემონად.",
     "edition": "tb",
     "firstNight": 37,
-    "firstNightReminder": "წინასწარმეტყველი გაიშვერს ხელს ორი მოთამაშისკენ. თავის მოძრაობით ანიშნე არის თუ არა მათ შორის რომელიმე დემონი.",
+    "firstNightReminder": "Fortune Teller გაიშვერს ხელს ორი მოთამაშისკენ. თავის მოძრაობით ანიშნე არის თუ არა მათ შორის რომელიმე დემონი.",
     "id": "ka_GE_fortuneteller",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/fortuneteller.png?raw=true",
-    "name": "წინასწარმეტყველი",
+    "name": "Fortune Teller",
     "otherNight": 54,
-    "otherNightReminder": "წინასწარმეტყველი გაიშვერს ხელს ორი მოთამაშისკენ. თავის მოძრაობით ანიშნე არის თუ არა მათ შორის რომელიმე დემონი.",
+    "otherNightReminder": "Fortune Teller გაიშვერს ხელს ორი მოთამაშისკენ. თავის მოძრაობით ანიშნე არის თუ არა მათ შორის რომელიმე დემონი.",
     "reminders": [
-      "შავი კატა"
+      "Red herring"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -228,18 +228,18 @@
     "team": "outsider"
   },
   {
-    "ability": "შენ არ იცი რომ ლოთი ხარ. გგონია რომ მოქალაქე ხარ, მაგრამ არ ხარ.",
+    "ability": "შენ არ იცი რომ drunk ხარ. გგონია რომ მოქალაქე ხარ, მაგრამ არ ხარ.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ka_GE_drunk",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
-    "name": "ლოთი",
+    "name": "Drunk",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "ლოთი"
+      "Drunk"
     ],
     "setup": true,
     "team": "outsider"

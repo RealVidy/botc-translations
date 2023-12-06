@@ -6,7 +6,7 @@
     "firstNightReminder": "აჩვენე თითებით (0, 1, 2) რამდენი ბოროტი ცოცხალი მეზობელი ჰყავს.",
     "id": "ka_GE_empath",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
-    "name": "ემპათი",
+    "name": "Empath",
     "otherNight": 53,
     "otherNightReminder": "აჩვენე თითებით (0, 1, 2) რამდენი ბოროტი ცოცხალი მეზობელი ჰყავს.",
     "reminders": [],
@@ -20,11 +20,11 @@
     "firstNightReminder": "",
     "id": "ka_GE_undertaker",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/undertaker.png?raw=true",
-    "name": "მესაფლავე",
+    "name": "Undertaker",
     "otherNight": 56,
     "otherNightReminder": "თუ მოთამაშე გავარდა წინა დღით ხმის მიცემით, აჩვენე იმ მოთამაშის პერსონაჟის ჟეტონი.",
     "reminders": [
-      "გავარდნილი"
+      "Executed"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -36,11 +36,11 @@
     "firstNightReminder": "",
     "id": "ka_GE_slayer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
-    "name": "მკვლელი",
+    "name": "Slayer",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "უუნარო"
+      "No ability"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -208,18 +208,18 @@
     "team": "townsfolk"
   },
   {
-    "ability": "შენ არ იცი რომ ლოთი ხარ. გგონია რომ მოქალაქე ხარ, მაგრამ არ ხარ.",
+    "ability": "შენ არ იცი რომ drunk ხარ. გგონია რომ მოქალაქე ხარ, მაგრამ არ ხარ.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ka_GE_drunk",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
-    "name": "ლოთი",
+    "name": "Drunk",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "ლოთი"
+      "Drunk"
     ],
     "setup": true,
     "team": "outsider"
@@ -231,7 +231,7 @@
     "firstNightReminder": "",
     "id": "ka_GE_saint",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/saint.png?raw=true",
-    "name": "წმინდანი",
+    "name": "Saint",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -277,7 +277,7 @@
     "firstNightReminder": "",
     "id": "ka_GE_baron",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/baron.png?raw=true",
-    "name": "ბარონი",
+    "name": "Baron",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -291,11 +291,11 @@
     "firstNightReminder": "",
     "id": "ka_GE_scarletwoman",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scarletwoman.png?raw=true",
-    "name": "მაცდური",
+    "name": "Scarlet Woman",
     "otherNight": 20,
-    "otherNightReminder": "თუ მაცდური გახდება დემონი: უჩვენე 'შენ ხარ' ბარათი, შემდეგ დემონის ჟეტონი.",
+    "otherNightReminder": "თუ Scrlet Woman გახდება დემონი: უჩვენე 'შენ ხარ' ბარათი, შემდეგ დემონის ჟეტონი.",
     "reminders": [
-      "დემონი"
+      "Demon"
     ],
     "setup": false,
     "team": "minion"

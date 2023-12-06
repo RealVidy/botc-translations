@@ -72,11 +72,11 @@
     "firstNightReminder": "",
     "id": "ka_GE_slayer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
-    "name": "მკვლელი",
+    "name": "Slayer",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "უუნარო"
+      "No ability"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -88,11 +88,11 @@
     "firstNightReminder": "",
     "id": "ka_GE_virgin",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/virgin.png?raw=true",
-    "name": "ქალწული",
+    "name": "Virgin",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "უუნარო"
+      "No ability"
     ],
     "setup": false,
     "team": "townsfolk"

@@ -20,7 +20,7 @@
     "firstNightReminder": "აჩვენე თითებით (0, 1, 2) რამდენი ბოროტი ცოცხალი მეზობელი ჰყავს.",
     "id": "ka_GE_empath",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
-    "name": "ემპათი",
+    "name": "Empath",
     "otherNight": 53,
     "otherNightReminder": "აჩვენე თითებით (0, 1, 2) რამდენი ბოროტი ცოცხალი მეზობელი ჰყავს.",
     "reminders": [],
@@ -48,11 +48,11 @@
     "firstNightReminder": "",
     "id": "ka_GE_slayer",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/slayer.png?raw=true",
-    "name": "მკვლელი",
+    "name": "Slayer",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "უუნარო"
+      "No ability"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -83,7 +83,7 @@
     "firstNightReminder": "",
     "id": "ka_GE_mayor",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/mayor.png?raw=true",
-    "name": "მერი",
+    "name": "Mayor",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -129,11 +129,11 @@
     "firstNightReminder": "",
     "id": "ka_GE_scarletwoman",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scarletwoman.png?raw=true",
-    "name": "მაცდური",
+    "name": "Scarlet Woman",
     "otherNight": 20,
-    "otherNightReminder": "თუ მაცდური გახდება დემონი: უჩვენე 'შენ ხარ' ბარათი, შემდეგ დემონის ჟეტონი.",
+    "otherNightReminder": "თუ Scrlet Woman გახდება დემონი: უჩვენე 'შენ ხარ' ბარათი, შემდეგ დემონის ჟეტონი.",
     "reminders": [
-      "დემონი"
+      "Demon"
     ],
     "setup": false,
     "team": "minion"
@@ -142,12 +142,12 @@
     "ability": "ყოველ ღამით შენ ხედავ გრიმუარს. შენ შეიძლება დარეგისტრირდე როგორც კარგი, ან მოქალაქე ან აუთსაიდერი, მაშინაც კი როცა მკვდარი ხარ.",
     "edition": "tb",
     "firstNight": 48,
-    "firstNightReminder": "აჩვენე გიმუარი ჯაშუშს რამდენი ხნითას დასჭირდება.",
+    "firstNightReminder": "აჩვენე გიმუარი Spy-ს რამდენი ხნითაც დასჭირდება.",
     "id": "ka_GE_spy",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/spy.png?raw=true",
-    "name": "ჯაშუში",
+    "name": "Spy",
     "otherNight": 68,
-    "otherNightReminder": "აჩვენე გიმუარი ჯაშუშს რამდენი ხნითას დასჭირდება.",
+    "otherNightReminder": "აჩვენე გიმუარი Spy-ს რამდენი ხნითაც დასჭირდება.",
     "reminders": [],
     "setup": false,
     "team": "minion"

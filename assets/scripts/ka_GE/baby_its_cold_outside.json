@@ -20,12 +20,12 @@
     "firstNightReminder": "აჩვენე თამაშში არსებული რომელიმე აუთსაიდერის ჟეტონი. გაიშვირე ხელები 2 მოთამაშისკენ, რომელთაგან ერთერთი არის ეგ პერსონაჟი.",
     "id": "ka_GE_librarian",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/librarian.png?raw=true",
-    "name": "ბიბლიოთეკარი",
+    "name": "Librarian",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
-      "არასწორი",
-      "აუთსაიდერი"
+      "Outsider",
+      "Wrong"
     ],
     "setup": false,
     "team": "townsfolk"
@@ -84,7 +84,7 @@
     "firstNightReminder": "აჩვენე თითებით (0, 1, 2) რამდენი ბოროტი ცოცხალი მეზობელი ჰყავს.",
     "id": "ka_GE_empath",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/empath.png?raw=true",
-    "name": "ემპათი",
+    "name": "Empath",
     "otherNight": 53,
     "otherNightReminder": "აჩვენე თითებით (0, 1, 2) რამდენი ბოროტი ცოცხალი მეზობელი ჰყავს.",
     "reminders": [],
@@ -231,18 +231,18 @@
     "team": "outsider"
   },
   {
-    "ability": "შენ არ იცი რომ ლოთი ხარ. გგონია რომ მოქალაქე ხარ, მაგრამ არ ხარ.",
+    "ability": "შენ არ იცი რომ drunk ხარ. გგონია რომ მოქალაქე ხარ, მაგრამ არ ხარ.",
     "edition": "tb",
     "firstNight": 0,
     "firstNightReminder": "",
     "id": "ka_GE_drunk",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/drunk.png?raw=true",
-    "name": "ლოთი",
+    "name": "Drunk",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [
-      "ლოთი"
+      "Drunk"
     ],
     "setup": true,
     "team": "outsider"
@@ -367,11 +367,11 @@
     "firstNightReminder": "",
     "id": "ka_GE_imp",
     "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/imp.png?raw=true",
-    "name": "ეშმაკი",
+    "name": "Imp",
     "otherNight": 24,
     "otherNightReminder": "ეშმაკი ხელს გაიშვერს მოთამაშისკენ. ეს მოთამაშე კვდება თუ ის აირჩევს საკუთარ თავს: ჩაანაცვლე ერთი ცოცხალი მინიონის პერსონაჟი, ეშმაკი ჟეტონით და აჩვენე ამ მოთამაშეს 'შენ ხარ' ბარათი და შემდეგ ეშმაკის ჟეტონი.",
     "reminders": [
-      "მკვდარი"
+      "Dead"
     ],
     "setup": false,
     "team": "demon"
